@@ -1,6 +1,6 @@
-# 🛡️ Insurance Arena — Term Insurance Comparison App
+# 🛡️ Insurance Arena — India's Insurance Intelligence Hub
 
-A free, professional-grade term insurance comparison tool for the Indian market.
+A free, professional-grade insurance intelligence platform for India. Compare plans, read news, learn concepts — all in one place.
 Built with pure HTML + CSS + JavaScript. Hosted free on GitHub + Vercel. Zero ongoing cost.
 
 ---
