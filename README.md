@@ -1,183 +1,119 @@
-# 🛡️ Insurance Arena — India's Insurance Intelligence Hub
+# Insurance Arena — India's Insurance Intelligence Hub
 
-A free, professional-grade insurance intelligence platform for India. Compare plans, read news, learn concepts — all in one place.
-Built with pure HTML + CSS + JavaScript. Hosted free on GitHub + Vercel. Zero ongoing cost.
+> Built by Mohit Aggarwal · Free forever · No ads · No paywalls
+
+## Live App
+**https://insurance-arena.vercel.app**
 
 ---
 
-## 📁 Project Structure
+## What Insurance Arena Does
+
+| Section | What it offers |
+|---|---|
+| 🔍 **Compare Plans** | 10 term insurance plans side-by-side with CSR, features, sales pitch and calculator links |
+| 📰 **Insurance News** | Latest insurance news from 9 trusted sources — auto-updated at 7 AM daily |
+| 📚 **Finance Learning** | IC38 exam content — 21 chapters, 147 topics, quiz on every topic |
+
+---
+
+## Tech Stack (100% Free, Forever)
+
+| Layer | Tool | Cost |
+|---|---|---|
+| Frontend | HTML + CSS + Vanilla JS | Free |
+| Hosting | Vercel | Free |
+| Version Control | GitHub | Free |
+| News Automation | GitHub Actions | Free (2000 min/month) |
+| Plan Update AI | Google Gemini API | Free tier |
+| Email Alerts | Gmail SMTP via GitHub Actions | Free |
+
+---
+
+## Automation
+
+### Daily News (7 AM IST)
+- GitHub Actions fetches RSS from 9 sources
+- Saves to `data/news.json`
+- Vercel auto-deploys in ~30 seconds
+- Zero manual work
+
+### Monthly Plan Update (1st of every month, 9 AM IST)
+- GitHub Actions fetches all 10 company brochure PDFs
+- Gemini AI extracts and compares features
+- Validates all calculator and brochure URLs
+- Emails Mohit with diff report if changes found
+- Mohit reviews (2 min) → updates `js/data.js` → Vercel auto-deploys
+
+---
+
+## One-Time GitHub Secrets Setup
+
+Go to **GitHub → Your Repo → Settings → Secrets and variables → Actions**
+
+Add these secrets:
+
+| Secret Name | Value | Purpose |
+|---|---|---|
+| `GEMINI_API_KEY` | Your Gemini API key | AI brochure extraction |
+| `NOTIFY_EMAIL_USER` | your-gmail@gmail.com | Sender email |
+| `NOTIFY_EMAIL_PASS` | Gmail App Password | Email auth |
+| `NOTIFY_EMAIL_TO` | mohit@email.com | Your email for alerts |
+
+> **Gmail App Password:** Go to Google Account → Security → 2-Step Verification → App Passwords → Generate
+
+---
+
+## Project Structure
 
 ```
-insurance-app/
-├── index.html          ← Main app page
+insurance-arena/
+├── index.html                    ← Complete app (3 sections)
 ├── css/
-│   └── style.css       ← All styling
+│   └── style.css                 ← Complete stylesheet
 ├── js/
-│   ├── data.js         ← All plan data (edit this to add/update plans)
-│   └── app.js          ← App logic (search, filter, sort, modal)
-└── README.md           ← This file
+│   ├── data.js                   ← 10 term insurance plans (manually updated)
+│   ├── learn-data.js             ← IC38 chapter structure + Ch.1 sample
+│   └── app.js                    ← Complete app logic
+├── data/
+│   ├── news.json                 ← Auto-updated daily by GitHub Actions
+│   └── plans-pending.json        ← Monthly diff report (for review)
+├── scripts/
+│   ├── fetch-news.js             ← Node.js RSS fetch script
+│   └── update-plans.js           ← Gemini AI plan extraction script
+├── .github/workflows/
+│   ├── fetch-news.yml            ← Daily 7 AM IST cron
+│   └── update-plans.yml          ← 1st of month 9 AM IST cron
+└── README.md
 ```
 
 ---
 
-## 🚀 DEPLOYMENT GUIDE (One-Time Setup — ~20 Minutes)
+## Annual Manual Update (November)
 
-### STEP 1 — Create a GitHub Account
-1. Go to https://github.com
-2. Click "Sign Up" → enter email, password, username
-3. Verify your email
+When IRDAI Annual Report is published (~November):
 
----
+1. Download report from irdai.gov.in
+2. Update 10 CSR figures in `js/data.js`
+3. Commit to GitHub → Vercel auto-deploys
 
-### STEP 2 — Create a New Repository
-1. After login, click the green **"New"** button (top left)
-2. Repository name: `insurance-arena` (or any name you like)
-3. Set to **Public** ✅ (required for free GitHub Pages)
-4. Check **"Add a README file"**
-5. Click **"Create repository"**
+That's it. Takes 30 minutes once a year.
 
 ---
 
-### STEP 3 — Upload Your Files
-1. In your new repository, click **"Add file"** → **"Upload files"**
-2. Upload ALL files maintaining the folder structure:
-   - `index.html`
-   - `css/style.css`
-   - `js/data.js`
-   - `js/app.js`
-3. Scroll down → Click **"Commit changes"**
+## Data Sources
+
+- **Plan features**: Official IRDAI-filed brochures (company websites)
+- **CSR**: IRDAI Annual Report FY 2024–25
+- **News**: Public RSS feeds (Livemint, ET, BS, Moneycontrol, HBL, FE, NDTV Profit, IRDAI, PIB)
+- **IC38 content**: Original content inspired by IC38 syllabus (not reproduced from III copyright)
 
 ---
 
-### STEP 4 — Create a Vercel Account
-1. Go to https://vercel.com
-2. Click **"Sign Up"** → Choose **"Continue with GitHub"**
-3. Authorize Vercel to access your GitHub
+## Disclaimer
+
+Insurance Arena is for reference and educational purposes only. Data sourced from official IRDAI-filed brochures. Premiums vary by individual profile. This is not financial advice or a solicitation to purchase insurance.
 
 ---
 
-### STEP 5 — Deploy on Vercel
-1. After Vercel login, click **"Add New Project"**
-2. You'll see your GitHub repositories listed
-3. Find `insurance-arena` → Click **"Import"**
-4. Leave all settings as default
-5. Click **"Deploy"**
-6. Wait 30 seconds → Your app is LIVE! 🎉
-
----
-
-### STEP 6 — Get Your App URL
-Vercel gives you a free URL like:
-```
-https://insurance-arena.vercel.app
-```
-Share this link anywhere — WhatsApp, email, QR code, LinkedIn.
-
----
-
-## 🔄 HOW TO UPDATE DATA (Future Maintenance)
-
-### Adding a New Plan or Updating Existing Data:
-1. Open `js/data.js` in GitHub (click the file → pencil icon to edit)
-2. Add a new object to the `PLANS` array following the existing format
-3. Click **"Commit changes"**
-4. Vercel auto-deploys within 30 seconds — app updates instantly ✅
-
-### Updating CSR Figures (Every November):
-1. Open `js/data.js`
-2. Find each company's `csr:` field
-3. Update the number → Commit → Done
-
----
-
-## ✏️ HOW TO ADD A NEW PLAN (Template)
-
-Copy this template and add it to the `PLANS` array in `js/data.js`:
-
-```javascript
-{
-  id: 11,                          // Next sequential number
-  company: "Full Company Name",
-  companyShort: "Short Name",
-  plan: "Plan Name",
-  uin: "UIN Number",
-  csr: 99.00,                      // From IRDAI Annual Report
-  csrPending: false,               // Set true if CSR not yet available
-  entryAge: "18 – 65 yrs",
-  maxMaturity: "85 yrs",
-  minSA: "₹25 Lakh",
-  maxSA: "Unlimited",
-  premiumPay: "Regular / Limited / Single",
-  limitedPayTerms: "5, 10, 15 yrs",
-  premiumModes: "Annual / Half-yearly / Monthly",
-  deathBenefit: "Lump Sum / Income",
-
-  // Feature flags — true/false only
-  wholeLife: false,
-  terminalIllness: true,
-  accidentalDeath: true,
-  criticalIllness: false,
-  wopDisability: false,
-  returnOfPremium: false,
-  jointLife: false,
-  premiumBreak: false,
-  smartExit: false,
-  spouseCover: false,
-  lifeStage: false,
-
-  // Tags shown on card (max 6)
-  tags: [
-    { label: "Feature 1 ✓", type: "yes" },   // yes = green
-    { label: "Feature 2 ✓", type: "amber" },  // amber = orange
-    { label: "Missing ✗",   type: "no" },     // no = red
-  ],
-
-  // 3 key stats shown on card
-  keyStats: [
-    { val: "85 yrs", lbl: "Max Cover" },
-    { val: "99%",    lbl: "CSR FY25" },
-    { val: "3 Types", lbl: "Variants" },
-  ],
-
-  // Sales pitch (shown on card + modal)
-  salesPitch: "Why a sales professional should recommend this plan...",
-
-  // Detailed bullet points (shown in modal)
-  keyFeatures: [
-    "Feature point 1",
-    "Feature point 2",
-  ],
-
-  womenDiscount: "15% on base premium",
-  salariedDiscount: "10% on first year",
-
-  calcUrl: "https://company-calculator-url.com",
-  brochureUrl: "https://company-brochure-url.pdf",
-  lastUpdated: "June 2025"
-}
-```
-
----
-
-## 📋 FUTURE EXPANSION PLAN
-
-When you add 20+ plans across 10-12 companies:
-
-1. **Add product categories** — duplicate `index.html` as `ulip.html`, `endowment.html`
-2. **Add category tabs** — add navigation links in the header
-3. **Each category** gets its own data file: `data-ulip.js`, `data-endowment.js`
-4. Data structure stays identical — zero relearning needed
-
----
-
-## ⚠️ DISCLAIMER
-
-This tool is for reference and educational purposes only.
-Data sourced from official IRDAI-filed brochures and company websites.
-Premiums vary based on individual profile, underwriting, and plan variant.
-This is not a solicitation or financial advice.
-
----
-
-## 📅 DATA LAST UPDATED
-June 2025 | IRDAI Regulated | GST = 0% w.e.f. 22 Sep 2025
+*Built with ❤️ by Mohit Aggarwal*

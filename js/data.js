@@ -10,8 +10,8 @@ const PLANS = [
     companyShort: "ABSLI",
     plan: "Super Term Plan",
     uin: "109N153V01",
-    csr: 96.38, // ⚠️ Update from IRDAI Annual Report 2024-25
-    csrPending: true,
+    csr: 98.65,
+    csrPending: false,
     entryAge: "18 – 65 yrs",
     maxMaturity: "85 yrs",
     minSA: "₹25 Lakh",
