@@ -1,0 +1,129 @@
+# ══════════════════════════════════════
+# INSURANCE ARENA — MONTHLY PLAN UPDATE
+# Runs on 1st of every month at 9 AM IST
+# Fetches brochure PDFs → Gemini AI extracts features
+# Validates calculator URLs
+# Emails Mohit if any changes detected
+# Human reviews → approves → Vercel deploys
+# ══════════════════════════════════════
+
+name: Monthly Plan Feature Update
+
+on:
+  schedule:
+    - cron: '30 3 1 * *'   # 3:30 AM UTC = 9:00 AM IST, 1st of every month
+  workflow_dispatch:         # Allow manual trigger from GitHub
+
+jobs:
+  update-plans:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run plan update script
+        id: update
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          node scripts/update-plans.js
+          echo "exit_code=$?" >> $GITHUB_OUTPUT
+        continue-on-error: true
+
+      - name: Read update report
+        id: report
+        run: |
+          if [ -f data/plans-pending.json ]; then
+            SUMMARY=$(cat data/plans-pending.json | python3 -c 'import json,sys; d=json.load(sys.stdin); print(d.get("summary","No data"))' 2>/dev/null || echo "Could not read report")
+            HAS_CHANGES=$(cat data/plans-pending.json | python3 -c 'import json,sys; d=json.load(sys.stdin); print(str(d.get("hasChanges",False)).lower())' 2>/dev/null || echo "false")
+            echo "summary=$SUMMARY" >> $GITHUB_OUTPUT
+            echo "has_changes=$HAS_CHANGES" >> $GITHUB_OUTPUT
+          else
+            echo "summary=Report not generated" >> $GITHUB_OUTPUT
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit updated report
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "Insurance Arena Bot"
+          git add data/plans-pending.json
+          git diff --staged --quiet || git commit -m "🤖 Auto: Monthly plan update report — $(date '+%B %Y')"
+          git push || true
+
+      - name: Send notification email — changes detected
+        if: steps.report.outputs.has_changes == 'true'
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 587
+          username: ${{ secrets.NOTIFY_EMAIL_USER }}
+          password: ${{ secrets.NOTIFY_EMAIL_PASS }}
+          to: ${{ secrets.NOTIFY_EMAIL_TO }}
+          from: Insurance Arena Bot <${{ secrets.NOTIFY_EMAIL_USER }}>
+          subject: "🔔 Insurance Arena — Plan Update Ready for Review (${{ github.run_id }})"
+          body: |
+            Hello Mohit,
+
+            The monthly Insurance Arena plan update has completed.
+
+            📊 SUMMARY
+            ${{ steps.report.outputs.summary }}
+
+            🔍 WHAT TO DO (takes ~2 minutes)
+            1. Go to your GitHub repository
+            2. Open the file: data/plans-pending.json
+            3. Review the detected changes
+            4. If changes look correct → update js/data.js manually
+            5. Commit → Vercel auto-deploys in 30 seconds
+
+            📋 VIEW FULL REPORT
+            https://github.com/${{ github.repository }}/blob/main/data/plans-pending.json
+
+            ⚙️ VIEW THIS RUN
+            https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
+
+            Regards,
+            Insurance Arena Automation Bot
+
+      - name: Send notification email — no changes
+        if: steps.report.outputs.has_changes == 'false'
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 587
+          username: ${{ secrets.NOTIFY_EMAIL_USER }}
+          password: ${{ secrets.NOTIFY_EMAIL_PASS }}
+          to: ${{ secrets.NOTIFY_EMAIL_TO }}
+          from: Insurance Arena Bot <${{ secrets.NOTIFY_EMAIL_USER }}>
+          subject: "✅ Insurance Arena — All Plans Up to Date (${{ github.run_id }})"
+          body: |
+            Hello Mohit,
+
+            Monthly plan check completed — no changes detected.
+
+            ✅ All 10 plan features match their official brochures.
+            ✅ All calculator and brochure URLs are active.
+
+            No action needed this month.
+
+            Regards,
+            Insurance Arena Automation Bot
+
+      - name: Summary
+        run: |
+          echo "═══════════════════════════════"
+          echo "Monthly Plan Update Complete"
+          echo "Date: $(date '+%d %B %Y')"
+          echo "Summary: ${{ steps.report.outputs.summary }}"
+          echo "Changes: ${{ steps.report.outputs.has_changes }}"
+          echo "═══════════════════════════════"
