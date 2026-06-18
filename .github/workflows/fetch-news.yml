@@ -1,0 +1,57 @@
+# ══════════════════════════════════════
+# INSURANCE ARENA — DAILY NEWS FETCH
+# Runs every day at 7 AM IST (1:30 AM UTC)
+# Fetches 9 RSS sources → updates data/news.json
+# Vercel auto-deploys the updated file
+# ══════════════════════════════════════
+
+name: Fetch Insurance News
+
+on:
+  schedule:
+    - cron: '30 1 * * *'   # 1:30 AM UTC = 7:00 AM IST daily
+  workflow_dispatch:         # Allow manual trigger from GitHub
+
+jobs:
+  fetch-news:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run news fetch script
+        run: node scripts/fetch-news.js
+
+      - name: Check if news.json changed
+        id: check_changes
+        run: |
+          if git diff --quiet data/news.json; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "No changes in news.json"
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "news.json has been updated"
+          fi
+
+      - name: Commit and push updated news
+        if: steps.check_changes.outputs.changed == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "Insurance Arena Bot"
+          git add data/news.json
+          git commit -m "🤖 Auto: Update insurance news — $(date '+%d %B %Y, 7:00 AM IST')"
+          git push
+
+      - name: Log result
+        run: |
+          echo "✅ News fetch complete at $(date)"
+          echo "Articles in news.json: $(cat data/news.json | python3 -c 'import json,sys; d=json.load(sys.stdin); print(len(d.get(\"articles\",[])))' 2>/dev/null || echo 'N/A')"
