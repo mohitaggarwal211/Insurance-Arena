@@ -4,7 +4,7 @@
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 <title>Insurance Arena — India's Insurance Intelligence Hub</title>
-<meta name="description" content="Compare term insurance plans, read insurance news, learn finance concepts. India's most comprehensive insurance intelligence platform. Free forever."/>
+<meta name="description" content="Compare term insurance plans, read finance news, learn insurance concepts. India's most comprehensive insurance intelligence platform. Free forever."/>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Syne:wght@700;800&display=swap" rel="stylesheet"/>
@@ -35,7 +35,6 @@
     </nav>
     <button class="hamburger" id="hamburger" aria-label="Menu">☰</button>
   </div>
-  <!-- Mobile nav -->
   <nav class="mobile-nav hidden" id="mobileNav">
     <button class="mnav-btn active" data-sec="compare">🔍 Compare Plans</button>
     <button class="mnav-btn" data-sec="news">📰 Insurance News</button>
@@ -57,15 +56,15 @@
   <div class="tabs-inner">
     <button class="tab-btn active" data-sec="compare">
       <span class="tab-icon">🔍</span>
-      <div><div class="tab-label">Compare Plans</div><div class="tab-sub">Term Insurance</div></div>
+      <div><div class="tab-label">Compare</div><div class="tab-sub">Plans</div></div>
     </button>
     <button class="tab-btn" data-sec="news">
       <span class="tab-icon">📰</span>
-      <div><div class="tab-label">Insurance News</div><div class="tab-sub" id="newsUpdateTime">Updated at 7 AM</div></div>
+      <div><div class="tab-label">Finance News</div><div class="tab-sub" id="newsUpdateTime">Updated at 7 AM</div></div>
     </button>
     <button class="tab-btn" data-sec="learn">
       <span class="tab-icon">📚</span>
-      <div><div class="tab-label">Finance Learning</div><div class="tab-sub">21 Chapters</div></div>
+      <div><div class="tab-label">Learning</div><div class="tab-sub">147 Topics</div></div>
     </button>
   </div>
 </div>
@@ -142,22 +141,25 @@
   <!-- ─── NEWS ─── -->
   <div class="sec" id="sec-news">
     <div class="news-header">
-      <h2 class="sec-title">Insurance News</h2>
+      <h2 class="sec-title">Finance & Insurance News</h2>
       <p class="sec-sub">Updated at 7 AM · <span id="newsDateDisplay"></span></p>
     </div>
     <div class="news-filter-row">
       <button class="news-cat active" data-ncat="all">All News</button>
-      <button class="news-cat" data-ncat="irdai">IRDAI / Regulatory</button>
-      <button class="news-cat" data-ncat="product">Products</button>
-      <button class="news-cat" data-ncat="market">Market</button>
-      <button class="news-cat" data-ncat="claims">Claims</button>
+      <button class="news-cat" data-ncat="insurance">Insurance</button>
+      <button class="news-cat" data-ncat="irdai">IRDAI</button>
+      <button class="news-cat" data-ncat="mutualfunds">Mutual Funds</button>
+      <button class="news-cat" data-ncat="tax">Tax</button>
+      <button class="news-cat" data-ncat="banking">Banking</button>
+      <button class="news-cat" data-ncat="personalfinance">Personal Finance</button>
+      <button class="news-cat" data-ncat="markets">Markets</button>
     </div>
     <div id="newsLoadingState" class="news-loading">
-      <span class="spin">📰</span> Loading latest insurance news…
+      <span class="spin">📰</span> Loading latest finance news…
     </div>
     <div class="news-grid hidden" id="newsGrid"></div>
     <div class="news-disclaimer">
-      ⚠️ <strong>Disclaimer:</strong> Headlines sourced from public RSS feeds of respective publishers. Insurance Arena does not own this content. All content remains the property of respective publishers. Click any card to read the full article on the original website.
+      ⚠️ <strong>Disclaimer:</strong> Headlines sourced from public RSS feeds. Insurance Arena does not own this content. All content remains the property of respective publishers. Tap any card to read the full article on the original website.
     </div>
   </div>
 
@@ -169,21 +171,12 @@
     </div>
     <div class="learn-search-wrap">
       <span class="si">🔍</span>
-      <input type="text" id="learnSearch" class="learn-search-input" placeholder="Search topics or chapters…"/>
+      <input type="text" id="learnSearch" class="learn-search-input" placeholder="Search any topic…"/>
       <button class="learn-search-clear hidden" id="learnSearchClear" onclick="clearLearnSearch()">✕</button>
     </div>
-    <div class="sr-results hidden" id="srResults"></div>
-    <div class="learn-layout" id="learnLayout">
-      <div class="chapter-sidebar" id="chapterSidebar"></div>
-      <div class="topic-area" id="topicArea">
-        <div class="topic-placeholder" id="topicPlaceholder">
-          <div class="tp-icon">📖</div>
-          <h3>Select a chapter to begin</h3>
-          <p>Choose any chapter from the left panel to start learning.</p>
-        </div>
-        <div id="topicContent" class="hidden"></div>
-      </div>
-    </div>
+    <div class="subject-filter-row" id="subjectFilterRow"></div>
+    <div class="topics-flat-list" id="topicsFlatList"></div>
+    <div class="topic-detail-view hidden" id="topicDetailView"></div>
   </div>
 
 </main>
