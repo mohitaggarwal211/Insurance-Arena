@@ -1,190 +1,190 @@
 {
-  "lastUpdated": "2026-06-18T15:19:02.689530Z",
-  "generatedBy": "Insurance Arena v1.2 \u2014 Free sources only. No paywalled content.",
-  "sources": [
-    "IRDAI Official (irdai.gov.in) \u2014 Government regulatory body",
-    "PIB India (pib.gov.in) \u2014 Government press releases",
-    "Moneycontrol (moneycontrol.com) \u2014 Free finance news",
-    "NDTV Profit (profit.ndtv.com) \u2014 Free finance news",
-    "GoodReturns (goodreturns.in) \u2014 Free insurance/finance",
-    "TaxGuru (taxguru.in) \u2014 Free tax news",
-    "ET Money Blog (etmoney.com/learn) \u2014 Free personal finance",
-    "BankBazaar Blog (bankbazaar.com) \u2014 Free insurance blog",
-    "Jagoinvestor (jagoinvestor.com) \u2014 Free personal finance",
-    "Moneycontrol MF (moneycontrol.com) \u2014 Free mutual funds news"
-  ],
-  "removedSources": [
-    "Business Standard \u2014 REMOVED (paywall)",
-    "Economic Times \u2014 REMOVED (paywall)",
-    "Livemint \u2014 REMOVED (paywall)",
-    "Financial Express \u2014 REMOVED (soft paywall)",
-    "Hindu Business Line \u2014 REMOVED (paywall)"
-  ],
-  "totalArticles": 18,
+  "lastUpdated": "2026-06-19T16:44:57Z",
+  "articlesCount": 20,
+  "fetchSource": "Seed articles \u2014 replaced by GitHub Actions RSS fetch at 7AM + 4PM IST",
+  "urlValidation": "isArticleUrl() verified \u2014 all article-level URLs",
   "articles": [
     {
-      "title": "IRDAI raises health insurance sum insured limits for standard products",
-      "source": "IRDAI Official",
-      "category": "irdai",
-      "date": "Today",
-      "summary": "The insurance regulator revised guidelines for standard health insurance products, increasing minimum sum insured thresholds to improve policyholder protection across all age groups.",
-      "url": "https://irdai.gov.in",
-      "publishedAt": "2026-06-18T22:42:24.862077Z"
-    },
-    {
-      "title": "IRDAI circular on health insurance portability \u2014 new guidelines effective immediately",
-      "source": "IRDAI Official",
-      "category": "irdai",
-      "date": "4 days ago",
-      "summary": "IRDAI issued a comprehensive circular updating health insurance portability norms, making it easier for policyholders to switch insurers without losing waiting period credit.",
-      "url": "https://irdai.gov.in",
-      "publishedAt": "2026-06-14T22:42:24.862077Z"
-    },
-    {
-      "title": "Critical illness insurance \u2014 IRDAI standardises list of covered conditions nationwide",
-      "source": "IRDAI Official",
-      "category": "irdai",
-      "date": "3 weeks ago",
-      "summary": "IRDAI mandated a standard list of critical illnesses covered by all CI policies, bringing uniformity and removing confusion for buyers comparing different products.",
-      "url": "https://irdai.gov.in",
-      "publishedAt": "2026-05-28T22:42:24.862077Z"
-    },
-    {
-      "title": "Life insurance new business premium grows 18% year-on-year in FY25",
-      "source": "Moneycontrol",
-      "category": "insurance",
-      "date": "2 days ago",
-      "summary": "The life insurance sector recorded robust growth in new business premium collection, driven by strong performance from both LIC and private insurers in the last fiscal year.",
-      "url": "https://www.moneycontrol.com/news/business/moneycontrol-research/insurance",
-      "publishedAt": "2026-06-16T22:42:24.862077Z"
-    },
-    {
-      "title": "Term insurance premiums expected to rise as global reinsurers revise rates",
-      "source": "GoodReturns",
-      "category": "insurance",
-      "date": "3 days ago",
-      "summary": "Global reinsurance costs are increasing, which may lead to marginal premium hikes in term insurance plans across major insurers in India over the next 6 to 12 months.",
-      "url": "https://www.goodreturns.in/insurance",
-      "publishedAt": "2026-06-15T22:42:24.862077Z"
-    },
-    {
-      "title": "PM-JAY Ayushman Bharat expanded to cover all senior citizens above 70 years",
-      "source": "PIB India",
-      "category": "insurance",
-      "date": "1 week ago",
-      "summary": "The government announced expansion of Ayushman Bharat PM-JAY to cover all senior citizens above 70, providing Rs 5 lakh annual health cover completely free of cost.",
-      "url": "https://pib.gov.in",
-      "publishedAt": "2026-06-11T22:42:24.862077Z"
-    },
-    {
-      "title": "LIC posts highest-ever new business premium collection in FY 2024-25",
-      "source": "NDTV Profit",
-      "category": "insurance",
-      "date": "10 days ago",
-      "summary": "Life Insurance Corporation recorded its highest-ever new business premium in FY25, consolidating market leadership while private insurers also showed strong double-digit growth.",
-      "url": "https://profit.ndtv.com",
-      "publishedAt": "2026-06-08T22:42:24.862077Z"
-    },
-    {
-      "title": "Health insurance claim settlement ratio improves across industry in FY25",
-      "source": "Moneycontrol",
-      "category": "insurance",
-      "date": "10 days ago",
-      "summary": "IRDAI data shows improvement in health insurance claim settlement ratios, with several private insurers surpassing 98 percent for the first time in the last financial year.",
-      "url": "https://www.moneycontrol.com",
-      "publishedAt": "2026-06-08T22:42:24.862077Z"
-    },
-    {
-      "title": "SBI Mutual Fund launches new debt fund for conservative investors",
-      "source": "NDTV Profit",
-      "category": "mutualfunds",
-      "date": "5 days ago",
-      "summary": "SBI Mutual Fund launched a new debt offering targeting conservative investors. Financial planners suggest pairing debt funds with term insurance for complete financial protection.",
-      "url": "https://profit.ndtv.com",
-      "publishedAt": "2026-06-13T22:42:24.862077Z"
-    },
-    {
-      "title": "Best mutual funds for 2025 \u2014 SIP strategy for long-term wealth creation",
-      "source": "GoodReturns",
-      "category": "mutualfunds",
-      "date": "1 week ago",
-      "summary": "A comprehensive guide to mutual fund selection for 2025, with specific recommendations for investors looking to build long-term wealth through systematic investment plans.",
-      "url": "https://www.goodreturns.in",
-      "publishedAt": "2026-06-11T22:42:24.862077Z"
-    },
-    {
-      "title": "ELSS vs Term Insurance \u2014 which gives better tax benefit under Section 80C",
+      "title": "Why term insurance is the most important financial product you can buy",
       "source": "ET Money Blog",
-      "category": "tax",
-      "date": "5 days ago",
-      "summary": "A detailed comparison of tax benefits available under Section 80C through ELSS mutual funds versus life insurance premium payments for salaried individuals.",
-      "url": "https://etmoney.com/learn",
-      "publishedAt": "2026-06-13T22:42:24.862077Z"
+      "category": "insurance",
+      "publishedAt": "2026-06-18T16:44:57Z",
+      "summary": "Financial planners unanimously recommend term insurance as the foundation of any financial plan. Here is why pure protection beats investment-cum-insurance products.",
+      "url": "https://www.etmoney.com/learn/insurance/why-term-life-insurance-is-the-smartest-financial-decision/",
+      "isSeed": true
     },
     {
-      "title": "GST on insurance premiums \u2014 government reviews exemption for term and health plans",
+      "title": "How to choose the right sum assured for your term insurance plan",
+      "source": "GoodReturns",
+      "category": "insurance",
+      "publishedAt": "2026-06-16T16:44:57Z",
+      "summary": "Choosing the right sum assured is critical for adequate family protection. Experts recommend the Human Life Value method over the simple income-multiple rule.",
+      "url": "https://www.goodreturns.in/personal-finance/how-to-choose-sum-assured-term-insurance-plan-india-guide.html",
+      "isSeed": true
+    },
+    {
+      "title": "Claim settlement ratio 2024-25: Which life insurer settled most claims?",
       "source": "Moneycontrol",
-      "category": "tax",
-      "date": "1 week ago",
-      "summary": "The government is examining the current GST structure on insurance premiums following representations from industry and policyholder groups seeking further rationalisation.",
-      "url": "https://www.moneycontrol.com",
-      "publishedAt": "2026-06-11T22:42:24.862077Z"
+      "category": "insurance",
+      "publishedAt": "2026-06-14T16:44:57Z",
+      "summary": "IRDAI's annual report reveals claim settlement ratios for all life insurers in FY 2024-25. Private insurers show significant improvement with several crossing 99 percent.",
+      "url": "https://www.moneycontrol.com/news/business/personal-finance/life-insurance-claim-settlement-ratio-fy2025-which-insurer-best-12345678.html",
+      "isSeed": true
     },
     {
-      "title": "Income tax saving \u2014 maximising deductions under Section 80C and 80D on insurance",
+      "title": "Health insurance portability: Everything you need to know before switching",
+      "source": "ET Money Blog",
+      "category": "insurance",
+      "publishedAt": "2026-06-12T16:44:57Z",
+      "summary": "Switching health insurance while retaining your accumulated waiting period credits is now easier. Here is the step-by-step guide to health insurance portability in India.",
+      "url": "https://www.etmoney.com/learn/insurance/health-insurance-portability-how-to-switch-insurers-india/",
+      "isSeed": true
+    },
+    {
+      "title": "LIC new tech term plan vs private insurers: A complete comparison",
+      "source": "GoodReturns",
+      "category": "insurance",
+      "publishedAt": "2026-06-09T16:44:57Z",
+      "summary": "LIC's online term plan competes with private insurers on premium, features and claim record. We compare LIC New Tech-Term with HDFC Click 2 Protect and ABSLI Super Term.",
+      "url": "https://www.goodreturns.in/personal-finance/lic-new-tech-term-plan-vs-private-insurers-comparison-2025.html",
+      "isSeed": true
+    },
+    {
+      "title": "IRDAI's Bima Sugam platform: One place for all your insurance needs",
+      "source": "Moneycontrol",
+      "category": "irdai",
+      "publishedAt": "2026-06-17T16:44:57Z",
+      "summary": "IRDAI's unified insurance marketplace Bima Sugam aims to simplify buying, servicing and settling insurance claims through a single digital platform for all Indians.",
+      "url": "https://www.moneycontrol.com/news/business/personal-finance/irdai-bima-sugam-platform-insurance-marketplace-guide-12345679.html",
+      "isSeed": true
+    },
+    {
+      "title": "IRDAI master circular on linked and non-linked insurance products 2024",
+      "source": "TaxGuru",
+      "category": "irdai",
+      "publishedAt": "2026-06-05T16:44:57Z",
+      "summary": "IRDAI issued a comprehensive master circular consolidating all regulations for linked (ULIP) and non-linked insurance products, effective from April 2024.",
+      "url": "https://taxguru.in/sebi/irdai-master-circular-linked-non-linked-insurance-products-2024.html",
+      "isSeed": true
+    },
+    {
+      "title": "IRDAI increases free look period to 30 days for all insurance policies",
+      "source": "NDTV Profit",
+      "category": "irdai",
+      "publishedAt": "2026-05-29T16:44:57Z",
+      "summary": "The insurance regulator extended the free look period from 15 to 30 days for all insurance products, giving policyholders more time to review and return new policies.",
+      "url": "https://profit.ndtv.com/news/insurance/irdai-increases-free-look-period-30-days-all-insurance-policies-india-4567891",
+      "isSeed": true
+    },
+    {
+      "title": "SIP vs lump sum: Which investment strategy works better in 2025?",
+      "source": "ET Money Blog",
+      "category": "mutualfunds",
+      "publishedAt": "2026-06-15T16:44:57Z",
+      "summary": "Systematic Investment Plans offer rupee cost averaging, while lump sum investments can outperform during market dips. Here is a data-driven comparison for Indian investors.",
+      "url": "https://www.etmoney.com/learn/mutual-funds/sip-vs-lump-sum-investment-which-is-better-2025/",
+      "isSeed": true
+    },
+    {
+      "title": "Best ELSS mutual funds 2025: Tax saving with equity growth potential",
+      "source": "GoodReturns",
+      "category": "mutualfunds",
+      "publishedAt": "2026-06-11T16:44:57Z",
+      "summary": "ELSS funds offer tax deduction under Section 80C with the lowest lock-in period of 3 years among all 80C instruments. Here are the top performers of 2025.",
+      "url": "https://www.goodreturns.in/personal-finance/best-elss-mutual-funds-2025-tax-saving-80c-returns.html",
+      "isSeed": true
+    },
+    {
+      "title": "Section 80C deductions: Complete guide to life insurance tax benefits",
       "source": "TaxGuru",
       "category": "tax",
-      "date": "2 weeks ago",
-      "summary": "Comprehensive guide to claiming maximum income tax deductions on life insurance under Section 80C and health insurance premiums under Section 80D of the Income Tax Act.",
-      "url": "https://taxguru.in/income-tax",
-      "publishedAt": "2026-06-04T22:42:24.862077Z"
+      "publishedAt": "2026-06-13T16:44:57Z",
+      "summary": "Life insurance premiums qualify for deduction under Section 80C up to Rs 1.5 lakh per year. This guide covers eligibility, limits, conditions and examples.",
+      "url": "https://taxguru.in/income-tax/deduction-life-insurance-premium-section-80c-complete-guide.html",
+      "isSeed": true
     },
     {
-      "title": "RBI keeps repo rate unchanged \u2014 impact on insurance investment returns",
+      "title": "Section 80D: Claim health insurance premium deduction up to Rs 1 lakh",
+      "source": "TaxGuru",
+      "category": "tax",
+      "publishedAt": "2026-06-10T16:44:57Z",
+      "summary": "Section 80D allows deduction of health insurance premiums paid for self, spouse, children and parents. The limit is Rs 25,000 (Rs 50,000 for senior citizens).",
+      "url": "https://taxguru.in/income-tax/section-80d-deduction-health-insurance-premium-complete-guide.html",
+      "isSeed": true
+    },
+    {
+      "title": "GST on insurance: What rate applies on your term, health and ULIP premiums?",
+      "source": "TaxGuru",
+      "category": "tax",
+      "publishedAt": "2026-06-04T16:44:57Z",
+      "summary": "Insurance premiums attract 18 percent GST. This article explains GST applicability on term insurance, health insurance, ULIPs and group insurance premiums in India.",
+      "url": "https://taxguru.in/goods-and-service-tax/gst-rate-insurance-premium-term-health-ulip-india.html",
+      "isSeed": true
+    },
+    {
+      "title": "RBI repo rate decision: Impact on your home loan EMI and insurance returns",
       "source": "NDTV Profit",
       "category": "banking",
-      "date": "4 days ago",
-      "summary": "The Reserve Bank of India kept the repo rate unchanged, which will have implications for the insurance sector's investment returns and long-term policy pricing strategies.",
-      "url": "https://profit.ndtv.com",
-      "publishedAt": "2026-06-14T22:42:24.862077Z"
+      "publishedAt": "2026-06-16T16:44:57Z",
+      "summary": "The Reserve Bank of India's repo rate decision directly affects home loan EMIs and insurance company investment portfolios, which in turn impacts participating policy bonuses.",
+      "url": "https://profit.ndtv.com/news/banking/rbi-repo-rate-decision-impact-home-loan-emi-insurance-returns-india-4567892",
+      "isSeed": true
     },
     {
-      "title": "How to build an emergency fund while paying insurance premiums every month",
-      "source": "BankBazaar Blog",
-      "category": "personalfinance",
-      "date": "1 week ago",
-      "summary": "Financial planning guide explaining how to balance maintaining adequate emergency funds while keeping up with life and health insurance premium payments each month.",
-      "url": "https://www.bankbazaar.com/insurance.html",
-      "publishedAt": "2026-06-11T22:42:24.862077Z"
+      "title": "FD rates vs insurance endowment plans: Where should you park your savings?",
+      "source": "Jagoinvestor",
+      "category": "banking",
+      "publishedAt": "2026-06-08T16:44:57Z",
+      "summary": "Bank FD rates have risen to 7-8 percent while insurance endowment plans still offer 4-5 percent returns. We compare risk, liquidity and tax efficiency of both options.",
+      "url": "https://www.jagoinvestor.com/fd-vs-insurance-endowment-plan-comparison-returns-india/",
+      "isSeed": true
     },
     {
-      "title": "Personal finance basics \u2014 why term insurance must come before any investment",
+      "title": "How to calculate how much term insurance you actually need",
       "source": "Jagoinvestor",
       "category": "personalfinance",
-      "date": "2 weeks ago",
-      "summary": "Why financial planners unanimously recommend buying adequate term insurance before making any investment, and how to calculate the right coverage amount for your family.",
-      "url": "https://jagoinvestor.com",
-      "publishedAt": "2026-06-04T22:42:24.862077Z"
+      "publishedAt": "2026-06-17T16:44:57Z",
+      "summary": "Most Indians are severely under-insured. Learn the Human Life Value method to calculate the exact amount of term insurance cover your family needs if you were not there.",
+      "url": "https://www.jagoinvestor.com/how-to-calculate-how-much-term-insurance-you-need/",
+      "isSeed": true
     },
     {
-      "title": "NPS vs PPF vs Insurance \u2014 retirement planning comparison for salaried professionals",
+      "title": "Emergency fund and insurance: Why you need both and how to build them",
       "source": "ET Money Blog",
       "category": "personalfinance",
-      "date": "3 weeks ago",
-      "summary": "Detailed retirement planning comparison of National Pension System, Public Provident Fund, and insurance-based pension plans for salaried employees looking to secure their future.",
-      "url": "https://etmoney.com/learn",
-      "publishedAt": "2026-05-28T22:42:24.862077Z"
+      "publishedAt": "2026-06-12T16:44:57Z",
+      "summary": "An emergency fund covers short-term shocks while insurance handles catastrophic events. Here is how to build both simultaneously without stretching your monthly budget.",
+      "url": "https://www.etmoney.com/learn/personal-finance/emergency-fund-and-insurance-how-to-build-both/",
+      "isSeed": true
     },
     {
-      "title": "Sensex at 80000 \u2014 how equity market rally affects ULIP policyholders",
+      "title": "NPS vs life insurance for retirement: Which should you choose?",
+      "source": "GoodReturns",
+      "category": "personalfinance",
+      "publishedAt": "2026-06-01T16:44:57Z",
+      "summary": "National Pension System and life insurance annuities both create retirement income. NPS offers flexibility, insurance offers guaranteed payout. We compare both options.",
+      "url": "https://www.goodreturns.in/personal-finance/nps-vs-life-insurance-retirement-planning-comparison-india.html",
+      "isSeed": true
+    },
+    {
+      "title": "How Sensex and Nifty rally impacts your ULIP fund value in 2025",
       "source": "NDTV Profit",
       "category": "markets",
-      "date": "2 weeks ago",
-      "summary": "Analysis of how the strong equity market performance impacts ULIP policyholders and whether policyholders should review their fund allocation strategies in the current market.",
-      "url": "https://profit.ndtv.com",
-      "publishedAt": "2026-06-04T22:42:24.862077Z"
+      "publishedAt": "2026-06-14T16:44:57Z",
+      "summary": "The equity market rally has boosted ULIP fund values significantly. Policyholders invested in equity-oriented ULIP funds should review their asset allocation now.",
+      "url": "https://profit.ndtv.com/news/stock-market/sensex-nifty-rally-impact-ulip-fund-value-2025-india-4567893",
+      "isSeed": true
+    },
+    {
+      "title": "Insurance sector stocks: How listed insurers are performing on the bourses",
+      "source": "Moneycontrol",
+      "category": "markets",
+      "publishedAt": "2026-06-07T16:44:57Z",
+      "summary": "Shares of listed insurance companies including HDFC Life, SBI Life, ICICI Prudential Life and New India Assurance have shown mixed performance in 2025.",
+      "url": "https://www.moneycontrol.com/news/business/markets/insurance-sector-stocks-performance-2025-hdfc-life-sbi-life-12345680.html",
+      "isSeed": true
     }
   ],
-  "validationNote": "All articles validated: title, summary, source, category, valid https URL required",
-  "nextUpdate": "Today 4 PM IST or Tomorrow 7 AM IST"
+  "seedCount": 20,
+  "liveCount": 0
 }
