@@ -30,6 +30,7 @@
       <button class="nav-btn" data-sec="news">Finance News</button>
       <button class="nav-btn" data-sec="learn">Finance Learning</button>
       <button class="nav-btn" data-sec="tools">Calculators</button>
+      <button class="nav-btn" data-sec="resources">Resources</button>
     </nav>
     <button class="hamburger" id="hamburger" aria-label="Menu">☰</button>
   </div>
@@ -38,6 +39,7 @@
     <button class="mnav-btn" data-sec="news">📰 Finance News</button>
     <button class="mnav-btn" data-sec="learn">📚 Finance Learning</button>
     <button class="mnav-btn" data-sec="tools">🧮 Calculators</button>
+    <button class="mnav-btn" data-sec="resources">📖 Resources</button>
   </nav>
 </header>
 
@@ -65,6 +67,21 @@
         </div>
         <button class="continue-btn" id="continueBtn">Resume →</button>
       </div>
+      <button class="bookmarks-trigger" id="bookmarksTrigger" onclick="openBookmarks()" title="Saved Items">🔖 <span id="bookmarkCount"></span></button>
+      </div>
+    </div>
+  </div>
+  <!-- Daily Quiz Challenge -->
+  <div class="quiz-challenge-card" id="dailyQuizCard">
+    <div class="quiz-challenge-inner">
+      <div class="qc-left">
+        <span class="qc-icon">🧠</span>
+        <div>
+          <div class="qc-label">Daily Quiz Challenge</div>
+          <div class="qc-sub" id="qcStatus">5 questions · Changes every day</div>
+        </div>
+      </div>
+      <button class="qc-btn" id="qcStartBtn" onclick="openDailyQuiz()">Start →</button>
     </div>
   </div>
 </section>
@@ -87,6 +104,10 @@
     <button class="tab-btn" data-sec="tools">
       <span class="tab-icon">🧮</span>
       <div><div class="tab-label">Calculators</div><div class="tab-sub">3 Tools</div></div>
+    </button>
+    <button class="tab-btn" data-sec="resources">
+      <span class="tab-icon">📖</span>
+      <div><div class="tab-label">Resources</div><div class="tab-sub">Dict + Claims</div></div>
     </button>
   </div>
 </div>
@@ -171,6 +192,14 @@
       <input type="text" id="newsSearch" class="search-input" placeholder="Search news…" aria-label="Search news"/>
       <button class="news-search-clear hidden" id="newsSearchClear" onclick="clearNewsSearch()">✕</button>
     </div>
+    <!-- News Digest: Top 5 Today -->
+    <div class="news-digest" id="newsDigest">
+      <div class="digest-header">
+        <span class="digest-title">⚡ Today's Top 5 Updates</span>
+        <span class="digest-sub">Quick read · Under 2 minutes</span>
+      </div>
+      <div class="digest-list" id="digestList"></div>
+    </div>
     <div class="news-filter-row">
       <button class="news-cat active" data-ncat="all">All News</button>
       <button class="news-cat" data-ncat="insurance">Insurance</button>
@@ -197,6 +226,10 @@
       </div>
       <p class="sec-sub">Quiz every topic · Finance concepts simplified</p>
     </div>
+    <div class="recent-topics-strip hidden" id="recentTopicsStrip">
+      <div class="recent-label">🕐 Recently Viewed</div>
+      <div class="recent-list" id="recentTopicsList"></div>
+    </div>
     <div class="learn-search-wrap">
       <span class="si">🔍</span>
       <input type="text" id="learnSearch" class="learn-search-input" placeholder="Search any topic…"/>
@@ -221,9 +254,15 @@
       <p class="sec-sub">Plan better · No login · No data saved to server</p>
     </div>
     <div class="tools-tabs">
-      <button class="tool-tab active" data-tool="hlv">🛡️ How Much Cover?</button>
-      <button class="tool-tab" data-tool="sip">📈 SIP Calculator</button>
-      <button class="tool-tab" data-tool="retirement">🏖️ Retirement Plan</button>
+      <div class="tool-tab-scroll">
+        <button class="tool-tab active" data-tool="hlv">🛡️ Life Cover</button>
+        <button class="tool-tab" data-tool="sip">📈 SIP</button>
+        <button class="tool-tab" data-tool="retirement">🏖️ Retirement</button>
+        <button class="tool-tab" data-tool="irr">📊 IRR</button>
+        <button class="tool-tab" data-tool="tvm">⏱️ TVM</button>
+        <button class="tool-tab" data-tool="emi">🏦 EMI</button>
+        <button class="tool-tab" data-tool="ulip">📉 ULIP</button>
+      </div>
     </div>
 
     <!-- HLV Calculator -->
@@ -322,12 +361,107 @@
       </div>
     </div>
 
+    <!-- IRR Calculator -->
+    <div class="tool-panel" id="tool-irr">
+      <div class="tool-card">
+        <div class="tool-card-title">Insurance IRR Calculator</div>
+        <div class="tool-card-sub">Calculate the actual Internal Rate of Return of an insurance product — for investment comparison only</div>
+        <div class="calc-grid">
+          <div class="calc-field"><label>Annual Premium (₹)</label><input type="number" id="irr-premium" placeholder="e.g. 50000" min="0"/></div>
+          <div class="calc-field"><label>Premium Paying Term (Yrs)</label><input type="number" id="irr-ppt" placeholder="e.g. 10" min="1" max="40"/></div>
+          <div class="calc-field"><label>Policy Term (Yrs)</label><input type="number" id="irr-term" placeholder="e.g. 20" min="1" max="50"/></div>
+          <div class="calc-field"><label>Maturity / Death Value (₹)</label><input type="number" id="irr-maturity" placeholder="e.g. 800000" min="0"/></div>
+        </div>
+        <button class="calc-btn" onclick="calcIRR()">Calculate IRR</button>
+        <div class="calc-result hidden" id="irr-result"></div>
+        <div class="calc-note">⚠️ IRR is an approximation for illustration purposes only. Not a guaranteed return.</div>
+      </div>
+    </div>
+
+    <!-- TVM Calculator -->
+    <div class="tool-panel" id="tool-tvm">
+      <div class="tool-card">
+        <div class="tool-card-title">Time Value of Money</div>
+        <div class="tool-card-sub">Understand how money grows or shrinks over time</div>
+        <div class="tvm-mode-row">
+          <button class="tvm-mode active" data-mode="fv" onclick="setTvmMode('fv',this)">Future Value</button>
+          <button class="tvm-mode" data-mode="pv" onclick="setTvmMode('pv',this)">Present Value</button>
+        </div>
+        <div class="calc-grid">
+          <div class="calc-field" id="tvm-amount-field"><label id="tvm-amount-label">Present Value (₹)</label><input type="number" id="tvm-amount" placeholder="e.g. 100000" min="0"/></div>
+          <div class="calc-field"><label>Annual Interest Rate (%)</label><input type="number" id="tvm-rate" value="8" min="0" max="50"/></div>
+          <div class="calc-field"><label>Time Period (Years)</label><input type="number" id="tvm-years" placeholder="e.g. 10" min="1" max="50"/></div>
+          <div class="calc-field"><label>Compounding</label>
+            <select id="tvm-compound" class="sort-select" style="width:100%;padding:10px 12px;font-size:14px">
+              <option value="1">Annual</option>
+              <option value="2">Half-Yearly</option>
+              <option value="4">Quarterly</option>
+              <option value="12">Monthly</option>
+            </select>
+          </div>
+        </div>
+        <button class="calc-btn" onclick="calcTVM()">Calculate</button>
+        <div class="calc-result hidden" id="tvm-result"></div>
+      </div>
+    </div>
+
+    <!-- EMI Calculator -->
+    <div class="tool-panel" id="tool-emi">
+      <div class="tool-card">
+        <div class="tool-card-title">EMI Calculator</div>
+        <div class="tool-card-sub">Calculate monthly EMI, total interest, and year-wise repayment breakdown</div>
+        <div class="calc-grid">
+          <div class="calc-field"><label>Loan Amount (₹)</label><input type="number" id="emi-loan" placeholder="e.g. 5000000" min="0"/></div>
+          <div class="calc-field"><label>Annual Interest Rate (%)</label><input type="number" id="emi-rate" placeholder="e.g. 8.5" min="0" max="40"/></div>
+          <div class="calc-field"><label>Loan Tenure (Years)</label><input type="number" id="emi-tenure" placeholder="e.g. 20" min="1" max="40"/></div>
+        </div>
+        <button class="calc-btn" onclick="calcEMI()">Calculate EMI</button>
+        <div class="calc-result hidden" id="emi-result"></div>
+        <div class="emi-amort hidden" id="emi-amort"></div>
+      </div>
+    </div>
+
+    <!-- ULIP Calculator -->
+    <div class="tool-panel" id="tool-ulip">
+      <div class="tool-card">
+        <div class="tool-card-title">ULIP Projection Calculator</div>
+        <div class="tool-card-sub">Estimate ULIP fund value after charges — for illustration only</div>
+        <div class="calc-grid">
+          <div class="calc-field"><label>Annual Premium (₹)</label><input type="number" id="ulip-premium" placeholder="e.g. 100000" min="0"/></div>
+          <div class="calc-field"><label>Policy Term (Years)</label><input type="number" id="ulip-term" placeholder="e.g. 15" min="5" max="40"/></div>
+          <div class="calc-field"><label>Expected Annual Return (%)</label><input type="number" id="ulip-return" value="10" min="1" max="25"/></div>
+          <div class="calc-field"><label>Equity Allocation (%)</label><input type="number" id="ulip-equity" value="80" min="0" max="100"/></div>
+          <div class="calc-field"><label>Fund Management Charge (%/yr)</label><input type="number" id="ulip-fmc" value="1.35" min="0" max="1.35" step="0.05"/></div>
+          <div class="calc-field"><label>Annual Admin + Mortality (₹)</label><input type="number" id="ulip-charges" placeholder="e.g. 3600" min="0"/></div>
+        </div>
+        <button class="calc-btn" onclick="calcULIP()">Project Fund Value</button>
+        <div class="calc-result hidden" id="ulip-result"></div>
+        <div class="calc-note">⚠️ Returns are illustrative only and not guaranteed. Actual returns depend on market performance.</div>
+      </div>
+    </div>
+
     <div class="tools-disclaimer">
       <strong>📌 Note:</strong> These calculators are for illustrative purposes only. Results are estimates based on inputs provided. Consult a certified financial advisor for personalised planning.
     </div>
   </div>
 
 </main>
+
+<!-- BOOKMARKS MODAL -->
+<div class="modal-overlay hidden" id="bmOverlay">
+  <div class="modal" id="bmModal">
+    <button class="modal-close" onclick="closeBookmarks()">✕</button>
+    <div class="bm-content" id="bmContent"></div>
+  </div>
+</div>
+
+<!-- DAILY QUIZ MODAL -->
+<div class="modal-overlay hidden" id="dqOverlay">
+  <div class="modal" id="dqModal">
+    <button class="modal-close" onclick="closeDailyQuiz()">✕</button>
+    <div class="dq-content" id="dqContent"></div>
+  </div>
+</div>
 
 <!-- MODAL -->
 <div class="modal-overlay hidden" id="modalOverlay" role="dialog" aria-modal="true" aria-labelledby="modalPlanName">
@@ -336,6 +470,37 @@
     <div class="modal-content" id="modalContent"></div>
   </div>
 </div>
+
+  <!-- ═══ RESOURCES ═══ -->
+  <div class="sec" id="sec-resources">
+    <div class="resources-header">
+      <h2 class="sec-title">Resources</h2>
+      <p class="sec-sub">Insurance Dictionary · Claim Process Hub</p>
+    </div>
+    <div class="resource-tabs">
+      <button class="res-tab active" data-res="dictionary">📚 Insurance Dictionary</button>
+      <button class="res-tab" data-res="claims">📋 Claim Process Hub</button>
+    </div>
+
+    <!-- Dictionary -->
+    <div class="res-panel active" id="res-dictionary">
+      <div class="dict-search-wrap">
+        <span class="si">🔍</span>
+        <input type="text" id="dictSearch" class="search-input" placeholder="Search any insurance term…"/>
+        <button class="learn-search-clear hidden" id="dictSearchClear" onclick="clearDictSearch()">✕</button>
+      </div>
+      <div class="dict-cat-row" id="dictCatRow"></div>
+      <div class="dict-loading" id="dictLoader"><span class="spin">📚</span> Loading dictionary…</div>
+      <div class="dict-list" id="dictList"></div>
+    </div>
+
+    <!-- Claims Hub -->
+    <div class="res-panel" id="res-claims">
+      <div class="claims-tabs" id="claimTypeTabs"></div>
+      <div class="claims-loading" id="claimsLoader"><span class="spin">📋</span> Loading claim guide…</div>
+      <div class="claims-content" id="claimsContent"></div>
+    </div>
+  </div>
 
 <!-- FOOTER -->
 <footer class="footer">
