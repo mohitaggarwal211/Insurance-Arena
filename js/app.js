@@ -784,3 +784,763 @@ function calcRetirement(){
   renderPlans();
   initContinueStrip();
 })();
+
+
+// ════════════════════════════════════════
+// V1.4 ADDITIONS
+// Daily Quiz · News Digest · Resources
+// Dictionary · Claims Hub
+// All lazy loaded · Zero paid deps
+// ════════════════════════════════════════
+
+// ── SECTION 5 — RESOURCES (tab handler) ──
+let activeResTab    = 'dictionary';
+let dictLoaded      = false;
+let claimsLoaded    = false;
+let dictData        = [];
+let claimsData      = [];
+let dictSearch      = '';
+let activeDictCat   = 'All';
+let activeClaimType = 0;
+let activeSubtype   = 0;
+
+document.querySelectorAll('.res-tab').forEach(btn => {
+  btn.addEventListener('click', () => {
+    activeResTab = btn.dataset.res;
+    document.querySelectorAll('.res-tab').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.res-panel').forEach(p => p.classList.remove('active'));
+    btn.classList.add('active');
+    document.getElementById('res-' + activeResTab).classList.add('active');
+    if (activeResTab === 'dictionary' && !dictLoaded) loadDictionary();
+    if (activeResTab === 'claims' && !claimsLoaded) loadClaims();
+  });
+});
+
+// showSection override — load resources lazily
+const _origShowSection = showSection;
+function showSection(name) {
+  _origShowSection(name);
+  if (name === 'resources') {
+    if (!dictLoaded) loadDictionary();
+  }
+}
+
+// ── DICTIONARY ──
+async function loadDictionary() {
+  dictLoaded = true;
+  document.getElementById('dictLoader').style.display = 'block';
+  try {
+    const res = await fetch('./data/dictionary.json');
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const data = await res.json();
+    dictData = data.terms || [];
+    document.getElementById('dictLoader').style.display = 'none';
+    initDictUI();
+  } catch(e) {
+    document.getElementById('dictLoader').innerHTML = '<div style="color:var(--red)">⚠️ Unable to load dictionary. Please refresh.</div>';
+    dictLoaded = false;
+  }
+}
+
+function initDictUI() {
+  // Build category filters
+  const cats = ['All', ...new Set(dictData.map(t => t.category))];
+  const row = document.getElementById('dictCatRow');
+  row.innerHTML = cats.map(c =>
+    `<button class="dict-cat-btn${c === 'All' ? ' active' : ''}" data-cat="${san(c)}">${san(c)}</button>`
+  ).join('');
+  row.querySelectorAll('.dict-cat-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      activeDictCat = btn.dataset.cat;
+      row.querySelectorAll('.dict-cat-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      renderDictionary();
+    });
+  });
+  renderDictionary();
+}
+
+function getDictFiltered() {
+  let list = dictData;
+  if (activeDictCat !== 'All') list = list.filter(t => t.category === activeDictCat);
+  if (dictSearch) {
+    const q = dictSearch.toLowerCase();
+    list = list.filter(t =>
+      t.term.toLowerCase().includes(q) ||
+      t.definition.toLowerCase().includes(q) ||
+      t.category.toLowerCase().includes(q)
+    );
+  }
+  return list.sort((a,b) => a.term.localeCompare(b.term));
+}
+
+function renderDictionary() {
+  const filtered = getDictFiltered();
+  const listEl = document.getElementById('dictList');
+  let countEl = document.querySelector('.dict-count');
+  if (!countEl) {
+    countEl = document.createElement('div');
+    countEl.className = 'dict-count';
+    listEl.before(countEl);
+  }
+  countEl.textContent = `${filtered.length} term${filtered.length !== 1 ? 's' : ''}`;
+  if (filtered.length === 0) {
+    listEl.innerHTML = `<div class="dict-no-results">No terms found for "<strong>${san(dictSearch)}</strong>"</div>`;
+    return;
+  }
+  listEl.innerHTML = filtered.map((t, i) => `
+    <div class="dict-card" id="dict-card-${i}">
+      <div class="dict-card-header" onclick="toggleDictCard(${i})">
+        <div>
+          <div class="dict-term">${san(t.term)}</div>
+        </div>
+        <div style="display:flex;align-items:center;gap:6px">
+          <span class="dict-cat-tag">${san(t.category)}</span>
+          <span class="dict-chevron">›</span>
+        </div>
+      </div>
+      <div class="dict-body">
+        <div class="dict-section-label">📖 Definition</div>
+        <div class="dict-text">${san(t.definition)}</div>
+        <div class="dict-section-label">💡 Example</div>
+        <div class="dict-example">${san(t.example)}</div>
+        <div class="dict-section-label">⭐ Why It Matters</div>
+        <div class="dict-text">${san(t.whyMatters)}</div>
+      </div>
+    </div>`).join('');
+}
+
+function toggleDictCard(i) {
+  const card = document.getElementById('dict-card-' + i);
+  if (card) card.classList.toggle('open');
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  const dictSearchEl = document.getElementById('dictSearch');
+  if (dictSearchEl) {
+    dictSearchEl.addEventListener('input', function() {
+      dictSearch = this.value.trim();
+      document.getElementById('dictSearchClear').classList.toggle('hidden', !dictSearch);
+      if (dictLoaded) renderDictionary();
+    });
+  }
+});
+
+function clearDictSearch() {
+  dictSearch = '';
+  const el = document.getElementById('dictSearch');
+  if (el) el.value = '';
+  document.getElementById('dictSearchClear').classList.add('hidden');
+  if (dictLoaded) renderDictionary();
+}
+
+// ── CLAIMS HUB ──
+async function loadClaims() {
+  claimsLoaded = true;
+  document.getElementById('claimsLoader').style.display = 'block';
+  try {
+    const res = await fetch('./data/claims.json');
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const data = await res.json();
+    claimsData = data.claimTypes || [];
+    document.getElementById('claimsLoader').style.display = 'none';
+    initClaimsUI();
+  } catch(e) {
+    document.getElementById('claimsLoader').innerHTML = '<div style="color:var(--red)">⚠️ Unable to load claims data. Please refresh.</div>';
+    claimsLoaded = false;
+  }
+}
+
+function initClaimsUI() {
+  const tabsEl = document.getElementById('claimTypeTabs');
+  tabsEl.innerHTML = claimsData.map((c, i) =>
+    `<button class="claim-type-btn${i === 0 ? ' active' : ''}" data-ci="${i}">${c.icon} ${san(c.title)}</button>`
+  ).join('');
+  tabsEl.querySelectorAll('.claim-type-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      activeClaimType = +btn.dataset.ci;
+      activeSubtype = 0;
+      tabsEl.querySelectorAll('.claim-type-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      renderClaimsContent();
+    });
+  });
+  renderClaimsContent();
+}
+
+function renderClaimsContent() {
+  const claim = claimsData[activeClaimType];
+  if (!claim) return;
+  const el = document.getElementById('claimsContent');
+
+  // Health has subtypes (cashless + reimbursement)
+  if (claim.subtypes) {
+    const sub = claim.subtypes[activeSubtype] || claim.subtypes[0];
+    el.innerHTML = `
+      <div class="claim-subtype-tabs">
+        ${claim.subtypes.map((s, i) =>
+          `<button class="subtype-btn${i === activeSubtype ? ' active' : ''}" onclick="setSubtype(${i})">${san(s.title)}</button>`
+        ).join('')}
+      </div>
+      ${renderClaimCard(claim, sub)}`;
+  } else {
+    el.innerHTML = renderClaimCard(claim, claim);
+  }
+}
+
+function setSubtype(i) {
+  activeSubtype = i;
+  document.querySelectorAll('.subtype-btn').forEach((b, idx) => b.classList.toggle('active', idx === i));
+  const claim = claimsData[activeClaimType];
+  const sub = claim.subtypes[i];
+  document.getElementById('claimsContent').innerHTML =
+    `<div class="claim-subtype-tabs">
+      ${claim.subtypes.map((s, idx) =>
+        `<button class="subtype-btn${idx === i ? ' active' : ''}" onclick="setSubtype(${idx})">${san(s.title)}</button>`
+      ).join('')}
+    </div>${renderClaimCard(claim, sub)}`;
+}
+
+function renderClaimCard(claim, data) {
+  const docs = (data.documents || []).map(d =>
+    `<div class="claim-doc"><span class="doc-icon">📄</span><div><div class="doc-name">${san(d.doc)}</div><div class="doc-note">${san(d.note)}</div></div></div>`
+  ).join('');
+  const steps = (data.steps || []).map(s =>
+    `<div class="claim-step"><span class="step-num">${s.step}</span><div class="step-body"><div class="step-title">${san(s.title)}</div><div class="step-detail">${san(s.detail)}</div></div></div>`
+  ).join('');
+  const mistakes = (data.mistakes || []).map(m => `<li>${san(m)}</li>`).join('');
+  const tips = (data.tips || []).map(t => `<li>${san(t)}</li>`).join('');
+  const subTitle = data.title || claim.title;
+  const intro = data.type ? '' : `<div class="claim-intro"><div class="claim-intro-title">${claim.icon} ${san(claim.title)}</div><div class="claim-intro-text">${san(claim.intro)}</div></div>`;
+  return `
+    <div class="claim-content-card">
+      ${intro}
+      ${docs ? `<div class="claim-section"><div class="claim-section-title">📋 Documents Required</div><div class="claim-docs">${docs}</div></div>` : ''}
+      ${steps ? `<div class="claim-section"><div class="claim-section-title">✅ Step-by-Step Process</div><div class="claim-steps">${steps}</div></div>` : ''}
+      ${data.timeline ? `<div class="claim-section"><div class="claim-section-title">⏱️ Timeline</div><div class="claim-timeline">${san(data.timeline)}</div></div>` : ''}
+      ${mistakes ? `<div class="claim-section"><div class="claim-section-title">⚠️ Common Mistakes to Avoid</div><ul class="claim-list mistakes">${mistakes}</ul></div>` : ''}
+      ${tips ? `<div class="claim-section"><div class="claim-section-title">💡 Pro Tips</div><ul class="claim-list tips">${tips}</ul></div>` : ''}
+    </div>`;
+}
+
+// ── NEWS DIGEST ──
+function renderNewsDigest() {
+  const top5 = allNewsData.filter(n => safeUrl(n.url)).slice(0, 5);
+  const catLabel = {
+    insurance:'Insurance', irdai:'IRDAI', mutualfunds:'Mutual Funds',
+    tax:'Tax', banking:'Banking', personalfinance:'Personal Finance', markets:'Markets'
+  };
+  const el = document.getElementById('digestList');
+  if (!el) return;
+  if (top5.length === 0) {
+    el.innerHTML = '<div style="font-size:11px;color:var(--g400)">No articles available.</div>';
+    return;
+  }
+  el.innerHTML = top5.map((n, i) => {
+    const url = safeUrl(n.url);
+    return `<div class="digest-item">
+      <span class="digest-num">${i + 1}</span>
+      <div class="digest-body">
+        <div class="digest-cat">${catLabel[n.category] || n.category || 'NEWS'}</div>
+        <a class="digest-headline" href="${url}" target="_blank" rel="noopener noreferrer">${san(n.title)}</a>
+        <div class="digest-summary">${san(n.summary)}</div>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+// Patch loadNews to also render digest after loading
+const _origLoadNews = loadNews;
+async function loadNews() {
+  await _origLoadNews();
+  renderNewsDigest();
+}
+
+// ── DAILY QUIZ CHALLENGE ──
+let dqTopics    = [];
+let dqCurrent   = 0;
+let dqScore     = 0;
+let dqAnswered  = false;
+
+function getDailyQuizDate() {
+  return new Date().toISOString().slice(0, 10); // "2026-06-19"
+}
+
+function getDailyQuizState() {
+  try {
+    const stored = JSON.parse(localStorage.getItem('ia_dq') || '{}');
+    if (stored.date === getDailyQuizDate()) return stored;
+  } catch(e) {}
+  return { date: getDailyQuizDate(), completed: false, score: 0 };
+}
+
+function saveDailyQuizState(state) {
+  localStorage.setItem('ia_dq', JSON.stringify({ ...state, date: getDailyQuizDate() }));
+}
+
+// Deterministic daily topic selection — same 5 topics for everyone on same day
+function selectDailyTopics(topics) {
+  const dateStr = getDailyQuizDate();
+  let seed = 0;
+  for (let i = 0; i < dateStr.length; i++) seed = (seed * 31 + dateStr.charCodeAt(i)) % 1000003;
+  const indices = [];
+  let s = seed;
+  while (indices.length < 5) {
+    s = (s * 1103515245 + 12345) & 0x7fffffff;
+    const idx = s % topics.length;
+    if (!indices.includes(idx)) indices.push(idx);
+  }
+  return indices.map(i => topics[i]);
+}
+
+function updateDailyQuizUI() {
+  const state = getDailyQuizState();
+  const btn = document.getElementById('qcStartBtn');
+  const sub = document.getElementById('qcStatus');
+  if (!btn || !sub) return;
+  if (state.completed) {
+    const score = state.score || 0;
+    btn.textContent = `${score}/5 ✓`;
+    btn.className = 'qc-btn done';
+    sub.textContent = `Completed today · Score: ${score}/5 · Come back tomorrow!`;
+    btn.onclick = () => showDailyQuizResult(score);
+  } else {
+    btn.textContent = 'Start →';
+    btn.className = 'qc-btn';
+    sub.textContent = '5 questions · Changes every day';
+    btn.onclick = () => openDailyQuiz();
+  }
+}
+
+async function openDailyQuiz() {
+  // Load topics if not already loaded
+  if (ALL_TOPICS.length === 0) {
+    if (!learnLoaded) {
+      await loadLearnContent();
+      // Wait for topics to load
+      let attempts = 0;
+      while (ALL_TOPICS.length === 0 && attempts < 20) {
+        await new Promise(r => setTimeout(r, 200));
+        attempts++;
+      }
+    }
+  }
+  if (ALL_TOPICS.length === 0) {
+    alert('Unable to load quiz. Please check your connection.');
+    return;
+  }
+  const state = getDailyQuizState();
+  if (state.completed) { showDailyQuizResult(state.score); return; }
+  dqTopics  = selectDailyTopics(ALL_TOPICS);
+  dqCurrent = 0;
+  dqScore   = 0;
+  dqAnswered = false;
+  const overlay = document.getElementById('dqOverlay');
+  const modal   = document.getElementById('dqModal');
+  overlay.classList.remove('hidden');
+  modal.scrollTop = 0;
+  requestAnimationFrame(() => overlay.classList.add('active'));
+  document.body.style.overflow = 'hidden';
+  renderDailyQuizQuestion();
+}
+
+function renderDailyQuizQuestion() {
+  const t = dqTopics[dqCurrent];
+  if (!t) return;
+  const total = dqTopics.length;
+  const pct   = Math.round((dqCurrent / total) * 100);
+  const qId   = 'dq_' + dqCurrent;
+  document.getElementById('dqContent').innerHTML = `
+    <div class="dq-header">
+      <div class="dq-title">🧠 Daily Quiz</div>
+      <div class="dq-meta">${getDailyQuizDate()} · Question ${dqCurrent + 1} of ${total}</div>
+    </div>
+    <div class="dq-progress-bar"><div class="dq-progress-fill" style="width:${pct}%"></div></div>
+    <div class="dq-q-num">Question ${dqCurrent + 1} / ${total}</div>
+    <div class="dq-question">${san(t.quiz)}</div>
+    <div class="dq-options" id="dq-opts">
+      ${t.opts.map((o, i) =>
+        `<button class="dq-opt" onclick="answerDQ(this,${i},${t.correct},'${qId}')">${String.fromCharCode(65+i)}. ${san(o)}</button>`
+      ).join('')}
+    </div>
+    <div class="dq-feedback" id="dq-feedback"></div>
+    <button class="dq-next-btn" id="dq-next" onclick="nextDailyQuestion()">
+      ${dqCurrent === total - 1 ? 'See Result →' : 'Next Question →'}
+    </button>`;
+  dqAnswered = false;
+}
+
+function answerDQ(btn, selected, correct, qId) {
+  if (dqAnswered) return;
+  dqAnswered = true;
+  document.querySelectorAll('#dq-opts .dq-opt').forEach((b, i) => {
+    b.disabled = true;
+    if (i === correct) b.classList.add('correct');
+  });
+  if (selected !== correct) {
+    btn.classList.add('wrong');
+  } else {
+    dqScore++;
+  }
+  const fb = document.getElementById('dq-feedback');
+  const right = selected === correct;
+  fb.textContent = right ? '🎉 Correct!' : '❌ Incorrect — correct answer highlighted above.';
+  fb.className   = 'dq-feedback show ' + (right ? 'right' : 'wrong-r');
+  const nextBtn  = document.getElementById('dq-next');
+  if (nextBtn) nextBtn.classList.add('show');
+}
+
+function nextDailyQuestion() {
+  dqCurrent++;
+  if (dqCurrent >= dqTopics.length) {
+    saveDailyQuizState({ completed: true, score: dqScore });
+    updateDailyQuizUI();
+    showDailyQuizResult(dqScore);
+  } else {
+    renderDailyQuizQuestion();
+    document.getElementById('dqModal').scrollTop = 0;
+  }
+}
+
+function showDailyQuizResult(score) {
+  const total  = 5;
+  const pct    = Math.round((score / total) * 100);
+  let badge, msg;
+  if (score === 5) { badge = 'perfect'; msg = 'Perfect score! 🎯 Outstanding!'; }
+  else if (score >= 4) { badge = 'great'; msg = 'Excellent! You really know your stuff.'; }
+  else if (score >= 3) { badge = 'good'; msg = 'Good effort! Keep learning daily.'; }
+  else { badge = 'keep-going'; msg = 'Keep going! Each quiz makes you better.'; }
+
+  const overlay = document.getElementById('dqOverlay');
+  const modal   = document.getElementById('dqModal');
+  overlay.classList.remove('hidden');
+  modal.scrollTop = 0;
+  requestAnimationFrame(() => overlay.classList.add('active'));
+  document.body.style.overflow = 'hidden';
+
+  document.getElementById('dqContent').innerHTML = `
+    <div class="dq-header">
+      <div class="dq-title">Today's Quiz Complete!</div>
+      <div class="dq-meta">${getDailyQuizDate()}</div>
+    </div>
+    <div style="text-align:center;padding:20px 0">
+      <div class="dq-result-score">${score}</div>
+      <div class="dq-result-out">out of ${total} correct</div>
+      <div class="dq-result-msg">${msg}</div>
+      <span class="dq-result-badge ${badge}">${badge === 'perfect' ? '🏆 Perfect' : badge === 'great' ? '⭐ Excellent' : badge === 'good' ? '👍 Good' : '💪 Keep Going'}</span>
+    </div>
+    <div style="text-align:center;margin-top:16px;font-size:11px;color:var(--g400)">New quiz available tomorrow at midnight</div>
+    <div style="text-align:center;margin-top:16px">
+      <button class="dq-close-btn" onclick="closeDailyQuiz()">Close</button>
+    </div>`;
+}
+
+function closeDailyQuiz() {
+  const overlay = document.getElementById('dqOverlay');
+  overlay.classList.remove('active');
+  setTimeout(() => overlay.classList.add('hidden'), 250);
+  document.body.style.overflow = '';
+}
+
+// Init daily quiz UI on load
+document.addEventListener('DOMContentLoaded', () => {
+  updateDailyQuizUI();
+});
+
+// ════════════════════════════════════════
+// V1.5 — Recently Viewed · Bookmarks
+// IRR · TVM · EMI · ULIP Calculators
+// All localStorage · Zero paid deps
+// ════════════════════════════════════════
+
+// ── RECENTLY VIEWED TOPICS ──
+const MAX_RECENT = 5;
+
+function getRecentTopics() {
+  try { return JSON.parse(localStorage.getItem('ia_recent') || '[]'); }
+  catch(e) { return []; }
+}
+
+function addRecentTopic(topicId) {
+  let recent = getRecentTopics().filter(id => id !== topicId);
+  recent.unshift(topicId);
+  if (recent.length > MAX_RECENT) recent = recent.slice(0, MAX_RECENT);
+  localStorage.setItem('ia_recent', JSON.stringify(recent));
+}
+
+function renderRecentTopics() {
+  const strip = document.getElementById('recentTopicsStrip');
+  const list  = document.getElementById('recentTopicsList');
+  if (!strip || !list) return;
+  const recent = getRecentTopics();
+  if (recent.length === 0 || ALL_TOPICS.length === 0) { strip.classList.add('hidden'); return; }
+  const topics = recent.map(id => ALL_TOPICS.find(t => t.id === id)).filter(Boolean);
+  if (topics.length === 0) { strip.classList.add('hidden'); return; }
+  strip.classList.remove('hidden');
+  list.innerHTML = topics.map(t => `
+    <div class="recent-item" onclick="jumpToTopic('${t.id}')">
+      <span class="recent-dot"></span>
+      <span class="recent-title">${san(t.title)}</span>
+      <span class="recent-subj">${san(t.subject)}</span>
+    </div>`).join('');
+}
+
+function jumpToTopic(topicId) {
+  if (!learnLoaded || ALL_TOPICS.length === 0) return;
+  filteredTopics = ALL_TOPICS; // reset filters to find topic
+  const idx = filteredTopics.findIndex(t => t.id === topicId);
+  if (idx >= 0) {
+    // Reset filters to All Topics
+    activeSubject = 'All Topics';
+    activeDiff = 'all';
+    learnSearch = '';
+    document.getElementById('learnSearch').value = '';
+    document.querySelectorAll('.subj-btn').forEach(b => b.classList.toggle('active', b.dataset.subject === 'All Topics'));
+    document.querySelectorAll('.diff-btn').forEach(b => b.classList.toggle('active', b.dataset.diff === 'all'));
+    filteredTopics = ALL_TOPICS;
+    openTopicDetail(idx);
+  }
+}
+
+// Patch openTopicDetail to track recently viewed
+const _origOpenTopicDetail = openTopicDetail;
+function openTopicDetail(idx) {
+  const t = filteredTopics[idx];
+  if (t) addRecentTopic(t.id);
+  _origOpenTopicDetail(idx);
+}
+
+// Patch renderTopicList to show recently viewed
+const _origRenderTopicList = renderTopicList;
+function renderTopicList() {
+  _origRenderTopicList();
+  renderRecentTopics();
+}
+
+// ── BOOKMARKS ──
+// Structure: { topics:[{id,title,subject}], articles:[{title,url,source}], plans:[{id,name,company}] }
+function getBM() {
+  try { return JSON.parse(localStorage.getItem('ia_bm') || '{"topics":[],"articles":[],"plans":[]}'); }
+  catch(e) { return {topics:[],articles:[],plans:[]}; }
+}
+function saveBM(bm) { localStorage.setItem('ia_bm', JSON.stringify(bm)); }
+function isBMTopic(id) { return getBM().topics.some(t => t.id === id); }
+function isBMArticle(url) { return getBM().articles.some(a => a.url === url); }
+function isBMPlan(id) { return getBM().plans.some(p => p.id === id); }
+
+function toggleBMTopic(id, title, subject) {
+  const bm = getBM();
+  const idx = bm.topics.findIndex(t => t.id === id);
+  if (idx >= 0) bm.topics.splice(idx, 1);
+  else bm.topics.unshift({id, title, subject});
+  saveBM(bm);
+  updateBMCount();
+  return idx < 0; // true = now bookmarked
+}
+
+function toggleBMArticle(url, title, source) {
+  const bm = getBM();
+  const idx = bm.articles.findIndex(a => a.url === url);
+  if (idx >= 0) bm.articles.splice(idx, 1);
+  else bm.articles.unshift({url, title, source});
+  saveBM(bm);
+  updateBMCount();
+  return idx < 0;
+}
+
+function toggleBMPlan(id, name, company) {
+  const bm = getBM();
+  const idx = bm.plans.findIndex(p => p.id === id);
+  if (idx >= 0) bm.plans.splice(idx, 1);
+  else bm.plans.unshift({id, name, company});
+  saveBM(bm);
+  updateBMCount();
+  return idx < 0;
+}
+
+function updateBMCount() {
+  const bm = getBM();
+  const total = bm.topics.length + bm.articles.length + bm.plans.length;
+  const el = document.getElementById('bookmarkCount');
+  if (el) el.textContent = total > 0 ? total : '';
+  const trigger = document.getElementById('bookmarksTrigger');
+  if (trigger) trigger.style.display = total > 0 || true ? '' : 'none';
+}
+
+function openBookmarks() {
+  const bm = getBM();
+  const overlay = document.getElementById('bmOverlay');
+  const modal   = document.getElementById('bmModal');
+  overlay.classList.remove('hidden');
+  modal.scrollTop = 0;
+  requestAnimationFrame(() => overlay.classList.add('active'));
+  document.body.style.overflow = 'hidden';
+  renderBMContent('topics');
+}
+
+function closeBookmarks() {
+  const overlay = document.getElementById('bmOverlay');
+  overlay.classList.remove('active');
+  setTimeout(() => overlay.classList.add('hidden'), 250);
+  document.body.style.overflow = '';
+}
+
+let activeBMTab = 'topics';
+function renderBMContent(tab) {
+  activeBMTab = tab || activeBMTab;
+  const bm = getBM();
+  const tabs = ['topics','articles','plans'];
+  const tabLabels = {topics:`📚 Topics (${bm.topics.length})`, articles:`📰 Articles (${bm.articles.length})`, plans:`🔍 Plans (${bm.plans.length})`};
+  let content = `
+    <div class="bm-title">🔖 Saved Items</div>
+    <div class="bm-tabs">
+      ${tabs.map(t => `<div class="bm-tab${t===activeBMTab?' active':''}" onclick="renderBMContent('${t}')">${tabLabels[t]}</div>`).join('')}
+    </div>`;
+  if (activeBMTab === 'topics') {
+    content += `<div class="bm-panel active">`;
+    if (bm.topics.length === 0) content += `<div class="bm-empty"><span class="bm-empty-icon">📚</span>No saved topics yet.<br/><small>Tap 🔖 on any topic to save it.</small></div>`;
+    else content += `<div class="bm-list">${bm.topics.map(t => `
+      <div class="bm-topic-item" onclick="closeBookmarks();showSection('learn');setTimeout(()=>jumpToTopic('${t.id}'),300)">
+        <div><div class="bm-item-title">${san(t.title)}</div><div class="bm-item-sub">${san(t.subject)}</div></div>
+        <span class="bm-remove" onclick="event.stopPropagation();removeBMTopic('${t.id}')" title="Remove">✕</span>
+      </div>`).join('')}</div>`;
+    content += `</div>`;
+  } else if (activeBMTab === 'articles') {
+    content += `<div class="bm-panel active">`;
+    if (bm.articles.length === 0) content += `<div class="bm-empty"><span class="bm-empty-icon">📰</span>No saved articles yet.<br/><small>Tap 🔖 on any news article to save it.</small></div>`;
+    else content += `<div class="bm-list">${bm.articles.map(a => {
+      const url = safeUrl(a.url);
+      return `<div class="bm-news-item">
+        <div class="bm-news-head">
+          <a href="${url}" target="_blank" rel="noopener noreferrer" style="font-size:12px;font-weight:600;color:var(--white);text-decoration:none;flex:1;line-height:1.4" onclick="void(0)">${san(a.title)}</a>
+          <span class="bm-remove" onclick="removeBMArticle('${a.url.replace(/'/g,'')}')" title="Remove">✕</span>
+        </div>
+        <div style="font-size:10px;color:var(--g400)">${san(a.source)}</div>
+      </div>`;
+    }).join('')}</div>`;
+    content += `</div>`;
+  } else if (activeBMTab === 'plans') {
+    content += `<div class="bm-panel active">`;
+    if (bm.plans.length === 0) content += `<div class="bm-empty"><span class="bm-empty-icon">🔍</span>No saved plans yet.<br/><small>Tap 🔖 in any plan's full details to save it.</small></div>`;
+    else content += `<div class="bm-list">${bm.plans.map(p => `
+      <div class="bm-plan-item" onclick="closeBookmarks();showSection('compare');setTimeout(()=>openModal(${p.id}),300)">
+        <div><div class="bm-item-title">${san(p.name)}</div><div class="bm-item-sub">${san(p.company)}</div></div>
+        <span class="bm-remove" onclick="event.stopPropagation();removeBMPlan(${p.id})" title="Remove">✕</span>
+      </div>`).join('')}</div>`;
+    content += `</div>`;
+  }
+  document.getElementById('bmContent').innerHTML = content;
+}
+
+function removeBMTopic(id) { const bm=getBM(); bm.topics=bm.topics.filter(t=>t.id!==id); saveBM(bm); updateBMCount(); renderBMContent(); }
+function removeBMArticle(url) { const bm=getBM(); bm.articles=bm.articles.filter(a=>a.url!==url); saveBM(bm); updateBMCount(); renderBMContent(); }
+function removeBMPlan(id) { const bm=getBM(); bm.plans=bm.plans.filter(p=>p.id!==id); saveBM(bm); updateBMCount(); renderBMContent(); }
+
+// Add bookmark button to topic detail view
+const _origOpenTopicDetail2 = openTopicDetail;
+// Patch: inject bookmark button into topic detail after render
+function patchTopicDetailWithBM(t, idx) {
+  const backRow = document.querySelector('.td-back-row');
+  if (!backRow || !t) return;
+  const saved = isBMTopic(t.id);
+  const btn = document.createElement('button');
+  btn.className = 'bm-icon' + (saved ? ' saved' : '');
+  btn.title = saved ? 'Remove bookmark' : 'Bookmark this topic';
+  btn.textContent = saved ? '🔖' : '🔖';
+  btn.style.marginLeft = 'auto';
+  btn.onclick = () => {
+    const nowSaved = toggleBMTopic(t.id, t.title, t.subject);
+    btn.className = 'bm-icon' + (nowSaved ? ' saved' : '');
+    btn.title = nowSaved ? 'Remove bookmark' : 'Bookmark this topic';
+  };
+  backRow.appendChild(btn);
+}
+
+// Patch openTopicDetail to inject BM button
+const __origOTD = openTopicDetail;
+function openTopicDetail(idx) {
+  __origOTD(idx);
+  const t = filteredTopics[idx];
+  if (t) setTimeout(() => patchTopicDetailWithBM(t, idx), 0);
+}
+
+// Patch renderNews to add bookmark buttons to news cards
+const _origRenderNews = renderNews;
+function renderNews() {
+  _origRenderNews();
+  addNewsBookmarkButtons();
+}
+
+function addNewsBookmarkButtons() {
+  const cards = document.querySelectorAll('.news-card');
+  cards.forEach((card, i) => {
+    const n = getFilteredNews()[i];
+    if (!n) return;
+    const saved = isBMArticle(n.url);
+    const btn = document.createElement('button');
+    btn.className = 'bm-icon' + (saved ? ' saved' : '');
+    btn.title = saved ? 'Remove bookmark' : 'Save article';
+    btn.textContent = '🔖';
+    btn.style.marginLeft = 'auto';
+    btn.addEventListener('click', (e) => {
+      e.preventDefault(); e.stopPropagation();
+      const nowSaved = toggleBMArticle(n.url, n.title, n.source);
+      btn.className = 'bm-icon' + (nowSaved ? ' saved' : '');
+    });
+    const footer = card.querySelector('.news-footer');
+    if (footer) footer.insertBefore(btn, footer.firstChild);
+  });
+}
+
+// Patch openModal to add bookmark button for plans
+const _origOpenModal = openModal;
+function openModal(id) {
+  _origOpenModal(id);
+  const p = PLANS.find(x => x.id === id);
+  setTimeout(() => {
+    const actionsEl = document.querySelector('.m-actions');
+    if (!actionsEl || !p) return;
+    const saved = isBMPlan(p.id);
+    const btn = document.createElement('button');
+    btn.className = 'bm-icon' + (saved ? ' saved' : '');
+    btn.style.cssText = 'font-size:18px;padding:8px 12px;border:1px solid var(--bg-border);border-radius:var(--r-sm);background:rgba(255,255,255,.04)';
+    btn.title = saved ? 'Remove from saved' : 'Save this plan';
+    btn.textContent = '🔖';
+    btn.onclick = () => {
+      const nowSaved = toggleBMPlan(p.id, p.plan, p.companyShort);
+      btn.className = 'bm-icon' + (nowSaved ? ' saved' : '');
+    };
+    actionsEl.appendChild(btn);
+  }, 0);
+}
+
+// ═══════════════════════════════════════
+// NEW CALCULATORS
+// ═══════════════════════════════════════
+
+// ── EXTRA CALCULATORS (IRR · TVM · EMI · ULIP) ──
+// Lazy loaded from js/calcs-extra.js when tools section first opens
+let calcExtraLoaded = false;
+
+async function loadCalcsExtra() {
+  if (calcExtraLoaded) return;
+  return new Promise((resolve, reject) => {
+    const script = document.createElement('script');
+    script.src = 'js/calcs-extra.js';
+    script.onload  = () => { calcExtraLoaded = true; resolve(); };
+    script.onerror = () => reject(new Error('Failed to load calcs-extra.js'));
+    document.head.appendChild(script);
+  });
+}
+
+// Stub functions — call real function after lazy loading
+async function calcIRR()  { await loadCalcsExtra(); _calcIRR();  }
+async function calcTVM()  { await loadCalcsExtra(); _calcTVM();  }
+async function calcEMI()  { await loadCalcsExtra(); _calcEMI();  }
+async function calcULIP() { await loadCalcsExtra(); _calcULIP(); }
+function setTvmMode(m,b)  { if(calcExtraLoaded) _setTvmMode(m,b); else loadCalcsExtra().then(()=>_setTvmMode(m,b)); }
+
+// // Init bookmarks count on load
+document.addEventListener('DOMContentLoaded', () => {
+  updateBMCount();
+});
