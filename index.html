@@ -119,15 +119,7 @@
         <button class="cat-btn coming">Annuity <span class="soon-tag">Soon</span></button>
       </div>
     </div>
-    <div class="benchmark-bar">
-      <span class="bm-label">📌 Benchmark</span>
-      <div class="bm-pills">
-        <span class="pill">Male</span><span class="pill">Non-Smoker</span>
-        <span class="pill">Age 35</span><span class="pill">₹1 Crore SA</span>
-        <span class="pill">Level Cover</span><span class="pill">Regular Pay</span>
-        <span class="pill">~30yr Term</span><span class="pill">No Riders</span>
-      </div>
-    </div>
+
     <div class="controls-bar">
       <div class="controls-inner">
         <div class="search-wrap">
@@ -178,6 +170,15 @@
       <h2 class="sec-title">Finance &amp; Insurance News</h2>
       <p class="sec-sub">Updated at 7 AM &amp; 4 PM · <span id="newsDateDisplay"></span></p>
     </div>
+    <!-- Freshness Badge -->
+    <div class="news-freshness-badge hidden" id="newsFreshnessBadge">
+      <div class="nfb-dot" id="nfbDot"></div>
+      <div class="nfb-info">
+        <div class="nfb-title" id="nfbTitle">Live News</div>
+        <div class="nfb-counts" id="nfbCounts"></div>
+        <div class="nfb-updated" id="nfbUpdated"></div>
+      </div>
+    </div>
     <!-- Top 5 Digest -->
     <div class="news-digest hidden" id="newsDigest">
       <div class="digest-header">
@@ -208,18 +209,20 @@
 
   <!-- ═══ LEARN ═══ -->
   <div class="sec" id="sec-learn">
+    <!-- Segment Control — FIRST so user sees immediately -->
+    <div class="learn-seg-wrap">
+      <div class="learn-seg-control">
+        <button class="learn-seg active" data-ltab="topics">📚 Topics</button>
+        <button class="learn-seg" data-ltab="dictionary">📖 Dictionary</button>
+        <button class="learn-seg" data-ltab="claims">📋 Claims</button>
+      </div>
+    </div>
     <div class="learn-header">
       <div class="learn-title-row">
         <h2 class="sec-title">Learning Hub</h2>
         <div class="learn-progress-badge"><span id="learnDoneCount">0</span>/147</div>
       </div>
-      <p class="sec-sub">Quiz every topic · Dictionary · Claim Guides</p>
-    </div>
-    <!-- Learning sub-tabs -->
-    <div class="learn-sub-tabs">
-      <button class="learn-sub-tab active" data-ltab="topics">📚 Topics</button>
-      <button class="learn-sub-tab" data-ltab="dictionary">📖 Dictionary</button>
-      <button class="learn-sub-tab" data-ltab="claims">📋 Claim Guide</button>
+      <p class="sec-sub" id="learnTabDesc">147 topics · Quiz every concept · Track progress</p>
     </div>
 
     <!-- Topics Panel -->
@@ -294,6 +297,7 @@
           <div class="calc-field"><label>Inflation Rate (%)</label><input type="number" id="hlv-inflation" value="6"/></div>
         </div>
         <button class="calc-btn" onclick="calcHLV()">Calculate Cover Need</button>
+        <button class="calc-reset-btn" onclick="resetCalc('hlv')">Reset</button>
         <div class="calc-result hidden" id="hlv-result"></div>
       </div>
     </div>
@@ -307,6 +311,7 @@
           <div class="calc-field"><label>Period (Years)</label><input type="number" id="sip-years" placeholder="e.g. 10"/></div>
         </div>
         <button class="calc-btn" onclick="calcSIP()">Calculate Returns</button>
+        <button class="calc-reset-btn" onclick="resetCalc('sip')">Reset</button>
         <div class="calc-result hidden" id="sip-result"></div>
       </div>
     </div>
@@ -323,6 +328,7 @@
           <div class="calc-field"><label>Life Expectancy</label><input type="number" id="ret-life" value="80"/></div>
         </div>
         <button class="calc-btn" onclick="calcRetirement()">Calculate My Plan</button>
+        <button class="calc-reset-btn" onclick="resetCalc('retirement')">Reset</button>
         <div class="calc-result hidden" id="ret-result"></div>
       </div>
     </div>
@@ -337,6 +343,7 @@
           <div class="calc-field"><label>Maturity / Death Value (₹)</label><input type="number" id="irr-maturity" placeholder="e.g. 800000"/></div>
         </div>
         <button class="calc-btn" onclick="calcIRR()">Calculate IRR</button>
+        <button class="calc-reset-btn" onclick="resetCalc('irr')">Reset</button>
         <div class="calc-result hidden" id="irr-result"></div>
         <div class="calc-note">⚠️ IRR is illustrative only — not a guaranteed return.</div>
       </div>
@@ -361,6 +368,7 @@
           </div>
         </div>
         <button class="calc-btn" onclick="calcTVM()">Calculate</button>
+        <button class="calc-reset-btn" onclick="resetCalc('tvm')">Reset</button>
         <div class="calc-result hidden" id="tvm-result"></div>
       </div>
     </div>
@@ -374,6 +382,7 @@
           <div class="calc-field"><label>Loan Tenure (Years)</label><input type="number" id="emi-tenure" placeholder="e.g. 20"/></div>
         </div>
         <button class="calc-btn" onclick="calcEMI()">Calculate EMI</button>
+        <button class="calc-reset-btn" onclick="resetCalc('emi')">Reset</button>
         <div class="calc-result hidden" id="emi-result"></div>
         <div class="emi-amort hidden" id="emi-amort"></div>
       </div>
@@ -384,10 +393,13 @@
         <div class="tool-card-sub">Estimate how your ULIP investment can grow over time</div>
         <div class="calc-grid">
           <div class="calc-field"><label>Annual Premium (₹)</label><input type="number" id="ulip-premium" placeholder="e.g. 100000"/></div>
-          <div class="calc-field"><label>Policy Term (Years)</label><input type="number" id="ulip-term" placeholder="e.g. 15"/></div>
-          <div class="calc-field"><label>Expected Annual Return (%)</label><input type="number" id="ulip-return" value="10"/></div>
+          <div class="calc-field"><label>Premium Paying Term — PPT (Yrs)</label><input type="number" id="ulip-ppt" placeholder="e.g. 10" min="1"/></div>
+          <div class="calc-field"><label>Policy Term (Yrs)</label><input type="number" id="ulip-term" placeholder="e.g. 20" min="1"/></div>
+          <div class="calc-field"><label>Expected Annual Return (%)</label><input type="number" id="ulip-return" value="10" min="1" max="25"/></div>
+          <div class="calc-field"><label>Fund Management Charge — FMC (%/yr)</label><input type="number" id="ulip-fmc" value="1.35" min="0" max="1.35" step="0.05"/></div>
         </div>
         <button class="calc-btn" onclick="calcULIP()">Project Fund Value</button>
+        <button class="calc-reset-btn" onclick="resetCalc('ulip')">Reset</button>
         <div class="calc-result hidden" id="ulip-result"></div>
         <div class="calc-note">⚠️ Returns are illustrative only and not guaranteed. Actual returns depend on market performance and charges applicable.</div>
       </div>
