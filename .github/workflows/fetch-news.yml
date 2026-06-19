@@ -1,16 +1,17 @@
 # ══════════════════════════════════════
-# INSURANCE ARENA — DAILY NEWS FETCH
-# Runs every day at 7 AM IST (1:30 AM UTC)
-# Fetches 9 RSS sources → updates data/news.json
-# Vercel auto-deploys the updated file
+# INSURANCE ARENA — NEWS FETCH WORKFLOW
+# Runs TWICE daily: 7 AM IST + 4 PM IST
+# Accumulates up to 45 articles
+# Merges new + existing, deduplicates, caps at 45
 # ══════════════════════════════════════
 
-name: Fetch Insurance News
+name: Fetch Finance & Insurance News
 
 on:
   schedule:
-    - cron: '30 1 * * *'   # 1:30 AM UTC = 7:00 AM IST daily
-  workflow_dispatch:         # Allow manual trigger from GitHub
+    - cron: '30 1 * * *'    # 7:00 AM IST  (1:30 AM UTC)
+    - cron: '30 10 * * *'   # 4:00 PM IST  (10:30 AM UTC)
+  workflow_dispatch:          # Manual trigger from GitHub Actions tab
 
 jobs:
   fetch-news:
@@ -28,30 +29,31 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Run news fetch script
+      - name: Run news fetch and accumulate
         run: node scripts/fetch-news.js
 
       - name: Check if news.json changed
-        id: check_changes
+        id: check
         run: |
           if git diff --quiet data/news.json; then
             echo "changed=false" >> $GITHUB_OUTPUT
-            echo "No changes in news.json"
+            echo "No new articles found"
           else
+            COUNT=$(cat data/news.json | python3 -c 'import json,sys; d=json.load(sys.stdin); print(len(d.get("articles",[])))' 2>/dev/null || echo "?")
             echo "changed=true" >> $GITHUB_OUTPUT
-            echo "news.json has been updated"
+            echo "news.json updated — $COUNT articles"
           fi
 
       - name: Commit and push updated news
-        if: steps.check_changes.outputs.changed == 'true'
+        if: steps.check.outputs.changed == 'true'
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "Insurance Arena Bot"
           git add data/news.json
-          git commit -m "🤖 Auto: Update insurance news — $(date '+%d %B %Y, 7:00 AM IST')"
+          git commit -m "🤖 News update — $(date '+%d %b %Y, %I:%M %p IST')"
           git push
 
-      - name: Log result
+      - name: Summary
         run: |
-          echo "✅ News fetch complete at $(date)"
-          echo "Articles in news.json: $(cat data/news.json | python3 -c 'import json,sys; d=json.load(sys.stdin); print(len(d.get(\"articles\",[])))' 2>/dev/null || echo 'N/A')"
+          COUNT=$(cat data/news.json | python3 -c 'import json,sys; d=json.load(sys.stdin); print(len(d.get("articles",[])))' 2>/dev/null || echo "?")
+          echo "✅ Done — $COUNT articles in news.json"
