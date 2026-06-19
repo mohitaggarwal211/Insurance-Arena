@@ -170,20 +170,21 @@
       <h2 class="sec-title">Finance &amp; Insurance News</h2>
       <p class="sec-sub">Updated at 7 AM &amp; 4 PM · <span id="newsDateDisplay"></span></p>
     </div>
-    <!-- Freshness Badge -->
-    <div class="news-freshness-badge hidden" id="newsFreshnessBadge">
-      <div class="nfb-dot" id="nfbDot"></div>
-      <div class="nfb-info">
-        <div class="nfb-title" id="nfbTitle">Live News</div>
-        <div class="nfb-counts" id="nfbCounts"></div>
-        <div class="nfb-updated" id="nfbUpdated"></div>
+    <!-- News Status Bar -->
+    <div class="news-status-bar hidden" id="newsStatusBar">
+      <div class="nsb-left">
+        <span class="nsb-dot" id="nsbDot"></span>
+        <span class="nsb-count" id="nsbCount"></span>
+        <span class="nsb-sep">·</span>
+        <span class="nsb-cats" id="nsbCats"></span>
       </div>
+      <div class="nsb-right" id="nsbTime"></div>
     </div>
-    <!-- Top 5 Digest -->
+    <!-- Top 10 Headlines Digest -->
     <div class="news-digest hidden" id="newsDigest">
       <div class="digest-header">
-        <span class="digest-title">⚡ Today's Top 5 Updates</span>
-        <span class="digest-sub">Quick read · Under 2 minutes</span>
+        <span class="digest-title">⚡ Top 10 Headlines</span>
+        <span class="digest-sub">Latest from Google News</span>
       </div>
       <div class="digest-list" id="digestList"></div>
     </div>
@@ -202,7 +203,8 @@
       <button class="news-cat" data-ncat="personalfinance">Personal Finance</button>
       <button class="news-cat" data-ncat="markets">Markets</button>
     </div>
-    <div id="newsLoadingState" class="loading-state"><span class="spin">📰</span> Loading news…</div>
+    <div id="newsLoadingState" class="news-skeletons hidden" aria-label="Loading news"></div>
+    <div class="news-featured-wrap hidden" id="newsFeatured"></div>
     <div class="news-grid hidden" id="newsGrid"></div>
     <div class="news-disclaimer">⚠️ <strong>Disclaimer:</strong> Headlines from public RSS feeds. Tap any article to read on the original publisher's website.</div>
   </div>
