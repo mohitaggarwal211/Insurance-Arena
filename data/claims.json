@@ -1,0 +1,165 @@
+{
+  "version": "1.0",
+  "claimTypes": [
+    {
+      "id": "life",
+      "title": "Life Insurance Death Claim",
+      "icon": "🛡️",
+      "color": "teal",
+      "intro": "A death claim is made by the nominee when the life insured passes away during the policy term. IRDAI mandates settlement within 30 days of receiving all documents.",
+      "documents": [
+        {"doc": "Original Policy Document", "note": "Physical copy or e-policy printout"},
+        {"doc": "Death Certificate", "note": "Issued by Municipal Corporation / Gram Panchayat — get minimum 5 certified copies"},
+        {"doc": "Claimant's Photo ID", "note": "Aadhaar / PAN / Passport of nominee"},
+        {"doc": "Claim Form (Form A)", "note": "Available on insurer website or branch — fill carefully"},
+        {"doc": "Cancelled Cheque / Bank Passbook", "note": "In nominee's name for direct bank transfer"},
+        {"doc": "Medical Records (if illness)", "note": "Hospital records, doctor's certificate, discharge summary"},
+        {"doc": "Post-mortem Report (if accidental)", "note": "FIR copy + post-mortem report for accidental deaths"},
+        {"doc": "Employer Certificate (if employed)", "note": "Confirming employment and income details"}
+      ],
+      "steps": [
+        {"step": 1, "title": "Notify the Insurer Immediately", "detail": "Call the insurer's claim helpline or visit the nearest branch as soon as possible. Most insurers have a 24×7 toll-free number. Get a claim reference number."},
+        {"step": 2, "title": "Collect the Claim Form", "detail": "Download Form A (claimant statement) from the insurer's website or collect from a branch. Fill all fields accurately — errors cause delays."},
+        {"step": 3, "title": "Arrange All Documents", "detail": "Gather all required documents. Get multiple certified copies of the death certificate — you will need them for multiple submissions including bank, EPF, and insurance."},
+        {"step": 4, "title": "Submit Documents to Insurer", "detail": "Submit at the nearest branch or send via registered post/courier. Keep proof of submission. Many insurers now accept digital submissions through their app."},
+        {"step": 5, "title": "Claim Investigation (if applicable)", "detail": "For claims in the first 3 years (contestability period), the insurer may conduct an investigation. Cooperate fully — this typically takes 5–10 working days."},
+        {"step": 6, "title": "Claim Settlement", "detail": "After all documents are verified, the insurer must settle within 30 days (IRDAI mandate). Amount is credited directly to the nominee's bank account via NEFT."}
+      ],
+      "timeline": "IRDAI mandates: 30 days from receipt of all documents. For investigated claims: 45 days. If delayed beyond this, the insurer must pay interest at 2% above bank rate.",
+      "mistakes": [
+        "Not informing family about the insurance policy — nominee doesn't know a claim exists",
+        "Wrong or outdated nominee details in the policy",
+        "Not collecting enough copies of the death certificate",
+        "Submitting photocopies instead of originals (ask insurer what they accept)",
+        "Missing the free-look period on lapsed policy (check revival status before death)",
+        "Not following up — silence does not mean approval"
+      ],
+      "tips": [
+        "Store policy document + nominee details in a shared family folder (physical and digital)",
+        "Save the insurer's claims helpline in your phone contacts",
+        "Inform your nominee about the policy existence, UIN, and insurer details",
+        "Buy early — claims in year 1 or 2 face more scrutiny than seasoned policies",
+        "Never hide medical history — claim rejection due to non-disclosure is legally valid",
+        "IRDAI Grievance: If claim wrongly rejected, file at bimabharosa.irdai.gov.in"
+      ]
+    },
+    {
+      "id": "health",
+      "title": "Health Insurance Claim",
+      "icon": "🏥",
+      "color": "green",
+      "intro": "Health insurance claims are either Cashless (direct settlement at network hospital) or Reimbursement (you pay first, insurer pays back). Knowing the process ensures faster settlement.",
+      "subtypes": [
+        {
+          "type": "cashless",
+          "title": "Cashless Claim (Network Hospital)",
+          "documents": [
+            {"doc": "Health Insurance Card / E-card", "note": "Download from insurer app before hospitalization"},
+            {"doc": "Photo ID Proof", "note": "Aadhaar / PAN of patient"},
+            {"doc": "Pre-Authorization Form", "note": "Filled by treating doctor and hospital"},
+            {"doc": "Doctor's Advice for Hospitalization", "note": "Written recommendation for admission"}
+          ],
+          "steps": [
+            {"step": 1, "title": "Inform Insurer / TPA", "detail": "For planned hospitalization: inform at least 48–72 hours in advance. For emergencies: inform within 24 hours of admission. Call the TPA's 24×7 helpline."},
+            {"step": 2, "title": "Go to Network Hospital", "detail": "Visit the insurer's empanelled (network) hospital. Non-network hospitals require reimbursement. Check the network list on the insurer's website or app."},
+            {"step": 3, "title": "Show Insurance Card at Hospital's TPA Desk", "detail": "The hospital's insurance desk handles the process. Show your health card, policy number, and photo ID. They fill the pre-authorization form."},
+            {"step": 4, "title": "Pre-Authorization Approval", "detail": "The hospital sends the pre-auth form to TPA. TPA reviews coverage and approves the estimated treatment cost — typically within 2–4 hours for planned cases, faster for emergencies."},
+            {"step": 5, "title": "Get Treated", "detail": "Receive treatment. The insurer covers admissible expenses. Non-admissible expenses (e.g., personal comfort items, administrative charges) are paid by you at discharge."},
+            {"step": 6, "title": "Discharge and Final Settlement", "detail": "Hospital submits final bills to TPA. Insurer settles directly with the hospital. You only pay the non-admissible amounts and any co-payment as per your policy."}
+          ],
+          "timeline": "Pre-authorization: 2–4 hours (planned), 30 minutes (emergency). Final hospital settlement: 2–7 working days after discharge.",
+          "mistakes": [
+            "Going to a non-network hospital for planned treatment and expecting cashless",
+            "Not informing the TPA before or immediately after admission",
+            "Not carrying the health insurance card during hospitalization",
+            "Expecting 100% settlement — non-admissible expenses are always excluded"
+          ],
+          "tips": [
+            "Download your insurer's app and e-health card before you need it",
+            "Save TPA helpline number in your phone contacts as 'Health Insurance TPA'",
+            "Check if your preferred hospital is in the network annually — hospitals exit networks",
+            "Read your policy's list of non-admissible expenses to avoid bill shock at discharge"
+          ]
+        },
+        {
+          "type": "reimbursement",
+          "title": "Reimbursement Claim (Any Hospital)",
+          "documents": [
+            {"doc": "Duly Filled Claim Form", "note": "Download from insurer website"},
+            {"doc": "Original Hospital Bills", "note": "Itemized — cannot be replaced, keep safely"},
+            {"doc": "Discharge Summary", "note": "Doctor's summary of treatment and diagnosis"},
+            {"doc": "Original Prescriptions", "note": "All prescriptions issued during treatment"},
+            {"doc": "Investigation Reports", "note": "Lab reports, X-rays, scan reports with radiologist's note"},
+            {"doc": "Photo ID of Patient", "note": "Aadhaar / PAN"},
+            {"doc": "Cancelled Cheque", "note": "For direct bank transfer"},
+            {"doc": "Previous Policy Documents", "note": "For ported or renewed policies"}
+          ],
+          "steps": [
+            {"step": 1, "title": "Inform Insurer", "detail": "Notify the insurer/TPA of hospitalization as soon as possible, even for reimbursement claims. Many policies require notification within 24–48 hours of admission."},
+            {"step": 2, "title": "Get Treated and Collect ALL Documents", "detail": "Collect every receipt, bill, prescription, and report — originals, not photocopies. Once you leave the hospital, getting duplicate originals is very difficult."},
+            {"step": 3, "title": "Fill the Claim Form Carefully", "detail": "Download the claim form from the insurer's website. Fill all fields accurately — diagnosis, treatment dates, hospital name, doctor's name. Errors delay processing."},
+            {"step": 4, "title": "Submit Within Deadline", "detail": "Submit all documents within the stipulated time (typically 30 days of discharge). Late submissions can be rejected. Submit at branch or via registered courier with proof."},
+            {"step": 5, "title": "TPA Review and Queries", "detail": "TPA reviews documents and may ask for additional information (clarification on diagnosis, missing reports). Respond promptly to avoid delays."},
+            {"step": 6, "title": "Settlement", "detail": "After satisfactory verification, amount is credited to your bank account (minus deductibles, co-payment, non-admissible expenses) within 30 days of document receipt."}
+          ],
+          "timeline": "Settlement within 30 days of receipt of all documents (IRDAI mandate). Interest applies if delayed without reason.",
+          "mistakes": [
+            "Losing original bills — photocopies are not accepted for most insurers",
+            "Missing the submission deadline (usually 30 days from discharge)",
+            "Submitting incomplete forms — always double-check before submitting",
+            "Not keeping copies of everything submitted — you may need them later"
+          ],
+          "tips": [
+            "Photograph all bills and reports before submitting originals — keep digital backups",
+            "Use registered post or courier with tracking for document submission",
+            "Follow up every week after submission — don't assume silence means processing",
+            "If claim is under-settled, you can approach IRDAI or Insurance Ombudsman"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "travel",
+      "title": "Travel Insurance Claim",
+      "icon": "✈️",
+      "color": "amber",
+      "intro": "Travel insurance covers medical emergencies abroad, trip cancellation, baggage loss, and flight delays. Speed of notification is critical — most claims must be reported within 24 hours of incident.",
+      "coverageTypes": ["Medical Emergency Abroad", "Trip Cancellation / Curtailment", "Baggage Loss / Delay", "Flight Delay / Missed Connection", "Passport Loss", "Personal Liability"],
+      "documents": [
+        {"doc": "Travel Insurance Policy", "note": "Digital copy on phone is sufficient abroad"},
+        {"doc": "Passport Copy", "note": "Photo page and visa stamps"},
+        {"doc": "Travel Tickets / Boarding Pass", "note": "Proof of travel dates"},
+        {"doc": "Medical Bills / Reports", "note": "For medical emergency claims — must be in English or translated"},
+        {"doc": "Police FIR", "note": "For theft, baggage loss, or passport loss"},
+        {"doc": "Airline Delay Certificate", "note": "From airline counter for delay / lost baggage claims"},
+        {"doc": "Tour Cancellation Letter", "note": "From tour operator for trip cancellation claims"},
+        {"doc": "Cancelled Cheque", "note": "For settlement in your bank account"}
+      ],
+      "steps": [
+        {"step": 1, "title": "Save the Emergency Helpline BEFORE Travelling", "detail": "Every travel insurance policy has a 24×7 international emergency helpline. Save this number in your phone and carry it written on paper before you travel."},
+        {"step": 2, "title": "Report Incident Within 24 Hours", "detail": "For medical emergencies, trip cancellations, or theft — report to the insurer's helpline within 24 hours. Delayed reporting can lead to claim rejection."},
+        {"step": 3, "title": "Collect All Evidence and Documents", "detail": "For medical: get itemized bills and reports. For theft: get police FIR within 24 hours of incident. For flight delay: get airline's delay certificate. Evidence collected at the time is irreplaceable."},
+        {"step": 4, "title": "For Medical Emergencies — Cashless if Available", "detail": "Many travel insurers have a network of hospitals abroad. If cashless is available, present your policy details to the hospital. They coordinate with the insurer directly."},
+        {"step": 5, "title": "Submit Claim on Return (or Online While Abroad)", "detail": "Submit all documents along with the filled claim form. Most insurers accept online submissions. Deadline is typically 30–45 days from return date."},
+        {"step": 6, "title": "Settlement in INR", "detail": "Settlement is done in INR at the exchange rate applicable on the date of incident or settlement date (check policy). Direct bank transfer to your account."}
+      ],
+      "timeline": "Notification: Within 24 hours of incident. Document submission: 30–45 days after return. Settlement: 30 days from receipt of complete documents.",
+      "mistakes": [
+        "Not saving the insurer's emergency helpline before travelling",
+        "Not reading the policy exclusions — pre-existing conditions, adventure sports, war zones are typically excluded",
+        "Buying too late — many policies don't cover events that arise after purchase (check terms)",
+        "Not filing a police FIR for theft or loss — insurer will reject without it",
+        "Losing flight delay certificates at the airport — ask airlines specifically for written delay certificates",
+        "Not declaring pre-existing conditions at time of purchase"
+      ],
+      "tips": [
+        "Buy travel insurance the day you book your tickets — covers trip cancellation from day 1",
+        "Screenshot your policy and save the emergency number on your phone",
+        "For senior travellers: ensure the policy covers pre-existing conditions explicitly",
+        "Adventure sports (trekking, scuba, skiing) require specific add-on cover — don't assume",
+        "Check the sum insured for medical expenses — minimum $50,000 recommended for USA/Europe",
+        "Keep a written note of policy number and helpline in your wallet separate from phone"
+      ]
+    }
+  ]
+}
