@@ -625,3 +625,46 @@ a:hover{text-decoration:underline}
 .nfb-updated{font-size:10px;color:var(--g600)}
 
 .digest-meta{font-size:9px;color:var(--g600);margin-top:3px}
+
+/* ══════════════════════════════════
+   NEWS UX IMPROVEMENTS
+   Status Bar · Featured · Skeleton
+══════════════════════════════════ */
+
+/* ── NEWS STATUS BAR ── */
+.news-status-bar{display:flex;align-items:center;justify-content:space-between;gap:8px;background:rgba(0,212,180,0.05);border:1px solid rgba(0,212,180,0.15);border-radius:var(--r-sm);padding:8px 12px;margin-bottom:14px;font-size:11px;flex-wrap:wrap;gap:6px}
+.nsb-left{display:flex;align-items:center;gap:6px;color:var(--g400)}
+.nsb-dot{width:7px;height:7px;border-radius:50%;background:var(--teal);flex-shrink:0;box-shadow:0 0 0 3px rgba(0,212,180,0.15)}
+.nsb-count{color:var(--white);font-weight:600}
+.nsb-sep{color:var(--g600)}
+.nsb-cats{color:var(--g400)}
+.nsb-right{font-size:10px;color:var(--g600);white-space:nowrap}
+
+/* ── FEATURED STORY CARD ── */
+.news-featured-wrap{margin-bottom:16px}
+.news-card-featured{background:var(--bg-card);border:1px solid var(--bg-border);border-left:3px solid var(--teal);border-radius:var(--r-md);padding:16px;transition:var(--tr)}
+.news-card-featured:hover{border-color:var(--teal);box-shadow:var(--sh-hover)}
+.ncf-label{font-size:8px;font-weight:700;color:var(--teal);text-transform:uppercase;letter-spacing:.1em;margin-bottom:8px}
+.ncf-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px}
+.ncf-title{font-family:var(--font-d);font-size:15px;font-weight:700;color:var(--white);line-height:1.35;margin-bottom:8px;text-decoration:none;display:block}
+.ncf-title:hover{color:var(--teal)}
+.ncf-summary{font-size:12px;color:var(--g200);line-height:1.65;margin-bottom:12px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.ncf-footer{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px}
+.ncf-meta{font-size:10px;color:var(--g400)}
+.ncf-meta strong{color:var(--white)}
+.ncf-read{background:var(--teal);color:var(--bg);font-size:11px;font-weight:700;padding:7px 16px;border-radius:99px;text-decoration:none;transition:var(--tr);white-space:nowrap;display:inline-block}
+.ncf-read:hover{background:var(--teal-dim);text-decoration:none;color:var(--bg)}
+
+/* ── SKELETON LOADING CARDS ── */
+.news-skeletons{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px;margin-bottom:16px}
+.skel-card{background:var(--bg-card);border:1px solid var(--bg-border);border-radius:var(--r-md);padding:14px;overflow:hidden}
+.skel{background:linear-gradient(90deg,rgba(255,255,255,.04) 25%,rgba(255,255,255,.08) 50%,rgba(255,255,255,.04) 75%);background-size:200% 100%;animation:shimmer 1.6s ease-in-out infinite;border-radius:4px}
+.skel-row1{height:8px;width:40%;margin-bottom:10px}
+.skel-row2{height:12px;width:90%;margin-bottom:6px}
+.skel-row3{height:12px;width:75%;margin-bottom:12px}
+.skel-row4{height:9px;width:55%;margin-bottom:6px}
+.skel-row5{height:9px;width:40%}
+.skel-footer{display:flex;justify-content:space-between;margin-top:14px}
+.skel-date{height:8px;width:30%}
+.skel-btn{height:24px;width:28%;border-radius:99px}
+@keyframes shimmer{0%{background-position:200% 0}100%{background-position:-200% 0}}
