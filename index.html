@@ -381,18 +381,15 @@
     <div class="tool-panel" id="tool-ulip">
       <div class="tool-card">
         <div class="tool-card-title">ULIP Projection Calculator</div>
-        <div class="tool-card-sub">Estimate ULIP fund value after charges — illustration only</div>
+        <div class="tool-card-sub">Estimate how your ULIP investment can grow over time</div>
         <div class="calc-grid">
           <div class="calc-field"><label>Annual Premium (₹)</label><input type="number" id="ulip-premium" placeholder="e.g. 100000"/></div>
           <div class="calc-field"><label>Policy Term (Years)</label><input type="number" id="ulip-term" placeholder="e.g. 15"/></div>
-          <div class="calc-field"><label>Expected Return (%/yr)</label><input type="number" id="ulip-return" value="10"/></div>
-          <div class="calc-field"><label>Equity Allocation (%)</label><input type="number" id="ulip-equity" value="80"/></div>
-          <div class="calc-field"><label>FMC (%/yr)</label><input type="number" id="ulip-fmc" value="1.35" step="0.05"/></div>
-          <div class="calc-field"><label>Admin + Mortality (₹/yr)</label><input type="number" id="ulip-charges" placeholder="e.g. 3600"/></div>
+          <div class="calc-field"><label>Expected Annual Return (%)</label><input type="number" id="ulip-return" value="10"/></div>
         </div>
         <button class="calc-btn" onclick="calcULIP()">Project Fund Value</button>
         <div class="calc-result hidden" id="ulip-result"></div>
-        <div class="calc-note">⚠️ Returns are illustrative only and not guaranteed.</div>
+        <div class="calc-note">⚠️ Returns are illustrative only and not guaranteed. Actual returns depend on market performance and charges applicable.</div>
       </div>
     </div>
     <div class="tools-disclaimer">
