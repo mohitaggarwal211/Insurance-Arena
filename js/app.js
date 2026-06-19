@@ -41,43 +41,6 @@ function safeUrl(u){
   if(!t.startsWith('http://') && !t.startsWith('https://')) return null;
   try{ new URL(t); return t; }catch(e){ return null; }
 }
-// isArticleUrl: validates URL is a real article, not search/homepage/category
-function isArticleUrl(url){
-  if(!url||typeof url!=='string') return false;
-  const u=url.trim();
-  if(!u.startsWith('https://')) return false;
-  try{
-    const parsed=new URL(u);
-    const p=parsed.pathname.toLowerCase();
-    const s=parsed.search.toLowerCase();
-    const h=parsed.hostname.toLowerCase();
-    // Reject: Google search pages
-    if(u.includes('news.google.com/search')) return false;
-    if(p==='/search') return false;
-    // Reject: q= search params ONLY (not PRID=, not other params)
-    if(s.startsWith('?q=')&&h!=='news.google.com') return false;
-    // Reject: homepage (no path)
-    const clean=p.replace(/\/+$/,'');
-    if(!clean||clean==='') return false;
-    // Reject: category/tag patterns
-    if(['/tag/','/author/','/page/','/category/','/topics/'].some(x=>p.includes(x))) return false;
-    // Get path segments
-    const segs=clean.split('/').filter(s=>s.length>0);
-    // Single segment: only accept if it has hyphens (article slug) or a number
-    if(segs.length===1){
-      const seg=segs[0];
-      if(!seg.includes('-')&&!/\d{5,}/.test(seg)) return false;
-    }
-    // Two segments: require last to look like an article
-    if(segs.length===2){
-      const last=segs[1];
-      if(!last.includes('-')&&!/\d{4,}/.test(last)&&last.length<20) return false;
-    }
-    // Single segment with query params (e.g. PIB ?PRID=): accept if has real params
-    if(segs.length===1&&s.length>3&&!s.startsWith('?q=')) return true;
-    return segs.length>=1;
-  }catch(e){ return false; }
-}
 function fmtCr(n){
   if(n>=10000000) return '₹'+(n/10000000).toFixed(2)+' Cr';
   if(n>=100000) return '₹'+(n/100000).toFixed(2)+' L';
@@ -313,94 +276,111 @@ document.querySelectorAll('.filter-btn').forEach(btn=>btn.addEventListener('clic
 function resetFilters(){ activeFilter='all';activeSearch='';activeSort='default';document.getElementById('searchInput').value='';document.getElementById('sortSelect').value='default';document.querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active'));document.querySelector('[data-filter="all"]').classList.add('active');renderPlans(); }
 
 // ════════════════════════════════════════
-// NEWS SECTION
+// NEWS SECTION v6 — Google News RSS only
+// Opens actual articles (direct publisher URL
+// or Google News redirect — never search pages)
 // ════════════════════════════════════════
-// FALLBACK_NEWS intentionally empty — no fake/search URLs ever shown
-// Real articles come from GitHub Actions (7 AM + 4 PM IST) via Google News RSS
-// isArticleUrl() ensures only article-level URLs are displayed
-const FALLBACK_NEWS = [];
 
 async function loadNews(){
   document.getElementById('newsLoadingState').classList.remove('hidden');
   document.getElementById('newsGrid').classList.add('hidden');
   document.getElementById('newsDateDisplay').textContent=today();
   try{
-    const res=await fetch('./data/news.json');
-    if(res.ok){
-      const data=await res.json();
-      allNewsData=(data.articles&&data.articles.length>5)?data.articles:FALLBACK_NEWS;
-      if(data.lastUpdated){
-        const u=new Date(data.lastUpdated);
-        const t=u.toLocaleTimeString('en-IN',{hour:'2-digit',minute:'2-digit',hour12:true});
-        const el=document.getElementById('newsUpdateTime');
-        if(el) el.textContent='Updated '+t;
-        document.getElementById('newsDateDisplay').textContent=u.toLocaleDateString('en-IN',{day:'numeric',month:'long',year:'numeric'});
-      }
-    } else throw new Error('fetch failed');
-  }catch(e){ allNewsData=FALLBACK_NEWS; }
+    const res=await fetch('./data/news.json?t='+Date.now()); // cache-bust
+    if(!res.ok) throw new Error('HTTP '+res.status);
+    const data=await res.json();
+    allNewsData=(data.articles||[]).filter(isValidArticle);
+    renderFreshnessBadge(data);
+  }catch(e){
+    allNewsData=[];
+  }
   document.getElementById('newsLoadingState').classList.add('hidden');
   document.getElementById('newsGrid').classList.remove('hidden');
   renderNewsDigest();
   renderNews();
-  renderFreshnessBadge(data);
 }
 
-function renderNewsDigest(){
-  const top5=allNewsData.filter(n=>safeUrl(n.url)).slice(0,5);
-  const el=document.getElementById('newsDigest');
-  const list=document.getElementById('digestList');
-  if(!el||!list||top5.length===0){ if(el) el.classList.add('hidden'); return; }
-  el.classList.remove('hidden');
-  const catLabel={insurance:'Insurance',irdai:'IRDAI',mutualfunds:'Mutual Funds',tax:'Tax',banking:'Banking',personalfinance:'Personal Finance',markets:'Markets'};
-  list.innerHTML=top5.map((n,i)=>`<div class="digest-item">
-    <span class="digest-num">${i+1}</span>
-    <div class="digest-body">
-      <div class="digest-cat">${catLabel[n.category]||n.category||'NEWS'}</div>
-      <a class="digest-headline" href="${safeUrl(n.url)}" target="_blank" rel="noopener noreferrer">${san(n.title)}</a>
-    </div></div>`).join('');
+// Runtime validation — discard anything broken
+function isValidArticle(a){
+  if(!a||!a.title||a.title.length<8) return false;
+  if(!a.source||!a.url) return false;
+  if(typeof a.url!=='string'||!a.url.startsWith('https://')) return false;
+  if(a.url.includes('news.google.com/search')) return false; // never a search page
+  try{ new URL(a.url); return true; }catch(e){ return false; }
 }
 
 function getFilteredNews(){
   let list=activeNewsCat==='all'?allNewsData:allNewsData.filter(n=>n.category===activeNewsCat);
-  if(activeNewsSearch){ const words=activeNewsSearch.toLowerCase().split(/\s+/).filter(Boolean); list=list.filter(n=>{const h=(n.title+' '+n.summary+' '+n.source).toLowerCase();return words.every(w=>h.includes(w));}); }
-  return list.filter(n=>isArticleUrl(n.url));
+  if(activeNewsSearch){
+    const words=activeNewsSearch.toLowerCase().split(/\s+/).filter(Boolean);
+    list=list.filter(n=>{const h=(n.title+' '+n.summary+' '+n.source).toLowerCase();return words.every(w=>h.includes(w));});
+  }
+  return list.filter(isValidArticle);
+}
+
+// Top 10 latest headlines digest
+function renderNewsDigest(){
+  const top=allNewsData.filter(isValidArticle).slice(0,10);
+  const el=document.getElementById('newsDigest');
+  const list=document.getElementById('digestList');
+  if(!el||!list||top.length===0){ if(el) el.classList.add('hidden'); return; }
+  el.classList.remove('hidden');
+  const catLabel={insurance:'Insurance',irdai:'IRDAI',mutualfunds:'Mutual Funds',tax:'Tax',banking:'Banking',personalfinance:'Personal Finance',markets:'Markets'};
+  list.innerHTML=top.map((n,i)=>`<div class="digest-item">
+    <span class="digest-num">${i+1}</span>
+    <div class="digest-body">
+      <div class="digest-cat">${catLabel[n.category]||n.category}</div>
+      <a class="digest-headline" href="${n.url}" target="_blank" rel="noopener noreferrer">${san(n.title)}</a>
+      <div class="digest-meta">${san(n.source)} · ${n.publishedAt?relativeDate(n.publishedAt):''}</div>
+    </div></div>`).join('');
 }
 
 function renderNews(){
   const filtered=getFilteredNews();
   const catLabel={insurance:'INSURANCE',irdai:'IRDAI',mutualfunds:'MUTUAL FUNDS',tax:'TAX',banking:'BANKING',personalfinance:'PERSONAL FINANCE',markets:'MARKETS'};
   if(filtered.length===0){
-    const isSearching = activeNewsSearch || activeNewsCat!=='all';
-    document.getElementById('newsGrid').innerHTML=isSearching
+    const searching=activeNewsSearch||activeNewsCat!=='all';
+    document.getElementById('newsGrid').innerHTML=searching
       ? '<div class="news-empty-state"><div class="nes-icon">🔍</div><div class="nes-title">No articles match your filter</div><div class="nes-text">Try a different category or clear the search.</div></div>'
-      : '<div class="news-empty-state"><div class="nes-icon">📰</div><div class="nes-title">News Refreshing Soon</div><div class="nes-text">Articles auto-update at <strong>7 AM</strong> and <strong>4 PM IST</strong> daily.</div><div class="nes-sub">To load articles now: GitHub → Actions → <em>Fetch Finance &amp; Insurance News</em> → Run workflow</div></div>';
+      : '<div class="news-empty-state"><div class="nes-icon">📰</div><div class="nes-title">News Refreshing Soon</div><div class="nes-text">Articles auto-update at <strong>7 AM</strong> and <strong>4 PM IST</strong>.</div></div>';
     return;
   }
   const bm=getBM();
   document.getElementById('newsGrid').innerHTML=filtered.map(n=>{
-    const url=n.url; // already validated by isArticleUrl() in getFilteredNews
     const isBm=bm.articles.some(a=>a.url===n.url);
     return `<div class="news-card">
       <div class="news-card-top">
         <span class="news-source">📰 ${san(n.source)}</span>
         <span class="news-cat-badge ${n.category||'insurance'}">${catLabel[n.category]||'NEWS'}</span>
       </div>
-      <a class="news-title-link" href="${url}" target="_blank" rel="noopener noreferrer">${san(n.title)}</a>
+      <a class="news-title-link" href="${n.url}" target="_blank" rel="noopener noreferrer">${san(n.title)}</a>
       <div class="news-summary">${san(n.summary)}</div>
       <div class="news-footer">
-        <span class="news-date">${n.publishedAt?relativeDate(n.publishedAt):san(n.date||'')}</span>
+        <span class="news-date">${n.publishedAt?relativeDate(n.publishedAt):''}</span>
         <div style="display:flex;align-items:center;gap:6px">
-          <button class="bm-icon${isBm?' saved':''}" onclick="handleArticleBM('${url}','${n.title.replace(/'/g,"\\'")}','${n.source}')" title="${isBm?'Remove bookmark':'Save article'}">🔖</button>
-          <a class="news-read-btn" href="${url}" target="_blank" rel="noopener noreferrer">Read →</a>
+          <button class="bm-icon${isBm?' saved':''}" onclick="handleArticleBM('${n.url.replace(/'/g,"\\'")}','${n.title.replace(/'/g,"\\'")}','${n.source.replace(/'/g,"\\'")}')" title="${isBm?'Remove bookmark':'Save article'}">🔖</button>
+          <a class="news-read-btn" href="${n.url}" target="_blank" rel="noopener noreferrer">Read full article →</a>
         </div>
       </div>
     </div>`;
   }).join('');
 }
-function handleArticleBM(url,title,source){ const saved=toggleBMArticle(url,title,source); renderNews(); }
 
-document.querySelectorAll('.news-cat').forEach(btn=>btn.addEventListener('click',()=>{document.querySelectorAll('.news-cat').forEach(b=>b.classList.remove('active'));btn.classList.add('active');activeNewsCat=btn.dataset.ncat;renderNews();}));
-document.getElementById('newsSearch').addEventListener('input',function(){ activeNewsSearch=this.value.trim(); document.getElementById('newsSearchClear').classList.toggle('hidden',!activeNewsSearch); renderNews(); });
+function handleArticleBM(url,title,source){ toggleBMArticle(url,title,source); renderNews(); }
+
+// Category filter
+document.querySelectorAll('.news-cat').forEach(btn=>btn.addEventListener('click',()=>{
+  document.querySelectorAll('.news-cat').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  activeNewsCat=btn.dataset.ncat;
+  renderNews();
+}));
+// Search
+document.getElementById('newsSearch').addEventListener('input',function(){
+  activeNewsSearch=this.value.trim();
+  document.getElementById('newsSearchClear').classList.toggle('hidden',!activeNewsSearch);
+  renderNews();
+});
 function clearNewsSearch(){ activeNewsSearch='';document.getElementById('newsSearch').value='';document.getElementById('newsSearchClear').classList.add('hidden');renderNews(); }
 
 // ════════════════════════════════════════
