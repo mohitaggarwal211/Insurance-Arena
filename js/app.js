@@ -41,6 +41,43 @@ function safeUrl(u){
   if(!t.startsWith('http://') && !t.startsWith('https://')) return null;
   try{ new URL(t); return t; }catch(e){ return null; }
 }
+// isArticleUrl: validates URL is a real article, not search/homepage/category
+function isArticleUrl(url){
+  if(!url||typeof url!=='string') return false;
+  const u=url.trim();
+  if(!u.startsWith('https://')) return false;
+  try{
+    const parsed=new URL(u);
+    const p=parsed.pathname.toLowerCase();
+    const s=parsed.search.toLowerCase();
+    const h=parsed.hostname.toLowerCase();
+    // Reject: Google search pages
+    if(u.includes('news.google.com/search')) return false;
+    if(p==='/search') return false;
+    // Reject: q= search params ONLY (not PRID=, not other params)
+    if(s.startsWith('?q=')&&h!=='news.google.com') return false;
+    // Reject: homepage (no path)
+    const clean=p.replace(/\/+$/,'');
+    if(!clean||clean==='') return false;
+    // Reject: category/tag patterns
+    if(['/tag/','/author/','/page/','/category/','/topics/'].some(x=>p.includes(x))) return false;
+    // Get path segments
+    const segs=clean.split('/').filter(s=>s.length>0);
+    // Single segment: only accept if it has hyphens (article slug) or a number
+    if(segs.length===1){
+      const seg=segs[0];
+      if(!seg.includes('-')&&!/\d{5,}/.test(seg)) return false;
+    }
+    // Two segments: require last to look like an article
+    if(segs.length===2){
+      const last=segs[1];
+      if(!last.includes('-')&&!/\d{4,}/.test(last)&&last.length<20) return false;
+    }
+    // Single segment with query params (e.g. PIB ?PRID=): accept if has real params
+    if(segs.length===1&&s.length>3&&!s.startsWith('?q=')) return true;
+    return segs.length>=1;
+  }catch(e){ return false; }
+}
 function fmtCr(n){
   if(n>=10000000) return '₹'+(n/10000000).toFixed(2)+' Cr';
   if(n>=100000) return '₹'+(n/100000).toFixed(2)+' L';
@@ -278,28 +315,10 @@ function resetFilters(){ activeFilter='all';activeSearch='';activeSort='default'
 // ════════════════════════════════════════
 // NEWS SECTION
 // ════════════════════════════════════════
-const FALLBACK_NEWS=[
-  {title:"IRDAI raises health insurance sum insured limits for standard products",source:"Google News",category:"irdai",publishedAt:new Date(Date.now()-0).toISOString(),summary:"The insurance regulator revised guidelines for standard health insurance products, increasing minimum sum insured thresholds to improve policyholder protection.",url:"https://news.google.com/search?q=IRDAI+health+insurance+sum+insured&hl=en-IN&gl=IN&ceid=IN:en"},
-  {title:"Life insurance new business premium grows 18% year-on-year in FY25",source:"Google News",category:"insurance",publishedAt:new Date(Date.now()-2*86400000).toISOString(),summary:"The life insurance sector recorded robust growth, driven by strong performance from both LIC and private insurers in the last fiscal year.",url:"https://news.google.com/search?q=life+insurance+new+business+premium+FY25&hl=en-IN&gl=IN&ceid=IN:en"},
-  {title:"Term insurance premiums expected to rise as global reinsurers revise rates",source:"Google News",category:"insurance",publishedAt:new Date(Date.now()-3*86400000).toISOString(),summary:"Global reinsurance costs are increasing, which may lead to marginal premium hikes in term insurance plans across major insurers.",url:"https://news.google.com/search?q=term+insurance+premium+reinsurer+india&hl=en-IN&gl=IN&ceid=IN:en"},
-  {title:"IRDAI circular on health insurance portability — new guidelines effective",source:"Google News",category:"irdai",publishedAt:new Date(Date.now()-4*86400000).toISOString(),summary:"IRDAI issued a comprehensive circular updating health insurance portability norms, making it easier to switch insurers without losing waiting period credit.",url:"https://news.google.com/search?q=IRDAI+health+insurance+portability+circular&hl=en-IN&gl=IN&ceid=IN:en"},
-  {title:"RBI keeps repo rate unchanged — impact on insurance investment returns",source:"Google News",category:"banking",publishedAt:new Date(Date.now()-4*86400000).toISOString(),summary:"The RBI kept repo rate unchanged. This affects insurance company investment portfolios and long-term policy pricing strategies.",url:"https://news.google.com/search?q=RBI+repo+rate+insurance+investment&hl=en-IN&gl=IN&ceid=IN:en"},
-  {title:"RBI monetary policy — interest rates, inflation and credit growth outlook",source:"Google News",category:"banking",publishedAt:new Date(Date.now()-5*86400000).toISOString(),summary:"Key highlights from the latest RBI monetary policy committee meeting including decisions on interest rates and inflation outlook.",url:"https://news.google.com/search?q=RBI+monetary+policy+interest+rate&hl=en-IN&gl=IN&ceid=IN:en"},
-  {title:"Bank FD rates 2025 — comparing fixed deposits vs insurance endowment plans",source:"Google News",category:"banking",publishedAt:new Date(Date.now()-6*86400000).toISOString(),summary:"A comparison of top bank FD rates against insurance endowment plan returns to help investors make informed decisions.",url:"https://news.google.com/search?q=bank+FD+rates+vs+insurance+endowment+2025&hl=en-IN&gl=IN&ceid=IN:en"},
-  {title:"ELSS vs Term Insurance — which gives better tax benefit under Section 80C",source:"Google News",category:"tax",publishedAt:new Date(Date.now()-5*86400000).toISOString(),summary:"A comparison of tax benefits under Section 80C through ELSS mutual funds versus life insurance premium payments.",url:"https://news.google.com/search?q=ELSS+vs+term+insurance+section+80C+tax&hl=en-IN&gl=IN&ceid=IN:en"},
-  {title:"SBI Mutual Fund launches new debt fund for conservative investors",source:"Google News",category:"mutualfunds",publishedAt:new Date(Date.now()-5*86400000).toISOString(),summary:"SBI Mutual Fund launched a new debt offering targeting conservative investors. Planners suggest pairing it with term insurance.",url:"https://news.google.com/search?q=SBI+mutual+fund+debt+fund+2025&hl=en-IN&gl=IN&ceid=IN:en"},
-  {title:"PM-JAY Ayushman Bharat expanded to cover all senior citizens above 70",source:"Google News",category:"insurance",publishedAt:new Date(Date.now()-7*86400000).toISOString(),summary:"The government announced expansion of Ayushman Bharat PM-JAY to cover all senior citizens above 70, providing Rs 5 lakh cover free.",url:"https://news.google.com/search?q=PMJAY+Ayushman+Bharat+senior+citizens+70&hl=en-IN&gl=IN&ceid=IN:en"},
-  {title:"GST on insurance premiums — government reviews exemption for policies",source:"Google News",category:"tax",publishedAt:new Date(Date.now()-7*86400000).toISOString(),summary:"The government is examining the current GST structure on insurance premiums following representations from industry groups.",url:"https://news.google.com/search?q=GST+insurance+premium+exemption+india&hl=en-IN&gl=IN&ceid=IN:en"},
-  {title:"Best mutual funds for 2025 — SIP strategy for long-term wealth creation",source:"Google News",category:"mutualfunds",publishedAt:new Date(Date.now()-7*86400000).toISOString(),summary:"A comprehensive guide to mutual fund selection for 2025, with recommendations for building long-term wealth through SIPs.",url:"https://news.google.com/search?q=best+mutual+funds+SIP+2025+india&hl=en-IN&gl=IN&ceid=IN:en"},
-  {title:"How to build an emergency fund while paying insurance premiums",source:"Google News",category:"personalfinance",publishedAt:new Date(Date.now()-7*86400000).toISOString(),summary:"Financial planning guide explaining how to balance maintaining adequate emergency funds while keeping up insurance payments.",url:"https://news.google.com/search?q=emergency+fund+insurance+premium+india&hl=en-IN&gl=IN&ceid=IN:en"},
-  {title:"LIC posts highest-ever new business premium collection in FY 2024-25",source:"Google News",category:"insurance",publishedAt:new Date(Date.now()-10*86400000).toISOString(),summary:"Life Insurance Corporation recorded its highest-ever new business premium in FY25, consolidating market leadership.",url:"https://news.google.com/search?q=LIC+new+business+premium+FY25+record&hl=en-IN&gl=IN&ceid=IN:en"},
-  {title:"Health insurance claim settlement ratio improves across industry in FY25",source:"Google News",category:"insurance",publishedAt:new Date(Date.now()-10*86400000).toISOString(),summary:"IRDAI data shows improvement in health insurance claim settlement ratios, with several private insurers surpassing 98%.",url:"https://news.google.com/search?q=health+insurance+claim+settlement+ratio+FY25&hl=en-IN&gl=IN&ceid=IN:en"},
-  {title:"Income tax — maximising deductions under Section 80C and 80D on insurance",source:"Google News",category:"tax",publishedAt:new Date(Date.now()-14*86400000).toISOString(),summary:"Guide to claiming maximum income tax deductions on life insurance under Section 80C and health insurance under Section 80D.",url:"https://news.google.com/search?q=income+tax+section+80C+80D+insurance+deduction&hl=en-IN&gl=IN&ceid=IN:en"},
-  {title:"Sensex at 80000 — how equity market rally affects ULIP policyholders",source:"Google News",category:"markets",publishedAt:new Date(Date.now()-14*86400000).toISOString(),summary:"Analysis of how the strong equity market performance impacts ULIP policyholders and fund allocation strategies.",url:"https://news.google.com/search?q=sensex+80000+ULIP+equity+market&hl=en-IN&gl=IN&ceid=IN:en"},
-  {title:"Why term insurance must come before any investment — financial basics",source:"Google News",category:"personalfinance",publishedAt:new Date(Date.now()-14*86400000).toISOString(),summary:"Why financial planners unanimously recommend buying adequate term insurance before making any investment.",url:"https://news.google.com/search?q=term+insurance+before+investment+financial+planning&hl=en-IN&gl=IN&ceid=IN:en"},
-  {title:"Critical illness insurance — IRDAI standardises list of covered conditions",source:"Google News",category:"irdai",publishedAt:new Date(Date.now()-21*86400000).toISOString(),summary:"IRDAI mandated a standard list of critical illnesses covered by all CI policies, bringing uniformity for buyers.",url:"https://news.google.com/search?q=IRDAI+critical+illness+standard+list&hl=en-IN&gl=IN&ceid=IN:en"},
-  {title:"NPS vs PPF vs Insurance — retirement planning for salaried professionals",source:"Google News",category:"personalfinance",publishedAt:new Date(Date.now()-21*86400000).toISOString(),summary:"Detailed comparison of National Pension System, PPF, and insurance pension plans for salaried employees.",url:"https://news.google.com/search?q=NPS+PPF+insurance+retirement+planning+india&hl=en-IN&gl=IN&ceid=IN:en"},
-];
+// FALLBACK_NEWS intentionally empty — no fake/search URLs ever shown
+// Real articles come from GitHub Actions (7 AM + 4 PM IST) via Google News RSS
+// isArticleUrl() ensures only article-level URLs are displayed
+const FALLBACK_NEWS = [];
 
 async function loadNews(){
   document.getElementById('newsLoadingState').classList.remove('hidden');
@@ -323,13 +342,14 @@ async function loadNews(){
   document.getElementById('newsGrid').classList.remove('hidden');
   renderNewsDigest();
   renderNews();
+  renderFreshnessBadge(data);
 }
 
 function renderNewsDigest(){
   const top5=allNewsData.filter(n=>safeUrl(n.url)).slice(0,5);
   const el=document.getElementById('newsDigest');
   const list=document.getElementById('digestList');
-  if(!el||!list||top5.length===0) return;
+  if(!el||!list||top5.length===0){ if(el) el.classList.add('hidden'); return; }
   el.classList.remove('hidden');
   const catLabel={insurance:'Insurance',irdai:'IRDAI',mutualfunds:'Mutual Funds',tax:'Tax',banking:'Banking',personalfinance:'Personal Finance',markets:'Markets'};
   list.innerHTML=top5.map((n,i)=>`<div class="digest-item">
@@ -343,16 +363,22 @@ function renderNewsDigest(){
 function getFilteredNews(){
   let list=activeNewsCat==='all'?allNewsData:allNewsData.filter(n=>n.category===activeNewsCat);
   if(activeNewsSearch){ const words=activeNewsSearch.toLowerCase().split(/\s+/).filter(Boolean); list=list.filter(n=>{const h=(n.title+' '+n.summary+' '+n.source).toLowerCase();return words.every(w=>h.includes(w));}); }
-  return list.filter(n=>safeUrl(n.url));
+  return list.filter(n=>isArticleUrl(n.url));
 }
 
 function renderNews(){
   const filtered=getFilteredNews();
   const catLabel={insurance:'INSURANCE',irdai:'IRDAI',mutualfunds:'MUTUAL FUNDS',tax:'TAX',banking:'BANKING',personalfinance:'PERSONAL FINANCE',markets:'MARKETS'};
-  if(filtered.length===0){ document.getElementById('newsGrid').innerHTML='<div class="news-no-results">No articles found.</div>'; return; }
+  if(filtered.length===0){
+    const isSearching = activeNewsSearch || activeNewsCat!=='all';
+    document.getElementById('newsGrid').innerHTML=isSearching
+      ? '<div class="news-empty-state"><div class="nes-icon">🔍</div><div class="nes-title">No articles match your filter</div><div class="nes-text">Try a different category or clear the search.</div></div>'
+      : '<div class="news-empty-state"><div class="nes-icon">📰</div><div class="nes-title">News Refreshing Soon</div><div class="nes-text">Articles auto-update at <strong>7 AM</strong> and <strong>4 PM IST</strong> daily.</div><div class="nes-sub">To load articles now: GitHub → Actions → <em>Fetch Finance &amp; Insurance News</em> → Run workflow</div></div>';
+    return;
+  }
   const bm=getBM();
   document.getElementById('newsGrid').innerHTML=filtered.map(n=>{
-    const url=safeUrl(n.url);
+    const url=n.url; // already validated by isArticleUrl() in getFilteredNews
     const isBm=bm.articles.some(a=>a.url===n.url);
     return `<div class="news-card">
       <div class="news-card-top">
@@ -381,14 +407,21 @@ function clearNewsSearch(){ activeNewsSearch='';document.getElementById('newsSea
 // LEARNING SECTION — Topics + Dict + Claims
 // ════════════════════════════════════════
 
-// Learning sub-tabs
-document.querySelectorAll('.learn-sub-tab').forEach(btn=>{
+// Learning segment control
+const learnTabDesc = {
+  topics: '147 topics · Quiz every concept · Track progress',
+  dictionary: '61 insurance terms · Searchable · Definitions + Examples',
+  claims: 'Life · Health · Travel claim process guides',
+};
+document.querySelectorAll('.learn-seg').forEach(btn=>{
   btn.addEventListener('click',()=>{
     activeLearnTab=btn.dataset.ltab;
-    document.querySelectorAll('.learn-sub-tab').forEach(b=>b.classList.remove('active'));
+    document.querySelectorAll('.learn-seg').forEach(b=>b.classList.remove('active'));
     document.querySelectorAll('.learn-panel').forEach(p=>p.classList.remove('active'));
     btn.classList.add('active');
     document.getElementById('lpanel-'+activeLearnTab).classList.add('active');
+    const desc=document.getElementById('learnTabDesc');
+    if(desc) desc.textContent=learnTabDesc[activeLearnTab]||'';
     if(activeLearnTab==='topics' && !learnLoaded) loadLearnContent();
     if(activeLearnTab==='dictionary' && !dictLoaded) loadDictionary();
     if(activeLearnTab==='claims' && !claimsLoaded) loadClaims();
@@ -783,20 +816,55 @@ function calcEMI(){
   amEl.innerHTML=`<div class="amort-title">Year-wise Amortization</div><div style="overflow-x:auto"><table class="amort-table"><thead><tr><th>Year</th><th>Principal</th><th>Interest</th><th>Balance</th></tr></thead><tbody>${rows}</tbody></table></div>`;
 }
 
-// ── ULIP CALCULATOR (simplified) ──
+// ── ULIP CALCULATOR — PPT + FMC + Year-wise Projection ──
 function calcULIP(){
-  const premium=getVal('ulip-premium'),term=getVal('ulip-term'),retRate=getVal('ulip-return')/100;
-  if(!premium||!term||!retRate){showCalcError('ulip-result','Please fill all fields.');return;}
-  // FV of annuity due: premiums paid at start of each year
-  const fv=premium*(1+retRate)*((Math.pow(1+retRate,term)-1)/retRate);
-  const totalPremium=premium*term,gain=fv-totalPremium;
-  showCalcResult('ulip-result',fmtCr(Math.round(fv)),'Estimated Fund Value at Maturity',[
-    ['Total Premium Paid',fmtCr(totalPremium)],
-    ['Estimated Fund Value',fmtCr(Math.round(fv))],
-    ['Estimated Gain',fmtCr(Math.round(gain))],
-    ['Growth Multiple',(fv/totalPremium).toFixed(2)+'×'],
-    ['Annual Return',retRate*100+'% p.a. (assumed)'],
-  ]);
+  const premium  = getVal('ulip-premium');
+  const ppt      = getVal('ulip-ppt');
+  const term     = getVal('ulip-term');
+  const retRate  = getVal('ulip-return') / 100;
+  const fmc      = getVal('ulip-fmc') / 100;
+  if(!premium||!ppt||!term||!retRate){showCalcError('ulip-result','Please fill all fields. PPT must be ≤ Policy Term.');return;}
+  if(ppt>term){showCalcError('ulip-result','Premium Paying Term (PPT) cannot be greater than Policy Term. Reduce PPT or increase Policy Term.');return;}
+  const netRate = retRate - fmc; // effective return after FMC
+  let fund = 0;
+  const yearData = [];
+  for(let y=1;y<=term;y++){
+    if(y<=ppt) fund = (fund + premium) * (1 + netRate);
+    else fund = fund * (1 + netRate);
+    yearData.push({year:y, fund:Math.round(fund), paid:Math.min(y,ppt)*premium});
+  }
+  const totalPremium = premium * ppt;
+  const finalFund = Math.round(fund);
+  const gain = finalFund - totalPremium;
+  // Compute approximate CAGR
+  const cagr = (Math.pow(finalFund/totalPremium, 1/term) - 1) * 100;
+  showCalcResult('ulip-result',
+    fmtCr(finalFund),
+    'Estimated Fund Value at Maturity',
+    [
+      ['Total Premium Paid',fmtCr(totalPremium)],
+      ['Premium Paying Term',ppt+' years'],
+      ['Policy Term',term+' years'],
+      ['Estimated Fund Value',fmtCr(finalFund)],
+      ['Estimated Wealth Gain',fmtCr(Math.max(0,gain))],
+      ['Approx CAGR',cagr.toFixed(2)+'% p.a.'],
+      ['Net Return (after '+fmc*100+'% FMC)',(netRate*100).toFixed(2)+'% p.a.'],
+    ]
+  );
+  // Year-wise projection table
+  const el = document.getElementById('ulip-result');
+  const milestones = yearData.filter(d => d.year % 5 === 0 || d.year === 1 || d.year === term);
+  el.innerHTML += `
+    <div style="margin-top:14px">
+      <div class="amort-title">📈 Year-wise Fund Projection</div>
+      <div style="overflow-x:auto">
+        <table class="amort-table">
+          <thead><tr><th style="text-align:left">Year</th><th>Premium Paid (Total)</th><th>Estimated Fund Value</th></tr></thead>
+          <tbody>${milestones.map(d=>`<tr><td>Year ${d.year}${d.year===term?' (Maturity)':''}</td><td>${fmtCr(d.paid)}</td><td>${fmtCr(d.fund)}</td></tr>`).join('')}</tbody>
+        </table>
+      </div>
+      <div class="calc-note" style="margin-top:8px">⚠️ Illustrative projections only. Actual returns are not guaranteed and depend on market performance and insurer charges.</div>
+    </div>`;
 }
 
 // ════════════════════════════════════════
@@ -870,6 +938,69 @@ function showDQResult(score){
     <div style="text-align:center;margin-top:14px"><button class="dq-close-btn" onclick="closeDailyQuiz()">Close</button></div>`;
 }
 function closeDailyQuiz(){ const o=document.getElementById('dqOverlay'); o.classList.remove('active'); setTimeout(()=>o.classList.add('hidden'),250); document.body.style.overflow=''; }
+
+// ── NEWS FRESHNESS BADGE ──
+function renderFreshnessBadge(data){
+  const badge  = document.getElementById('newsFreshnessBadge');
+  const dot    = document.getElementById('nfbDot');
+  const title  = document.getElementById('nfbTitle');
+  const counts = document.getElementById('nfbCounts');
+  const updated= document.getElementById('nfbUpdated');
+  if(!badge) return;
+  const live = data.liveCount  || 0;
+  const seed = data.seedCount  || (data.articles||[]).filter(a=>a.isSeed).length;
+  const isLive = live > 0;
+  dot.className   = 'nfb-dot ' + (isLive ? 'live' : 'seed');
+  title.textContent = isLive ? 'Live News' : 'Reference Articles';
+  // Counts line
+  const parts = [];
+  if(live > 0) parts.push(`<span>${live}</span> Live Article${live!==1?'s':''}`);
+  if(seed > 0) parts.push(`<span>${seed}</span> Reference Article${seed!==1?'s':''}`);
+  counts.innerHTML = parts.join(' &nbsp;·&nbsp; ');
+  // Timestamp
+  if(data.lastUpdated){
+    try{
+      const d = new Date(data.lastUpdated);
+      const months=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+      const day   = d.getDate();
+      const mon   = months[d.getMonth()];
+      const yr    = d.getFullYear();
+      const hh    = d.getHours();
+      const mm    = String(d.getMinutes()).padStart(2,'0');
+      const ampm  = hh >= 12 ? 'PM' : 'AM';
+      const hr12  = hh % 12 || 12;
+      updated.textContent = `Updated: ${day} ${mon} ${yr} • ${hr12}:${mm} ${ampm}`;
+    }catch(e){ updated.textContent = ''; }
+  }
+  badge.classList.remove('hidden');
+}
+
+// ── RESET CALCULATORS ──
+function resetCalc(id){
+  const panels={
+    hlv:['hlv-income','hlv-age','hlv-retire','hlv-existing','hlv-growth','hlv-inflation'],
+    sip:['sip-amount','sip-return','sip-years'],
+    retirement:['ret-age','ret-retire','ret-expenses','ret-inflation','ret-return','ret-life'],
+    irr:['irr-premium','irr-ppt','irr-term','irr-maturity'],
+    tvm:['tvm-amount','tvm-rate','tvm-years'],
+    emi:['emi-loan','emi-rate','emi-tenure'],
+    ulip:['ulip-premium','ulip-ppt','ulip-term','ulip-return','ulip-fmc'],
+  };
+  const defaults={
+    'hlv-growth':'5','hlv-inflation':'6','hlv-retire':'60',
+    'sip-return':'12','ret-retire':'60','ret-inflation':'6','ret-return':'10','ret-life':'80',
+    'tvm-rate':'8','ulip-return':'10','ulip-fmc':'1.35',
+  };
+  (panels[id]||[]).forEach(fid=>{
+    const el=document.getElementById(fid);
+    if(el){ el.value=defaults[fid]||''; }
+  });
+  const res=document.getElementById(id+'-result');
+  if(res) res.classList.add('hidden');
+  const am=document.getElementById(id+'-amort');
+  if(am) am.classList.add('hidden');
+  if(id==='tvm') document.getElementById('tvm-result')?.classList.add('hidden');
+}
 
 // ── INIT ──
 (function init(){
