@@ -623,3 +623,5 @@ a:hover{text-decoration:underline}
 .nfb-counts{font-size:11px;color:var(--g400);margin-bottom:2px}
 .nfb-counts span{color:var(--white);font-weight:600}
 .nfb-updated{font-size:10px;color:var(--g600)}
+
+.digest-meta{font-size:9px;color:var(--g600);margin-top:3px}
