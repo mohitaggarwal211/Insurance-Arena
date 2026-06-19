@@ -89,11 +89,11 @@ a:hover{text-decoration:underline}
 .cat-btn.active{background:var(--teal);border-color:var(--teal);color:var(--bg);font-weight:700}
 .cat-btn.coming{opacity:.45;cursor:default}
 .soon-tag{font-size:8px;background:var(--amber);color:#000;border-radius:4px;padding:1px 4px;margin-left:3px;vertical-align:middle}
-.benchmark-bar{background:rgba(0,212,180,0.05);border:1px solid rgba(0,212,180,0.14);border-radius:var(--r-sm);padding:8px 12px;display:flex;align-items:center;gap:8px;overflow-x:auto;margin:12px 0}
-.benchmark-bar::-webkit-scrollbar{display:none}
-.bm-label{font-size:10px;font-weight:700;color:var(--teal);white-space:nowrap;flex-shrink:0}
-.bm-pills{display:flex;flex-wrap:wrap;gap:4px}
-.pill{background:rgba(0,212,180,0.07);border:1px solid rgba(0,212,180,0.18);color:var(--g200);font-size:9px;padding:2px 7px;border-radius:99px;white-space:nowrap}
+
+
+
+
+
 .controls-bar{background:var(--bg-card);border:1px solid var(--bg-border);border-radius:var(--r-md);padding:10px 12px;margin-bottom:10px}
 .controls-inner{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
 .search-wrap{display:flex;align-items:center;gap:7px;background:rgba(255,255,255,.04);border:1px solid var(--bg-border);border-radius:var(--r-sm);padding:7px 10px;flex:1;min-width:160px;transition:var(--tr)}
@@ -589,3 +589,37 @@ a:hover{text-decoration:underline}
 .bm-news-head{display:flex;justify-content:space-between;align-items:flex-start;gap:8px;margin-bottom:4px}
 .bm-plan-item{display:flex;align-items:center;justify-content:space-between;gap:10px;background:var(--bg-card);border:1px solid var(--bg-border);border-radius:var(--r-sm);padding:10px 12px;transition:var(--tr)}
 .bm-plan-item:hover{border-color:var(--teal-dim);cursor:pointer}
+
+/* ── LEARNING SEGMENT CONTROL (top of section) ── */
+.learn-seg-wrap{margin-bottom:14px}
+.learn-seg-control{display:flex;background:var(--bg-card);border:1px solid var(--bg-border);border-radius:var(--r-md);padding:4px;gap:4px}
+.learn-seg{flex:1;padding:10px 6px;border-radius:var(--r-sm);font-size:12px;font-weight:600;color:var(--g400);transition:var(--tr);text-align:center;white-space:nowrap}
+.learn-seg:hover{color:var(--white)}
+.learn-seg.active{background:var(--teal);color:var(--bg);font-weight:700}
+@media(max-width:360px){.learn-seg{font-size:10px;padding:9px 4px}}
+
+/* ── CALCULATOR RESET BUTTON ── */
+.calc-reset-btn{background:none;border:1px solid var(--bg-border);color:var(--g400);font-size:11px;font-weight:500;padding:8px 16px;border-radius:var(--r-sm);font-family:var(--font-b);margin-left:8px;transition:var(--tr);cursor:pointer}
+.calc-reset-btn:hover{border-color:var(--teal-dim);color:var(--teal)}
+
+/* ── BENCHMARK COMPLETELY REMOVED ── */
+/* benchmark-bar, bm-label, bm-pills, pill styles intentionally removed */
+
+/* ── NEWS EMPTY STATE ── */
+.news-empty-state{grid-column:1/-1;text-align:center;padding:48px 20px;max-width:400px;margin:0 auto}
+.nes-icon{font-size:40px;margin-bottom:12px}
+.nes-title{font-family:var(--font-d);font-size:17px;font-weight:700;color:var(--white);margin-bottom:8px}
+.nes-text{font-size:13px;color:var(--g400);line-height:1.7;margin-bottom:8px}
+.nes-sub{font-size:11px;color:var(--g600);line-height:1.6;background:rgba(255,255,255,.03);border:1px solid var(--bg-border);border-radius:var(--r-sm);padding:10px 12px;margin-top:10px}
+.nes-sub em{color:var(--teal);font-style:normal;font-weight:600}
+
+/* ── NEWS FRESHNESS BADGE ── */
+.news-freshness-badge{display:flex;align-items:flex-start;gap:10px;background:var(--bg-card);border:1px solid var(--bg-border);border-radius:var(--r-md);padding:11px 14px;margin-bottom:14px}
+.nfb-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0;margin-top:4px}
+.nfb-dot.live{background:#10B981;box-shadow:0 0 0 3px rgba(16,185,129,0.2)}
+.nfb-dot.seed{background:var(--amber);box-shadow:0 0 0 3px rgba(245,158,11,0.2)}
+.nfb-info{flex:1;min-width:0}
+.nfb-title{font-size:12px;font-weight:700;color:var(--white);margin-bottom:3px}
+.nfb-counts{font-size:11px;color:var(--g400);margin-bottom:2px}
+.nfb-counts span{color:var(--white);font-weight:600}
+.nfb-updated{font-size:10px;color:var(--g600)}
