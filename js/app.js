@@ -28,7 +28,7 @@ let dictSearch     = '';
 let activeClaimType = 0;
 let activeSubtype   = 0;
 let tvmMode        = 'fv';
-let calcExtraLoaded = false;
+
 let completedTopics = new Set(JSON.parse(localStorage.getItem('ia_done') || '[]'));
 
 // ── HELPERS ──
@@ -279,26 +279,26 @@ function resetFilters(){ activeFilter='all';activeSearch='';activeSort='default'
 // NEWS SECTION
 // ════════════════════════════════════════
 const FALLBACK_NEWS=[
-  {title:"IRDAI raises health insurance sum insured limits for standard products",source:"IRDAI Official",category:"irdai",publishedAt:new Date(Date.now()-0).toISOString(),summary:"The insurance regulator revised guidelines for standard health insurance products, increasing minimum sum insured thresholds to improve policyholder protection.",url:"https://irdai.gov.in"},
-  {title:"Life insurance new business premium grows 18% year-on-year in FY25",source:"Moneycontrol",category:"insurance",publishedAt:new Date(Date.now()-2*86400000).toISOString(),summary:"The life insurance sector recorded robust growth, driven by strong performance from both LIC and private insurers in the last fiscal year.",url:"https://www.moneycontrol.com/news/business/moneycontrol-research/insurance"},
-  {title:"Term insurance premiums expected to rise as global reinsurers revise rates",source:"GoodReturns",category:"insurance",publishedAt:new Date(Date.now()-3*86400000).toISOString(),summary:"Global reinsurance costs are increasing, which may lead to marginal premium hikes in term insurance plans across major insurers.",url:"https://www.goodreturns.in/insurance"},
-  {title:"IRDAI circular on health insurance portability — new guidelines effective",source:"IRDAI Official",category:"irdai",publishedAt:new Date(Date.now()-4*86400000).toISOString(),summary:"IRDAI issued a comprehensive circular updating health insurance portability norms, making it easier to switch insurers without losing waiting period credit.",url:"https://irdai.gov.in"},
-  {title:"RBI keeps repo rate unchanged — impact on insurance investment returns",source:"NDTV Profit",category:"banking",publishedAt:new Date(Date.now()-4*86400000).toISOString(),summary:"The RBI kept repo rate unchanged. This affects insurance company investment portfolios and long-term policy pricing strategies.",url:"https://profit.ndtv.com"},
-  {title:"RBI monetary policy — interest rates, inflation and credit growth outlook",source:"NDTV Profit",category:"banking",publishedAt:new Date(Date.now()-5*86400000).toISOString(),summary:"Key highlights from the latest RBI monetary policy committee meeting including decisions on interest rates and inflation outlook.",url:"https://profit.ndtv.com"},
-  {title:"Bank FD rates 2025 — comparing fixed deposits vs insurance endowment plans",source:"GoodReturns",category:"banking",publishedAt:new Date(Date.now()-6*86400000).toISOString(),summary:"A comparison of top bank FD rates against insurance endowment plan returns to help investors make informed decisions.",url:"https://www.goodreturns.in"},
-  {title:"ELSS vs Term Insurance — which gives better tax benefit under Section 80C",source:"ET Money Blog",category:"tax",publishedAt:new Date(Date.now()-5*86400000).toISOString(),summary:"A comparison of tax benefits under Section 80C through ELSS mutual funds versus life insurance premium payments.",url:"https://etmoney.com/learn"},
-  {title:"SBI Mutual Fund launches new debt fund for conservative investors",source:"NDTV Profit",category:"mutualfunds",publishedAt:new Date(Date.now()-5*86400000).toISOString(),summary:"SBI Mutual Fund launched a new debt offering targeting conservative investors. Planners suggest pairing it with term insurance.",url:"https://profit.ndtv.com"},
-  {title:"PM-JAY Ayushman Bharat expanded to cover all senior citizens above 70",source:"PIB India",category:"insurance",publishedAt:new Date(Date.now()-7*86400000).toISOString(),summary:"The government announced expansion of Ayushman Bharat PM-JAY to cover all senior citizens above 70, providing Rs 5 lakh cover free.",url:"https://pib.gov.in"},
-  {title:"GST on insurance premiums — government reviews exemption for policies",source:"Moneycontrol",category:"tax",publishedAt:new Date(Date.now()-7*86400000).toISOString(),summary:"The government is examining the current GST structure on insurance premiums following representations from industry groups.",url:"https://www.moneycontrol.com"},
-  {title:"Best mutual funds for 2025 — SIP strategy for long-term wealth creation",source:"GoodReturns",category:"mutualfunds",publishedAt:new Date(Date.now()-7*86400000).toISOString(),summary:"A comprehensive guide to mutual fund selection for 2025, with recommendations for building long-term wealth through SIPs.",url:"https://www.goodreturns.in"},
-  {title:"How to build an emergency fund while paying insurance premiums",source:"BankBazaar Blog",category:"personalfinance",publishedAt:new Date(Date.now()-7*86400000).toISOString(),summary:"Financial planning guide explaining how to balance maintaining adequate emergency funds while keeping up insurance payments.",url:"https://www.bankbazaar.com/insurance.html"},
-  {title:"LIC posts highest-ever new business premium collection in FY 2024-25",source:"NDTV Profit",category:"insurance",publishedAt:new Date(Date.now()-10*86400000).toISOString(),summary:"Life Insurance Corporation recorded its highest-ever new business premium in FY25, consolidating market leadership.",url:"https://profit.ndtv.com"},
-  {title:"Health insurance claim settlement ratio improves across industry in FY25",source:"Moneycontrol",category:"insurance",publishedAt:new Date(Date.now()-10*86400000).toISOString(),summary:"IRDAI data shows improvement in health insurance claim settlement ratios, with several private insurers surpassing 98%.",url:"https://www.moneycontrol.com"},
-  {title:"Income tax — maximising deductions under Section 80C and 80D on insurance",source:"TaxGuru",category:"tax",publishedAt:new Date(Date.now()-14*86400000).toISOString(),summary:"Guide to claiming maximum income tax deductions on life insurance under Section 80C and health insurance under Section 80D.",url:"https://taxguru.in/income-tax"},
-  {title:"Sensex at 80000 — how equity market rally affects ULIP policyholders",source:"NDTV Profit",category:"markets",publishedAt:new Date(Date.now()-14*86400000).toISOString(),summary:"Analysis of how the strong equity market performance impacts ULIP policyholders and fund allocation strategies.",url:"https://profit.ndtv.com"},
-  {title:"Why term insurance must come before any investment — financial basics",source:"Jagoinvestor",category:"personalfinance",publishedAt:new Date(Date.now()-14*86400000).toISOString(),summary:"Why financial planners unanimously recommend buying adequate term insurance before making any investment.",url:"https://jagoinvestor.com"},
-  {title:"Critical illness insurance — IRDAI standardises list of covered conditions",source:"IRDAI Official",category:"irdai",publishedAt:new Date(Date.now()-21*86400000).toISOString(),summary:"IRDAI mandated a standard list of critical illnesses covered by all CI policies, bringing uniformity for buyers.",url:"https://irdai.gov.in"},
-  {title:"NPS vs PPF vs Insurance — retirement planning for salaried professionals",source:"ET Money Blog",category:"personalfinance",publishedAt:new Date(Date.now()-21*86400000).toISOString(),summary:"Detailed comparison of National Pension System, PPF, and insurance pension plans for salaried employees.",url:"https://etmoney.com/learn"},
+  {title:"IRDAI raises health insurance sum insured limits for standard products",source:"Google News",category:"irdai",publishedAt:new Date(Date.now()-0).toISOString(),summary:"The insurance regulator revised guidelines for standard health insurance products, increasing minimum sum insured thresholds to improve policyholder protection.",url:"https://news.google.com/search?q=IRDAI+health+insurance+sum+insured&hl=en-IN&gl=IN&ceid=IN:en"},
+  {title:"Life insurance new business premium grows 18% year-on-year in FY25",source:"Google News",category:"insurance",publishedAt:new Date(Date.now()-2*86400000).toISOString(),summary:"The life insurance sector recorded robust growth, driven by strong performance from both LIC and private insurers in the last fiscal year.",url:"https://news.google.com/search?q=life+insurance+new+business+premium+FY25&hl=en-IN&gl=IN&ceid=IN:en"},
+  {title:"Term insurance premiums expected to rise as global reinsurers revise rates",source:"Google News",category:"insurance",publishedAt:new Date(Date.now()-3*86400000).toISOString(),summary:"Global reinsurance costs are increasing, which may lead to marginal premium hikes in term insurance plans across major insurers.",url:"https://news.google.com/search?q=term+insurance+premium+reinsurer+india&hl=en-IN&gl=IN&ceid=IN:en"},
+  {title:"IRDAI circular on health insurance portability — new guidelines effective",source:"Google News",category:"irdai",publishedAt:new Date(Date.now()-4*86400000).toISOString(),summary:"IRDAI issued a comprehensive circular updating health insurance portability norms, making it easier to switch insurers without losing waiting period credit.",url:"https://news.google.com/search?q=IRDAI+health+insurance+portability+circular&hl=en-IN&gl=IN&ceid=IN:en"},
+  {title:"RBI keeps repo rate unchanged — impact on insurance investment returns",source:"Google News",category:"banking",publishedAt:new Date(Date.now()-4*86400000).toISOString(),summary:"The RBI kept repo rate unchanged. This affects insurance company investment portfolios and long-term policy pricing strategies.",url:"https://news.google.com/search?q=RBI+repo+rate+insurance+investment&hl=en-IN&gl=IN&ceid=IN:en"},
+  {title:"RBI monetary policy — interest rates, inflation and credit growth outlook",source:"Google News",category:"banking",publishedAt:new Date(Date.now()-5*86400000).toISOString(),summary:"Key highlights from the latest RBI monetary policy committee meeting including decisions on interest rates and inflation outlook.",url:"https://news.google.com/search?q=RBI+monetary+policy+interest+rate&hl=en-IN&gl=IN&ceid=IN:en"},
+  {title:"Bank FD rates 2025 — comparing fixed deposits vs insurance endowment plans",source:"Google News",category:"banking",publishedAt:new Date(Date.now()-6*86400000).toISOString(),summary:"A comparison of top bank FD rates against insurance endowment plan returns to help investors make informed decisions.",url:"https://news.google.com/search?q=bank+FD+rates+vs+insurance+endowment+2025&hl=en-IN&gl=IN&ceid=IN:en"},
+  {title:"ELSS vs Term Insurance — which gives better tax benefit under Section 80C",source:"Google News",category:"tax",publishedAt:new Date(Date.now()-5*86400000).toISOString(),summary:"A comparison of tax benefits under Section 80C through ELSS mutual funds versus life insurance premium payments.",url:"https://news.google.com/search?q=ELSS+vs+term+insurance+section+80C+tax&hl=en-IN&gl=IN&ceid=IN:en"},
+  {title:"SBI Mutual Fund launches new debt fund for conservative investors",source:"Google News",category:"mutualfunds",publishedAt:new Date(Date.now()-5*86400000).toISOString(),summary:"SBI Mutual Fund launched a new debt offering targeting conservative investors. Planners suggest pairing it with term insurance.",url:"https://news.google.com/search?q=SBI+mutual+fund+debt+fund+2025&hl=en-IN&gl=IN&ceid=IN:en"},
+  {title:"PM-JAY Ayushman Bharat expanded to cover all senior citizens above 70",source:"Google News",category:"insurance",publishedAt:new Date(Date.now()-7*86400000).toISOString(),summary:"The government announced expansion of Ayushman Bharat PM-JAY to cover all senior citizens above 70, providing Rs 5 lakh cover free.",url:"https://news.google.com/search?q=PMJAY+Ayushman+Bharat+senior+citizens+70&hl=en-IN&gl=IN&ceid=IN:en"},
+  {title:"GST on insurance premiums — government reviews exemption for policies",source:"Google News",category:"tax",publishedAt:new Date(Date.now()-7*86400000).toISOString(),summary:"The government is examining the current GST structure on insurance premiums following representations from industry groups.",url:"https://news.google.com/search?q=GST+insurance+premium+exemption+india&hl=en-IN&gl=IN&ceid=IN:en"},
+  {title:"Best mutual funds for 2025 — SIP strategy for long-term wealth creation",source:"Google News",category:"mutualfunds",publishedAt:new Date(Date.now()-7*86400000).toISOString(),summary:"A comprehensive guide to mutual fund selection for 2025, with recommendations for building long-term wealth through SIPs.",url:"https://news.google.com/search?q=best+mutual+funds+SIP+2025+india&hl=en-IN&gl=IN&ceid=IN:en"},
+  {title:"How to build an emergency fund while paying insurance premiums",source:"Google News",category:"personalfinance",publishedAt:new Date(Date.now()-7*86400000).toISOString(),summary:"Financial planning guide explaining how to balance maintaining adequate emergency funds while keeping up insurance payments.",url:"https://news.google.com/search?q=emergency+fund+insurance+premium+india&hl=en-IN&gl=IN&ceid=IN:en"},
+  {title:"LIC posts highest-ever new business premium collection in FY 2024-25",source:"Google News",category:"insurance",publishedAt:new Date(Date.now()-10*86400000).toISOString(),summary:"Life Insurance Corporation recorded its highest-ever new business premium in FY25, consolidating market leadership.",url:"https://news.google.com/search?q=LIC+new+business+premium+FY25+record&hl=en-IN&gl=IN&ceid=IN:en"},
+  {title:"Health insurance claim settlement ratio improves across industry in FY25",source:"Google News",category:"insurance",publishedAt:new Date(Date.now()-10*86400000).toISOString(),summary:"IRDAI data shows improvement in health insurance claim settlement ratios, with several private insurers surpassing 98%.",url:"https://news.google.com/search?q=health+insurance+claim+settlement+ratio+FY25&hl=en-IN&gl=IN&ceid=IN:en"},
+  {title:"Income tax — maximising deductions under Section 80C and 80D on insurance",source:"Google News",category:"tax",publishedAt:new Date(Date.now()-14*86400000).toISOString(),summary:"Guide to claiming maximum income tax deductions on life insurance under Section 80C and health insurance under Section 80D.",url:"https://news.google.com/search?q=income+tax+section+80C+80D+insurance+deduction&hl=en-IN&gl=IN&ceid=IN:en"},
+  {title:"Sensex at 80000 — how equity market rally affects ULIP policyholders",source:"Google News",category:"markets",publishedAt:new Date(Date.now()-14*86400000).toISOString(),summary:"Analysis of how the strong equity market performance impacts ULIP policyholders and fund allocation strategies.",url:"https://news.google.com/search?q=sensex+80000+ULIP+equity+market&hl=en-IN&gl=IN&ceid=IN:en"},
+  {title:"Why term insurance must come before any investment — financial basics",source:"Google News",category:"personalfinance",publishedAt:new Date(Date.now()-14*86400000).toISOString(),summary:"Why financial planners unanimously recommend buying adequate term insurance before making any investment.",url:"https://news.google.com/search?q=term+insurance+before+investment+financial+planning&hl=en-IN&gl=IN&ceid=IN:en"},
+  {title:"Critical illness insurance — IRDAI standardises list of covered conditions",source:"Google News",category:"irdai",publishedAt:new Date(Date.now()-21*86400000).toISOString(),summary:"IRDAI mandated a standard list of critical illnesses covered by all CI policies, bringing uniformity for buyers.",url:"https://news.google.com/search?q=IRDAI+critical+illness+standard+list&hl=en-IN&gl=IN&ceid=IN:en"},
+  {title:"NPS vs PPF vs Insurance — retirement planning for salaried professionals",source:"Google News",category:"personalfinance",publishedAt:new Date(Date.now()-21*86400000).toISOString(),summary:"Detailed comparison of National Pension System, PPF, and insurance pension plans for salaried employees.",url:"https://news.google.com/search?q=NPS+PPF+insurance+retirement+planning+india&hl=en-IN&gl=IN&ceid=IN:en"},
 ];
 
 async function loadNews(){
@@ -659,19 +659,10 @@ document.querySelectorAll('.tool-tab').forEach(btn=>btn.addEventListener('click'
   document.querySelectorAll('.tool-panel').forEach(p=>p.classList.remove('active'));
   btn.classList.add('active');
   document.getElementById('tool-'+btn.dataset.tool).classList.add('active');
-  if(['irr','tvm','emi','ulip'].includes(btn.dataset.tool)) loadCalcsExtra();
+
 }));
 
-async function loadCalcsExtra(){
-  if(calcExtraLoaded) return;
-  return new Promise((resolve,reject)=>{
-    const s=document.createElement('script');
-    s.src='js/calcs-extra.js';
-    s.onload=()=>{calcExtraLoaded=true;resolve();};
-    s.onerror=()=>reject(new Error('Failed to load calcs-extra.js'));
-    document.head.appendChild(s);
-  });
-}
+
 
 function showCalcResult(id,mainVal,mainLabel,rows){
   const el=document.getElementById(id);
@@ -706,12 +697,107 @@ function calcRetirement(){
   showCalcResult('ret-result',fmtCr(Math.round(corpus)),'Retirement corpus you need',[['Years to build corpus',ytr+' years'],['Monthly expenses today',fmtCr(me)],['Monthly expenses at retirement',fmtCr(Math.round(meAtRetire))],['Retirement duration',dur+' years'],['Monthly investment needed now',fmtCr(Math.round(sip))]]);
 }
 
-// Lazy calc stubs
-async function calcIRR(){ await loadCalcsExtra(); _calcIRR(); }
-async function calcTVM(){ await loadCalcsExtra(); _calcTVM(); }
-async function calcEMI(){ await loadCalcsExtra(); _calcEMI(); }
-async function calcULIP(){ await loadCalcsExtra(); _calcULIP(); }
-function setTvmMode(m,b){ tvmMode=m; document.querySelectorAll('.tvm-mode').forEach(x=>x.classList.remove('active')); b.classList.add('active'); const l=document.getElementById('tvm-amount-label'); if(l) l.textContent=m==='fv'?'Present Value (₹)':'Future Value (₹)'; document.getElementById('tvm-result').classList.add('hidden'); }
+// ── IRR CALCULATOR ──
+function calcIRR(){
+  const premium=getVal('irr-premium'),ppt=getVal('irr-ppt'),term=getVal('irr-term'),maturity=getVal('irr-maturity');
+  if(!premium||!ppt||!term||!maturity||ppt>term){showCalcError('irr-result','Please fill all fields. Premium paying term must be ≤ policy term.');return;}
+  const cf=[];
+  for(let y=0;y<=term;y++){
+    if(y<ppt) cf.push(-premium);
+    else if(y===term) cf.push(maturity);
+    else cf.push(0);
+  }
+  function npv(r){return cf.reduce((s,c,t)=>s+c/Math.pow(1+r,t),0);}
+  let lo=-0.99,hi=5.0;
+  if(npv(lo)*npv(hi)>0){showCalcError('irr-result','No valid IRR found. Please check if maturity value is greater than total premiums paid.');return;}
+  for(let i=0;i<200;i++){const mid=(lo+hi)/2;if(Math.abs(hi-lo)<0.000001)break;if(npv(lo)*npv(mid)<0)hi=mid;else lo=mid;}
+  const irr=((lo+hi)/2)*100,totalP=premium*ppt,gain=maturity-totalP;
+  showCalcResult('irr-result',irr.toFixed(2)+'% p.a.','Approximate Internal Rate of Return',[
+    ['Total Premium Paid',fmtCr(totalP)],
+    ['Maturity / Death Value',fmtCr(maturity)],
+    ['Total Gain',fmtCr(Math.max(0,gain))],
+    ['Premium Paying Term',ppt+' years'],
+    ['Policy Term',term+' years'],
+  ]);
+}
+
+// ── TVM CALCULATOR ──
+function setTvmMode(m,b){
+  tvmMode=m;
+  document.querySelectorAll('.tvm-mode').forEach(x=>x.classList.remove('active'));
+  b.classList.add('active');
+  const l=document.getElementById('tvm-amount-label');
+  if(l) l.textContent=m==='fv'?'Present Value (₹)':'Future Value (₹)';
+  document.getElementById('tvm-result').classList.add('hidden');
+}
+function calcTVM(){
+  const amount=getVal('tvm-amount'),rate=getVal('tvm-rate')/100,years=getVal('tvm-years');
+  const n=parseFloat(document.getElementById('tvm-compound').value)||1;
+  if(!amount||!rate||!years){showCalcError('tvm-result','Please fill all fields.');return;}
+  const er=rate/n,periods=years*n;
+  if(tvmMode==='fv'){
+    const fv=amount*Math.pow(1+er,periods),gain=fv-amount;
+    const compLabel=n===1?'Annual':n===2?'Half-Yearly':n===4?'Quarterly':'Monthly';
+    showCalcResult('tvm-result',fmtCr(Math.round(fv)),'Future Value of your money',[
+      ['Present Value (Today)',fmtCr(amount)],
+      ['Future Value',fmtCr(Math.round(fv))],
+      ['Total Growth',fmtCr(Math.round(gain))],
+      ['Growth Multiple',(fv/amount).toFixed(2)+'×'],
+      ['Compounding',compLabel],
+      ['Formula','FV = PV × (1 + r/n)^(n×t)'],
+    ]);
+  } else {
+    const pv=amount/Math.pow(1+er,periods);
+    showCalcResult('tvm-result',fmtCr(Math.round(pv)),'Present Value (what future money is worth today)',[
+      ['Future Value',fmtCr(amount)],
+      ['Present Value (Today)',fmtCr(Math.round(pv))],
+      ['Discount',fmtCr(Math.round(amount-pv))],
+      ['Time Period',years+' years'],
+      ['Discount Rate',(rate*100).toFixed(2)+'% p.a.'],
+      ['Formula','PV = FV / (1 + r/n)^(n×t)'],
+    ]);
+  }
+}
+
+// ── EMI CALCULATOR ──
+function calcEMI(){
+  const P=getVal('emi-loan'),r=getVal('emi-rate')/100/12,n=getVal('emi-tenure')*12;
+  if(!P||!r||!n){showCalcError('emi-result','Please fill all fields.');return;}
+  const emi=P*r*Math.pow(1+r,n)/(Math.pow(1+r,n)-1);
+  const total=emi*n,interest=total-P;
+  showCalcResult('emi-result',fmtCr(Math.round(emi)),'Monthly EMI',[
+    ['Loan Amount',fmtCr(P)],
+    ['Total Interest',fmtCr(Math.round(interest))],
+    ['Total Repayment',fmtCr(Math.round(total))],
+    ['Loan Tenure',getVal('emi-tenure')+' years'],
+  ]);
+  // Year-wise amortization
+  let bal=P,rows='';
+  for(let y=1;y<=getVal('emi-tenure');y++){
+    let yp=0,yi=0;
+    for(let m=1;m<=12&&(y-1)*12+m<=n;m++){const ip=bal*r;const pp=emi-ip;yi+=ip;yp+=pp;bal-=pp;}
+    rows+=`<tr><td>Year ${y}</td><td>${fmtCr(Math.round(yp))}</td><td>${fmtCr(Math.round(yi))}</td><td>${bal>0?fmtCr(Math.round(bal)):'—'}</td></tr>`;
+  }
+  const amEl=document.getElementById('emi-amort');
+  amEl.classList.remove('hidden');
+  amEl.innerHTML=`<div class="amort-title">Year-wise Amortization</div><div style="overflow-x:auto"><table class="amort-table"><thead><tr><th>Year</th><th>Principal</th><th>Interest</th><th>Balance</th></tr></thead><tbody>${rows}</tbody></table></div>`;
+}
+
+// ── ULIP CALCULATOR (simplified) ──
+function calcULIP(){
+  const premium=getVal('ulip-premium'),term=getVal('ulip-term'),retRate=getVal('ulip-return')/100;
+  if(!premium||!term||!retRate){showCalcError('ulip-result','Please fill all fields.');return;}
+  // FV of annuity due: premiums paid at start of each year
+  const fv=premium*(1+retRate)*((Math.pow(1+retRate,term)-1)/retRate);
+  const totalPremium=premium*term,gain=fv-totalPremium;
+  showCalcResult('ulip-result',fmtCr(Math.round(fv)),'Estimated Fund Value at Maturity',[
+    ['Total Premium Paid',fmtCr(totalPremium)],
+    ['Estimated Fund Value',fmtCr(Math.round(fv))],
+    ['Estimated Gain',fmtCr(Math.round(gain))],
+    ['Growth Multiple',(fv/totalPremium).toFixed(2)+'×'],
+    ['Annual Return',retRate*100+'% p.a. (assumed)'],
+  ]);
+}
 
 // ════════════════════════════════════════
 // DAILY QUIZ
