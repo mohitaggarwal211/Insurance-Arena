@@ -1,42 +1,45 @@
-// ══════════════════════════════════════
-// INSURANCE ARENA — NEWS FETCH SCRIPT v3
-// Runs at 7 AM + 4 PM IST via GitHub Actions
-// Accumulates up to 45 articles
-// Merges new + existing, deduplicates, 30-day expiry
-// Free sources only — no paywalls
-// ══════════════════════════════════════
+// INSURANCE ARENA — NEWS FETCH v4
+// Source: Google News RSS (free, legal, real article links)
+// Runs: 7 AM + 4 PM IST daily via GitHub Actions
+// Accumulates up to 45 articles, 30-day expiry
 
 const fs    = require('fs');
 const path  = require('path');
 const https = require('https');
-const http  = require('http');
 
-// ── SETTINGS ──
 const MAX_ARTICLES    = 45;
 const MAX_AGE_DAYS    = 30;
-const MIN_PER_CATEGORY = 1; // keep at least 1 per category even if old
+const ALL_CATEGORIES  = ['insurance','irdai','mutualfunds','tax','banking','personalfinance','markets'];
 
-// ── FREE RSS SOURCES (no paywalls) ──
+// ── GOOGLE NEWS RSS SOURCES ──
+// Google News RSS: free, legal, real article links, no paywall
 const RSS_SOURCES = [
-  { name:'IRDAI Official',    category:'irdai',          url:'https://irdai.gov.in/web/guest/home/-/asset_publisher/oDLNs7nMKBgf/rss' },
-  { name:'PIB India',         category:'insurance',      url:'https://pib.gov.in/RSSFeedDynamic.aspx?ModId=6' },
-  { name:'Moneycontrol',      category:'insurance',      url:'https://www.moneycontrol.com/rss/insurance.xml' },
-  { name:'NDTV Profit',       category:'markets',        url:'https://feeds.feedburner.com/ndtvprofit-latest' },
-  { name:'GoodReturns',       category:'insurance',      url:'https://www.goodreturns.in/rss/goodreturns-latest-news.xml' },
-  { name:'TaxGuru',           category:'tax',            url:'https://taxguru.in/feed' },
-  { name:'ET Money Blog',     category:'personalfinance',url:'https://etmoney.com/learn/feed' },
-  { name:'BankBazaar Blog',   category:'personalfinance',url:'https://blog.bankbazaar.com/feed' },
-  { name:'Jagoinvestor',      category:'personalfinance',url:'https://jagoinvestor.com/feed' },
-  { name:'Moneycontrol MF',   category:'mutualfunds',    url:'https://www.moneycontrol.com/rss/mutual_funds.xml' },
+  { name:'Google News', category:'insurance',      url:'https://news.google.com/rss/search?q=life+insurance+india&hl=en-IN&gl=IN&ceid=IN:en' },
+  { name:'Google News', category:'insurance',      url:'https://news.google.com/rss/search?q=term+insurance+india&hl=en-IN&gl=IN&ceid=IN:en' },
+  { name:'Google News', category:'irdai',          url:'https://news.google.com/rss/search?q=IRDAI+insurance+regulation&hl=en-IN&gl=IN&ceid=IN:en' },
+  { name:'Google News', category:'mutualfunds',    url:'https://news.google.com/rss/search?q=mutual+fund+SIP+india&hl=en-IN&gl=IN&ceid=IN:en' },
+  { name:'Google News', category:'tax',            url:'https://news.google.com/rss/search?q=income+tax+india+section+80C&hl=en-IN&gl=IN&ceid=IN:en' },
+  { name:'Google News', category:'banking',        url:'https://news.google.com/rss/search?q=RBI+banking+india+interest+rate&hl=en-IN&gl=IN&ceid=IN:en' },
+  { name:'Google News', category:'personalfinance',url:'https://news.google.com/rss/search?q=personal+finance+investment+india&hl=en-IN&gl=IN&ceid=IN:en' },
+  { name:'Google News', category:'markets',        url:'https://news.google.com/rss/search?q=sensex+nifty+stock+market+india&hl=en-IN&gl=IN&ceid=IN:en' },
+  { name:'Google News', category:'insurance',      url:'https://news.google.com/rss/search?q=health+insurance+india+claim&hl=en-IN&gl=IN&ceid=IN:en' },
+  { name:'Google News', category:'irdai',          url:'https://news.google.com/rss/search?q=IRDAI+circular+guidelines+2024+2025&hl=en-IN&gl=IN&ceid=IN:en' },
 ];
 
-const ALL_CATEGORIES = ['insurance','irdai','mutualfunds','tax','banking','personalfinance','markets'];
-
-// ── HELPERS ──
-function fetchUrl(url, timeout=12000){
+function fetchUrl(url, timeout=15000){
   return new Promise((resolve,reject)=>{
-    const client=url.startsWith('https')?https:http;
-    const req=client.get(url,{timeout,headers:{'User-Agent':'Insurance-Arena-NewsBot/3.0'}},res=>{
+    const req=https.get(url,{
+      timeout,
+      headers:{
+        'User-Agent':'Mozilla/5.0 (compatible; InsuranceArenaBot/4.0)',
+        'Accept':'application/rss+xml, application/xml, text/xml, */*'
+      }
+    },res=>{
+      // Handle redirects
+      if(res.statusCode===301||res.statusCode===302){
+        const loc=res.headers.location;
+        if(loc) return fetchUrl(loc,timeout).then(resolve).catch(reject);
+      }
       const chunks=[];
       res.on('data',c=>chunks.push(c));
       res.on('end',()=>resolve(Buffer.concat(chunks).toString('utf8')));
@@ -54,42 +57,24 @@ function parseRSS(xml){
     const b=m[1];
     const get=tag=>{
       const r=b.match(new RegExp(`<${tag}[^>]*><!\\[CDATA\\[([\\s\\S]*?)\\]\\]><\\/${tag}>`),'i')
-              ||b.match(new RegExp(`<${tag}[^>]*>([\\s\\S]*?)<\\/${tag}>`),'i');
+               ||b.match(new RegExp(`<${tag}[^>]*>([\\s\\S]*?)<\\/${tag}>`),'i');
       if(!r) return '';
       return r[1].trim()
-        .replace(/<[^>]+>/g,'')
-        .replace(/&amp;/g,'&').replace(/&lt;/g,'<').replace(/&gt;/g,'>')
-        .replace(/&quot;/g,'"').replace(/&#39;/g,"'").replace(/&nbsp;/g,' ')
-        .replace(/\s+/g,' ').trim();
+        .replace(/<[^>]+>/g,'').replace(/&amp;/g,'&').replace(/&lt;/g,'<')
+        .replace(/&gt;/g,'>').replace(/&quot;/g,'"').replace(/&#39;/g,"'")
+        .replace(/&nbsp;/g,' ').replace(/\s+/g,' ').trim();
     };
-    const title=get('title'), desc=get('description');
-    const pubDate=get('pubDate')||get('dc:date'), link=get('link');
-    if(title && title.length>10)
-      items.push({title,summary:desc.substring(0,230),date:pubDate,link});
+    const title=get('title');
+    const desc=get('description');
+    const pubDate=get('pubDate')||get('dc:date');
+    const link=get('link');
+    // Google News RSS puts link after closing tag — try alternate extraction
+    const linkMatch=b.match(/<link[^>]*>([^<]+)/i);
+    const articleUrl=link||(linkMatch?linkMatch[1].trim():'');
+    if(title&&title.length>10&&articleUrl&&articleUrl.startsWith('http'))
+      items.push({title,summary:desc.substring(0,220),date:pubDate,link:articleUrl});
   }
   return items;
-}
-
-function detectCategory(text,def){
-  const t=text.toLowerCase();
-  if(t.includes('irdai')||t.includes('circular')||t.includes('regulation')||t.includes('regulator')) return 'irdai';
-  if(t.includes('mutual fund')||t.includes('sip')||t.includes('nfo')||t.includes('nav')||t.includes('elss')) return 'mutualfunds';
-  if(t.includes('income tax')||t.includes('gst')||t.includes('tds')||t.includes('itr')||t.includes('section 80')||t.includes('budget')) return 'tax';
-  if(t.includes('rbi')||t.includes('repo rate')||t.includes('bank ')||t.includes('interest rate')||t.includes('credit')) return 'banking';
-  if(t.includes('insurance')||t.includes('premium')||t.includes('claim')||t.includes('insurer')||t.includes('term plan')||t.includes('health insurance')) return 'insurance';
-  if(t.includes('sensex')||t.includes('nifty')||t.includes('stock ')||t.includes('market')||t.includes(' ipo')) return 'markets';
-  if(t.includes('personal finance')||t.includes('financial planning')||t.includes('investment')||t.includes('savings')||t.includes('nps')||t.includes('ppf')||t.includes('retirement')) return 'personalfinance';
-  return def;
-}
-
-function isFinanceRelevant(title,summary){
-  const t=(title+' '+summary).toLowerCase();
-  return t.includes('insurance')||t.includes('irdai')||t.includes('premium')||t.includes('claim')
-      ||t.includes('mutual fund')||t.includes('sip')||t.includes('market')||t.includes('sensex')
-      ||t.includes('income tax')||t.includes('gst')||t.includes('budget')||t.includes('rbi')
-      ||t.includes('bank')||t.includes('investment')||t.includes('finance')||t.includes('savings')
-      ||t.includes('nps')||t.includes('ppf')||t.includes('stock')||t.includes('ipo')
-      ||t.includes('term plan')||t.includes('health insurance')||t.includes('policy');
 }
 
 function validateUrl(url){
@@ -99,151 +84,101 @@ function validateUrl(url){
   try{ new URL(u); return true; }catch(e){ return false; }
 }
 
-function normaliseTitle(t){
-  return (t||'').toLowerCase().replace(/[^a-z0-9]/g,'').substring(0,60);
-}
-
 function parseDateToISO(dateStr){
   if(!dateStr) return new Date().toISOString();
-  try{
-    const d=new Date(dateStr);
-    if(!isNaN(d.getTime())) return d.toISOString();
-  }catch(e){}
+  try{ const d=new Date(dateStr); if(!isNaN(d.getTime())) return d.toISOString(); }catch(e){}
   return new Date().toISOString();
 }
 
-function isExpired(isoDate, maxDays){
-  if(!isoDate) return false;
-  const age=(Date.now()-new Date(isoDate).getTime())/(1000*60*60*24);
-  return age>maxDays;
-}
+function isExpired(iso,maxDays){ return iso&&((Date.now()-new Date(iso).getTime())/(86400000))>maxDays; }
+function normaliseTitle(t){ return (t||'').toLowerCase().replace(/[^a-z0-9]/g,'').substring(0,60); }
 
-// ── MAIN ──
 async function main(){
-  console.log('\n📰 Insurance Arena — News Fetch v3');
-  const runTime=new Date().toISOString();
-  const isAM=new Date().getUTCHours()<12;
-  console.log(`⏰ ${runTime} (${isAM?'7 AM':'4 PM'} IST run)`);
+  console.log('\n📰 Insurance Arena — Google News RSS Fetch v4');
+  console.log('⏰',new Date().toISOString());
 
-  // ── STEP 1: Load existing articles ──
+  // Load existing
   const newsPath=path.join(__dirname,'..','data','news.json');
   let existingArticles=[];
   try{
-    const existing=JSON.parse(fs.readFileSync(newsPath,'utf8'));
-    existingArticles=existing.articles||[];
-    console.log(`📂 Loaded ${existingArticles.length} existing articles`);
-  }catch(e){
-    console.log('📂 No existing news.json — starting fresh');
-  }
+    const ex=JSON.parse(fs.readFileSync(newsPath,'utf8'));
+    existingArticles=ex.articles||[];
+    console.log(`📂 Existing: ${existingArticles.length} articles`);
+  }catch(e){ console.log('📂 No existing file'); }
 
-  // ── STEP 2: Fetch new articles from RSS ──
+  // Fetch new
   const newArticles=[];
-  const seenTitles=new Set();
+  const seen=new Set();
 
   for(const source of RSS_SOURCES){
     try{
-      console.log(`   Fetching: ${source.name}…`);
+      console.log(`   Fetching: ${source.url.split('q=')[1]?.split('&')[0]||source.category}...`);
       const xml=await fetchUrl(source.url);
       const items=parseRSS(xml);
       let added=0;
       for(const item of items){
-        if(!item.title||!isFinanceRelevant(item.title,item.summary)) continue;
-        if(!validateUrl(item.link)) continue;
+        if(!item.title||!validateUrl(item.link)) continue;
         const norm=normaliseTitle(item.title);
-        if(seenTitles.has(norm)) continue;
-        seenTitles.add(norm);
+        if(seen.has(norm)) continue;
+        seen.add(norm);
         newArticles.push({
-          title:    item.title,
-          source:   source.name,
-          category: detectCategory(item.title+' '+item.summary, source.category),
-          publishedAt: parseDateToISO(item.date),
-          summary:  item.summary.substring(0,230),
-          url:      item.link.trim(),
+          title:item.title,
+          source:'Google News',
+          category:source.category,
+          publishedAt:parseDateToISO(item.date),
+          summary:item.summary.substring(0,230)||'Click to read the full article on the original source.',
+          url:item.link,
         });
         added++;
       }
-      console.log(`   ✅ ${source.name}: ${added} new articles`);
+      console.log(`   ✅ ${added} articles`);
     }catch(err){
-      console.log(`   ⚠️  ${source.name}: ${err.message}`);
+      console.log(`   ⚠️  ${source.category}: ${err.message}`);
     }
   }
-  console.log(`\n🆕 New articles fetched: ${newArticles.length}`);
+  console.log(`\n🆕 New: ${newArticles.length} articles`);
 
-  // ── STEP 3: Merge — new first, then existing not already seen ──
-  // Add existing titles to seen set first (from new articles)
-  newArticles.forEach(a=>seenTitles.add(normaliseTitle(a.title)));
-
+  // Merge
+  newArticles.forEach(a=>seen.add(normaliseTitle(a.title)));
   const merged=[...newArticles];
   for(const old of existingArticles){
     const norm=normaliseTitle(old.title);
-    if(!seenTitles.has(norm)){
-      seenTitles.add(norm);
-      // Ensure old articles have publishedAt field
-      if(!old.publishedAt) old.publishedAt=new Date().toISOString();
-      merged.push(old);
-    }
+    if(!seen.has(norm)){ seen.add(norm); if(!old.publishedAt) old.publishedAt=new Date().toISOString(); merged.push(old); }
   }
-  console.log(`🔀 Merged total: ${merged.length} articles`);
 
-  // ── STEP 4: Remove expired (>30 days) but protect category minimums ──
-  // Count per category before expiry
+  // Expiry + category protection
   const catCount={};
   ALL_CATEGORIES.forEach(c=>catCount[c]=0);
-
-  const afterExpiry=merged.filter(a=>{
-    const expired=isExpired(a.publishedAt, MAX_AGE_DAYS);
-    if(!expired){ catCount[a.category]=(catCount[a.category]||0)+1; return true; }
-    return false; // expired, will check if category needs protection
-  });
-
-  // Re-add expired articles if their category has 0 articles (category protection)
-  const expired=merged.filter(a=>isExpired(a.publishedAt, MAX_AGE_DAYS));
-  const protectedOld=[];
+  const fresh=merged.filter(a=>{const exp=isExpired(a.publishedAt,MAX_AGE_DAYS);if(!exp){catCount[a.category]=(catCount[a.category]||0)+1;}return!exp;});
+  const expired=merged.filter(a=>isExpired(a.publishedAt,MAX_AGE_DAYS));
+  const protected_=[];
   for(const cat of ALL_CATEGORIES){
-    if((catCount[cat]||0)===0){
-      // Find most recent expired article for this category
-      const best=expired
-        .filter(a=>a.category===cat)
-        .sort((a,b)=>new Date(b.publishedAt)-new Date(a.publishedAt))[0];
-      if(best){
-        protectedOld.push(best);
-        catCount[cat]=1;
-        console.log(`   🛡️  Category '${cat}' protected with 1 older article`);
-      }
+    if(!catCount[cat]){
+      const best=expired.filter(a=>a.category===cat).sort((a,b)=>new Date(b.publishedAt)-new Date(a.publishedAt))[0];
+      if(best){ protected_.push(best); console.log(`🛡️  Protected: ${cat}`); }
     }
   }
 
-  const afterFilter=[...afterExpiry,...protectedOld];
-  console.log(`📅 After 30-day expiry filter: ${afterFilter.length} articles`);
+  // Sort + cap + validate URLs
+  const final=[...fresh,...protected_]
+    .sort((a,b)=>new Date(b.publishedAt)-new Date(a.publishedAt))
+    .slice(0,MAX_ARTICLES)
+    .filter(a=>validateUrl(a.url));
 
-  // ── STEP 5: Sort newest first, cap at 45 ──
-  afterFilter.sort((a,b)=>new Date(b.publishedAt)-new Date(a.publishedAt));
-  const final=afterFilter.slice(0,MAX_ARTICLES);
-  console.log(`✂️  After cap (max ${MAX_ARTICLES}): ${final.length} articles`);
+  // Category summary
+  const cats={};
+  final.forEach(a=>{cats[a.category]=(cats[a.category]||0)+1;});
+  console.log('\n📊 Categories:',cats);
 
-  // ── STEP 6: Category summary ──
-  const catSummary={};
-  final.forEach(a=>{ catSummary[a.category]=(catSummary[a.category]||0)+1; });
-  console.log('\n📊 Articles by category:');
-  ALL_CATEGORIES.forEach(c=>console.log(`   ${c}: ${catSummary[c]||0}`));
-
-  // ── STEP 7: Validate all URLs in final set ──
-  const validated=final.filter(a=>validateUrl(a.url));
-  if(validated.length<final.length)
-    console.log(`⚠️  Removed ${final.length-validated.length} articles with invalid URLs`);
-
-  // ── STEP 8: Save ──
   const output={
-    lastUpdated: runTime,
-    nextUpdate: isAM ? 'Today 4 PM IST' : 'Tomorrow 7 AM IST',
-    totalArticles: validated.length,
-    sources: RSS_SOURCES.map(s=>s.name),
-    removedSources: ['Business Standard','Economic Times','Livemint','Financial Express','Hindu Business Line'],
-    articles: validated,
+    lastUpdated:new Date().toISOString(),
+    source:'Google News RSS — free, legal, real article links',
+    totalArticles:final.length,
+    articles:final,
   };
 
-  fs.writeFileSync(newsPath, JSON.stringify(output,null,2));
-  console.log(`\n✅ Saved ${validated.length} articles to data/news.json`);
+  fs.writeFileSync(newsPath,JSON.stringify(output,null,2));
+  console.log(`\n✅ Saved ${final.length} articles to data/news.json`);
 }
 
-main().catch(err=>{ console.error('❌ Fatal:',err.message); process.exit(1); });
+main().catch(err=>{console.error('❌',err.message);process.exit(1);});
