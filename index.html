@@ -206,45 +206,13 @@
   <div class="sec" id="sec-news">
     <div class="news-header">
       <h2 class="sec-title">Finance &amp; Insurance News</h2>
-      <p class="sec-sub">Updated at 7 AM &amp; 4 PM · <span id="newsDateDisplay"></span></p>
     </div>
-    <!-- News Status Bar -->
-    <div class="news-status-bar hidden" id="newsStatusBar">
-      <div class="nsb-left">
-        <span class="nsb-dot" id="nsbDot"></span>
-        <span class="nsb-count" id="nsbCount"></span>
-        <span class="nsb-sep">·</span>
-        <span class="nsb-cats" id="nsbCats"></span>
-      </div>
-      <div class="nsb-right" id="nsbTime"></div>
+    <div class="soon-placeholder">
+      <div class="soon-icon">📰</div>
+      <div class="soon-title">Coming Soon</div>
+      <div class="soon-text">We're rebuilding the Finance News experience from the ground up. A faster, cleaner news hub is on its way in the next version of Insurance Arena.</div>
+      <div class="soon-badge">Soon</div>
     </div>
-    <!-- Top 10 Headlines Digest -->
-    <div class="news-digest hidden" id="newsDigest">
-      <div class="digest-header">
-        <span class="digest-title">⚡ Top 10 Headlines</span>
-        <span class="digest-sub">Latest from Google News</span>
-      </div>
-      <div class="digest-list" id="digestList"></div>
-    </div>
-    <div class="news-search-wrap">
-      <span class="si">🔍</span>
-      <input type="text" id="newsSearch" class="search-input" placeholder="Search news…"/>
-      <button class="search-clear hidden" id="newsSearchClear" onclick="clearNewsSearch()">✕</button>
-    </div>
-    <div class="news-filter-row">
-      <button class="news-cat active" data-ncat="all">All News</button>
-      <button class="news-cat" data-ncat="insurance">Insurance</button>
-      <button class="news-cat" data-ncat="irdai">IRDAI</button>
-      <button class="news-cat" data-ncat="mutualfunds">Mutual Funds</button>
-      <button class="news-cat" data-ncat="tax">Tax</button>
-      <button class="news-cat" data-ncat="banking">Banking</button>
-      <button class="news-cat" data-ncat="personalfinance">Personal Finance</button>
-      <button class="news-cat" data-ncat="markets">Markets</button>
-    </div>
-    <div id="newsLoadingState" class="news-skeletons hidden" aria-label="Loading news"></div>
-    <div class="news-featured-wrap hidden" id="newsFeatured"></div>
-    <div class="news-grid hidden" id="newsGrid"></div>
-    <div class="news-disclaimer">⚠️ <strong>Disclaimer:</strong> Headlines from public RSS feeds. Tap any article to read on the original publisher's website.</div>
   </div>
 
   <!-- ═══ LEARN ═══ -->
@@ -316,29 +284,8 @@
   </div>
 
   <div class="sec" id="sec-tools">
-  <!-- Need Analysis Calculator - injected via JS -->
-  <div id="needAnalysisCalc" class="hidden" style="padding:12px 16px">
-    <div class="na-header">
-      <h2 class="na-title">🧮 Life Cover Need Analysis</h2>
-      <p class="na-sub">Calculate the recommended life cover based on your profile</p>
-    </div>
-    <div class="na-form">
-      <div class="na-row-2">
-        <div class="na-field"><label class="na-label">Age (years)</label><input type="number" id="na-age" class="na-input" placeholder="35" min="18" max="65"></div>
-        <div class="na-field"><label class="na-label">Annual Income (₹)</label><input type="number" id="na-income" class="na-input" placeholder="1200000"></div>
-      </div>
-      <div class="na-row-2">
-        <div class="na-field"><label class="na-label">No. of Dependents</label><input type="number" id="na-deps" class="na-input" placeholder="2" min="0" max="10"></div>
-        <div class="na-field"><label class="na-label">Monthly Expenses (₹)</label><input type="number" id="na-expense" class="na-input" placeholder="60000"></div>
-      </div>
-      <div class="na-row-2">
-        <div class="na-field"><label class="na-label">Outstanding Loans (₹ Lakh)</label><input type="number" id="na-loans" class="na-input" placeholder="20" min="0"></div>
-        <div class="na-field"><label class="na-label">Existing Cover (₹ Lakh)</label><input type="number" id="na-exist" class="na-input" placeholder="0" min="0"></div>
-      </div>
-      <button class="na-calc-btn" onclick="runNeedAnalysis()">Calculate Recommended Cover →</button>
-    </div>
-    <div id="na-result"></div>
-  </div>
+  
+  
     <div class="tools-header">
       <h2 class="sec-title">Free Calculators</h2>
       <p class="sec-sub">7 financial tools · No login · No data saved</p>
