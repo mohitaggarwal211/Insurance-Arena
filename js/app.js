@@ -1069,3 +1069,720 @@ function resetCalc(id){
   updateBMCount();
   updateDQUI();
 })();
+
+// ════════════════════════════════════════════════════════════
+// ANNUITY COMPARISON MODULE
+// ════════════════════════════════════════════════════════════
+
+// ── CAT-TAB SWITCHING (Term ↔ Annuity ↔ Soon) ──
+let activeCat = 'term';
+const compareControls = document.querySelector('.controls-bar');
+const termCardsWrap   = document.querySelector('#sec-compare > div:not(.cat-scroll-wrap):not(.controls-bar):not(.results-meta)');
+
+function switchCompareCat(cat) {
+  activeCat = cat;
+  document.querySelectorAll('.cat-btn').forEach(b => b.classList.toggle('active', b.dataset.cat === cat));
+
+  const isTerm    = cat === 'term';
+  const isAnnuity = cat === 'annuity';
+
+  // Show/hide term insurance controls and grids
+  ['controls-bar', 'results-meta'].forEach(cls => {
+    const el = document.querySelector('.' + cls);
+    if (el) el.classList.toggle('hidden', !isTerm);
+  });
+  ['cardsGrid', 'tableWrap', 'noResults'].forEach(id => {
+    const el = document.getElementById(id);
+    if (el) el.classList.toggle('hidden', !isTerm);
+  });
+
+  // Show/hide annuity section
+  const annSec = document.getElementById('sec-annuity');
+  if (annSec) {
+    annSec.classList.toggle('hidden', !isAnnuity);
+    if (isAnnuity) renderAnnuity();
+  }
+}
+
+document.querySelectorAll('.cat-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    if (btn.classList.contains('coming')) return;
+    switchCompareCat(btn.dataset.cat);
+  });
+});
+
+// ── ANNUITY STATE ──
+let annView = 'matrix'; // 'matrix' | 'cards'
+let annNoteOpen = null; // currently open note cell id
+
+// ── MAIN RENDER ──
+let annuityRendered = false;
+function renderAnnuity() {
+  if (annuityRendered) return;
+  annuityRendered = true;
+
+  const wrap = document.getElementById('annuityWrap');
+  if (!wrap) return;
+
+  // Base plan (ABSLI)
+  const base = ANNUITY_PLANS.find(p => p.isBase);
+  // Competitor plans
+  const comps = ANNUITY_PLANS.filter(p => !p.isBase);
+  // All plans for matrix (base first)
+  const allPlans = [base, ...comps];
+
+  wrap.innerHTML = `
+    <!-- ── Header ── -->
+    <div class="ann-header">
+      <div class="ann-hrow">
+        <div>
+          <h2 class="ann-title">Annuity Plan Comparison</h2>
+          <p class="ann-subtitle">ABSLI Guaranteed Annuity Plus vs ${comps.length} competitor plans across ${[...new Set(comps.map(p=>p.company))].length} companies</p>
+        </div>
+        <div class="ann-meta-pills">
+          <span class="ann-pill">14 Variants</span>
+          <span class="ann-pill">15 Plans</span>
+          <span class="ann-pill">10 Companies</span>
+        </div>
+      </div>
+      <div class="ann-bench-note">
+        <span class="ann-bicon">📊</span>
+        <span>Benchmark: <strong>Age 60 | Male | ₹10 Lakh Single Pay | Annual payout</strong> — Rates shown for LIC &amp; HDFC Life where publicly available. All others: use calculator link.</span>
+      </div>
+    </div>
+
+    <!-- ── Legend ── -->
+    <div class="ann-legend">
+      <span class="aleg aleg-yes">✅ Available</span>
+      <span class="aleg aleg-no">❌ Not Available</span>
+      <span class="aleg aleg-sim">⚠️ Similar — tap for detail</span>
+      <span class="aleg aleg-unique">★ ABSLI Unique</span>
+      <span class="aleg aleg-na">— Not Applicable</span>
+    </div>
+
+    <!-- ── View Toggle ── -->
+    <div class="ann-view-bar">
+      <div class="ann-vtog-group">
+        <button class="ann-vtog active" id="annMatrixBtn" onclick="showAnnView('matrix')">⊞ Variant Matrix</button>
+        <button class="ann-vtog" id="annCardsBtn" onclick="showAnnView('cards')">☰ Company Cards</button>
+      </div>
+      <p class="ann-matrix-hint">← Scroll right to see all companies</p>
+    </div>
+
+    <!-- ── MATRIX VIEW ── -->
+    <div id="annMatrixView">
+      ${buildMatrix(base, comps)}
+    </div>
+
+    <!-- ── CARDS VIEW ── -->
+    <div id="annCardsView" class="hidden">
+      ${buildCards(allPlans)}
+    </div>
+
+    <!-- ── BENCHMARK RATES ── -->
+    ${buildBenchmark()}
+
+    <!-- ── Note tooltip ── -->
+    <div class="ann-note-popup hidden" id="annNotePopup">
+      <div class="ann-note-inner">
+        <button class="ann-note-close" onclick="closeAnnNote()">✕</button>
+        <div id="annNoteContent"></div>
+      </div>
+    </div>
+  `;
+}
+
+// ── BUILD MATRIX ──
+function buildMatrix(base, comps) {
+  const allPlans = [base, ...comps];
+  const statusIcon = { yes:'✅', no:'❌', sim:'⚠️', unique:'★', na:'—', null:'?' };
+  const statusCls  = { yes:'am-yes', no:'am-no', sim:'am-sim', unique:'am-unique', na:'am-na', null:'am-unk' };
+
+  // Group options by category
+  const groups = {};
+  ANNUITY_OPTION_ROWS.forEach(opt => {
+    if (!groups[opt.group]) groups[opt.group] = [];
+    groups[opt.group].push(opt);
+  });
+
+  // Header row (company columns)
+  const hdrCells = allPlans.map(p => {
+    const isBase = p.isBase;
+    const badge = p.badge ? `<span class="ann-badge">${san(p.badge)}</span>` : '';
+    const bmAnn = p.benchmark60 ? `<div class="ann-col-rate">₹${Number(p.benchmark60.lifeAnnuity).toLocaleString('en-IN')}/yr</div>` : '';
+    return `<th class="am-col-hdr${isBase?' am-base-col':''}">
+      <div class="am-company">${san(p.company)}</div>
+      <div class="am-plan">${san(p.plan)}</div>
+      ${badge}
+      <div class="am-uin">UIN: ${san(p.uin||'—')}</div>
+      <div class="am-opts">${san(p.totalOptions)} options</div>
+      ${bmAnn}
+      <a href="${san(p.calcUrl)}" target="_blank" rel="noopener noreferrer" class="am-calc-link">🧮 Calculator →</a>
+    </th>`;
+  }).join('');
+
+  // Option rows
+  let rowsHtml = '';
+  let prevGroup = '';
+  ANNUITY_OPTION_ROWS.forEach(opt => {
+    // Group separator
+    if (opt.group !== prevGroup) {
+      prevGroup = opt.group;
+    }
+
+    const labelCell = `<td class="am-opt-label${opt.unique?' am-opt-unique':''}">
+      <div class="am-opt-group">${san(opt.group)}</div>
+      <div class="am-opt-name">${san(opt.label)}</div>
+      <div class="am-opt-desc">${san(opt.desc)}</div>
+    </td>`;
+
+    const dataCells = allPlans.map(p => {
+      const rawStatus = (p.options || {})[opt.id];
+      const status = rawStatus == null ? 'na' : rawStatus;
+      const icon = statusIcon[status] || '?';
+      const cls  = statusCls[status] || '';
+      const isBase = p.isBase;
+
+      // Find note for this cell
+      const noteKey = opt.id;
+      const note = (p.optionNotes || {})[noteKey] || null;
+      const hasNote = (status === 'sim' || note) && !isBase;
+      const noteId  = `${p.id}_${opt.id}`;
+
+      return `<td class="am-cell ${cls}${isBase?' am-base-col':''}" ${hasNote ? `onclick="openAnnNote('${noteId}','${san(p.plan).replace(/'/g,"\\'")}','${san(opt.label).replace(/'/g,"\\'")}','${san(note||'').replace(/'/g,"\\'")}','${status}')" style="cursor:pointer"` : ''}>
+        <span class="am-icon">${icon}</span>
+      </td>`;
+    }).join('');
+
+    rowsHtml += `<tr>${labelCell}${dataCells}</tr>`;
+  });
+
+  // Feature summary row
+  const featureRows = allPlans.map(p => {
+    const opts = p.options || {};
+    const yesCount = Object.values(opts).filter(v => v === 'yes' || v === 'unique').length;
+    return `<td class="am-feat-sum${p.isBase?' am-base-col':''}">${yesCount}/${ANNUITY_OPTION_ROWS.length}</td>`;
+  }).join('');
+
+  const typeRow = allPlans.map(p => `<td class="am-type-cell${p.isBase?' am-base-col':''}">${san(p.type)}</td>`).join('');
+  const lpRow = allPlans.map(p => {
+    const v = p.limitedPay;
+    return `<td class="am-cell ${v?'am-yes':'am-no'}${p.isBase?' am-base-col':''}">
+      <span class="am-icon">${v?'✅':'❌'}</span>
+      ${p.limitedPayNote ? `<div class="am-lp-note">${san(p.limitedPayNote)}</div>` : ''}
+    </td>`;
+  }).join('');
+  const jlRow = allPlans.map(p => `<td class="am-cell ${p.jointLife?'am-yes':'am-no'}${p.isBase?' am-base-col':''}"><span class="am-icon">${p.jointLife?'✅':'❌'}</span></td>`).join('');
+  const tuRow = allPlans.map(p => `<td class="am-cell ${p.topUp?'am-yes':'am-no'}${p.isBase?' am-base-col':''}"><span class="am-icon">${p.topUp?'✅':'❌'}</span></td>`).join('');
+
+  return `
+  <div class="am-scroll-wrap">
+    <table class="am-table">
+      <thead>
+        <tr>
+          <th class="am-opt-hdr">ABSLI Option / Variant</th>
+          ${hdrCells}
+        </tr>
+      </thead>
+      <tbody>
+        ${rowsHtml}
+        <tr class="am-divider-row"><td colspan="${allPlans.length+1}"></td></tr>
+        <tr class="am-summary-row">
+          <td class="am-opt-label"><div class="am-opt-name">Matching Options (of 14)</div></td>
+          ${featureRows}
+        </tr>
+        <tr>
+          <td class="am-opt-label"><div class="am-opt-name">Plan Type</div></td>${typeRow}
+        </tr>
+        <tr>
+          <td class="am-opt-label"><div class="am-opt-name">Limited Pay?</div><div class="am-opt-desc">Non-single premium option</div></td>${lpRow}
+        </tr>
+        <tr>
+          <td class="am-opt-label"><div class="am-opt-name">Joint Life?</div></td>${jlRow}
+        </tr>
+        <tr>
+          <td class="am-opt-label"><div class="am-opt-name">Top-Up Option?</div></td>${tuRow}
+        </tr>
+      </tbody>
+    </table>
+  </div>`;
+}
+
+// ── BUILD CARDS ──
+function buildCards(plans) {
+  return `<div class="ann-cards-grid">${plans.map(p => {
+    const isBase = p.isBase;
+    const optCount = Object.values(p.options||{}).filter(v=>v==='yes'||v==='unique').length;
+    const bm = p.benchmark60;
+    const bmHtml = bm
+      ? `<div class="ac-bm"><span class="ac-bm-lbl">Life Annuity (Age 60, ₹10L):</span> <strong>₹${Number(bm.lifeAnnuity).toLocaleString('en-IN')}/yr</strong> <span class="ac-bm-date">${bm.dataDate}</span></div>`
+      : (p.benchmarkNote ? `<div class="ac-bm ac-bm-note">${san(p.benchmarkNote)}</div>` : '');
+
+    const features = [
+      ['Type', p.type],
+      ['Options', String(p.totalOptions)],
+      ['Entry Age', p.entryAge||'—'],
+      ['Min Premium', p.minPremium||'—'],
+      ['Payout', p.payout||'—'],
+      p.limitedPay ? ['Limited Pay', p.limitedPayNote||'Yes'] : null,
+      p.loan ? ['Policy Loan', p.loan] : null,
+      p.deferment ? ['Deferment', p.deferment] : null,
+    ].filter(Boolean);
+
+    const flagRow = [
+      {lbl:'Joint Life', val: p.jointLife},
+      {lbl:'Top-Up', val: p.topUp},
+      {lbl:'Group Policy', val: p.groupPolicy},
+      {lbl:'QROPS', val: p.qrops},
+    ].map(f => `<span class="ac-flag ${f.val?'yes':'no'}">${f.val?'✓':'✗'} ${f.lbl}</span>`).join('');
+
+    const uniqueOpts = ANNUITY_OPTION_ROWS.filter(o => (p.options||{})[o.id] === 'unique');
+    const uniqueHtml = uniqueOpts.length
+      ? `<div class="ac-unique"><div class="ac-u-lbl">★ UNIQUE to ${san(p.company)}:</div>${uniqueOpts.map(o=>`<div class="ac-u-item">${san(o.label)}</div>`).join('')}</div>`
+      : '';
+
+    return `<div class="ann-card${isBase?' ann-card-base':''}">
+      <div class="ac-header">
+        <div>
+          <div class="ac-company">${san(p.company)}</div>
+          <div class="ac-plan">${san(p.plan)}</div>
+          ${p.badge ? `<span class="ann-badge">${san(p.badge)}</span>` : ''}
+        </div>
+        <div class="ac-type-badge">${san(p.type)}</div>
+      </div>
+      <div class="ac-uin">UIN: ${san(p.uin||'—')}</div>
+      ${bm || p.benchmarkNote ? bmHtml : ''}
+      <div class="ac-feat-grid">${features.map(([l,v])=>`<div class="ac-feat"><span class="ac-fl">${san(l)}</span><span class="ac-fv">${san(v)}</span></div>`).join('')}</div>
+      <div class="ac-flags">${flagRow}</div>
+      ${uniqueHtml}
+      <div class="ac-actions">
+        <a href="${san(p.calcUrl)}" target="_blank" rel="noopener noreferrer" class="ac-btn-calc">🧮 Open Calculator →</a>
+        ${p.brochureUrl ? `<a href="${san(p.brochureUrl)}" target="_blank" rel="noopener noreferrer" class="ac-btn-bro">📄 Brochure</a>` : ''}
+      </div>
+    </div>`;
+  }).join('')}</div>`;
+}
+
+// ── BUILD BENCHMARK ──
+function buildBenchmark() {
+  const b = ANNUITY_BENCHMARK;
+  const rows = b.confirmed.map(r => `
+    <tr>
+      <td><strong>${san(r.company)}</strong><br/><small>${san(r.plan)}</small></td>
+      <td class="ann-rate-val">${san(r.lifeAnnuity)}<br/><small>${san(r.lifeAnnuityRate)}</small></td>
+      <td class="ann-rate-val">${san(r.lifeROP)}<br/><small>${san(r.lifeROPRate)}</small></td>
+      <td><small>${san(r.dataDate)}</small></td>
+    </tr>`).join('');
+
+  return `
+  <div class="ann-bm-section">
+    <h3 class="ann-bm-title">📊 Benchmark Rates — Where Available</h3>
+    <p class="ann-bm-params">${san(b.params)}</p>
+    <div class="ann-bm-table-wrap">
+      <table class="ann-bm-table">
+        <thead>
+          <tr>
+            <th>Company / Plan</th>
+            <th>Life Annuity (No ROP)</th>
+            <th>Life + 100% ROP</th>
+            <th>Data As Of</th>
+          </tr>
+        </thead>
+        <tbody>${rows}</tbody>
+      </table>
+    </div>
+    <p class="ann-bm-disclaimer">⚠️ Annuity rates change periodically. Figures above are for reference from public sources — not current quotes. Always verify from the company's official calculator before advising clients.</p>
+    <div class="ann-bm-lp">
+      <strong>Limited Pay Benchmark</strong> — ${san(b.limitedPayBenchmark.params)}<br/>
+      <small>${san(b.limitedPayBenchmark.note)}</small>
+    </div>
+  </div>`;
+}
+
+// ── VIEW SWITCH ──
+function showAnnView(view) {
+  annView = view;
+  document.getElementById('annMatrixView').classList.toggle('hidden', view !== 'matrix');
+  document.getElementById('annCardsView').classList.toggle('hidden', view !== 'cards');
+  document.getElementById('annMatrixBtn').classList.toggle('active', view === 'matrix');
+  document.getElementById('annCardsBtn').classList.toggle('active', view === 'cards');
+  document.querySelector('.ann-matrix-hint').classList.toggle('hidden', view !== 'matrix');
+}
+
+// ── NOTE POPUP ──
+function openAnnNote(id, planName, optLabel, noteText, status) {
+  const statusLabels = { sim:'⚠️ Similar but different:', yes:'✅ Available:', no:'❌ Not available', na:'— Not applicable' };
+  const popup = document.getElementById('annNotePopup');
+  const content = document.getElementById('annNoteContent');
+  content.innerHTML = `
+    <div class="ann-note-plan">${san(planName)}</div>
+    <div class="ann-note-opt">${san(optLabel)}</div>
+    <div class="ann-note-status">${statusLabels[status]||''}</div>
+    <div class="ann-note-text">${san(noteText || 'No additional detail available.')}</div>`;
+  popup.classList.remove('hidden');
+  popup.classList.add('active');
+  annNoteOpen = id;
+}
+function closeAnnNote() {
+  const popup = document.getElementById('annNotePopup');
+  popup.classList.remove('active');
+  popup.classList.add('hidden');
+  annNoteOpen = null;
+}
+// Close on background click
+document.addEventListener('click', e => {
+  const popup = document.getElementById('annNotePopup');
+  if (popup && !popup.classList.contains('hidden') && !popup.querySelector('.ann-note-inner').contains(e.target)) {
+    closeAnnNote();
+  }
+});
+
+// ════════════════════════════════════════════════════════════
+// PARTICIPATING — ANMOL AKSHAYA MODULE
+// ════════════════════════════════════════════════════════════
+let parRendered = false;
+function renderPar() {
+  if (parRendered) return; parRendered = true;
+  const wrap = document.getElementById('parWrap');
+  if (!wrap) return;
+
+  const base = ANMOL_PLANS.find(p => p.isBase);
+  const comps = ANMOL_PLANS.filter(p => !p.isBase);
+  const all = [base, ...comps];
+
+  function fmt(n) { return n == null ? '—' : '₹' + Number(n).toLocaleString('en-IN'); }
+  function pct(n) { return n == null ? '—' : n.toFixed(2) + '%'; }
+
+  // Header
+  let html = `
+  <div class="prod-header">
+    <h2 class="prod-title">Participating Endowment Comparison</h2>
+    <p class="prod-sub">ABSLI Anmol Akshaya vs ${comps.length} competitor plans</p>
+    <div class="prod-bench">📊 Benchmark: <strong>Age 35 | Male | ₹1L AP | PPT 10 | PT 20</strong> | Bonus @IRDAI assumed returns (4% & 8%) — NOT guaranteed</div>
+  </div>
+  <div class="prod-note-bar">⚠️ All plans shown are <strong>Participating</strong> — bonus is non-guaranteed and depends on insurer performance. @4% and @8% are IRDAI-prescribed illustrative returns, not promises.</div>`;
+
+  // Cards
+  html += '<div class="prod-cards">';
+  all.forEach(p => {
+    const pending = p.pending;
+    const na = p.notAvailable;
+    const tag = p.isBase ? '<span class="prod-base-tag">Base Plan</span>' : '';
+
+    html += `<div class="prod-card${p.isBase?' prod-card-base':''}">
+      <div class="pc-top">
+        <div>
+          <div class="pc-co">${san(p.company)}</div>
+          <div class="pc-pl">${san(p.plan)}</div>
+          ${tag}
+        </div>
+        <div class="pc-type">${san(p.type)}</div>
+      </div>
+      <div class="pc-uin">UIN: ${san(p.uin||'—')}</div>`;
+
+    if (na) {
+      html += `<div class="pc-na-block">❌ Not Available<br/><small>${san(p.naReason)}</small></div>`;
+    } else if (pending) {
+      html += `<div class="pc-pending-block">⏳ Illustration Pending<br/><small>Data will be updated when received</small></div>`;
+    } else {
+      html += `
+      <div class="pc-nums">
+        <div class="pc-num-row">
+          <span class="pc-nl">Sum Assured</span>
+          <span class="pc-nv">${fmt(p.sa)}</span>
+        </div>
+        <div class="pc-num-row">
+          <span class="pc-nl">Guaranteed Maturity Benefit</span>
+          <span class="pc-nv">${fmt(p.gmb)}</span>
+        </div>
+        <div class="pc-num-row pc-highlight">
+          <span class="pc-nl">Total Maturity @4%</span>
+          <span class="pc-nv pc-green">${fmt(p.mat4)}</span>
+        </div>
+        <div class="pc-num-row">
+          <span class="pc-nl">IRR @4%</span>
+          <span class="pc-nv">${pct(p.irr4)}</span>
+        </div>
+        <div class="pc-num-row pc-highlight8">
+          <span class="pc-nl">Total Maturity @8%</span>
+          <span class="pc-nv pc-blue">${fmt(p.mat8)}</span>
+        </div>
+        <div class="pc-num-row">
+          <span class="pc-nl">IRR @8%</span>
+          <span class="pc-nv">${pct(p.irr8)}</span>
+        </div>
+      </div>
+      <div class="pc-breakup4"><small>@4% breakup: ${san(p.breakup4||'—')}</small></div>
+      <div class="pc-breakup8"><small>@8% breakup: ${san(p.breakup8||'—')}</small></div>
+      <div class="pc-bonus-note"><small>⚠️ ${san(p.bonusType)}</small></div>`;
+    }
+
+    html += `
+      <div class="pc-unique">${san(p.uniqueFeature)}</div>
+      <div class="pc-pitch">"${san(p.pitch)}"</div>
+      <div class="pc-src"><small>📋 ${san(p.dataSource)}</small></div>
+      ${p.productUrl ? `<a href="${san(p.productUrl)}" target="_blank" rel="noopener noreferrer" class="pc-btn">Visit Product →</a>` : ''}
+    </div>`;
+  });
+  html += '</div>';
+
+  // IRR comparison table (only confirmed)
+  const confirmed = all.filter(p => p.mat4 && !p.notAvailable);
+  if (confirmed.length > 0) {
+    html += `<div class="prod-irr-table">
+    <h3 class="prod-irr-title">📈 IRR Comparison (Confirmed Data Only)</h3>
+    <div class="prod-irr-scroll"><table class="pirr-tbl">
+    <thead><tr><th>Plan</th><th>SA</th><th>Total @4%</th><th>IRR @4%</th><th>Total @8%</th><th>IRR @8%</th><th>Data As Of</th></tr></thead>
+    <tbody>`;
+    confirmed.forEach(p => {
+      html += `<tr${p.isBase?' class="pirr-base"':''}>
+        <td><strong>${san(p.company)}</strong><br/><small>${san(p.plan)}</small></td>
+        <td>${fmt(p.sa)}</td>
+        <td class="pirr-green">${fmt(p.mat4)}</td>
+        <td>${pct(p.irr4)}</td>
+        <td class="pirr-blue">${fmt(p.mat8)}</td>
+        <td>${pct(p.irr8)}</td>
+        <td><small>${san(p.dataDate||'—')}</small></td>
+      </tr>`;
+    });
+    html += `</tbody></table></div>
+    <p class="prod-irr-note">⚠️ ${san(ANMOL_IRR_NOTE)}</p></div>`;
+  }
+
+  wrap.innerHTML = html;
+}
+
+// ════════════════════════════════════════════════════════════
+// NON-PAR MODULE — 3 PRODUCTS (Nishchit, Savings, Income)
+// ════════════════════════════════════════════════════════════
+let nonparRendered = false;
+let activeNP = 'nishchit';
+
+function renderNonPar() {
+  if (!nonparRendered) {
+    nonparRendered = true;
+    // Set up sub-tab switching
+    document.querySelectorAll('.npsub').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.npsub').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        activeNP = btn.dataset.np;
+        renderNPContent();
+      });
+    });
+  }
+  renderNPContent();
+}
+
+function renderNPContent() {
+  const wrap = document.getElementById('nonparWrap');
+  if (!wrap) return;
+  if (activeNP === 'nishchit') renderNishchit(wrap);
+  else if (activeNP === 'savings') renderSavingsComp(wrap);
+  else if (activeNP === 'income') renderIncomeComp(wrap);
+}
+
+function renderNishchit(wrap) {
+  const base = NISHCHIT_PLANS.find(p => p.isBase);
+  const comps = NISHCHIT_PLANS.filter(p => !p.isBase && !p.excluded);
+  const excl = NISHCHIT_PLANS.filter(p => p.excluded);
+  const all = [base, ...comps];
+
+  function fmt(n) { return n == null ? '—' : '₹' + Number(n).toLocaleString('en-IN'); }
+
+  let html = `
+  <div class="prod-header">
+    <h2 class="prod-title">Guaranteed Income Plan Comparison</h2>
+    <p class="prod-sub">ABSLI Nishchit Aayush vs ${comps.length} comparable plans</p>
+    <div class="prod-bench">📊 Benchmark: <strong>Age 35 | Male | ₹1L AP | PPT 10 | PT 20 | 0 Deferment | Income from Year 1</strong></div>
+  </div>
+  <div class="prod-note-bar">✅ All plans shown are <strong>Non-Participating</strong> — returns are fully guaranteed (no bonus element). Comparison is like-for-like.</div>
+  <div class="prod-cards">`;
+
+  all.forEach(p => {
+    const pending = p.pending;
+    const tag = p.isBase ? '<span class="prod-base-tag">Base Plan</span>' : (p.tag ? `<span class="prod-tag">${san(p.tag)}</span>` : '');
+
+    html += `<div class="prod-card${p.isBase?' prod-card-base':''}">
+      <div class="pc-top">
+        <div><div class="pc-co">${san(p.company)}</div><div class="pc-pl">${san(p.plan)}</div>${tag}</div>
+        <div class="pc-type">${san(p.type)}</div>
+      </div>
+      <div class="pc-uin">UIN: ${san(p.uin||'—')}</div>`;
+
+    if (pending) {
+      html += `<div class="pc-pending-block">⏳ Illustration Pending<br/><small>Data will be updated when received</small></div>`;
+    } else {
+      html += `<div class="pc-nums">
+        <div class="pc-num-row"><span class="pc-nl">Income Start</span><span class="pc-nv">${san(p.incomeFrom)}</span></div>
+        <div class="pc-num-row"><span class="pc-nl">Income Type</span><span class="pc-nv">${san(p.incomeType)}</span></div>`;
+
+      if (p.annualIncome) {
+        html += `<div class="pc-num-row pc-highlight"><span class="pc-nl">Annual Income</span><span class="pc-nv pc-green">${fmt(p.annualIncome)}/yr</span></div>`;
+      } else if (p.annualIncomeY2) {
+        html += `<div class="pc-num-row pc-highlight"><span class="pc-nl">Income Year 2 (start)</span><span class="pc-nv pc-green">${fmt(p.annualIncomeY2)}/yr</span></div>`;
+      }
+      if (p.cashback) {
+        html += `<div class="pc-num-row"><span class="pc-nl">Instant Cashback</span><span class="pc-nv">${fmt(p.cashback)}</span></div>`;
+      }
+      html += `<div class="pc-num-row"><span class="pc-nl">Income Period</span><span class="pc-nv">${san(p.incomePeriod||'—')} yrs</span></div>`;
+      if (p.lumpsum != null) {
+        html += `<div class="pc-num-row"><span class="pc-nl">Lump Sum / Maturity</span><span class="pc-nv">${fmt(p.lumpsum)}</span></div>`;
+      }
+      html += `<div class="pc-num-row pc-highlight8"><span class="pc-nl">Total Guaranteed Return</span><span class="pc-nv pc-blue">${fmt(p.totalReturn)}</span></div>
+        <div class="pc-num-row"><span class="pc-nl">IRR</span><span class="pc-nv">${p.irr ? p.irr.toFixed(2)+'%' : '—'}</span></div>
+      </div>`;
+
+      if (p.note) {
+        html += `<div class="pc-warn">${san(p.note)}</div>`;
+      }
+    }
+
+    html += `<div class="pc-unique">${san(p.uniqueFeature)}</div>
+      <div class="pc-pitch">"${san(p.pitch)}"</div>
+      <div class="pc-src"><small>📋 ${san(p.dataSource)}</small></div>
+      <div class="pc-links">
+        ${p.productUrl ? `<a href="${san(p.productUrl)}" target="_blank" rel="noopener noreferrer" class="pc-btn">Product →</a>` : ''}
+        ${p.calcUrl ? `<a href="${san(p.calcUrl)}" target="_blank" rel="noopener noreferrer" class="pc-btn-sec">Calculator →</a>` : ''}
+      </div>
+    </div>`;
+  });
+
+  html += '</div>';
+
+  // IRR table
+  const confirmed = all.filter(p => p.totalReturn && !p.pending);
+  if (confirmed.length) {
+    html += `<div class="prod-irr-table">
+    <h3 class="prod-irr-title">📈 IRR Comparison (Confirmed Data)</h3>
+    <div class="prod-irr-scroll"><table class="pirr-tbl"><thead>
+    <tr><th>Plan</th><th>Income/yr</th><th>Income Period</th><th>Lump Sum</th><th>Total Return</th><th>IRR</th></tr>
+    </thead><tbody>`;
+    confirmed.forEach(p => {
+      const inc = p.annualIncome ? '₹'+Number(p.annualIncome).toLocaleString('en-IN')+'/yr (level)' :
+        (p.annualIncomeY2 ? '₹'+Number(p.annualIncomeY2).toLocaleString('en-IN')+'/yr (from Yr2, increasing 5%)' : '—');
+      html += `<tr${p.isBase?' class="pirr-base"':''}>
+        <td><strong>${san(p.company)}</strong><br/><small>${san(p.plan.split('(')[0].trim())}</small></td>
+        <td>${inc}</td>
+        <td>${san(p.incomePeriod||'—')} yrs</td>
+        <td>${p.lumpsum ? '₹'+Number(p.lumpsum).toLocaleString('en-IN') : '—'}</td>
+        <td class="pirr-blue"><strong>₹${Number(p.totalReturn).toLocaleString('en-IN')}</strong></td>
+        <td>${p.irr ? p.irr.toFixed(2)+'%' : '—'}</td>
+      </tr>`;
+    });
+    html += `</tbody></table></div>
+    <p class="prod-irr-note">⚠️ ${san(NISHCHIT_IRR_NOTE)}</p></div>`;
+  }
+
+  if (excl.length) {
+    html += `<div class="prod-excl"><h4>Excluded from Comparison</h4>`;
+    excl.forEach(p => {
+      html += `<div class="prod-excl-item">❌ <strong>${san(p.company)} ${san(p.plan)}</strong> — ${san(p.excludedReason)}</div>`;
+    });
+    html += '</div>';
+  }
+
+  wrap.innerHTML = html;
+}
+
+function renderSavingsComp(wrap) {
+  wrap.innerHTML = buildFeatureCompTable('ABSLI Assured Savings Plan', SAVINGS_PLANS, 'Non-Linked Non-Par Savings | Benchmark: Age 35 | Male | ₹1L | PPT 10 | PT 20');
+}
+
+function renderIncomeComp(wrap) {
+  wrap.innerHTML = buildFeatureCompTable('ABSLI Assured Income Plus', INCOME_PLANS, 'Non-Linked Non-Par Guaranteed Income | Benchmark: Age 35 | Male | ₹1L | PPT 10 | Benefit Payout 20/25/30 yrs');
+}
+
+function buildFeatureCompTable(title, plans, bench) {
+  const base = plans.find(p => p.isBase);
+  const comps = plans.filter(p => !p.isBase);
+
+  let html = `<div class="prod-header">
+    <h2 class="prod-title">${san(title)} — Competitor Comparison</h2>
+    <div class="prod-bench">📊 ${san(bench)}</div>
+  </div>
+  <div class="prod-note-bar">⚠️ Data sourced from official insurer websites only. Fields marked <em>Verify from brochure</em> require official brochure access for exact values. No assumptions made.</div>
+  <div class="prod-cards">`;
+
+  plans.forEach(p => {
+    const isRep = p.replacementNote;
+    const isWarn = p.typeWarning;
+    html += `<div class="prod-card${p.isBase?' prod-card-base':''}${isWarn?' prod-card-warn':''}">
+      <div class="pc-top">
+        <div>
+          <div class="pc-co">${san(p.company)}</div>
+          <div class="pc-pl">${san(p.plan)}</div>
+          ${p.isBase ? '<span class="prod-base-tag">Base Plan</span>' : ''}
+          ${p.status === 'Unable to Verify' ? '<span class="prod-warn-tag">⚠️ Verify</span>' : ''}
+          ${p.status?.includes('replacement') || isRep ? '<span class="prod-rep-tag">↻ Replaced</span>' : ''}
+        </div>
+        <div class="pc-type${isWarn?' pc-type-warn':''}">${san(p.type||'—')}</div>
+      </div>
+      <div class="pc-uin">UIN: ${san(p.uin||'—')} | Status: ${san(p.status||'—')}</div>
+      ${isRep ? `<div class="pc-rep-note">${san(p.replacementNote)}</div>` : ''}
+      ${p.note && !isRep ? `<div class="pc-warn">${san(p.note)}</div>` : ''}
+      <div class="pc-feature-list">
+        ${p.entryAge ? `<div class="pc-feat"><span class="pc-fl">Entry Age</span><span class="pc-fv">${san(p.entryAge)}</span></div>` : ''}
+        ${p.ppt ? `<div class="pc-feat"><span class="pc-fl">PPT</span><span class="pc-fv">${san(p.ppt)}</span></div>` : ''}
+        ${(p.incomePeriods||[]).length ? `<div class="pc-feat"><span class="pc-fl">Income Period</span><span class="pc-fv">${p.incomePeriods.join(' | ')}</span></div>` : ''}
+        ${(p.planOptions||[]).length ? `<div class="pc-feat"><span class="pc-fl">Plan Options</span><span class="pc-fv">${p.planOptions.join(' | ')}</span></div>` : ''}
+        ${p.deathBenefit ? `<div class="pc-feat"><span class="pc-fl">Death Benefit</span><span class="pc-fv">${san(p.deathBenefit)}</span></div>` : ''}
+        ${p.riders ? `<div class="pc-feat"><span class="pc-fl">Riders</span><span class="pc-fv">${san(p.riders)}</span></div>` : ''}
+        ${p.maturityBenefit ? `<div class="pc-feat"><span class="pc-fl">Maturity Benefit</span><span class="pc-fv">${typeof p.maturityBenefit === 'string' ? san(p.maturityBenefit) : '✅ Yes'}</span></div>` : ''}
+        ${p.loyaltyAdditions ? `<div class="pc-feat"><span class="pc-fl">Loyalty Additions</span><span class="pc-fv">✅ Yes</span></div>` : ''}
+        ${p.guaranteedAdditions ? `<div class="pc-feat"><span class="pc-fl">Guaranteed Additions</span><span class="pc-fv">✅ Yes</span></div>` : ''}
+        ${p.loan ? `<div class="pc-feat"><span class="pc-fl">Policy Loan</span><span class="pc-fv">✅ Yes</span></div>` : ''}
+        ${p.jointLife ? `<div class="pc-feat"><span class="pc-fl">Joint Life</span><span class="pc-fv">✅ Yes</span></div>` : ''}
+      </div>
+      <div class="pc-unique">${san(p.uniqueFeature||'—')}</div>
+      <div class="pc-pitch">"${san(p.pitch||'—')}"</div>
+      <div class="pc-src"><small>📋 ${san(p.verification||'—')}</small></div>
+      <div class="pc-links">
+        ${p.url ? `<a href="${san(p.url)}" target="_blank" rel="noopener noreferrer" class="pc-btn">Product →</a>` : ''}
+        ${p.brochure && !p.brochure.startsWith('Verify') ? `<a href="${san(p.brochure)}" target="_blank" rel="noopener noreferrer" class="pc-btn-sec">Brochure →</a>` : ''}
+      </div>
+    </div>`;
+  });
+
+  html += '</div>';
+  return html;
+}
+
+// ── UPDATE switchCompareCat to handle par/nonpar ──
+const _origSwitch = switchCompareCat;
+function switchCompareCat(cat) {
+  activeCat = cat;
+  document.querySelectorAll('.cat-btn').forEach(b => b.classList.toggle('active', b.dataset.cat === cat));
+  const isTerm = cat === 'term';
+  const isAnnuity = cat === 'annuity';
+  const isPar = cat === 'par';
+  const isNonPar = cat === 'nonpar';
+
+  ['controls-bar','results-meta'].forEach(cls => {
+    const el = document.querySelector('.'+cls);
+    if (el) el.classList.toggle('hidden', !isTerm);
+  });
+  ['cardsGrid','tableWrap','noResults'].forEach(id => {
+    const el = document.getElementById(id);
+    if (el) el.classList.toggle('hidden', !isTerm);
+  });
+
+  const annSec = document.getElementById('sec-annuity');
+  const parSec = document.getElementById('sec-par');
+  const npSec  = document.getElementById('sec-nonpar');
+
+  if (annSec) { annSec.classList.toggle('hidden', !isAnnuity); if (isAnnuity) renderAnnuity(); }
+  if (parSec) { parSec.classList.toggle('hidden', !isPar); if (isPar) renderPar(); }
+  if (npSec)  { npSec.classList.toggle('hidden', !isNonPar); if (isNonPar) renderNonPar(); }
+}
+
+// Re-bind all cat-btns with updated function
+document.querySelectorAll('.cat-btn').forEach(btn => {
+  btn.replaceWith(btn.cloneNode(true));
+});
+document.querySelectorAll('.cat-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    if (btn.classList.contains('coming')) return;
+    switchCompareCat(btn.dataset.cat);
+  });
+});
