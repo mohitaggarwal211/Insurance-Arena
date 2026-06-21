@@ -650,3 +650,87 @@ document.addEventListener('DOMContentLoaded', () => {
     observer.observe(avbSec, { attributes: true, attributeFilter: ['class'] });
   }
 });
+
+// ─────────────────────────────────────────────────────────
+// SAFE POST-RENDER INTEGRATION
+// Uses MutationObserver instead of function patching
+// No risk of infinite recursion
+// ─────────────────────────────────────────────────────────
+(function initPostRenderHooks() {
+  // Observe each content wrap for new card content
+  const wrapsToWatch = [
+    { id: 'parWrap',       cat: 'par'     },
+    { id: 'nonparWrap',    cat: 'nonpar'  },
+    { id: 'annCardsView',  cat: 'annuity' },
+  ];
+
+  function applyHooks(el, cat) {
+    if (!el) return;
+    if (typeof applyCardExpand === 'function')         applyCardExpand(el);
+    if (typeof injectShareButtons === 'function')      injectShareButtons(el);
+    if (typeof injectShortlistCheckboxes === 'function') injectShortlistCheckboxes(el, cat);
+  }
+
+  wrapsToWatch.forEach(({ id, cat }) => {
+    const el = document.getElementById(id);
+    if (!el) return;
+    const obs = new MutationObserver(() => {
+      // Debounce — wait for render to complete
+      clearTimeout(el._hookTimer);
+      el._hookTimer = setTimeout(() => applyHooks(el, cat), 200);
+    });
+    obs.observe(el, { childList: true, subtree: false });
+  });
+
+  // Observe nav section switches to show Need Analysis + Flashcard
+  const allSections = document.querySelectorAll('.sec');
+  allSections.forEach(sec => {
+    const obs = new MutationObserver(() => {
+      const isVisible = !sec.classList.contains('hidden') && sec.classList.contains('active');
+      if (!isVisible) return;
+      if (sec.id === 'sec-tools') {
+        const na = document.getElementById('needAnalysisCalc');
+        if (na) na.classList.remove('hidden');
+      }
+      if (sec.id === 'sec-learn') {
+        injectFlashcardBtn();
+      }
+    });
+    obs.observe(sec, { attributes: true, attributeFilter: ['class'] });
+  });
+
+  // Also watch nav button clicks directly (safe — just adds show/hide logic)
+  document.addEventListener('click', e => {
+    const btn = e.target.closest('.nav-btn, .mnav-btn');
+    if (!btn) return;
+    const sec = btn.dataset.sec;
+    if (sec === 'tools') {
+      setTimeout(() => {
+        const na = document.getElementById('needAnalysisCalc');
+        if (na) na.classList.remove('hidden');
+      }, 100);
+    }
+    if (sec === 'learn') {
+      setTimeout(injectFlashcardBtn, 100);
+    }
+  }, true); // capture phase — runs before existing listeners
+})();
+
+function injectFlashcardBtn() {
+  const learnSec = document.getElementById('sec-learn');
+  if (!learnSec || document.getElementById('fcToggleBtn')) return;
+  const btn = document.createElement('button');
+  btn.id = 'fcToggleBtn';
+  btn.className = 'fc-toggle-btn';
+  btn.textContent = '📇 Flashcard Mode';
+  btn.onclick = function() {
+    const fcSec = document.getElementById('flashcardSection');
+    if (!fcSec) return;
+    const isOn = !fcSec.classList.contains('hidden');
+    fcSec.classList.toggle('hidden', isOn);
+    this.classList.toggle('active', !isOn);
+    this.textContent = isOn ? '📇 Flashcard Mode' : '📖 Back to Learning';
+    if (!isOn && typeof initFlashcards === 'function') initFlashcards();
+  };
+  learnSec.insertBefore(btn, learnSec.firstChild);
+}
