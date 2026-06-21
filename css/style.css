@@ -1364,3 +1364,35 @@ body.light-mode .sec-compare { background:#F8FAFC; }
   .gs-overlay { padding:40px 10px 0; }
   .fab-main-btn { width:46px; height:46px; font-size:18px; }
 }
+
+/* ═══════════════════════════════════════
+   UNIVERSAL SHARE SYSTEM
+   ═══════════════════════════════════════ */
+.share-sheet-overlay { position:fixed; inset:0; background:rgba(0,0,0,.6); z-index:600; display:flex; align-items:flex-end; backdrop-filter:blur(3px); }
+.share-sheet { background:var(--card); border-radius:18px 18px 0 0; padding:18px 16px calc(18px + env(safe-area-inset-bottom)); width:100%; box-shadow:0 -8px 30px rgba(0,0,0,.4); animation:sheetUp .25s ease; }
+@keyframes sheetUp { from{transform:translateY(100%)} to{transform:translateY(0)} }
+.share-sheet-title { font-size:13px; font-weight:700; color:var(--white); text-align:center; margin-bottom:14px; }
+.share-sheet-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:10px; margin-bottom:14px; }
+.share-opt { display:flex; flex-direction:column; align-items:center; gap:5px; padding:12px 6px; background:var(--card2); border:1px solid var(--border); border-radius:12px; color:var(--g300); font-size:11px; font-weight:600; cursor:pointer; text-decoration:none; }
+.share-opt:hover { border-color:var(--teal); color:var(--teal); }
+.share-ico { font-size:22px; }
+.share-sheet-cancel { width:100%; padding:11px; background:var(--card2); border:1px solid var(--border); color:var(--g400); border-radius:12px; font-size:13px; font-weight:600; cursor:pointer; }
+
+/* Share buttons */
+.pc-share-btn { width:100%; padding:8px; background:rgba(0,196,180,.1); border:1px solid rgba(0,196,180,.3); color:var(--teal); border-radius:8px; font-size:12px; font-weight:700; cursor:pointer; margin-bottom:6px; }
+.pc-share-btn:hover { background:var(--teal); color:#000; }
+.td-share-btn { background:transparent; border:1px solid var(--border); color:var(--g400); width:34px; height:34px; border-radius:8px; font-size:14px; cursor:pointer; margin-left:6px; }
+.td-share-btn:hover { border-color:var(--teal); color:var(--teal); }
+.dict-share-btn { margin-top:10px; padding:7px 14px; background:rgba(0,196,180,.1); border:1px solid rgba(0,196,180,.3); color:var(--teal); border-radius:8px; font-size:11px; font-weight:700; cursor:pointer; }
+.avb-share-btn { width:100%; padding:10px; background:rgba(0,196,180,.1); border:1px solid rgba(0,196,180,.3); color:var(--teal); border-radius:10px; font-size:12px; font-weight:700; cursor:pointer; margin-top:8px; }
+.avb-share-btn:hover { background:var(--teal); color:#000; }
+.fc-share-btn { width:100%; padding:9px; background:rgba(0,196,180,.1); border:1px solid rgba(0,196,180,.3); color:var(--teal); border-radius:10px; font-size:12px; font-weight:700; cursor:pointer; margin-top:8px; }
+
+/* ═══════════════════════════════════════
+   NEWS "SOON" PLACEHOLDER
+   ═══════════════════════════════════════ */
+.soon-placeholder { display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; padding:60px 24px; min-height:50vh; }
+.soon-icon { font-size:48px; margin-bottom:16px; opacity:.7; }
+.soon-title { font-family:'Syne',sans-serif; font-size:24px; font-weight:800; color:var(--white); margin-bottom:10px; }
+.soon-text { font-size:13px; color:var(--g400); line-height:1.7; max-width:340px; margin-bottom:18px; }
+.soon-badge { background:rgba(0,196,180,.12); border:1px solid var(--teal); color:var(--teal); padding:5px 16px; border-radius:20px; font-size:12px; font-weight:700; text-transform:uppercase; letter-spacing:1px; }
