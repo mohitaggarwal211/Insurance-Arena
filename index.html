@@ -111,12 +111,12 @@
   <div class="sec active" id="sec-compare">
     <div class="cat-scroll-wrap">
       <div class="cat-tabs">
-        <button class="cat-btn active">Term Insurance</button>
-        <button class="cat-btn coming">ULIP <span class="soon-tag">Soon</span></button>
-        <button class="cat-btn coming">Participating <span class="soon-tag">Soon</span></button>
-        <button class="cat-btn coming">Non-Par <span class="soon-tag">Soon</span></button>
-        <button class="cat-btn coming">TULIP <span class="soon-tag">Soon</span></button>
-        <button class="cat-btn coming">Annuity <span class="soon-tag">Soon</span></button>
+        <button class="cat-btn active" data-cat="term">Term Insurance</button>
+        <button class="cat-btn coming" data-cat="ulip">ULIP <span class="soon-tag">Soon</span></button>
+        <button class="cat-btn" data-cat="par">Participating</button>
+        <button class="cat-btn" data-cat="nonpar">Non-Par</button>
+        <button class="cat-btn coming" data-cat="tulip">TULIP <span class="soon-tag">Soon</span></button>
+        <button class="cat-btn" data-cat="annuity">Annuity</button>
       </div>
     </div>
 
@@ -162,6 +162,26 @@
       <span class="nr-icon">🔍</span><p>No plans match your search.</p>
       <button class="btn-reset" onclick="resetFilters()">Clear Filters</button>
     </div>
+  </div>
+
+  <!-- ═══ ANNUITY COMPARISON SECTION ═══ -->
+  <div class="sec hidden" id="sec-annuity">
+    <div class="ann-wrap" id="annuityWrap"></div>
+  </div>
+
+  <!-- ═══ PARTICIPATING — ANMOL AKSHAYA ═══ -->
+  <div class="sec hidden" id="sec-par">
+    <div class="prod-wrap" id="parWrap"></div>
+  </div>
+
+  <!-- ═══ NON-PAR — 3 PRODUCTS ═══ -->
+  <div class="sec hidden" id="sec-nonpar">
+    <div class="nonpar-sub-tabs">
+      <button class="npsub active" data-np="nishchit">Nishchit Aayush</button>
+      <button class="npsub" data-np="savings">Assured Savings</button>
+      <button class="npsub" data-np="income">Assured Income Plus</button>
+    </div>
+    <div class="prod-wrap" id="nonparWrap"></div>
   </div>
 
   <!-- ═══ NEWS ═══ -->
@@ -448,6 +468,10 @@
 </footer>
 
 <script src="js/data.js"></script>
+<script src="js/annuity-data.js"></script>
+<script src="js/anmol-data.js"></script>
+<script src="js/nishchit-data.js"></script>
+<script src="js/savings-income-data.js"></script>
 <script src="js/learn-data.js"></script>
 <script src="js/app.js"></script>
 </body>
