@@ -628,3 +628,31 @@ function openToolkitFromAvB() {
   const catBtn = document.querySelector('[data-mode="toolkit"]');
   if (catBtn) catBtn.click();
 }
+
+// ── PATCH: Save button + Diff highlight wired into runAvBComparison ──
+const _origRunAvB = runAvBComparison;
+function runAvBComparison() {
+  _origRunAvB();
+  // After results render, apply diff highlight and save button
+  setTimeout(() => {
+    applyDiffHighlight();
+    // Add Save button if not present
+    const res = document.getElementById('avbResults');
+    if (res && !document.getElementById('avbSaveBtn')) {
+      const saveBtn = document.createElement('button');
+      saveBtn.id = 'avbSaveBtn';
+      saveBtn.className = 'avb-save-btn';
+      saveBtn.textContent = '📌 Save This Comparison';
+      saveBtn.onclick = saveCurrentComparison;
+      res.prepend(saveBtn);
+    }
+    // Render saved comparisons above selectors
+    const wrap = document.getElementById('avbWrap');
+    if (wrap && !document.getElementById('savedCompsWrap')) {
+      const scDiv = document.createElement('div');
+      scDiv.id = 'savedCompsWrap';
+      wrap.prepend(scDiv);
+    }
+    renderSavedComparisons();
+  }, 150);
+}

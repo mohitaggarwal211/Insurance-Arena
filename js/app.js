@@ -1756,3 +1756,82 @@ function annOpenNote(coId, optId) {
   popup?.classList.remove('hidden');
 }
 function annCloseNote() { document.getElementById('annNotePopup')?.classList.add('hidden'); }
+
+// ════════════════════════════════════════════════════════════
+// NEW FEATURES INTEGRATION — V2.1+
+// Wire card expand, share buttons, shortlist into renders
+// ════════════════════════════════════════════════════════════
+
+// Patch renderPar to call post-render hooks
+const _origRenderPar = renderPar;
+function renderPar() {
+  _origRenderPar();
+  setTimeout(() => {
+    const wrap = document.getElementById('parWrap');
+    if (typeof applyCardExpand === 'function') applyCardExpand(wrap);
+    if (typeof injectShareButtons === 'function') injectShareButtons(wrap);
+    if (typeof injectShortlistCheckboxes === 'function') injectShortlistCheckboxes(wrap, 'par');
+  }, 100);
+}
+
+// Patch renderNonPar content to call post-render hooks
+const _origRenderNPContent = renderNPContent;
+function renderNPContent() {
+  _origRenderNPContent();
+  setTimeout(() => {
+    const wrap = document.getElementById('nonparWrap');
+    if (typeof applyCardExpand === 'function') applyCardExpand(wrap);
+    if (typeof injectShareButtons === 'function') injectShareButtons(wrap);
+    if (typeof injectShortlistCheckboxes === 'function') injectShortlistCheckboxes(wrap, 'nonpar');
+  }, 100);
+}
+
+// Patch annuity cards to add share button
+const _origAnnRenderCards = annRenderCards;
+function annRenderCards() {
+  _origAnnRenderCards();
+  setTimeout(() => {
+    const view = document.getElementById('annCardsView');
+    if (typeof injectShareButtons === 'function') injectShareButtons(view);
+    if (typeof injectShortlistCheckboxes === 'function') injectShortlistCheckboxes(view, 'annuity');
+  }, 100);
+}
+
+// Inject Need Analysis into Calculators when section opens
+const origNavBtns = document.querySelectorAll('.nav-btn,.mnav-btn');
+origNavBtns.forEach(btn => {
+  const origClick = btn.onclick;
+  btn.addEventListener('click', () => {
+    if (btn.dataset.sec === 'tools') {
+      setTimeout(injectNeedAnalysisInTools, 200);
+    }
+    if (btn.dataset.sec === 'learn') {
+      setTimeout(injectFlashcardInLearning, 200);
+    }
+  });
+});
+
+function injectNeedAnalysisInTools() {
+  const naDiv = document.getElementById('needAnalysisCalc');
+  if (naDiv) naDiv.classList.remove('hidden');
+}
+
+function injectFlashcardInLearning() {
+  // Add flashcard toggle button to learning header if not present
+  const learnSec = document.getElementById('sec-learn');
+  if (!learnSec || document.getElementById('fcToggleBtn')) return;
+  const btn = document.createElement('button');
+  btn.id = 'fcToggleBtn';
+  btn.className = 'fc-toggle-btn';
+  btn.textContent = '📇 Flashcard Mode';
+  btn.onclick = () => {
+    const fcSec = document.getElementById('flashcardSection');
+    const isOn = !fcSec.classList.contains('hidden');
+    fcSec.classList.toggle('hidden', isOn);
+    btn.classList.toggle('active', !isOn);
+    btn.textContent = isOn ? '📇 Flashcard Mode' : '📖 Back to Learning';
+    if (!isOn && typeof initFlashcards === 'function') initFlashcards();
+  };
+  // Insert at the top of the learning section
+  learnSec.insertBefore(btn, learnSec.firstChild);
+}
