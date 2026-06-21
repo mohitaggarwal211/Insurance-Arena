@@ -120,6 +120,13 @@
       </div>
     </div>
 
+    <!-- Secondary action bar -->
+    <div class="cat-action-bar" id="catActionBar">
+      <button class="cab-btn active" data-mode="plans">📊 Plans</button>
+      <button class="cab-btn" data-mode="avb">⚡ A vs B</button>
+      <button class="cab-btn" data-mode="toolkit">📱 Toolkit</button>
+    </div>
+
     <div class="controls-bar">
       <div class="controls-inner">
         <div class="search-wrap">
@@ -176,12 +183,18 @@
     <!-- ═══ NON-PAR — 3 PRODUCTS ═══ -->
     <div class="hidden" id="sec-nonpar">
       <div class="nonpar-sub-tabs">
-        <button class="npsub active" data-np="nishchit">Nishchit Aayush</button>
-        <button class="npsub" data-np="savings">Assured Savings</button>
-        <button class="npsub" data-np="income">Assured Income Plus</button>
+        <button class="npsub active" data-np="nishchit">Guaranteed Early Income Plans</button>
+        <button class="npsub" data-np="savings">Savings Plans</button>
+        <button class="npsub" data-np="income">Guaranteed Long Term Income Plans</button>
       </div>
       <div class="prod-wrap" id="nonparWrap"></div>
     </div>
+
+    <!-- A vs B Panel -->
+    <div class="hidden" id="sec-avb"><div class="avb-wrap" id="avbWrap"></div></div>
+
+    <!-- Toolkit Panel -->
+    <div class="hidden" id="sec-toolkit"><div class="tk-wrap" id="toolkitWrap"></div></div>
 
   </div>
 
@@ -474,6 +487,8 @@
 <script src="js/nishchit-data.js"></script>
 <script src="js/savings-income-data.js"></script>
 <script src="js/learn-data.js"></script>
+<script src="js/product-meta.js"></script>
+<script src="js/avb-toolkit.js"></script>
 <script src="js/app.js"></script>
 </body>
 </html>
