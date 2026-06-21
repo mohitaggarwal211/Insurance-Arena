@@ -16,6 +16,7 @@ let lastCompareCat = 'term';
 
 function renderAvB(cat) {
   lastCompareCat = cat;
+  if (typeof buildProductRegistry === 'function') PRODUCT_REGISTRY = buildProductRegistry();
   const wrap = document.getElementById('avbWrap');
   if (!wrap) return;
 
@@ -223,6 +224,7 @@ function runAvBComparison() {
   <!-- PDF -->
   <div class="avb-section">
     <button class="avb-pdf-btn" onclick="downloadAvBPDF('${san(a.company)}','${san(a.plan)}','${san(b.company)}','${san(b.plan)}')">📄 Download Comparison PDF</button>
+    <button class="avb-share-btn" onclick="shareComparison()">📤 Share Comparison</button>
   </div>
 
   <div class="avb-disclaimer">⚠️ This comparison is for educational and informational purposes only. Not financial advice. All data sourced from verified product information. Please read official brochures before making any decision.</div>`;
@@ -363,6 +365,7 @@ ${[['Company',a.company,b.company],['Plan',a.plan,b.plan],['Type',a.type,b.type]
 
 function renderToolkit(cat) {
   lastCompareCat = cat;
+  if (typeof buildProductRegistry === 'function') PRODUCT_REGISTRY = buildProductRegistry();
   const wrap = document.getElementById('toolkitWrap');
   if (!wrap) return;
 

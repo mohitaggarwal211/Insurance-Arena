@@ -239,75 +239,6 @@ function fabAction(action) {
 }
 
 // ─────────────────────────────────────────────────────────
-// FEATURE 6: SWIPE BETWEEN CATEGORIES
-// ─────────────────────────────────────────────────────────
-(function initSwipe() {
-  const CAT_ORDER = ['term','par','nonpar','annuity'];
-  let startX = 0, startY = 0;
-
-  document.addEventListener('touchstart', e => {
-    startX = e.touches[0].clientX;
-    startY = e.touches[0].clientY;
-  }, { passive: true });
-
-  document.addEventListener('touchend', e => {
-    const dx = e.changedTouches[0].clientX - startX;
-    const dy = Math.abs(e.changedTouches[0].clientY - startY);
-    if (Math.abs(dx) < 60 || dy > 40) return; // not a horizontal swipe
-    // Only swipe if we're in the compare section
-    const compareEl = document.getElementById('sec-compare');
-    if (!compareEl || !compareEl.classList.contains('active')) return;
-
-    const cur = window.activeCat || 'term';
-    const idx = CAT_ORDER.indexOf(cur);
-    if (idx === -1) return;
-    const next = dx < 0 ? CAT_ORDER[idx + 1] : CAT_ORDER[idx - 1];
-    if (next) switchCompareCat(next);
-  }, { passive: true });
-})();
-
-// ─────────────────────────────────────────────────────────
-// FEATURE 8: CARD EXPAND / COLLAPSE
-// ─────────────────────────────────────────────────────────
-function toggleCard(btn) {
-  const card = btn.closest('.prod-card');
-  if (!card) return;
-  const body = card.querySelector('.pc-card-body');
-  if (!body) return;
-  const isOpen = !body.classList.contains('hidden');
-  body.classList.toggle('hidden', isOpen);
-  btn.textContent = isOpen ? '▼ Show more' : '▲ Show less';
-  btn.classList.toggle('pc-expand-open', !isOpen);
-}
-
-// Patch renderPar / renderNishchit / renderFeatureCards to wrap bodies
-// Called after any card render to add expand toggles
-function applyCardExpand(wrap) {
-  if (!wrap) return;
-  wrap.querySelectorAll('.prod-card').forEach(card => {
-    if (card.querySelector('.pc-expand-btn')) return; // already patched
-    // Find everything below pc-top
-    const top = card.querySelector('.pc-top');
-    const uin = card.querySelector('.pc-uin');
-    if (!top) return;
-    // Wrap remaining children in a body div
-    const children = Array.from(card.children);
-    const headerEnd = uin ? children.indexOf(uin) : children.indexOf(top);
-    const bodyChildren = children.slice(headerEnd + 1);
-    if (bodyChildren.length === 0) return;
-    const body = document.createElement('div');
-    body.className = 'pc-card-body hidden';
-    bodyChildren.forEach(ch => body.appendChild(ch));
-    const btn = document.createElement('button');
-    btn.className = 'pc-expand-btn';
-    btn.textContent = '▼ Show more';
-    btn.onclick = function() { toggleCard(this); };
-    card.appendChild(btn);
-    card.appendChild(body);
-  });
-}
-
-// ─────────────────────────────────────────────────────────
 // FEATURE 15: WHAT'S DIFFERENT HIGHLIGHT IN A vs B
 // ─────────────────────────────────────────────────────────
 let showDiffOnly = false;
@@ -348,16 +279,69 @@ function applyDiffHighlight() {
 }
 
 // ─────────────────────────────────────────────────────────
-// FEATURE 21: SHARE THIS PLAN (One-tap WhatsApp share)
+// UNIVERSAL SHARE SYSTEM (Tasks 4 & 8)
+// Native → WhatsApp → Email → Copy Link → Copy Content → Telegram → SMS
 // ─────────────────────────────────────────────────────────
-function shareThisPlan(company, plan, type, highlightsStr, brochureUrl) {
-  const highlights = highlightsStr.split('|').filter(Boolean).slice(0,3).map(h => '• ' + h.trim()).join('\n');
-  const bro = brochureUrl && brochureUrl.startsWith('http') ? '\n📎 Brochure: ' + brochureUrl : '';
-  const msg = `📌 *${plan}*\n_${company} | ${type}_\n\n${highlights}${bro}\n\n_Shared via Insurance Arena — insurance-arena.vercel.app_\n\n_For information only. Not financial advice. Read official brochure before any decision._`;
-  window.open('https://wa.me/?text=' + encodeURIComponent(msg), '_blank');
+const IA_URL = 'https://insurance-arena.vercel.app';
+
+function universalShare(title, body) {
+  const fullText = body + '\n\n— Shared via Insurance Arena\n' + IA_URL;
+  // Priority 1: Native Web Share API
+  if (navigator.share) {
+    navigator.share({ title: title, text: fullText, url: IA_URL })
+      .catch(() => openShareSheet(title, fullText));
+  } else {
+    openShareSheet(title, fullText);
+  }
 }
 
-// Inject share buttons into rendered cards
+function openShareSheet(title, text) {
+  let sheet = document.getElementById('shareSheet');
+  if (!sheet) {
+    sheet = document.createElement('div');
+    sheet.id = 'shareSheet';
+    sheet.className = 'share-sheet-overlay hidden';
+    document.body.appendChild(sheet);
+    sheet.addEventListener('click', e => { if (e.target === sheet) sheet.classList.add('hidden'); });
+  }
+  const enc = encodeURIComponent(text);
+  sheet.innerHTML = `
+    <div class="share-sheet">
+      <div class="share-sheet-title">${san(title)}</div>
+      <div class="share-sheet-grid">
+        <a class="share-opt" href="https://wa.me/?text=${enc}" target="_blank" rel="noopener noreferrer" onclick="closeShareSheet()"><span class="share-ico">💬</span>WhatsApp</a>
+        <a class="share-opt" href="https://t.me/share/url?url=${encodeURIComponent(IA_URL)}&text=${enc}" target="_blank" rel="noopener noreferrer" onclick="closeShareSheet()"><span class="share-ico">✈️</span>Telegram</a>
+        <a class="share-opt" href="mailto:?subject=${encodeURIComponent(title)}&body=${enc}" onclick="closeShareSheet()"><span class="share-ico">📧</span>Email</a>
+        <a class="share-opt" href="sms:?body=${enc}" onclick="closeShareSheet()"><span class="share-ico">💬</span>SMS</a>
+        <button class="share-opt" onclick="copyShareContent('${enc}')"><span class="share-ico">📋</span>Copy Content</button>
+        <button class="share-opt" onclick="copyShareLink()"><span class="share-ico">🔗</span>Copy Link</button>
+      </div>
+      <button class="share-sheet-cancel" onclick="closeShareSheet()">Cancel</button>
+    </div>`;
+  sheet.classList.remove('hidden');
+}
+
+function closeShareSheet() { document.getElementById('shareSheet')?.classList.add('hidden'); }
+
+function copyShareContent(enc) {
+  const text = decodeURIComponent(enc);
+  navigator.clipboard?.writeText(text).then(() => showToast('Content copied ✓')).catch(()=>{});
+  closeShareSheet();
+}
+function copyShareLink() {
+  navigator.clipboard?.writeText(IA_URL).then(() => showToast('Link copied ✓')).catch(()=>{});
+  closeShareSheet();
+}
+
+// ── PRODUCT SHARE (Task 8 content spec) ──
+function shareProduct(company, plan, category, highlightsStr, brochureUrl) {
+  const highlights = highlightsStr.split('|').filter(Boolean).slice(0,5).map(h => '• ' + h.trim()).join('\n');
+  const bro = brochureUrl && brochureUrl.startsWith('http') ? '\n\n📎 Official Brochure: ' + brochureUrl : '';
+  const body = `📌 ${plan}\nCompany: ${company}\nCategory: ${category}\n\n${highlights}${bro}\n\nFor information only. Not financial advice. Read the official brochure before any decision.`;
+  universalShare(plan + ' — ' + company, body);
+}
+
+// Inject universal share buttons into rendered product cards
 function injectShareButtons(wrap) {
   if (!wrap) return;
   wrap.querySelectorAll('.prod-card').forEach(card => {
@@ -370,13 +354,40 @@ function injectShareButtons(wrap) {
     const bro = card.querySelector('a.pc-btn-sec')?.href || '';
     const btn = document.createElement('button');
     btn.className = 'pc-share-btn';
-    btn.innerHTML = '📤 Share via WhatsApp';
-    btn.onclick = () => shareThisPlan(co, pl, type, highlights, bro);
-    // Insert before the links section if exists
+    btn.innerHTML = '📤 Share';
+    btn.onclick = () => shareProduct(co, pl, type, highlights, bro);
     const links = card.querySelector('.pc-links');
     if (links) card.insertBefore(btn, links);
     else card.appendChild(btn);
   });
+}
+
+// ── LEARNING SHARE (Task 3) ──
+function shareLearningTopic(title, chapter) {
+  const body = `📚 ${title}\n${chapter ? 'Chapter: ' + chapter : ''}\n\nLearn more on Insurance Arena's Learning Hub.`;
+  universalShare(title, body);
+}
+
+// ── DICTIONARY SHARE (Task 4E) ──
+function shareDictTerm(term, definition) {
+  const body = `📖 ${term}\n\n${definition}`;
+  universalShare(term, body);
+}
+
+// ── COMPARISON SHARE (Task 4C) ──
+function shareComparison() {
+  const a = window.avbProductA, b = window.avbProductB;
+  if (!a || !b) { showToast('Run a comparison first'); return; }
+  const body = `⚡ Plan Comparison\n\n🔵 ${a.plan} (${a.company})\n🟢 ${b.plan} (${b.company})\n\nCategory: ${a.category}${a.category!==b.category?' vs '+b.category:''}\n\nCompare them in detail on Insurance Arena.`;
+  universalShare(a.plan + ' vs ' + b.plan, body);
+}
+
+// ── FLASHCARD SHARE (Task 4D) ──
+function shareFlashcard() {
+  if (!fcDeck.length) return;
+  const card = fcDeck[fcIndex];
+  const body = `📇 ${card.front}\n\n${card.back}\n\nTag: ${card.tag}`;
+  universalShare(card.front, body);
 }
 
 // ─────────────────────────────────────────────────────────
@@ -524,7 +535,8 @@ function renderFlashcard(wrap) {
     <button class="fc-btn" onclick="fcNav(-1)" ${fcIndex===0?'disabled':''}>← Prev</button>
     <button class="fc-btn fc-shuffle" onclick="shuffleFlashcards()">🔀 Shuffle</button>
     <button class="fc-btn" onclick="fcNav(1)" ${fcIndex===fcDeck.length-1?'disabled':''}>Next →</button>
-  </div>`;
+  </div>
+  <button class="fc-share-btn" onclick="shareFlashcard()">📤 Share This Card</button>`;
 }
 
 function flipFlashcard() {
@@ -549,60 +561,6 @@ function shuffleFlashcards() {
   const wrap = document.getElementById('flashcardWrap');
   if (wrap) renderFlashcard(wrap);
   showToast('Deck shuffled 🔀');
-}
-
-// ─────────────────────────────────────────────────────────
-// FEATURE 19: NEED ANALYSIS CALCULATOR
-// ─────────────────────────────────────────────────────────
-function runNeedAnalysis() {
-  const age     = parseInt(document.getElementById('na-age')?.value || 0);
-  const income  = parseFloat(document.getElementById('na-income')?.value || 0);
-  const deps    = parseInt(document.getElementById('na-deps')?.value || 0);
-  const loans   = parseFloat(document.getElementById('na-loans')?.value || 0);
-  const exist   = parseFloat(document.getElementById('na-exist')?.value || 0);
-  const expense = parseFloat(document.getElementById('na-expense')?.value || 0);
-
-  const res = document.getElementById('na-result');
-  if (!res) return;
-  if (!age || !income) { res.innerHTML = '<div class="na-error">Please enter at least Age and Annual Income.</div>'; return; }
-
-  const yearsLeft = Math.max(5, 60 - age);
-
-  // Method 1: Income Replacement (15× annual income rule)
-  const incomeReplace = income * 15;
-
-  // Method 2: Human Life Value = PV of future income
-  const rate = 0.06;
-  const hlv = income * ((1 - Math.pow(1+rate, -yearsLeft)) / rate);
-
-  // Method 3: Expense-based = expenses × years × 0.7 inflation factor
-  const expenseBased = expense > 0 ? expense * yearsLeft * 0.7 : 0;
-
-  // Total need = max(HLV, income replace, expense) + loans - existing cover
-  const base = Math.max(incomeReplace, hlv, expenseBased);
-  const rawNeed = base + (loans * 100000) - (exist * 100000);
-  const recommended = Math.max(0, rawNeed);
-  const recCr = (recommended / 10000000).toFixed(2);
-  const recL  = (recommended / 100000).toFixed(0);
-
-  const hlvCr = (hlv / 10000000).toFixed(2);
-  const irCr  = (incomeReplace / 10000000).toFixed(2);
-
-  res.innerHTML = `
-  <div class="na-result-box">
-    <div class="na-rec-label">Recommended Life Cover</div>
-    <div class="na-rec-value">₹${recCr} Crore</div>
-    <div class="na-rec-sub">(₹${Number(recL).toLocaleString('en-IN')} Lakh)</div>
-    <div class="na-breakdown">
-      <div class="na-bd-title">How we calculated:</div>
-      <div class="na-bd-row"><span>Human Life Value (PV of ${yearsLeft} yrs income @6%)</span><span>₹${hlvCr} Cr</span></div>
-      <div class="na-bd-row"><span>Income Replacement (15× Annual Income)</span><span>₹${irCr} Cr</span></div>
-      ${loans?`<div class="na-bd-row"><span>Outstanding Loans</span><span>+ ₹${loans.toFixed(2)} L</span></div>`:''}
-      ${exist?`<div class="na-bd-row"><span>Existing Cover (deducted)</span><span>– ₹${exist.toFixed(2)} L</span></div>`:''}
-    </div>
-    <div class="na-note">⚠️ This is an indicative estimate using standard actuarial methods. Consult a licensed advisor for a personalised assessment.</div>
-    ${deps?`<div class="na-dep-note">👨‍👩‍👧 With ${deps} dependent${deps>1?'s':''}, adequate life cover is especially critical.</div>`:''}
-  </div>`;
 }
 
 // ─────────────────────────────────────────────────────────
@@ -666,7 +624,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function applyHooks(el, cat) {
     if (!el) return;
-    if (typeof applyCardExpand === 'function')         applyCardExpand(el);
     if (typeof injectShareButtons === 'function')      injectShareButtons(el);
     if (typeof injectShortlistCheckboxes === 'function') injectShortlistCheckboxes(el, cat);
   }
@@ -688,10 +645,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const obs = new MutationObserver(() => {
       const isVisible = !sec.classList.contains('hidden') && sec.classList.contains('active');
       if (!isVisible) return;
-      if (sec.id === 'sec-tools') {
-        const na = document.getElementById('needAnalysisCalc');
-        if (na) na.classList.remove('hidden');
-      }
       if (sec.id === 'sec-learn') {
         injectFlashcardBtn();
       }
@@ -704,12 +657,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const btn = e.target.closest('.nav-btn, .mnav-btn');
     if (!btn) return;
     const sec = btn.dataset.sec;
-    if (sec === 'tools') {
-      setTimeout(() => {
-        const na = document.getElementById('needAnalysisCalc');
-        if (na) na.classList.remove('hidden');
-      }, 100);
-    }
     if (sec === 'learn') {
       setTimeout(injectFlashcardBtn, 100);
     }

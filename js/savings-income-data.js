@@ -143,23 +143,8 @@ const SAVINGS_PLANS = [
     pitch: 'More options, one plan — choose your savings goal with guaranteed returns.',
     replacementNote: '⚠️ Original product (Guaranteed Savings Plan 136N066V02) WITHDRAWN — replaced with iSelect Guaranteed Future.',
     verification: 'Replaced — Original product withdrawn per official Canara HSBC withdrawn list'
-  },
-  {
-    company: 'PNB MetLife', plan: 'Guaranteed Future Plan', uin: 'Verify from PNB MetLife',
-    isBase: false, type: 'Verify from official brochure', status: 'Active (verify)',
-    url: 'https://www.pnbmetlife.com/insurance-plans/savings/guaranteed-future-plan.html',
-    brochure: 'Verify from pnbmetlife.com',
-    entryAge: 'Verify from brochure', maturityAge: null, jointLife: null, loan: null,
-    ppt: 'Verify from brochure', pt: 'Verify from brochure',
-    guaranteedAdditions: null, loyaltyAdditions: null, booster: null,
-    rop: null, maturityBenefit: null, incomeBenefit: null,
-    riders: 'Verify from official PNB MetLife product page',
-    deathBenefit: 'Verify from brochure',
-    uniqueFeature: 'PNB MetLife brand. PNB bank distribution strength.',
-    pitch: 'Guaranteed savings plan from a trusted PNB-MetLife joint venture.',
-    verification: 'Partially Verified — URL active, brochure access required'
   }
-];
+  ];
 
 // ══════════════════════════════════════════════════════
 // ABSLI ASSURED INCOME PLUS — COMPETITOR COMPARISON
@@ -287,16 +272,5 @@ const INCOME_PLANS = [
     uniqueFeature: 'Non-Linked Non-Par guaranteed income. Multiple rider options. Kotak brand trust.',
     pitch: 'Kotak guaranteed income — flexible income with comprehensive rider options.',
     verification: 'Verified — UIN, URL, rider list confirmed'
-  },
-  {
-    company: 'PNB MetLife', plan: 'Guaranteed Income Plan (verify)', uin: 'Verify from PNB MetLife',
-    isBase: false, type: 'Verify from official brochure', status: 'Unable to Verify',
-    url: 'https://www.pnbmetlife.com/insurance-plans/savings',
-    brochure: 'Verify from pnbmetlife.com',
-    incomeBenefit: null,
-    uniqueFeature: 'PNB MetLife brand. PNB bank distribution strength.',
-    pitch: 'Guaranteed income plan from a trusted PNB-MetLife joint venture.',
-    note: '⚠️ "PNB MetLife Guaranteed Income Plan" not confirmed as a separate active product. Verify from pnbmetlife.com.',
-    verification: 'Unable to Verify — product name not confirmed'
   }
-];
+  ];

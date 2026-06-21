@@ -97,22 +97,7 @@ const NISHCHIT_PLANS = [
     uniqueFeature: 'Income from Year 1 / Month 1. Multiple policy term options. Strong brand — Axis Max Life.',
     pitch: 'Income from the very first year — Axis Max Life guaranteed wealth plan.',
     tag: 'Income from Month 1'
-  },
-  {
-    id: 'pnb',
-    company: 'PNB MetLife',
-    companyFull: 'PNB MetLife India Insurance',
-    plan: 'Guaranteed Future Plan (Income Option)',
-    uin: 'Verify from current policy document',
-    type: 'Non-Linked, Non-Participating',
-    isBase: false,
-    excluded: true,
-    excludedReason: 'Income starts AFTER PPT ends (minimum Year 11 with 0 deferment). Does not qualify under this benchmark criterion of income from Year 1 or Year 2.',
-    productUrl: 'https://www.pnbmetlife.com/insurance-plans/savings/guaranteed-future-plan.html',
-    dataSource: 'Excluded — income timing does not meet benchmark criteria',
-    dataDate: null,
-    note: 'PNB MetLife Guaranteed Future Plan offers deferment from PPT end (not from policy inception). With 0 deferment and PPT 10, income starts from Year 11 — not Year 1 as required for fair comparison.'
   }
-];
+  ];
 
 const NISHCHIT_IRR_NOTE = 'IRR calculated on advance annual premium (t=0 to t=9). Income received at year-end (arrears). Lump sum at t=20. ICICI GIFT Select: cashback at t=0 treated as income; increasing income computed at 5% compounding.';

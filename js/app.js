@@ -80,7 +80,7 @@ function showSection(name){
   document.querySelectorAll('[data-sec]').forEach(b=>b.classList.toggle('active',b.dataset.sec===name));
   document.getElementById('mobileNav').classList.add('hidden');
   window.scrollTo(0,0);
-  if(name==='news' && allNewsData.length===0) loadNews();
+  // News disabled — rebuilding in next version
   if(name==='learn' && !learnLoaded) loadLearnContent();
 }
 
@@ -345,7 +345,7 @@ async function loadNews(){
   showSkeletons();
   document.getElementById('newsGrid').classList.add('hidden');
   document.getElementById('newsFeatured').classList.add('hidden');
-  document.getElementById('newsDateDisplay').textContent=today();
+  const ndd=document.getElementById('newsDateDisplay'); if(ndd) ndd.textContent=today();
   try{
     const res=await fetch('./data/news.json?t='+Date.now());
     if(!res.ok) throw new Error('HTTP '+res.status);
@@ -640,6 +640,7 @@ function openTopicDetail(idx){
       <button class="td-back" onclick="backToList()">← Back</button>
       <span class="td-breadcrumb">${idx+1} of ${total}</span>
       <button class="bm-icon${isBm?' saved':''}" onclick="handleTopicBM('${t.id}','${t.title.replace(/'/g,"\\'")}','${t.subject}')" style="margin-left:auto">${isBm?'🔖':'🔖'}</button>
+      <button class="td-share-btn" onclick="shareLearningTopic('${t.title.replace(/'/g,"\\'")}','${(t.subject||'').replace(/'/g,"\\'")}')">📤</button>
     </div>
     <div class="topic-card">
       <div class="tc-head"><div class="tc-subject">${san(t.subject)}</div><div class="tc-title">${san(t.title)}</div></div>
@@ -724,6 +725,7 @@ function renderDictionary(){
         <div class="dict-section-label">📖 Definition</div><div class="dict-text">${san(t.definition)}</div>
         <div class="dict-section-label">💡 Example</div><div class="dict-example">${san(t.example)}</div>
         <div class="dict-section-label">⭐ Why It Matters</div><div class="dict-text">${san(t.whyMatters)}</div>
+        <button class="dict-share-btn" onclick="shareDictTerm('${t.term.replace(/'/g,"\\'")}','${(t.definition||'').replace(/'/g,"\\'").replace(/"/g,'')}')">📤 Share</button>
       </div>
     </div>`).join('');
 }
@@ -1063,7 +1065,7 @@ function resetCalc(id){
 
 // ── INIT ──
 (function init(){
-  document.getElementById('newsDateDisplay').textContent=today();
+  const ndd=document.getElementById('newsDateDisplay'); if(ndd) ndd.textContent=today();
   renderPlans();
   updateContinueStrip();
   updateBMCount();
@@ -1123,6 +1125,7 @@ function switchMode(mode) {
 function switchCompareCat(cat) {
   activeCat = cat;
   activeMode = 'plans';
+  if (typeof buildProductRegistry === 'function') PRODUCT_REGISTRY = buildProductRegistry();
   document.querySelectorAll('.cat-btn').forEach(b => b.classList.toggle('active', b.dataset.cat === cat));
 
   // Reset action bar
@@ -1225,20 +1228,11 @@ function renderPar() {
       `:p.features?Object.entries(p.features).map(([k,v])=>`<div class="pc-feat"><span class="pc-fl">${san(k)}</span><span class="pc-fv">${san(v)}</span></div>`).join(''):'<div class="pc-feat-note">Refer official brochure for complete features</div>'}
     </div>`;
 
-    if (!p.pending && p.mat4) {
-      html += `<div class="pc-section-title">📈 Illustration (Age 35 | ₹1L AP | 10 PPT | 20 PT)</div>
+    if (!p.pending && p.sa) {
+      html += `<div class="pc-section-title">💼 Sum Assured</div>
       <div class="pc-nums">
         <div class="pc-num-row"><span class="pc-nl">Sum Assured</span><span class="pc-nv">₹${Number(p.sa).toLocaleString('en-IN')}</span></div>
-        <div class="pc-num-row pc-highlight"><span class="pc-nl">Total Maturity @4%</span><span class="pc-nv pc-green">₹${Number(p.mat4).toLocaleString('en-IN')}</span></div>
-        <div class="pc-num-row"><span class="pc-nl">IRR @4%</span><span class="pc-nv">${p.irr4?.toFixed(2)||'—'}%</span></div>
-        <div class="pc-num-row pc-highlight8"><span class="pc-nl">Total Maturity @8%</span><span class="pc-nv pc-blue">₹${Number(p.mat8).toLocaleString('en-IN')}</span></div>
-        <div class="pc-num-row"><span class="pc-nl">IRR @8%</span><span class="pc-nv">${p.irr8?.toFixed(2)||'—'}%</span></div>
-        ${p.breakup4?`<div class="pc-breakup4">@4%: ${san(p.breakup4)}</div>`:''}
-        ${p.breakup8?`<div class="pc-breakup8">@8%: ${san(p.breakup8)}</div>`:''}
-      </div>
-      <div class="pc-bonus-note">⚠️ ${san(p.bonusType||'Bonus non-guaranteed — illustrative only at IRDAI prescribed rates')}</div>`;
-    } else if (p.pending) {
-      html += `<div class="pc-section-title">📈 Returns</div><div class="pc-pending-block">⏳ Illustration data will be updated</div>`;
+      </div>`;
     }
 
     if (p.pitch) {
@@ -1252,25 +1246,6 @@ function renderPar() {
   });
 
   html += '</div>';
-
-  // IRR comparison
-  const confirmed = all.filter(p => p.mat4 && !p.notAvailable);
-  if (confirmed.length > 1) {
-    html += `<div class="prod-irr-table"><h3 class="prod-irr-title">📈 Returns Comparison (Confirmed Data)</h3>
-    <div class="prod-irr-scroll"><table class="pirr-tbl">
-    <thead><tr><th>Plan</th><th>SA</th><th>Maturity @4%</th><th>IRR @4%</th><th>Maturity @8%</th><th>IRR @8%</th></tr></thead>
-    <tbody>
-    ${confirmed.map(p=>`<tr${p.isBase?' class="pirr-base"':''}>
-      <td><strong>${san(p.company)}</strong><br/><small>${san(p.plan)}</small></td>
-      <td>₹${Number(p.sa).toLocaleString('en-IN')}</td>
-      <td class="pirr-green">₹${Number(p.mat4).toLocaleString('en-IN')}</td>
-      <td>${p.irr4?.toFixed(2)||'—'}%</td>
-      <td class="pirr-blue">₹${Number(p.mat8).toLocaleString('en-IN')}</td>
-      <td>${p.irr8?.toFixed(2)||'—'}%</td>
-    </tr>`).join('')}
-    </tbody></table></div>
-    <p class="prod-irr-note">⚠️ IRR on advance annual premium (t=0–9), lump sum at t=20. Non-guaranteed figures at IRDAI-prescribed 4%/8% rates.</p></div>`;
-  }
 
   wrap.innerHTML = html;
 }
@@ -1343,17 +1318,15 @@ function renderNishchit(wrap) {
       ${p.note?`<div class="pc-feat-note">ⓘ ${san(p.note)}</div>`:''}
     </div>`;
 
-    if (!p.pending && p.totalReturn) {
-      html += `<div class="pc-section-title">📈 Illustration (Age 35 | ₹1L AP | 10 PPT | 20 PT)</div>
+    if (!p.pending && (p.annualIncome || p.annualIncomeY2 || p.lumpsum)) {
+      html += `<div class="pc-section-title">💰 Income Structure</div>
       <div class="pc-nums">
         ${p.annualIncome?`<div class="pc-num-row pc-highlight"><span class="pc-nl">Annual Income</span><span class="pc-nv pc-green">₹${Number(p.annualIncome).toLocaleString('en-IN')}/yr</span></div>`:''}
         ${p.annualIncomeY2?`<div class="pc-num-row pc-highlight"><span class="pc-nl">Income Yr 2 (start)</span><span class="pc-nv pc-green">₹${Number(p.annualIncomeY2).toLocaleString('en-IN')}/yr</span></div>`:''}
         ${p.lumpsum?`<div class="pc-num-row"><span class="pc-nl">Lump Sum at Maturity</span><span class="pc-nv">₹${Number(p.lumpsum).toLocaleString('en-IN')}</span></div>`:''}
-        <div class="pc-num-row pc-highlight8"><span class="pc-nl">Total Guaranteed Return</span><span class="pc-nv pc-blue">₹${Number(p.totalReturn).toLocaleString('en-IN')}</span></div>
-        <div class="pc-num-row"><span class="pc-nl">IRR</span><span class="pc-nv">${p.irr?.toFixed(2)||'—'}%</span></div>
       </div>`;
     } else if (p.pending) {
-      html += `<div class="pc-section-title">📈 Returns</div><div class="pc-pending-block">⏳ Illustration pending</div>`;
+      html += `<div class="pc-section-title">💰 Income Structure</div><div class="pc-pending-block">⏳ Details will be updated</div>`;
     }
 
     if (p.pitch) { html += `<div class="pc-section-title">💬 Sales Story</div><div class="pc-pitch">"${san(p.pitch)}"</div>`; }
@@ -1365,20 +1338,18 @@ function renderNishchit(wrap) {
   });
   html += '</div>';
 
-  // Returns comparison table
-  const conf = all.filter(p => p.totalReturn && !p.pending);
+  // Income comparison table (no returns/IRR)
+  const conf = all.filter(p => (p.annualIncome || p.annualIncomeY2) && !p.pending);
   if (conf.length > 1) {
-    html += `<div class="prod-irr-table"><h3 class="prod-irr-title">📈 Returns Comparison (Confirmed)</h3>
+    html += `<div class="prod-irr-table"><h3 class="prod-irr-title">💰 Income Comparison</h3>
     <div class="prod-irr-scroll"><table class="pirr-tbl"><thead>
-    <tr><th>Plan</th><th>Income/yr</th><th>Period</th><th>Lump Sum</th><th>Total Return</th><th>IRR</th></tr>
+    <tr><th>Plan</th><th>Income/yr</th><th>Income Period</th><th>Lump Sum</th></tr>
     </thead><tbody>
     ${conf.map(p=>`<tr${p.isBase?' class="pirr-base"':''}>
       <td><strong>${san(p.company)}</strong><br/><small>${san(p.plan.split('(')[0])}</small></td>
-      <td>${p.annualIncome?'₹'+Number(p.annualIncome).toLocaleString('en-IN')+'/yr (level)':p.annualIncomeY2?'₹'+Number(p.annualIncomeY2).toLocaleString('en-IN')+'/yr from Yr2 (+5%)':'—'}</td>
+      <td>${p.annualIncome?'₹'+Number(p.annualIncome).toLocaleString('en-IN')+'/yr (level)':p.annualIncomeY2?'₹'+Number(p.annualIncomeY2).toLocaleString('en-IN')+'/yr from Yr2':'—'}</td>
       <td>${san(p.incomePeriod||'—')} yrs</td>
       <td>${p.lumpsum?'₹'+Number(p.lumpsum).toLocaleString('en-IN'):'—'}</td>
-      <td class="pirr-blue"><strong>₹${Number(p.totalReturn).toLocaleString('en-IN')}</strong></td>
-      <td>${p.irr?.toFixed(2)||'—'}%</td>
     </tr>`).join('')}
     </tbody></table></div></div>`;
   }
@@ -1475,7 +1446,7 @@ let annVS = false;
 let annVSSel = ['absli'];
 let annColl = {};
 let annNotePopup = null;
-const ANN_CATS = ['All','Single Life','Joint Life','With ROP','Deferred','NPS'];
+const ANN_CATS = ['All','Life Annuity','Certain Period','Corpus Protection','Joint Life','Full ROP','Partial ROP','CI Cover','Living Benefit','Deferred','NPS Special'];
 const ANN_SI = { yes:'✅', no:'❌', sim:'⚠️', unique:'★', na:'—' };
 
 function renderAnnuity() {
