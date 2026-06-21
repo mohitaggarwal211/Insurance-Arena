@@ -1069,6 +1069,9 @@ function resetCalc(id){
   updateBMCount();
   updateDQUI();
 
+})();
+
+
 // ════════════════════════════════════════════════════════════
 // COMPARE MODULE v3.0 — Clean rebuild
 // All pending fixes + UX enhancements integrated

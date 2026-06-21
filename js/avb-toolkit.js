@@ -227,6 +227,24 @@ function runAvBComparison() {
 
   <div class="avb-disclaimer">⚠️ This comparison is for educational and informational purposes only. Not financial advice. All data sourced from verified product information. Please read official brochures before making any decision.</div>`;
 
+  // Add save button + diff highlight after results render
+  setTimeout(() => {
+    if (typeof applyDiffHighlight === 'function') applyDiffHighlight();
+    if (!document.getElementById('avbSaveBtn')) {
+      const sb = document.createElement('button');
+      sb.id = 'avbSaveBtn'; sb.className = 'avb-save-btn';
+      sb.textContent = '📌 Save This Comparison';
+      sb.onclick = function() { if(typeof saveCurrentComparison==='function') saveCurrentComparison(); };
+      res.prepend(sb);
+    }
+    if (!document.getElementById('savedCompsWrap')) {
+      const sd = document.createElement('div');
+      sd.id = 'savedCompsWrap';
+      const avbW = document.getElementById('avbWrap');
+      if (avbW) avbW.prepend(sd);
+    }
+    if (typeof renderSavedComparisons === 'function') renderSavedComparisons();
+  }, 200);
   res.scrollIntoView({ behavior:'smooth', block:'start' });
 }
 
@@ -629,30 +647,3 @@ function openToolkitFromAvB() {
   if (catBtn) catBtn.click();
 }
 
-// ── PATCH: Save button + Diff highlight wired into runAvBComparison ──
-const _origRunAvB = runAvBComparison;
-function runAvBComparison() {
-  _origRunAvB();
-  // After results render, apply diff highlight and save button
-  setTimeout(() => {
-    applyDiffHighlight();
-    // Add Save button if not present
-    const res = document.getElementById('avbResults');
-    if (res && !document.getElementById('avbSaveBtn')) {
-      const saveBtn = document.createElement('button');
-      saveBtn.id = 'avbSaveBtn';
-      saveBtn.className = 'avb-save-btn';
-      saveBtn.textContent = '📌 Save This Comparison';
-      saveBtn.onclick = saveCurrentComparison;
-      res.prepend(saveBtn);
-    }
-    // Render saved comparisons above selectors
-    const wrap = document.getElementById('avbWrap');
-    if (wrap && !document.getElementById('savedCompsWrap')) {
-      const scDiv = document.createElement('div');
-      scDiv.id = 'savedCompsWrap';
-      wrap.prepend(scDiv);
-    }
-    renderSavedComparisons();
-  }, 150);
-}
