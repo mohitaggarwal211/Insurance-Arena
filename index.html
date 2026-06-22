@@ -9,6 +9,25 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Syne:wght@700;800&display=swap" rel="stylesheet"/>
 <link rel="stylesheet" href="css/style.css"/>
+  <!-- Google Analytics 4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-6GP0N6QYWB"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-6GP0N6QYWB', {
+      anonymize_ip: true,
+      cookie_flags: 'SameSite=None;Secure'
+    });
+  </script>
+  <!-- Microsoft Clarity -->
+  <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+      c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+      t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+      y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window,document,"clarity","script","xax2o9x9ex");
+  </script>
 </head>
 <body>
 
@@ -32,7 +51,7 @@
       <button class="nav-btn" data-sec="tools">Calculators</button>
     </nav>
     <div class="hdr-actions">
-      <button class="hdr-icon-btn" id="themeToggleBtn" onclick="toggleTheme()" title="Toggle Theme">☀️</button>
+      
       <button class="hdr-icon-btn" onclick="openSearch()" title="Search">🔍</button>
     </div>
     <button class="hamburger" id="hamburger" aria-label="Menu">☰</button>
@@ -46,45 +65,7 @@
 </header>
 
 <!-- HERO -->
-<section class="hero">
-  <div class="hero-inner">
-    <p class="hero-eyebrow">Built for Insurance Professionals</p>
-    <h1 class="hero-headline">India's Insurance<br/><span class="hero-accent">Intelligence Hub</span></h1>
-    <p class="hero-sub">Compare Plans · Read News · Learn Concepts · Free Calculators<br/>Everything free. Always.</p>
-  </div>
-  <!-- Continue Learning + Quiz row -->
-  <div class="hero-strips">
-    <div class="continue-strip hidden" id="continueStrip">
-      <div class="continue-left">
-        <span class="continue-icon">📖</span>
-        <div>
-          <div class="continue-label">Continue Learning</div>
-          <div class="continue-topic" id="continueTopic">—</div>
-        </div>
-      </div>
-      <div class="continue-right">
-        <div class="continue-progress">
-          <span id="continueCount">0</span>/147 done
-          <div class="continue-bar"><div class="continue-fill" id="continueFill"></div></div>
-        </div>
-        <button class="continue-btn" id="continueBtn">Resume →</button>
-        <button class="bookmarks-trigger" id="bookmarksTrigger" onclick="openBookmarks()">🔖<span id="bookmarkCount"></span></button>
-      </div>
-    </div>
-    <div class="quiz-challenge-card" id="dailyQuizCard">
-      <div class="quiz-challenge-inner">
-        <div class="qc-left">
-          <span class="qc-icon">🧠</span>
-          <div>
-            <div class="qc-label">Daily Quiz Challenge</div>
-            <div class="qc-sub" id="qcStatus">5 questions · Changes every day</div>
-          </div>
-        </div>
-        <button class="qc-btn" id="qcStartBtn" onclick="openDailyQuiz()">Start →</button>
-      </div>
-    </div>
-  </div>
-</section>
+
 
 <!-- SECTION TABS — 4 only -->
 <div class="section-tabs">
@@ -113,7 +94,7 @@
 
   <!-- ═══ COMPARE ═══ -->
   <div class="sec active" id="sec-compare">
-    <div class="cat-scroll-wrap">
+    <div class="cat-tabs-wrap"><div class="cat-scroll-wrap">
       <div class="cat-tabs">
         <button class="cat-btn active" data-cat="term">Term Insurance</button>
         <button class="cat-btn coming" data-cat="ulip">ULIP <span class="soon-tag">Soon</span></button>
@@ -122,7 +103,7 @@
         <button class="cat-btn coming" data-cat="tulip">TULIP <span class="soon-tag">Soon</span></button>
         <button class="cat-btn" data-cat="annuity">Annuity</button>
       </div>
-    </div>
+    </div></div><!-- end cat-tabs-wrap -->
 
     <!-- Secondary action bar -->
     <div class="cat-action-bar" id="catActionBar">
