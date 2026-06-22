@@ -489,6 +489,7 @@ function injectShortlistCheckboxes(wrap, category) {
 let fcDeck = [], fcIndex = 0, fcFlipped = false;
 
 function initFlashcards() {
+  track('flashcard_started',{});
   const wrap = document.getElementById('flashcardWrap');
   if (!wrap) return;
 

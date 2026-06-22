@@ -91,6 +91,7 @@ function checkAvBReady() {
 
 function runAvBComparison() {
   const a = avbProductA, b = avbProductB;
+  if(a&&b) track('avb_comparison',{plan_a:a.plan,plan_b:b.plan,company_a:a.company,company_b:b.company});
   if (!a || !b) return;
   const res = document.getElementById('avbResults');
   if (!res) return;
@@ -521,6 +522,7 @@ function selectTkPlan(side) {
 }
 
 function generateMessages() {
+  track('toolkit_generate',{mode:tkMode,goal:document.getElementById('tkGoal')?.value||''});
   const name = document.getElementById('tkName')?.value?.trim() || 'Valued Customer';
   const age  = document.getElementById('tkAge')?.value?.trim() || '';
   const occ  = document.getElementById('tkOccupation')?.value?.trim() || '';
@@ -538,9 +540,19 @@ function generateMessages() {
     if (!p) { alert('Please select a plan.'); return; }
     const bro = p.brochureUrl ? p.brochureUrl : 'Official link unavailable';
     const prodUrl = p.productUrl || 'Official link unavailable';
-    const highlights = (p.meta?.keyHighlights || []).slice(0,4).map(h=>`✅ ${h}`).join('\n');
+    // Rich highlights — pull actual product features first
+    const _rawF = p.keyFeatures || p.features || [];
+    const _rawT = (p.tags||[]).filter(t=>['yes','unique'].includes(t.type)).map(t=>t.label);
+    const _metaHL = (p.meta?.keyHighlights||[]).filter(h=>!h.includes('official insurer website'));
+    const _uniq = p.uniqueFeature||p.bestFor||'';
+    let _hl = [];
+    if (_rawF.length>=2) _hl = _rawF.slice(0,4).map(h=>`✅ ${h}`);
+    else if (_rawT.length>=2) _hl = _rawT.slice(0,5).map(t=>`✅ ${t}`);
+    else if (_metaHL.length) _hl = _metaHL.slice(0,4).map(h=>`✅ ${h}`);
+    if (_uniq && !_uniq.includes('official') && _hl.length<5) _hl.unshift(`⭐ ${_uniq}`);
+    const highlights = _hl.slice(0,5).join('\n') || '✅ Non-Linked plan with guaranteed benefits';
 
-    wa = `Hi ${name} 👋\n\nHope you're doing well!\n\nAs we discussed your goal of *${goal}*, I wanted to share a plan that may be relevant for you.\n\n📌 *${p.plan}*\n_${p.company} | ${p.type}_\n\n${highlights || '✅ Plan details from official brochure'}\n\n💡 ${getRiskNote(risk, goal)}\n\n📎 Brochure: ${bro}\n\n_This message is for educational purposes only and does not constitute financial advice. Please read the official brochure before making any decision._\n\n— [Advisor Name]`;
+    wa = `Hi ${name} 👋\n\nHope you're doing well!\n\nAs we discussed your goal of *${goal}*, I wanted to share a plan that may be very relevant for you.\n\n📌 *${p.plan}*\n_${p.company} | ${p.type}_\n\n${highlights || '✅ Plan details from official brochure'}\n\n💡 ${getRiskNote(risk, goal)}\n\n📎 Brochure: ${bro}\n\n_For information only — not financial advice. Always read the official brochure before any decision._\n\n— [Advisor Name]`;
 
     email = `Subject: ${subj}${p.plan} — Product Information\n\nDear ${name},\n\nThank you for the opportunity to share relevant financial planning information with you.\n\nBased on your goal of ${goal} and your ${risk.toLowerCase()} risk approach${age?`, considering your age of ${age} years`:''}${occ?` and occupation as ${occ}`:'`'}, I would like to share the following plan for your consideration.\n\n────────────────────────\nPlan: ${p.plan}\nCompany: ${p.company}\nType: ${p.type}\nCategory: ${p.category}\n────────────────────────\n\nKey Features:\n${(p.meta?.keyHighlights||[]).map(h=>`• ${h}`).join('\n')||'• Refer official brochure for complete features'}\n\n${p.meta?.whySuit ? 'Why This May Be Relevant:\n' + p.meta.whySuit + '\n\n' : ''}Official Brochure: ${bro}\nProduct Page: ${prodUrl}\n\n────────────────────────\nDISCLAIMER\nThis communication is for educational and informational purposes only. It does not constitute financial advice. Past performance is not indicative of future results. Please read the official product brochure carefully and consult a qualified advisor before making any decision.\n────────────────────────\n\nWarm regards,\n[Advisor Name]`;
 
@@ -635,6 +647,7 @@ function copyPitch() {
 }
 
 function shareWA(id) {
+  track('whatsapp_share',{source:'toolkit'});
   const el = document.getElementById(id);
   if (!el) return;
   const text = encodeURIComponent(el.textContent);

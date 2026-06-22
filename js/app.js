@@ -35,6 +35,15 @@ let completedTopics = new Set(JSON.parse(localStorage.getItem('ia_done') || '[]'
 function cc(v){ return v>=99?'high':v>=98?'mid':'low'; }
 function cw(v){ return Math.max(0,Math.min(100,((v-97)/3)*100)); }
 function san(s){ const d=document.createElement('div'); d.textContent=String(s||''); return d.innerHTML; }
+
+// ── ANALYTICS TRACKING (GA4) ──
+function track(event, params) {
+  try {
+    if (typeof gtag === 'function') gtag('event', event, params || {});
+    if (typeof clarity === 'function') clarity('set', event, JSON.stringify(params||{}));
+  } catch(e) {}
+}
+
 function safeUrl(u){
   if(!u||typeof u!=='string') return null;
   const t=u.trim();
@@ -71,7 +80,7 @@ function saveProgress(){ localStorage.setItem('ia_done',JSON.stringify([...compl
 function getVal(id){ return parseFloat(document.getElementById(id).value)||0; }
 
 // ── SECTION NAVIGATION ──
-function showSection(name){
+function showSection(name){ track('section_view', {section_name: name});
   if(activeSection===name){ document.getElementById('mobileNav').classList.add('hidden'); return; }
   activeSection=name;
   document.querySelectorAll('.sec').forEach(s=>s.classList.remove('active'));
@@ -621,7 +630,7 @@ function renderTopicList(){
   renderRecent();
 }
 
-function openTopicDetail(idx){
+function openTopicDetail(idx){ track('topic_opened', {topic_index: idx});
   const t=filteredTopics[idx];
   if(!t) return;
   // Track recently viewed and last topic
@@ -802,7 +811,7 @@ function showCalcResult(id,mainVal,mainLabel,rows){
 }
 function showCalcError(id,msg){ const el=document.getElementById(id); el.classList.remove('hidden'); el.innerHTML=`<div class="calc-error">⚠️ ${msg}</div>`; }
 
-function calcHLV(){
+function calcHLV(){ track('calculator_used', {calc_type: 'hlv'});
   const income=getVal('hlv-income')*12, age=getVal('hlv-age'), retire=getVal('hlv-retire');
   const existing=getVal('hlv-existing'), growth=getVal('hlv-growth')/100, inflation=getVal('hlv-inflation')/100;
   if(!income||!age||age>=retire){showCalcError('hlv-result','Please fill all fields correctly.');return;}
@@ -811,13 +820,13 @@ function calcHLV(){
   const add=Math.max(0,hlv-existing);
   showCalcResult('hlv-result',fmtCr(Math.round(add)),'Additional life cover recommended',[['Human Life Value',fmtCr(Math.round(hlv))],['Existing Cover',fmtCr(existing)],['Additional Needed',fmtCr(Math.round(add))],['Years to retirement',years+' years'],['Annual income',fmtCr(income)]]);
 }
-function calcSIP(){
+function calcSIP(){ track('calculator_used', {calc_type: 'sip'});
   const P=getVal('sip-amount'),r=getVal('sip-return')/100/12,n=getVal('sip-years')*12;
   if(!P||!r||!n){showCalcError('sip-result','Please fill all fields.');return;}
   const FV=P*((Math.pow(1+r,n)-1)/r)*(1+r), inv=P*n, gains=FV-inv;
   showCalcResult('sip-result',fmtCr(Math.round(FV)),'Estimated maturity value',[['Total invested',fmtCr(Math.round(inv))],['Estimated returns',fmtCr(Math.round(gains))],['Total maturity value',fmtCr(Math.round(FV))],['Wealth multiplier',(FV/inv).toFixed(2)+'×']]);
 }
-function calcRetirement(){
+function calcRetirement(){ track('calculator_used', {calc_type: 'retirement'});
   const ca=getVal('ret-age'),ra=getVal('ret-retire'),me=getVal('ret-expenses'),inf=getVal('ret-inflation')/100,ret=getVal('ret-return')/100,le=getVal('ret-life');
   if(!ca||!me||ca>=ra||ra>=le){showCalcError('ret-result','Please check all fields. Age order: Current < Retirement < Life Expectancy.');return;}
   const ytr=ra-ca, dur=le-ra;
@@ -891,7 +900,7 @@ function calcTVM(){
 }
 
 // ── EMI CALCULATOR ──
-function calcEMI(){
+function calcEMI(){ track('calculator_used', {calc_type: 'emi'});
   const P=getVal('emi-loan'),r=getVal('emi-rate')/100/12,n=getVal('emi-tenure')*12;
   if(!P||!r||!n){showCalcError('emi-result','Please fill all fields.');return;}
   const emi=P*r*Math.pow(1+r,n)/(Math.pow(1+r,n)-1);
@@ -1102,19 +1111,29 @@ function initCatActionBar() {
 
 function switchMode(mode) {
   activeMode = mode;
+  track('compare_mode', {mode: mode, category: activeCat});
   const isPlans   = mode === 'plans';
   const isAvB     = mode === 'avb';
   const isTk      = mode === 'toolkit';
 
   // Hide/show content for current category
-  const termContent  = ['controls-bar','results-meta','cardsGrid','tableWrap','noResults'];
-  const catContent   = { term:termContent, par:['sec-par'], nonpar:['sec-nonpar'], annuity:['sec-annuity'] };
-  const currentContent = catContent[activeCat] || [];
-
-  currentContent.forEach(id => {
-    const el = id.includes('-') ? document.getElementById(id) : document.querySelector('.' + id);
-    if (el) el.classList.toggle('hidden', !isPlans);
-  });
+  // Term: mix of classes and IDs — handle correctly
+  if (activeCat === 'term') {
+    ['controls-bar','results-meta'].forEach(cls => {
+      const el = document.querySelector('.' + cls);
+      if (el) el.classList.toggle('hidden', !isPlans);
+    });
+    ['cardsGrid','tableWrap','noResults'].forEach(id => {
+      const el = document.getElementById(id);
+      if (el) el.classList.toggle('hidden', !isPlans);
+    });
+  } else {
+    const catEl = { par:'sec-par', nonpar:'sec-nonpar', annuity:'sec-annuity' }[activeCat];
+    if (catEl) {
+      const el = document.getElementById(catEl);
+      if (el) el.classList.toggle('hidden', !isPlans);
+    }
+  }
 
   const avbDiv = document.getElementById('sec-avb');
   const tkDiv  = document.getElementById('sec-toolkit');
@@ -1125,6 +1144,7 @@ function switchMode(mode) {
 // ── CAT-TAB SWITCHING ──
 function switchCompareCat(cat) {
   activeCat = cat;
+  track('compare_category', {category: cat});
   activeMode = 'plans';
   if (typeof buildProductRegistry === 'function') PRODUCT_REGISTRY = buildProductRegistry();
   document.querySelectorAll('.cat-btn').forEach(b => b.classList.toggle('active', b.dataset.cat === cat));
@@ -1183,7 +1203,6 @@ function renderPar() {
   let html = `<div class="prod-header">
     <h2 class="prod-title">Participating Endowment Plans</h2>
     <p class="prod-sub">Comparing ${all.length} plans · ${comps.filter(p=>!p.notAvailable).length} verified competitors</p>
-    <div class="prod-bench">📊 Benchmark: <strong>Age 35 | Male | ₹1L AP | PPT 10 | PT 20</strong></div>
   </div>
   <div class="prod-note-bar">⚠️ All plans are <strong>Participating</strong> — bonus is non-guaranteed and depends on insurer performance each year.</div>
   <div class="prod-cards">`;
@@ -1286,7 +1305,6 @@ function renderNishchit(wrap) {
   let html = `<div class="prod-header">
     <h2 class="prod-title">Guaranteed Early Income Plans</h2>
     <p class="prod-sub">Comparing ${all.length} plans · Income from Year 1 or 2</p>
-    <div class="prod-bench">📊 Benchmark: <strong>Age 35 | Male | ₹1L AP | PPT 10 | PT 20 | 0 Deferment</strong></div>
   </div>
   <div class="prod-note-bar">✅ All comparable plans are <strong>Non-Participating</strong> — returns fully guaranteed.</div>
   <div class="prod-cards">`;
@@ -1373,7 +1391,6 @@ function renderFeatureCards(wrap, plans, title, bench) {
 
   let html = `<div class="prod-header">
     <h2 class="prod-title">${san(title)}</h2>
-    <div class="prod-bench">📊 ${san(bench)}</div>
   </div>
   <div class="prod-note-bar">ⓘ Data from official insurer sources. Fields not publicly available are hidden.</div>
   <div class="prod-cards">`;
