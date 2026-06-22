@@ -16,6 +16,8 @@ let lastCompareCat = 'term';
 
 function renderAvB(cat) {
   lastCompareCat = cat;
+  // Always rebuild registry when A vs B opens
+  if (typeof buildProductRegistry === 'function') PRODUCT_REGISTRY = buildProductRegistry();
   if (typeof buildProductRegistry === 'function') PRODUCT_REGISTRY = buildProductRegistry();
   const wrap = document.getElementById('avbWrap');
   if (!wrap) return;
@@ -74,12 +76,17 @@ function updateAvBPlans(side) {
 }
 
 function selectAvBPlan(side) {
+  // Ensure registry is built
+  if ((!PRODUCT_REGISTRY||!PRODUCT_REGISTRY.length) && typeof buildProductRegistry==='function') {
+    PRODUCT_REGISTRY = buildProductRegistry();
+  }
   const planSel = document.getElementById('avbPlan' + side);
   const regId = planSel?.value;
-  if (!regId) { if(side==='A') avbProductA=null; else avbProductB=null; }
+  if (!regId) { if(side==='A'){avbProductA=null;window.avbProductA=null;} else{avbProductB=null;window.avbProductB=null;} }
   else {
     const p = PRODUCT_REGISTRY.find(x => x.regId === regId);
-    if (side === 'A') avbProductA = p; else avbProductB = p;
+    if (side === 'A') { avbProductA = p; window.avbProductA = p; }
+    else { avbProductB = p; window.avbProductB = p; }
   }
   checkAvBReady();
 }
