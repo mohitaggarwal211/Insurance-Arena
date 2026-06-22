@@ -1396,3 +1396,53 @@ body.light-mode .sec-compare { background:#F8FAFC; }
 .soon-title { font-family:'Syne',sans-serif; font-size:24px; font-weight:800; color:var(--white); margin-bottom:10px; }
 .soon-text { font-size:13px; color:var(--g400); line-height:1.7; max-width:340px; margin-bottom:18px; }
 .soon-badge { background:rgba(0,196,180,.12); border:1px solid var(--teal); color:var(--teal); padding:5px 16px; border-radius:20px; font-size:12px; font-weight:700; text-transform:uppercase; letter-spacing:1px; }
+
+/* ── LEARN PANEL VISIBILITY FIX ── */
+.learn-panel { display: none; }
+.learn-panel.active { display: block; }
+
+/* ── FIX 6: STICKY NAVIGATION LAYERS ── */
+/* Cat-tabs row sticky below header (54px) + section-tabs (40px) */
+.cat-tabs-wrap {
+  position: sticky;
+  top: 94px;
+  z-index: 80;
+  background: var(--bg-card);
+  border-bottom: 1px solid var(--bg-border);
+  padding: 8px 0 4px;
+}
+/* Secondary action bar sticky below cat-tabs */
+.cat-action-bar {
+  position: sticky;
+  top: 144px;
+  z-index: 70;
+  background: var(--bg-card);
+  border-bottom: 1px solid var(--bg-border);
+}
+/* Non-par sub-tabs sticky below action bar */
+.npsub-wrap {
+  position: sticky;
+  top: 188px;
+  z-index: 65;
+  background: var(--bg-card);
+  border-bottom: 1px solid var(--bg-border);
+  padding: 6px 14px;
+}
+
+/* ── FIX: REMOVE LIGHT MODE (Option A) ── */
+/* Remove all light-mode styles to prevent confusion */
+body.light-mode { all: unset; }
+#themeToggleBtn { display: none !important; }
+
+/* Non-par sub-tabs sticky */
+.nonpar-sub-tabs {
+  position: sticky;
+  top: 188px;
+  z-index: 65;
+  background: var(--bg-card);
+  border-bottom: 1px solid var(--bg-border);
+  display: flex;
+  padding: 6px 12px;
+  gap: 8px;
+  overflow-x: auto;
+}
