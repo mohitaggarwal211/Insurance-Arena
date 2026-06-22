@@ -1446,3 +1446,33 @@ body.light-mode { all: unset; }
   gap: 8px;
   overflow-x: auto;
 }
+
+/* ── FIX: Select dropdowns — CSS vars don't work in native <option> elements ── */
+.avb-cat-sel,
+.avb-plan-sel,
+.tk-select,
+select.tk-input {
+  background-color: #1E2A3A !important;
+  color: #F1F5F9 !important;
+  border: 1px solid rgba(255,255,255,0.15) !important;
+  border-radius: 8px !important;
+  padding: 9px 10px !important;
+  font-size: 12px !important;
+  -webkit-appearance: auto;
+  appearance: auto;
+}
+/* Option elements — hardcoded because CSS vars don't apply cross-browser */
+.avb-cat-sel option,
+.avb-plan-sel option,
+.tk-select option,
+select.tk-input option {
+  background-color: #1E2A3A;
+  color: #F1F5F9;
+}
+/* Hover/focus state for selects */
+.avb-cat-sel:focus,
+.avb-plan-sel:focus,
+.tk-select:focus {
+  outline: none;
+  border-color: #00C4B4 !important;
+}
