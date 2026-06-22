@@ -673,8 +673,8 @@ function injectFlashcardBtn() {
   btn.onclick = function() {
     const fcSec = document.getElementById('flashcardSection');
     if (!fcSec) return;
-    const isOn = !fcSec.classList.contains('hidden');
-    fcSec.classList.toggle('hidden', isOn);
+    const isOn = fcSec.style.display === 'block';
+    fcSec.style.display = isOn ? 'none' : 'block';
     this.classList.toggle('active', !isOn);
     this.textContent = isOn ? '📇 Flashcard Mode' : '📖 Back to Learning';
     if (!isOn && typeof initFlashcards === 'function') initFlashcards();

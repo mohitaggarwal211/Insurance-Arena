@@ -343,7 +343,7 @@ function updateCategoryFilters(){
 
 async function loadNews(){
   showSkeletons();
-  document.getElementById('newsGrid').classList.add('hidden');
+  document.getElementById('newsGrid')?.classList.add('hidden');
   document.getElementById('newsFeatured').classList.add('hidden');
   const ndd=document.getElementById('newsDateDisplay'); if(ndd) ndd.textContent=today();
   try{
@@ -362,7 +362,7 @@ async function loadNews(){
     }
   }catch(e){ allNewsData=[]; }
   hideSkeletons();
-  document.getElementById('newsGrid').classList.remove('hidden');
+  document.getElementById('newsGrid')?.classList.remove('hidden');
   updateCategoryFilters();
   renderNewsDigest();
   renderFeaturedStory();
@@ -434,7 +434,7 @@ function renderNews(){
   const filtered=getFilteredNews();
   const catLabel={insurance:'INSURANCE',irdai:'IRDAI',mutualfunds:'MUTUAL FUNDS',
     tax:'TAX',banking:'BANKING',personalfinance:'PERSONAL FINANCE',markets:'MARKETS'};
-  const grid=document.getElementById('newsGrid');
+  const grid=document.getElementById('newsGrid'); if(!grid) return;
   if(filtered.length===0){
     const searching=activeNewsSearch||activeNewsCat!=='all';
     grid.innerHTML=searching
@@ -471,7 +471,7 @@ function renderNews(){
 }
 
 // ── BOOKMARK EVENT DELEGATION (XSS-safe) ──
-document.getElementById('newsGrid').addEventListener('click', function(e){
+document.getElementById('newsGrid')?.addEventListener('click', function(e){
   const btn = e.target.closest('[data-bm-url]');
   if(!btn) return;
   e.preventDefault(); e.stopPropagation();
@@ -491,12 +491,12 @@ document.querySelectorAll('.news-cat').forEach(btn=>btn.addEventListener('click'
   renderNews();
 }));
 // Search
-document.getElementById('newsSearch').addEventListener('input',function(){
+document.getElementById('newsSearch')?.addEventListener('input',function(){
   activeNewsSearch=this.value.trim();
-  document.getElementById('newsSearchClear').classList.toggle('hidden',!activeNewsSearch);
+  document.getElementById('newsSearchClear')?.classList.toggle('hidden',!activeNewsSearch);
   renderNews();
 });
-function clearNewsSearch(){ activeNewsSearch='';document.getElementById('newsSearch').value='';document.getElementById('newsSearchClear').classList.add('hidden');renderNews(); }
+function clearNewsSearch(){ activeNewsSearch='';const ns=document.getElementById('newsSearch');if(ns)ns.value='';document.getElementById('newsSearchClear')?.classList.add('hidden');renderNews(); }
 
 // ════════════════════════════════════════
 // LEARNING SECTION — Topics + Dict + Claims
@@ -658,7 +658,8 @@ function openTopicDetail(idx){
         <button class="tc-nav-btn primary" onclick="markDone('${t.id}',${idx})">${idx===total-1?'✓ Done':'Next →'}</button>
       </div>
     </div>`;
-  window.scrollTo(0,0);
+  // Scroll to topic detail, not page top
+  const dtv=document.getElementById('topicDetailView'); if(dtv) dtv.scrollIntoView({behavior:'smooth',block:'start'});
 }
 function handleTopicBM(id,title,subject){ const saved=toggleBMTopic(id,title,subject); const btn=document.querySelector('.td-back-row .bm-icon'); if(btn) btn.classList.toggle('saved',saved); }
 function backToList(){
