@@ -947,7 +947,13 @@ a:hover{text-decoration:underline}
    ANNUITY MATRIX V3 — Scroll-contained
    Both-axis sticky via overflow:auto
    ══════════════════════════════════════ */
-#sec-annuity { padding:0; display:flex; flex-direction:column; }
+#sec-annuity {
+  padding:0;
+  display:flex;
+  flex-direction:column;
+  height: calc(100vh - 190px); /* fills below sticky nav (header+tabs+cat-tabs+action-bar) */
+  overflow: hidden;
+}
 .ann-header { padding:14px 16px 10px; background:var(--card); border-bottom:1px solid var(--border); }
 .ann-hrow { display:flex; align-items:flex-start; justify-content:space-between; gap:8px; flex-wrap:wrap; }
 .ann-title { font-family:'Syne',sans-serif; font-size:17px; font-weight:800; color:var(--white); margin:0 0 2px; }
@@ -969,7 +975,7 @@ a:hover{text-decoration:underline}
 
 .ann-controls { padding:8px 16px; background:var(--card); border-bottom:1px solid var(--border); }
 .ann-filter-label { font-size:9px; color:var(--g500); font-weight:700; text-transform:uppercase; letter-spacing:.5px; margin-bottom:4px; }
-.ann-pills { display:flex; gap:5px; flex-wrap:wrap; margin-bottom:7px; }
+.ann-pills { display:flex; gap:5px; flex-wrap:nowrap; overflow-x:auto; margin-bottom:7px; -webkit-overflow-scrolling:touch; scrollbar-width:none; padding-bottom:2px; }
 .ann-pill { padding:3px 9px; border-radius:20px; border:1px solid var(--border); background:transparent; color:var(--g400); font-size:10px; font-weight:600; cursor:pointer; }
 .ann-pill.active { background:var(--teal); color:#000; border-color:var(--teal); }
 .ann-vs-row { display:flex; align-items:center; gap:8px; flex-wrap:wrap; }
@@ -982,12 +988,13 @@ a:hover{text-decoration:underline}
 
 /* The KEY fix: overflow:auto on both axes */
 .ann-tbl-box {
+  flex: 1;
+  min-height: 0; /* critical for flex children with overflow */
   overflow:auto;
   -webkit-overflow-scrolling:touch;
   border:1px solid var(--border);
   border-radius:0 0 10px 10px;
   width:100%;
-  /* Height set dynamically by annFixStickyTop() JS */
 }
 .ann-tbl { border-collapse:collapse; table-layout:fixed; min-width:max-content; }
 
@@ -1481,3 +1488,8 @@ select.tk-input option {
   outline: none;
   border-color: #00C4B4 !important;
 }
+
+/* Hide scrollbar on filter pills row */
+.ann-pills::-webkit-scrollbar { display:none; }
+/* Ensure annTopBar doesn't overflow vertically */
+#annTopBar { flex-shrink:0; overflow:hidden; }
