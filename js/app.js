@@ -1536,18 +1536,8 @@ function renderAnnuity() {
 }
 
 function annFixStickyTop() {
-  const bar = document.getElementById('annTopBar');
-  const tblBox = document.getElementById('annTblBox');
-  if (!bar || !tblBox) return;
-  // Measure actual sticky elements dynamically instead of hardcoded 180
-  const hdr   = document.querySelector('.header')?.offsetHeight || 54;
-  const stabs = document.querySelector('.section-tabs')?.offsetHeight || 42;
-  const ctabs = document.querySelector('.cat-tabs-wrap')?.offsetHeight || 48;
-  const cbar  = document.querySelector('.cat-action-bar')?.offsetHeight || 40;
-  const topBar = bar.offsetHeight || 0;
-  const used = hdr + stabs + ctabs + cbar + topBar + 16; // 16px breathing room
-  const available = window.innerHeight - used;
-  tblBox.style.height = Math.max(available, 280) + 'px';
+  // Height now handled by CSS flex (sec-annuity fills viewport, ann-tbl-box uses flex:1)
+  // This function kept as no-op to avoid errors from existing callers
 }
 
 function annRenderPills() {
