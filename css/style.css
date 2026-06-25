@@ -951,8 +951,7 @@ a:hover{text-decoration:underline}
   padding:0;
   display:flex;
   flex-direction:column;
-  height: calc(100vh - 190px); /* fills below sticky nav (header+tabs+cat-tabs+action-bar) */
-  overflow: hidden;
+  /* Height managed naturally — matrix opens as fullscreen popup */
 }
 .ann-header { padding:14px 16px 10px; background:var(--card); border-bottom:1px solid var(--border); }
 .ann-hrow { display:flex; align-items:flex-start; justify-content:space-between; gap:8px; flex-wrap:wrap; }
@@ -987,14 +986,22 @@ a:hover{text-decoration:underline}
 .ann-vs-hint { font-size:9px; color:#FBBF24; }
 
 /* The KEY fix: overflow:auto on both axes */
+/* Ann tbl-box only used inside popup now */
 .ann-tbl-box {
   flex: 1;
-  min-height: 0; /* critical for flex children with overflow */
+  min-height: 0;
   overflow:auto;
   -webkit-overflow-scrolling:touch;
   border:1px solid var(--border);
-  border-radius:0 0 10px 10px;
+  border-radius:0;
   width:100%;
+}
+/* Cards view — normal scroll */
+#annCardsView {
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  padding: 12px;
+  max-height: calc(100vh - 300px);
 }
 .ann-tbl { border-collapse:collapse; table-layout:fixed; min-width:max-content; }
 
@@ -1493,3 +1500,76 @@ select.tk-input option {
 .ann-pills::-webkit-scrollbar { display:none; }
 /* Ensure annTopBar doesn't overflow vertically */
 #annTopBar { flex-shrink:0; overflow:hidden; }
+
+/* ════════════════════════════════════════════════
+   ANNUITY MATRIX — FULLSCREEN POPUP
+   ════════════════════════════════════════════════ */
+.ann-matrix-popup {
+  position: fixed;
+  inset: 0;
+  z-index: 600;
+  background: var(--navy);
+  display: flex;
+  flex-direction: column;
+  /* Hidden by default */
+}
+.ann-matrix-popup.hidden { display: none; }
+
+.amp-topbar {
+  flex-shrink: 0;
+  background: #1A1F35;
+  border-bottom: 2px solid var(--teal);
+  padding: 10px 12px 8px;
+}
+.amp-title-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+.amp-title {
+  font-size: 15px;
+  font-weight: 800;
+  color: var(--white);
+}
+.amp-close {
+  background: rgba(239,68,68,0.15);
+  border: 1px solid #EF4444;
+  color: #EF4444;
+  font-size: 14px;
+  font-weight: 700;
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.amp-legend {
+  display: flex;
+  gap: 5px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  margin-bottom: 8px;
+  padding-bottom: 2px;
+}
+.amp-legend::-webkit-scrollbar { display: none; }
+.amp-pills {
+  display: flex;
+  gap: 5px;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scrollbar-width: none;
+  padding-bottom: 2px;
+}
+.amp-pills::-webkit-scrollbar { display: none; }
+
+/* Table area fills remaining popup height */
+.amp-tbl-wrap {
+  flex: 1;
+  min-height: 0;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
