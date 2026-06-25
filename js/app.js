@@ -1530,9 +1530,10 @@ function renderAnnuity() {
   </div>`;
 
   annRenderPills();
-  annRenderMatrix();
-  annFixStickyTop();
-  window.addEventListener('resize', annFixStickyTop);
+  annRenderMatrix(); // still renders embedded matrix (used by filter pills)
+  annRenderCards();  // default view is cards
+  document.getElementById('annMatrixView')?.classList.add('hidden');
+  document.getElementById('annCardsView')?.classList.remove('hidden');
 }
 
 function annFixStickyTop() {
@@ -1584,14 +1585,139 @@ function annHL_row(id) {
 }
 
 function annSetView(v) {
-  const isMatrix = v === 'matrix';
-  document.getElementById('annMatrixView')?.classList.toggle('hidden', !isMatrix);
-  document.getElementById('annCardsView')?.classList.toggle('hidden', isMatrix);
-  document.getElementById('annMatBtn')?.classList.toggle('active', isMatrix);
-  document.getElementById('annCdBtn')?.classList.toggle('active', !isMatrix);
-  document.querySelector('.ann-matrix-hint')?.classList.toggle('hidden', !isMatrix);
-  if (!isMatrix) annRenderCards();
-  setTimeout(annFixStickyTop, 50);
+  if (v === 'matrix') {
+    annOpenMatrixPopup();
+  } else {
+    // Cards view — just render inline
+    document.getElementById('annMatBtn')?.classList.remove('active');
+    document.getElementById('annCdBtn')?.classList.add('active');
+    document.getElementById('annCardsView')?.classList.remove('hidden');
+    document.getElementById('annMatrixView')?.classList.add('hidden');
+    annRenderCards();
+  }
+}
+
+function annOpenMatrixPopup() {
+  // Create popup if it doesn't exist
+  let popup = document.getElementById('annMatrixPopup');
+  if (!popup) {
+    popup = document.createElement('div');
+    popup.id = 'annMatrixPopup';
+    popup.className = 'ann-matrix-popup hidden';
+    popup.innerHTML = `
+      <div class="amp-topbar">
+        <div class="amp-title-row">
+          <div class="amp-title">⊞ Annuity Option Matrix</div>
+          <button class="amp-close" onclick="annCloseMatrixPopup()">✕</button>
+        </div>
+        <div class="amp-legend">
+          <span class="aleg aleg-yes">✅ Available</span>
+          <span class="aleg aleg-no">❌ Not Available</span>
+          <span class="aleg aleg-sim">⚠️ Similar</span>
+          <span class="aleg aleg-unique">★ ABSLI Unique</span>
+          <span class="aleg" style="color:var(--g500)">— N/A</span>
+        </div>
+        <div class="amp-pills" id="ampPillRow"></div>
+      </div>
+      <div class="amp-tbl-wrap" id="ampTblWrap">
+        <table class="ann-tbl" id="ampTbl"></table>
+      </div>`;
+    document.body.appendChild(popup);
+  }
+
+  popup.classList.remove('hidden');
+  document.body.style.overflow = 'hidden'; // prevent page scroll behind popup
+
+  // Render pills and matrix into popup
+  annRenderPopupPills();
+  annRenderMatrixInto('ampTbl');
+
+  // Highlight matrix button
+  document.getElementById('annMatBtn')?.classList.add('active');
+  document.getElementById('annCdBtn')?.classList.remove('active');
+}
+
+function annCloseMatrixPopup() {
+  const popup = document.getElementById('annMatrixPopup');
+  if (popup) popup.classList.add('hidden');
+  document.body.style.overflow = '';
+  document.getElementById('annMatBtn')?.classList.remove('active');
+  document.getElementById('annCdBtn')?.classList.add('active');
+  // Switch to cards view
+  document.getElementById('annCardsView')?.classList.remove('hidden');
+  annRenderCards();
+}
+
+function annRenderPopupPills() {
+  const row = document.getElementById('ampPillRow');
+  if (!row) return;
+  const cats = ['All', ...new Set(ANNUITY_OPTION_ROWS.map(r=>r.category).filter(Boolean))];
+  row.innerHTML = cats.map((c,i) =>
+    `<button class="ann-pill${i===0?' active':''}" onclick="annFilterPopup('${c}',this)">${c}</button>`
+  ).join('');
+}
+
+function annFilterPopup(cat, btn) {
+  document.querySelectorAll('#ampPillRow .ann-pill').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  annRenderMatrixInto('ampTbl', cat === 'All' ? null : cat);
+}
+
+function annRenderMatrixInto(tableId, filterCat) {
+  const tbl = document.getElementById(tableId);
+  if (!tbl) return;
+  // Re-use existing annRenderMatrix logic but target this table
+  const base  = ANNUITY_PLANS.find(p => p.isBase);
+  const comps = ANNUITY_PLANS.filter(p => !p.isBase);
+  const rows  = filterCat
+    ? ANNUITY_OPTION_ROWS.filter(r => r.category === filterCat)
+    : ANNUITY_OPTION_ROWS;
+
+  const allPlans = [base, ...comps];
+
+  const icon = v => v==='yes'?'✅':v==='no'?'❌':v==='unique'?'<span style="color:#FACC15">★</span>':v==='sim'?'⚠️':'<span style="color:var(--g500)">—</span>';
+  const pct  = p => {
+    const n = ANNUITY_OPTION_ROWS.filter(r=>['yes','unique'].includes((p.options||{})[r.id])).length;
+    return Math.round(n/ANNUITY_OPTION_ROWS.length*100);
+  };
+
+  let thead = '<thead><tr>';
+  thead += `<th class="ann-corner">ABSLI Option / Variant</th>`;
+  allPlans.forEach(p => {
+    const p2 = pct(p);
+    const fc = p2>=90?'var(--teal)':p2>=60?'#22C55E':'#FBBF24';
+    thead += `<th class="ann-co-th${p.isBase?' ann-base-th':''}">
+      <div class="ann-co-name${p.isBase?' base':''}">${san(p.company)}</div>
+      <div class="ann-co-plan">${san(p.plan)}</div>
+      <div class="cov-bar-wrap" style="max-width:80px;margin:4px auto 0">
+        <div style="display:flex;justify-content:space-between;font-size:8px;margin-bottom:2px">
+          <span>Coverage</span><span style="color:${fc};font-weight:700">${ANNUITY_OPTION_ROWS.filter(r=>['yes','unique'].includes((p.options||{})[r.id])).length}/${ANNUITY_OPTION_ROWS.length}</span>
+        </div>
+        <div style="background:rgba(255,255,255,.08);border-radius:3px;height:4px;overflow:hidden">
+          <div style="width:${p2}%;background:${fc};height:100%;border-radius:3px"></div>
+        </div>
+      </div>
+      ${p.calcUrl?`<a href="${san(p.calcUrl)}" target="_blank" class="am-calc">🧮 Calc →</a>`:''}
+    </th>`;
+  });
+  thead += '</tr></thead>';
+
+  let tbody = '<tbody>';
+  rows.forEach(row => {
+    tbody += `<tr><td class="ann-opt-td">
+      <div class="ann-opt-label${row.unique?' ann-unique-label':''}">${row.unique?'★ ':''}${san(row.label)}</div>
+      ${row.desc?`<div class="ann-opt-desc">${san(row.desc)}</div>`:''}
+    </td>`;
+    allPlans.forEach(p => {
+      const v = (p.options||{})[row.id] || '—';
+      const isU = v==='unique';
+      tbody += `<td class="ann-cell${p.isBase?' base-col':''}${isU?' unique':''}">${icon(v)}</td>`;
+    });
+    tbody += '</tr>';
+  });
+  tbody += '</tbody>';
+
+  tbl.innerHTML = thead + tbody;
 }
 
 function annRenderCards() {
