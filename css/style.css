@@ -1508,10 +1508,18 @@ select.tk-input option {
   position: fixed;
   inset: 0;
   z-index: 600;
-  background: var(--navy);
+  background: #0F172A;        /* hardcoded — var() can fail inside fixed popup */
   display: flex;
   flex-direction: column;
-  /* Hidden by default */
+  overflow: hidden;           /* prevent any bleed */
+}
+/* Dim overlay behind popup for extra safety */
+.ann-matrix-popup::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background: #0F172A;
+  z-index: -1;
 }
 .ann-matrix-popup.hidden { display: none; }
 
