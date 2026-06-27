@@ -34,7 +34,7 @@ const NISHCHIT_PLANS = [
     dataSource: 'Verified — ABSLI Official Brochure',
     dataDate: '2025',
     uniqueFeature: 'Income from Year 1 (0 deferment). Guaranteed level income for 20 years. Large lump sum at maturity. 10× SA life cover.',
-    pitch: 'Pay for 10 years, get ₹35,050 every year for 20 years + ₹11 lakh lump sum — fully guaranteed.',
+    pitch: 'Pay for limited years, get guaranteed level income every year for 20 years + guaranteed lump sum at maturity — 100% Non-Par guaranteed.',
     tag: 'Highest Total Return'
   },
   {
@@ -62,9 +62,9 @@ const NISHCHIT_PLANS = [
     illustrationBasis: 'Female, Age 35 (male rate may differ marginally)',
     dataSource: 'Verified — ICICI Pru Official Brochure',
     dataDate: '2025',
-    note: '⚠️ Illustration is for female (Age 35). Male rate may differ slightly. Income is increasing at 5% compounding — not level. Instant cashback of ₹50,000 reduces future income slightly.',
-    uniqueFeature: 'Income from Year 2. Instant cashback ₹50,000 on policy issuance. Increasing income at 5% compounding. 100% maturity benefit.',
-    pitch: 'Get ₹50,000 cashback immediately, then increasing income from Year 2 + full premiums back at end.',
+    note: '⚠️ Illustration is for female (Age 35). Male rate may differ slightly. Income is increasing at 5% compounding — not level. Instant Cashback at issuance reduces future income slightly.',
+    uniqueFeature: 'Income from Year 2. Instant Cashback at policy issuance. Increasing income at 5% compounding. 100% maturity benefit.',
+    pitch: 'Get Instant Cashback at policy issuance, then increasing income from Year 2 + full premiums back at maturity.',
     tag: 'Instant Cashback'
   },
   {

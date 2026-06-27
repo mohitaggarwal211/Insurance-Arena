@@ -1219,7 +1219,7 @@ function renderPar() {
     }
 
     const meta = getMeta ? getMeta(p.id) : {};
-    const highlights = meta.keyHighlights || (p.isBase ? ['Non-Linked Participating Endowment','Compound Reversionary + Terminal Bonus','Joint Life Protection for spouse','Extended Life Cover up to age 85'] : []);
+    const highlights = meta.keyHighlights || (p.isBase ? ['Non-Linked Participating Endowment','Compound Reversionary + Terminal Bonus','Extended Life Cover up to age 75 or 85','HER Benefits for women policyholders'] : []);
     const limitations = meta.limitations || [];
 
     html += `<div class="prod-card${p.isBase?' prod-card-base':''}${p.pending?' prod-card-pending':''}">
@@ -1239,13 +1239,19 @@ function renderPar() {
     html += `<div class="pc-section-title">📋 Plan Features</div>
     <div class="pc-feature-list">
       ${p.isBase?`
-      <div class="pc-feat"><span class="pc-fl">Entry Age</span><span class="pc-fv">30 days – 65 yrs (Single) | 18-50 (Joint)</span></div>
+      <div class="pc-feat"><span class="pc-fl">Entry Age</span><span class="pc-fv">30 days – 65 yrs</span></div>
       <div class="pc-feat"><span class="pc-fl">Maturity Age</span><span class="pc-fv">85 years</span></div>
       <div class="pc-feat"><span class="pc-fl">PPT Options</span><span class="pc-fv">Single Pay | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 years</span></div>
-      <div class="pc-feat"><span class="pc-fl">Joint Life</span><span class="pc-fv">✅ Yes — Spouse at 20% of SA</span></div>
       <div class="pc-feat"><span class="pc-fl">Policy Loan</span><span class="pc-fv">✅ Up to 80% of Surrender Value</span></div>
       <div class="pc-feat"><span class="pc-fl">Riders</span><span class="pc-fv">Accidental Death | Critical Illness | Surgical Care | Hospital Care</span></div>
-      `:p.features?Object.entries(p.features).map(([k,v])=>`<div class="pc-feat"><span class="pc-fl">${san(k)}</span><span class="pc-fv">${san(v)}</span></div>`).join(''):'<div class="pc-feat-note">Refer official brochure for complete features</div>'}
+      `:p.features?(() => {
+        const items=[];
+        if(p.features.riders) items.push(['Riders','✅ Available']);
+        if(p.features.loan) items.push(['Policy Loan','✅ Available']);
+        if(p.features.jointLife) items.push(['Joint Life Cover','✅ Yes']);
+        if(p.features.revivalPeriod&&!p.features.revivalPeriod.includes('Verify')) items.push(['Revival Period',p.features.revivalPeriod]);
+        return items.length?items.map(([l,v])=>`<div class="pc-feat"><span class="pc-fl">${san(l)}</span><span class="pc-fv">${san(v)}</span></div>`).join(''):'<div class="pc-feat-note">Refer official brochure for complete features</div>';
+      })():'<div class="pc-feat-note">Refer official brochure for complete features</div>'}
     </div>`;
 
     if (!p.pending && p.sa) {
@@ -1332,8 +1338,7 @@ function renderNishchit(wrap) {
       <div class="pc-feat"><span class="pc-fl">Income From</span><span class="pc-fv">${san(p.incomeFrom||'—')}</span></div>
       <div class="pc-feat"><span class="pc-fl">Income Type</span><span class="pc-fv">${san(p.incomeType||'—')}</span></div>
       <div class="pc-feat"><span class="pc-fl">Income Period</span><span class="pc-fv">${san(p.incomePeriod?p.incomePeriod+' years':'—')}</span></div>
-      ${p.sa?`<div class="pc-feat"><span class="pc-fl">Sum Assured</span><span class="pc-fv">₹${Number(p.sa).toLocaleString('en-IN')}</span></div>`:''}
-      ${p.cashback?`<div class="pc-feat"><span class="pc-fl">Instant Cashback</span><span class="pc-fv">₹${Number(p.cashback).toLocaleString('en-IN')}</span></div>`:''}
+      ${p.cashback?`<div class="pc-feat"><span class="pc-fl">Instant Cashback</span><span class="pc-fv">✅ Available at policy issuance</span></div>`:''}
       ${p.note?`<div class="pc-feat-note">ⓘ ${san(p.note)}</div>`:''}
     </div>`;
 

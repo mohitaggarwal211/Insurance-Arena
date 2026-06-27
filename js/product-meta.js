@@ -11,7 +11,6 @@ const PRODUCT_META = {
     keyHighlights: [
       'Non-Linked Participating Endowment plan',
       'Compound Reversionary Bonus + Terminal Bonus at maturity',
-      'Joint Life Protection — spouse covered at 20% of SA',
       'Extended Life Cover option up to age 75 or 85',
       'HER Benefits for women policyholders (₹75K+ premium)'
     ],
@@ -99,8 +98,8 @@ const PRODUCT_META = {
     keyHighlights: [
       'Non-Linked, Non-Participating — returns 100% guaranteed',
       'Guaranteed income from Year 1 (zero deferment)',
-      'Level income of ₹35,050/year for 20 years',
-      'Guaranteed lump sum of ₹11,00,000 at maturity',
+      'Guaranteed level income every year for 20 years',
+      'Guaranteed lump sum at maturity',
       '10× Sum Assured life cover throughout the term'
     ],
     whySuit: 'Choose ABSLI Nishchit Aayush if you want guaranteed income starting immediately from Year 1, combined with a large maturity lump sum — all fully guaranteed with no market risk.',
@@ -116,7 +115,7 @@ const PRODUCT_META = {
   'icici': {
     keyHighlights: [
       'Non-Linked, Non-Participating — fully guaranteed',
-      'Instant cashback of ₹50,000 at policy issuance',
+      'Instant Cashback at policy issuance — reduces future income marginally',
       'Income increases at 5% compounding each year',
       '100% of premiums returned as maturity benefit',
       'GIFT Select — newer version with enhanced features'
