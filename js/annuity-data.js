@@ -810,7 +810,7 @@ const ANNUITY_PLANS = [
     company: 'Canara HSBC',
     companyFull: 'Canara HSBC Life Insurance',
     plan: 'Smart Guaranteed Pension',
-    uin: 'Not confirmed',
+    uin: '136N086V03',
     badge: 'Deferred + LP',
     type: 'Deferred Only',
     totalOptions: 2,

@@ -5,7 +5,7 @@
 
 const SAVINGS_PLANS = [
   {
-    company: 'ABSLI', plan: 'Assured Savings Plan', uin: 'Verify V13',
+    company: 'ABSLI', plan: 'Assured Savings Plan', uin: '109N134V13',
     isBase: true, type: 'Non-Linked Non-Par', status: 'Active',
     url: 'https://lifeinsurance.adityabirlacapital.com/savings-plans/absli-assured-savings-plan/',
     brochure: 'https://lifeinsurance.adityabirlacapital.com/uploads/Assured_Savings_Plan_V13_Brochure_3e10c8b905.pdf',
@@ -16,8 +16,16 @@ const SAVINGS_PLANS = [
     rop: true, maturityBenefit: true, incomeBenefit: false,
     riders: 'Accidental Death Benefit Rider Plus | Critical Illness Rider | Surgical Care Rider | Hospital Care Rider',
     deathBenefit: 'SA on Death + Loyalty Additions. After 25th yr: Higher of SA or GMB + Loyalty Additions',
-    uniqueFeature: 'Joint Life Protection at 20% SA for spouse. Staggered Death Benefit option (5-yr instalments). Multiple SA multiples. Enhanced GMB for higher premium bands.',
-    pitch: 'Guaranteed savings + life cover — premium for 5–12 years, get guaranteed lumpsum up to 35 years later.',
+    uniqueFeature: 'Joint Life Protection for spouse (20% SA coverage). Staggered Death Benefit as 5-yr instalments option. Enhanced GMB for Option 2 SA multiple. Loyalty Additions boost corpus year on year.',
+    pitch: 'ABSLI Assured Savings Plan — guaranteed lumpsum at maturity with Loyalty Additions that grow corpus every year. Joint Life Protection available for spouse. Policy Term up to 35 years.',
+    keyHighlights: [
+      'Guaranteed Maturity Benefit (GMB): Lumpsum at end of policy term as % of total premiums payable',
+      'Loyalty Additions: Accrue as % of total premiums paid each year after PPT until maturity — boosts corpus',
+      'Joint Life Protection Option: Spouse covered at 20% of SA under same policy (Limited Pay only)',
+      'Staggered Death Benefit: Nominee can receive death benefit over 5 years (annual or monthly instalments)',
+      'Enhanced GMB: Option 2 SA multiple gives 4-7% additional GMB on top of standard GMB',
+      'Flexible terms: Single Pay / 5-12 Pay | Policy Term 5-35 years | Min entry age 30 days'
+    ],
     verification: 'Verified — Official Brochure V13'
   },
   {
@@ -50,24 +58,9 @@ const SAVINGS_PLANS = [
     pitch: 'Invest once or for limited years — get a guaranteed lumpsum at maturity with full life cover.',
     verification: 'Partially Verified — URL and UIN confirmed'
   },
+  ,
   {
-    company: 'Bajaj Life', plan: 'ACE (Non-Linked Participating ⚠️)', uin: '116N186V03',
-    isBase: false, type: '⚠️ Non-Linked PARTICIPATING (bonus not guaranteed)', status: 'Active',
-    url: 'https://www.bajajallianzlife.com/savings-plans/bajaj-allianz-life-ace.html',
-    brochure: 'https://buyonline.bajajallianzlife.com/content/dam/balic/pdf/savings-plans/ace-brochure.pdf',
-    entryAge: 'Verify from brochure', maturityAge: null, jointLife: null, loan: null,
-    ppt: '5/6/7/8/10/12 yrs (Limited Pay)', pt: 'Verify from brochure',
-    guaranteedAdditions: false, loyaltyAdditions: null, booster: null,
-    rop: false, maturityBenefit: true, incomeBenefit: true,
-    riders: 'Accidental Death | Critical Illness | Premium Waiver (verify)',
-    deathBenefit: 'SA on Death payable to nominee. Verify formula from brochure.',
-    uniqueFeature: 'Participating — bonus upside possible. Income option available. Increasing income at 5% p.a. Note: company renamed Bajaj Life Insurance Ltd.',
-    pitch: 'Participating plan — guaranteed amount + potential bonus upside for wealth creation.',
-    verification: 'Partially Verified — PARTICIPATING (not Non-Par) — note vs ABSLI',
-    typeWarning: true
-  },
-  {
-    company: 'ICICI Pru', plan: 'Assured Savings Insurance Plan', uin: 'Verify from ICICI Pru',
+    company: 'ICICI Pru', plan: 'Assured Savings Insurance Plan', uin: '105N144V13',
     isBase: false, type: 'Non-Linked Non-Par', status: 'Active (replacement)',
     url: 'https://www.iciciprulife.com/money-back-endowment-plans/assured-savings-plan.html',
     brochure: 'Verify from iciciprulife.com',
@@ -83,7 +76,7 @@ const SAVINGS_PLANS = [
     verification: 'Replaced — URL confirmed, brochure access needed'
   },
   {
-    company: 'SBI Life', plan: 'Smart Platina Assure', uin: 'Verify from SBI Life',
+    company: 'SBI Life', plan: 'Smart Platina Assure', uin: '111N126V07',
     isBase: false, type: 'Non-Linked Non-Par (Endowment)', status: 'Active',
     url: 'https://www.sbilife.co.in/en/individual-life-insurance/traditional/smart-platina-assure',
     brochure: 'https://www.sbilife.co.in/smart-platina-assure-v08-brochure',
@@ -114,7 +107,7 @@ const SAVINGS_PLANS = [
     verification: 'Replaced — company name change noted'
   },
   {
-    company: 'Kotak Life', plan: 'Assured Savings Plan', uin: 'Verify from Kotak',
+    company: 'Kotak Life', plan: 'Assured Savings Plan', uin: '107N081V09',
     isBase: false, type: 'Non-Linked Non-Par', status: 'Active',
     url: 'https://www.kotaklife.com/savings-plan/kotak-assured-savings-plan',
     brochure: 'Verify from kotaklife.com',
@@ -129,7 +122,7 @@ const SAVINGS_PLANS = [
     verification: 'Partially Verified — Active product confirmed'
   },
   {
-    company: 'Canara HSBC', plan: 'iSelect Guaranteed Future', uin: 'Verify from Canara HSBC',
+    company: 'Canara HSBC', plan: 'iSelect Guaranteed Future', uin: '136N081V07',
     isBase: false, type: 'Non-Linked (verify Par/Non-Par)', status: 'Active (replacement)',
     url: 'https://www.canarahsbclife.com/savings-and-investment-plans/iselect-guaranteed-future',
     brochure: 'Verify from canarahsbclife.com',
@@ -153,7 +146,7 @@ const SAVINGS_PLANS = [
 
 const INCOME_PLANS = [
   {
-    company: 'ABSLI', plan: 'Assured Income Plus Plan', uin: 'Verify V17+',
+    company: 'ABSLI', plan: 'Assured Income Plus Plan', uin: '109N127V19',
     isBase: true, type: 'Non-Linked Non-Par', status: 'Active',
     url: 'https://lifeinsurance.adityabirlacapital.com/savings-plans/absli-assured-income-plus-plan/',
     brochure: 'https://lifeinsurance.adityabirlacapital.com/uploads/ABSLI_Assured_Income_Plus_V17_Brochure_Web_Version_da75c6e902.pdf',
@@ -166,8 +159,16 @@ const INCOME_PLANS = [
     incomePayout: 'Annual / Half-Yearly / Quarterly / Monthly',
     riders: 'Verify specific riders from current brochure',
     deathBenefit: 'SA on Death (lumpsum to nominee). Min = Higher of 10× AP or 105% premiums paid.',
-    uniqueFeature: 'Longest income periods (20/25/30 yrs). Loyalty Additions boost income. Option 2 = RoP at end of income period. Commutation option (lumpsum of future income anytime).',
-    pitch: 'Short investment, long income — pay for limited years, receive guaranteed income for 20, 25 or 30 years.',
+    uniqueFeature: 'Guaranteed income for 20, 25 or 30 years with Loyalty Additions enhancing income each year. Commutation option: take lumpsum of future income anytime after policy term. Income continues to nominee after death.',
+    pitch: 'Pay for 5-12 years, receive guaranteed income for 20, 25 or 30 years. Loyalty Additions increase income each year. Commutation option lets you take lumpsum of future income anytime.',
+    keyHighlights: [
+      'Two Options: Income Only Benefit or Income with Lumpsum Benefit (choose at inception)',
+      'Guaranteed income for 20, 25 or 30 years (annual, semi-annual, quarterly or monthly)',
+      'Loyalty Additions: Enhance Income Benefit each year during payout period (50-65% of annual income)',
+      'Commutation Option: Take discounted lumpsum of all future income anytime after policy term',
+      'Income continues to nominee after death during benefit payout period',
+      'Guaranteed Lumpsum Benefit at end of income period under Income + Lumpsum option (55-60% of total premiums, enhanced 100%)'
+    ],
     verification: 'Verified — Official product page + V17 brochure'
   },
   {
@@ -210,7 +211,7 @@ const INCOME_PLANS = [
     verification: 'Verified — UIN 105N182V13 confirmed'
   },
   {
-    company: 'Canara HSBC', plan: 'iSelect Guaranteed Future Plus', uin: 'Verify from Canara HSBC',
+    company: 'Canara HSBC', plan: 'iSelect Guaranteed Future Plus', uin: '136N098V04',
     isBase: false, type: 'Non-Linked (verify)', status: 'Active (replacement)',
     url: 'https://www.canarahsbclife.com/savings-and-investment-plans/iselect-guaranteed-future-plus',
     brochure: 'Verify from canarahsbclife.com',
@@ -223,7 +224,7 @@ const INCOME_PLANS = [
     verification: 'Replaced — Original withdrawn per official Canara HSBC list'
   },
   {
-    company: 'Bajaj Life', plan: 'Guaranteed Income Goal (verify — "Guaranteed Wealth Goal" not found)', uin: 'Verify from Bajaj Life',
+    company: 'Bajaj Life', plan: 'Guaranteed Income Goal Plan', uin: '116N157V10',
     isBase: false, type: 'Non-Linked Non-Par (verify)', status: 'Unable to Verify',
     url: 'https://www.bajajallianzlife.com/savings-plans',
     brochure: 'Verify from bajajallianzlife.com',
@@ -262,7 +263,7 @@ const INCOME_PLANS = [
     verification: 'Partially Verified — UIN confirmed; PARTICIPATING noted'
   },
   {
-    company: 'Kotak Life', plan: 'Guaranteed Fortune Builder', uin: '107N128V06',
+    company: 'Kotak Life', plan: 'Guaranteed Fortune Builder', uin: '107N128V09',
     isBase: false, type: 'Non-Linked Non-Par', status: 'Active',
     url: 'https://www.kotaklife.com/savings-plan/kotak-guaranteed-fortune-builder',
     brochure: 'https://www.kotaklife.com/assets/images/uploads/insurance-plans/Kotak_Guaranteed_Fortune_Builder-Brochure_(Online).pdf',

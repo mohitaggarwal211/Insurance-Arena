@@ -1337,16 +1337,6 @@ function renderNishchit(wrap) {
       ${p.note?`<div class="pc-feat-note">ⓘ ${san(p.note)}</div>`:''}
     </div>`;
 
-    if (!p.pending && (p.annualIncome || p.annualIncomeY2 || p.lumpsum)) {
-      html += `<div class="pc-section-title">💰 Income Structure</div>
-      <div class="pc-nums">
-        ${p.annualIncome?`<div class="pc-num-row pc-highlight"><span class="pc-nl">Annual Income</span><span class="pc-nv pc-green">₹${Number(p.annualIncome).toLocaleString('en-IN')}/yr</span></div>`:''}
-        ${p.annualIncomeY2?`<div class="pc-num-row pc-highlight"><span class="pc-nl">Income Yr 2 (start)</span><span class="pc-nv pc-green">₹${Number(p.annualIncomeY2).toLocaleString('en-IN')}/yr</span></div>`:''}
-        ${p.lumpsum?`<div class="pc-num-row"><span class="pc-nl">Lump Sum at Maturity</span><span class="pc-nv">₹${Number(p.lumpsum).toLocaleString('en-IN')}</span></div>`:''}
-      </div>`;
-    } else if (p.pending) {
-      html += `<div class="pc-section-title">💰 Income Structure</div><div class="pc-pending-block">⏳ Details will be updated</div>`;
-    }
 
     if (p.pitch) { html += `<div class="pc-section-title">💬 Sales Story</div><div class="pc-pitch">"${san(p.pitch)}"</div>`; }
 
@@ -1357,21 +1347,7 @@ function renderNishchit(wrap) {
   });
   html += '</div>';
 
-  // Income comparison table (no returns/IRR)
-  const conf = all.filter(p => (p.annualIncome || p.annualIncomeY2) && !p.pending);
-  if (conf.length > 1) {
-    html += `<div class="prod-irr-table"><h3 class="prod-irr-title">💰 Income Comparison</h3>
-    <div class="prod-irr-scroll"><table class="pirr-tbl"><thead>
-    <tr><th>Plan</th><th>Income/yr</th><th>Income Period</th><th>Lump Sum</th></tr>
-    </thead><tbody>
-    ${conf.map(p=>`<tr${p.isBase?' class="pirr-base"':''}>
-      <td><strong>${san(p.company)}</strong><br/><small>${san(p.plan.split('(')[0])}</small></td>
-      <td>${p.annualIncome?'₹'+Number(p.annualIncome).toLocaleString('en-IN')+'/yr (level)':p.annualIncomeY2?'₹'+Number(p.annualIncomeY2).toLocaleString('en-IN')+'/yr from Yr2':'—'}</td>
-      <td>${san(p.incomePeriod||'—')} yrs</td>
-      <td>${p.lumpsum?'₹'+Number(p.lumpsum).toLocaleString('en-IN'):'—'}</td>
-    </tr>`).join('')}
-    </tbody></table></div></div>`;
-  }
+
 
   if (excl.length) {
     html += `<div class="prod-excl"><h4>Excluded from Comparison</h4>

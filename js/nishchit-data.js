@@ -28,7 +28,6 @@ const NISHCHIT_PLANS = [
     totalIncome: 701000,          // 35050 × 20
     lumpsum: 1100000,             // Maturity lump sum
     totalReturn: 1801000,         // 7,01,000 + 11,00,000
-    irr: 5.51,
     sa: 1100000,                  // 10× AP
     guaranteed: true,
     ropOnDeath: true,
@@ -57,7 +56,6 @@ const NISHCHIT_PLANS = [
     totalIncome: 555199,          // ~19 payments increasing at 5%
     lumpsum: 1000000,             // 100% of premiums at maturity
     totalReturn: 1605199,         // 50K + 5.55L + 10L
-    irr: 4.13,
     sa: 1000000,                  // 10× AP
     guaranteed: true,
     ropOnDeath: true,
@@ -85,8 +83,7 @@ const NISHCHIT_PLANS = [
     annualIncome: null,           // PENDING
     incomePeriod: 20,
     lumpsum: null,                // PENDING
-    totalReturn: null,            // PENDING
-    irr: null,                    // PENDING
+    totalReturn: null,            // PENDING                    // PENDING
     sa: null,                     // PENDING
     guaranteed: true,
     ropOnDeath: true,
