@@ -1239,7 +1239,7 @@ function renderPar() {
     html += `<div class="pc-section-title">📋 Plan Features</div>
     <div class="pc-feature-list">
       ${p.isBase?`
-      <div class="pc-feat"><span class="pc-fl">Entry Age</span><span class="pc-fv">30 days – 65 yrs</span></div>
+      <div class="pc-feat"><span class="pc-fl">Entry Age</span><span class="pc-fv">30 days – 60 yrs</span></div>
       <div class="pc-feat"><span class="pc-fl">Maturity Age</span><span class="pc-fv">85 years</span></div>
       <div class="pc-feat"><span class="pc-fl">PPT Options</span><span class="pc-fv">Single Pay | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 years</span></div>
       <div class="pc-feat"><span class="pc-fl">Policy Loan</span><span class="pc-fv">✅ Up to 80% of Surrender Value</span></div>
@@ -1254,12 +1254,7 @@ function renderPar() {
       })():'<div class="pc-feat-note">Refer official brochure for complete features</div>'}
     </div>`;
 
-    if (!p.pending && p.sa) {
-      html += `<div class="pc-section-title">💼 Sum Assured</div>
-      <div class="pc-nums">
-        <div class="pc-num-row"><span class="pc-nl">Sum Assured</span><span class="pc-nv">₹${Number(p.sa).toLocaleString('en-IN')}</span></div>
-      </div>`;
-    }
+
 
     if (p.pitch) {
       html += `<div class="pc-section-title">💬 Sales Story</div><div class="pc-pitch">"${san(p.pitch)}"</div>`;
