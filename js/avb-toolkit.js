@@ -5,10 +5,16 @@
 
 function generateSingleProductPDF(plan, cat) {
   if (!plan) return;
+  cat = cat || plan.catKey || 'term'; // fallback to plan's own catKey
   const co = plan.companyFull || plan.company || '';
   const pl = plan.plan || plan.planName || '';
 
-  function val(v) { return (v !== null && v !== undefined && v !== '' && v !== false) ? String(v) : '—'; }
+  function val(v) {
+    if (v === null || v === undefined || v === '' || v === false) return '—';
+    const s = String(v);
+    if (s.toLowerCase().startsWith('verify') || s.toLowerCase().includes('verify from')) return '—';
+    return s;
+  }
   function feat(arr, keywords, fallback) {
     const kws = keywords.map(k => k.toLowerCase());
     const match = (arr||[]).find(f => kws.some(kw => f.toLowerCase().includes(kw)));
@@ -271,10 +277,16 @@ let lastCompareCat = 'term';
 
 function generateSingleProductPDF(plan, cat) {
   if (!plan) return;
+  cat = cat || plan.catKey || 'term'; // fallback to plan's own catKey
   const co = plan.companyFull || plan.company || '';
   const pl = plan.plan || plan.planName || '';
 
-  function val(v) { return (v !== null && v !== undefined && v !== '' && v !== false) ? String(v) : '—'; }
+  function val(v) {
+    if (v === null || v === undefined || v === '' || v === false) return '—';
+    const s = String(v);
+    if (s.toLowerCase().startsWith('verify') || s.toLowerCase().includes('verify from')) return '—';
+    return s;
+  }
   function feat(arr, keywords, fallback) {
     const kws = keywords.map(k => k.toLowerCase());
     const match = (arr||[]).find(f => kws.some(kw => f.toLowerCase().includes(kw)));
@@ -830,7 +842,7 @@ function buildScorecard(a, aS, b, bS) {
 function downloadAvBPDF(coA, plA, coB, plB) {
   const a = avbProductA, b = avbProductB;
   if (!a || !b) return;
-  const cat = window.avbCat || 'term';
+  const cat = a.catKey || window.avbCat || 'term'; // a.catKey is always correct from registry
 
   // ── Helper: extract descriptive text from keyFeatures/keyHighlights ──
   function feat(plan, keywords, fallback) {
@@ -843,7 +855,12 @@ function downloadAvBPDF(coA, plA, coB, plB) {
   function bool(val, yesFeat, noText) {
     return val ? (yesFeat || '✅ Available') : (noText || '❌ Not Available');
   }
-  function val(v) { return (v !== null && v !== undefined && v !== '' && v !== false) ? String(v) : '—'; }
+  function val(v) {
+    if (v === null || v === undefined || v === '' || v === false) return '—';
+    const s = String(v);
+    if (s.toLowerCase().startsWith('verify') || s.toLowerCase().includes('verify from')) return '—';
+    return s;
+  }
 
   // ── Category-specific comparison rows ──
   function getRows() {
