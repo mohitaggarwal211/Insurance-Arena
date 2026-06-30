@@ -202,6 +202,7 @@ function renderCards(plans){
       <div class="card-footer">
         <a href="${p.calcUrl}" target="_blank" rel="noopener noreferrer" class="btn-calc" onclick="event.stopPropagation()">🧮 Calculate Premium</a>
         <button class="btn-details" onclick="event.stopPropagation();openModal(${p.id})">Full Details</button>
+        <button class="btn-pdf" onclick="event.stopPropagation();generateSingleProductPDF(PLANS[${p.id-1}],'term')" title="Download Plan PDF">📄 PDF</button>
       </div>
     </div>`;
   }).join('');
@@ -257,6 +258,7 @@ function openModal(id){
     <div class="m-actions">
       <a href="${p.calcUrl}" target="_blank" rel="noopener noreferrer" class="m-btn-p">🧮 Calculate Premium →</a>
       <a href="${p.brochureUrl}" target="_blank" rel="noopener noreferrer" class="m-btn-s">📄 View Brochure</a>
+        <button class="m-btn-s m-btn-pdf" onclick="generateSingleProductPDF(PLANS[${p.id-1}],'term')">📄 Download PDF</button>
       <button class="bm-plan-btn${isBm?' saved':''}" id="planBmBtn" onclick="handlePlanBM(${p.id},'${p.plan.replace(/'/g,"\\'")}','${p.companyShort}')">${isBm?'🔖 Saved':'🔖 Save Plan'}</button>
     </div>`;
   const overlay=document.getElementById('modalOverlay');
@@ -804,11 +806,78 @@ document.querySelectorAll('.tool-tab').forEach(btn=>btn.addEventListener('click'
 
 
 
+// Calculator config for PDF generation
+const CALC_CONFIG = {
+  'hlv-result':  { title: 'Human Life Value (HLV) Calculator', desc: 'Estimates the ideal life insurance cover based on your income, age and goals.', inputs: [['Monthly Income','hlv-income','₹'],['Current Age','hlv-age','years'],['Retirement Age','hlv-retire','years'],['Existing Cover','hlv-existing','₹'],['Income Growth Rate','hlv-growth','% p.a.'],['Inflation Rate','hlv-inflation','% p.a.']] },
+  'sip-result':  { title: 'SIP Returns Calculator', desc: 'Projects the future value of your Systematic Investment Plan.', inputs: [['Monthly SIP Amount','sip-amount','₹'],['Expected Return Rate','sip-return','% p.a.'],['Investment Period','sip-years','years']] },
+  'irr-result':  { title: 'Policy IRR Calculator', desc: 'Calculates the approximate Internal Rate of Return of a life insurance policy.', inputs: [['Annual Premium','irr-premium','₹'],['Premium Paying Term','irr-ppt','years'],['Policy Term','irr-term','years'],['Maturity / Death Value','irr-maturity','₹']] },
+  'ret-result':  { title: 'Retirement Corpus Calculator', desc: 'Calculates retirement corpus needed and monthly investment required to build it.', inputs: [['Current Age','ret-age','years'],['Retirement Age','ret-retire','years'],['Monthly Expenses Today','ret-expenses','₹'],['Inflation Rate','ret-inflation','% p.a.'],['Expected Return Rate','ret-return','% p.a.'],['Life Expectancy','ret-life','years']] },
+  'emi-result':  { title: 'EMI / Loan Calculator', desc: 'Calculates monthly EMI and total interest on a loan.', inputs: [['Loan Amount','emi-loan','₹'],['Interest Rate','emi-rate','% p.a.'],['Loan Tenure','emi-tenure','years']] },
+  'tvm-result':  { title: 'Time Value of Money (TVM) Calculator', desc: 'Calculates Present Value or Future Value of money.', inputs: [['Amount','tvm-amount','₹'],['Interest Rate','tvm-rate','% p.a.'],['Years','tvm-years','years']] },
+  'ulip-result': { title: 'ULIP Projection Calculator', desc: 'Projects ULIP fund value after FMC deductions over the policy term.', inputs: [['Annual Premium','ulip-premium','₹'],['Premium Paying Term','ulip-ppt','years'],['Policy Term','ulip-term','years'],['Expected Return Rate','ulip-return','% p.a.'],['Fund Management Charge','ulip-fmc','% p.a.']] },
+};
+
 function showCalcResult(id,mainVal,mainLabel,rows){
   const el=document.getElementById(id);
   el.classList.remove('hidden');
-  el.innerHTML=`<div class="calc-result-main">${mainVal}</div><div class="calc-result-label">${mainLabel}</div><div class="calc-result-rows">${rows.map(([l,v])=>`<div class="calc-result-row"><span>${l}</span><span>${v}</span></div>`).join('')}</div>`;
+  el.innerHTML=`<div class="calc-result-main">${mainVal}</div><div class="calc-result-label">${mainLabel}</div><div class="calc-result-rows">${rows.map(([l,v])=>`<div class="calc-result-row"><span>${l}</span><span>${v}</span></div>`).join('')}</div><button class="calc-pdf-btn" onclick="generateCalcPDF('${id}')">📄 Download PDF Report</button>`;
 }
+
+function generateCalcPDF(resultId) {
+  const cfg = CALC_CONFIG[resultId];
+  if (!cfg) return;
+  const resEl = document.getElementById(resultId);
+  if (!resEl) return;
+  const inputRows = cfg.inputs.map(([label, domId, unit]) => {
+    const el = document.getElementById(domId);
+    const v = el ? (el.value || '—') : '—';
+    const display = (v !== '—' && unit) ? (unit === '₹' ? '₹ ' + Number(v).toLocaleString('en-IN') : v + ' ' + unit) : v;
+    return [label, display];
+  });
+  const mainVal = resEl.querySelector('.calc-result-main')?.textContent || '—';
+  const mainLabel = resEl.querySelector('.calc-result-label')?.textContent || '—';
+  const resultRows = [...resEl.querySelectorAll('.calc-result-row')].map(r => {
+    const spans = r.querySelectorAll('span');
+    return [spans[0]?.textContent||'', spans[1]?.textContent||''];
+  });
+  const date = new Date().toLocaleDateString('en-IN',{day:'2-digit',month:'long',year:'numeric'});
+  const html = '<!DOCTYPE html><html><head><meta charset="UTF-8"><title>Insurance Arena — ' + cfg.title + '</title>'
+    + '<style>*{box-sizing:border-box}body{font-family:Arial,sans-serif;font-size:12px;color:#1E293B;max-width:700px;margin:0 auto;padding:24px}'
+    + '.header{border-bottom:3px solid #00C4B4;padding-bottom:10px;margin-bottom:16px}.brand{color:#00C4B4;font-weight:800;font-size:20px}'
+    + '.subtitle{color:#64748B;font-size:10px;margin-top:3px}.calc-title{font-size:15px;font-weight:800;color:#0F172A;margin:12px 0 4px}'
+    + '.calc-desc{font-size:11px;color:#64748B;margin-bottom:12px}'
+    + '.section-title{font-size:11px;font-weight:800;color:#0F172A;margin:14px 0 4px;padding:5px 10px;background:#F1F5F9;border-left:4px solid #00C4B4}'
+    + 'table{border-collapse:collapse;width:100%;margin:0 0 4px}td{padding:7px 10px;border-bottom:1px solid #E2E8F0;font-size:11.5px;vertical-align:top}'
+    + 'td:first-child{color:#475569;font-weight:600;width:55%}'
+    + '.result-box{background:#0F172A;color:#fff;border-radius:8px;padding:16px;text-align:center;margin:8px 0}'
+    + '.result-main{font-size:26px;font-weight:800;color:#00C4B4}.result-label{font-size:11px;color:#94A3B8;margin-top:4px}'
+    + '.result-rows{margin-top:12px;border-top:1px solid rgba(255,255,255,0.1);padding-top:10px}'
+    + '.result-row{display:flex;justify-content:space-between;padding:4px 0;font-size:11px}'
+    + '.result-row span:first-child{color:#94A3B8}.result-row span:last-child{color:#fff;font-weight:600}'
+    + '.disclaimer-box{background:#FFFBEB;border:1px solid #FCD34D;border-radius:6px;padding:10px;margin:12px 0;font-size:10px;color:#92400E;line-height:1.6}'
+    + '.footer{font-size:9px;color:#94A3B8;margin-top:16px;border-top:1px solid #E2E8F0;padding-top:8px;line-height:1.6}'
+    + '@media print{body{padding:10px}.result-box{-webkit-print-color-adjust:exact;print-color-adjust:exact}}</style></head><body>'
+    + '<div class="header"><div class="brand">Insurance Arena\u2122</div>'
+    + '<div class="subtitle">Calculator Report &nbsp;|&nbsp; Generated: ' + date + ' &nbsp;|&nbsp; insurancearena.in</div></div>'
+    + '<div class="calc-title">' + cfg.title + '</div>'
+    + '<div class="calc-desc">' + cfg.desc + '</div>'
+    + '<div class="section-title">\uD83D\uDCE5 YOUR INPUTS</div>'
+    + '<table><tbody>' + inputRows.map(([l,v]) => '<tr><td>' + l + '</td><td><strong>' + v + '</strong></td></tr>').join('') + '</tbody></table>'
+    + '<div class="section-title">\uD83D\uDCCA RESULTS</div>'
+    + '<div class="result-box"><div class="result-main">' + mainVal + '</div><div class="result-label">' + mainLabel + '</div>'
+    + '<div class="result-rows">' + resultRows.map(([l,v]) => '<div class="result-row"><span>' + l + '</span><span>' + v + '</span></div>').join('') + '</div></div>'
+    + '<div class="disclaimer-box">\u26A0\uFE0F <strong>Important:</strong> This calculation is for illustration and educational purposes only. Results are based on your inputs and standard financial formulas. Actual returns, premiums or corpus may vary based on market conditions, insurer terms and other factors. This does not constitute financial advice. Consult a licensed financial advisor before making any financial decision.</div>'
+    + '<div class="footer">Generated by Insurance Arena (insurancearena.in) | Free insurance intelligence platform for India | Educational use only</div>'
+    + '</body></html>';
+  const w = window.open('', '_blank');
+  if (!w) return;
+  w.document.write(html);
+  w.document.close();
+  w.focus();
+  setTimeout(() => { w.print(); }, 500);
+}
+
+
 function showCalcError(id,msg){ const el=document.getElementById(id); el.classList.remove('hidden'); el.innerHTML=`<div class="calc-error">⚠️ ${msg}</div>`; }
 
 function calcHLV(){ track('calculator_used', {calc_type: 'hlv'});
@@ -1263,6 +1332,7 @@ function renderPar() {
     html += `<div class="pc-links">
       ${p.productUrl?`<a href="${san(p.productUrl)}" target="_blank" rel="noopener noreferrer" class="pc-btn">Product →</a>`:''}
       ${p.brochureUrl&&!p.brochureUrl.startsWith('http')?'':(p.brochureUrl?`<a href="${san(p.brochureUrl)}" target="_blank" rel="noopener noreferrer" class="pc-btn-sec">Brochure →</a>`:'')}
+      ${`<button class="pc-btn-pdf" onclick="generateSingleProductPDF(ANMOL_PLANS[${ANMOL_PLANS.indexOf(p)}],'par')">📄 Download PDF</button>`}
     </div></div>`;
   });
 
@@ -1343,6 +1413,7 @@ function renderNishchit(wrap) {
     html += `<div class="pc-links">
       ${p.productUrl?`<a href="${san(p.productUrl)}" target="_blank" rel="noopener noreferrer" class="pc-btn">Product →</a>`:''}
       ${p.calcUrl?`<a href="${san(p.calcUrl)}" target="_blank" rel="noopener noreferrer" class="pc-btn-sec">Calculator →</a>`:''}
+      ${`<button class="pc-btn-pdf" onclick="generateSingleProductPDF(NISHCHIT_PLANS.filter(x=>!x.excluded)[${NISHCHIT_PLANS.filter(x=>!x.excluded).indexOf(p)}],'early-income')">📄 Download PDF</button>`}
     </div></div>`;
   });
   html += '</div>';
@@ -1361,6 +1432,8 @@ function renderSavingsComp(wrap) { renderFeatureCards(wrap, SAVINGS_PLANS, 'Guar
 function renderIncomeComp(wrap) { renderFeatureCards(wrap, INCOME_PLANS, 'Guaranteed Long Term Income Plans', 'Non-Linked Non-Par Income | Benefit Payout Period: 20/25/30 years'); }
 
 function renderFeatureCards(wrap, plans, title, bench) {
+  // Register plans for PDF access
+  window._iaPlans = window._iaPlans || {};
   const base  = plans.find(p => p.isBase);
   const comps = plans.filter(p => !p.isBase);
   const all   = [base, ...comps];
@@ -1423,6 +1496,7 @@ function renderFeatureCards(wrap, plans, title, bench) {
     html += `<div class="pc-links">
       ${p.url?`<a href="${san(p.url)}" target="_blank" rel="noopener noreferrer" class="pc-btn">Product →</a>`:''}
       ${p.brochure&&!p.brochure.startsWith('Verify')?`<a href="${san(p.brochure)}" target="_blank" rel="noopener noreferrer" class="pc-btn-sec">Brochure →</a>`:''}
+      ${(()=>{ const _pi=plans.indexOf(p); const _arr=plans===SAVINGS_PLANS?'SAVINGS_PLANS':'INCOME_PLANS'; const _cat=p.incomePeriods?'income':'savings'; return `<button class="pc-btn-pdf" onclick="generateSingleProductPDF(${_arr}[${_pi}],'${_cat}')">📄 Download PDF</button>`;})()}
     </div></div>`;
   });
   html += '</div>';
@@ -1750,6 +1824,7 @@ function annRenderCards() {
     h += `<div class="ac-actions">
       ${p.calcUrl?`<a href="${san(p.calcUrl)}" target="_blank" rel="noopener noreferrer" class="ac-btn-calc">🧮 Calculator →</a>`:''}
       ${p.brochureUrl?`<a href="${san(p.brochureUrl)}" target="_blank" rel="noopener noreferrer" class="ac-btn-bro">📄 Brochure</a>`:''}
+      ${p.uin?`<button class="ac-btn-pdf" onclick="generateSingleProductPDF(ANNUITY_PLANS.find(x=>x.uin==='${san(p.uin)}'),'annuity')">📄 PDF Report</button>`:''}
     </div></div>`;
   });
   h += '</div>';

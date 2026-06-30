@@ -1,3 +1,257 @@
+
+// ══════════════════════════════════════════════════════
+// SINGLE PRODUCT PDF GENERATOR
+// ══════════════════════════════════════════════════════
+
+function generateSingleProductPDF(plan, cat) {
+  if (!plan) return;
+  const co = plan.companyFull || plan.company || '';
+  const pl = plan.plan || plan.planName || '';
+
+  function val(v) { return (v !== null && v !== undefined && v !== '' && v !== false) ? String(v) : '—'; }
+  function feat(arr, keywords, fallback) {
+    const kws = keywords.map(k => k.toLowerCase());
+    const match = (arr||[]).find(f => kws.some(kw => f.toLowerCase().includes(kw)));
+    return match || fallback;
+  }
+  function bool(v, y, n) { return v ? (y||'✅ Available') : (n||'❌ Not Available'); }
+
+  const kf = plan.keyFeatures || plan.keyHighlights || plan.meta?.keyHighlights || [];
+  const pitch = plan.salesPitch || plan.pitch || '';
+  const bestFor = plan.bestFor || plan.meta?.bestFor || '';
+  const productUrl = plan.productUrl || plan.calcUrl || plan.url || '';
+  const brochureUrl = plan.brochureUrl || plan.brochure || '';
+
+  // ── Build rows based on category ──
+  let sections = [];
+
+  // ── IDENTITY (all categories) ──
+  sections.push({ title: '📋 PLAN IDENTITY', rows: [
+    ['Company', val(co)],
+    ['Plan Name', val(pl)],
+    ['UIN (IRDAI Registration)', val(plan.uin)],
+    ['Plan Type', val(plan.type)],
+    ...(plan.csr ? [['Claim Settlement Ratio (FY 25-26)', plan.csr + '%']] : []),
+    ...(plan.lastUpdated || plan.dataDate ? [['Data Last Verified', val(plan.lastUpdated || plan.dataDate)]] : []),
+  ]});
+
+  // ── TERM SPECIFIC ──
+  if (cat === 'term') {
+    sections.push({ title: '📐 PRODUCT BOUNDARIES', rows: [
+      ['Entry Age', val(plan.entryAge)],
+      ['Maximum Maturity Age', val(plan.maxMaturity)],
+      ['Minimum Sum Assured', val(plan.minSA)],
+      ['Maximum Sum Assured', val(plan.maxSA)],
+      ['Premium Payment Options', val(plan.premiumPay)],
+      ['Limited Pay Terms Available', val(plan.limitedPayTerms)],
+      ['Premium Modes', val(plan.premiumModes)],
+    ]});
+    sections.push({ title: '☠️ CORE DEATH BENEFIT', rows: [
+      ['Death Benefit Options', val(plan.deathBenefit)],
+      ['Whole Life Option', bool(plan.wholeLife, '✅ Available', '❌ Not Available')],
+    ]});
+    sections.push({ title: '🛡️ INBUILT PROTECTIONS', rows: [
+      ['Terminal Illness Benefit', feat(kf, ['terminal illness'], bool(plan.terminalIllness, '✅ Inbuilt — accelerated payout on diagnosis', '❌ Not Available'))],
+      ['Accidental Death Benefit', feat(kf, ['accidental death', 'adb'], bool(plan.accidentalDeath, '✅ Available', '❌ Not Available'))],
+      ['Critical Illness Benefit', feat(kf, ['critical illness'], bool(plan.criticalIllness, '✅ Available', '❌ Not Available'))],
+      ['Waiver of Premium on Disability', feat(kf, ['waiver of premium', 'wop', 'disability'], bool(plan.wopDisability, '✅ Inbuilt', '❌ Not Available'))],
+      ['Return of Premium', feat(kf, ['return of premium', 'rop'], bool(plan.returnOfPremium, '✅ Available as option', '❌ Not Available'))],
+    ]});
+    sections.push({ title: '🔄 FLEXIBILITY & FEATURES', rows: [
+      ['Premium Break Facility', feat(kf, ['premium break'], bool(plan.premiumBreak, '✅ Available after specified years', '❌ Not Available'))],
+      ['Smart Exit / Zero Cost Withdrawal', feat(kf, ['smart exit', 'zero cost', 'zero-cost'], bool(plan.smartExit, '✅ Available after 25 policy years', '❌ Not Available'))],
+      ['Life Stage Benefit', feat(kf, ['life stage'], bool(plan.lifeStage, '✅ Increase cover on key life events', '❌ Not Available'))],
+      ['Spouse Cover', feat(kf, ['spouse'], bool(plan.spouseCover, '✅ Available — inbuilt or as option', '❌ Not Available'))],
+      ['Joint Life Option', bool(plan.jointLife, '✅ Yes', '❌ Individual Plan Only')],
+    ]});
+    sections.push({ title: '💰 SPECIAL DISCOUNTS', rows: [
+      ["Women's Discount", val(plan.womenDiscount)],
+      ['Salaried / Non-Smoker Discount', val(plan.salariedDiscount)],
+    ]});
+  }
+
+  // ── PAR SPECIFIC ──
+  else if (cat === 'par') {
+    sections.push({ title: '📐 PRODUCT BOUNDARIES', rows: [
+      ['Entry Age', val(plan.entryAge)],
+      ['Maturity Age', val(plan.maturityAge)],
+      ['Premium Payment Term (PPT)', val(plan.ppt)],
+      ['Policy Term', val(plan.pt)],
+    ]});
+    sections.push({ title: '🎯 BONUS STRUCTURE', rows: [
+      ['Bonus Type', val(plan.bonusType)],
+      ['Benefits Guaranteed', bool(plan.guaranteed, '✅ Yes — guaranteed benefits', '⚠️ Non-guaranteed (bonus-linked)')],
+    ]});
+    sections.push({ title: '🔧 PLAN FEATURES', rows: [
+      ['Joint Life Cover', bool(plan.features?.jointLife, '✅ Yes', '❌ Individual Plan Only')],
+      ['Policy Loan', bool(plan.features?.loan, '✅ Available', '❌ Not Available')],
+      ['Riders Available', bool(plan.features?.riders, '✅ Yes', '❌ No riders')],
+    ]});
+    if (plan.uniqueFeature) {
+      sections.push({ title: '⭐ UNIQUE FEATURE', rows: [['Unique Advantage', val(plan.uniqueFeature)]] });
+    }
+  }
+
+  // ── NON-PAR SAVINGS ──
+  else if (cat === 'savings') {
+    sections.push({ title: '📐 PRODUCT BOUNDARIES', rows: [
+      ['Entry Age', val(plan.entryAge)],
+      ['Maturity Age', plan.maturityAge ? plan.maturityAge + ' years' : '—'],
+      ['Premium Payment Term (PPT)', val(plan.ppt)],
+      ['Policy Term', val(plan.pt)],
+    ]});
+    sections.push({ title: '💎 MATURITY & DEATH BENEFIT', rows: [
+      ['Death Benefit', val(plan.deathBenefit)],
+      ['Maturity Benefit', bool(plan.maturityBenefit, '✅ Guaranteed Maturity Benefit (GMB)', '—')],
+      ['Loyalty Additions', bool(plan.loyaltyAdditions, '✅ Accrues after PPT — boosts corpus each year', '❌ Not Available')],
+      ['Guaranteed Additions', bool(plan.guaranteedAdditions, '✅ Yes', '❌ No')],
+      ['Return of Premium', bool(plan.rop, '✅ Available', '❌ Not Available')],
+    ]});
+    sections.push({ title: '🔧 PLAN FEATURES', rows: [
+      ['Joint Life Cover', bool(plan.jointLife, '✅ Yes — Spouse coverage available', '❌ Individual Plan Only')],
+      ['Policy Loan', bool(plan.loan, '✅ Available', '❌ Not Available')],
+      ['Riders', val(plan.riders)],
+    ]});
+    if (plan.uniqueFeature) {
+      sections.push({ title: '⭐ UNIQUE FEATURE', rows: [['Unique Advantage', val(plan.uniqueFeature)]] });
+    }
+  }
+
+  // ── NON-PAR INCOME ──
+  else if (cat === 'income') {
+    sections.push({ title: '📐 PRODUCT BOUNDARIES', rows: [
+      ['Entry Age', val(plan.entryAge)],
+      ['Premium Payment Term (PPT)', val(plan.ppt)],
+      ['Income Periods Available', (plan.incomePeriods||[]).join(', ')||'—'],
+      ['Plan Options', (plan.planOptions||[]).join(' / ')||'—'],
+    ]});
+    sections.push({ title: '💰 INCOME STRUCTURE', rows: [
+      ['Income Payout Frequency', val(plan.incomePayout)],
+      ['Increasing Income', bool(plan.increasingIncome, '✅ Yes — income increases over time', '❌ Level Income Only')],
+      ['Loyalty Additions', bool(plan.loyaltyAdditions, '✅ Enhances income each year during payout period', '❌ Not Available')],
+      ['Commutation Option', bool(plan.commutation, '✅ Take lumpsum of all future income anytime after policy term', '❌ Not Available')],
+      ['Income After Death', bool(plan.incomeAfterDeath, '✅ Income continues to nominee', '❌ Not Available')],
+      ['Policy Loan', bool(plan.loan, '✅ Available', '❌ Not Available')],
+    ]});
+    if (plan.uniqueFeature) {
+      sections.push({ title: '⭐ UNIQUE FEATURE', rows: [['Unique Advantage', val(plan.uniqueFeature)]] });
+    }
+  }
+
+  // ── NON-PAR EARLY INCOME ──
+  else if (cat === 'early-income') {
+    sections.push({ title: '💰 INCOME STRUCTURE', rows: [
+      ['Income Starts From', val(plan.incomeFrom)],
+      ['Income Type', val(plan.incomeType)],
+      ['Income Period', plan.incomePeriod ? plan.incomePeriod + ' years' : '—'],
+      ['Guaranteed', bool(plan.guaranteed, '✅ 100% Non-Par Guaranteed', '—')],
+      ['Maturity Benefit / Lumpsum', bool(plan.lumpsum, '✅ Guaranteed Lumpsum at maturity', '❌ Not Available')],
+      ['Return of Premium on Death', bool(plan.ropOnDeath, '✅ Yes', '❌ No')],
+    ]});
+    if (plan.uniqueFeature) {
+      sections.push({ title: '⭐ UNIQUE FEATURE', rows: [['Unique Advantage', val(plan.uniqueFeature)]] });
+    }
+  }
+
+  // ── ANNUITY ──
+  else if (cat === 'annuity') {
+    sections.push({ title: '📐 PRODUCT BOUNDARIES', rows: [
+      ['Entry Age', val(plan.entryAge)],
+      ['Minimum Premium', val(plan.minPremium)],
+      ['Payout Frequency', val(plan.payout)],
+    ]});
+    sections.push({ title: '🔢 ANNUITY OPTIONS', rows: [
+      ['Total Annuity Variants', val(plan.totalOptions)],
+      ['Immediate Annuity', bool(plan.type?.includes('Immediate'), '✅ Available', '—')],
+      ['Deferred Annuity', bool(plan.type?.includes('Deferred'), '✅ Available', '—')],
+      ['Joint Life Annuity', bool(plan.jointLife, '✅ Yes', '❌ Not Available')],
+      ['Limited Pay Option', bool(plan.limitedPay, '✅ ' + (plan.limitedPayNote||'Available'), '❌ Single Pay Only')],
+      ['Policy Loan', val(plan.loan)],
+      ['QROPS Eligible', bool(plan.qrops, '✅ Yes', '❌ No')],
+      ['Top Up Facility', bool(plan.topUp, '✅ Yes', '❌ No')],
+      ['Group Policy', bool(plan.groupPolicy, '✅ Available', '❌ Not Available')],
+    ]});
+    if (plan.uniqueFeature) {
+      sections.push({ title: '⭐ UNIQUE FEATURE', rows: [['Unique Advantage', val(plan.uniqueFeature)]] });
+    }
+  }
+
+  // ── HTML GENERATION ──
+  const html = `<!DOCTYPE html><html>
+<head><meta charset="UTF-8"><title>Insurance Arena — ${san(pl)} Plan Report</title>
+<style>
+*{box-sizing:border-box}
+body{font-family:Arial,sans-serif;font-size:11.5px;color:#1E293B;max-width:800px;margin:0 auto;padding:24px}
+.header{border-bottom:3px solid #00C4B4;padding-bottom:10px;margin-bottom:16px}
+.brand{color:#00C4B4;font-weight:800;font-size:20px}
+.subtitle{color:#64748B;font-size:10px;margin-top:3px}
+.plan-title{font-size:16px;font-weight:800;color:#0F172A;margin:12px 0 4px}
+.plan-co{font-size:11px;color:#64748B}
+.section-title{font-size:11px;font-weight:800;color:#0F172A;margin:14px 0 4px;padding:5px 10px;background:#F1F5F9;border-left:4px solid #00C4B4}
+table{border-collapse:collapse;width:100%;margin:0 0 2px}
+td{padding:6px 10px;border-bottom:1px solid #E2E8F0;font-size:11px;vertical-align:top;line-height:1.5}
+td:first-child{color:#475569;font-weight:600;width:38%}
+.yes{color:#16A34A;font-weight:600}.no{color:#DC2626}
+.hl-box{background:#FAFBFF;border:1px solid #E0E7FF;border-radius:6px;padding:10px 14px;margin:4px 0}
+.hl-item{margin:3px 0;padding-left:14px;position:relative;font-size:11px;line-height:1.6}
+.hl-item::before{content:"•";position:absolute;left:0;color:#00C4B4;font-weight:700}
+.pitch-box{background:#F0FDF4;border:1px solid #86EFAC;border-radius:6px;padding:12px;margin:4px 0;font-size:11px;line-height:1.7;font-style:italic;color:#14532D}
+.best-box{background:#FFFBEB;border:1px solid #FCD34D;border-radius:6px;padding:10px 14px;margin:4px 0;font-size:11px;color:#92400E}
+.link-row{margin:3px 0;font-size:10.5px}
+.link-row a{color:#0369A1}
+.footer{font-size:9px;color:#94A3B8;margin-top:20px;border-top:1px solid #E2E8F0;padding-top:8px;line-height:1.6}
+@media print{body{padding:10px}.pitch-box,.hl-box,.best-box{break-inside:avoid}}
+</style></head><body>
+
+<div class="header">
+  <div class="brand">Insurance Arena™</div>
+  <div class="subtitle">Individual Plan Report &nbsp;|&nbsp; Generated: ${new Date().toLocaleDateString('en-IN',{day:'2-digit',month:'long',year:'numeric'})} &nbsp;|&nbsp; insurancearena.in &nbsp;|&nbsp; Educational use only</div>
+</div>
+
+<div class="plan-title">${san(pl)}</div>
+<div class="plan-co">${san(co)}</div>
+
+${sections.map(sec => `
+<div class="section-title">${sec.title}</div>
+<table><tbody>
+${sec.rows.map(([l, v]) => {
+  const cls = v?.startsWith('✅') ? 'yes' : v?.startsWith('❌') ? 'no' : '';
+  return `<tr><td>${san(l)}</td><td class="${cls}">${san(v||'—')}</td></tr>`;
+}).join('')}
+</tbody></table>`).join('')}
+
+${kf.length > 0 ? `
+<div class="section-title">✨ KEY HIGHLIGHTS</div>
+<div class="hl-box">${kf.map(h => `<div class="hl-item">${san(h)}</div>`).join('')}</div>` : ''}
+
+${pitch ? `
+<div class="section-title">💬 SALES STORY — ADVISOR PITCH</div>
+<div class="pitch-box">"${san(pitch)}"</div>` : ''}
+
+${bestFor ? `
+<div class="section-title">🎯 BEST SUITABLE FOR</div>
+<div class="best-box">${san(bestFor)}</div>` : ''}
+
+${(productUrl || brochureUrl) ? `
+<div class="section-title">🔗 OFFICIAL RESOURCES</div>
+<table><tbody>
+${productUrl ? `<tr><td style="width:38%;font-weight:600;color:#475569">Official Product Page</td><td><a href="${productUrl}">${san(co)} — ${san(pl)}</a></td></tr>` : ''}
+${brochureUrl && !brochureUrl.includes('Verify') ? `<tr><td style="font-weight:600;color:#475569">Official Brochure</td><td><a href="${brochureUrl}">Download Brochure (PDF)</a></td></tr>` : ''}
+</tbody></table>` : ''}
+
+<div class="footer">
+⚠️ <strong>Disclaimer:</strong> This report is generated by Insurance Arena (insurancearena.in) for educational and informational purposes only. It does not constitute financial advice or a recommendation to buy any insurance product. All data is sourced from verified official brochures and product pages. Product features, benefits, premiums, and terms are subject to change by the insurer at any time. Bonuses in participating plans are not guaranteed. Please read the official policy document and brochure before making any purchase decision. For personalised advice, consult a licensed insurance advisor. IRDAI Regn. details of all insurers available on their respective websites and irdai.gov.in.
+</div>
+</body></html>`;
+
+  const w = window.open('', '_blank');
+  if (!w) return;
+  w.document.write(html);
+  w.document.close();
+  w.focus();
+  setTimeout(() => { w.print(); }, 500);
+}
+
 // ══════════════════════════════════════════════════════
 // A vs B COMPARISON ENGINE + COMMUNICATION TOOLKIT
 // Insurance Arena — Client-side only, no API
@@ -10,11 +264,266 @@ let toolkitProduct = null;
 let toolkitProductB = null;
 let lastCompareCat = 'term';
 
+
+// ══════════════════════════════════════════════════════
+// SINGLE PRODUCT PDF GENERATOR
+// ══════════════════════════════════════════════════════
+
+function generateSingleProductPDF(plan, cat) {
+  if (!plan) return;
+  const co = plan.companyFull || plan.company || '';
+  const pl = plan.plan || plan.planName || '';
+
+  function val(v) { return (v !== null && v !== undefined && v !== '' && v !== false) ? String(v) : '—'; }
+  function feat(arr, keywords, fallback) {
+    const kws = keywords.map(k => k.toLowerCase());
+    const match = (arr||[]).find(f => kws.some(kw => f.toLowerCase().includes(kw)));
+    return match || fallback;
+  }
+  function bool(v, y, n) { return v ? (y||'✅ Available') : (n||'❌ Not Available'); }
+
+  const kf = plan.keyFeatures || plan.keyHighlights || plan.meta?.keyHighlights || [];
+  const pitch = plan.salesPitch || plan.pitch || '';
+  const bestFor = plan.bestFor || plan.meta?.bestFor || '';
+  const productUrl = plan.productUrl || plan.calcUrl || plan.url || '';
+  const brochureUrl = plan.brochureUrl || plan.brochure || '';
+
+  // ── Build rows based on category ──
+  let sections = [];
+
+  // ── IDENTITY (all categories) ──
+  sections.push({ title: '📋 PLAN IDENTITY', rows: [
+    ['Company', val(co)],
+    ['Plan Name', val(pl)],
+    ['UIN (IRDAI Registration)', val(plan.uin)],
+    ['Plan Type', val(plan.type)],
+    ...(plan.csr ? [['Claim Settlement Ratio (FY 25-26)', plan.csr + '%']] : []),
+    ...(plan.lastUpdated || plan.dataDate ? [['Data Last Verified', val(plan.lastUpdated || plan.dataDate)]] : []),
+  ]});
+
+  // ── TERM SPECIFIC ──
+  if (cat === 'term') {
+    sections.push({ title: '📐 PRODUCT BOUNDARIES', rows: [
+      ['Entry Age', val(plan.entryAge)],
+      ['Maximum Maturity Age', val(plan.maxMaturity)],
+      ['Minimum Sum Assured', val(plan.minSA)],
+      ['Maximum Sum Assured', val(plan.maxSA)],
+      ['Premium Payment Options', val(plan.premiumPay)],
+      ['Limited Pay Terms Available', val(plan.limitedPayTerms)],
+      ['Premium Modes', val(plan.premiumModes)],
+    ]});
+    sections.push({ title: '☠️ CORE DEATH BENEFIT', rows: [
+      ['Death Benefit Options', val(plan.deathBenefit)],
+      ['Whole Life Option', bool(plan.wholeLife, '✅ Available', '❌ Not Available')],
+    ]});
+    sections.push({ title: '🛡️ INBUILT PROTECTIONS', rows: [
+      ['Terminal Illness Benefit', feat(kf, ['terminal illness'], bool(plan.terminalIllness, '✅ Inbuilt — accelerated payout on diagnosis', '❌ Not Available'))],
+      ['Accidental Death Benefit', feat(kf, ['accidental death', 'adb'], bool(plan.accidentalDeath, '✅ Available', '❌ Not Available'))],
+      ['Critical Illness Benefit', feat(kf, ['critical illness'], bool(plan.criticalIllness, '✅ Available', '❌ Not Available'))],
+      ['Waiver of Premium on Disability', feat(kf, ['waiver of premium', 'wop', 'disability'], bool(plan.wopDisability, '✅ Inbuilt', '❌ Not Available'))],
+      ['Return of Premium', feat(kf, ['return of premium', 'rop'], bool(plan.returnOfPremium, '✅ Available as option', '❌ Not Available'))],
+    ]});
+    sections.push({ title: '🔄 FLEXIBILITY & FEATURES', rows: [
+      ['Premium Break Facility', feat(kf, ['premium break'], bool(plan.premiumBreak, '✅ Available after specified years', '❌ Not Available'))],
+      ['Smart Exit / Zero Cost Withdrawal', feat(kf, ['smart exit', 'zero cost', 'zero-cost'], bool(plan.smartExit, '✅ Available after 25 policy years', '❌ Not Available'))],
+      ['Life Stage Benefit', feat(kf, ['life stage'], bool(plan.lifeStage, '✅ Increase cover on key life events', '❌ Not Available'))],
+      ['Spouse Cover', feat(kf, ['spouse'], bool(plan.spouseCover, '✅ Available — inbuilt or as option', '❌ Not Available'))],
+      ['Joint Life Option', bool(plan.jointLife, '✅ Yes', '❌ Individual Plan Only')],
+    ]});
+    sections.push({ title: '💰 SPECIAL DISCOUNTS', rows: [
+      ["Women's Discount", val(plan.womenDiscount)],
+      ['Salaried / Non-Smoker Discount', val(plan.salariedDiscount)],
+    ]});
+  }
+
+  // ── PAR SPECIFIC ──
+  else if (cat === 'par') {
+    sections.push({ title: '📐 PRODUCT BOUNDARIES', rows: [
+      ['Entry Age', val(plan.entryAge)],
+      ['Maturity Age', val(plan.maturityAge)],
+      ['Premium Payment Term (PPT)', val(plan.ppt)],
+      ['Policy Term', val(plan.pt)],
+    ]});
+    sections.push({ title: '🎯 BONUS STRUCTURE', rows: [
+      ['Bonus Type', val(plan.bonusType)],
+      ['Benefits Guaranteed', bool(plan.guaranteed, '✅ Yes — guaranteed benefits', '⚠️ Non-guaranteed (bonus-linked)')],
+    ]});
+    sections.push({ title: '🔧 PLAN FEATURES', rows: [
+      ['Joint Life Cover', bool(plan.features?.jointLife, '✅ Yes', '❌ Individual Plan Only')],
+      ['Policy Loan', bool(plan.features?.loan, '✅ Available', '❌ Not Available')],
+      ['Riders Available', bool(plan.features?.riders, '✅ Yes', '❌ No riders')],
+    ]});
+    if (plan.uniqueFeature) {
+      sections.push({ title: '⭐ UNIQUE FEATURE', rows: [['Unique Advantage', val(plan.uniqueFeature)]] });
+    }
+  }
+
+  // ── NON-PAR SAVINGS ──
+  else if (cat === 'savings') {
+    sections.push({ title: '📐 PRODUCT BOUNDARIES', rows: [
+      ['Entry Age', val(plan.entryAge)],
+      ['Maturity Age', plan.maturityAge ? plan.maturityAge + ' years' : '—'],
+      ['Premium Payment Term (PPT)', val(plan.ppt)],
+      ['Policy Term', val(plan.pt)],
+    ]});
+    sections.push({ title: '💎 MATURITY & DEATH BENEFIT', rows: [
+      ['Death Benefit', val(plan.deathBenefit)],
+      ['Maturity Benefit', bool(plan.maturityBenefit, '✅ Guaranteed Maturity Benefit (GMB)', '—')],
+      ['Loyalty Additions', bool(plan.loyaltyAdditions, '✅ Accrues after PPT — boosts corpus each year', '❌ Not Available')],
+      ['Guaranteed Additions', bool(plan.guaranteedAdditions, '✅ Yes', '❌ No')],
+      ['Return of Premium', bool(plan.rop, '✅ Available', '❌ Not Available')],
+    ]});
+    sections.push({ title: '🔧 PLAN FEATURES', rows: [
+      ['Joint Life Cover', bool(plan.jointLife, '✅ Yes — Spouse coverage available', '❌ Individual Plan Only')],
+      ['Policy Loan', bool(plan.loan, '✅ Available', '❌ Not Available')],
+      ['Riders', val(plan.riders)],
+    ]});
+    if (plan.uniqueFeature) {
+      sections.push({ title: '⭐ UNIQUE FEATURE', rows: [['Unique Advantage', val(plan.uniqueFeature)]] });
+    }
+  }
+
+  // ── NON-PAR INCOME ──
+  else if (cat === 'income') {
+    sections.push({ title: '📐 PRODUCT BOUNDARIES', rows: [
+      ['Entry Age', val(plan.entryAge)],
+      ['Premium Payment Term (PPT)', val(plan.ppt)],
+      ['Income Periods Available', (plan.incomePeriods||[]).join(', ')||'—'],
+      ['Plan Options', (plan.planOptions||[]).join(' / ')||'—'],
+    ]});
+    sections.push({ title: '💰 INCOME STRUCTURE', rows: [
+      ['Income Payout Frequency', val(plan.incomePayout)],
+      ['Increasing Income', bool(plan.increasingIncome, '✅ Yes — income increases over time', '❌ Level Income Only')],
+      ['Loyalty Additions', bool(plan.loyaltyAdditions, '✅ Enhances income each year during payout period', '❌ Not Available')],
+      ['Commutation Option', bool(plan.commutation, '✅ Take lumpsum of all future income anytime after policy term', '❌ Not Available')],
+      ['Income After Death', bool(plan.incomeAfterDeath, '✅ Income continues to nominee', '❌ Not Available')],
+      ['Policy Loan', bool(plan.loan, '✅ Available', '❌ Not Available')],
+    ]});
+    if (plan.uniqueFeature) {
+      sections.push({ title: '⭐ UNIQUE FEATURE', rows: [['Unique Advantage', val(plan.uniqueFeature)]] });
+    }
+  }
+
+  // ── NON-PAR EARLY INCOME ──
+  else if (cat === 'early-income') {
+    sections.push({ title: '💰 INCOME STRUCTURE', rows: [
+      ['Income Starts From', val(plan.incomeFrom)],
+      ['Income Type', val(plan.incomeType)],
+      ['Income Period', plan.incomePeriod ? plan.incomePeriod + ' years' : '—'],
+      ['Guaranteed', bool(plan.guaranteed, '✅ 100% Non-Par Guaranteed', '—')],
+      ['Maturity Benefit / Lumpsum', bool(plan.lumpsum, '✅ Guaranteed Lumpsum at maturity', '❌ Not Available')],
+      ['Return of Premium on Death', bool(plan.ropOnDeath, '✅ Yes', '❌ No')],
+    ]});
+    if (plan.uniqueFeature) {
+      sections.push({ title: '⭐ UNIQUE FEATURE', rows: [['Unique Advantage', val(plan.uniqueFeature)]] });
+    }
+  }
+
+  // ── ANNUITY ──
+  else if (cat === 'annuity') {
+    sections.push({ title: '📐 PRODUCT BOUNDARIES', rows: [
+      ['Entry Age', val(plan.entryAge)],
+      ['Minimum Premium', val(plan.minPremium)],
+      ['Payout Frequency', val(plan.payout)],
+    ]});
+    sections.push({ title: '🔢 ANNUITY OPTIONS', rows: [
+      ['Total Annuity Variants', val(plan.totalOptions)],
+      ['Immediate Annuity', bool(plan.type?.includes('Immediate'), '✅ Available', '—')],
+      ['Deferred Annuity', bool(plan.type?.includes('Deferred'), '✅ Available', '—')],
+      ['Joint Life Annuity', bool(plan.jointLife, '✅ Yes', '❌ Not Available')],
+      ['Limited Pay Option', bool(plan.limitedPay, '✅ ' + (plan.limitedPayNote||'Available'), '❌ Single Pay Only')],
+      ['Policy Loan', val(plan.loan)],
+      ['QROPS Eligible', bool(plan.qrops, '✅ Yes', '❌ No')],
+      ['Top Up Facility', bool(plan.topUp, '✅ Yes', '❌ No')],
+      ['Group Policy', bool(plan.groupPolicy, '✅ Available', '❌ Not Available')],
+    ]});
+    if (plan.uniqueFeature) {
+      sections.push({ title: '⭐ UNIQUE FEATURE', rows: [['Unique Advantage', val(plan.uniqueFeature)]] });
+    }
+  }
+
+  // ── HTML GENERATION ──
+  const html = `<!DOCTYPE html><html>
+<head><meta charset="UTF-8"><title>Insurance Arena — ${san(pl)} Plan Report</title>
+<style>
+*{box-sizing:border-box}
+body{font-family:Arial,sans-serif;font-size:11.5px;color:#1E293B;max-width:800px;margin:0 auto;padding:24px}
+.header{border-bottom:3px solid #00C4B4;padding-bottom:10px;margin-bottom:16px}
+.brand{color:#00C4B4;font-weight:800;font-size:20px}
+.subtitle{color:#64748B;font-size:10px;margin-top:3px}
+.plan-title{font-size:16px;font-weight:800;color:#0F172A;margin:12px 0 4px}
+.plan-co{font-size:11px;color:#64748B}
+.section-title{font-size:11px;font-weight:800;color:#0F172A;margin:14px 0 4px;padding:5px 10px;background:#F1F5F9;border-left:4px solid #00C4B4}
+table{border-collapse:collapse;width:100%;margin:0 0 2px}
+td{padding:6px 10px;border-bottom:1px solid #E2E8F0;font-size:11px;vertical-align:top;line-height:1.5}
+td:first-child{color:#475569;font-weight:600;width:38%}
+.yes{color:#16A34A;font-weight:600}.no{color:#DC2626}
+.hl-box{background:#FAFBFF;border:1px solid #E0E7FF;border-radius:6px;padding:10px 14px;margin:4px 0}
+.hl-item{margin:3px 0;padding-left:14px;position:relative;font-size:11px;line-height:1.6}
+.hl-item::before{content:"•";position:absolute;left:0;color:#00C4B4;font-weight:700}
+.pitch-box{background:#F0FDF4;border:1px solid #86EFAC;border-radius:6px;padding:12px;margin:4px 0;font-size:11px;line-height:1.7;font-style:italic;color:#14532D}
+.best-box{background:#FFFBEB;border:1px solid #FCD34D;border-radius:6px;padding:10px 14px;margin:4px 0;font-size:11px;color:#92400E}
+.link-row{margin:3px 0;font-size:10.5px}
+.link-row a{color:#0369A1}
+.footer{font-size:9px;color:#94A3B8;margin-top:20px;border-top:1px solid #E2E8F0;padding-top:8px;line-height:1.6}
+@media print{body{padding:10px}.pitch-box,.hl-box,.best-box{break-inside:avoid}}
+</style></head><body>
+
+<div class="header">
+  <div class="brand">Insurance Arena™</div>
+  <div class="subtitle">Individual Plan Report &nbsp;|&nbsp; Generated: ${new Date().toLocaleDateString('en-IN',{day:'2-digit',month:'long',year:'numeric'})} &nbsp;|&nbsp; insurancearena.in &nbsp;|&nbsp; Educational use only</div>
+</div>
+
+<div class="plan-title">${san(pl)}</div>
+<div class="plan-co">${san(co)}</div>
+
+${sections.map(sec => `
+<div class="section-title">${sec.title}</div>
+<table><tbody>
+${sec.rows.map(([l, v]) => {
+  const cls = v?.startsWith('✅') ? 'yes' : v?.startsWith('❌') ? 'no' : '';
+  return `<tr><td>${san(l)}</td><td class="${cls}">${san(v||'—')}</td></tr>`;
+}).join('')}
+</tbody></table>`).join('')}
+
+${kf.length > 0 ? `
+<div class="section-title">✨ KEY HIGHLIGHTS</div>
+<div class="hl-box">${kf.map(h => `<div class="hl-item">${san(h)}</div>`).join('')}</div>` : ''}
+
+${pitch ? `
+<div class="section-title">💬 SALES STORY — ADVISOR PITCH</div>
+<div class="pitch-box">"${san(pitch)}"</div>` : ''}
+
+${bestFor ? `
+<div class="section-title">🎯 BEST SUITABLE FOR</div>
+<div class="best-box">${san(bestFor)}</div>` : ''}
+
+${(productUrl || brochureUrl) ? `
+<div class="section-title">🔗 OFFICIAL RESOURCES</div>
+<table><tbody>
+${productUrl ? `<tr><td style="width:38%;font-weight:600;color:#475569">Official Product Page</td><td><a href="${productUrl}">${san(co)} — ${san(pl)}</a></td></tr>` : ''}
+${brochureUrl && !brochureUrl.includes('Verify') ? `<tr><td style="font-weight:600;color:#475569">Official Brochure</td><td><a href="${brochureUrl}">Download Brochure (PDF)</a></td></tr>` : ''}
+</tbody></table>` : ''}
+
+<div class="footer">
+⚠️ <strong>Disclaimer:</strong> This report is generated by Insurance Arena (insurancearena.in) for educational and informational purposes only. It does not constitute financial advice or a recommendation to buy any insurance product. All data is sourced from verified official brochures and product pages. Product features, benefits, premiums, and terms are subject to change by the insurer at any time. Bonuses in participating plans are not guaranteed. Please read the official policy document and brochure before making any purchase decision. For personalised advice, consult a licensed insurance advisor. IRDAI Regn. details of all insurers available on their respective websites and irdai.gov.in.
+</div>
+</body></html>`;
+
+  const w = window.open('', '_blank');
+  if (!w) return;
+  w.document.write(html);
+  w.document.close();
+  w.focus();
+  setTimeout(() => { w.print(); }, 500);
+}
+
 // ══════════════════════════════════════════════════════
 // A vs B ENGINE
 // ══════════════════════════════════════════════════════
 
 function renderAvB(cat) {
+  window.avbCat = cat; // store for PDF export
   lastCompareCat = cat;
   // Always rebuild registry when A vs B opens
   if (typeof buildProductRegistry === 'function') PRODUCT_REGISTRY = buildProductRegistry();
@@ -321,42 +830,362 @@ function buildScorecard(a, aS, b, bS) {
 function downloadAvBPDF(coA, plA, coB, plB) {
   const a = avbProductA, b = avbProductB;
   if (!a || !b) return;
-  const aS = calcAvBScore(a), bS = calcAvBScore(b);
+  const cat = window.avbCat || 'term';
+
+  // ── Helper: extract descriptive text from keyFeatures/keyHighlights ──
+  function feat(plan, keywords, fallback) {
+    const arr = plan.keyFeatures || plan.keyHighlights || plan.meta?.keyHighlights || [];
+    if (!arr.length) return fallback;
+    const kws = keywords.map(k => k.toLowerCase());
+    const match = arr.find(f => kws.some(kw => f.toLowerCase().includes(kw)));
+    return match || fallback;
+  }
+  function bool(val, yesFeat, noText) {
+    return val ? (yesFeat || '✅ Available') : (noText || '❌ Not Available');
+  }
+  function val(v) { return (v !== null && v !== undefined && v !== '' && v !== false) ? String(v) : '—'; }
+
+  // ── Category-specific comparison rows ──
+  function getRows() {
+
+    // ════════════ TERM INSURANCE ════════════
+    if (cat === 'term') {
+      return [
+        ['━━━ PLAN IDENTITY ━━━', '', ''],
+        ['Company (Full)', val(a.company), val(b.company)],
+        ['Plan Name', val(a.plan), val(b.plan)],
+        ['UIN', val(a.uin), val(b.uin)],
+        ['Plan Type', val(a.type||'Non-Linked Non-Par (Term)'), val(b.type||'Non-Linked Non-Par (Term)')],
+        ['Claim Settlement Ratio', a.csr ? a.csr+'%' : '—', b.csr ? b.csr+'%' : '—'],
+        ['Data Last Verified', val(a.lastUpdated), val(b.lastUpdated)],
+
+        ['━━━ PRODUCT BOUNDARIES ━━━', '', ''],
+        ['Entry Age', val(a.entryAge), val(b.entryAge)],
+        ['Maximum Maturity Age', val(a.maxMaturity), val(b.maxMaturity)],
+        ['Minimum Sum Assured', val(a.minSA), val(b.minSA)],
+        ['Maximum Sum Assured', val(a.maxSA), val(b.maxSA)],
+        ['Premium Payment Options', val(a.premiumPay), val(b.premiumPay)],
+        ['Limited Pay Terms', val(a.limitedPayTerms), val(b.limitedPayTerms)],
+        ['Premium Modes', val(a.premiumModes), val(b.premiumModes)],
+
+        ['━━━ CORE DEATH BENEFIT ━━━', '', ''],
+        ['Death Benefit Options', val(a.deathBenefit), val(b.deathBenefit)],
+        ['Whole Life Option', bool(a.wholeLife,'✅ Yes','❌ No'), bool(b.wholeLife,'✅ Yes','❌ No')],
+
+        ['━━━ INBUILT PROTECTIONS ━━━', '', ''],
+        ['Terminal Illness Benefit',
+          feat(a,['terminal illness','terminal ill'],bool(a.terminalIllness,'✅ Inbuilt','❌ Not Available')),
+          feat(b,['terminal illness','terminal ill'],bool(b.terminalIllness,'✅ Inbuilt','❌ Not Available'))],
+        ['Accidental Death Benefit',
+          feat(a,['accidental death','adb'],bool(a.accidentalDeath,'✅ Inbuilt (Life Plus)','❌ Not Available')),
+          feat(b,['accidental death','adb'],bool(b.accidentalDeath,'✅ Inbuilt (Life Plus)','❌ Not Available'))],
+        ['Critical Illness Benefit',
+          feat(a,['critical illness','ci cover'],bool(a.criticalIllness,'✅ Available','❌ Not Available')),
+          feat(b,['critical illness','ci cover'],bool(b.criticalIllness,'✅ Available','❌ Not Available'))],
+        ['Waiver of Premium — Disability',
+          feat(a,['waiver of premium','wop'],bool(a.wopDisability,'✅ Inbuilt','❌ Not Available')),
+          feat(b,['waiver of premium','wop'],bool(b.wopDisability,'✅ Inbuilt','❌ Not Available'))],
+        ['Return of Premium',
+          feat(a,['return of premium','rop'],bool(a.returnOfPremium,'✅ Available','❌ Not Available')),
+          feat(b,['return of premium','rop'],bool(b.returnOfPremium,'✅ Available','❌ Not Available'))],
+
+        ['━━━ FLEXIBILITY & FEATURES ━━━', '', ''],
+        ['Premium Break',
+          feat(a,['premium break'],bool(a.premiumBreak,'✅ Available','❌ Not Available')),
+          feat(b,['premium break'],bool(b.premiumBreak,'✅ Available','❌ Not Available'))],
+        ['Smart Exit / Zero Cost Withdrawal',
+          feat(a,['smart exit','zero cost','zero-cost'],bool(a.smartExit,'✅ Available after 25 yrs','❌ Not Available')),
+          feat(b,['smart exit','zero cost','zero-cost'],bool(b.smartExit,'✅ Available after 25 yrs','❌ Not Available'))],
+        ['Life Stage Benefit',
+          feat(a,['life stage'],bool(a.lifeStage,'✅ Available','❌ Not Available')),
+          feat(b,['life stage'],bool(b.lifeStage,'✅ Available','❌ Not Available'))],
+        ['Spouse Cover',
+          feat(a,['spouse'],bool(a.spouseCover,'✅ Available','❌ Not Available')),
+          feat(b,['spouse'],bool(b.spouseCover,'✅ Available','❌ Not Available'))],
+        ['Joint Life Cover', bool(a.jointLife,'✅ Yes','❌ No'), bool(b.jointLife,'✅ Yes','❌ No')],
+
+        ['━━━ SPECIAL DISCOUNTS ━━━', '', ''],
+        ["Women's Discount", val(a.womenDiscount)||'—', val(b.womenDiscount)||'—'],
+        ['Salaried Discount', val(a.salariedDiscount)||'—', val(b.salariedDiscount)||'—'],
+      ];
+    }
+
+    // ════════════ PARTICIPATING ════════════
+    if (cat === 'par') {
+      return [
+        ['━━━ PLAN IDENTITY ━━━', '', ''],
+        ['Company', val(a.companyFull||a.company), val(b.companyFull||b.company)],
+        ['Plan Name', val(a.plan), val(b.plan)],
+        ['UIN', val(a.uin), val(b.uin)],
+        ['Plan Type', val(a.type), val(b.type)],
+        ['Data Source', val(a.dataSource), val(b.dataSource)],
+
+        ['━━━ PRODUCT BOUNDARIES ━━━', '', ''],
+        ['Entry Age', val(a.entryAge), val(b.entryAge)],
+        ['Maturity Age', val(a.maturityAge), val(b.maturityAge)],
+        ['PPT Options', val(a.ppt), val(b.ppt)],
+        ['Policy Term', val(a.pt), val(b.pt)],
+
+        ['━━━ BONUS STRUCTURE ━━━', '', ''],
+        ['Bonus Type', val(a.bonusType), val(b.bonusType)],
+        ['Guaranteed Benefits', bool(a.guaranteed,'✅ Yes','❌ No'), bool(b.guaranteed,'✅ Yes','❌ No')],
+
+        ['━━━ PLAN FEATURES ━━━', '', ''],
+        ['Joint Life Cover', bool(a.features?.jointLife,'✅ Yes','❌ No'), bool(b.features?.jointLife,'✅ Yes','❌ No')],
+        ['Policy Loan', bool(a.features?.loan,'✅ Available','❌ Not Available'), bool(b.features?.loan,'✅ Available','❌ Not Available')],
+        ['Riders Available', bool(a.features?.riders,'✅ Available','❌ Not Available'), bool(b.features?.riders,'✅ Available','❌ Not Available')],
+
+        ['━━━ UNIQUE FEATURE ━━━', '', ''],
+        ['Unique Advantage', val(a.uniqueFeature), val(b.uniqueFeature)],
+      ];
+    }
+
+    // ════════════ NON-PAR ════════════
+    if (cat === 'nonpar') {
+      // Detect sub-category
+      const isSavings = !a.incomeBenefit && !a.incomeFrom && !a.incomePeriods;
+      const isEarlyIncome = !!(a.incomeFrom || a.incomePeriod);
+      const isIncome = !!a.incomePeriods;
+
+      if (isEarlyIncome) {
+        return [
+          ['━━━ PLAN IDENTITY ━━━', '', ''],
+          ['Company', val(a.companyFull||a.company), val(b.companyFull||b.company)],
+          ['Plan Name', val(a.plan), val(b.plan)],
+          ['UIN', val(a.uin), val(b.uin)],
+          ['Plan Type', val(a.type), val(b.type)],
+
+          ['━━━ INCOME STRUCTURE ━━━', '', ''],
+          ['Income Starts From', val(a.incomeFrom), val(b.incomeFrom)],
+          ['Income Type', val(a.incomeType), val(b.incomeType)],
+          ['Income Period', a.incomePeriod ? a.incomePeriod+' years' : '—', b.incomePeriod ? b.incomePeriod+' years' : '—'],
+          ['Maturity Benefit', bool(a.lumpsum,'✅ Guaranteed Lumpsum at Maturity','❌ No'), bool(b.lumpsum,'✅ Guaranteed Lumpsum at Maturity','❌ No')],
+          ['ROP on Death', bool(a.ropOnDeath,'✅ Yes','❌ No'), bool(b.ropOnDeath,'✅ Yes','❌ No')],
+          ['100% Guaranteed', bool(a.guaranteed,'✅ Fully Non-Par Guaranteed','❌ No'), bool(b.guaranteed,'✅ Fully Non-Par Guaranteed','❌ No')],
+
+          ['━━━ UNIQUE FEATURE ━━━', '', ''],
+          ['Unique Advantage', val(a.uniqueFeature), val(b.uniqueFeature)],
+        ];
+      }
+
+      if (isIncome) {
+        return [
+          ['━━━ PLAN IDENTITY ━━━', '', ''],
+          ['Company', val(a.company), val(b.company)],
+          ['Plan Name', val(a.plan), val(b.plan)],
+          ['UIN', val(a.uin), val(b.uin)],
+          ['Plan Type', val(a.type), val(b.type)],
+
+          ['━━━ PRODUCT BOUNDARIES ━━━', '', ''],
+          ['Entry Age', val(a.entryAge), val(b.entryAge)],
+          ['PPT Options', val(a.ppt), val(b.ppt)],
+          ['Income Periods Available', (a.incomePeriods||[]).join(' / ')||'—', (b.incomePeriods||[]).join(' / ')||'—'],
+          ['Plan Options', (a.planOptions||[]).join(' / ')||'—', (b.planOptions||[]).join(' / ')||'—'],
+
+          ['━━━ INCOME FEATURES ━━━', '', ''],
+          ['Income Payout Frequency', val(a.incomePayout), val(b.incomePayout)],
+          ['Increasing Income', bool(a.increasingIncome,'✅ Yes','❌ Level Income Only'), bool(b.increasingIncome,'✅ Yes','❌ Level Income Only')],
+          ['Loyalty Additions', bool(a.loyaltyAdditions,'✅ Enhances income each year during payout','❌ No'), bool(b.loyaltyAdditions,'✅ Enhances income each year during payout','❌ No')],
+          ['Commutation Option', bool(a.commutation,'✅ Take lumpsum of future income anytime','❌ No'), bool(b.commutation,'✅ Take lumpsum of future income anytime','❌ No')],
+          ['Income After Death', val(a.incomeAfterDeath||'—'), val(b.incomeAfterDeath||'—')],
+          ['Policy Loan', bool(a.loan,'✅ Available','❌ Not Available'), bool(b.loan,'✅ Available','❌ Not Available')],
+          ['Joint Life Cover', bool(a.jointLife,'✅ Yes','❌ Individual Plan Only'), bool(b.jointLife,'✅ Yes','❌ Individual Plan Only')],
+
+          ['━━━ UNIQUE FEATURE ━━━', '', ''],
+          ['Unique Advantage', val(a.uniqueFeature), val(b.uniqueFeature)],
+        ];
+      }
+
+      // Savings
+      return [
+        ['━━━ PLAN IDENTITY ━━━', '', ''],
+        ['Company', val(a.company), val(b.company)],
+        ['Plan Name', val(a.plan), val(b.plan)],
+        ['UIN', val(a.uin), val(b.uin)],
+        ['Plan Type', val(a.type), val(b.type)],
+
+        ['━━━ PRODUCT BOUNDARIES ━━━', '', ''],
+        ['Entry Age', val(a.entryAge), val(b.entryAge)],
+        ['Maturity Age', a.maturityAge ? a.maturityAge+' years' : '—', b.maturityAge ? b.maturityAge+' years' : '—'],
+        ['PPT Options', val(a.ppt), val(b.ppt)],
+        ['Policy Term', val(a.pt), val(b.pt)],
+
+        ['━━━ MATURITY BENEFIT ━━━', '', ''],
+        ['Death Benefit', val(a.deathBenefit), val(b.deathBenefit)],
+        ['Maturity Benefit', bool(a.maturityBenefit,'✅ Guaranteed Maturity Benefit (GMB)','—'), bool(b.maturityBenefit,'✅ Guaranteed Maturity Benefit (GMB)','—')],
+        ['Loyalty Additions', bool(a.loyaltyAdditions,'✅ Boosts corpus each year after PPT','❌ No'), bool(b.loyaltyAdditions,'✅ Boosts corpus each year after PPT','❌ No')],
+        ['Guaranteed Additions', bool(a.guaranteedAdditions,'✅ Yes','❌ No'), bool(b.guaranteedAdditions,'✅ Yes','❌ No')],
+        ['Return of Premium', bool(a.rop,'✅ Yes','❌ No'), bool(b.rop,'✅ Yes','❌ No')],
+
+        ['━━━ PLAN FEATURES ━━━', '', ''],
+        ['Joint Life Cover', bool(a.jointLife,'✅ Yes — Spouse coverage available','❌ Individual Plan Only'), bool(b.jointLife,'✅ Yes — Spouse coverage available','❌ Individual Plan Only')],
+        ['Policy Loan', bool(a.loan,'✅ Available','❌ Not Available'), bool(b.loan,'✅ Available','❌ Not Available')],
+        ['Riders', val(a.riders), val(b.riders)],
+
+        ['━━━ UNIQUE FEATURE ━━━', '', ''],
+        ['Unique Advantage', val(a.uniqueFeature), val(b.uniqueFeature)],
+      ];
+    }
+
+    // ════════════ ANNUITY ════════════
+    if (cat === 'annuity') {
+      return [
+        ['━━━ PLAN IDENTITY ━━━', '', ''],
+        ['Company', val(a.companyFull||a.company), val(b.companyFull||b.company)],
+        ['Plan Name', val(a.plan), val(b.plan)],
+        ['UIN', val(a.uin), val(b.uin)],
+        ['Plan Type', val(a.type), val(b.type)],
+
+        ['━━━ PRODUCT BOUNDARIES ━━━', '', ''],
+        ['Entry Age', val(a.entryAge), val(b.entryAge)],
+        ['Min Premium', val(a.minPremium), val(b.minPremium)],
+        ['Payout Frequency', val(a.payout), val(b.payout)],
+
+        ['━━━ ANNUITY OPTIONS ━━━', '', ''],
+        ['Total Annuity Variants', val(a.totalOptions), val(b.totalOptions)],
+        ['Immediate Annuity', bool(a.type?.includes('Immediate')||a.immediateAnnuity,'✅ Available','❌ Not Available'), bool(b.type?.includes('Immediate')||b.immediateAnnuity,'✅ Available','❌ Not Available')],
+        ['Deferred Annuity', bool(a.type?.includes('Deferred')||a.deferredAnnuity,'✅ Available','❌ Not Available'), bool(b.type?.includes('Deferred')||b.deferredAnnuity,'✅ Available','❌ Not Available')],
+        ['Joint Life Annuity', bool(a.jointLife,'✅ Yes','❌ Not Available'), bool(b.jointLife,'✅ Yes','❌ Not Available')],
+        ['Limited Pay Option', bool(a.limitedPay,'✅ '+(a.limitedPayNote||'Available'),'❌ Single Pay Only'), bool(b.limitedPay,'✅ '+(b.limitedPayNote||'Available'),'❌ Single Pay Only')],
+        ['Policy Loan', val(a.loan), val(b.loan)],
+        ['QROPS Eligible', bool(a.qrops,'✅ Yes','❌ No'), bool(b.qrops,'✅ Yes','❌ No')],
+        ['Top Up Facility', bool(a.topUp,'✅ Yes','❌ No'), bool(b.topUp,'✅ Yes','❌ No')],
+        ['Group Policy Available', bool(a.groupPolicy,'✅ Yes','❌ No'), bool(b.groupPolicy,'✅ Yes','❌ No')],
+
+        ['━━━ UNIQUE FEATURE ━━━', '', ''],
+        ['Unique Advantage', val(a.uniqueFeature||a.meta?.uniqueFeature), val(b.uniqueFeature||b.meta?.uniqueFeature)],
+      ];
+    }
+
+    return [['No comparison data', '—', '—']];
+  }
+
+  const rows = getRows();
+
+  // ── Key Highlights ──
+  const aHL = a.keyFeatures || a.keyHighlights || a.meta?.keyHighlights || [];
+  const bHL = b.keyFeatures || b.keyHighlights || b.meta?.keyHighlights || [];
+  const maxHL = Math.max(aHL.length, bHL.length);
+  const hlRows = Array.from({length:maxHL},(_,i)=>[
+    (i===0?'Key Highlights':''),
+    aHL[i]||'',
+    bHL[i]||''
+  ]);
 
   const html = `<!DOCTYPE html><html>
-<head><meta charset="UTF-8"><title>Insurance Arena — Comparison</title>
+<head><meta charset="UTF-8"><title>Insurance Arena — Comparison Report</title>
 <style>
-body{font-family:Arial,sans-serif;font-size:12px;color:#1E293B;max-width:800px;margin:0 auto;padding:20px}
-h1{color:#0F172A;font-size:18px;border-bottom:2px solid #00C4B4;padding-bottom:6px}
-h2{font-size:13px;color:#0F172A;margin:14px 0 6px}
-table{border-collapse:collapse;width:100%;margin:8px 0}
-th{background:#1E293B;color:#fff;padding:8px;text-align:left;font-size:11px}
-td{padding:7px 8px;border-bottom:1px solid #E2E8F0;font-size:11px}
-.label{color:#64748B;font-weight:600;width:35%}
-.yes{color:#16A34A}.no{color:#DC2626}
-.footer{font-size:9px;color:#94A3B8;margin-top:16px;border-top:1px solid #E2E8F0;padding-top:8px}
-.brand{color:#00C4B4;font-weight:700}
+*{box-sizing:border-box}
+body{font-family:Arial,sans-serif;font-size:11.5px;color:#1E293B;max-width:860px;margin:0 auto;padding:24px}
+.header{border-bottom:3px solid #00C4B4;padding-bottom:10px;margin-bottom:16px}
+.brand{color:#00C4B4;font-weight:800;font-size:20px}
+.subtitle{color:#64748B;font-size:10px;margin-top:3px}
+.vs-title{font-size:13px;color:#0F172A;font-weight:700;margin:12px 0 8px;background:#F1F5F9;padding:8px 10px;border-left:4px solid #00C4B4}
+table{border-collapse:collapse;width:100%;margin:0 0 4px}
+th{background:#1E293B;color:#fff;padding:9px 10px;text-align:left;font-size:11px;font-weight:700}
+th:first-child{width:32%}
+th:nth-child(2),th:nth-child(3){width:34%}
+td{padding:6px 10px;border-bottom:1px solid #E2E8F0;font-size:11px;vertical-align:top;line-height:1.5}
+td:first-child{color:#475569;font-weight:600;width:32%}
+.section-hdr td{background:#F8FAFC;font-weight:800;color:#0F172A;font-size:10.5px;letter-spacing:.5px;padding:5px 10px;border-top:2px solid #E2E8F0}
+.section-hdr td:nth-child(2),.section-hdr td:nth-child(3){color:#94A3B8}
+.yes{color:#16A34A;font-weight:600}
+.no{color:#DC2626}
+.pitch-box{background:#F0FDF4;border:1px solid #86EFAC;border-radius:6px;padding:12px;margin:4px 0;font-size:11px;line-height:1.6;font-style:italic;color:#14532D}
+.pitch-label{font-weight:700;font-style:normal;color:#166534;margin-bottom:4px;font-size:10px;text-transform:uppercase;letter-spacing:.5px}
+.hl-box{background:#FAFBFF;border:1px solid #E0E7FF;border-radius:6px;padding:10px;margin:4px 0;font-size:10.5px;line-height:1.7}
+.hl-label{font-weight:700;color:#3730A3;font-size:10px;text-transform:uppercase;letter-spacing:.5px;margin-bottom:4px}
+.hl-item{margin:2px 0;padding-left:12px;position:relative}
+.hl-item::before{content:"•";position:absolute;left:0;color:#00C4B4;font-weight:700}
+.section-title{font-size:12px;font-weight:800;color:#0F172A;margin:14px 0 6px;padding:6px 10px;background:#F1F5F9;border-left:4px solid #00C4B4}
+.footer{font-size:9px;color:#94A3B8;margin-top:20px;border-top:1px solid #E2E8F0;padding-top:10px;line-height:1.6}
+.score-badge{display:inline-block;background:#00C4B4;color:#000;font-weight:700;padding:2px 8px;border-radius:10px;font-size:10px}
+.link-row{margin:4px 0;font-size:10.5px}
+.link-row a{color:#0369A1;text-decoration:none}
+@media print{body{padding:10px}.pitch-box,.hl-box{break-inside:avoid}}
 </style></head><body>
-<h1><span class="brand">Insurance Arena™</span> — Product Comparison Report</h1>
-<p style="color:#64748B;font-size:11px">Generated: ${new Date().toLocaleDateString('en-IN',{day:'2-digit',month:'long',year:'numeric'})} | Source: insurance-arena.vercel.app</p>
-<h2>${san(coA)} — ${san(plA)} &nbsp; vs &nbsp; ${san(coB)} — ${san(plB)}</h2>
+
+<div class="header">
+  <div class="brand">Insurance Arena™</div>
+  <div class="subtitle">Product Comparison Report &nbsp;|&nbsp; Generated: ${new Date().toLocaleDateString('en-IN',{day:'2-digit',month:'long',year:'numeric'})} &nbsp;|&nbsp; Source: insurancearena.in &nbsp;|&nbsp; For educational use only</div>
+</div>
+
+<div class="vs-title">${san(coA)} — ${san(plA)} &nbsp;&nbsp; vs &nbsp;&nbsp; ${san(coB)} — ${san(plB)}</div>
+
 <table>
 <thead><tr><th>Feature</th><th>${san(coA)}</th><th>${san(coB)}</th></tr></thead>
 <tbody>
-${[['Company',a.company,b.company],['Plan',a.plan,b.plan],['Type',a.type,b.type],['Category',a.category,b.category],
-  ['Entry Age',a.entryAge,b.entryAge],['PPT',a.ppt,b.ppt],['PT / Plan Term',a.pt,b.pt],
-  ['Death Benefit',a.deathBenefit,b.deathBenefit],['Loan',a.loan?'Yes':'No',b.loan?'Yes':'No'],
-  ['Joint Life',a.jointLife?'Yes':'No',b.jointLife?'Yes':'No'],
-  ['Guaranteed Additions',a.guaranteedAdditions?'Yes':'No',b.guaranteedAdditions?'Yes':'No'],
-  ['Income Benefit',a.incomeBenefit?'Yes':'No',b.incomeBenefit?'Yes':'No'],
-  ['Income Period',a.incomePeriod,b.incomePeriod],
-  ['Best Suitable For',a.bestFor,b.bestFor]
-].map(([l,va,vb])=>`<tr><td class="label">${l}</td><td>${va||'—'}</td><td>${vb||'—'}</td></tr>`).join('')}
+${rows.map(([l,va,vb]) => {
+  if (l.startsWith('━━━')) {
+    return `<tr class="section-hdr"><td>${san(l)}</td><td></td><td></td></tr>`;
+  }
+  const aC = va==='✅ Yes'||va?.startsWith('✅')?'yes':va==='❌ No'||va?.startsWith('❌')?'no':'';
+  const bC = vb==='✅ Yes'||vb?.startsWith('✅')?'yes':vb==='❌ No'||vb?.startsWith('❌')?'no':'';
+  return `<tr><td>${san(l)}</td><td class="${aC}">${san(va||'—')}</td><td class="${bC}">${san(vb||'—')}</td></tr>`;
+}).join('')}
 </tbody></table>
-<h2>Official Links</h2>
-<p>${san(coA)}: ${a.productUrl||'Official link unavailable'}</p>
-<p>${san(coB)}: ${b.productUrl||'Official link unavailable'}</p>
-<div class="footer">⚠️ This report is for educational and informational purposes only. It does not constitute financial advice. Data sourced from verified product information available in the public domain. Please read official brochures before making any decision.</div>
+
+${maxHL > 0 ? `
+<div class="section-title">✨ Key Highlights</div>
+<table><tbody>
+<tr>
+  <td style="width:32%;font-weight:700;color:#475569;vertical-align:top">Key Features</td>
+  <td style="width:34%;vertical-align:top">
+    <div class="hl-box">
+      <div class="hl-label">${san(coA)}</div>
+      ${aHL.map(h=>`<div class="hl-item">${san(h)}</div>`).join('')}
+    </div>
+  </td>
+  <td style="width:34%;vertical-align:top">
+    <div class="hl-box">
+      <div class="hl-label">${san(coB)}</div>
+      ${bHL.map(h=>`<div class="hl-item">${san(h)}</div>`).join('')}
+    </div>
+  </td>
+</tr>
+</tbody></table>` : ''}
+
+${(a.salesPitch||a.pitch) || (b.salesPitch||b.pitch) ? `
+<div class="section-title">💬 Sales Story</div>
+<table><tbody><tr>
+  <td style="width:32%;font-weight:700;color:#475569;vertical-align:top">Advisor Pitch</td>
+  <td style="width:34%;vertical-align:top">
+    <div class="pitch-box">
+      <div class="pitch-label">${san(coA)}</div>
+      ${san(a.salesPitch||a.pitch||'—')}
+    </div>
+  </td>
+  <td style="width:34%;vertical-align:top">
+    <div class="pitch-box">
+      <div class="pitch-label">${san(coB)}</div>
+      ${san(b.salesPitch||b.pitch||'—')}
+    </div>
+  </td>
+</tr></tbody></table>` : ''}
+
+<div class="section-title">🎯 Best Suitable For</div>
+<table><tbody>
+<tr><td style="width:32%;font-weight:700;color:#475569">Best For</td>
+  <td>${san(a.bestFor||a.meta?.bestFor||'—')}</td>
+  <td>${san(b.bestFor||b.meta?.bestFor||'—')}</td>
+</tr>
+</tbody></table>
+
+<div class="section-title">🔗 Official Resources</div>
+<table><tbody>
+<tr><td style="width:32%;font-weight:700;color:#475569">Product Page</td>
+  <td><a href="${a.productUrl||a.calcUrl||a.url||'#'}">${san(coA)} Official Page</a></td>
+  <td><a href="${b.productUrl||b.calcUrl||b.url||'#'}">${san(coB)} Official Page</a></td>
+</tr>
+<tr><td style="font-weight:700;color:#475569">Brochure</td>
+  <td>${(a.brochureUrl||a.brochure)?`<a href="${a.brochureUrl||a.brochure}">Download Brochure</a>`:'Not Available'}</td>
+  <td>${(b.brochureUrl||b.brochure)?`<a href="${b.brochureUrl||b.brochure}">Download Brochure</a>`:'Not Available'}</td>
+</tr>
+</tbody></table>
+
+<div class="footer">
+⚠️ <strong>Disclaimer:</strong> This report is generated by Insurance Arena (insurancearena.in) for educational and informational purposes only. It does not constitute financial advice or a recommendation to buy any insurance product. Data is sourced from verified official brochures and product pages. Product features, benefits, and terms are subject to change by the insurer. Please read the official brochure and policy document carefully before making any purchase decision. Insurance is the subject matter of the solicitation. IRDAI Registration details available on respective insurer websites.
+</div>
 </body></html>`;
 
   const w = window.open('', '_blank');
@@ -364,7 +1193,7 @@ ${[['Company',a.company,b.company],['Plan',a.plan,b.plan],['Type',a.type,b.type]
   w.document.write(html);
   w.document.close();
   w.focus();
-  setTimeout(() => { w.print(); }, 400);
+  setTimeout(() => { w.print(); }, 500);
 }
 
 // ══════════════════════════════════════════════════════
