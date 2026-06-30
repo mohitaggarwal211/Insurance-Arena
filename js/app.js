@@ -813,7 +813,7 @@ const CALC_CONFIG = {
   'irr-result':  { title: 'Policy IRR Calculator', desc: 'Calculates the approximate Internal Rate of Return of a life insurance policy.', inputs: [['Annual Premium','irr-premium','₹'],['Premium Paying Term','irr-ppt','years'],['Policy Term','irr-term','years'],['Maturity / Death Value','irr-maturity','₹']] },
   'ret-result':  { title: 'Retirement Corpus Calculator', desc: 'Calculates retirement corpus needed and monthly investment required to build it.', inputs: [['Current Age','ret-age','years'],['Retirement Age','ret-retire','years'],['Monthly Expenses Today','ret-expenses','₹'],['Inflation Rate','ret-inflation','% p.a.'],['Expected Return Rate','ret-return','% p.a.'],['Life Expectancy','ret-life','years']] },
   'emi-result':  { title: 'EMI / Loan Calculator', desc: 'Calculates monthly EMI and total interest on a loan.', inputs: [['Loan Amount','emi-loan','₹'],['Interest Rate','emi-rate','% p.a.'],['Loan Tenure','emi-tenure','years']] },
-  'tvm-result':  { title: 'Time Value of Money (TVM) Calculator', desc: 'Calculates Present Value or Future Value of money.', inputs: [['Amount','tvm-amount','₹'],['Interest Rate','tvm-rate','% p.a.'],['Years','tvm-years','years']] },
+  'tvm-result':  { title: 'TVM Calculator', desc: 'Solve for any unknown — enter 4 values and click a button to solve for PV, PMT, FV, Rate or Periods.', inputs: [['Present Value','tvm-pv','₹'],['Payments (PMT)','tvm-pmt','₹'],['Future Value','tvm-fv','₹'],['Annual Rate','tvm-rate-new','%'],['Periods','tvm-periods','periods']] },
   'ulip-result': { title: 'ULIP Projection Calculator', desc: 'Projects ULIP fund value after FMC deductions over the policy term.', inputs: [['Annual Premium','ulip-premium','₹'],['Premium Paying Term','ulip-ppt','years'],['Policy Term','ulip-term','years'],['Expected Return Rate','ulip-return','% p.a.'],['Fund Management Charge','ulip-fmc','% p.a.']] },
 };
 
@@ -930,41 +930,159 @@ function calcIRR(){
   ]);
 }
 
-// ── TVM CALCULATOR ──
-function setTvmMode(m,b){
-  tvmMode=m;
-  document.querySelectorAll('.tvm-mode').forEach(x=>x.classList.remove('active'));
-  b.classList.add('active');
-  const l=document.getElementById('tvm-amount-label');
-  if(l) l.textContent=m==='fv'?'Present Value (₹)':'Future Value (₹)';
-  document.getElementById('tvm-result').classList.add('hidden');
+// ── TVM CALCULATOR (Full Financial Calculator) ──
+function solveTVM(solve) {
+  track('calculator_used', {calc_type: 'tvm', solve_for: solve});
+  const n = parseFloat(document.getElementById('tvm-compound-new').value) || 12;
+  const rateType = document.querySelector('input[name="tvmRateType"]:checked')?.value || 'nominal';
+  const begin = document.querySelector('input[name="tvmPayMode"]:checked')?.value === 'beginning' ? 1 : 0;
+
+  const pvEl = document.getElementById('tvm-pv');
+  const fvEl = document.getElementById('tvm-fv');
+  const pmtEl = document.getElementById('tvm-pmt');
+  const rateEl = document.getElementById('tvm-rate-new');
+  const perEl = document.getElementById('tvm-periods');
+
+  const pv   = solve !== 'pv'      ? (parseFloat(pvEl.value)   || 0) : null;
+  const fv   = solve !== 'fv'      ? (parseFloat(fvEl.value)   || 0) : null;
+  const pmt  = solve !== 'pmt'     ? (parseFloat(pmtEl.value)  || 0) : null;
+  const rate = solve !== 'rate'    ? (parseFloat(rateEl.value) || 0) : null;
+  const N    = solve !== 'periods' ? (parseFloat(perEl.value)  || 0) : null;
+
+  // Periodic rate
+  let i = null;
+  if (rate !== null) {
+    if (rateType === 'nominal') {
+      i = (rate / 100) / n;
+    } else {
+      i = Math.pow(1 + rate / 100, 1 / n) - 1;
+    }
+  }
+
+  let result = null;
+  const fmt2 = v => Math.round(v * 100) / 100;
+  const fmt4 = v => Math.round(v * 10000) / 10000;
+
+  // TVM equation: PV*(1+i)^N + PMT*[(1+i)^N-1]/i*(1+i*begin) + FV = 0
+  // Annuity factor
+  const annFactor = (i2, N2) => {
+    if (Math.abs(i2) < 1e-12) return N2;
+    return (Math.pow(1+i2, N2) - 1) / i2 * (1 + i2 * begin);
+  };
+
+  switch (solve) {
+    case 'fv':
+      if (N === null || N === 0) { showCalcError('tvm-result','Please enter Periods.'); return; }
+      if (i === null) { showCalcError('tvm-result','Please enter Annual Rate.'); return; }
+      result = -(pv * Math.pow(1+i, N) + pmt * annFactor(i, N));
+      fvEl.value = fmt2(result);
+      break;
+    case 'pv':
+      if (N === null || N === 0) { showCalcError('tvm-result','Please enter Periods.'); return; }
+      if (i === null) { showCalcError('tvm-result','Please enter Annual Rate.'); return; }
+      result = -(fv / Math.pow(1+i, N) + pmt * annFactor(i, N) / Math.pow(1+i, N));
+      pvEl.value = fmt2(result);
+      break;
+    case 'pmt':
+      if (N === null || N === 0) { showCalcError('tvm-result','Please enter Periods.'); return; }
+      if (i === null) { showCalcError('tvm-result','Please enter Annual Rate.'); return; }
+      const af = annFactor(i, N);
+      if (Math.abs(af) < 1e-12) { showCalcError('tvm-result','Cannot solve PMT with these inputs.'); return; }
+      result = -(pv * Math.pow(1+i, N) + fv) / af;
+      pmtEl.value = fmt2(result);
+      break;
+    case 'rate':
+      if (N === null || N === 0) { showCalcError('tvm-result','Please enter Periods.'); return; }
+      if (pv === 0 && fv === 0 && pmt === 0) { showCalcError('tvm-result','Please enter at least one cash flow.'); return; }
+      // Newton-Raphson for periodic rate
+      let guess = 0.01;
+      for (let iter = 0; iter < 200; iter++) {
+        const pow = Math.pow(1+guess, N);
+        const af2 = Math.abs(guess) < 1e-12 ? N : (pow-1)/guess*(1+guess*begin);
+        const f = pv * pow + pmt * af2 + fv;
+        const dPow = N * Math.pow(1+guess, N-1);
+        const dAf = Math.abs(guess) < 1e-12 ? N*(N-1)/2 :
+          ((N*Math.pow(1+guess,N-1)*guess - (pow-1))/(guess*guess)*(1+guess*begin) + (pow-1)/guess*begin);
+        const df = pv * dPow + pmt * dAf;
+        const next = guess - f / df;
+        if (Math.abs(next - guess) < 1e-10) { guess = next; break; }
+        guess = next;
+        if (!isFinite(guess) || guess < -0.9999) { guess = 0.001; }
+      }
+      if (!isFinite(guess) || guess <= -1) { showCalcError('tvm-result','No valid rate found. Check inputs (signs matter).'); return; }
+      // Convert periodic rate to annual
+      let annRate;
+      if (rateType === 'nominal') {
+        annRate = guess * n * 100;
+      } else {
+        annRate = (Math.pow(1+guess, n) - 1) * 100;
+      }
+      result = fmt4(annRate);
+      rateEl.value = result;
+      i = guess;
+      break;
+    case 'periods':
+      if (i === null) { showCalcError('tvm-result','Please enter Annual Rate.'); return; }
+      if (pmt === 0 || Math.abs(i) < 1e-12) {
+        if (pv === 0 || fv === 0) { showCalcError('tvm-result','Please enter PV and FV.'); return; }
+        if (pv * fv > 0) { showCalcError('tvm-result','PV and FV must have opposite signs.'); return; }
+        result = Math.log(-fv/pv) / Math.log(1+i);
+      } else {
+        // log formula for annuity
+        const pmtAdj = pmt * (1 + i * begin);
+        const num = pmtAdj - fv * i;
+        const den = pmtAdj + pv * i;
+        if (num <= 0 || den <= 0 || num/den <= 0) { showCalcError('tvm-result','Cannot solve Periods with these inputs.'); return; }
+        result = Math.log(num/den) / Math.log(1+i);
+      }
+      result = fmt2(result);
+      perEl.value = result;
+      N === null && (perEl.value = result);
+      break;
+  }
+
+  // Show summary
+  const fields = {
+    pv:  parseFloat(pvEl.value)  || 0,
+    pmt: parseFloat(pmtEl.value) || 0,
+    fv:  parseFloat(fvEl.value)  || 0,
+    r:   parseFloat(rateEl.value)|| 0,
+    N:   parseFloat(perEl.value) || 0,
+  };
+  const compLabel = {'1':'Annual','2':'Semi-Annual','4':'Quarterly','12':'Monthly','365':'Daily'}[n] || 'Monthly';
+  const solveLabels = {pv:'Present Value',pmt:'Payment (PMT)',fv:'Future Value',rate:'Annual Rate',periods:'No. of Periods'};
+  const solveUnits = {pv:'₹',pmt:'₹',fv:'₹',rate:'% p.a.',periods:'periods'};
+  const displayResult = solve === 'rate' ? result + '% p.a.' :
+    solve === 'periods' ? result + ' periods' : '₹ ' + Number(result).toLocaleString('en-IN');
+
+  showCalcResult('tvm-result', displayResult, 'Solved for ' + solveLabels[solve], [
+    ['Present Value', fields.pv ? '₹ '+Number(fields.pv).toLocaleString('en-IN') : '—'],
+    ['Payments (PMT)', fields.pmt ? '₹ '+Number(fields.pmt).toLocaleString('en-IN') : '—'],
+    ['Future Value', fields.fv ? '₹ '+Number(fields.fv).toLocaleString('en-IN') : '—'],
+    ['Annual Rate', fields.r ? fields.r + '% ('+rateType+')' : '—'],
+    ['Periods', fields.N ? fields.N + ' ('+compLabel+' compounding)' : '—'],
+    ['Payment Mode', begin ? 'Beginning of period (Annuity Due)' : 'End of period (Ordinary Annuity)'],
+  ]);
 }
-function calcTVM(){
-  const amount=getVal('tvm-amount'),rate=getVal('tvm-rate')/100,years=getVal('tvm-years');
-  const n=parseFloat(document.getElementById('tvm-compound').value)||1;
-  if(!amount||!rate||!years){showCalcError('tvm-result','Please fill all fields.');return;}
-  const er=rate/n,periods=years*n;
-  if(tvmMode==='fv'){
-    const fv=amount*Math.pow(1+er,periods),gain=fv-amount;
-    const compLabel=n===1?'Annual':n===2?'Half-Yearly':n===4?'Quarterly':'Monthly';
-    showCalcResult('tvm-result',fmtCr(Math.round(fv)),'Future Value of your money',[
-      ['Present Value (Today)',fmtCr(amount)],
-      ['Future Value',fmtCr(Math.round(fv))],
-      ['Total Growth',fmtCr(Math.round(gain))],
-      ['Growth Multiple',(fv/amount).toFixed(2)+'×'],
-      ['Compounding',compLabel],
-      ['Formula','FV = PV × (1 + r/n)^(n×t)'],
-    ]);
-  } else {
-    const pv=amount/Math.pow(1+er,periods);
-    showCalcResult('tvm-result',fmtCr(Math.round(pv)),'Present Value (what future money is worth today)',[
-      ['Future Value',fmtCr(amount)],
-      ['Present Value (Today)',fmtCr(Math.round(pv))],
-      ['Discount',fmtCr(Math.round(amount-pv))],
-      ['Time Period',years+' years'],
-      ['Discount Rate',(rate*100).toFixed(2)+'% p.a.'],
-      ['Formula','PV = FV / (1 + r/n)^(n×t)'],
-    ]);
+
+function resetTVMNew() {
+  ['tvm-pv','tvm-pmt','tvm-fv','tvm-rate-new','tvm-periods'].forEach(id => {
+    const el = document.getElementById(id);
+    if (el) el.value = '';
+  });
+  document.getElementById('tvm-compound-new').value = '12';
+  const nom = document.querySelector('input[name="tvmRateType"][value="nominal"]');
+  const end = document.querySelector('input[name="tvmPayMode"][value="end"]');
+  if (nom) nom.checked = true;
+  if (end) end.checked = true;
+  document.getElementById('tvm-result')?.classList.add('hidden');
+}
+
+function toggleTvmAdv(btn) {
+  const adv = document.getElementById('tvm-adv-panel');
+  if (adv) {
+    adv.classList.toggle('hidden');
+    btn.classList.toggle('active');
   }
 }
 
@@ -1122,14 +1240,14 @@ function resetCalc(id){
     sip:['sip-amount','sip-return','sip-years'],
     retirement:['ret-age','ret-retire','ret-expenses','ret-inflation','ret-return','ret-life'],
     irr:['irr-premium','irr-ppt','irr-term','irr-maturity'],
-    tvm:['tvm-amount','tvm-rate','tvm-years'],
+    tvm:['tvm-pv','tvm-pmt','tvm-fv','tvm-rate-new','tvm-periods'],
     emi:['emi-loan','emi-rate','emi-tenure'],
     ulip:['ulip-premium','ulip-ppt','ulip-term','ulip-return','ulip-fmc'],
   };
   const defaults={
     'hlv-growth':'5','hlv-inflation':'6','hlv-retire':'60',
     'sip-return':'12','ret-retire':'60','ret-inflation':'6','ret-return':'10','ret-life':'80',
-    'tvm-rate':'8','ulip-return':'10','ulip-fmc':'1.35',
+    'tvm-rate-new':'8','ulip-return':'10','ulip-fmc':'1.35',
   };
   (panels[id]||[]).forEach(fid=>{
     const el=document.getElementById(fid);
@@ -1139,7 +1257,7 @@ function resetCalc(id){
   if(res) res.classList.add('hidden');
   const am=document.getElementById(id+'-amort');
   if(am) am.classList.add('hidden');
-  if(id==='tvm') document.getElementById('tvm-result')?.classList.add('hidden');
+  if(id==='tvm'){ resetTVMNew(); return; }
 }
 
 // ── INIT ──
