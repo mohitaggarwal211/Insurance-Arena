@@ -233,7 +233,7 @@ function buildProductRegistry() {
     PLANS.forEach(p => reg.push({
       regId: 'term_' + (p.id || p.company),
       category: 'Term Insurance', catKey: 'term',
-      company: p.company, plan: p.planName || p.plan || 'Term Plan',
+      company: p.company, plan: p.planName || p.plan || 'Term Plan', uin: p.uin || '—',
       type: 'Non-Linked Non-Par (Term)',
       entryAge: p.entryAge || '—', maturityAge: p.maxMaturity || '—',
       ppt: p.ppt || '—', pt: p.pt || '—',
@@ -260,7 +260,7 @@ function buildProductRegistry() {
       reg.push({
         regId: 'par_' + p.id,
         category: 'Participating Endowment', catKey: 'par',
-        company: p.company, plan: p.plan,
+        company: p.company, plan: p.plan, uin: p.uin || '—',
         type: p.type || 'Non-Linked Participating',
         entryAge: '30 days – 60 yrs', maturityAge: '85 yrs',
         ppt: p.isBase ? 'Single Pay | 5–12 yrs' : (p.ppt || '—'),
@@ -293,9 +293,9 @@ function buildProductRegistry() {
       reg.push({
         regId: 'ni_' + p.id,
         category: 'Guaranteed Early Income', catKey: 'nonpar',
-        company: p.company, plan: p.plan,
+        company: p.company, plan: p.plan, uin: p.uin || '—',
         type: p.type || 'Non-Linked Non-Par',
-        entryAge: '—', maturityAge: '—',
+        entryAge: p.entryAge || '—', maturityAge: '—',
         ppt: '10 yrs', pt: '20 yrs',
         deathBenefit: p.isBase ? 'SA on Death (10× AP)' : '—',
         riders: '—', loan: false, jointLife: false,
@@ -323,9 +323,9 @@ function buildProductRegistry() {
       reg.push({
         regId: 'sav_' + (p.company||'').replace(/\s/g,'_'),
         category: 'Guaranteed Savings', catKey: 'nonpar',
-        company: p.company, plan: p.plan,
+        company: p.company, plan: p.plan, uin: p.uin || '—',
         type: p.type || 'Non-Linked Non-Par',
-        entryAge: p.entryAge || '—', maturityAge: '—',
+        entryAge: p.entryAge || '—', maturityAge: p.maturityAge ? p.maturityAge+' years' : '—',
         ppt: p.ppt || '—', pt: '—',
         deathBenefit: p.deathBenefit || '—',
         riders: p.riders || '—',
@@ -353,9 +353,9 @@ function buildProductRegistry() {
       reg.push({
         regId: 'inc_' + (p.company||'').replace(/\s/g,'_'),
         category: 'Guaranteed Long Term Income', catKey: 'nonpar',
-        company: p.company, plan: p.plan,
+        company: p.company, plan: p.plan, uin: p.uin || '—',
         type: p.type || 'Non-Linked Non-Par',
-        entryAge: '—', maturityAge: '—',
+        entryAge: p.entryAge || '—', maturityAge: '—',
         ppt: p.ppt || '—', pt: '—',
         deathBenefit: '—', riders: p.riders || '—',
         loan: p.loan || false, jointLife: false,
@@ -383,7 +383,7 @@ function buildProductRegistry() {
       reg.push({
         regId: 'ann_' + p.id,
         category: 'Annuity', catKey: 'annuity',
-        company: p.company, plan: p.plan,
+        company: p.company, plan: p.plan, uin: p.uin || '—',
         type: p.type || 'Non-Linked Non-Par Annuity',
         entryAge: p.entryAge || '—', maturityAge: '—',
         ppt: p.limitedPayNote || (p.limitedPay ? 'Limited Pay available' : 'Single Pay'),

@@ -41,6 +41,14 @@ const SAVINGS_PLANS = [
     deathBenefit: 'Death during policy term: SA payable to nominee. Verify formula.',
     uniqueFeature: 'Income period up to 45 years post-maturity. CI accelerator (income starts on CI diagnosis). Commutation option.',
     pitch: 'Short-term saving, long-term income — guaranteed income for up to 45 years with CI protection built in.',
+    keyHighlights: [
+      'Two options at inception: Endowment (lumpsum at maturity) or Long Term Income (income for up to 45 years post-maturity)',
+      'CI Accelerator: Income automatically starts on diagnosis of Critical Illness — even before maturity date',
+      'Commutation Option: Surrender future income instalments anytime for a discounted lumpsum',
+      '100% Non-Linked, Non-Participating — all benefits fully guaranteed',
+      'Multiple PPT and Policy Term combinations for flexible planning',
+      'Riders available for additional protection'
+    ],
     verification: 'Partially Verified — Active product confirmed'
   },
   {

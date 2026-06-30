@@ -18,7 +18,7 @@ function generateSingleProductPDF(plan, cat) {
 
   const kf = plan.keyFeatures || plan.keyHighlights || plan.meta?.keyHighlights || [];
   const pitch = plan.salesPitch || plan.pitch || '';
-  const bestFor = plan.bestFor || plan.meta?.bestFor || '';
+  const bestFor = plan.meta?.bestFor || plan.bestFor || '';
   const productUrl = plan.productUrl || plan.calcUrl || plan.url || '';
   const brochureUrl = plan.brochureUrl || plan.brochure || '';
 
@@ -284,7 +284,7 @@ function generateSingleProductPDF(plan, cat) {
 
   const kf = plan.keyFeatures || plan.keyHighlights || plan.meta?.keyHighlights || [];
   const pitch = plan.salesPitch || plan.pitch || '';
-  const bestFor = plan.bestFor || plan.meta?.bestFor || '';
+  const bestFor = plan.meta?.bestFor || plan.bestFor || '';
   const productUrl = plan.productUrl || plan.calcUrl || plan.url || '';
   const brochureUrl = plan.brochureUrl || plan.brochure || '';
 
@@ -942,10 +942,11 @@ function downloadAvBPDF(coA, plA, coB, plB) {
 
     // ════════════ NON-PAR ════════════
     if (cat === 'nonpar') {
-      // Detect sub-category
-      const isSavings = !a.incomeBenefit && !a.incomeFrom && !a.incomePeriods;
-      const isEarlyIncome = !!(a.incomeFrom || a.incomePeriod);
-      const isIncome = !!a.incomePeriods;
+      // Detect sub-category using reliable registry category field
+      const subCat = (a.category || '').toLowerCase();
+      const isEarlyIncome = subCat.includes('early income');
+      const isIncome = !isEarlyIncome && subCat.includes('long term income');
+      const isSavings = !isEarlyIncome && !isIncome;
 
       if (isEarlyIncome) {
         return [
@@ -1166,8 +1167,8 @@ ${(a.salesPitch||a.pitch) || (b.salesPitch||b.pitch) ? `
 <div class="section-title">🎯 Best Suitable For</div>
 <table><tbody>
 <tr><td style="width:32%;font-weight:700;color:#475569">Best For</td>
-  <td>${san(a.bestFor||a.meta?.bestFor||'—')}</td>
-  <td>${san(b.bestFor||b.meta?.bestFor||'—')}</td>
+  <td>${san(a.meta?.bestFor||a.bestFor||'—')}</td>
+  <td>${san(b.meta?.bestFor||b.bestFor||'—')}</td>
 </tr>
 </tbody></table>
 

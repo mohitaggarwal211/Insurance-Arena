@@ -16,7 +16,7 @@ const NISHCHIT_PLANS = [
     company: 'ABSLI',
     companyFull: 'Aditya Birla Sun Life Insurance',
     plan: 'Nishchit Aayush Plan',
-    uin: 'Verify from current policy document',
+    uin: '109N137V13',
     type: 'Non-Linked, Non-Participating',
     isBase: true,
     productUrl: 'https://lifeinsurance.adityabirlacapital.com/savings-plans/absli-nishchit-aayush-plan/',
