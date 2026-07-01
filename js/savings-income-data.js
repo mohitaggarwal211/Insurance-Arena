@@ -180,7 +180,7 @@ const INCOME_PLANS = [
     verification: 'Verified — Official product page + V17 brochure'
   },
   {
-    company: 'Tata AIA', plan: 'Fortune Guarantee Plus (Income Variant)', uin: '110N158V11',
+    company: 'Tata AIA', plan: 'Fortune Guarantee Plus (Income Variant)', uin: '110N158V11', entryAge: '18 – 60 yrs',
     isBase: false, type: 'Non-Linked Non-Par', status: 'Active',
     url: 'https://www.tataaia.com/life-insurance-plans/savings-solutions/fortune-guarantee-plus.html',
     brochure: 'https://www.tataaia.com/content/dam/tataaialifeinsurancecompanylimited/pdf/download-centre/english/brochures/Fortune-Guarantee-Plus-Brochure.pdf',
@@ -192,7 +192,7 @@ const INCOME_PLANS = [
     verification: 'Partially Verified'
   },
   {
-    company: 'HDFC Life', plan: 'Sanchay Plus', uin: '101N134V27',
+    company: 'HDFC Life', plan: 'Sanchay Plus', uin: '101N134V27', entryAge: '30 days – 65 yrs',
     isBase: false, type: 'Non-Linked Non-Par', status: 'Active',
     url: 'https://www.hdfclife.com/savings-plans/sanchay-plus',
     brochure: 'https://www.hdfclife.com/savings-plans/sanchay-plus',
@@ -205,7 +205,8 @@ const INCOME_PLANS = [
     verification: 'Verified — UIN and 4 options confirmed'
   },
   {
-    company: 'ICICI Pru', plan: 'Guaranteed Income For Tomorrow (GIFT)', uin: '105N182V13',
+    company: 'ICICI Pru', plan: 'Guaranteed Income For Tomorrow (GIFT)', uin: '105N182V13', entryAge: '18 – 60 yrs',
+    incomePeriods: ['10 or 12 years (Guaranteed Income)', 'Till age 99 (Life Long Income)', '25–30 years (Long-Term Income)'],
     isBase: false, type: 'Non-Linked Non-Par', status: 'Active',
     url: 'https://www.iciciprulife.com/protection-saving-plans/icici-pru-guaranteed-income-for-tomorrow.html',
     brochure: 'https://www.iciciprulife.com/retirement-plans/guaranteed-income-for-tomorrow-gift.html',
@@ -219,8 +220,9 @@ const INCOME_PLANS = [
     verification: 'Verified — UIN 105N182V13 confirmed'
   },
   {
-    company: 'Canara HSBC', plan: 'iSelect Guaranteed Future Plus', uin: '136N098V04',
+    company: 'Canara HSBC', plan: 'iSelect Guaranteed Future Plus', uin: '136N098V04', entryAge: '18 – 65 yrs',
     isBase: false, type: 'Non-Linked Non-Par', status: 'Active (replacement)',
+    incomePeriods: ['10–30 years (varies by plan option)'],
     url: 'https://www.canarahsbclife.com/savings-and-investment-plans/iselect-guaranteed-future-plus',
     brochure: 'https://www.canarahsbclife.com/savings-and-investment-plans/iselect-guaranteed-future-plus',
     ppt: 'Single Pay | Limited Pay | Regular Pay (multiple options)',
@@ -232,7 +234,8 @@ const INCOME_PLANS = [
     verification: 'Replaced — Original withdrawn per official Canara HSBC list'
   },
   {
-    company: 'Bajaj Life', plan: 'Guaranteed Income Goal Plan', uin: '116N157V10',
+    company: 'Bajaj Life', plan: 'Guaranteed Income Goal Plan', uin: '116N157V10', entryAge: '18 – 60 yrs',
+    incomePeriods: ['10–30 years (varies by PPT)'],
     isBase: false, type: 'Non-Linked Non-Par', status: 'Active',
     url: 'https://www.bajajallianzlife.com/savings-plans',
     brochure: 'https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/ppt-pdf/GIG.pdf',
@@ -244,7 +247,8 @@ const INCOME_PLANS = [
     verification: 'Unable to Verify — product name mismatch'
   },
   {
-    company: 'SBI Life', plan: 'Smart Platina Plus', uin: '111N133V06',
+    company: 'SBI Life', plan: 'Smart Platina Plus', entryAge: '18 – 60 yrs',
+    incomePeriods: ['20–26 years post-PT'], uin: '111N133V06',
     isBase: false, type: 'Non-Linked Non-Par', status: 'Active',
     url: 'https://www.sbilife.co.in/en/individual-life-insurance/traditional/smart-platina-plus',
     brochure: 'https://www.sbilife.co.in/documents/20118/909506/SBI+Life+-+Smart+Platina+Plus+Brochure_V03.pdf/c27931bf-62c1-4c2e-6d02-31a403116686',
@@ -257,7 +261,8 @@ const INCOME_PLANS = [
     verification: 'Verified — UIN, 110% maturity, income options confirmed'
   },
   {
-    company: 'Axis Max Life', plan: 'Smart Wealth Income Plan', uin: '104N120V04',
+    company: 'Axis Max Life', plan: 'Smart Wealth Income Plan', entryAge: '0 – 65 yrs',
+    incomePeriods: ['15–25 years (Long-Term Income)', 'Whole Life (Whole Life Income)'], uin: '104N120V04',
     isBase: false, type: '⚠️ Non-Linked PARTICIPATING (bonus not guaranteed)', status: 'Active',
     url: 'https://www.axismaxlife.com/investment-plans/smart-wealth-income-plan',
     brochure: 'https://www.axismaxlife.com/investment-plans/smart-wealth-plan',
@@ -271,7 +276,8 @@ const INCOME_PLANS = [
     verification: 'Partially Verified — UIN confirmed; PARTICIPATING noted'
   },
   {
-    company: 'Kotak Life', plan: 'Guaranteed Fortune Builder', uin: '107N128V09',
+    company: 'Kotak Life', plan: 'Guaranteed Fortune Builder', entryAge: '3 – 60 yrs',
+    incomePeriods: ['10–25 years (varies by PT)'], uin: '107N128V09',
     isBase: false, type: 'Non-Linked Non-Par', status: 'Active',
     url: 'https://www.kotaklife.com/savings-plan/kotak-guaranteed-fortune-builder',
     brochure: 'https://www.kotaklife.com/assets/images/uploads/insurance-plans/Kotak_Guaranteed_Fortune_Builder-Brochure_(Online).pdf',
