@@ -1,9 +1,380 @@
 {
-  "lastUpdated": null,
-  "articlesCount": 0,
-  "sourcesOk": 0,
+  "lastUpdated": "2026-07-02T11:10:48.396Z",
+  "articlesCount": 40,
+  "sourcesOk": 5,
   "sourcesTotal": 9,
-  "sourceStatus": [],
-  "status": "Awaiting first fetch — run the 'Update Financial News' workflow in GitHub Actions",
-  "articles": []
+  "sourceStatus": [
+    {
+      "source": "NDTV Profit",
+      "status": "ok",
+      "articles": 0,
+      "feedUsed": "https://feeds.feedburner.com/ndtvprofit-latest"
+    },
+    {
+      "source": "Business Today",
+      "status": "ok",
+      "articles": 20,
+      "feedUsed": "https://www.businesstoday.in/rssfeeds/?id=225346"
+    },
+    {
+      "source": "Zee Business",
+      "status": "ok",
+      "articles": 0,
+      "feedUsed": "https://zeenews.india.com/rss/business.xml"
+    },
+    {
+      "source": "CNBC TV18",
+      "status": "ok",
+      "articles": 0,
+      "feedUsed": "https://www.cnbctv18.com/commonfeeds/v1/cne/rss/market.xml"
+    },
+    {
+      "source": "Financial Express",
+      "status": "failed",
+      "articles": 0
+    },
+    {
+      "source": "Moneycontrol",
+      "status": "failed",
+      "articles": 0
+    },
+    {
+      "source": "Times of India Business",
+      "status": "ok",
+      "articles": 20,
+      "feedUsed": "https://timesofindia.indiatimes.com/rssfeeds/1898055.cms"
+    },
+    {
+      "source": "News18 Business",
+      "status": "failed",
+      "articles": 0
+    },
+    {
+      "source": "PIB Finance Ministry",
+      "status": "failed",
+      "articles": 0
+    }
+  ],
+  "articles": [
+    {
+      "title": "China's viral rooftop mist is cooling entire neighbourhoods. Here's the science behind it",
+      "summary": "China has experienced more frequent and longer-lasting heatwaves in recent years, a trend that scientists link to climate change.",
+      "url": "https://www.businesstoday.in/latest/trends/story/chinas-viral-rooftop-mist-is-cooling-entire-neighbourhood-heres-the-science-behind-it-540584-2026-07-02?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-02T10:52:38.000Z"
+    },
+    {
+      "title": "Japanese PM Takaichi Lands in India — Northeast Emerges as Strategic Pivot",
+      "summary": "Japanese PM Takaichi visits India, highlighting northeast as a strategic hub. Talks with PM Modi focus on Act East Policy, connectivity, and Indo-Pacific regional security.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/japanese-pm-takaichi-lands-in-india-northeast-emerges-as-strategic-pivot-540577-2026-07-02?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-02T10:22:25.000Z"
+    },
+    {
+      "title": "Digestive Boost: Small Habits, Big Impact — Gut Reset Guide Merges Fermented Foods with Safer Cooking",
+      "summary": "Boost gut health with a week of fermented foods, beta-glucans, and safer cookware habits. Simple, high-impact lifestyle tweaks enhance digestion, immunity, and metabolic wellness.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/digestive-boost-small-habits-big-impact-gut-reset-guide-merges-fermented-foods-with-safer-cooking-540573-2026-07-02?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "insurance",
+      "publishedAt": "2026-07-02T10:07:12.000Z"
+    },
+    {
+      "title": "Best bikes under ₹2 lakh in India 2026: Royal Enfield, Yamaha, Bajaj and more compared",
+      "summary": "From Royal Enfield Hunter 350 to Yamaha R15 V4, here are India's 5 best motorcycles under ₹2 lakh in 2026 — with prices, features and performance compared for every rider type.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/best-bikes-under-rs2-lakh-in-india-2026-royal-enfield-yamaha-bajaj-and-more-compared-540572-2026-07-02?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-02T10:00:10.000Z"
+    },
+    {
+      "title": "This 'worn gear' package hid gold worth ₹21.4 crore: Here's how smuggling racket worked",
+      "summary": "The operation began after DRI officers intercepted an international courier consignment arriving from Thailand at the Courier Terminal in Delhi",
+      "url": "https://www.businesstoday.in/latest/trends/story/this-worn-gear-package-hid-gold-worth-rs21-4-crore-heres-how-smuggling-racket-worked-540313-2026-07-02?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-02T09:58:25.000Z"
+    },
+    {
+      "title": "iPhone Ultra vs Galaxy Z Fold 8 wide: Display, camera and battery compared in detail",
+      "summary": "Apple's iPhone Ultra and Samsung's Galaxy Z Fold 8 Wide are set to define 2026's foldable phone battle. Here's how they compare on display, camera, chipset and battery life.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/iphone-ultra-vs-galaxy-z-fold-8-wide-display-camera-and-battery-compared-in-detail-540569-2026-07-02?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-02T09:51:00.000Z"
+    },
+    {
+      "title": "America turns 250—and Indian-origin CEOs are powering its biggest companies",
+      "summary": "Indian-origin leaders are reshaping global technology, finance and consumer business, from Microsoft and Google to the World Bank, IBM, Adobe, YouTube and P&G.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/america-turns-250-and-indian-origin-ceos-are-powering-its-biggest-companies-540458-2026-07-02?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-02T09:35:39.000Z"
+    },
+    {
+      "title": "Honda Activa E: Price, range, top speed and every spec you need to know before buying",
+      "summary": "Honda Activa e starts at ₹1.20 lakh with 102 km range, 80 km/h top speed, swappable batteries and RoadSync connectivity. Here's everything you need to know before buying.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/honda-activa-e-price-range-top-speed-and-every-spec-you-need-to-know-before-buying-540565-2026-07-02?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-02T09:33:15.000Z"
+    },
+    {
+      "title": "History in Flight — Navi Mumbai Airport Welcomes First International Travelers",
+      "summary": "Navi Mumbai International Airport welcomes its first international flights via Air India Express, easing Mumbai airport congestion and marking a key milestone for India's aviation expansion.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/history-in-flight-navi-mumbai-airport-welcomes-first-international-travelers-540564-2026-07-02?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-02T09:33:07.000Z"
+    },
+    {
+      "title": "Before stepping down, Noel Tata reveals Voltas' big Make-in-India plan for ACs",
+      "summary": "The announcement comes at a time when Voltas is riding on a strong demand for cooling products.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/before-stepping-down-noel-tata-reveals-voltas-big-make-in-india-plan-for-acs-540542-2026-07-02?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-02T09:22:46.000Z"
+    },
+    {
+      "title": "How much richer has Donald Trump become since returning to the White House? The numbers may surprise you",
+      "summary": "Trump's 2025 financial disclosure reveals $2.2 billion in revenue — with $1.4 billion from crypto ventures including $TRUMP memecoin and World Liberty Financial, per US government filings.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/how-much-richer-has-donald-trump-become-since-returning-to-the-white-house-the-numbers-may-surprise-you-540557-2026-07-02?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-02T09:21:33.000Z"
+    },
+    {
+      "title": "Will Tata Sons stay private? RBI's latest circular raises fresh questions",
+      "summary": "Attention now turns to the upcoming upper-layer NBFC list and how the regulator interprets indirect receipt of public funds",
+      "url": "https://www.businesstoday.in/latest/corporate/story/will-tata-sons-stay-private-rbis-latest-circular-raises-fresh-questions-540551-2026-07-02?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "regulatory",
+      "publishedAt": "2026-07-02T09:17:36.000Z"
+    },
+    {
+      "title": "‘I would never have been CEO in any other country, including in India’: Indra Nooyi",
+      "summary": "Indra Nooyi said the mentors in the US do not care if a person is male or female or what ethnicity or gender they are.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/i-would-never-have-been-ceo-in-any-other-country-including-in-india-indra-nooyi-540549-2026-07-02?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-02T09:15:12.000Z"
+    },
+    {
+      "title": "From pharma waste to designer furniture: How this Delhi startup is giving discarded materials a new life",
+      "summary": "The idea behind Daera dates back to 2015, when Sharon, then working in California, travelled to India for Jannat's wedding after quitting her job.",
+      "url": "https://www.businesstoday.in/latest/trends/story/from-pharma-waste-to-designer-furniture-how-this-delhi-startup-is-giving-discarded-materials-a-new-life-540535-2026-07-02?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-02T09:05:13.000Z"
+    },
+    {
+      "title": "India-Japan trade: PM Modi, 'younger sister' Takaichi sign MoC including $10 billion investment, AI boost",
+      "summary": "India and Japan elevated their trade and strategic ties with a new Memorandum of Cooperation signed during the 16th Annual Summit in New Delhi. Prime Minister Modi welcomed his Japanese counterpart, highlighting shared priorities for a free and prosperous Indo-Pacific.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/india-japan-trade-pm-modi-younger-sister-takaichi-sign-moc-including-10-billion-investment-ai-boost/articleshow/132133312.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-02T08:30:52.000Z"
+    },
+    {
+      "title": "Travel Alert: India Raises Passport Fees — Early Applications Spike Nationwide",
+      "summary": "India's passport fees rise from July 1, 2026, triggering early application rush nationwide. Travelers face higher costs, processing changes, and budget adjustments for international trips.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/travel-alert-india-raises-passport-fees-early-applications-spike-nationwide-540522-2026-07-02?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "regulatory",
+      "publishedAt": "2026-07-02T08:23:59.000Z"
+    },
+    {
+      "title": "Centre likely to constitute high-level banking committee before Monsoon Session",
+      "summary": "According to official sources, the committee's terms of reference have already been finalised by the Department of Financial Services.",
+      "url": "https://www.businesstoday.in/latest/economy/story/centre-likely-to-constitute-high-level-banking-committee-before-monsoon-session-540520-2026-07-02?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-02T08:23:49.000Z"
+    },
+    {
+      "title": "Who should file ITR & is income tax return filing mandatory for salaried taxpayers?",
+      "summary": "The important thing to understand is that ITR filing is a statutory requirement and an important financial record-keeping.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/who-should-file-itr-is-income-tax-return-filing-mandatory-for-salaried-taxpayers/articleshow/132133313.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-02T08:18:17.000Z"
+    },
+    {
+      "title": "India's EV boom could save Rs 1 lakh crore in oil imports by 2030: SBI",
+      "summary": "India stands to save a staggering Rs 1 lakh crore by 2030 if electric vehicles capture 20% of the market, a recent SBI report reveals. The surge in EV adoption, accelerated by geopolitical events, saw registrations jump significantly.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/indias-ev-boom-could-save-rs-1-lakh-crore-in-oil-imports-by-2030-sbi/articleshow/132132600.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-02T08:05:18.000Z"
+    },
+    {
+      "title": "How Kunafa, Cloud Coffee, and Matcha Are Reshaping India’s Food Scene",
+      "summary": "Kunafa, cloud coffee, matcha and Korean street food are driving India’s viral food trends, blending social-media spectacle, Gen Z tastes, fusion and nostalgia in cafes and homes.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/how-kunafa-cloud-coffee-and-matcha-are-reshaping-indias-food-scene-540502-2026-07-02?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-02T07:53:12.000Z"
+    },
+    {
+      "title": "Centre eyes dedicated push for electric trucks, may consider fresh support scheme: PM’s Advisor Tarun Kapoor",
+      "summary": "“We have to see that our dependence on China goes down,” Kapoor said, adding that batteries, electric motors and other strategic components should increasingly be produced within the country to avoid supply disruptions.",
+      "url": "https://www.businesstoday.in/auto/story/centre-eyes-dedicated-push-for-electric-trucks-may-consider-fresh-support-scheme-pms-advisor-tarun-kapoor-540486-2026-07-02?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-02T07:37:41.000Z"
+    },
+    {
+      "title": "Adar Poonawalla Family Office invests ₹700 crore in Inox Clean, values firm at ₹70,000 crore",
+      "summary": "The Adar Poonawalla family office has invested ₹700 crore in Inox Clean. The funding follows 10 acquisitions in 10 months and will support its next phase of expansion.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/adar-poonawalla-family-office-invests-700-crore-in-inox-clean-at-70000-crore-valuation-540487-2026-07-02?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-02T07:36:08.000Z"
+    },
+    {
+      "title": "Visual Feast: South India’s Most Stunning Train Routes You Must Experience Once",
+      "summary": "Explore South India’s most scenic train journeys, from Pamban Bridge and Nilgiri hills to Dudhsagar Falls, Kerala backwaters and the spectacular Konkan coast.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/visual-feast-south-indias-most-stunning-train-routes-you-must-experience-once-540483-2026-07-02?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-02T07:29:21.000Z"
+    },
+    {
+      "title": "OpenAI weighs giving Trump administration 5% stake amid US scrutiny of AI firms: Report",
+      "summary": "OpenAI reportedly explored offering the Trump administration a 5% stake, a move aimed at fostering government ties and addressing public profit-sharing concerns amid rising AI scrutiny.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/openai-weighs-giving-trump-administration-5-stake-amid-us-scrutiny-of-ai-firms-report/articleshow/132129203.cms",
+      "source": "Times of India Business",
+      "category": "insurance",
+      "publishedAt": "2026-07-02T06:38:54.000Z"
+    },
+    {
+      "title": "New EPF Scheme 2026: What it means for your provident fund savings",
+      "summary": "India’s provident fund framework has now entered a new phase with the notification of the Employees’ Provident Funds Scheme, 2026 (EPF Scheme, 2026) under the Code on Social Security, 2020.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/new-epf-scheme-2026-what-it-means-for-your-provident-fund-savings/articleshow/132130633.cms",
+      "source": "Times of India Business",
+      "category": "regulatory",
+      "publishedAt": "2026-07-02T06:28:50.000Z"
+    },
+    {
+      "title": "Top stocks to buy today: Stock recommendations for July 2, 2026 - check list",
+      "summary": "Top stock market recommendations: REC, Oberoi Realty, and Home First Finance Company India have been recommended by Aakash K Hindocha, Vice President - Research, Nuvama Professional Clients Group/Nuvama Wealth Management as top stocks to buy on July 2, 2026.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/top-stock-recommendations-for-july-02-2026-rec-oberoi-realty-home-first-finance-company-best-stocks-to-buy-today/articleshow/132128245.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-02T03:44:02.000Z"
+    },
+    {
+      "title": "Stock Market Live Updates Today: BSE Sensex opens over 250 points up, Nifty50 above 24,050; crude oil prices continue to drop",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/sensex-stock-market-today-02-july-2026-live-updates-nse-bse-gift-nifty-50-top-gainers-losers-mcx-stocks-in-focus-market-news/liveblog/132127488.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-02T02:38:25.000Z"
+    },
+    {
+      "title": "Unable to withdraw PF or file claims? EPFO services unavailable for 7 days",
+      "summary": "Employees' Provident Fund Organisation (EPFO) services remain unavailable beyond the scheduled July 1 deadline due to a planned database consolidation and software upgrade.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/unable-to-withdraw-pf-or-file-claims-epfo-website-down-for-7-days/articleshow/132127104.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-02T02:23:07.000Z"
+    },
+    {
+      "title": "UPI volumes up 1.2%, rise to 76 crore",
+      "summary": "Digital payment volumes saw a slight dip in June, with UPI transactions falling 2.1% month-on-month. Despite this, daily UPI activity remained robust, and year-on-year growth continues to impress.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/upi-volumes-up-1-2-rise-to-76-crore/articleshow/132124392.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-01T21:31:43.000Z"
+    },
+    {
+      "title": "Car sales in June signal strong demand recovery",
+      "summary": "India's passenger vehicle sector kicked off FY27 with robust June sales, fueled by strong demand for SUVs and EVs. Tata Motors saw a remarkable 69% surge, driven by popular models and record EV figures.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/car-sales-in-june-signal-strong-demand-recovery/articleshow/132124384.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-01T21:28:53.000Z"
+    },
+    {
+      "title": "FPIs' $5bn bond purchase offsets steady equity sales",
+      "summary": "Foreign investors returned as net buyers in June, injecting $531 million into Indian markets after a period of outflows. This positive shift was driven by substantial inflows into sovereign debt, totaling $5.8 billion, which more than compensated for continued equity selling.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/fpis-5bn-bond-purchase-offsets-steady-equity-sales/articleshow/132124374.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-01T21:22:11.000Z"
+    },
+    {
+      "title": "PE-VC deal value dips 5% in H1 CY2026",
+      "summary": "Private equity and venture capital investments saw a slight dip of 5% year-on-year in the first half of 2026, reaching $17.5 billion. Despite global uncertainties, investors deployed substantial capital, particularly in data centers and NBFCs.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/pe-vc-deal-value-dips-5-in-h1-cy2026/articleshow/132124368.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-01T21:19:06.000Z"
+    },
+    {
+      "title": "Hero Moto to invest 3,200 crore in Andhra Pradesh",
+      "summary": "Hero MotoCorp is injecting Rs 3,200 crore into Andhra Pradesh over the next three to five years. This significant investment will bolster manufacturing, enhance its global supply chain, and expand into new business areas.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/hero-moto-to-invest-3200-crore-in-andhra-pradesh/articleshow/132124364.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-01T21:13:06.000Z"
+    },
+    {
+      "title": "Brands get quick-comm boost in summer sales",
+      "summary": "Scorching heatwaves have significantly boosted sales for consumer brands, with quick-commerce platforms witnessing a surge in demand for ice creams, beverages, and sunscreens. Ice cream sales alone soared by 140% year-on-year in May.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/brands-get-quick-comm-boost-in-summer-sales/articleshow/132124358.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-01T21:09:50.000Z"
+    },
+    {
+      "title": "Debt's the way for Indian IT acquisition funding",
+      "summary": "Indian IT firms are increasingly embracing debt for significant acquisitions, a shift from their traditional cash-rich approach.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/debts-the-way-for-indian-it-acquisition-funding/articleshow/132124337.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-01T20:59:30.000Z"
+    },
+    {
+      "title": "At 14%, GST collections in June grow fastest in 8 months",
+      "summary": "GST collections surged by 13.9% to Rs 1.94 lakh crore, the fastest in eight months, driven by a significant jump in import taxes on commodities like crude and fertilizers. While domestic collections saw a modest 6.5% rise, imports contributed substantially.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/at-14-gst-collections-in-june-grow-fastest-in-8-months/articleshow/132124329.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-01T20:56:22.000Z"
+    },
+    {
+      "title": "WC assists top-end as smart TVs shrink",
+      "summary": "Despite a dip in India's smart TV market, the FIFA World Cup is driving a surge in premium television sales, especially for larger screens. Brands report significant demand for TVs 55 inches and above, with QLED and MiniLED technologies gaining traction.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/wc-assists-top-end-as-smart-tvs-shrink/articleshow/132124318.cms",
+      "source": "Times of India Business",
+      "category": "insurance",
+      "publishedAt": "2026-07-01T20:51:13.000Z"
+    },
+    {
+      "title": "Employees’ Provident Funds Scheme 2026 notified: Top things to know about contributions, withdrawals & Aadhaar details",
+      "summary": "EPF Scheme 2026: Although the overall provident fund framework remains largely unchanged, the revised EPF scheme introduces some changes that relate to contributions, benefits and compliance requirements.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/employees-provident-funds-scheme-2026-notified-top-things-to-know-about-contributions-withdrawals-aadhaar-details/articleshow/132118711.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-01T15:45:19.000Z"
+    },
+    {
+      "title": "US stocks today: Wall Street under pressure as Nvidia, AMD & Micron lead AI stock sell-off",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/us-stocks-today-wall-street-under-pressure-as-nvidia-amd-and-micron-lead-ai-stock-sell-off/articleshow/132118574.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-01T15:32:55.000Z"
+    },
+    {
+      "title": "India, Japan to sign LNG security pact during PM Modi-Takaichi bilateral",
+      "summary": "India and Japan are set to sign a crucial agreement to bolster liquefied natural gas (LNG) supply security, aiming to counter global disruptions. A joint task force is anticipated to coordinate stockpiling and enhance energy cooperation.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/india-japan-to-sign-lng-security-pact-during-pm-modi-takaichi-bilateral/articleshow/132117357.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-01T14:35:24.000Z"
+    }
+  ]
 }
