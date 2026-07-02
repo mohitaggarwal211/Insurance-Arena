@@ -46,7 +46,7 @@
     </div>
     <nav class="main-nav" aria-label="Main">
       <button class="nav-btn active" data-sec="compare">Compare Plans</button>
-      <button class="nav-btn" data-sec="news">Finance News</button>
+      <button class="nav-btn" data-sec="news">Financial News</button>
       <button class="nav-btn" data-sec="learn">Finance Learning</button>
       <button class="nav-btn" data-sec="tools">Calculators</button>
     </nav>
@@ -58,7 +58,7 @@
   </div>
   <nav class="mobile-nav hidden" id="mobileNav">
     <button class="mnav-btn active" data-sec="compare">🔍 Compare Plans</button>
-    <button class="mnav-btn" data-sec="news">📰 Finance News</button>
+    <button class="mnav-btn" data-sec="news">📰 Financial News</button>
     <button class="mnav-btn" data-sec="learn">📚 Finance Learning</button>
     <button class="mnav-btn" data-sec="tools">🧮 Calculators</button>
   </nav>
@@ -76,7 +76,7 @@
     </button>
     <button class="tab-btn" data-sec="news">
       <span class="tab-icon">📰</span>
-      <div><div class="tab-label">Finance News</div><div class="tab-sub" id="newsUpdateTime">7 AM &amp; 4 PM</div></div>
+      <div><div class="tab-label">Financial News</div><div class="tab-sub" id="newsUpdateTime">Every 6 hours</div></div>
     </button>
     <button class="tab-btn" data-sec="learn">
       <span class="tab-icon">📚</span>
@@ -186,14 +186,18 @@
   <!-- ═══ NEWS ═══ -->
   <div class="sec" id="sec-news">
     <div class="news-header">
-      <h2 class="sec-title">Finance &amp; Insurance News</h2>
+      <h2 class="sec-title">Financial News</h2>
+      <div class="anews-status" id="arenaNewsStatus">Loading…</div>
     </div>
-    <div class="soon-placeholder">
-      <div class="soon-icon">📰</div>
-      <div class="soon-title">Coming Soon</div>
-      <div class="soon-text">We're rebuilding the Finance News experience from the ground up. A faster, cleaner news hub is on its way in the next version of Insurance Arena.</div>
-      <div class="soon-badge">Soon</div>
+    <div class="anews-cats">
+      <button class="anews-cat active" data-cat="all">All <span class="anews-cat-count">0</span></button>
+      <button class="anews-cat" data-cat="insurance">🛡️ Insurance <span class="anews-cat-count">0</span></button>
+      <button class="anews-cat" data-cat="markets">📈 Stock Market <span class="anews-cat-count">0</span></button>
+      <button class="anews-cat" data-cat="regulatory">🏛️ Regulatory <span class="anews-cat-count">0</span></button>
     </div>
+    <div id="arenaNewsFeatured"></div>
+    <div class="anews-grid" id="arenaNewsGrid"></div>
+    <div class="anews-disclaimer">Headlines and summaries are sourced from publisher RSS feeds. Tap any story to read the full article on the publisher's website. Insurance Arena links only to free-to-read sources.</div>
   </div>
 
   <!-- ═══ LEARN ═══ -->
@@ -368,32 +372,32 @@
         <div class="tvm-rows">
           <div class="tvm-row">
             <span class="tvm-lbl">Present Value</span>
-            <input type="number" id="tvm-pv" class="tvm-inp" placeholder="0">
+            <input type="number" id="tvm-pv" class="tvm-inp" placeholder="0" autocomplete="off">
             <button class="tvm-solve-btn" onclick="solveTVM('pv')">PV</button>
           </div>
           <div class="tvm-row">
             <span class="tvm-lbl">Payments</span>
-            <input type="number" id="tvm-pmt" class="tvm-inp" placeholder="0">
+            <input type="number" id="tvm-pmt" class="tvm-inp" placeholder="0" autocomplete="off">
             <button class="tvm-solve-btn" onclick="solveTVM('pmt')">PMT</button>
           </div>
           <div class="tvm-row">
             <span class="tvm-lbl">Future Value</span>
-            <input type="number" id="tvm-fv" class="tvm-inp" placeholder="0">
+            <input type="number" id="tvm-fv" class="tvm-inp" placeholder="0" autocomplete="off">
             <button class="tvm-solve-btn" onclick="solveTVM('fv')">FV</button>
           </div>
           <div class="tvm-row">
             <span class="tvm-lbl">Annual Rate (%)</span>
-            <input type="number" id="tvm-rate-new" class="tvm-inp" placeholder="0" step="0.01">
+            <input type="number" id="tvm-rate-new" class="tvm-inp" placeholder="0" step="0.01" autocomplete="off">
             <button class="tvm-solve-btn" onclick="solveTVM('rate')">Rate</button>
           </div>
           <div class="tvm-row">
             <span class="tvm-lbl">Periods</span>
-            <input type="number" id="tvm-periods" class="tvm-inp" placeholder="0">
+            <input type="number" id="tvm-periods" class="tvm-inp" placeholder="0" autocomplete="off">
             <button class="tvm-solve-btn" onclick="solveTVM('periods')">Periods</button>
           </div>
           <div class="tvm-row">
             <span class="tvm-lbl">Compounding</span>
-            <select id="tvm-compound-new" class="tvm-select">
+            <select id="tvm-compound-new" class="tvm-select" autocomplete="off">
               <option value="1">Annual</option>
               <option value="2">Semi-Annual</option>
               <option value="4">Quarterly</option>
