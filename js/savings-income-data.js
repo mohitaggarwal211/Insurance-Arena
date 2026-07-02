@@ -1,4 +1,4 @@
-// ══════════════════════════════════════════════════════
+// Data verified: July 2026 (monthly review protocol)
 // ABSLI ASSURED SAVINGS PLAN — COMPETITOR COMPARISON
 // Type: Non-Linked, Non-Participating, Savings (Lumpsum)
 // ══════════════════════════════════════════════════════

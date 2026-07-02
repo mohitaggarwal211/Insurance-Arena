@@ -10,7 +10,7 @@ const PLANS = [
     companyShort: "ABSLI",
     bestFor: "Best for: Disability protection (free WOP inbuilt)",
     plan: "Super Term Plan",
-    uin: "109N153V01",
+    uin: "109N153V02",
     csr: 98.65,
     csrPending: false,
     entryAge: "18 – 65 yrs",
@@ -62,7 +62,7 @@ const PLANS = [
     salariedDiscount: "See ABSLI Salaried Term Plan",
     calcUrl: "https://lifeinsurance.adityabirlacapital.com/term-insurance/absli-super-term-plan/",
     brochureUrl: "https://lifeinsurance.adityabirlacapital.com/uploads/ABSLI_Super_Term_Plan_V01_Brochure_8b9b57ef0d.pdf",
-    lastUpdated: "June 2025"
+    lastUpdated: "July 2026 (monthly review)"
   },
   {
     id: 2,
@@ -122,7 +122,7 @@ const PLANS = [
     salariedDiscount: "10% on first year premium",
     calcUrl: "https://www.hdfclife.com/term-insurance-plans/click-2-protect-supreme-plus",
     brochureUrl: "https://www.hdfclife.com/content/dam/hdfclifeinsurancecompany/products-page/brochure-pdf/HDFC-Life-click-2-protect-supreme-plus.pdf",
-    lastUpdated: "FY 2024-25"
+    lastUpdated: "July 2026 (monthly review) | CSR: FY 2024-25"
   },
   {
     id: 3,
@@ -130,7 +130,7 @@ const PLANS = [
     companyShort: "Axis Max Life",
     bestFor: "Best for: Maximum exit value (up to 200% premiums back)",
     plan: "Smart Term Plan Plus",
-    uin: "104N118V11",
+    uin: "104N127V05",
     csr: 99.65,
     csrPending: false,
     entryAge: "18 – 65 yrs",
@@ -180,7 +180,7 @@ const PLANS = [
     salariedDiscount: "8.5% online discount",
     calcUrl: "https://www.axismaxlife.com/term-insurance-plans/smart-term-plan-plus",
     brochureUrl: "https://www.axismaxlife.com/term-insurance-plans/smart-term-plan-plus",
-    lastUpdated: "April 2025"
+    lastUpdated: "July 2026 (monthly review)"
   },
   {
     id: 4,
@@ -238,7 +238,7 @@ const PLANS = [
     salariedDiscount: "12.5% Regular / 15% Limited Pay (1st year)",
     calcUrl: "https://www.iciciprulife.com/term-insurance/iprotect-smart-plus-plan.html",
     brochureUrl: "https://www.iciciprulife.com/content/dam/icicipru/brochures/ICICI%20Pru%20iProtect%20Smart.pdf",
-    lastUpdated: "FY 2024-25"
+    lastUpdated: "July 2026 (monthly review) | CSR: FY 2024-25"
   },
   {
     id: 5,
@@ -295,7 +295,7 @@ const PLANS = [
     salariedDiscount: "7.5% online discount",
     calcUrl: "https://www.sbilife.co.in/term-insurance/smart-shield-plus",
     brochureUrl: "https://www.sbilife.co.in/term-insurance/smart-shield-plus",
-    lastUpdated: "FY 2024-25"
+    lastUpdated: "July 2026 (monthly review) | CSR: FY 2024-25"
   },
   {
     id: 6,
@@ -353,7 +353,7 @@ const PLANS = [
     salariedDiscount: "8.5% online discount",
     calcUrl: "https://www.tataaia.com/calculator.html",
     brochureUrl: "https://www.tataaia.com/life-insurance-plans/term-insurance/sampoorna-raksha-promise.html",
-    lastUpdated: "FY 2024-25"
+    lastUpdated: "July 2026 (monthly review) | CSR: FY 2024-25"
   },
   {
     id: 7,
@@ -411,7 +411,7 @@ const PLANS = [
     salariedDiscount: "No specific salaried discount",
     calcUrl: "https://www.bajajallianzlife.com/term-insurance/smart-protect-goal-term-plan",
     brochureUrl: "https://www.bajajallianzlife.com/term-insurance/smart-protect-goal-term-plan",
-    lastUpdated: "FY 2024-25"
+    lastUpdated: "July 2026 (monthly review) | CSR: FY 2024-25"
   },
   {
     id: 8,
@@ -469,7 +469,7 @@ const PLANS = [
     salariedDiscount: "5% discount",
     calcUrl: "https://www.kotaklife.com/online-insurance/term-life-insurance/kotak-e-term-plan",
     brochureUrl: "https://www.kotaklife.com/online-insurance/term-life-insurance/kotak-e-term-plan",
-    lastUpdated: "FY 2024-25"
+    lastUpdated: "July 2026 (monthly review) | CSR: FY 2024-25"
   },
   {
     id: 9,
@@ -528,7 +528,7 @@ const PLANS = [
     salariedDiscount: "No specific salaried discount",
     calcUrl: "https://www.pnbmetlife.com/term-insurance/mera-term-plan-plus.html",
     brochureUrl: "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/product/Download_Brochure/mmtp_plus_brochure.pdf",
-    lastUpdated: "FY 2024-25"
+    lastUpdated: "July 2026 (monthly review) | CSR: FY 2024-25"
   },
   {
     id: 10,
@@ -585,7 +585,7 @@ const PLANS = [
     salariedDiscount: "No specific salaried discount",
     calcUrl: "https://licindia.in/lic-s-new-tech-term-954-512n351v01",
     brochureUrl: "https://licindia.in/documents/20121/290753/LIC_New+Tech+Term_Sales+Brochure_4+inch+x+9+inch_Eng+%282%29.pdf/d75b9948-b9e3-2ba1-9886-066a1bee6909",
-    lastUpdated: "FY 2024-25"
+    lastUpdated: "July 2026 (monthly review) | CSR: FY 2024-25"
   }
 ];
 

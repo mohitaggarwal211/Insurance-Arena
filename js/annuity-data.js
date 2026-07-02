@@ -1,4 +1,4 @@
-// ══════════════════════════════════════════════
+// Data verified: July 2026 (monthly review protocol)
 // ANNUITY DATA — Insurance Arena
 // Base plan: ABSLI Guaranteed Annuity Plus
 // Compared against: 14 competitor plans

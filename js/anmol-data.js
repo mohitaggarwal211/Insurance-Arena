@@ -1,4 +1,4 @@
-// ══════════════════════════════════════════════════════
+// Data verified: July 2026 (monthly review protocol)
 // ANMOL AKSHAYA — PARTICIPATING ENDOWMENT COMPARISON
 // Benchmark: Age 35 | Male | ₹1L AP | PPT 10 | PT 20
 // ══════════════════════════════════════════════════════
