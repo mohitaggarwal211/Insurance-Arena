@@ -1,7 +1,9 @@
 {
-  "lastUpdated": "2026-06-19T22:54:38Z",
+  "lastUpdated": null,
   "articlesCount": 0,
-  "source": "Google News RSS (raw redirect URLs)",
-  "status": "Awaiting first fetch. Run GitHub Actions workflow to populate.",
+  "sourcesOk": 0,
+  "sourcesTotal": 9,
+  "sourceStatus": [],
+  "status": "Awaiting first fetch — run the 'Update Financial News' workflow in GitHub Actions",
   "articles": []
 }
