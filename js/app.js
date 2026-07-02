@@ -10,7 +10,6 @@ let activeSearch   = '';
 let activeSort     = 'default';
 let activeView     = 'card';
 let activeNewsCat  = 'all';
-let activeNewsSearch = '';
 let activeSubject  = 'All Topics';
 let activeDiff     = 'all';
 let activeLearnTab = 'topics';
@@ -89,7 +88,7 @@ function showSection(name){ track('section_view', {section_name: name});
   document.querySelectorAll('[data-sec]').forEach(b=>b.classList.toggle('active',b.dataset.sec===name));
   document.getElementById('mobileNav').classList.add('hidden');
   window.scrollTo(0,0);
-  // News disabled — rebuilding in next version
+  if(name==='news') loadArenaNews();
   if(name==='learn' && !learnLoaded) loadLearnContent();
 }
 
@@ -287,227 +286,122 @@ document.querySelectorAll('.filter-btn').forEach(btn=>btn.addEventListener('clic
 function resetFilters(){ activeFilter='all';activeSearch='';activeSort='default';document.getElementById('searchInput').value='';document.getElementById('sortSelect').value='default';document.querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active'));document.querySelector('[data-filter="all"]').classList.add('active');renderPlans(); }
 
 // ════════════════════════════════════════
-// NEWS SECTION — Google News RSS
-// Improvements: Status bar · Featured story · Skeleton loading
-// Category counts · XSS-safe bookmarks via data-* + delegation
+// ════════════════════════════════════════
+// ARENA NEWS ENGINE v3 — Publisher-direct RSS
+// Free sources only · Direct article links · 6-hourly updates
 // ════════════════════════════════════════
 
-// ── SKELETON LOADER ──
-function showSkeletons(){
-  const skel = (i) => `<div class="skel-card">
-    <div class="skel skel-row1"></div>
-    <div class="skel skel-row2"></div>
-    <div class="skel skel-row3"></div>
-    <div class="skel skel-row4"></div>
-    <div class="skel skel-row5"></div>
-    <div class="skel-footer"><div class="skel skel-date"></div><div class="skel skel-btn"></div></div>
-  </div>`;
-  const el = document.getElementById('newsLoadingState');
-  if(el){ el.innerHTML = [0,1,2,3,4,5].map(skel).join(''); el.classList.remove('hidden'); }
-}
-function hideSkeletons(){
-  const el = document.getElementById('newsLoadingState');
-  if(el) el.classList.add('hidden');
+let ARENA_NEWS = [];
+let newsActiveCategory = 'all';
+let newsLoaded = false;
+
+const NEWS_CAT_META = {
+  insurance:  { label: 'INSURANCE',    cls: 'insurance' },
+  markets:    { label: 'STOCK MARKET', cls: 'markets' },
+  regulatory: { label: 'REGULATORY',   cls: 'regulatory' },
+};
+
+function newsTimeAgo(iso) {
+  const diff = Date.now() - new Date(iso).getTime();
+  const mins = Math.floor(diff / 60000);
+  if (mins < 60) return mins <= 1 ? 'Just now' : mins + ' mins ago';
+  const hrs = Math.floor(mins / 60);
+  if (hrs < 24) return hrs === 1 ? '1 hour ago' : hrs + ' hours ago';
+  const days = Math.floor(hrs / 24);
+  return days === 1 ? '1 day ago' : days + ' days ago';
 }
 
-// ── NEWS STATUS BAR ──
-function renderStatusBar(data){
-  const bar  = document.getElementById('newsStatusBar');
-  const dot  = document.getElementById('nsbDot');
-  const cnt  = document.getElementById('nsbCount');
-  const cats = document.getElementById('nsbCats');
-  const time = document.getElementById('nsbTime');
-  if(!bar) return;
-  const count = (data.articles||[]).filter(isValidArticle).length;
-  if(count===0){ bar.classList.add('hidden'); return; }
-  const catCount = new Set((data.articles||[]).filter(isValidArticle).map(a=>a.category)).size;
-  cnt.textContent  = count + (count===1?' article':' articles');
-  cats.textContent = catCount + (catCount===1?' category':' categories');
-  if(data.lastUpdated){
-    try{
-      const d=new Date(data.lastUpdated);
-      const mo=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
-      const hh=d.getHours(),mm=String(d.getMinutes()).padStart(2,'0');
-      const ap=hh>=12?'PM':'AM',h=hh%12||12;
-      time.textContent=`Updated: ${d.getDate()} ${mo[d.getMonth()]} ${d.getFullYear()} • ${h}:${mm} ${ap}`;
-    }catch(e){ time.textContent=''; }
-  }
-  bar.classList.remove('hidden');
-}
-
-// ── CATEGORY FILTER COUNTS ──
-function updateCategoryFilters(){
-  const counts={};
-  allNewsData.forEach(a=>{ counts[a.category]=(counts[a.category]||0)+1; });
-  const labels={insurance:'Insurance',irdai:'IRDAI',mutualfunds:'Mutual Funds',
-    tax:'Tax',banking:'Banking',personalfinance:'Personal Finance',markets:'Markets'};
-  document.querySelectorAll('.news-cat').forEach(btn=>{
-    const cat=btn.dataset.ncat;
-    if(cat==='all'){
-      btn.textContent='All News'+(allNewsData.length?` (${allNewsData.length})`:'');
-    } else {
-      const n=counts[cat]||0;
-      btn.textContent=(labels[cat]||cat)+(n?` (${n})`:'');
+async function loadArenaNews() {
+  if (newsLoaded) { renderArenaNews(); return; }
+  const grid = document.getElementById('arenaNewsGrid');
+  if (grid) grid.innerHTML = '<div class="anews-loading">Loading latest financial news…</div>';
+  try {
+    const res = await fetch('./data/news.json?t=' + Math.floor(Date.now() / 600000)); // 10-min cache key
+    const data = await res.json();
+    ARENA_NEWS = data.articles || [];
+    newsLoaded = true;
+    // Status bar
+    const status = document.getElementById('arenaNewsStatus');
+    if (status && data.lastUpdated) {
+      status.textContent = 'Updated ' + newsTimeAgo(data.lastUpdated) + ' · ' + ARENA_NEWS.length + ' stories · Auto-refreshes every 6 hours';
     }
+    const tabSub = document.getElementById('newsUpdateTime');
+    if (tabSub && data.lastUpdated) tabSub.textContent = 'Updated ' + newsTimeAgo(data.lastUpdated);
+    renderArenaNews();
+  } catch (e) {
+    if (grid) grid.innerHTML = '<div class="anews-empty">📰 News temporarily unavailable. Please check back shortly.</div>';
+  }
+}
+
+function renderArenaNews() {
+  const grid = document.getElementById('arenaNewsGrid');
+  const featured = document.getElementById('arenaNewsFeatured');
+  if (!grid) return;
+
+  let list = newsActiveCategory === 'all'
+    ? ARENA_NEWS
+    : ARENA_NEWS.filter(a => a.category === newsActiveCategory);
+
+  // Update category counts
+  document.querySelectorAll('.anews-cat').forEach(btn => {
+    const cat = btn.dataset.cat;
+    const count = cat === 'all' ? ARENA_NEWS.length : ARENA_NEWS.filter(a => a.category === cat).length;
+    const badge = btn.querySelector('.anews-cat-count');
+    if (badge) badge.textContent = count;
   });
-}
 
-async function loadNews(){
-  showSkeletons();
-  document.getElementById('newsGrid')?.classList.add('hidden');
-  document.getElementById('newsFeatured').classList.add('hidden');
-  const ndd=document.getElementById('newsDateDisplay'); if(ndd) ndd.textContent=today();
-  try{
-    const res=await fetch('./data/news.json?t='+Date.now());
-    if(!res.ok) throw new Error('HTTP '+res.status);
-    const data=await res.json();
-    allNewsData=(data.articles||[]).filter(isValidArticle);
-    renderStatusBar(data);
-    if(data.lastUpdated){
-      const d=new Date(data.lastUpdated);
-      const mo=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
-      const hh=d.getHours(),mm=String(d.getMinutes()).padStart(2,'0');
-      const ap=hh>=12?'PM':'AM',h=hh%12||12;
-      const el=document.getElementById('newsUpdateTime');
-      if(el) el.textContent=`Updated ${h}:${mm} ${ap}`;
-    }
-  }catch(e){ allNewsData=[]; }
-  hideSkeletons();
-  document.getElementById('newsGrid')?.classList.remove('hidden');
-  updateCategoryFilters();
-  renderNewsDigest();
-  renderFeaturedStory();
-  renderNews();
-}
-
-// Runtime validation
-function isValidArticle(a){
-  if(!a||!a.title||a.title.length<8) return false;
-  if(!a.source||!a.url) return false;
-  if(typeof a.url!=='string'||!a.url.startsWith('https://')) return false;
-  if(a.url.includes('news.google.com/search')) return false;
-  try{ new URL(a.url); return true; }catch(e){ return false; }
-}
-
-function getFilteredNews(){
-  let list=activeNewsCat==='all'?allNewsData:allNewsData.filter(n=>n.category===activeNewsCat);
-  if(activeNewsSearch){
-    const words=activeNewsSearch.toLowerCase().split(/\s+/).filter(Boolean);
-    list=list.filter(n=>{const h=(n.title+' '+n.summary+' '+n.source).toLowerCase();return words.every(w=>h.includes(w));});
-  }
-  return list.filter(isValidArticle);
-}
-
-// ── TOP 10 HEADLINES DIGEST ──
-function renderNewsDigest(){
-  const top=allNewsData.filter(isValidArticle).slice(0,10);
-  const el=document.getElementById('newsDigest');
-  const list=document.getElementById('digestList');
-  if(!el||!list||top.length===0){ if(el) el.classList.add('hidden'); return; }
-  el.classList.remove('hidden');
-  const catLabel={insurance:'Insurance',irdai:'IRDAI',mutualfunds:'Mutual Funds',
-    tax:'Tax',banking:'Banking',personalfinance:'Personal Finance',markets:'Markets'};
-  list.innerHTML=top.map((n,i)=>`<div class="digest-item">
-    <span class="digest-num">${i+1}</span>
-    <div class="digest-body">
-      <div class="digest-cat">${catLabel[n.category]||n.category}</div>
-      <a class="digest-headline" href="${n.url}" target="_blank" rel="noopener noreferrer">${san(n.title)}</a>
-      <div class="digest-meta">${san(n.source)} · ${n.publishedAt?relativeDate(n.publishedAt):''}</div>
-    </div></div>`).join('');
-}
-
-// ── FEATURED STORY (latest article) ──
-function renderFeaturedStory(){
-  const wrap=document.getElementById('newsFeatured');
-  if(!wrap) return;
-  const article=allNewsData.filter(isValidArticle)[0];
-  if(!article){ wrap.classList.add('hidden'); return; }
-  const catLabel={insurance:'Insurance',irdai:'IRDAI',mutualfunds:'Mutual Funds',
-    tax:'Tax',banking:'Banking',personalfinance:'Personal Finance',markets:'Markets'};
-  wrap.classList.remove('hidden');
-  wrap.innerHTML=`<div class="news-card-featured">
-    <div class="ncf-label">⭐ Featured Story</div>
-    <div class="ncf-top">
-      <span class="news-source">📰 ${san(article.source)}</span>
-      <span class="news-cat-badge ${article.category||'insurance'}">${catLabel[article.category]||'NEWS'}</span>
-    </div>
-    <a class="ncf-title" href="${article.url}" target="_blank" rel="noopener noreferrer">${san(article.title)}</a>
-    <div class="ncf-summary">${san(article.summary)}</div>
-    <div class="ncf-footer">
-      <div class="ncf-meta"><strong>${san(article.source)}</strong> · ${article.publishedAt?relativeDate(article.publishedAt):''}</div>
-      <a class="ncf-read" href="${article.url}" target="_blank" rel="noopener noreferrer">Read Article →</a>
-    </div>
-  </div>`;
-}
-
-// ── NEWS CARDS (XSS-safe: data-* attributes, no inline onclick) ──
-function renderNews(){
-  const filtered=getFilteredNews();
-  const catLabel={insurance:'INSURANCE',irdai:'IRDAI',mutualfunds:'MUTUAL FUNDS',
-    tax:'TAX',banking:'BANKING',personalfinance:'PERSONAL FINANCE',markets:'MARKETS'};
-  const grid=document.getElementById('newsGrid'); if(!grid) return;
-  if(filtered.length===0){
-    const searching=activeNewsSearch||activeNewsCat!=='all';
-    grid.innerHTML=searching
-      ?'<div class="news-empty-state"><div class="nes-icon">🔍</div><div class="nes-title">No articles match your filter</div><div class="nes-text">Try a different category or clear the search.</div></div>'
-      :'<div class="news-empty-state"><div class="nes-icon">📰</div><div class="nes-title">News Refreshing Soon</div><div class="nes-text">Articles auto-update at <strong>7 AM</strong> and <strong>4 PM IST</strong>.</div></div>';
+  if (list.length === 0) {
+    if (featured) featured.innerHTML = '';
+    grid.innerHTML = '<div class="anews-empty">No stories in this category right now. Check back after the next update.</div>';
     return;
   }
-  const bm=getBM();
-  // Skip index 0 if it's the featured story and no filter active
-  const startIdx=(activeNewsCat==='all'&&!activeNewsSearch&&allNewsData.length>0&&filtered[0]===allNewsData[0])?1:0;
-  const gridArticles=filtered.slice(startIdx);
-  grid.innerHTML=gridArticles.map(n=>{
-    const isBm=bm.articles.some(a=>a.url===n.url);
-    return `<div class="news-card">
-      <div class="news-card-top">
-        <span class="news-source">📰 ${san(n.source)}</span>
-        <span class="news-cat-badge ${n.category||'insurance'}">${catLabel[n.category]||'NEWS'}</span>
-      </div>
-      <a class="news-title-link" href="${n.url}" target="_blank" rel="noopener noreferrer">${san(n.title)}</a>
-      <div class="news-summary">${san(n.summary)}</div>
-      <div class="news-footer">
-        <span class="news-date">${n.publishedAt?relativeDate(n.publishedAt):''}</span>
-        <div style="display:flex;align-items:center;gap:6px">
-          <button class="bm-icon${isBm?' saved':''}"
-            data-bm-url="${san(n.url)}"
-            data-bm-title="${san(n.title)}"
-            data-bm-source="${san(n.source)}"
-            title="${isBm?'Remove bookmark':'Save article'}">🔖</button>
-          <a class="news-read-btn" href="${n.url}" target="_blank" rel="noopener noreferrer">Read full article →</a>
+
+  // Featured = newest story in current filter
+  const [hero, ...rest] = list;
+  if (featured) {
+    const cm = NEWS_CAT_META[hero.category] || NEWS_CAT_META.markets;
+    featured.innerHTML = `
+      <a href="${san(hero.url)}" target="_blank" rel="noopener noreferrer" class="anews-hero">
+        <div class="anews-hero-top">
+          <span class="anews-badge ${cm.cls}">${cm.label}</span>
+          <span class="anews-time">${newsTimeAgo(hero.publishedAt)}</span>
         </div>
+        <div class="anews-hero-title">${san(hero.title)}</div>
+        ${hero.summary ? `<div class="anews-hero-summary">${san(hero.summary)}</div>` : ''}
+        <div class="anews-hero-footer">
+          <span class="anews-source">📰 ${san(hero.source)}</span>
+          <span class="anews-read">Read Full Article →</span>
+        </div>
+      </a>`;
+  }
+
+  grid.innerHTML = rest.map(a => {
+    const cm = NEWS_CAT_META[a.category] || NEWS_CAT_META.markets;
+    return `
+    <a href="${san(a.url)}" target="_blank" rel="noopener noreferrer" class="anews-card">
+      <div class="anews-card-top">
+        <span class="anews-badge ${cm.cls}">${cm.label}</span>
+        <span class="anews-time">${newsTimeAgo(a.publishedAt)}</span>
       </div>
-    </div>`;
+      <div class="anews-card-title">${san(a.title)}</div>
+      ${a.summary ? `<div class="anews-card-summary">${san(a.summary)}</div>` : ''}
+      <div class="anews-card-footer">
+        <span class="anews-source">📰 ${san(a.source)}</span>
+        <span class="anews-read">Read →</span>
+      </div>
+    </a>`;
   }).join('');
 }
 
-// ── BOOKMARK EVENT DELEGATION (XSS-safe) ──
-document.getElementById('newsGrid')?.addEventListener('click', function(e){
-  const btn = e.target.closest('[data-bm-url]');
-  if(!btn) return;
-  e.preventDefault(); e.stopPropagation();
-  const url    = btn.dataset.bmUrl;
-  const title  = btn.dataset.bmTitle;
-  const source = btn.dataset.bmSource;
-  if(!url) return;
-  toggleBMArticle(url, title, source);
-  btn.classList.toggle('saved', getBM().articles.some(a=>a.url===url));
-});
-
-// Category filter
-document.querySelectorAll('.news-cat').forEach(btn=>btn.addEventListener('click',()=>{
-  document.querySelectorAll('.news-cat').forEach(b=>b.classList.remove('active'));
+// Category filter clicks
+document.addEventListener('click', function(e) {
+  const btn = e.target.closest('.anews-cat');
+  if (!btn) return;
+  document.querySelectorAll('.anews-cat').forEach(b => b.classList.remove('active'));
   btn.classList.add('active');
-  activeNewsCat=btn.dataset.ncat;
-  renderNews();
-}));
-// Search
-document.getElementById('newsSearch')?.addEventListener('input',function(){
-  activeNewsSearch=this.value.trim();
-  document.getElementById('newsSearchClear')?.classList.toggle('hidden',!activeNewsSearch);
-  renderNews();
+  newsActiveCategory = btn.dataset.cat;
+  renderArenaNews();
 });
-function clearNewsSearch(){ activeNewsSearch='';const ns=document.getElementById('newsSearch');if(ns)ns.value='';document.getElementById('newsSearchClear')?.classList.add('hidden');renderNews(); }
 
 // ════════════════════════════════════════
 // LEARNING SECTION — Topics + Dict + Claims
