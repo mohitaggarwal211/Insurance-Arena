@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T22:39:58.916Z",
+  "lastUpdated": "2026-07-04T09:33:16.581Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,94 @@
     }
   ],
   "articles": [
+    {
+      "title": "India-Israel BIA decoded: What's in it for businesses and investors?",
+      "summary": "The India-Israel Bilateral Investment Agreement (BIA), signed in September 2025, has come into force from July 4, 2026, replacing the nearly three-decade-old investment treaty between the two countries.",
+      "url": "https://www.businesstoday.in/latest/economy/story/india-israel-bia-decoded-whats-in-it-for-businesses-and-investors-540994-2026-07-04?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "insurance",
+      "publishedAt": "2026-07-04T08:27:02.000Z"
+    },
+    {
+      "title": "Mumbai-Ahmedabad bullet train: India to get its 1st high-speed rail service by 2027; check key features, travel time & more",
+      "summary": "India's first bullet train is set to begin its journey by 2027, with the Surat to Bilimora section slated for inauguration. Union Railway Minister Ashwini Vaishnaw announced that construction on the Mumbai-Ahmedabad corridor has surpassed 80% completion.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/mumbai-ahmedabad-bullet-train-india-to-get-its-1st-high-speed-rail-service-by-2027-check-key-features-travel-time-more/articleshow/132177187.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-04T08:07:02.000Z"
+    },
+    {
+      "title": "Year after calling India 'dead economy', Trump says country 'doing very well at 7-8%'",
+      "summary": "US President Donald Trump has lauded India's robust economic growth, a significant departure from his past criticisms. He cited India's 7-8% growth as an example of strong performance that shouldn't be stifled by high interest rates.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/year-after-calling-india-dead-economy-donald-trump-says-country-doing-very-well-at-7-8/articleshow/132176700.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-04T07:23:32.000Z"
+    },
+    {
+      "title": "India eyes $1 trillion exports milestone: Amid global turmoil, which sectors will drive growth? Decoded",
+      "summary": "During the April-June quarter, exports saw a 15% growth in merchandise shipments and around 11% in services exports. Which sectors have contributed to exports growth? What role has the PLI scheme played and will trade deals help expedite growth? We decode:",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/india-eyes-1-trillion-exports-milestone-amid-global-turmoil-which-sectors-will-drive-growth-decoded/articleshow/132175250.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-04T07:01:19.000Z"
+    },
+    {
+      "title": "India allows four Chinese firms into critical power tenders; Congress attacks move",
+      "summary": "India has permitted four Chinese power equipment manufacturers with local production to bid on critical government power projects for two years. This relaxation, aimed at accelerating power network expansion and renewable energy integration, follows a power ministry request.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/india-allows-four-chinese-firms-into-critical-power-tenders-congress-attacks-move/articleshow/132175458.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-04T06:00:53.000Z"
+    },
+    {
+      "title": "Fuel prices explained: Why oil companies are still losing ₹19 on diesel and ₹6 on petrol",
+      "summary": "State-run oil marketing companies (OMCs) lost an estimated ₹18.9 on every litre of diesel and ₹6 on every litre of petrol during the April-June quarter, even as pump prices remained largely unchanged.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/fuel-prices-explained-why-oil-companies-are-still-losing-rs19-on-diesel-and-rs6-on-petrol-540984-2026-07-04?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-04T05:36:06.000Z"
+    },
+    {
+      "title": "'The Trump economy is soaring': US Prez cites stock market rally, tax cuts ahead of I-Day",
+      "summary": "US President Donald Trump declared the American economy is \"soaring,\" citing record stock market highs, increased exports, and investment as proof of a new growth era.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/the-trump-economy-is-soaring-us-president-cites-stock-market-rally-and-tax-cuts-ahead-of-independence-day/articleshow/132175114.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-04T05:24:54.000Z"
+    },
+    {
+      "title": "‘It’s an epidemic now!’: Tesla batteries keep getting stolen; here’s what’s happening",
+      "summary": "Law enforcement officials are particularly concerned by the rise of so-called strategic thefts, in which organised groups exploit weaknesses in supply chain security rather than stealing unattended trailers.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/its-an-epidemic-now-tesla-batteries-keep-getting-stolen-heres-whats-happening-540869-2026-07-04?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-04T05:00:03.000Z"
+    },
+    {
+      "title": "Karnataka HC directs Swiggy, Zomato, Zepto and others to deposit gig workers' welfare fee within 3 weeks",
+      "summary": "Refusing to grant an interim stay on the Karnataka Gig Workers Welfare Act, the Karnataka High Court has directed Swiggy, Zomato, Zepto and other app-based aggregators to deposit the disputed welfare fee with the court within three weeks.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/karnataka-hc-directs-swiggy-zomato-zepto-and-others-to-deposit-gig-workers-welfare-fee-within-3-weeks-540983-2026-07-04?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-04T04:35:13.000Z"
+    },
+    {
+      "title": "Online food delivery isn't slowing down: Why Indians are ordering more than ever",
+      "summary": "Online food delivery is set to become one of the biggest growth engines of India's food services industry, with consumers ordering more frequently than ever before.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/online-food-delivery-isnt-slowing-down-why-indians-are-ordering-more-than-ever-540951-2026-07-04?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "insurance",
+      "publishedAt": "2026-07-04T02:05:02.000Z"
+    },
+    {
+      "title": "Quote of the Day by Rakesh Jhunjhunwala: ‘I'd be lying if I said I didn't like...’",
+      "summary": "Rakesh Jhunjhunwala (1960-2022) was a legendary Indian billionaire investor and stock trader often referred to as the “Big Bull” of India or the “Indian Warren Buffett”.",
+      "url": "https://www.businesstoday.in/latest/trends/story/quote-of-the-day-by-rakesh-jhunjhunwala-id-be-lying-if-i-said-i-didnt-like-540707-2026-07-04?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-04T02:00:02.000Z"
+    },
     {
       "title": "AI boom lifts industrial engineers' pay packages",
       "summary": "India's burgeoning AI data-centre sector is creating a surge in demand for mechanical, electrical, and industrial engineers. These professionals, once overlooked, are now commanding significant salaries as companies build energy-intensive AI infrastructure.",
@@ -225,36 +313,12 @@
       "publishedAt": "2026-07-03T11:04:59.000Z"
     },
     {
-      "title": "EU–US goods trade hits record €875 billion despite tariffs: Study",
-      "summary": "Despite tariffs, EU-US trade hit a record €875 billion last year. However, a new study reveals underlying strain, particularly for Germany's auto sector, which saw a significant export drop.",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/euus-goods-trade-hits-record-875-billion-despite-tariffs-study/articleshow/132159394.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-03T10:54:44.000Z"
-    },
-    {
-      "title": "Oil slips to pre-Iran war levels: Is a petrol, diesel price cut coming?",
-      "summary": "Petrol and diesel prices in India have risen by around Rs 7.5 per litre since May 15. The first hike in the retail rates came over two and a half months after the US-Iran war began. Private retailer Nayara Energy has already cut rates of petrol and diesel.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/us-iran-conflict-crude-oil-slips-to-pre-war-levels-is-a-petrol-diesel-price-cut-coming-in-india/articleshow/132159174.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-03T10:49:27.000Z"
-    },
-    {
       "title": "₹35K Crore Maruti Plant — India’s Auto Ambitions Hit High Gear",
       "summary": "Maruti Suzuki inaugurates ₹35,000 crore Kharkhoda plant in Haryana with 500,000-unit capacity, advanced robotics, and plans to scale to 1 million, boosting India’s auto industry.",
       "url": "https://www.businesstoday.in/latest/trends/photo/rs35k-crore-maruti-plant-indias-auto-ambitions-hit-high-gear-540868-2026-07-03?utm_source=rssfeed",
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-07-03T10:46:20.000Z"
-    },
-    {
-      "title": "ToneTag eKosha to convert UPI soundboxes into banking touch points",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/tonetag-ekosha-to-convert-upi-soundboxes-into-banking-touch-points/articleshow/132159165.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-03T10:35:49.000Z"
     },
     {
       "title": "Prime EV Deal — Hyundai Creta Offers Battery Rental and Long-Range Variant",
@@ -273,14 +337,6 @@
       "publishedAt": "2026-07-03T10:09:39.000Z"
     },
     {
-      "title": "New Gold Monetisation Scheme in the works: How government aims to reduce dependence on imported gold",
-      "summary": "The proposal has gained traction following multiple meetings held over the past two weeks involving senior government ministers, officials from the Reserve Bank of India, banks and representatives of the gold industry, the report said.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/new-gold-monetisation-scheme-in-the-works-how-government-aims-to-reduce-dependence-on-imported-gold/articleshow/132158279.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-03T10:01:38.000Z"
-    },
-    {
       "title": "Your mobile network could be at risk: ₹1 crore tower theft racket busted, devices smuggled abroad",
       "summary": "Gang's high‑tech haul worth Rs 1 crore is seized as police foil racket that shipped stolen tower gear to Thailand and Hong Kong.",
       "url": "https://www.businesstoday.in/latest/world/story/your-mobile-network-could-be-at-risk-rs1-crore-tower-theft-racket-busted-devices-smuggled-abroad-540776-2026-07-03?utm_source=rssfeed",
@@ -295,14 +351,6 @@
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-07-03T09:11:12.000Z"
-    },
-    {
-      "title": "Why Delhi's EV policy poses big risk if adopted by other states",
-      "summary": "Delhi's new EV Policy 2026 aims to accelerate clean mobility by phasing out petrol and CNG two-wheelers by April 2028 and mandating electric three-wheelers from 2027.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/delhis-ev-policy-poses-big-risk-if-adopted-by-other-states-warns-report-heres-why/articleshow/132156030.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-03T09:00:42.000Z"
     },
     {
       "title": "₹9,330 crore unclaimed in 30.9 lakh dormant EPF accounts, enough to build 3 IITs: RTI",
@@ -327,54 +375,6 @@
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-07-03T07:16:04.000Z"
-    },
-    {
-      "title": "What is ATM jackpotting? How malware helped thieves steal $529,000 from cash machines",
-      "summary": "The alleged thefts took place over a 10-day period in August 2025, when the group targeted at least nine ATMs located at Interstate 95 rest stops and other locations across the state",
-      "url": "https://www.businesstoday.in/latest/world/story/what-is-atm-jackpotting-how-malware-helped-thieves-steal-529000-from-cash-machines-540594-2026-07-03?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-03T06:00:32.000Z"
-    },
-    {
-      "title": "‘I’m an Artist, not a politician’: Diljit Dosanjh distances himself from CJP protest",
-      "summary": "Addressing the issue during an Instagram Live, Dosanjh responded to a fan who asked for his views on the protest. Making his position clear, he said, “Bro, I’m an artist. I’m not a politician. Please keep me away from all this”",
-      "url": "https://www.businesstoday.in/latest/trends/story/im-an-artist-not-a-politician-diljit-dosanjh-distances-himself-from-cjp-protest-540721-2026-07-03?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-03T05:51:05.000Z"
-    },
-    {
-      "title": "Mandatory PF capped at ₹1800! Will Your in hand salary increase?",
-      "summary": "The new scheme, notified under the Code on Social Security, 2020, seeks to simplify provident fund rules, modernise compliance and provide greater flexibility without diluting retirement benefits",
-      "url": "https://www.businesstoday.in/personal-finance/story/mandatory-pf-capped-at-1800-will-your-in-hand-salary-increase-540730-2026-07-03?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-03T05:38:36.000Z"
-    },
-    {
-      "title": "'Couldn't even imagine saving for...': NYC couple on why they chose to settle in Italy",
-      "summary": "Instead of settling in one of Italy's tourist hotspots, the family chose a quiet village in Abruzzo with a population of around 1,300",
-      "url": "https://www.businesstoday.in/latest/trends/story/couldnt-even-imagine-saving-for-nyc-couple-on-why-they-chose-to-settle-in-italy-540570-2026-07-03?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-03T04:30:05.000Z"
-    },
-    {
-      "title": "Virtual digital assets like cryptocurrency a threat to economy: RBI tells parliamentary panel",
-      "summary": "The central bank told the committee that VDAs should not be legalised in India at this stage, citing the risks they pose to the country's financial system.",
-      "url": "https://www.businesstoday.in/latest/economy/story/virtual-digital-assets-like-cryptocurrency-a-threat-to-economy-rbi-tells-parliamentary-panel-540705-2026-07-03?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "regulatory",
-      "publishedAt": "2026-07-03T04:18:34.000Z"
-    },
-    {
-      "title": "Business wisdom of the day: 'Learning is just like sailing against the current...'",
-      "summary": "The proverb originates from ancient Chinese texts (most notably attributed to Xunzi, a Confucian philosopher) and uses a powerful visual metaphor.",
-      "url": "https://www.businesstoday.in/latest/trends/story/business-wisdom-of-the-day-learning-is-just-like-sailing-against-the-current-540678-2026-07-03?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-03T03:00:02.000Z"
     }
   ]
 }
