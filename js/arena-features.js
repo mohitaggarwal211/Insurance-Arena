@@ -192,7 +192,7 @@ function renderPinBar() {
 // ─────────────────────────────────────────────
 // 5. PLAN OF THE DAY (deterministic daily rotation, no backend)
 // ─────────────────────────────────────────────
-function renderPlanOfTheDay() {
+function renderPlanOfTheDay() { return; // Feature removed — Plan Spotlight may create bias perception
   const box = document.getElementById('podCard'); if (!box) return;
   if (typeof PRODUCT_REGISTRY === 'undefined' || !PRODUCT_REGISTRY || !PRODUCT_REGISTRY.length) return;
   // Deterministic index from date — same plan for all users on the same day
@@ -279,7 +279,7 @@ document.addEventListener('DOMContentLoaded', function() {
   initWhatsNew();
   renderClientProfileChips();
   // Registry builds on a timeout in product-meta.js, so wait slightly longer
-  setTimeout(function() { renderPinBar(); renderPlanOfTheDay(); }, 400);
+  setTimeout(function() { renderPinBar(); }, 400);
 });
 
 // ─────────────────────────────────────────────

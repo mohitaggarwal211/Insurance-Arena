@@ -9,7 +9,7 @@ const ULIP_PLANS = [
   {
     company: 'ABSLI', plan: 'Platinum Gain Plan', uin: '109L142V01',
     isBase: true, type: 'ULIP Non-Par', status: 'Active',
-    url: 'https://lifeinsurance.adityabirlacapital.com/ulip-plans/absli-platinum-gain-plan/',
+    url: 'https://lifeinsurance.adityabirlacapital.com/ulip-plan/absli-platinum-gain-plan/',
     brochure: 'https://lifeinsurance.adityabirlacapital.com/uploads/ABSLI_Platinum_Gain_Plan_V1_Leaflet_vfadv_ea71a7ae3d.pdf',
     entryAge: '18 – 65 yrs', maturityAge: 'Min 30 / Max 85',
     ppt: 'Limited 5–12 yrs | Regular 10–20 yrs', pt: '10 – 20 yrs',
@@ -34,7 +34,7 @@ const ULIP_PLANS = [
   {
     company: 'ABSLI', plan: 'Wealth Infinia', uin: '109L129V03',
     isBase: true, type: 'ULIP Non-Par', status: 'Active',
-    url: 'https://lifeinsurance.adityabirlacapital.com/ulip-plans/absli-wealth-infinia-plan/',
+    url: 'https://lifeinsurance.adityabirlacapital.com/ulip-plan/absli-wealth-infinia-plan/',
     brochure: 'https://lifeinsurance.adityabirlacapital.com/uploads/ABSLI_Wealth_Infinia_V3_Leaflet_vfadv_9dd124bb66.pdf',
     entryAge: '18 – 65 yrs', maturityAge: 'Legacy: up to 100 | Milestone: up to 85',
     ppt: 'Single | Limited 5–20 yrs | Regular 10–30 yrs', pt: '10 – 30 yrs (Legacy) | Up to 100 minus entry age',
@@ -85,7 +85,7 @@ const ULIP_PLANS = [
   {
     company: 'SBI Life', plan: 'eWealth Plus', uin: '111L147V01',
     isBase: false, type: 'ULIP Non-Par', status: 'Active',
-    url: 'https://www.sbilife.co.in/ulip/ewealth-plus',
+    url: 'https://www.sbilife.co.in/life-insurance-plans/unit-linked-plans/ewealth-plus',
     brochure: 'https://www.sbilife.co.in/ewealth-plus-brochure',
     entryAge: 'Verify from brochure', maturityAge: 'Verify from brochure',
     ppt: 'Verify from brochure', pt: 'Verify from brochure',
@@ -145,7 +145,7 @@ const ULIP_PLANS = [
   {
     company: 'Kotak Life', plan: 'e-Invest', uin: '107L121V02',
     isBase: false, type: 'ULIP Non-Par', status: 'Active',
-    url: 'https://kotaklife.com/online-plans/ulip-plan/kotak-e-invest',
+    url: 'https://www.kotaklife.com/online-plans/ulip-plan/kotak-e-invest',
     brochure: 'https://www.kotaklife.com/assets/images/uploads/insurance-plans/Kotak_E_Invest_-_Brochure.pdf',
     entryAge: 'Maximizer: 3–55 yrs | Rising Star: 18–45 yrs | Retire Rich: 3–50 yrs',
     maturityAge: 'Maximizer: 18–75 yrs | Rising Star: 28–60 yrs | Retire Rich: Fixed at 99 yrs',

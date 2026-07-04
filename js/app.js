@@ -1210,7 +1210,7 @@ function switchMode(mode) {
       if (el) el.classList.toggle('hidden', !isPlans);
     });
   } else {
-    const catEl = { par:'sec-par', nonpar:'sec-nonpar', annuity:'sec-annuity' }[activeCat];
+    const catEl = { par:'sec-par', nonpar:'sec-nonpar', ulip:'sec-ulip', annuity:'sec-annuity' }[activeCat];
     if (catEl) {
       const el = document.getElementById(catEl);
       if (el) el.classList.toggle('hidden', !isPlans);
