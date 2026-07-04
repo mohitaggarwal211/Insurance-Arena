@@ -9,6 +9,10 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Syne:wght@700;800&display=swap" rel="stylesheet"/>
 <link rel="stylesheet" href="css/style.css"/>
+<link rel="manifest" href="manifest.json"/>
+<meta name="theme-color" content="#0D1B2A"/>
+<script>try{var t=JSON.parse(localStorage.getItem('ia_theme'));if(!t)t=(window.matchMedia&&window.matchMedia('(prefers-color-scheme: light)').matches)?'light':'dark';document.documentElement.setAttribute('data-theme',t);}catch(e){}</script>
+<link rel="apple-touch-icon" href="icons/icon-192.png"/>
   <!-- Google Analytics 4 -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-6GP0N6QYWB"></script>
   <script>
@@ -51,7 +55,9 @@
       <button class="nav-btn" data-sec="tools">Calculators</button>
     </nav>
     <div class="hdr-actions">
-      
+      <button class="hdr-icon-btn" id="themeToggle" onclick="toggleTheme()" title="Switch Light/Dark Mode">☀️</button>
+      <button class="hdr-icon-btn wn-bell" onclick="openWhatsNew()" title="What's New">🔔<span class="wn-badge hidden" id="whatsNewBadge"></span></button>
+      <button class="hdr-icon-btn" onclick="openAdvisorSettings()" title="My Advisor Profile">⚙️</button>
       <button class="hdr-icon-btn" onclick="openSearch()" title="Search">🔍</button>
     </div>
     <button class="hamburger" id="hamburger" aria-label="Menu">☰</button>
@@ -89,6 +95,12 @@
   </div>
 </div>
 
+<!-- PINNED PLANS QUICK BAR -->
+<div class="pin-bar hidden" id="pinBar"></div>
+
+<!-- PLAN OF THE DAY -->
+<div class="pod-card hidden" id="podCard"></div>
+
 <!-- MAIN -->
 <main class="main-wrap">
 
@@ -97,7 +109,7 @@
     <div class="cat-tabs-wrap"><div class="cat-scroll-wrap">
       <div class="cat-tabs">
         <button class="cat-btn active" data-cat="term">Term Insurance</button>
-        <button class="cat-btn coming" data-cat="ulip">ULIP <span class="soon-tag">Soon</span></button>
+        <button class="cat-btn" data-cat="ulip">ULIP</button>
         <button class="cat-btn" data-cat="par">Participating</button>
         <button class="cat-btn" data-cat="nonpar">Non-Par</button>
         <button class="cat-btn coming" data-cat="tulip">TULIP <span class="soon-tag">Soon</span></button>
@@ -163,6 +175,11 @@
     <!-- ═══ PARTICIPATING — ANMOL AKSHAYA ═══ -->
     <div class="hidden" id="sec-par">
       <div class="prod-wrap" id="parWrap"></div>
+    </div>
+
+    <!-- ═══ ULIP ═══ -->
+    <div class="hidden" id="sec-ulip">
+      <div class="prod-wrap" id="ulipWrap"></div>
     </div>
 
     <!-- ═══ NON-PAR — 3 PRODUCTS ═══ -->
@@ -493,10 +510,12 @@
 <script src="js/anmol-data.js"></script>
 <script src="js/nishchit-data.js"></script>
 <script src="js/savings-income-data.js"></script>
+<script src="js/ulip-data.js"></script>
 <script src="js/learn-data.js"></script>
 <script src="js/product-meta.js"></script>
 <script src="js/avb-toolkit.js"></script>
 <script src="js/new-features.js"></script>
+<script src="js/arena-features.js"></script>
 <script src="js/app.js"></script>
 
   <!-- SEARCH OVERLAY -->
@@ -529,6 +548,39 @@
 
   <!-- TOAST -->
   <div class="ia-toast" id="iaToast"></div>
+
+<!-- ADVISOR SETTINGS MODAL -->
+<div class="arena-modal hidden" id="advisorModal">
+  <div class="arena-modal-box">
+    <div class="arena-modal-head">
+      <h3>⚙️ My Advisor Profile</h3>
+      <button class="arena-modal-close" onclick="closeAdvisorSettings()">×</button>
+    </div>
+    <p class="arena-modal-sub">Saved only on this device. Auto-fills your details in every WhatsApp &amp; Email message you generate.</p>
+    <label class="am-label">Full Name</label>
+    <input type="text" id="advName" class="am-input" placeholder="e.g. Mohit Aggarwal">
+    <label class="am-label">Designation</label>
+    <input type="text" id="advDesig" class="am-input" placeholder="e.g. Senior Insurance Advisor">
+    <label class="am-label">Phone / WhatsApp</label>
+    <input type="text" id="advPhone" class="am-input" placeholder="e.g. +91 98XXXXXXXX">
+    <label class="am-label">Email (optional)</label>
+    <input type="text" id="advEmail" class="am-input" placeholder="e.g. you@email.com">
+    <button class="am-save-btn" onclick="saveAdvisorProfile()">💾 Save Profile</button>
+    <div class="am-save-msg" id="advSaveMsg"></div>
+  </div>
+</div>
+
+<!-- WHAT'S NEW MODAL -->
+<div class="arena-modal hidden" id="whatsNewModal">
+  <div class="arena-modal-box">
+    <div class="arena-modal-head">
+      <h3>🔔 What's New</h3>
+      <button class="arena-modal-close" onclick="closeWhatsNew()">×</button>
+    </div>
+    <p class="arena-modal-sub">Product launches, plan revisions and platform updates.</p>
+    <div id="whatsNewList"></div>
+  </div>
+</div>
 
 </body>
 </html>
