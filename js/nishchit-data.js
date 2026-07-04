@@ -1,14 +1,10 @@
 // Data verified: July 2026 (monthly review protocol)
 // NISHCHIT AAYUSH — NON-PAR GUARANTEED INCOME COMPARISON
-// Benchmark: Age 35 | Male | ₹1L AP | PPT 10 | PT 20 | 0 Deferment
+// Compliance rule: NO benchmark-tied rupee figures, NO IRR. Only structural features
+// that hold true regardless of the customer's chosen age/PPT/PT/premium/SA.
+// Category-defining feature: guaranteed income starts DURING the Premium Payment Term
+// itself (Year 1 or 2) — not after PPT ends, unlike most guaranteed-income plans in market.
 // ══════════════════════════════════════════════════════
-
-const NISHCHIT_BENCHMARK = {
-  age: 35, gender: 'Male', ap: 100000, ppt: 10, pt: 20, deferment: 0,
-  totalPremium: 1000000,
-  incomeStart: 'Year 1 (0 deferment)',
-  note: 'All figures from official benefit illustrations. Non-par plans offer fully guaranteed returns — no bonus element.'
-};
 
 const NISHCHIT_PLANS = [
   {
@@ -21,27 +17,31 @@ const NISHCHIT_PLANS = [
     isBase: true,
     productUrl: 'https://lifeinsurance.adityabirlacapital.com/savings-plans/absli-nishchit-aayush-plan/',
     brochureUrl: 'https://lifeinsurance.adityabirlacapital.com/',
-    incomeFrom: 'Year 1',
-    incomeType: 'Level (fixed)',
-    annualIncome: 35050,
-    incomePeriod: 20,
-    totalIncome: 701000,          // 35050 × 20
-    lumpsum: 1100000,             // Maturity lump sum
-    totalReturn: 1801000,         // 7,01,000 + 11,00,000
-    sa: 1100000,                  // 10× AP
+    incomeFrom: 'Year 1 (0 deferment)',
+    incomeType: 'Level (fixed amount every year — does not increase or decrease)',
+    incomePeriod: 'Equal to Policy Term',
+    saMultiple: 'Varies by age band and PPT — refer brochure for exact multiple',
     guaranteed: true,
     ropOnDeath: true,
+    hasLumpSum: true,
     dataSource: 'Verified — ABSLI Official Brochure',
     dataDate: '2025',
-    uniqueFeature: 'Income from Year 1 (0 deferment). Guaranteed level income for 20 years. Large lump sum at maturity. 10× SA life cover.',
-    pitch: 'Pay for limited years, get guaranteed level income every year for 20 years + guaranteed lump sum at maturity — 100% Non-Par guaranteed.',
-    tag: 'Highest Total Return'
+    uniqueFeature: 'Income starts from Year 1 — no deferment period. Guaranteed level income for the full Policy Term. Guaranteed lump sum also payable at maturity, in addition to the yearly income.',
+    pitch: 'Pay for a limited number of years, then receive guaranteed level income every single year for the rest of the Policy Term — plus a guaranteed lump sum at maturity. 100% Non-Par, fully guaranteed.',
+    keyHighlights: [
+      'Income starts from Year 1 of the policy — zero deferment',
+      'Level (fixed) income — same guaranteed amount every year, no fluctuation',
+      'Income period runs for the full Policy Term',
+      'Guaranteed lump sum paid at maturity, in addition to yearly income already received',
+      'Return of Premium on death — guaranteed'
+    ],
+    tag: 'Income from Year 1'
   },
   {
     id: 'icici',
     company: 'ICICI Pru',
     companyFull: 'ICICI Prudential Life Insurance',
-    plan: 'GIFT Select (105N223V05)', entryAge: '18 – 60 yrs',
+    plan: 'GIFT Select', entryAge: '18 – 60 yrs',
     uin: '105N223V05',
     type: 'Non-Linked, Non-Participating',
     isBase: false,
@@ -49,52 +49,58 @@ const NISHCHIT_PLANS = [
     brochureUrl: 'https://www.iciciprulife.com/',
     calcUrl: 'https://www.iciciprulife.com/protection-saving-plans/icici-pru-gift-select.html',
     incomeFrom: 'Year 2',
-    incomeType: 'Increasing (5% compounding per year)',
-    annualIncomeY2: 18180,        // Year 2 income (start)
-    incomePeriod: 19,             // Years 2–20
-    cashback: 50000,              // Instant cashback at inception
-    totalIncome: 555199,          // ~19 payments increasing at 5%
-    lumpsum: 1000000,             // 100% of premiums at maturity
-    totalReturn: 1605199,         // 50K + 5.55L + 10L
-    sa: 1000000,                  // 10× AP
+    incomeType: 'Increasing — grows at a fixed 5% compounding rate every year (this 5% rate is fixed regardless of age/premium/PPT/PT chosen)',
+    incomePeriod: 'Years 2 through end of Policy Term',
+    cashbackFeature: true, cashbackNote: 'Instant Cashback paid at policy issuance (Year 0) — amount depends on premium chosen, not a fixed figure',
+    saMultiple: 'Varies by age band and PPT — refer brochure for exact multiple',
     guaranteed: true,
     ropOnDeath: true,
-    illustrationBasis: 'Female, Age 35 (male rate may differ marginally)',
+    hasLumpSum: true, lumpSumNote: '100% of premiums paid, returned at maturity',
     dataSource: 'Verified — ICICI Pru Official Brochure',
     dataDate: '2025',
-    note: '⚠️ Illustration is for female (Age 35). Male rate may differ slightly. Income is increasing at 5% compounding — not level. Instant Cashback at issuance reduces future income slightly.',
-    uniqueFeature: 'Income from Year 2. Instant Cashback at policy issuance. Increasing income at 5% compounding. 100% maturity benefit.',
-    pitch: 'Get Instant Cashback at policy issuance, then increasing income from Year 2 + full premiums back at maturity.',
-    tag: 'Instant Cashback'
+    uniqueFeature: 'Instant Cashback paid immediately at policy issuance — before any premium payment cycle completes. Income from Year 2 onward grows at a fixed 5% compounding rate every year. Full return of premiums at maturity.',
+    pitch: 'Get an Instant Cashback the moment your policy is issued, then guaranteed income from Year 2 that grows every year — plus full return of premiums at maturity.',
+    keyHighlights: [
+      'Instant Cashback at policy issuance — income starts before Year 1 even completes',
+      'Income from Year 2 increases at a fixed 5% compounding rate annually',
+      'Income continues through the end of the Policy Term',
+      '100% of premiums paid returned as maturity benefit',
+      'Return of Premium on death — guaranteed'
+    ],
+    tag: 'Instant Cashback at Issuance'
   },
   {
     id: 'axis',
     company: 'Axis Max Life',
     companyFull: 'Axis Max Life Insurance',
-    plan: 'Smart Wealth Advantage Guarantee (Early Wealth, PT 20)', entryAge: '18 – 65 yrs',
+    plan: 'Smart Wealth Advantage Guarantee Plan (Early Wealth Variant)', entryAge: '91 days – 65 yrs (18 yrs min if Policy Continuance Benefit opted)',
     uin: '104N124V17',
     type: 'Non-Linked, Non-Participating',
     isBase: false,
     productUrl: 'https://www.axismaxlife.com/investment-plans/smart-wealth-advantage-guarantee-plan',
     brochureUrl: 'https://www.axismaxlife.com/',
     calcUrl: 'https://www.axismaxlife.com/investment-plans/smart-wealth-advantage-guarantee-plan',
-    incomeFrom: 'Year 1',
-    incomeType: 'Level (fixed)',
-    annualIncome: null,           // PENDING
-    incomePeriod: 20,
-    lumpsum: null,                // PENDING
-    totalReturn: null,            // PENDING                    // PENDING
-    sa: null,                     // PENDING
+    incomeFrom: 'Year 1 / Month 1 (Early Wealth Variant only — other variants of this plan defer income until after PPT)',
+    incomeType: 'Level (fixed amount every year)',
+    incomePeriod: 'Equal to Policy Term',
+    ppt: '5, 6, 7, 8, 10, 12, 15, or 20 yrs (Early Wealth Variant)',
+    policyContinuanceBenefit: true, policyContinuanceBenefitNote: 'On death, nominee continues receiving Income/Survival and Maturity Benefits without paying future premiums — available on Early Wealth Variant',
+    accidentalDeathBenefit: true, accidentalDeathBenefitNote: 'Inbuilt Additional Accidental Death Benefit equal to 50% of Sum Assured on Death (non-single-premium variants)',
+    saMultiple: 'Varies by age band and PPT — refer brochure for exact multiple',
     guaranteed: true,
     ropOnDeath: true,
-    pending: true,
-    dataSource: 'Illustration pending from Mohit',
-    dataDate: null,
-    note: 'PT 20 + PPT 10 + Early Wealth + income from Year 1. Public illustration only available for PT 30. PT 20 data to be provided.',
-    uniqueFeature: 'Income from Year 1 / Month 1. Multiple policy term options. Strong brand — Axis Max Life.',
-    pitch: 'Income from the very first year — Axis Max Life guaranteed wealth plan.',
-    tag: 'Income from Month 1'
+    hasLumpSum: true,
+    dataSource: 'Verified — Axis Max Life Official Product Page',
+    dataDate: '2026',
+    uniqueFeature: '5 plan variants under one product — Early Wealth Variant is the one offering income from Year 1/Month 1. Optional Policy Continuance Benefit ensures nominee keeps receiving all future income/maturity benefits without paying further premiums if the life assured dies. Inbuilt Accidental Death Benefit adds 50% extra on accidental death.',
+    pitch: 'Choose the Early Wealth Variant for guaranteed income from Month 1 — with the option to add Policy Continuance Benefit so your family keeps receiving the full benefit even if you\'re not there to pay future premiums.',
+    keyHighlights: [
+      'Early Wealth Variant: income starts from Year 1 / Month 1 — flexible PPT from 5 to 20 years',
+      'Optional Policy Continuance Benefit — future income/maturity benefits continue for nominee without further premium payment on death',
+      'Inbuilt Accidental Death Benefit — additional 50% of Sum Assured on Death',
+      '5 total plan variants available under this one product for different income-timing needs',
+      'Return of Premium on death — guaranteed'
+    ],
+    tag: 'Policy Continuance Benefit Option'
   }
-  ];
-
-const NISHCHIT_IRR_NOTE = 'IRR calculated on advance annual premium (t=0 to t=9). Income received at year-end (arrears). Lump sum at t=20. ICICI GIFT Select: cashback at t=0 treated as income; increasing income computed at 5% compounding.';
+];

@@ -1174,6 +1174,7 @@ let activeCat   = 'term';
 let activeMode  = 'plans'; // plans | avb | toolkit
 let parRendered    = false;
 let nonparRendered = false;
+let ulipRendered   = false;
 let annuityRendered = false;
 let activeNP    = 'nishchit';
 
@@ -1238,6 +1239,7 @@ function switchCompareCat(cat) {
   const isTerm    = cat === 'term';
   const isPar     = cat === 'par';
   const isNonPar  = cat === 'nonpar';
+  const isUlip    = cat === 'ulip';
   const isAnnuity = cat === 'annuity';
 
   ['controls-bar','results-meta'].forEach(cls => { const el = document.querySelector('.' + cls); if (el) el.classList.toggle('hidden', !isTerm); });
@@ -1245,20 +1247,23 @@ function switchCompareCat(cat) {
 
   const secPar    = document.getElementById('sec-par');
   const secNP     = document.getElementById('sec-nonpar');
+  const secUlip   = document.getElementById('sec-ulip');
   const secAnn    = document.getElementById('sec-annuity');
   const secAvB    = document.getElementById('sec-avb');
   const secTk     = document.getElementById('sec-toolkit');
 
   if (secPar)  secPar.classList.toggle('hidden', !isPar);
   if (secNP)   secNP.classList.toggle('hidden', !isNonPar);
+  if (secUlip) secUlip.classList.toggle('hidden', !isUlip);
   if (secAnn)  secAnn.classList.toggle('hidden', !isAnnuity);
   if (secAvB)  secAvB.classList.add('hidden');
   if (secTk)   secTk.classList.add('hidden');
 
-  // Render on first show
-  if (isPar && !parRendered)    renderPar();
-  if (isNonPar && !nonparRendered) renderNonPar();
-  if (isAnnuity && !annuityRendered) renderAnnuity();
+  // Render on first show (skeleton flash for perceived speed)
+  if (isPar && !parRendered)    { if (typeof showSkeletons==='function') showSkeletons('parWrap',3); setTimeout(renderPar, 120); }
+  if (isNonPar && !nonparRendered) { if (typeof showSkeletons==='function') showSkeletons('nonparWrap',3); setTimeout(renderNonPar, 120); }
+  if (isUlip && !ulipRendered)  { if (typeof showSkeletons==='function') showSkeletons('ulipWrap',3); setTimeout(renderULIP, 120); }
+  if (isAnnuity && !annuityRendered) { if (typeof showSkeletons==='function') showSkeletons('annuityWrap',3); setTimeout(renderAnnuity, 120); }
 }
 
 // Bind cat-btns
@@ -1394,7 +1399,7 @@ function renderNishchit(wrap) {
 
   all.forEach(p => {
     const meta = (typeof getMeta !== 'undefined') ? getMeta(p.isBase?'nishchit-absli':p.id) : {};
-    const highlights = meta.keyHighlights || (p.isBase?['Guaranteed income from Year 1 (0 deferment)','Level income for 20 years','Guaranteed lump sum at maturity','Non-Participating — 100% guaranteed returns']:[]);
+    const highlights = meta.keyHighlights || p.keyHighlights || [];
 
     html += `<div class="prod-card${p.isBase?' prod-card-base':''}${p.pending?' prod-card-pending':''}">
       <div class="pc-top">
@@ -1414,10 +1419,13 @@ function renderNishchit(wrap) {
     <div class="pc-feature-list">
       <div class="pc-feat"><span class="pc-fl">Income From</span><span class="pc-fv">${san(p.incomeFrom||'—')}</span></div>
       <div class="pc-feat"><span class="pc-fl">Income Type</span><span class="pc-fv">${san(p.incomeType||'—')}</span></div>
-      <div class="pc-feat"><span class="pc-fl">Income Period</span><span class="pc-fv">${san(p.incomePeriod?p.incomePeriod+' years':'—')}</span></div>
-      ${p.cashback?`<div class="pc-feat"><span class="pc-fl">Instant Cashback</span><span class="pc-fv">✅ Available at policy issuance</span></div>`:''}
+      <div class="pc-feat"><span class="pc-fl">Income Period</span><span class="pc-fv">${san(p.incomePeriod||'—')}</span></div>
+      ${p.hasLumpSum?`<div class="pc-feat"><span class="pc-fl">Maturity Lump Sum</span><span class="pc-fv">✅ ${san(p.lumpSumNote||'Guaranteed')}</span></div>`:''}
+      ${p.cashbackFeature?`<div class="pc-feat"><span class="pc-fl">Instant Cashback</span><span class="pc-fv">✅ ${san(p.cashbackNote||'Available at policy issuance')}</span></div>`:''}
+      ${p.ropOnDeath?`<div class="pc-feat"><span class="pc-fl">Return of Premium on Death</span><span class="pc-fv">✅ Guaranteed</span></div>`:''}
       ${p.note?`<div class="pc-feat-note">ⓘ ${san(p.note)}</div>`:''}
     </div>`;
+
 
 
     if (p.pitch) { html += `<div class="pc-section-title">💬 Sales Story</div><div class="pc-pitch">"${san(p.pitch)}"</div>`; }
@@ -1516,7 +1524,72 @@ function renderFeatureCards(wrap, plans, title, bench) {
 }
 
 // ════════════════════════════════════════════════════════════
-// ANNUITY — FULL MATRIX REBUILD with all UX enhancements
+// ULIP — CARD COMPARISON
+// ════════════════════════════════════════════════════════════
+function renderULIP() {
+  ulipRendered = true;
+  const wrap = document.getElementById('ulipWrap'); if (!wrap) return;
+
+  const base  = ULIP_PLANS.filter(p => p.isBase);
+  const comps = ULIP_PLANS.filter(p => !p.isBase);
+  const all   = [...base, ...comps];
+
+  let html = `<div class="prod-header">
+    <h2 class="prod-title">ULIP — Unit Linked Insurance Plans</h2>
+    <p class="prod-sub">Comparing ${all.length} plans across ${new Set(all.map(p=>p.company)).size} companies · One standalone ULIP per company</p>
+  </div>
+  <div class="prod-note-bar">ⓘ Market-linked returns — investment risk borne by policyholder. IRR and illustration figures are never shown; use the IRR Calculator tool with your own assumptions.</div>
+  <div class="prod-cards">`;
+
+  all.forEach(p => {
+    const isPartial = p.verification && p.verification.startsWith('Partially') || p.verification?.startsWith('Needs verification');
+
+    html += `<div class="prod-card${p.isBase?' prod-card-base':''}${isPartial?' prod-card-pending':''}">
+      <div class="pc-top">
+        <div><div class="pc-co">${san(p.company)}</div><div class="pc-pl">${san(p.plan)}</div>
+        ${p.isBase?'<span class="prod-base-tag">Base Plan</span>':''}
+        ${p.uin&&!String(p.uin).includes('Verify')?`<div class="pc-uin">UIN: ${san(p.uin)}</div>`:''}
+        </div>
+        <div class="pc-type">${san(p.type||'ULIP Non-Par')}</div>
+      </div>`;
+
+    if (p.keyHighlights && p.keyHighlights.length) {
+      html += `<div class="pc-section-title">✨ Key Highlights</div>
+      <ul class="pc-highlights">${p.keyHighlights.map(h=>`<li>${san(h)}</li>`).join('')}</ul>`;
+    }
+
+    const featItems = [];
+    if (p.entryAge && !String(p.entryAge).includes('Verify')) featItems.push(['Entry Age', p.entryAge]);
+    if (p.maturityAge && !String(p.maturityAge).includes('Verify')) featItems.push(['Maturity Age', p.maturityAge]);
+    if (p.ppt && !String(p.ppt).includes('Verify')) featItems.push(['PPT', p.ppt]);
+    if (p.pt && !String(p.pt).includes('Verify')) featItems.push(['Policy Term', p.pt]);
+    if (p.fundOptions && !String(p.fundOptions).includes('Verify')) featItems.push(['Fund Options', p.fundOptions]);
+    if (p.portfolioStrategies && !String(p.portfolioStrategies).includes('Verify')) featItems.push(['Portfolio Strategies', p.portfolioStrategies]);
+    if (p.planOptions) featItems.push(['Plan Options', p.planOptions]);
+    if (p.withdrawalOptions) featItems.push(['Withdrawal Options', p.withdrawalOptions]);
+    if (p.romc) featItems.push(['Charge Return at Maturity', '✅ ' + (p.romcNote||'Yes')]);
+    if (p.loyaltyAdditions) featItems.push(['Loyalty/Wealth Boosters', '✅ ' + (p.loyaltyNote||'Yes')]);
+    if (p.riders && !String(p.riders).includes('Verify')) featItems.push(['Riders', p.riders]);
+
+    if (featItems.length) {
+      html += `<div class="pc-section-title">📋 Plan Features</div>
+      <div class="pc-feature-list">${featItems.map(([l,v])=>`<div class="pc-feat"><span class="pc-fl">${san(l)}</span><span class="pc-fv">${san(v)}</span></div>`).join('')}</div>`;
+    }
+
+    if (p.uniqueFeature) { html += `<div class="pc-section-title">💬 Sales Story</div><div class="pc-pitch">"${san(p.pitch||p.uniqueFeature)}"</div>`; }
+
+    html += `<div class="pc-links">
+      ${p.url?`<a href="${san(p.url)}" target="_blank" rel="noopener noreferrer" class="pc-btn">Product →</a>`:''}
+      ${p.brochure&&!String(p.brochure).startsWith('Verify')?`<a href="${san(p.brochure)}" target="_blank" rel="noopener noreferrer" class="pc-btn-sec">Brochure →</a>`:''}
+      ${p.fundPerformanceUrl?`<a href="${san(p.fundPerformanceUrl)}" target="_blank" rel="noopener noreferrer" class="pc-btn-sec">Fund Performance →</a>`:''}
+      ${`<button class="pc-btn-pdf" onclick="generateSingleProductPDF(ULIP_PLANS[${ULIP_PLANS.indexOf(p)}],'ulip')">📄 Download PDF</button>`}
+    </div></div>`;
+  });
+  html += '</div>';
+  wrap.innerHTML = html;
+}
+
+
 // P4a: No rate in header | P4b/c: Sticky fixed | P4d: No benchmark section
 // UX1-9: All integrated
 // ════════════════════════════════════════════════════════════

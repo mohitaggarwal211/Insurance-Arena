@@ -421,9 +421,10 @@ function generateSingleProductPDF(plan, cat) {
     sections.push({ title: '💰 INCOME STRUCTURE', rows: [
       ['Income Starts From', val(plan.incomeFrom)],
       ['Income Type', val(plan.incomeType)],
-      ['Income Period', plan.incomePeriod ? plan.incomePeriod + ' years' : '—'],
+      ['Income Period', val(plan.incomePeriod)],
       ['Guaranteed', bool(plan.guaranteed, '✅ 100% Non-Par Guaranteed', '—')],
-      ['Maturity Benefit / Lumpsum', bool(plan.lumpsum, '✅ Guaranteed Lumpsum at maturity', '❌ Not Available')],
+      ['Maturity Benefit / Lump Sum', bool(plan.hasLumpSum, '✅ ' + (plan.lumpSumNote||'Guaranteed Lump Sum at maturity'), '❌ Not Available')],
+      ['Instant Cashback', bool(plan.cashbackFeature, '✅ ' + (plan.cashbackNote||'Available at issuance'), '—')],
       ['Return of Premium on Death', bool(plan.ropOnDeath, '✅ Yes', '❌ No')],
     ]});
     if (plan.uniqueFeature) {
@@ -452,6 +453,34 @@ function generateSingleProductPDF(plan, cat) {
     if (plan.uniqueFeature) {
       sections.push({ title: '⭐ UNIQUE FEATURE', rows: [['Unique Advantage', val(plan.uniqueFeature)]] });
     }
+
+  // ── ULIP ──
+  else if (cat === 'ulip') {
+    sections.push({ title: '📐 PRODUCT BOUNDARIES', rows: [
+      ['Entry Age', val(plan.entryAge)],
+      ['Maturity Age', val(plan.maturityAge)],
+      ['Premium Payment Term (PPT)', val(plan.ppt)],
+      ['Policy Term', val(plan.pt)],
+      ['Sum Assured Multiple', val(plan.saMultiple)],
+    ]});
+    sections.push({ title: '📊 FUND & STRATEGY', rows: [
+      ['Fund Options', val(plan.fundOptions)],
+      ['Portfolio Strategies', val(plan.portfolioStrategies)],
+      ['Plan Options', val(plan.planOptions)],
+      ['Withdrawal Options', val(plan.withdrawalOptions)],
+    ]});
+    sections.push({ title: '💎 CHARGES & ADDITIONS', rows: [
+      ['Return of Mortality/Admin Charges', bool(plan.romc, '✅ ' + (plan.romcNote||'Available'), '❌ Not Available')],
+      ['Loyalty Additions / Wealth Boosters', bool(plan.loyaltyAdditions, '✅ ' + (plan.loyaltyNote||'Available'), '❌ Not Available')],
+      ['Riders', val(plan.riders)],
+    ]});
+    if (plan.uniqueFeature) {
+      sections.push({ title: '⭐ UNIQUE FEATURE', rows: [['Unique Advantage', val(plan.uniqueFeature)]] });
+    }
+    if (plan.fundPerformanceUrl) {
+      sections.push({ title: '📈 FUND PERFORMANCE', rows: [['Check All Fund NAVs', val(plan.fundPerformanceUrl)]] });
+    }
+  }
   }
 
   // ── HTML GENERATION ──
@@ -543,8 +572,8 @@ function renderAvB(cat) {
   const wrap = document.getElementById('avbWrap');
   if (!wrap) return;
 
-  const cats = ['Term Insurance','Participating Endowment','Guaranteed Early Income','Guaranteed Savings','Guaranteed Long Term Income','Annuity'];
-  const catMap = { term:'Term Insurance', par:'Participating Endowment', nonpar:'Guaranteed Savings', annuity:'Annuity' };
+  const cats = ['Term Insurance','Participating Endowment','Guaranteed Early Income','Guaranteed Savings','Guaranteed Long Term Income','ULIP','Annuity'];
+  const catMap = { term:'Term Insurance', par:'Participating Endowment', nonpar:'Guaranteed Savings', 'early-income':'Guaranteed Early Income', ulip:'ULIP', annuity:'Annuity' };
   const defaultCat = catMap[cat] || 'Term Insurance';
 
   wrap.innerHTML = `
@@ -1045,6 +1074,31 @@ function downloadAvBPDF(coA, plA, coB, plB) {
       ];
     }
 
+    // ════════════ EARLY INCOME (NISHCHIT) ════════════
+    if (cat === 'early-income') {
+      return [
+        ['━━━ PLAN IDENTITY ━━━', '', ''],
+        ['Company', val(a.company), val(b.company)],
+        ['Plan Name', val(a.plan), val(b.plan)],
+        ['UIN', val(a.uin), val(b.uin)],
+        ['Plan Type', val(a.type), val(b.type)],
+
+        ['━━━ INCOME STRUCTURE ━━━', '', ''],
+        ['Income Starts From', val(a.incomeFrom), val(b.incomeFrom)],
+        ['Income Type', val(a.incomeType), val(b.incomeType)],
+        ['Income Period', val(a.incomePeriod), val(b.incomePeriod)],
+        ['Guaranteed', bool(a.guaranteed,'✅ 100% Non-Par Guaranteed','—'), bool(b.guaranteed,'✅ 100% Non-Par Guaranteed','—')],
+
+        ['━━━ MATURITY & ADDITIONAL BENEFITS ━━━', '', ''],
+        ['Maturity Lump Sum', bool(a.hasLumpSum,'✅ '+(a.lumpSumNote||'Guaranteed'),'❌ Not Available'), bool(b.hasLumpSum,'✅ '+(b.lumpSumNote||'Guaranteed'),'❌ Not Available')],
+        ['Instant Cashback', bool(a.cashbackFeature,'✅ '+(a.cashbackNote||'Available'),'—'), bool(b.cashbackFeature,'✅ '+(b.cashbackNote||'Available'),'—')],
+        ['Return of Premium on Death', bool(a.ropOnDeath,'✅ Yes','❌ No'), bool(b.ropOnDeath,'✅ Yes','❌ No')],
+
+        ['━━━ UNIQUE FEATURE ━━━', '', ''],
+        ['Unique Advantage', val(a.uniqueFeature), val(b.uniqueFeature)],
+      ];
+    }
+
     // ════════════ ANNUITY ════════════
     if (cat === 'annuity') {
       return [
@@ -1072,6 +1126,38 @@ function downloadAvBPDF(coA, plA, coB, plB) {
 
         ['━━━ UNIQUE FEATURE ━━━', '', ''],
         ['Unique Advantage', val(a.uniqueFeature||a.meta?.uniqueFeature), val(b.uniqueFeature||b.meta?.uniqueFeature)],
+      ];
+    }
+
+    // ════════════ ULIP ════════════
+    if (cat === 'ulip') {
+      return [
+        ['━━━ PLAN IDENTITY ━━━', '', ''],
+        ['Company', val(a.company), val(b.company)],
+        ['Plan Name', val(a.plan), val(b.plan)],
+        ['UIN', val(a.uin), val(b.uin)],
+        ['Plan Type', val(a.type), val(b.type)],
+
+        ['━━━ PRODUCT BOUNDARIES ━━━', '', ''],
+        ['Entry Age', val(a.entryAge), val(b.entryAge)],
+        ['Maturity Age', val(a.maturityAge), val(b.maturityAge)],
+        ['PPT Options', val(a.ppt), val(b.ppt)],
+        ['Policy Term', val(a.pt), val(b.pt)],
+        ['Sum Assured Multiple', val(a.saMultiple), val(b.saMultiple)],
+
+        ['━━━ FUND & STRATEGY ━━━', '', ''],
+        ['Fund Options', val(a.fundOptions), val(b.fundOptions)],
+        ['Portfolio Strategies', val(a.portfolioStrategies), val(b.portfolioStrategies)],
+        ['Plan Options', val(a.planOptions), val(b.planOptions)],
+        ['Withdrawal Options', val(a.withdrawalOptions), val(b.withdrawalOptions)],
+
+        ['━━━ CHARGES & ADDITIONS ━━━', '', ''],
+        ['Return of Mortality/Admin Charges', bool(a.romc,'✅ '+(a.romcNote||'Available'),'❌ Not Available'), bool(b.romc,'✅ '+(b.romcNote||'Available'),'❌ Not Available')],
+        ['Loyalty Additions / Wealth Boosters', bool(a.loyaltyAdditions,'✅ '+(a.loyaltyNote||'Available'),'❌ Not Available'), bool(b.loyaltyAdditions,'✅ '+(b.loyaltyNote||'Available'),'❌ Not Available')],
+        ['Riders', val(a.riders), val(b.riders)],
+
+        ['━━━ UNIQUE FEATURE ━━━', '', ''],
+        ['Unique Advantage', val(a.uniqueFeature), val(b.uniqueFeature)],
       ];
     }
 
@@ -1224,9 +1310,9 @@ function renderToolkit(cat) {
   const wrap = document.getElementById('toolkitWrap');
   if (!wrap) return;
 
-  const catMap = { term:'Term Insurance', par:'Participating Endowment', nonpar:'Guaranteed Savings', annuity:'Annuity' };
+  const catMap = { term:'Term Insurance', par:'Participating Endowment', nonpar:'Guaranteed Savings', 'early-income':'Guaranteed Early Income', ulip:'ULIP', annuity:'Annuity' };
   const defaultCat = catMap[cat] || 'Term Insurance';
-  const cats = ['Term Insurance','Participating Endowment','Guaranteed Early Income','Guaranteed Savings','Guaranteed Long Term Income','Annuity'];
+  const cats = ['Term Insurance','Participating Endowment','Guaranteed Early Income','Guaranteed Savings','Guaranteed Long Term Income','ULIP','Annuity'];
 
   wrap.innerHTML = `
   <div class="tk-header">
@@ -1235,6 +1321,13 @@ function renderToolkit(cat) {
   </div>
 
   <div class="tk-form">
+    <div class="cp-bar">
+      <div class="cp-head">
+        <span class="cp-title">👥 Saved Clients</span>
+        <button class="cp-save-btn" onclick="saveCurrentClientProfile()">💾 Save Client</button>
+      </div>
+      <div class="cp-chips" id="clientProfileChips"></div>
+    </div>
     <div class="tk-row-2">
       <div class="tk-field">
         <label class="tk-label">Customer Name</label>
@@ -1338,6 +1431,7 @@ function renderToolkit(cat) {
   updateTkPlans('A');
   updateTkPlans('C_A');
   updateTkPlans('C_B');
+  if (typeof renderClientProfileChips === 'function') renderClientProfileChips();
 }
 
 let tkMode = 'single';
@@ -1412,9 +1506,9 @@ function generateMessages() {
     }
     const highlights = _hl.slice(0,5).join('\n') || '✅ Refer official brochure for verified product features';
 
-    wa = `Hi ${name} 👋\n\nHope you're doing well!\n\nAs we discussed your goal of *${goal}*, I wanted to share a plan that may be very relevant for you.\n\n📌 *${p.plan}*\n_${p.company} | ${p.type}_\n\n${highlights || '✅ Plan details from official brochure'}\n\n💡 ${getRiskNote(risk, goal)}\n\n📎 Brochure: ${bro}\n\n_For information only — not financial advice. Always read the official brochure before any decision._\n\n— [Advisor Name]`;
+    wa = `Hi ${name} 👋\n\nHope you're doing well!\n\nAs we discussed your goal of *${goal}*, I wanted to share a plan that may be very relevant for you.\n\n📌 *${p.plan}*\n_${p.company} | ${p.type}_\n\n${highlights || '✅ Plan details from official brochure'}\n\n💡 ${getRiskNote(risk, goal)}\n\n📎 Brochure: ${bro}\n\n_For information only — not financial advice. Always read the official brochure before any decision._\n\n— ${advisorSignature('wa')}`;
 
-    email = `Subject: ${subj}${p.plan} — Product Information\n\nDear ${name},\n\nThank you for the opportunity to share relevant financial planning information with you.\n\nBased on your goal of ${goal} and your ${risk.toLowerCase()} risk approach${age?`, considering your age of ${age} years`:''}${occ?` and occupation as ${occ}`:'`'}, I would like to share the following plan for your consideration.\n\n────────────────────────\nPlan: ${p.plan}\nCompany: ${p.company}\nType: ${p.type}\nCategory: ${p.category}\n────────────────────────\n\nKey Features:\n${(_rawF.length>=2?_rawF:_rawT.length>=2?_rawT:_metaHL).slice(0,5).map(h=>`• ${h.replace(/^[✅⭐]\s*/,'')}`).join('\n')||'• Refer official brochure for complete verified features'}\n\n${(_pitch||p.meta?.whySuit) ? 'Why This May Be Relevant:\n' + (_pitch||p.meta?.whySuit) + '\n\n' : ''}Official Brochure: ${bro}\nProduct Page: ${prodUrl}\n\n────────────────────────\nDISCLAIMER\nThis communication is for educational and informational purposes only. It does not constitute financial advice. Past performance is not indicative of future results. Please read the official product brochure carefully and consult a qualified advisor before making any decision.\n────────────────────────\n\nWarm regards,\n[Advisor Name]`;
+    email = `Subject: ${subj}${p.plan} — Product Information\n\nDear ${name},\n\nThank you for the opportunity to share relevant financial planning information with you.\n\nBased on your goal of ${goal} and your ${risk.toLowerCase()} risk approach${age?`, considering your age of ${age} years`:''}${occ?` and occupation as ${occ}`:'`'}, I would like to share the following plan for your consideration.\n\n────────────────────────\nPlan: ${p.plan}\nCompany: ${p.company}\nType: ${p.type}\nCategory: ${p.category}\n────────────────────────\n\nKey Features:\n${(_rawF.length>=2?_rawF:_rawT.length>=2?_rawT:_metaHL).slice(0,5).map(h=>`• ${h.replace(/^[✅⭐]\s*/,'')}`).join('\n')||'• Refer official brochure for complete verified features'}\n\n${(_pitch||p.meta?.whySuit) ? 'Why This May Be Relevant:\n' + (_pitch||p.meta?.whySuit) + '\n\n' : ''}Official Brochure: ${bro}\nProduct Page: ${prodUrl}\n\n────────────────────────\nDISCLAIMER\nThis communication is for educational and informational purposes only. It does not constitute financial advice. Past performance is not indicative of future results. Please read the official product brochure carefully and consult a qualified advisor before making any decision.\n────────────────────────\n\nWarm regards,\n${advisorSignature('email')}`;
 
     pitch = getPitch(p, null, goal, risk);
 
@@ -1426,7 +1520,7 @@ function generateMessages() {
 
     wa = `Hi ${name} 👋\n\nFollowing our discussion on *${goal}*, here is a quick comparison for your reference.\n\n🔵 *${a.plan}* — _${a.company}_\n${(a.meta?.keyHighlights||[]).slice(0,3).map(h=>`• ${h}`).join('\n')||'• Refer brochure'}\n\n🟢 *${b.plan}* — _${b.company}_\n${(b.meta?.keyHighlights||[]).slice(0,3).map(h=>`• ${h}`).join('\n')||'• Refer brochure'}\n\n*When ${a.company} may suit you:*\n${getCompReason(a, goal)}\n\n*When ${b.company} may suit you:*\n${getCompReason(b, goal)}\n\n📎 ${a.company} Brochure: ${aBro}\n📎 ${b.company} Brochure: ${bBro}\n\n_Educational information only. Not financial advice. Read official brochures carefully._`;
 
-    email = `Subject: ${subj}Product Comparison — ${a.plan} vs ${b.plan}\n\nDear ${name},\n\nThank you for exploring your ${goal.toLowerCase()} planning options. Here is a comparison of two relevant plans for your reference.\n\n────────────────────────\nPlan A: ${a.plan}\nCompany: ${a.company} | Type: ${a.type}\n${(a.meta?.keyHighlights||[]).map(h=>`• ${h}`).join('\n')}\n\nWhen Plan A may be relevant:\n${getCompReason(a,goal)}\n\n────────────────────────\nPlan B: ${b.plan}\nCompany: ${b.company} | Type: ${b.type}\n${(b.meta?.keyHighlights||[]).map(h=>`• ${h}`).join('\n')}\n\nWhen Plan B may be relevant:\n${getCompReason(b,goal)}\n\n────────────────────────\nOfficial Links\n${a.company} Brochure: ${aBro}\n${b.company} Brochure: ${bBro}\n\nDISCLAIMER: This communication is for educational purposes only. Not financial advice. Read official brochures before any decision.\n\nWarm regards,\n[Advisor Name]`;
+    email = `Subject: ${subj}Product Comparison — ${a.plan} vs ${b.plan}\n\nDear ${name},\n\nThank you for exploring your ${goal.toLowerCase()} planning options. Here is a comparison of two relevant plans for your reference.\n\n────────────────────────\nPlan A: ${a.plan}\nCompany: ${a.company} | Type: ${a.type}\n${(a.meta?.keyHighlights||[]).map(h=>`• ${h}`).join('\n')}\n\nWhen Plan A may be relevant:\n${getCompReason(a,goal)}\n\n────────────────────────\nPlan B: ${b.plan}\nCompany: ${b.company} | Type: ${b.type}\n${(b.meta?.keyHighlights||[]).map(h=>`• ${h}`).join('\n')}\n\nWhen Plan B may be relevant:\n${getCompReason(b,goal)}\n\n────────────────────────\nOfficial Links\n${a.company} Brochure: ${aBro}\n${b.company} Brochure: ${bBro}\n\nDISCLAIMER: This communication is for educational purposes only. Not financial advice. Read official brochures before any decision.\n\nWarm regards,\n${advisorSignature('email')}`;
 
     pitch = getPitch(a, b, goal, risk);
   }

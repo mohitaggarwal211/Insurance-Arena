@@ -144,7 +144,6 @@ const ANNUITY_PLANS = [
     payout: 'Annual / Half-Yearly / Quarterly / Monthly',
     calcUrl: 'https://lifeinsurance.adityabirlacapital.com/retirement-and-pension-plans/absli-guaranteed-annuity-plus/',
     brochureUrl: 'https://lifeinsurance.adityabirlacapital.com/uploads/ABSLI_Guaranteed_Annuity_Plus_V17_Brochure_Web_Version_e8e39d1903.pdf',
-    benchmarkNote: 'Age 60 | ₹10L | Life Annuity: ~₹87,314–89,496/yr (older versions; check current calculator)',
     benchmark60: null, // actual current rate — check calculator
     // Options matrix
     options: {
@@ -187,7 +186,6 @@ const ANNUITY_PLANS = [
     payout: 'Annual / Half-Yearly / Quarterly / Monthly',
     calcUrl: 'https://licindia.in/Products/Pension-Plans/LIC-s-Jeevan-Akshay-VII',
     brochureUrl: 'https://licindia.in/Products/Pension-Plans/LIC-s-Jeevan-Akshay-VII',
-    benchmarkNote: 'Age 60 | ₹10L | Life Annuity (Option A): ₹92,650/yr · Life + ROP (Option F): ~₹59,900/yr',
     benchmark60: { lifeAnnuity: 92650, lifeROP: 59900, dataDate: 'Feb 2024' },
     options: {
       opt1a: 'yes',
@@ -239,7 +237,6 @@ const ANNUITY_PLANS = [
     payout: 'Annual / Half-Yearly / Quarterly / Monthly',
     calcUrl: 'https://licindia.in/Products/Pension-Plans/Smart-Pension-Plan',
     brochureUrl: 'https://licindia.in/Products/Pension-Plans/Smart-Pension-Plan',
-    benchmarkNote: 'Current (Feb 2025). Rate data not yet in public domain. Check LIC calculator for exact rates.',
     benchmark60: null,
     options: {
       opt1a: 'yes',
@@ -292,7 +289,6 @@ const ANNUITY_PLANS = [
     payout: 'Annual / Half-Yearly / Quarterly / Monthly',
     calcUrl: 'https://licindia.in/Products/Pension-Plans/LIC-New-Jeevan-Shanti',
     brochureUrl: 'https://licindia.in/Products/Pension-Plans/LIC-New-Jeevan-Shanti',
-    benchmarkNote: 'DEFERRED PLAN ONLY. Not directly comparable for immediate annuity benchmark.',
     benchmark60: null,
     options: {
       opt1a: 'yes',  // Deferred single life annuity for life
@@ -342,7 +338,6 @@ const ANNUITY_PLANS = [
     payout: 'Annual / Half-Yearly / Quarterly / Monthly',
     calcUrl: 'https://www.hdfclife.com/retirement-and-pension-plans/pension-guaranteed-plan',
     brochureUrl: 'https://www.hdfclife.com/retirement-and-pension-plans/pension-guaranteed-plan',
-    benchmarkNote: 'Very limited product (3 options). Check HDFC Life New Immediate Annuity Plan for wider options.',
     benchmark60: null,
     options: {
       opt1a: 'yes',   // Immediate Life Annuity
@@ -387,12 +382,11 @@ const ANNUITY_PLANS = [
     loan: 'Not available',
     groupPolicy: false,
     qrops: false,
-    minPremium: '~₹1,15,875 (age 50, 8.63% rate)',
+    minPremium: 'Determined by minimum annuity amount — use official calculator',
     entryAge: '18–99 yrs (most options; 85 yrs for CI option)',
     payout: 'Annual / Half-Yearly / Quarterly / Monthly',
     calcUrl: 'https://www.hdfclife.com/retirement-and-pension-plans/new-immediate-annuity-plan',
     brochureUrl: 'https://www.hdfclife.com/retirement-and-pension-plans/new-immediate-annuity-plan',
-    benchmarkNote: 'Age 60 | ₹10L | Life Annuity: ₹89,600/yr · Life + ROP: 5.7–6.4% (₹57K–64K/yr) — May 2025 data',
     benchmark60: { lifeAnnuity: 89600, lifeROP: '57,000–64,000', dataDate: 'May 2025' },
     options: {
       opt1a: 'yes',
@@ -441,7 +435,6 @@ const ANNUITY_PLANS = [
     payout: 'Annual / Half-Yearly / Quarterly / Monthly',
     calcUrl: 'https://www.iciciprulife.com/retirement-pension-plans/guaranteed-pension-plan-calculator.html',
     brochureUrl: 'https://www.iciciprulife.com/content/dam/icicipru/brochures/ICICI_Pru_Guaranteed_Pension_Plan.pdf',
-    benchmarkNote: 'Rate data not publicly available. Use ICICI Pru calculator for current rates.',
     benchmark60: null,
     options: {
       opt1a: 'yes',
@@ -492,7 +485,6 @@ const ANNUITY_PLANS = [
     payout: 'Annual / Half-Yearly / Quarterly / Monthly',
     calcUrl: 'https://www.sbilife.co.in/en/individual-life-insurance/traditional/saral-pension',
     brochureUrl: 'https://www.sbilife.co.in/en/individual-life-insurance/traditional/saral-pension',
-    benchmarkNote: 'IRDAI-standardized plan with only 2 options. SBI also has other annuity plans with more options.',
     benchmark60: null,
     options: {
       opt1a: 'no',    // No level annuity without ROP — both options have 100% ROP
@@ -543,7 +535,6 @@ const ANNUITY_PLANS = [
     payout: 'Annual / Half-Yearly / Quarterly / Monthly',
     calcUrl: 'https://www.tataaia.com/life-insurance-plans/retirement-and-pension-solutions/smart-annuity-plan.html',
     brochureUrl: 'https://www.tataaia.com/life-insurance-plans/retirement-and-pension-solutions/smart-annuity-plan.html',
-    benchmarkNote: 'Rate data not publicly available. Use Tata AIA calculator for current rates.',
     benchmark60: null,
     options: {
       opt1a: 'yes',
@@ -591,7 +582,6 @@ const ANNUITY_PLANS = [
     payout: 'Annual / Half-Yearly / Quarterly / Monthly',
     calcUrl: 'https://www.bajajlifeinsurance.com/retirement-pension-plans/guaranteed-pension-goal.html',
     brochureUrl: 'https://www.bajajlifeinsurance.com/retirement-pension-plans/guaranteed-pension-goal.html',
-    benchmarkNote: 'Rate data not publicly available. Use Bajaj Life calculator for current rates.',
     benchmark60: null,
     options: {
       opt1a: 'yes',  // Option A
@@ -641,7 +631,6 @@ const ANNUITY_PLANS = [
     payout: 'Annual / Half-Yearly / Quarterly / Monthly',
     calcUrl: 'https://www.kotaklife.com/retirement-and-pension-plans/kotak-assured-pension',
     brochureUrl: 'https://www.kotaklife.com/retirement-and-pension-plans/kotak-assured-pension',
-    benchmarkNote: 'Rate data not publicly available. Use Kotak Life calculator for current rates.',
     benchmark60: null,
     options: {
       opt1a: 'yes',  // Lifetime Income (level)
@@ -660,7 +649,7 @@ const ANNUITY_PLANS = [
       opt10: 'no'
     },
     optionNotes: {
-      opt2: 'Lifetime Income with Term Guarantee: annuity guaranteed for chosen period (e.g. 10 years) even if annuitant dies; continues for life thereafter. E.g. Age 45, ₹10L: ₹63,100/year for min 10 years then for life.',
+      opt2: 'Lifetime Income with Term Guarantee: annuity guaranteed for chosen period (e.g. 10 years) even if annuitant dies; continues for life thereafter.',
       opt6: 'Lifetime Income with Cash-Back on Death or Critical Illness (Option 6b, max entry age 80). Key difference: on CI, annuity STOPS and 100% PP returned. ABSLI enhances annuity by 50% and continues it. CI trigger age: ABSLI before 70, Kotak before 80.',
       opt9: 'Two deferred variants available. Guaranteed Additions accrue during deferment. Limited/Regular Pay available. Deferment 1–10 years.'
     }
@@ -690,7 +679,6 @@ const ANNUITY_PLANS = [
     payout: 'Annual / Half-Yearly / Quarterly / Monthly',
     calcUrl: 'https://www.pnbmetlife.com/insurance-plans/retirement/immediate-annuity-plan.html',
     brochureUrl: 'https://www.pnbmetlife.com/insurance-plans/retirement/immediate-annuity-plan.html',
-    benchmarkNote: 'Rate data partially available. Check PNB MetLife calculator for exact rates.',
     benchmark60: null,
     options: {
       opt1a: 'yes',
@@ -740,7 +728,6 @@ const ANNUITY_PLANS = [
     payout: 'Annual / Half-Yearly / Quarterly / Monthly',
     calcUrl: 'https://www.axismaxlife.com/retirement-plans/guaranteed-lifetime-income-plan',
     brochureUrl: 'https://www.axismaxlife.com/retirement-plans/guaranteed-lifetime-income-plan',
-    benchmarkNote: 'Rate data not publicly available. Use Axis Max Life calculator for current rates.',
     benchmark60: null,
     options: {
       opt1a: 'yes',  // Single Life Immediate Annuity for life (with death benefit = 100% ROP)
@@ -790,7 +777,6 @@ const ANNUITY_PLANS = [
     payout: 'Annual / Half-Yearly / Quarterly / Monthly',
     calcUrl: 'https://www.canarahsbclife.com/retirement-plans/pension-for-life-plan',
     brochureUrl: 'https://www.canarahsbclife.com/retirement-plans/pension-for-life-plan',
-    benchmarkNote: 'Rate data not publicly available. Use Canara HSBC calculator for current rates.',
     benchmark60: null,
     options: {
       opt1a: 'yes',  // Option 1: Immediate Life Annuity
@@ -842,7 +828,6 @@ const ANNUITY_PLANS = [
     payout: 'Annual / Half-Yearly / Quarterly / Monthly',
     calcUrl: 'https://www.canarahsbclife.com/retirement-plans/smart-guaranteed-pension',
     brochureUrl: 'https://www.canarahsbclife.com/retirement-plans/smart-guaranteed-pension',
-    benchmarkNote: 'DEFERRED PLAN ONLY. Limited Pay 4–10 years with 6% p.a. Guaranteed Additions.',
     benchmark60: null,
     options: {
       opt1a: 'yes',  // Option 1: Single Life Annuity with Return of Premiums
@@ -867,45 +852,3 @@ const ANNUITY_PLANS = [
     }
   }
 ];
-
-// ── BENCHMARK RATES DATA ──
-const ANNUITY_BENCHMARK = {
-  params: 'Age 60 | Male | ₹10,00,000 Single Pay | Annual Mode',
-  note: 'Annuity rates change periodically. Figures are for reference only — use each company\'s official calculator for current rates. Rates shown are for Life Annuity (no ROP) unless stated.',
-  confirmed: [
-    {
-      company: 'LIC',
-      plan: 'Jeevan Akshay VII (Plan 857)',
-      lifeAnnuity: '₹92,650',
-      lifeAnnuityRate: '9.265%',
-      lifeROP: '~₹59,900',
-      lifeROPRate: '~5.99%',
-      dataDate: 'Feb 2024',
-      source: 'freefincal.com — LIC official calculator data'
-    },
-    {
-      company: 'HDFC Life',
-      plan: 'New Immediate Annuity Plan (101N084V27)',
-      lifeAnnuity: '₹89,600',
-      lifeAnnuityRate: '8.96%',
-      lifeROP: '₹57,000–64,000',
-      lifeROPRate: '5.7–6.4%',
-      dataDate: 'May 2025',
-      source: 'Policybazaar.com article'
-    },
-    {
-      company: 'ABSLI',
-      plan: 'Guaranteed Annuity Plus (V17 — current)',
-      lifeAnnuity: '~₹87,314–89,496',
-      lifeAnnuityRate: '~8.73–8.95%',
-      lifeROP: 'Use calculator',
-      lifeROPRate: '—',
-      dataDate: '2022–23 (older versions)',
-      source: 'ABSLI website illustrations (V07, V09). Current V17 rates may differ.'
-    }
-  ],
-  limitedPayBenchmark: {
-    params: 'Age 60 | Male | ₹1,00,000/yr | PPT 5 yrs | Deferment 5 yrs | Annual Mode',
-    note: 'Annuity commences at age 65. Limited pay rates not available in public domain for most companies. Use official calculators. ABSLI Option 9 illustration: Age 45, ₹1L/month (×12), PPT5, Deferment 5yr → ₹4,01,923/yr. Scale to ₹1L/yr is approximate only.'
-  }
-};

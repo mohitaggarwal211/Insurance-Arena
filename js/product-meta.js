@@ -98,17 +98,15 @@ const PRODUCT_META = {
     keyHighlights: [
       'Non-Linked, Non-Participating — returns 100% guaranteed',
       'Guaranteed income from Year 1 (zero deferment)',
-      'Guaranteed level income every year for 20 years',
+      'Guaranteed level income every year for the full Policy Term',
       'Guaranteed lump sum at maturity',
-      '10× Sum Assured life cover throughout the term'
+      'Life cover throughout the policy term'
     ],
     whySuit: 'Choose ABSLI Nishchit Aayush if you want guaranteed income starting immediately from Year 1, combined with a large maturity lump sum — all fully guaranteed with no market risk.',
     bestFor: 'Conservative individuals aged 30–50 who want guaranteed regular income alongside life cover, with certainty of returns from Day 1.',
     limitations: [
       'Level income — does not increase over time (no inflation protection)',
-      'Lump sum is ₹11L on a ₹10L total premium — moderate maturity uplift',
-      'No loan facility mentioned in brochure',
-      'UIN pending confirmation from current policy document'
+      'No loan facility mentioned in brochure'
     ],
     scoreData: { flexibility:6, protection:8, income:10, riders:5, loan:4, jointLife:4 }
   },
@@ -120,14 +118,11 @@ const PRODUCT_META = {
       '100% of premiums returned as maturity benefit',
       'GIFT Select — newer version with enhanced features'
     ],
-    whySuit: 'Choose ICICI Pru GIFT Select if you want immediate liquidity (₹50K cashback) and prefer income that grows over time to counter inflation.',
+    whySuit: 'Choose ICICI Pru GIFT Select if you want immediate liquidity through instant cashback at issuance, and prefer income that grows over time to counter inflation.',
     bestFor: 'Individuals who need immediate liquidity, prefer growing income over fixed income, or are concerned about inflation eroding their income stream.',
     limitations: [
       'Income starts from Year 2 (not Year 1) — one year gap',
-      'Illustration based on Female (Age 35); male rates may differ slightly',
-      'Increasing income means lower initial income vs ABSLI\'s level income',
-      'Total return (₹16.05L) lower than ABSLI (₹18.01L) at same benchmark',
-      'IRR of 4.13% vs ABSLI\'s 5.51%'
+      'Increasing income means lower initial income vs a level-income structure'
     ],
     scoreData: { flexibility:7, protection:7, income:9, riders:5, loan:7, jointLife:5 }
   },
@@ -172,7 +167,7 @@ const PRODUCT_META = {
   'sav_ABSLI': { keyHighlights: ['Non-Linked, Non-Participating — guaranteed lump sum at maturity','Joint Life Protection — spouse covered at 20% of Sum Assured','Loyalty Additions boost maturity benefit at end of term','Flexible PPT: 5 to 12 years (8 options)','Riders: Accidental Death, CI, Surgical Care, Hospital Care'], whySuit: 'Choose ABSLI Assured Savings for guaranteed savings with joint life protection and loyalty additions.', bestFor: 'Working individuals who want guaranteed savings with spouse cover and rider flexibility.', limitations: ['Lump sum only — no income stream','Loyalty Additions paid at maturity only'], scoreData: { flexibility:8, protection:9, income:0, riders:9, loan:9, jointLife:10 } },
   'sav_Tata AIA': { keyHighlights: ['Non-Linked, Non-Participating — guaranteed returns','Income for up to 45 years — one of longest income periods','Critical Illness protection option available','Return of Premium option at end of income period','Choose Savings or Income payout at inception'], whySuit: 'Choose Tata AIA Fortune Guarantee Plus for flexibility between savings and long-term income.', bestFor: 'Individuals who want to choose between lump sum and long-term income at inception.', limitations: ['Savings and income are same plan — features vary by option chosen'], scoreData: { flexibility:8, protection:7, income:4, riders:6, loan:5, jointLife:6 } },
   'sav_HDFC Life': { keyHighlights: ['Non-Linked, Non-Participating — guaranteed lump sum at maturity','Single Pay or Limited Pay options for flexibility','Guaranteed Additions to enhance corpus during policy term','HDFC Life — largest private life insurer by AUM in India','Simple, transparent, fixed maturity structure'], whySuit: 'Choose HDFC Life Sanchay Fixed Maturity for a straightforward guaranteed lump sum from the largest private insurer.', bestFor: 'Customers who prefer simplicity and strong brand backing.', limitations: ['Limited PPT options vs competitors','Fewer riders'], scoreData: { flexibility:5, protection:7, income:0, riders:4, loan:5, jointLife:5 } },
-  'sav_Bajaj Life': { keyHighlights: ['Participating plan — guaranteed amount plus potential bonus upside','Flexibility between lump sum and income at inception','Bonus linked to company performance','Life cover throughout the policy term','Multiple PPT options available'], whySuit: 'Choose Bajaj Life ACE Savings for bonus upside potential alongside guaranteed savings.', bestFor: 'Individuals comfortable with participating structure who want bonus growth potential.', limitations: ['Participating — bonus NOT guaranteed','Different structure from Non-Par benchmark'], scoreData: { flexibility:7, protection:6, income:3, riders:5, loan:4, jointLife:5 } },
+  'sav_Bajaj Life': { keyHighlights: ['Participating plan — guaranteed amount plus potential bonus upside','Flexibility between lump sum and income at inception','Bonus linked to company performance','Life cover throughout the policy term','Multiple PPT options available'], whySuit: 'Choose Bajaj Life ACE Savings for bonus upside potential alongside guaranteed savings.', bestFor: 'Individuals comfortable with participating structure who want bonus growth potential.', limitations: ['Participating — bonus NOT guaranteed','Different structure from the Non-Par plans in this comparison'], scoreData: { flexibility:7, protection:6, income:3, riders:5, loan:4, jointLife:5 } },
   'sav_ICICI Pru': { keyHighlights: ['Non-Linked, Non-Participating — guaranteed savings','Guaranteed Additions throughout the premium paying term','Lump sum payout at maturity with full life cover','ICICI Pru — top 3 private life insurer by market share','Policy loan facility available after PPT completion'], whySuit: 'Choose ICICI Pru Assured Savings for guaranteed savings with Guaranteed Additions from a top-tier insurer.', bestFor: 'Customers who value brand reliability and want guaranteed additions during savings period.', limitations: ['Lump sum only','Limited PPT options vs ABSLI'], scoreData: { flexibility:5, protection:7, income:0, riders:5, loan:7, jointLife:5 } },
   'sav_SBI Life': { keyHighlights: ['Non-Linked, Non-Participating — guaranteed maturity benefit','Guaranteed Additions accrue throughout the premium term','Backed by SBI — largest bank in India','Life cover equal to Sum Assured throughout','Surrender value available after 2 policy years'], whySuit: 'Choose SBI Life Smart Platina Assure for guaranteed savings with the trust of State Bank of India.', bestFor: 'SBI account holders seeking guaranteed savings through their bank.', limitations: ['No joint life option','No loan facility in brochure','Limited riders'], scoreData: { flexibility:5, protection:7, income:0, riders:3, loan:0, jointLife:0 } },
   'sav_Axis Max Life': { keyHighlights: ['Non-Linked, Non-Participating — guaranteed wealth at maturity','Short premium term, long maturity benefit period','Guaranteed Additions during PPT to enhance corpus','Axis Max Life — strong claim settlement track record','Life cover throughout the policy term'], whySuit: 'Choose Axis Max Life Smart Wealth Plan for guaranteed savings with short premium commitment.', bestFor: 'Young earners who want to invest for a short period and receive guaranteed lump sum at a future milestone.', limitations: ['No income option','Limited PPT flexibility'], scoreData: { flexibility:5, protection:7, income:0, riders:5, loan:4, jointLife:5 } },
@@ -328,25 +323,31 @@ function buildProductRegistry() {
       if (p.excluded) return;
       reg.push({
         regId: 'ni_' + p.id,
-        category: 'Guaranteed Early Income', catKey: 'nonpar',
+        category: 'Guaranteed Early Income', catKey: 'early-income',
         company: p.company, plan: p.plan, uin: p.uin || '—',
         type: p.type || 'Non-Linked Non-Par',
         entryAge: p.entryAge || '—', maturityAge: '—',
-        ppt: p.ppt || '10 yrs', pt: p.pt || '20 yrs',
-        deathBenefit: p.deathBenefit || 'Higher of 10× AP or 105% of premiums paid',
-        riders: p.riders || 'Accidental Death Benefit | Critical Illness Rider (varies by insurer)',
+        ppt: p.ppt || '—', pt: p.pt || '—',
+        deathBenefit: p.deathBenefit || 'Sum Assured on Death — varies by age band and PPT, refer brochure',
+        riders: p.riders || 'Varies by insurer — refer brochure',
         loan: p.loan || false, jointLife: false,
         guaranteedAdditions: false, loyaltyAdditions: false,
         incomeBenefit: true,
         incomeFrom: p.incomeFrom || '—',
         incomeType: p.incomeType || '—',
-        incomePeriod: p.incomePeriod ? p.incomePeriod + ' yrs' : '—',
-        incomePeriods: p.incomePeriod ? [p.incomePeriod + ' years'] : [],
+        incomePeriod: p.incomePeriod || '—',
+        incomePeriods: p.incomePeriod ? [p.incomePeriod] : [],
         planOptions: p.planOptions || [],
         commutation: p.commutation || false,
         incomePayout: p.payout || 'Annual / Monthly',
         incomeAfterDeath: p.ropOnDeath || false,
         increasingIncome: p.incomeType ? p.incomeType.toLowerCase().includes('increas') : false,
+        hasLumpSum: p.hasLumpSum || false,
+        lumpSumNote: p.lumpSumNote || 'Guaranteed',
+        cashbackFeature: p.cashbackFeature || false,
+        cashbackNote: p.cashbackNote || '',
+        ropOnDeath: p.ropOnDeath || false,
+        guaranteed: p.guaranteed || false,
         uniqueFeature: p.uniqueFeature || '—',
         pitch: p.pitch || '—',
         incomeFrequency: 'Annual / Half-Yearly / Quarterly / Monthly',
@@ -394,6 +395,40 @@ function buildProductRegistry() {
         keyFeatures: p.keyHighlights || p.keyFeatures || [],
         salesPitch: p.pitch || p.uniqueFeature || '',
         meta: getMeta('sav_' + (p.company||''))
+      });
+    });
+  }
+
+  // ULIP Plans
+  if (typeof ULIP_PLANS !== 'undefined') {
+    ULIP_PLANS.forEach(p => {
+      reg.push({
+        regId: 'ulip_' + (p.company||'').replace(/\s/g,'_') + '_' + (p.plan||'').replace(/\s/g,'_'),
+        category: 'ULIP', catKey: 'ulip',
+        company: p.company, plan: p.plan, uin: p.uin || '—',
+        type: p.type || 'ULIP Non-Par',
+        entryAge: p.entryAge || '—',
+        maturityAge: p.maturityAge || '—',
+        ppt: p.ppt || '—', pt: p.pt || '—',
+        saMultiple: p.saMultiple || '—',
+        fundOptions: p.fundOptions || '—',
+        portfolioStrategies: p.portfolioStrategies || '—',
+        romc: p.romc || false, romcNote: p.romcNote || '—',
+        loyaltyAdditions: p.loyaltyAdditions || false, loyaltyNote: p.loyaltyNote || '—',
+        planOptions: p.planOptions || '—',
+        withdrawalOptions: p.withdrawalOptions || '—',
+        riders: p.riders || '—',
+        uniqueFeature: p.uniqueFeature || '—',
+        pitch: p.pitch || '—',
+        bestFor: p.uniqueFeature || '—',
+        uniqueAdvantage: p.uniqueFeature || '—',
+        productUrl: p.url || null,
+        brochureUrl: (!p.brochure || p.brochure.startsWith('Verify')) ? null : p.brochure,
+        fundPerformanceUrl: p.fundPerformanceUrl || null,
+        isBase: p.isBase || false,
+        keyFeatures: p.keyHighlights || p.keyFeatures || [],
+        salesPitch: p.pitch || p.uniqueFeature || '',
+        meta: getMeta('ulip_' + (p.company||''))
       });
     });
   }
