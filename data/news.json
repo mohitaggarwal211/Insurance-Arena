@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-07-05T15:03:02.076Z",
-  "articlesCount": 36,
+  "lastUpdated": "2026-07-05T16:41:39.362Z",
+  "articlesCount": 37,
   "sourcesOk": 5,
   "sourcesTotal": 9,
   "sourceStatus": [
@@ -13,7 +13,7 @@
     {
       "source": "Business Today",
       "status": "ok",
-      "articles": 16,
+      "articles": 17,
       "feedUsed": "https://www.businesstoday.in/rssfeeds/?id=225346"
     },
     {
@@ -56,6 +56,22 @@
     }
   ],
   "articles": [
+    {
+      "title": "Adani Defence breaks ground on ₹2,500-crore missile ecosystem in Madhya Pradesh",
+      "summary": "The project is expected to create 5,000 direct and indirect skilled jobs, opening new avenues for micro, small, and medium enterprises (MSMEs) while cementing Madhya Pradesh's position as a strategic defense manufacturing hub.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/adani-defence-breaks-ground-on-rs2500-crore-missile-ecosystem-in-madhya-pradesh-541051-2026-07-05?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-05T15:55:46.000Z"
+    },
+    {
+      "title": "15 India-bound ships carrying urea, DAP and sulphur cross Hormuz: Govt",
+      "summary": "Despite Middle East conflict disruptions, India's fertilizer supply remains robust. Most shipments successfully navigated the Strait of Hormuz, while domestic production surpassed targets.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/15-india-bound-ships-carrying-urea-dap-and-sulphur-cross-hormuz-govt/articleshow/132197490.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-05T15:18:36.000Z"
+    },
     {
       "title": "OPEC+ agrees fresh August oil output hike as Strait of Hormuz reopens",
       "summary": "OPEC+ is boosting oil output by another 188,000 barrels daily from August, continuing to reverse earlier cuts. Despite this, actual supply remains below pre-conflict levels due to disruptions impacting key producers.",
@@ -303,14 +319,6 @@
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-07-04T05:36:06.000Z"
-    },
-    {
-      "title": "'The Trump economy is soaring': US Prez cites stock market rally, tax cuts ahead of I-Day",
-      "summary": "US President Donald Trump declared the American economy is \"soaring,\" citing record stock market highs, increased exports, and investment as proof of a new growth era.",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/the-trump-economy-is-soaring-us-president-cites-stock-market-rally-and-tax-cuts-ahead-of-independence-day/articleshow/132175114.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-04T05:24:54.000Z"
     },
     {
       "title": "‘It’s an epidemic now!’: Tesla batteries keep getting stolen; here’s what’s happening",
