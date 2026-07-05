@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-07-05T09:56:24.187Z",
-  "articlesCount": 40,
+  "lastUpdated": "2026-07-05T15:03:02.076Z",
+  "articlesCount": 36,
   "sourcesOk": 5,
   "sourcesTotal": 9,
   "sourceStatus": [
@@ -13,7 +13,7 @@
     {
       "source": "Business Today",
       "status": "ok",
-      "articles": 20,
+      "articles": 16,
       "feedUsed": "https://www.businesstoday.in/rssfeeds/?id=225346"
     },
     {
@@ -56,6 +56,70 @@
     }
   ],
   "articles": [
+    {
+      "title": "OPEC+ agrees fresh August oil output hike as Strait of Hormuz reopens",
+      "summary": "OPEC+ is boosting oil output by another 188,000 barrels daily from August, continuing to reverse earlier cuts. Despite this, actual supply remains below pre-conflict levels due to disruptions impacting key producers.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/opec-agrees-fresh-august-oil-output-hike-as-strait-of-hormuz-reopens/articleshow/132196644.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-05T14:18:19.000Z"
+    },
+    {
+      "title": "From 'monstrously stupid' to mainstream fuel: Has ethanol proved legendary Charlie Munger wrong?",
+      "summary": "Nearly two decades later, his criticism continues to fuel debate — not just over the science of ethanol's energy balance, but also over its economic viability, food security implications and role in the transition to cleaner energy.",
+      "url": "https://www.businesstoday.in/world/story/from-monstrously-stupid-to-mainstream-fuel-has-ethanol-proved-charlie-munger-wrong-541047-2026-07-05?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-05T12:53:39.000Z"
+    },
+    {
+      "title": "Billionaire's reading list: Zerodha's Nikhil Kamath rates 5 books guiding his life & strategy",
+      "summary": "For a billionaire deeply rooted in the numbers-driven world of stockbroking, the revelation that human ambition is largely an unconscious attempt to escape mortality shifted his entire perspective.",
+      "url": "https://www.businesstoday.in/latest/trends/story/billionaires-reading-list-zerodhas-nikhil-kamath-rates-5-books-guiding-his-life-strategy-541046-2026-07-05?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-05T12:10:50.000Z"
+    },
+    {
+      "title": "'No such proposal for exporting E20 petrol': Centre dismisses Bhutan E20 rejection claims",
+      "summary": "The Petroleum Ministry has debunked claims of Bhutan refusing India's E20 petrol, stating no such offer was ever made. This clarification follows opposition allegations that several neighboring countries rejected the fuel.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/no-such-proposal-for-exporting-e20-petrol-centre-dismisses-bhutan-e20-rejection-claims/articleshow/132194578.cms",
+      "source": "Times of India Business",
+      "category": "insurance",
+      "publishedAt": "2026-07-05T11:52:05.000Z"
+    },
+    {
+      "title": "US tops the global economic chart—but for how long? Deutsche Bank flags biggest risk",
+      "summary": "America's mounting debt is now the primary threat to its global economic dominance, surpassing external competition. Deutsche Bank warns that persistent deficits and soaring interest payments are eroding a key advantage.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/us-tops-the-global-economic-chartbut-for-how-long-deutsche-bank-flags-biggest-risk/articleshow/132194125.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-05T10:59:22.000Z"
+    },
+    {
+      "title": "Dalal Street outlook: TCS, crude oil and more, what's driving stock market this week?",
+      "summary": "Indian markets brace for a pivotal week as the June-quarter earnings season kicks off with TCS on July 9. Investors will scrutinize results and management commentary on demand and AI.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/dalal-street-outlook-tcs-crude-oil-and-more-whats-driving-the-stock-market-this-week/articleshow/132193962.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-05T10:25:08.000Z"
+    },
+    {
+      "title": "Political stability beats high returns: The world's safest countries for investors in 2026",
+      "summary": "Rather than chasing high-growth opportunities, these economies offer investors greater confidence that their capital will remain protected during periods of global uncertainty.",
+      "url": "https://www.businesstoday.in/world/story/political-stability-beats-high-returns-the-worlds-safest-countries-for-investors-in-2026-541042-2026-07-05?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-05T10:18:00.000Z"
+    },
+    {
+      "title": "India's top IT firms set for muted Q1 as AI spending fails to lift growth: Report",
+      "summary": "India's top IT firms anticipate a slow start to FY27, with growth likely to remain subdued as clients focus on cost savings over major tech investments. While AI adoption is rising, it's funded by efficiency gains, not budget increases.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/indias-top-it-firms-set-for-muted-q1-as-ai-spending-fails-to-lift-growth-report/articleshow/132193752.cms",
+      "source": "Times of India Business",
+      "category": "regulatory",
+      "publishedAt": "2026-07-05T10:10:51.000Z"
+    },
     {
       "title": "Pakistan's public money a privilege? World Bank report reveals stark fiscal faultlines",
       "summary": "Pakistan's fiscal decentralisation efforts have failed to bridge regional spending gaps, with provincial capitals like Quetta and Lahore receiving significantly more per person than their own provinces. Despite budget surpluses in some areas, poorer regions face underinvestment.",
@@ -279,102 +343,6 @@
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-07-04T02:00:02.000Z"
-    },
-    {
-      "title": "AI boom lifts industrial engineers' pay packages",
-      "summary": "India's burgeoning AI data-centre sector is creating a surge in demand for mechanical, electrical, and industrial engineers. These professionals, once overlooked, are now commanding significant salaries as companies build energy-intensive AI infrastructure.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/ai-boom-lifts-industrial-engineers-pay-packages/articleshow/132170559.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-03T20:25:38.000Z"
-    },
-    {
-      "title": "HCLTech wins $1.1bn AI-led deal with Mercedes",
-      "summary": "HCLTech's stock surged almost 6% following the announcement of a massive $1.1 billion deal with a European Fortune Global 50 company, widely believed to be Mercedes-Benz.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/hcltech-wins-1-1bn-ai-led-deal-with-mercedes/articleshow/132170544.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-03T20:16:39.000Z"
-    },
-    {
-      "title": "Identify imported goods for manufacturing: Piyush Goyal tells states",
-      "summary": "Commerce Minister Piyush Goyal has called on states to identify import-substitutable products, aiming to boost domestic manufacturing, cut foreign exchange outgo, and strengthen supply chains.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/identify-imported-goods-for-manufacturing-piyush-goyal-tells-states/articleshow/132170528.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-03T20:10:50.000Z"
-    },
-    {
-      "title": "SAP tightens hiring, travel as investments in AI zoom",
-      "summary": "German software giant SAP is implementing hiring freezes, travel restrictions, and tighter control over external spending to fuel its significant investments in artificial intelligence.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/sap-tightens-hiring-travel-as-investments-in-ai-zoom/articleshow/132170516.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-03T20:06:20.000Z"
-    },
-    {
-      "title": "Nearly 500 cities set to become next economic hubs: FM Sitharaman",
-      "summary": "India's middle class, comprising 31% of the population, is identified as the nation's primary growth engine, driving nearly all consumer spending. This demographic is expanding annually at 6.3% and is increasingly found in tier-two and tier-three cities, not just metropolises.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/nearly-500-cities-set-to-become-next-eco-hubs-fm-sitharaman/articleshow/132170497.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-03T20:00:19.000Z"
-    },
-    {
-      "title": "India sets $1 trillion export target for FY27, eyes 17% growth in merchandise exports",
-      "summary": "Piyush Goyal urges states, industry to make exports top priority, utilise FTAs",
-      "url": "https://www.businesstoday.in/latest/economy/story/india-sets-1-trillion-export-target-for-fy27-eyes-17-growth-in-merchandise-exports-540944-2026-07-03?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-03T14:02:19.000Z"
-    },
-    {
-      "title": "The wait is over: Hyundai and Kia's most affordable electric cars are coming with 400KM+ single-charge range",
-      "summary": "Kia Syros EV launches July 2026 and Hyundai's budget electric SUV arrives in early 2027 — both with India-made LFP batteries and 400+ km range. Here's everything we know.",
-      "url": "https://www.businesstoday.in/latest/trends/photo/the-wait-is-over-hyundai-and-kias-most-affordable-electric-cars-are-coming-with-400km-single-charge-range-540934-2026-07-03?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "regulatory",
-      "publishedAt": "2026-07-03T13:39:42.000Z"
-    },
-    {
-      "title": "Cancer pill costs ₹85,000 in US vs ₹35 in India? Woman says Americans getting ‘robbed’",
-      "summary": "The video quickly gained traction on social media, attracting more than 772,000 views and hundreds of comments. Many users echoed her concerns about high drug prices in the US, while others praised India's pharmaceutical industry and availability of lower-cost generic medicines.",
-      "url": "https://www.businesstoday.in/latest/trends/story/india-healthcare-costs-us-woman-compares-revlimid-price-with-america-540900-2026-07-03?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-03T13:07:27.000Z"
-    },
-    {
-      "title": "What do you actually eat on a Vande Bharat train? Here's the complete food guide",
-      "summary": "From morning idli and chai to vegetarian thalis, chicken curry and gulab jamun, here's a complete look at what Vande Bharat Express serves passengers across its many routes.",
-      "url": "https://www.businesstoday.in/latest/trends/photo/what-do-you-actually-eat-on-a-vande-bharat-train-heres-the-complete-food-guide-540881-2026-07-03?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-03T11:37:39.000Z"
-    },
-    {
-      "title": "Celebrity Shock: Swift & Kelce Fortune — How Pop Meets Sports in a Billion-Dollar Power Couple",
-      "summary": "Taylor Swift hits $2B net worth, Travis Kelce $70M; together, they merge music and sports, shaping culture, branding, and billion-dollar celebrity influence worldwide.",
-      "url": "https://www.businesstoday.in/latest/trends/photo/celebrity-shock-swift-kelce-fortune-how-pop-meets-sports-in-a-billion-dollar-power-couple-540605-2026-07-03?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-03T11:16:56.000Z"
-    },
-    {
-      "title": "Amazon Prime Day — Sennheiser Deals Transform Audio for Indian Shoppers",
-      "summary": "Amazon Prime Day 2026 offers up to 40% off Sennheiser headphones, microphones, and soundbars, with no-cost EMI and bank discounts, delivering premium audio to Indian shoppers.",
-      "url": "https://www.businesstoday.in/latest/trends/photo/amazon-prime-day-sennheiser-deals-transform-audio-for-indian-shoppers-540875-2026-07-03?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "insurance",
-      "publishedAt": "2026-07-03T11:15:54.000Z"
-    },
-    {
-      "title": "₹35K Crore Maruti Plant — India’s Auto Ambitions Hit High Gear",
-      "summary": "Maruti Suzuki inaugurates ₹35,000 crore Kharkhoda plant in Haryana with 500,000-unit capacity, advanced robotics, and plans to scale to 1 million, boosting India’s auto industry.",
-      "url": "https://www.businesstoday.in/latest/trends/photo/rs35k-crore-maruti-plant-indias-auto-ambitions-hit-high-gear-540868-2026-07-03?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-03T10:46:20.000Z"
     }
   ]
 }
