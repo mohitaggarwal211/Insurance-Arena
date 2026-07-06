@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-06T14:36:12.749Z",
+  "lastUpdated": "2026-07-06T18:21:56.056Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,38 @@
     }
   ],
   "articles": [
+    {
+      "title": "Railway minister Vaishnaw launches new train services: Check routes, extensions and details",
+      "summary": "Railway Minister Ashwini Vaishnaw launched new train services and route extensions. These improvements enhance rail connectivity across Maharashtra, Uttar Pradesh, and Uttarakhand. New services connect Nanded to Mumbai and Tanakpur to Nanded.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/railway-minister-vaishnaw-launches-new-train-services-check-routes-extensions-and-details/articleshow/132222246.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-06T17:37:44.000Z"
+    },
+    {
+      "title": "Wall Street opens higher as AI stocks rebound; Nasdaq gains 0.8%",
+      "summary": "Wall Street opened higher as artificial intelligence stocks rebounded strongly. Markets also assessed a planned mega share sale by SK Hynix. Oil prices edged lower after OPEC+ agreed to increase production. US Treasury yields eased, while European and Asian markets traded lower.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/wall-street-opens-higher-as-ai-stocks-rebound-nasdaq-gains-0-8/articleshow/132220556.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-06T15:57:42.000Z"
+    },
+    {
+      "title": "'For the first time from Oval': Donald Trump rings NYSE and Nasdaq opening bell to launch Trump Accounts",
+      "summary": "President Trump launched a new investment program for children, \"Trump Accounts,\" from the Oval Office, coinciding with the Republican's 2025 tax law.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/for-the-first-time-from-oval-donald-trump-rings-waal-street-nyse-and-nasdaq-opening-bell-to-launch-trump-accounts/articleshow/132219040.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-06T14:43:41.000Z"
+    },
+    {
+      "title": "145% rise in LPG imports: Gas buys to be doubled from US - how much can it help India cut reliance on Gulf supply?",
+      "summary": "Energy imports from the US have gained importance, particularly following the West Asia conflict, helping reduce the trade imbalance between the two countries. Besides the US, India has also sourced LPG from Argentina, Nigeria and Malaysia.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/145-rise-in-lpg-imports-gas-buys-to-be-doubled-from-us-how-much-can-it-help-india-cut-reliance-on-gulf-supply/articleshow/132218860.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-06T14:40:24.000Z"
+    },
     {
       "title": "Saudi Arabia slashes August crude prices for Asia by $11 a barrel in biggest cut in over 20 years",
       "summary": "Saudi Arabia has slashed its crude oil prices for Asian customers by a significant $11 per barrel for August, the largest reduction in over two decades. This move reflects weakening demand in Asia and easing geopolitical tensions, which have stabilized global oil markets.",
@@ -343,38 +375,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-07-06T01:42:22.000Z"
-    },
-    {
-      "title": "China's Z.ai a challenger to OpenAI and Anthropic",
-      "summary": "A Chinese AI startup, Z.ai, is making waves with its new model, GLM-5.2, offering advanced coding and AI agent features at a lower cost than US rivals like OpenAI and Anthropic.",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/chinas-z-ai-a-challenger-to-openai-and-anthropic/articleshow/132204967.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-06T00:11:12.000Z"
-    },
-    {
-      "title": "USTR probe action creates uncertainty for India, others",
-      "summary": "India faces renewed trade uncertainty as the US Trade Representative moves forward with a probe into forced labor, potentially replacing existing tariffs. Hearings are underway, with a proposed 12.5% tariff impacting over 50 nations, including India.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/ustr-probe-action-creates-uncertainty-for-india-others/articleshow/132204915.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-05T23:47:56.000Z"
-    },
-    {
-      "title": "CaratLane may go to West Asia Damas way",
-      "summary": "Titan's online jewellery arm, CaratLane, is eyeing a West Asian debut through its recent acquisition, Damas Jewellery. While recent regional conflicts have temporarily halted expansion plans, CaratLane sees Damas' extensive store network as a strategic entry point.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/caratlane-may-go-to-west-asia-damas-way/articleshow/132204870.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-05T23:37:09.000Z"
-    },
-    {
-      "title": "For urban buyers, Saturdays, Sundays witness 2/3rd of weekly spend",
-      "summary": "Urban Indians significantly boost their spending on Saturdays and Sundays, with a 1.6 times higher expenditure compared to weekdays. Fashion, entertainment, electronics, and dining see a marked increase as people enjoy leisure time.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/for-urban-buyers-saturdays-sundays-witness-2/3rd-of-weekly-spend/articleshow/132204828.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-05T23:31:10.000Z"
     }
   ]
 }
