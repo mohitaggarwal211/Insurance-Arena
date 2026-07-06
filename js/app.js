@@ -1286,10 +1286,7 @@ function renderPar() {
   const comps = ANMOL_PLANS.filter(p => !p.isBase);
   const all   = [base, ...comps];
 
-  let html = `<div class="prod-header">
-    <h2 class="prod-title">Participating Endowment Plans</h2>
-    <p class="prod-sub">Comparing ${all.length} plans · ${comps.filter(p=>!p.notAvailable).length} verified competitors</p>
-  </div>
+  let html = `
   <div class="prod-note-bar">⚠️ All plans are <strong>Participating</strong> — bonus is non-guaranteed and depends on insurer performance each year.</div>
   <div class="prod-cards">`;
 
@@ -1390,10 +1387,7 @@ function renderNishchit(wrap) {
   const excl  = NISHCHIT_PLANS.filter(p => p.excluded);
   const all   = [base, ...comps];
 
-  let html = `<div class="prod-header">
-    <h2 class="prod-title">Guaranteed Early Income Plans</h2>
-    <p class="prod-sub">Comparing ${all.length} plans · Income from Year 1 or 2</p>
-  </div>
+  let html = `
   <div class="prod-note-bar">✅ All comparable plans are <strong>Non-Participating</strong> — returns fully guaranteed.</div>
   <div class="prod-cards">`;
 
@@ -1458,9 +1452,7 @@ function renderFeatureCards(wrap, plans, title, bench) {
   const comps = plans.filter(p => !p.isBase);
   const all   = [base, ...comps];
 
-  let html = `<div class="prod-header">
-    <h2 class="prod-title">${san(title)}</h2>
-  </div>
+  let html = `
   <div class="prod-note-bar">ⓘ Data from official insurer sources. Fields not publicly available are hidden.</div>
   <div class="prod-cards">`;
 
@@ -1534,10 +1526,7 @@ function renderULIP() {
   const comps = ULIP_PLANS.filter(p => !p.isBase);
   const all   = [...base, ...comps];
 
-  let html = `<div class="prod-header">
-    <h2 class="prod-title">ULIP — Unit Linked Insurance Plans</h2>
-    <p class="prod-sub">Comparing ${all.length} plans across ${new Set(all.map(p=>p.company)).size} companies · One standalone ULIP per company</p>
-  </div>
+  let html = `
   <div class="prod-note-bar">ⓘ Market-linked returns — investment risk borne by policyholder. IRR and illustration figures are never shown; use the IRR Calculator tool with your own assumptions.</div>
   <div class="prod-cards">`;
 

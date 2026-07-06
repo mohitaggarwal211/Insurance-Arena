@@ -85,7 +85,7 @@ const ULIP_PLANS = [
   {
     company: 'SBI Life', plan: 'eWealth Plus', uin: '111L147V01',
     isBase: false, type: 'ULIP Non-Par', status: 'Active',
-    url: 'https://www.sbilife.co.in/life-insurance-plans/unit-linked-plans/ewealth-plus',
+    url: 'https://www.sbilife.co.in/ulip/ewealth-plus',
     brochure: 'https://www.sbilife.co.in/ewealth-plus-brochure',
     entryAge: 'Verify from brochure', maturityAge: 'Verify from brochure',
     ppt: 'Verify from brochure', pt: 'Verify from brochure',
@@ -145,7 +145,7 @@ const ULIP_PLANS = [
   {
     company: 'Kotak Life', plan: 'e-Invest', uin: '107L121V02',
     isBase: false, type: 'ULIP Non-Par', status: 'Active',
-    url: 'https://www.kotaklife.com/online-plans/ulip-plan/kotak-e-invest',
+    url: 'https://www.kotaklife.com/ulip-plans/kotak-e-invest-plus',
     brochure: 'https://www.kotaklife.com/assets/images/uploads/insurance-plans/Kotak_E_Invest_-_Brochure.pdf',
     entryAge: 'Maximizer: 3–55 yrs | Rising Star: 18–45 yrs | Retire Rich: 3–50 yrs',
     maturityAge: 'Maximizer: 18–75 yrs | Rising Star: 28–60 yrs | Retire Rich: Fixed at 99 yrs',
@@ -236,9 +236,9 @@ const ULIP_PLANS = [
     verification: 'Verified — Official Brochure (full text fetched)'
   },
   {
-    company: 'Axis Max Life', plan: 'Online Savings Plan Plus (Wealth Variant)', uin: '104L131V01',
+    company: 'Axis Max Life', plan: 'Online Savings Plan Plus (Wealth Variant)', uin: '104L131V02',
     isBase: false, type: 'ULIP Non-Par', status: 'Active — launched Jan 2026, replaces earlier Online Savings Plan (104L098V06)',
-    url: 'https://www.axismaxlife.com/investment-plans/ulip-plans/wealth-investment-plan',
+    url: 'https://www.axismaxlife.com/investment-plans/online-savings-plan-plus',
     brochure: 'https://www.axismaxlife.com/static-page/assets/homepage/104L131V01_Online-Savings-Plan-Plus-Prospectus_Withdrawn.pdf',
     entryAge: 'Single Pay: 0 (31 days) – 65 yrs (varies 35–65 by cover multiple) | Limited/Regular Pay: 0 (31 days) – 65 yrs (varies 42–65 by cover multiple)',
     maturityAge: 'Min 18 yrs | Max 85 yrs (Limited/Regular Pay, all cover multiples)',
@@ -334,7 +334,7 @@ const ULIP_PLANS = [
   {
     company: 'LIC', plan: 'Nivesh Plus (Plan 849)', uin: '512L317V01',
     isBase: false, type: 'ULIP Non-Par, Single Premium', status: 'Active',
-    url: 'https://licindia.in/unit-linked-plans',
+    url: 'https://licindia.in/lic-s-nivesh-plus',
     brochure: 'https://licindia.in/documents/20121/103490/LIC_Nivesh+Plus+_Sales+Brochure+Eng..pdf',
     entryAge: 'Option 1: up to 70 yrs | Option 2: up to 35 yrs', maturityAge: 'Verify from brochure',
     ppt: 'Single Premium only', pt: 'Verify from brochure',

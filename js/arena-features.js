@@ -389,3 +389,125 @@ function showSkeletons(wrapId, n) {
 document.addEventListener('DOMContentLoaded', function() {
   initStickyStrip();
 });
+
+// ─────────────────────────────────────────────
+// UNIVERSAL CATEGORY SEARCH BAR
+// Injects a live-filter search box above every category's plan cards
+// (ULIP, Participating, Non-Par sub-tabs). Term already has its own search.
+// ─────────────────────────────────────────────
+function injectCategorySearch() {
+  ['ulipWrap','parWrap','nonparWrap'].forEach(function(wrapId) {
+    const wrap = document.getElementById(wrapId);
+    if (!wrap) return;
+    const cards = wrap.querySelector('.prod-cards');
+    if (!cards || wrap.querySelector('.cat-search-bar')) return; // already injected or nothing to search
+
+    const bar = document.createElement('div');
+    bar.className = 'cat-search-bar';
+    bar.innerHTML = '<span class="cs-icon">🔍</span><input type="text" class="cs-input" placeholder="Search company or feature..." oninput="filterCategoryCards(this)">' +
+                    '<span class="cs-count"></span>';
+    cards.parentNode.insertBefore(bar, cards);
+  });
+}
+
+function filterCategoryCards(input) {
+  const wrap = input.closest('[id$="Wrap"]');
+  if (!wrap) return;
+  const q = input.value.trim().toLowerCase();
+  const cards = wrap.querySelectorAll('.prod-card');
+  let visible = 0;
+  cards.forEach(function(card) {
+    const match = !q || card.textContent.toLowerCase().includes(q);
+    card.style.display = match ? '' : 'none';
+    if (match) visible++;
+  });
+  const count = wrap.querySelector('.cs-count');
+  if (count) count.textContent = q ? visible + ' of ' + cards.length + ' plans' : '';
+}
+
+// Inject after each category render (piggyback on existing decorate timing)
+document.addEventListener('click', function(e) {
+  if (e.target.closest('.cat-btn, .npsub, .tab-btn, .mnav-btn')) {
+    setTimeout(injectCategorySearch, 400);
+  }
+});
+document.addEventListener('DOMContentLoaded', function() {
+  setTimeout(injectCategorySearch, 800);
+});
+
+// ─────────────────────────────────────────────
+// SHAREABLE A vs B DEEP LINKS
+// Generates: https://insurancearena.in/?avb=<regIdA>~<regIdB>
+// Opening such a link auto-loads that comparison.
+// ─────────────────────────────────────────────
+function getAvBShareLink() {
+  const a = window.avbProductA || (typeof avbProductA !== 'undefined' ? avbProductA : null);
+  const b = window.avbProductB || (typeof avbProductB !== 'undefined' ? avbProductB : null);
+  if (!a || !b) return null;
+  return location.origin + location.pathname + '?avb=' + encodeURIComponent(a.regId) + '~' + encodeURIComponent(b.regId);
+}
+
+function copyAvBShareLink() {
+  const link = getAvBShareLink();
+  if (!link) { alert('Run a comparison first, then share.'); return; }
+  copyTextToClipboard(link, 'Comparison link copied — share it with anyone!');
+}
+
+function injectAvBShareButton() {
+  const results = document.getElementById('avbResults');
+  if (!results || results.classList.contains('hidden')) return;
+  if (results.querySelector('.avb-share-link-btn')) return;
+  const btn = document.createElement('button');
+  btn.className = 'avb-share-link-btn';
+  btn.innerHTML = '🔗 Copy Shareable Link';
+  btn.onclick = copyAvBShareLink;
+  results.insertBefore(btn, results.firstChild);
+}
+
+// Watch for comparison runs to inject the share button
+document.addEventListener('click', function(e) {
+  if (e.target.closest('#avbRunBtn')) setTimeout(injectAvBShareButton, 300);
+});
+
+// On page load: if URL has ?avb=, auto-open that comparison
+function handleAvBDeepLink() {
+  const params = new URLSearchParams(location.search);
+  const avb = params.get('avb');
+  if (!avb || !avb.includes('~')) return;
+  const [idA, idB] = avb.split('~').map(decodeURIComponent);
+
+  // Wait for registry to be ready, then drive the A vs B flow
+  let tries = 0;
+  const attempt = function() {
+    tries++;
+    if (typeof PRODUCT_REGISTRY === 'undefined' || !PRODUCT_REGISTRY || !PRODUCT_REGISTRY.length) {
+      if (tries < 20) return setTimeout(attempt, 300);
+      return;
+    }
+    const a = PRODUCT_REGISTRY.find(p => p.regId === idA);
+    const b = PRODUCT_REGISTRY.find(p => p.regId === idB);
+    if (!a || !b) return;
+
+    // Navigate: open compare section, A vs B mode for plan A's category
+    if (typeof switchCompareCat === 'function') switchCompareCat(a.catKey);
+    if (typeof switchCompareMode === 'function') switchCompareMode('avb');
+
+    setTimeout(function() {
+      // Set selectors to match, then run
+      const catA = document.getElementById('avbCatA'), catB = document.getElementById('avbCatB');
+      const planA = document.getElementById('avbPlanA'), planB = document.getElementById('avbPlanB');
+      if (catA && catB && planA && planB) {
+        catA.value = a.category; if (typeof updateAvBPlans === 'function') updateAvBPlans('A');
+        catB.value = b.category; if (typeof updateAvBPlans === 'function') updateAvBPlans('B');
+        planA.value = a.regId; if (typeof selectAvBPlan === 'function') selectAvBPlan('A');
+        planB.value = b.regId; if (typeof selectAvBPlan === 'function') selectAvBPlan('B');
+        if (typeof runAvBComparison === 'function' && window.avbProductA && window.avbProductB) {
+          runAvBComparison();
+          setTimeout(injectAvBShareButton, 300);
+        }
+      }
+    }, 500);
+  };
+  setTimeout(attempt, 600);
+}
+document.addEventListener('DOMContentLoaded', handleAvBDeepLink);
