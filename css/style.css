@@ -2112,3 +2112,14 @@ select.tk-input option {
 [data-theme="light"] .hero-headline{color:#0D1B2A;}
 [data-theme="light"] .hero-eyebrow{color:var(--teal);}
 [data-theme="light"] .hero-sub{color:#334155;}
+
+/* Universal category search bar */
+.cat-search-bar{display:flex;align-items:center;gap:10px;background:var(--bg-card);border:1px solid var(--bg-border);border-radius:12px;padding:10px 14px;margin:4px 0 14px;}
+.cs-icon{font-size:.9rem;opacity:.6;}
+.cs-input{flex:1;background:transparent;border:none;outline:none;color:var(--white);font-size:.9rem;font-family:inherit;}
+.cs-input::placeholder{color:var(--g600);}
+.cs-count{font-size:.74rem;color:var(--g400);white-space:nowrap;}
+
+/* A vs B shareable link button */
+.avb-share-link-btn{display:block;width:100%;margin:0 0 14px;padding:11px;background:transparent;border:1.5px dashed var(--teal);color:var(--teal);border-radius:10px;font-size:.86rem;font-weight:700;cursor:pointer;font-family:inherit;transition:var(--tr);}
+.avb-share-link-btn:hover{background:var(--teal-glow);}
