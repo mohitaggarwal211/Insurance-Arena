@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-07-07T12:14:14.015Z",
-  "articlesCount": 39,
+  "lastUpdated": "2026-07-07T17:47:54.207Z",
+  "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
   "sourceStatus": [
@@ -56,6 +56,86 @@
     }
   ],
   "articles": [
+    {
+      "title": "Why France is finally accepting air conditioners after years of saying 'no'",
+      "summary": "Only around 24% of French households have air conditioning, according to France's energy transition agency.",
+      "url": "https://www.businesstoday.in/latest/trends/story/why-france-is-finally-embracing-air-conditioners-after-years-of-saying-no-541600-2026-07-07?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-07T16:09:31.000Z"
+    },
+    {
+      "title": "India strengthens position as investment destination; FDI rises by 44% to $39 billion in 2025",
+      "summary": "South Asia witnessed a sharp rise in FDI inflows, which climbed from $34 billion to $46 billion, largely driven by India, where inflows expanded to $39 billion, the report noted.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/india-strengthens-position-as-investment-destination-fdi-rises-by-44-to-39-billion-in-2025/articleshow/132242706.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-07T15:42:36.000Z"
+    },
+    {
+      "title": "Wall Street sees mixed performance; Dow rises 0.3%, Nasdaq falls 0.8% as AI stocks slide",
+      "summary": "US stocks traded mixed on Tuesday as technology shares faced pressure. Declines in artificial intelligence and semiconductor stocks weighed on the Nasdaq Composite. The S&P 500 also slipped, while the Dow Jones Industrial Average saw gains.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/us-stock-market-today-wall-street-sees-mixed-performance-dow-rises-0-3-nasdaq-falls-0-8-as-ai-stocks-slide/articleshow/132242440.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-07T15:17:52.000Z"
+    },
+    {
+      "title": "Mahadev case: ED seeks permanent attachment of Rs 940.77 crore assets linked to Vikas Garg",
+      "summary": "The Enforcement Directorate has moved the Adjudicating Authority seeking confirmation of the provisional attachment of properties worth Rs 940.77 crore linked to EBIX Inc Chairman Vikas Garg in the Mahadev Online Betting syndicate money laundering case.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/mahadev-case-ed-seeks-permanent-attachment-of-rs-940-77-crore-assets-linked-to-vikas-garg-541594-2026-07-07?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-07T15:02:13.000Z"
+    },
+    {
+      "title": "India urges US to reconsider proposed 12.5% tariff over 'forced labour' probe under USTR's Sec 301",
+      "summary": "India has asked the United States to withdraw proposed tariffs on its imports. The nation argues the US lacks adequate evidence for its claims. India's submission highlights a broad approach by the USTR investigation.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/india-urges-us-to-reconsider-proposed-12-5-tariff-over-forced-labour-probe-under-ustrs-sec-301/articleshow/132241671.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-07T15:00:25.000Z"
+    },
+    {
+      "title": "El Nino impact: India’s hydropower generation sees steepest drop since Feb 2024; piles pressure on grid",
+      "summary": "Data from the India Meteorological Department showed that cumulative rainfall across the country was 38% below normal until July 1, largely due to the development of El Niño conditions over the Pacific Ocean, which affected the southwest monsoon running from June to September.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/el-nino-impact-indias-hydropower-generation-sees-steepest-drop-since-feb-2024-piles-pressure-on-grid/articleshow/132241997.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-07T14:53:00.000Z"
+    },
+    {
+      "title": "SEBI issues recovery notice to former DHFL promoter Dheeraj Wadhawan over ₹28.62 crore penalty",
+      "summary": "According to the recovery certificate dated July 7, 2026, SEBI has directed Wadhawan to pay ₹28.62 crore within 15 days of receipt of the notice.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/sebi-issues-recovery-notice-to-former-dhfl-promoter-dheeraj-wadhawan-over-rs28-62-crore-penalty-541581-2026-07-07?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "regulatory",
+      "publishedAt": "2026-07-07T14:09:08.000Z"
+    },
+    {
+      "title": "India bets on critical minerals, rare earths and chips partnerships",
+      "summary": "India has launched the National Critical Mineral Mission (NCMM) in January 2025 for a seven-year period from 2024-25 to 2030-31. The mission goes far beyond a conventional mining initiative.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/india-bets-on-critical-minerals-rare-earths-and-chips-partnerships/articleshow/132241508.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-07T14:08:52.000Z"
+    },
+    {
+      "title": "Rajesh Exports case: NFRA begins probe after Sebi flags alleged ₹15.15 lakh crore mismatch",
+      "summary": "The National Financial Reporting Authority (NFRA) has begun its probe into Rajesh Exports, nearly a month after the Securities and Exchange Board of India (Sebi) alleged that the company misrepresented about ₹15.15 lakh crore in revenues in its interim order.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/rajesh-exports-case-nfra-begins-probe-after-sebi-flags-alleged-rs15-15-lakh-crore-mismatch-541564-2026-07-07?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "regulatory",
+      "publishedAt": "2026-07-07T13:09:30.000Z"
+    },
+    {
+      "title": "'Instead of selling 10-acre plots...': Indian entrepreneur urges Centre to create ready-to-use factory parks for first-time founders",
+      "summary": "The entrepreneur proposed ready-to-use factory units equipped with electricity, regulatory approvals, shared machinery and logistics facilities, allowing first-time founders to test manufacturing ideas without buying land.",
+      "url": "https://www.businesstoday.in/latest/trends/story/instead-of-selling-10-acre-plots-create-indian-entrepreneur-urges-centre-to-create-ready-to-use-factory-parks-for-first-time-founders-541537-2026-07-07?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "regulatory",
+      "publishedAt": "2026-07-07T12:28:24.000Z"
+    },
     {
       "title": "Paris Couture Week 2026: Isha Ambani, Cardi B front row as Rahul Mishra's 'Devi' reimagines India's ancient temples for the modern goddess",
       "summary": "Inspired by the divine feminine, the collection transformed the artistic language of the Ajanta and Ellora caves, a 12th-century stone dancer from Karnataka, murals and architecture of the Tarakeshwara Temple into clothes that felt less like garments and more …",
@@ -209,14 +289,6 @@
       "publishedAt": "2026-07-07T08:57:51.000Z"
     },
     {
-      "title": "Anand Mahindra wants M&M to go into 'attack mode' amid global uncertainty",
-      "summary": "Drawing an analogy from Formula E racing, Mahindra described ‘attack mode’ as a deliberate strategy of accelerating under difficult conditions rather than waiting for stability to return.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/anand-mahindra-wants-mm-to-go-into-attack-mode-amid-global-uncertainty-541443-2026-07-07?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-07T08:44:16.000Z"
-    },
-    {
       "title": "Back with a bang! Foreign investors bet on financials, record fortnightly inflows seen in second half of June",
       "summary": "The renewed interest in financial stocks helped overseas investors emerge as net buyers of Indian equities worth more than Rs 14,000 crore during the June 16-30 period, reversing net outflows of Rs 63,450 crore recorded in the first fortnight of the month, according to NSDL data.",
       "url": "https://timesofindia.indiatimes.com/business/india-business/back-with-a-bang-foreign-investors-bet-on-financials-record-fortnightly-inflows-seen-in-second-half-of-june/articleshow/132234472.cms",
@@ -233,36 +305,12 @@
       "publishedAt": "2026-07-07T08:22:49.000Z"
     },
     {
-      "title": "Who is Mahendra Nahata? The HFCL founder whose ₹48 crore Jio bet could turn into ₹5,800 crore",
-      "summary": "Nahata owns a 0.54% stake in Jio Platforms, acquired for just ₹48 crore in 2020",
-      "url": "https://www.businesstoday.in/latest/corporate/story/who-is-mahendra-nahata-the-hfcl-founder-whose-rs48-crore-jio-bet-could-turn-into-rs5800-crore-541427-2026-07-07?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-07T08:17:47.000Z"
-    },
-    {
       "title": "India's strategic gas storage: LNG buffer mandate for terminals in the works - what it means",
       "summary": "The disruption to LNG shipments through the Strait of Hormuz during the Iran conflict highlighted India's exposure to supply disruptions, prompting the government to revisit the idea of creating strategic gas reserves.",
       "url": "https://timesofindia.indiatimes.com/business/india-business/strategic-gas-storage-in-works-lng-buffer-mandate-for-terminals-in-the-works-what-it-means/articleshow/132234058.cms",
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-07-07T08:05:59.000Z"
-    },
-    {
-      "title": "Can your boss fire you over return-to-office? US co-founder seeks ₹285 crore after losing job",
-      "summary": "Nieporte, who served as the firm’s chief compliance officer for nearly a decade, was terminated in 2022 after failing to comply with the company’s in-office mandate.",
-      "url": "https://www.businesstoday.in/latest/trends/story/can-your-boss-fire-you-over-return-to-office-us-co-founder-seeks-rs285-crore-after-losing-job-541356-2026-07-07?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-07T07:37:45.000Z"
-    },
-    {
-      "title": "DOJ defends dropping criminal charges against Gautam Adani",
-      "summary": "According to prosecutors, Adani paid Indian government officials $250 million to win a bid to develop the country’s largest solar power plant.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/doj-defends-to-drop-criminal-charges-against-gautam-adani-541390-2026-07-07?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-07T07:34:35.000Z"
     },
     {
       "title": "IIM campus, UPI, AI & more: PM Modi heralds 'golden chapter' of India, Indonesia ties",
@@ -327,46 +375,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-07-07T00:06:35.000Z"
-    },
-    {
-      "title": "Flipkart greenlights cashing out up to 5% of vested stock options",
-      "summary": "Flipkart's board has approved a second employee stock option liquidity event. Eligible employees can now liquidate up to five percent of their vested options. This event is estimated to be around twenty-five million dollars.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/flipkart-greenlights-cashing-out-up-to-5-of-vested-stock-options/articleshow/132227914.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-07T00:02:53.000Z"
-    },
-    {
-      "title": "Saudi Arabia effects deepest crude price cut in 26 years",
-      "summary": "Saudi Arabia significantly reduced crude oil prices, reflecting intense competition among producers. Major Persian Gulf nations are increasing their oil output, restoring pre-war export levels.",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/saudi-arabia-effects-deepest-crude-price-cut-in-26-years/articleshow/132227896.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-06T23:55:31.000Z"
-    },
-    {
-      "title": "Markets rise to 10-week high, easing crude aids climb",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/markets-rise-to-10-week-high-easing-crude-aids-climb/articleshow/132227862.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-06T23:49:08.000Z"
-    },
-    {
-      "title": "Semicon 2.0 to widen chip incentives",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/semicon-2-0-to-widen-chip-incentives/articleshow/132227835.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-06T23:39:27.000Z"
-    },
-    {
-      "title": "Manipal Health gets Sebi nod for Rs 8,000-crore IPO",
-      "summary": "India's IPO pipeline is gaining momentum with significant upcoming public issues. The National Stock Exchange is planning a substantial Rs 30,000-crore offering. Manipal Health Enterprises has secured approval for its Rs 8,000-crore public issue.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/manipal-health-gets-sebi-nod-for-rs-8000-crore-ipo/articleshow/132227817.cms",
-      "source": "Times of India Business",
-      "category": "regulatory",
-      "publishedAt": "2026-07-06T23:27:59.000Z"
     }
   ]
 }
