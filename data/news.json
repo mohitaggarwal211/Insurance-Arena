@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-07T17:47:54.207Z",
+  "lastUpdated": "2026-07-07T19:25:32.295Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,14 @@
     }
   ],
   "articles": [
+    {
+      "title": "Getty Images calls off Shutterstock merger after UK regulator's divestment demand",
+      "summary": "Getty Image has ended its planned $3.7 billion merger with Shutterstock. The UK competition regulator required Shutterstock to sell its editorial business. Getty's board decided this condition was not in the company's best interests.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/getty-images-calls-off-shutterstock-merger-after-uk-regulators-divestment-demand/articleshow/132245108.cms",
+      "source": "Times of India Business",
+      "category": "regulatory",
+      "publishedAt": "2026-07-07T18:35:05.000Z"
+    },
     {
       "title": "Why France is finally accepting air conditioners after years of saying 'no'",
       "summary": "Only around 24% of French households have air conditioning, according to France's energy transition agency.",
@@ -367,14 +375,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-07-07T00:12:26.000Z"
-    },
-    {
-      "title": "Fuel-efficient car companies may get a new revenue stream",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/fuel-efficient-car-companies-may-get-a-new-revenue-stream/articleshow/132227955.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-07T00:06:35.000Z"
     }
   ]
 }
