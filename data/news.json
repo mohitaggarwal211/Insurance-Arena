@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-08T16:23:05.489Z",
+  "lastUpdated": "2026-07-08T18:07:17.674Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,22 @@
     }
   ],
   "articles": [
+    {
+      "title": "Clean energy share in power mix breached 50% mark on July 6",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/clean-energy-share-in-power-mix-breached-50-mark-on-july-6/articleshow/132270001.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-08T17:46:05.000Z"
+    },
+    {
+      "title": "Trump’s ceasefire ‘over’ remarks & fresh Strait of Hormuz disruptions: What it means for India",
+      "summary": "Before the conflict, the Strait of Hormuz handled nearly 40% of India's crude oil imports, around 60% of its LNG imports and approximately 90% of its LPG supplies, underlining the country's heavy dependence on the strategic waterway.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/trumps-ceasefire-over-remarks-fresh-strait-of-hormuz-disruptions-what-it-means-for-india/articleshow/132267234.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-08T16:14:57.000Z"
+    },
     {
       "title": "US stocks today: Oil jumps nearly 5%, shares tumble as Trump declares Iran ceasefire 'over'",
       "summary": "Global stock markets declined and oil prices surged on Wednesday. US President Donald Trump cast doubt on the temporary Iran conflict truce. This raised fears that renewed fighting could disrupt global energy supplies.",
@@ -359,22 +375,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-07-08T00:08:49.000Z"
-    },
-    {
-      "title": "Rupee gains on cheaper oil, FII buying",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/rupee-gains-on-cheaper-oil-fii-buying/articleshow/132251047.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-08T00:04:42.000Z"
-    },
-    {
-      "title": "NBFC loans grow 14.2% to Rs 58. 6L crore, trail banks",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/nbfc-loans-grow-14-2-to-rs-58-6l-crore-trail-banks/articleshow/132251022.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-08T00:01:11.000Z"
     }
   ]
 }
