@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-09T12:20:12.484Z",
+  "lastUpdated": "2026-07-09T17:31:43.386Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,38 @@
     }
   ],
   "articles": [
+    {
+      "title": "US airstrikes: Iran is rushing its oil exports out as conflict resumes, but who will buy?",
+      "summary": "The 11 million barrels shipped over the past day are roughly equal to Iran's pre-war crude exports for an entire week. It remains uncertain, however, whether buyers will be available for those cargoes.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/us-airstrikes-iran-is-rushing-its-oil-exports-out-as-conflict-resumes-but-who-will-buy/articleshow/132291211.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-09T16:02:00.000Z"
+    },
+    {
+      "title": "Strait of Hormuz toll proposal: What are the key waterways in the world & is there a fee to transit them?",
+      "summary": "The possibility of imposing transit charges in the Strait of Hormuz has drawn fresh attention to the dependence of global supply chains on a small number of strategically important waterways.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/strait-of-hormuz-toll-proposal-what-are-the-key-waterways-in-the-world-do-they-charge-fees/articleshow/132287960.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-09T14:34:00.000Z"
+    },
+    {
+      "title": "Stationary vehicle does not escape liability if improperly parked; Calcutta High Court enhances compensation for deceased homemaker",
+      "summary": "Justice Biswaroop Chowdhury partly allowed an appeal filed by Bajaj Allianz General Insurance Company Limited and enhanced compensation payable for the death of a homemaker from Rs.9.17 lakh to Rs.11 lakh, while dismissing the insurer's challenge to a separate…",
+      "url": "https://timesofindia.indiatimes.com/legal/news/stationary-vehicle-does-not-escape-liability-if-improperly-parked-calcutta-high-court-enhances-compensation-for-deceased-homemaker/articleshow/132288500.cms",
+      "source": "Times of India Business",
+      "category": "insurance",
+      "publishedAt": "2026-07-09T13:58:53.000Z"
+    },
+    {
+      "title": "US stock market today: Wall Street, oil prices steady after sharp swings yesterday",
+      "summary": "Before the Iran war began, Brent was trading near $72 per barrel. More recently, optimism surrounding an interim peace agreement had pushed prices back to roughly their pre-war levels.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/us-stock-market-today-july-09-2026-wall-street-sp-500-dow-jones-nasdaq-donald-trump-us-iran-war-crude-oil-prices/articleshow/132288244.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-09T13:43:03.000Z"
+    },
     {
       "title": "A mid-air football party? How one passenger's Wi-Fi purchase sparked a viral moment",
       "summary": "He bought a single in‑flight Wi‑Fi pass to catch Argentina vs. Egypt—and within minutes his laptop transformed the cabin into a roaring, 30,000‑foot watch party, with nearly every passenger crowding the aisle to watch together.",
@@ -343,38 +375,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-07-09T00:05:18.000Z"
-    },
-    {
-      "title": "Trump's threat makes Dalal Street nervous, Sensex falls 1,700 points",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/trumps-threat-makes-dalal-street-nervous-sensex-falls-1700-points/articleshow/132274675.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-08T23:57:19.000Z"
-    },
-    {
-      "title": "Clean energy share in power mix breached 50% mark on July 6",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/clean-energy-share-in-power-mix-breached-50-mark-on-july-6/articleshow/132270001.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-08T17:46:05.000Z"
-    },
-    {
-      "title": "Trump’s ceasefire ‘over’ remarks & fresh Strait of Hormuz disruptions: What it means for India",
-      "summary": "Before the conflict, the Strait of Hormuz handled nearly 40% of India's crude oil imports, around 60% of its LNG imports and approximately 90% of its LPG supplies, underlining the country's heavy dependence on the strategic waterway.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/trumps-ceasefire-over-remarks-fresh-strait-of-hormuz-disruptions-what-it-means-for-india/articleshow/132267234.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-08T16:14:57.000Z"
-    },
-    {
-      "title": "US stocks today: Oil jumps nearly 5%, shares tumble as Trump declares Iran ceasefire 'over'",
-      "summary": "Global stock markets declined and oil prices surged on Wednesday. US President Donald Trump cast doubt on the temporary Iran conflict truce. This raised fears that renewed fighting could disrupt global energy supplies.",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/us-stocks-today-08-july-2026-oil-jumps-nearly-5-shares-tumble-as-trump-declares-iran-ceasefire-over/articleshow/132267373.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-08T15:56:48.000Z"
     }
   ]
 }
