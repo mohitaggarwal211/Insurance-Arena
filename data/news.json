@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-10T12:11:15.228Z",
+  "lastUpdated": "2026-07-10T17:21:32.735Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,78 @@
     }
   ],
   "articles": [
+    {
+      "title": "India building strategic oil reserves: ONGC board approves plan for 1.75-million-tonne storage capacity",
+      "summary": "As the world's third-largest importer and consumer of crude oil, India relies on imports for more than 88 per cent of its crude oil requirements. Against the backdrop of geopolitical uncertainty and fluctuations in global oil markets.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/india-building-strategic-oil-reserves-ongc-board-approves-plan-for-1-75-million-tonne-storage-capacity/articleshow/132315053.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-10T16:07:14.000Z"
+    },
+    {
+      "title": "US stocks today: Market trades flat, heads towards subdued end to week; oil prices stable",
+      "summary": "As uncertainty surrounding the strait persists, investors on Wall Street have begun shifting their attention to the upcoming earnings season, when companies will report their spring-quarter financial results.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/us-stocks-today-july-10-2026-market-trades-flat-heads-towards-subdued-end-to-week-oil-prices-stable/articleshow/132314483.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-10T14:30:43.000Z"
+    },
+    {
+      "title": "Auto financiers push industry to embed financing into car sales to make it seamless",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/auto-financiers-push-industry-to-embed-financing-into-car-sales-to-make-it-seamless/articleshow/132313556.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-10T13:44:30.000Z"
+    },
+    {
+      "title": "E20 petrol row: Govt answers 9 FAQs on ethanol-blended petrol’s impact on mileage, performance, damage, pricing & more",
+      "summary": "The government has said that the Ethanol Blended Petrol (EBP) Programme is a major component of India's energy strategy, designed to strengthen energy security, support the farming community and lower environmental impact by increasing the use of domestically …",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/e20-petrol-row-govt-answers-9-faqs-on-ethanol-blended-petrols-impact-on-mileage-performance-damage-pricing-more/articleshow/132312977.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-10T13:40:22.000Z"
+    },
+    {
+      "title": "Forex reserves rise by $7.3 billion in week ended July 3",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/forex-reserves-rise-by-7-3-billion-in-week-ended-july-3/articleshow/132312581.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-10T12:57:28.000Z"
+    },
+    {
+      "title": "CIBIL score down without a new loan? Check these 6 red flags",
+      "summary": "No new loan but your CIBIL score fell? Late dues, high card use, lender enquiries, joint accounts or report errors may be behind the drop. Here's what to check.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/cibil-score-down-without-a-new-loan-check-these-6-red-flags-542322-2026-07-10?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-10T12:53:56.000Z"
+    },
+    {
+      "title": "Bank of Maharashtra net profit up 27% to Rs 2023 crore",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/bank-of-maharashtra-net-profit-up-27-to-rs-2023-crore/articleshow/132312495.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-10T12:51:35.000Z"
+    },
+    {
+      "title": "Looking for a safe hatchback? 4 crash-test results Indian buyers should see",
+      "summary": "Which hatchbacks have notable crash-test results? Altroz, Baleno, Celerio and Tiago show why buyers must check scores, protocols, test years and exact variants.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/looking-for-a-safe-hatchback-4-crash-test-results-indian-buyers-should-see-542318-2026-07-10?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-10T12:32:20.000Z"
+    },
+    {
+      "title": "These 6 AI tools can turn hours of busywork into minutes",
+      "summary": "Six AI tools can compress research, design, video and office tasks. See what ChatGPT, NotebookLM, Claude, Canva, Firefly and Microsoft Copilot actually do.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/these-6-ai-tools-can-turn-hours-of-busywork-into-minutes-542311-2026-07-10?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-10T11:49:53.000Z"
+    },
     {
       "title": "Adani partners with France's Dioxycle to pioneer low-carbon chemical production in India",
       "summary": "The collaboration will establish India’s first formic acid production facility powered entirely by renewable electricity and captured carbon. The project marks Adani Group’s strategic entry into the chemicals sector.",
@@ -193,8 +265,8 @@
       "publishedAt": "2026-07-10T09:15:38.000Z"
     },
     {
-      "title": "SpaceX no longer a global leader: China's Long March 10B challenges Elon Musk's reusable rocket dominance",
-      "summary": "The achievement marks China's first successful recovery of an orbital-class reusable rocket booster and signals that Beijing is rapidly advancing technologies considered essential for the next era of affordable spaceflight.",
+      "title": "SpaceX no longer a global leader: China's new success challenges Elon Musk's rocket empire",
+      "summary": "On the maiden flight of its reusable Long March 10B rocket, China not only reached orbit but also recovered its first-stage booster using a sea-based platform. The achievement marks China's first successful recovery of an orbital-class reusable rocket booster.",
       "url": "https://www.businesstoday.in/science/story/spacex-no-longer-a-global-leader-chinas-long-march-10b-challenges-elon-musks-reusable-rocket-dominance-542243-2026-07-10?utm_source=rssfeed",
       "source": "Business Today",
       "category": "markets",
@@ -209,36 +281,12 @@
       "publishedAt": "2026-07-10T08:49:48.000Z"
     },
     {
-      "title": "Global wealth report: Why being a rich country doesn't always mean richer citizens",
-      "summary": "Average (mean) wealth is calculated by dividing a country's total household wealth by its adult population. Because it includes everyone, a relatively small number of billionaires and ultra-wealthy individuals can dramatically inflate the figure.",
-      "url": "https://www.businesstoday.in/latest/trends/story/global-wealth-report-why-being-a-rich-country-doesnt-always-mean-richer-citizens-542239-2026-07-10?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-10T08:38:56.000Z"
-    },
-    {
-      "title": "Consumers shift to premium petrol amid E20 concerns; demand doubles at Delhi fuel stations: Sources",
-      "summary": "Delhi's fuel retail market is witnessing a sharp shift as more motorists opt for premium petrol variants such as XP95, XP100 and Speed 97 amid concerns surrounding E20 fuel, sources told Business Today TV.",
-      "url": "https://www.businesstoday.in/latest/economy/story/consumers-shift-to-premium-petrol-amid-e20-concerns-demand-doubles-at-delhi-fuel-stations-sources-542224-2026-07-10?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "insurance",
-      "publishedAt": "2026-07-10T08:15:38.000Z"
-    },
-    {
       "title": "India, among world’s largest exporters of refined oil products, set to see 25% rise in petroleum product exports",
       "summary": "Although India imports around 90% of its crude oil requirement, it has become one of the world's largest exporters of refined petroleum products by using its large and sophisticated refineries.",
       "url": "https://timesofindia.indiatimes.com/business/india-business/india-among-worlds-largest-exporters-of-refined-oil-products-set-to-see-25-rise-in-petroleum-product-exports/articleshow/132306479.cms",
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-07-10T07:58:12.000Z"
-    },
-    {
-      "title": "‘You know who we are :)’: This company’s unnamed 18th birthday ad is a masterclass on brand recall",
-      "summary": "The minimalist campaign was effectively a test of brand recall: could one colour, one tone of voice and one sentence be enough for readers to know exactly who was speaking?",
-      "url": "https://www.businesstoday.in/latest/trends/story/you-know-who-we-are-this-companys-unnamed-18th-birthday-ad-is-a-masterclass-on-brand-recall-542215-2026-07-10?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-10T07:43:50.000Z"
     },
     {
       "title": "India should not blink first in US trade negotiations, says SBI report",
@@ -327,54 +375,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-07-10T01:02:15.000Z"
-    },
-    {
-      "title": "India emerges as global hub for Philips' AI healthcare solutions",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/india-emerges-as-global-hub-for-philips-ai-healthcare-solutions/articleshow/132300685.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-10T00:57:49.000Z"
-    },
-    {
-      "title": "Seller body drags Flipkart to CCI for unfair practices",
-      "summary": "The Forum for Internet Retailers, Sellers & Traders has filed a complaint against Flipkart with the Competition Commission of India. FIRST alleges Flipkart uses deep discounting and a fund reservoir to distort competition.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/seller-body-drags-flipkart-to-cci-for-unfair-practices/articleshow/132300649.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-10T00:49:06.000Z"
-    },
-    {
-      "title": "Centre looks to tap more global giants for GCCs",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/centre-looks-to-tap-more-global-giants-for-gccs/articleshow/132300607.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-10T00:26:45.000Z"
-    },
-    {
-      "title": "KKR-backed Lighthouse to buy Gurugram-based Pathways School",
-      "summary": "Lighthouse Learning Group is acquiring Pathways School Gurgaon for approximately Rs 1,500 crore. This transaction marks a significant deal within India's school education sector. The school operates as a company, which may have influenced its valuation.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/kkr-backed-lighthouse-to-buy-gurugram-based-pathways-school/articleshow/132300580.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-10T00:22:56.000Z"
-    },
-    {
-      "title": "India's GCCs redraw global leadership map",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/indias-gccs-redraw-global-leadership-map/articleshow/132300535.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-10T00:07:02.000Z"
-    },
-    {
-      "title": "Nilekani’s Fundamentum launches Rs 2,200 crore Fund III",
-      "summary": "Fundamentum Partnership has launched its third fund with a Rs 2,200 crore target corpus. Nandan Nilekani anchors this fund, marking his largest venture capital commitment. The firm focuses on Series B investments in Indian technology companies ready for scaling.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/nilekanis-fundamentum-launches-rs-2200-crore-fund-iii/articleshow/132289052.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-09T14:12:28.000Z"
     }
   ]
 }
