@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-11T21:35:39.761Z",
+  "lastUpdated": "2026-07-12T08:56:13.136Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,54 @@
     }
   ],
   "articles": [
+    {
+      "title": "Google helps Kerala man repay a ₹25,000 loan borrowed in Saudi Arabia 25 years ago",
+      "summary": "Ismail and Lachanna, who is from Telangana's Jagtial district, worked at the same company in Saudi Arabia.",
+      "url": "https://www.businesstoday.in/latest/trends/story/google-helps-kerala-man-repay-a-rs25000-loan-borrowed-in-saudi-arabia-25-years-ago-542420-2026-07-12?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-12T08:32:12.000Z"
+    },
+    {
+      "title": "Bill Gates' daughter Phoebe Gates' shopping app is under scrutiny. Here's why",
+      "summary": "The publication said it tested the extension on more than 50 retail websites over the course of a week.",
+      "url": "https://www.businesstoday.in/latest/trends/story/bill-gates-daughter-phoebe-gates-shopping-app-is-under-scrutiny-heres-why-542417-2026-07-12?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-12T07:31:00.000Z"
+    },
+    {
+      "title": "Chai over luxury: Christopher Nolan, Tom Holland, Matt Damon visit 108-yr-old Mumbai café before The Odyssey premiere",
+      "summary": "Nolan, Holland and Damon are in India to promote The Odyssey, the filmmaker's adaptation of Homer's epic poem, which is set to release on July 17. Producer Emma Thomas also accompanied the team during the Mumbai visit.",
+      "url": "https://www.businesstoday.in/latest/trends/story/chai-over-luxury-christopher-nolan-tom-holland-matt-damon-visit-108-yr-old-mumbai-cafe-before-the-odyssey-premiere-542414-2026-07-12?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-12T06:44:08.000Z"
+    },
+    {
+      "title": "From New York to Sarojini stalls: How branded clothes end up selling for just a few hundred rupees",
+      "summary": "While buyers know the category of clothing they are purchasing, the brands, colours, sizes and styles remain unknown until the bale is opened.",
+      "url": "https://www.businesstoday.in/latest/trends/story/from-new-york-closets-to-sarojini-stalls-how-branded-clothes-end-up-selling-for-just-a-few-hundred-rupees-542413-2026-07-12?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-12T06:34:53.000Z"
+    },
+    {
+      "title": "'India needs much larger oil reserves': Montek Singh Ahluwalia as Hormuz crisis returns",
+      "summary": "'There was a shortage everywhere, and the international strategic reserves were being used. But it's possible that we might face a crisis that just affects us,' says economist Montek Singh Ahluwalia",
+      "url": "https://www.businesstoday.in/latest/economy/story/we-need-much-larger-oil-reserves-under-indian-control-montek-singh-ahluwalia-as-hormuz-crisis-returns-542408-2026-07-12?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-12T04:58:12.000Z"
+    },
+    {
+      "title": "Quote of the Day by Vedanta's Anil Agarwal: ‘Dear founders, certainty is a myth...’",
+      "summary": "Agarwal argued that rather than concentrating wealth entirely in private corporate groups, the Indian government should offer equity to the broader public while capping individual private stakes to ensure a democratic distribution of national wealth.",
+      "url": "https://www.businesstoday.in/latest/trends/story/quote-of-the-day-by-vedantas-anil-agarwal-dear-founders-certainty-is-a-myth-541891-2026-07-12?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "insurance",
+      "publishedAt": "2026-07-12T02:00:03.000Z"
+    },
     {
       "title": "Age-related discrimination could wipe out $500 billion in OECD productivity: Report",
       "summary": "",
@@ -193,22 +241,6 @@
       "publishedAt": "2026-07-11T02:30:05.000Z"
     },
     {
-      "title": "Quote of the Day by Elon Musk: 'I think you should always bear ...'",
-      "summary": "Elon Musk is a prominent billionaire entrepreneur, engineer, and tech mogul best known for founding and leading groundbreaking companies in space exploration, electric vehicles, and artificial intelligence.",
-      "url": "https://www.businesstoday.in/latest/trends/story/quote-of-the-day-by-elon-musk-i-think-you-should-always-bear-541883-2026-07-11?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-11T02:00:03.000Z"
-    },
-    {
-      "title": "E20 fuel price: Why E20 petrol is not cheaper than pure petrol despite 20% ethanol blending",
-      "summary": "India has explained why E20 petrol isn't cheaper than pure petrol despite containing 20% ethanol, saying domestic ethanol procurement costs remain higher at current crude oil prices.",
-      "url": "https://www.businesstoday.in/india/story/e20-fuel-price-why-e20-petrol-is-not-cheaper-than-pure-petrol-despite-20-ethanol-blending-542353-2026-07-11?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-11T01:30:04.000Z"
-    },
-    {
       "title": "Sebi clears IPOs of Zetwerk, Rentomojo",
       "summary": "",
       "url": "https://timesofindia.indiatimes.com/business/india-business/sebi-clears-ipos-of-zetwerk-rentomojo/articleshow/132323005.cms",
@@ -329,44 +361,12 @@
       "publishedAt": "2026-07-10T12:57:28.000Z"
     },
     {
-      "title": "CIBIL score down without a new loan? Check these 6 red flags",
-      "summary": "No new loan but your CIBIL score fell? Late dues, high card use, lender enquiries, joint accounts or report errors may be behind the drop. Here's what to check.",
-      "url": "https://www.businesstoday.in/latest/trends/photo/cibil-score-down-without-a-new-loan-check-these-6-red-flags-542322-2026-07-10?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-10T12:53:56.000Z"
-    },
-    {
       "title": "Bank of Maharashtra net profit up 27% to Rs 2023 crore",
       "summary": "",
       "url": "https://timesofindia.indiatimes.com/business/india-business/bank-of-maharashtra-net-profit-up-27-to-rs-2023-crore/articleshow/132312495.cms",
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-07-10T12:51:35.000Z"
-    },
-    {
-      "title": "Looking for a safe hatchback? 4 crash-test results Indian buyers should see",
-      "summary": "Which hatchbacks have notable crash-test results? Altroz, Baleno, Celerio and Tiago show why buyers must check scores, protocols, test years and exact variants.",
-      "url": "https://www.businesstoday.in/latest/trends/photo/looking-for-a-safe-hatchback-4-crash-test-results-indian-buyers-should-see-542318-2026-07-10?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-10T12:32:20.000Z"
-    },
-    {
-      "title": "These 6 AI tools can turn hours of busywork into minutes",
-      "summary": "Six AI tools can compress research, design, video and office tasks. See what ChatGPT, NotebookLM, Claude, Canva, Firefly and Microsoft Copilot actually do.",
-      "url": "https://www.businesstoday.in/latest/trends/photo/these-6-ai-tools-can-turn-hours-of-busywork-into-minutes-542311-2026-07-10?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-10T11:49:53.000Z"
-    },
-    {
-      "title": "Adani partners with France's Dioxycle to pioneer low-carbon chemical production in India",
-      "summary": "The collaboration will establish India’s first formic acid production facility powered entirely by renewable electricity and captured carbon. The project marks Adani Group’s strategic entry into the chemicals sector.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/adani-partners-with-frances-dioxycle-to-pioneer-low-carbon-chemical-production-in-india-542310-2026-07-10?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-10T11:41:05.000Z"
     },
     {
       "title": "Reverse oil flow: India supplies gasoline to Russia - why it matters",
