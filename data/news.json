@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-07-12T14:42:07.484Z",
-  "articlesCount": 38,
+  "lastUpdated": "2026-07-12T16:16:21.945Z",
+  "articlesCount": 39,
   "sourcesOk": 5,
   "sourcesTotal": 9,
   "sourceStatus": [
@@ -41,7 +41,7 @@
     {
       "source": "Times of India Business",
       "status": "ok",
-      "articles": 18,
+      "articles": 19,
       "feedUsed": "https://timesofindia.indiatimes.com/rssfeeds/1898055.cms"
     },
     {
@@ -56,6 +56,22 @@
     }
   ],
   "articles": [
+    {
+      "title": "Four top-10 firms add Rs 93,000 crore in mcap despite weak market; HDFC Bank, Airtel lead gains",
+      "summary": "Four of India's top ten companies added significant market value last week. HDFC Bank and Bharti Airtel led these gains, increasing their valuations substantially. Reliance Industries also saw its market capitalization rise, retaining its top position.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/four-top-10-firms-add-rs-93000-crore-in-mcap-despite-weak-market-hdfc-bank-airtel-lead-gains/articleshow/132348106.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-12T16:07:55.000Z"
+    },
+    {
+      "title": "Stock market this week: Q1 earnings, inflation data, Middle East tensions to keep D-Street volatile",
+      "summary": "The upcoming week will see investors focus on corporate earnings and key economic data. India's inflation figures and foreign exchange reserves are scheduled for release soon. Global developments, including West Asia tensions, will also influence market sentiment.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/stock-market-this-week-q1-earnings-inflation-middle-east-tensions-to-keep-d-street-volatile/articleshow/132347529.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-12T14:56:53.000Z"
+    },
     {
       "title": "India-UK FTA opens doors, but tariff cuts alone won't lift exports: GTRI",
       "summary": "India's new trade pact with the UK opens market access for exporters. However, strengthening quality standards and logistics is crucial for success. Food and engineering sectors face specific regulatory and certification requirements.",
@@ -351,14 +367,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-07-10T23:36:13.000Z"
-    },
-    {
-      "title": "India building strategic oil reserves: ONGC board approves plan for 1.75-million-tonne storage capacity",
-      "summary": "As the world's third-largest importer and consumer of crude oil, India relies on imports for more than 88 per cent of its crude oil requirements. Against the backdrop of geopolitical uncertainty and fluctuations in global oil markets.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/india-building-strategic-oil-reserves-ongc-board-approves-plan-for-1-75-million-tonne-storage-capacity/articleshow/132315053.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-10T16:07:14.000Z"
     }
   ]
 }
