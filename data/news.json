@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-07-12T09:18:17.721Z",
-  "articlesCount": 40,
+  "lastUpdated": "2026-07-12T14:42:07.484Z",
+  "articlesCount": 38,
   "sourcesOk": 5,
   "sourcesTotal": 9,
   "sourceStatus": [
@@ -41,7 +41,7 @@
     {
       "source": "Times of India Business",
       "status": "ok",
-      "articles": 20,
+      "articles": 18,
       "feedUsed": "https://timesofindia.indiatimes.com/rssfeeds/1898055.cms"
     },
     {
@@ -56,6 +56,62 @@
     }
   ],
   "articles": [
+    {
+      "title": "India-UK FTA opens doors, but tariff cuts alone won't lift exports: GTRI",
+      "summary": "India's new trade pact with the UK opens market access for exporters. However, strengthening quality standards and logistics is crucial for success. Food and engineering sectors face specific regulatory and certification requirements.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/india-uk-fta-opens-doors-but-tariff-cuts-alone-wont-lift-exports-gtri/articleshow/132346520.cms",
+      "source": "Times of India Business",
+      "category": "regulatory",
+      "publishedAt": "2026-07-12T13:45:43.000Z"
+    },
+    {
+      "title": "EPFO launches one-time Amnesty Scheme for exempted PF trusts after portal revamp: What it means",
+      "summary": "EPFO introduced a one-time Amnesty Scheme for exempted Provident Fund Trusts. This scheme allows establishments to regularize their compliance status under the EPF Act. Eligible employers can obtain retrospective exemption and resolve pending issues.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/epfo-launches-one-time-amnesty-scheme-for-exempted-pf-trusts-after-portal-revamp-what-it-means/articleshow/132345373.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-12T12:19:36.000Z"
+    },
+    {
+      "title": "Gold, silver rate outlook: Middle East conflict, inflation data to drive prices this week",
+      "summary": "Precious metals are expected to remain under pressure in the coming week. Geopolitical uncertainty in the Middle East weighs against upcoming inflation data. Investors are awaiting economic indicators that could shape global interest rate expectations.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/gold-silver-rate-outlook-middle-east-conflict-inflation-data-to-drive-prices-this-week/articleshow/132345030.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-12T11:45:15.000Z"
+    },
+    {
+      "title": "'Mileage has gone from 17 to 5': Sourav Joshi claims ethanol-blended petrol is hurting his Mercedes",
+      "summary": "After pointing to the dashboard, Joshi blamed the fuel being sold at petrol stations.",
+      "url": "https://www.businesstoday.in/latest/trends/story/mileage-has-gone-from-17-to-5-sourav-joshi-claims-ethanol-blended-petrol-is-hurting-his-mercedes-542427-2026-07-12?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-12T11:23:37.000Z"
+    },
+    {
+      "title": "Tax-free income, luxury skyline, lonely nights: NRI woman's viral post reveals the cost of Dubai glamour",
+      "summary": "Despite highlighting the hardships, she does not regret her decision. Instead, she says the sacrifices are made with a larger purpose — to achieve financial stability and provide a better future for family members back home.",
+      "url": "https://www.businesstoday.in/latest/trends/story/tax-free-income-luxury-skyline-lonely-nights-nri-womans-viral-post-reveals-the-cost-of-dubai-glamour-542425-2026-07-12?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-12T10:26:20.000Z"
+    },
+    {
+      "title": "E20 controversy explained: Why an old roadmap is back in spotlight",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/e20-controversy-explained-why-an-old-roadmap-is-back-in-spotlight/articleshow/132343675.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-12T10:20:12.000Z"
+    },
+    {
+      "title": "Planning to quit your job?: Entrepreneur who left a ₹15 LPA role has this advice for you",
+      "summary": "In a follow-up thread, Das urged people not to resign from stable jobs unless they had no other option.",
+      "url": "https://www.businesstoday.in/latest/trends/story/planning-to-quit-your-job-entrepreneur-who-left-a-rs15-lpa-role-has-this-advice-for-you-542423-2026-07-12?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-12T09:49:52.000Z"
+    },
     {
       "title": "Google helps Kerala man repay a ₹25,000 loan borrowed in Saudi Arabia 25 years ago",
       "summary": "Ismail and Lachanna, who is from Telangana's Jagtial district, worked at the same company in Saudi Arabia.",
@@ -217,30 +273,6 @@
       "publishedAt": "2026-07-11T02:58:19.000Z"
     },
     {
-      "title": "Why India's next corporate earnings cycle may be tougher than the last: Report",
-      "summary": "Elara Securities noted India's corporate profitability has rebounded sharply since Covid-19, driven by lower corporate taxes, operating leverage, balance sheet repair, low interest rates and supportive government policies.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/why-indias-next-corporate-earnings-cycle-may-be-tougher-than-the-last-report-542351-2026-07-11?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-11T02:55:02.000Z"
-    },
-    {
-      "title": "World’s laziest countries revealed: See which nations walk the least and where India ranks",
-      "summary": "A Stanford University study tracked steps daily across 46 countries. Indonesia ranked least active at 3,513 steps, Saudi Arabia second, Malaysia third — check where India ranks.",
-      "url": "https://www.businesstoday.in/latest/trends/photo/worlds-laziest-countries-revealed-see-which-nations-walk-the-least-and-where-india-ranks-542328-2026-07-11?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-11T02:45:02.000Z"
-    },
-    {
-      "title": "Who is Maya Tata, Ratan Tata's niece set to oversee Westside's online business",
-      "summary": "With Trent rapidly scaling up and digital commerce becoming the new battleground for fashion retail, her role is both timely and telling.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/who-is-maya-tata-ratan-tatas-niece-set-to-oversee-westsides-online-business-542204-2026-07-11?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-11T02:30:05.000Z"
-    },
-    {
       "title": "Sebi clears IPOs of Zetwerk, Rentomojo",
       "summary": "",
       "url": "https://timesofindia.indiatimes.com/business/india-business/sebi-clears-ipos-of-zetwerk-rentomojo/articleshow/132323005.cms",
@@ -327,54 +359,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-07-10T16:07:14.000Z"
-    },
-    {
-      "title": "US stocks today: Market trades flat, heads towards subdued end to week; oil prices stable",
-      "summary": "As uncertainty surrounding the strait persists, investors on Wall Street have begun shifting their attention to the upcoming earnings season, when companies will report their spring-quarter financial results.",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/us-stocks-today-july-10-2026-market-trades-flat-heads-towards-subdued-end-to-week-oil-prices-stable/articleshow/132314483.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-10T14:30:43.000Z"
-    },
-    {
-      "title": "Auto financiers push industry to embed financing into car sales to make it seamless",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/auto-financiers-push-industry-to-embed-financing-into-car-sales-to-make-it-seamless/articleshow/132313556.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-10T13:44:30.000Z"
-    },
-    {
-      "title": "E20 petrol row: Govt answers 9 FAQs on ethanol-blended petrol’s impact on mileage, performance, damage, pricing & more",
-      "summary": "The government has said that the Ethanol Blended Petrol (EBP) Programme is a major component of India's energy strategy, designed to strengthen energy security, support the farming community and lower environmental impact by increasing the use of domestically …",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/e20-petrol-row-govt-answers-9-faqs-on-ethanol-blended-petrols-impact-on-mileage-performance-damage-pricing-more/articleshow/132312977.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-10T13:40:22.000Z"
-    },
-    {
-      "title": "Forex reserves rise by $7.3 billion in week ended July 3",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/forex-reserves-rise-by-7-3-billion-in-week-ended-july-3/articleshow/132312581.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-10T12:57:28.000Z"
-    },
-    {
-      "title": "Bank of Maharashtra net profit up 27% to Rs 2023 crore",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/bank-of-maharashtra-net-profit-up-27-to-rs-2023-crore/articleshow/132312495.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-10T12:51:35.000Z"
-    },
-    {
-      "title": "Reverse oil flow: India supplies gasoline to Russia - why it matters",
-      "summary": "Indian refiners are well equipped from a product-quality standpoint to supply the gasoline grades required by Russia. However, Oil minister Hardeep Singh Puri has said that Indian companies are not directly selling gasoline to Russia.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/reverse-oil-flow-india-supplies-gasoline-to-russia-why-it-matters-crude-oil-imports-ukraine-war/articleshow/132310043.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-10T11:04:46.000Z"
     }
   ]
 }
