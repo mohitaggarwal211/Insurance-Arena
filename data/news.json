@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-07-12T21:35:29.899Z",
-  "articlesCount": 39,
+  "lastUpdated": "2026-07-13T12:18:43.193Z",
+  "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
   "sourceStatus": [
@@ -41,7 +41,7 @@
     {
       "source": "Times of India Business",
       "status": "ok",
-      "articles": 19,
+      "articles": 20,
       "feedUsed": "https://timesofindia.indiatimes.com/rssfeeds/1898055.cms"
     },
     {
@@ -57,6 +57,310 @@
   ],
   "articles": [
     {
+      "title": "Sri Lanka emerges as the new favourite for Indian destination weddings; average budgets hit ₹58 lakh domestically, ₹1.5 crore overseas",
+      "summary": "The WedMeGood Destination Wedding Report 2026 report reveals that destination wedding spending has risen 8% year-on-year, with the average domestic destination wedding budget now reaching ₹58 lakh while international celebrations command an even steeper invest…",
+      "url": "https://www.businesstoday.in/latest/trends/story/sri-lanka-emerges-as-the-new-favourite-for-indian-destination-weddings-average-budgets-hit-rs58-lakh-domestically-rs1-5-crore-overseas-542599-2026-07-13?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "regulatory",
+      "publishedAt": "2026-07-13T11:34:06.000Z"
+    },
+    {
+      "title": "Retail inflation jumps to 4.38% in June, driven by food, jewellery prices; breaches RBI's 4% target",
+      "summary": "India's retail inflation increased to 4.38 percent in June from May's 3.93 percent. Higher food prices significantly pushed up the overall Consumer Price Index for the month. Ginger and tomatoes saw substantial year-on-year price increases, contributing to the overall rise.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/retail-inflation-jumps-to-4-38-in-june-driven-by-food-jewellery-prices-breaches-rbis-4-target/articleshow/132364979.cms",
+      "source": "Times of India Business",
+      "category": "regulatory",
+      "publishedAt": "2026-07-13T11:12:23.000Z"
+    },
+    {
+      "title": "Jeff Bezos' ex-wife MacKenzie Scott gives $20 mn to youth mental health non-profit Active Minds",
+      "summary": "The unrestricted donation comes at a time when mental health challenges among American teenagers are intensifying, with nearly one in five adolescents reporting suicidal thoughts",
+      "url": "https://www.businesstoday.in/latest/world/story/jeff-bezos-ex-wife-mackenzie-scott-gives-20-million-to-youth-mental-health-nonprofit-active-minds-542572-2026-07-13?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-13T11:02:30.000Z"
+    },
+    {
+      "title": "ITR filing: 10 penalties taxpayers should not ignore - from late filing fee to under-reporting defaults",
+      "summary": "ITR filing: What are the various sections under which income tax penalties are applicable? When does a default happen and what are the penalty amounts that have to be paid by taxpayers? Here is a list of 10 top 10 penalties that can be imposed:",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/itr-filing-10-penalties-taxpayers-should-not-ignore-from-late-filing-fee-to-under-reporting-defaults/articleshow/132364593.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-13T11:01:47.000Z"
+    },
+    {
+      "title": "How small tweaks can save your gadgets from early death",
+      "summary": "Small habits can save your gadgets from early breakdowns. Cleaning, software updates, surge protection, and proper ventilation keep phones, laptops, printers, and appliances lasting longer.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/how-small-tweaks-can-save-your-gadgets-from-early-death-542582-2026-07-13?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-13T10:59:31.000Z"
+    },
+    {
+      "title": "Terrifying Skywalks Around the World You Must See",
+      "summary": "Experience vertigo-inducing thrills at the world’s most terrifying skywalks, from Grand Canyon glass floors to Norway fjords, Iguazu Falls, China, and Swiss cliff-edge views.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/terrifying-skywalks-around-the-world-you-must-see-542584-2026-07-13?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-13T10:59:17.000Z"
+    },
+    {
+      "title": "India's commerce portfolio: Imports outpace exports, trade deficit expands to $30.4 billion",
+      "summary": "India's merchandise imports surged thirty-one percent year-on-year in June. Exports also rose fifteen point five percent, while imports climbed sharply. The country's trade deficit stood at thirty point four three billion dollars for the month.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/indias-commerce-portfolio-imports-outpace-exports-trade-deficit-expands-to-30-4-billion/articleshow/132364646.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-13T10:54:43.000Z"
+    },
+    {
+      "title": "The Moon is drifting away from Earth — and the reason starts in our oceans",
+      "summary": "The Moon is slowly moving away from Earth by about 3.8 cm every year. The reason is linked to ocean tides, Earth’s rotation and laser reflectors left by Apollo astronauts.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/the-moon-is-drifting-away-from-earth-and-the-reason-starts-in-our-oceans-542586-2026-07-13?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-13T10:48:57.000Z"
+    },
+    {
+      "title": "'Completely false and misleading': Piyush Goyal rebuts report of India holding up US trade pact",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/completely-false-and-misleading-piyush-goyal-rebuts-report-of-india-holding-up-us-trade-pact/articleshow/132364149.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-13T10:47:17.000Z"
+    },
+    {
+      "title": "Why Minor Daily Actions Matter More Than Big Mistakes in Office Politics",
+      "summary": "In office politics, tiny daily habits often matter more than big mistakes. Micro-behaviors like tone, reactions, and attentiveness quietly shape respect, trust, and professional perception.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/why-minor-daily-actions-matter-more-than-big-mistakes-in-office-politics-542579-2026-07-13?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-13T10:44:55.000Z"
+    },
+    {
+      "title": "Extreme Prices: These Global Destinations Will Blow Your Budget",
+      "summary": "Bermuda, Cayman, Switzerland, and other global hotspots top the charts for sky-high living costs. Luxury housing, imported goods, and exclusive locales make daily life a premium adventure.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/extreme-prices-these-global-destinations-will-blow-your-budget-542577-2026-07-13?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "regulatory",
+      "publishedAt": "2026-07-13T10:44:06.000Z"
+    },
+    {
+      "title": "Wimbledon Greats: Who Holds the Most Men’s Singles Crowns?",
+      "summary": "Roger Federer holds the record with 8 Wimbledon men’s singles titles. Legends like Sampras and Djokovic follow with 7, while new stars like Jannik Sinner rise in modern tennis.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/wimbledon-greats-who-holds-the-most-mens-singles-crowns-542575-2026-07-13?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-13T10:43:27.000Z"
+    },
+    {
+      "title": "Car mileage dropping suddenly? These everyday habits may be the reason",
+      "summary": "Low tyre pressure, AC use, idling and fuel quality can quietly reduce car mileage. Here are 6 everyday reasons your car may be consuming more fuel than expected.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/car-mileage-dropping-suddenly-these-everyday-habits-may-be-the-reason-542581-2026-07-13?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-13T10:23:36.000Z"
+    },
+    {
+      "title": "'Unpredictable fluctuations' in airfares: SC asks Centre to place rules before it within 2 weeks",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/unpredictable-fluctuations-in-airfares-sc-asks-centre-to-place-rules-before-it-within-2-weeks/articleshow/132363527.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-13T10:23:17.000Z"
+    },
+    {
+      "title": "UIDAI's new app changes everything — here's how to update Aadhaar from home in 5 steps",
+      "summary": "UIDAI's new Aadhaar App lets you update your address and mobile number from home in minutes. Here's the complete step-by-step process, fee details and what documents you need.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/uidais-new-app-changes-everything-heres-how-to-update-aadhaar-from-home-in-5-steps-542574-2026-07-13?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-13T10:11:32.000Z"
+    },
+    {
+      "title": "Supreme Court: Bank merger without landlord's consent can attract eviction under Delhi Rent Control Act",
+      "summary": "The Supreme Court has ruled that a bank cannot resist eviction under the Delhi Rent Control Act merely because it came into possession of leased premises through a statutory amalgamation.",
+      "url": "https://timesofindia.indiatimes.com/legal/news/supreme-court-bank-merger-without-landlords-consent-can-attract-eviction-under-delhi-rent-control-act/articleshow/132362245.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-13T10:11:00.000Z"
+    },
+    {
+      "title": "Purpose over privilege: Why this Swiss woman left Dubai boardrooms to educate underprivileged kids in India",
+      "summary": "Her journey eventually brought her to Sagar Island, where she initially hoped to work with existing non-profit organisations. However, after spending time on the ground, she felt many grassroots initiatives struggled with transparency or failed to create lasting impact.",
+      "url": "https://www.businesstoday.in/latest/trends/story/purpose-over-privilege-why-this-swiss-woman-left-dubai-boardrooms-to-educate-underprivileged-kids-in-india-542537-2026-07-13?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-13T09:49:35.000Z"
+    },
+    {
+      "title": "HDFC Bank's automation & AI push cuts over 3,300 job in FY26",
+      "summary": "Non-supervisory employees fell by more than 8,000 to 162,797, indicating that a significant part of the reduction may have been in operational and back-office roles",
+      "url": "https://www.businesstoday.in/latest/corporate/story/hdfc-banks-automation-ai-push-cuts-over-3300-job-in-fy26-542523-2026-07-13?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-13T09:42:03.000Z"
+    },
+    {
+      "title": "Found old ₹2000 notes in your cupboard? RBI says you can still exchange them — here's how",
+      "summary": "RBI reminds Indians that ₹2000 notes are still legal tender and can be exchanged at 19 regional offices or sent by post. Here's the complete step-by-step process to return them now.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/found-old-rs2000-notes-in-your-cupboard-rbi-says-you-can-still-exchange-them-heres-how-542567-2026-07-13?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "regulatory",
+      "publishedAt": "2026-07-13T09:41:11.000Z"
+    },
+    {
+      "title": "Spain's Submer to invest $2 billion in Madhya Pradesh semiconductor sector, may create 5,000 jobs",
+      "summary": "Spain's Submer Group will invest two billion dollars in Madhya Pradesh's semiconductor sector. This significant investment is expected to generate approximately five thousand direct employment opportunities.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/spains-submer-to-invest-2-billion-in-madhya-pradesh-semiconductor-sector-may-create-5000-jobs/articleshow/132362019.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-13T09:28:05.000Z"
+    },
+    {
+      "title": "1.27 crore railway bedsheets, towels, blankets stolen since 2022. Here's what an RTI investigation found",
+      "summary": "According to RTI data, roughly one in every 1,000 AC passengers walks away with at least one bedroll item at the end of their journey.",
+      "url": "https://www.businesstoday.in/latest/trends/story/1-27-crore-railway-bedsheets-towels-blankets-stolen-since-2022-heres-what-an-rti-investigation-found-542557-2026-07-13?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-13T09:17:48.000Z"
+    },
+    {
+      "title": "Meet Ramdulal Deb: The Bengali trader who shaped US-India commerce in 18th century",
+      "summary": "Perhaps the greatest tribute came from Salem's merchant community. An American merchant vessel was christened Ram Dolloll, reflecting the esteem in which he was held by traders whose fortunes were increasingly tied to commerce with India.",
+      "url": "https://www.businesstoday.in/latest/trends/story/meet-ramdulal-deb-the-bengali-trader-who-shaped-us-india-commerce-in-18th-century-542559-2026-07-13?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-13T09:16:47.000Z"
+    },
+    {
+      "title": "Global funds fall in love with Indian stocks again; buy $1 billion in equities as foreign investors rush back",
+      "summary": "Foreign investors, who resumed buying Indian debt in June, have extended that renewed interest to equities in July. After several months of continuous selling, foreign portfolio investors (FPIs) have become net buyers this month, investing $2.59 billion (Rs 24…",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/global-funds-fall-in-love-with-indian-stocks-again-buy-1-billion-in-equities-as-foreign-investors-rush-back/articleshow/132360591.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-13T07:55:44.000Z"
+    },
+    {
+      "title": "Policybazaar’s hospital entry: Can PB Health connect care, cover and tech?",
+      "summary": "PB Fintech has opened its first hospital in Gurugram as it seeks to bring medical care, insurance and technology together under the PB Health brand.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/policybazaars-hospital-entry-can-pb-health-connect-care-cover-and-tech-542536-2026-07-13?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "insurance",
+      "publishedAt": "2026-07-13T07:52:54.000Z"
+    },
+    {
+      "title": "Stocks to buy: What's the outlook for Nifty for July 13-July 17 week? Check list of top stock recommendations",
+      "summary": "Stock market recommendations: Sudeep Shah, Head - Technical Research and Derivatives, SBI Securities recommends Indian Hotels Company, and Equitas Small Finance Bank as top stocks to buy for the July 13-July 17, 2026 week.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/top-stocks-to-buy-this-week-july-13-to-july-17-stock-recommendations-indian-hotels-company-equitas-small-finance-bank/articleshow/132359258.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-13T06:56:58.000Z"
+    },
+    {
+      "title": "Gold price prediction today: Any end to gold fall in sight? Check outlook for July 13, 2026 week",
+      "summary": "Gold price prediction today: Gold prices are trading with a bearish bias as geopolitical events weigh on investor sentiment, says Manav Modi, Senior Analyst, Commodity Research at Motilal Oswal Financial Services Ltd.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/gold-price-prediction-today-what-is-the-gold-rate-outlook-for-july-13-2026-week-should-you-buy-or-sell-mcx-gold-us-iran-war-middle-east/articleshow/132358971.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-13T06:41:34.000Z"
+    },
+    {
+      "title": "British Gas engineer fired after allegedly taking discarded boilers to sell on eBay",
+      "summary": "Veteran engineer Philip Smith argued that the boilers had been thrown away and believed he had done nothing wrong by collecting them",
+      "url": "https://www.businesstoday.in/latest/trends/story/british-gas-engineer-fired-after-allegedly-taking-discarded-boilers-to-sell-on-ebay-542460-2026-07-13?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-13T06:27:07.000Z"
+    },
+    {
+      "title": "Top stocks to buy: Stock recommendations for July 13, 2026 week - check list",
+      "summary": "Stock market recommendations: Motilal Oswal Wealth Management Research Desk recommends buying GE Vernova T&D India, and Apollo Hospitals as the top stocks for the week starting July 13, 2026:",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/top-stock-recommendations-for-july-13-2026-week-ge-vernova-td-india-apollo-hospitals-stocks-to-buy-today/articleshow/132357429.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-13T05:31:21.000Z"
+    },
+    {
+      "title": "Government clears Pranab Mukherjee memorial at Rajghat's Rashtriya Smriti complex",
+      "summary": "The memorial will be built at the Rashtriya Smriti Sthal, a designated area within the Rajghat complex reserved for commemorating former Presidents, Vice Presidents and Prime Ministers",
+      "url": "https://www.businesstoday.in/latest/trends/story/government-clears-pranab-mukherjee-memorial-at-rajghats-rashtriya-smriti-complex-542450-2026-07-13?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-13T04:39:32.000Z"
+    },
+    {
+      "title": "Kospi dream rally fumbles: World's best-performing stock plunges 7% - what's behind crash?",
+      "summary": "South Korea's Kospi index experienced a significant 7% decline on Monday. Rising Middle East tensions and oil price spikes rattled global investors worldwide. Technology stocks, including SK Hynix and Samsung Electronics, led the sharp fall.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/kospi-dream-rally-fumbles-worlds-best-performing-stock-plunges-7-whats-behind-crash/articleshow/132355804.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-13T04:04:14.000Z"
+    },
+    {
+      "title": "Nifty Realty Index: How NSE measures performance of real estate sector",
+      "summary": "The Nifty Realty Index tracks India's listed real estate companies' performance. It comprises ten firms selected by free-float market capitalization and rebalanced semi-annually. DLF, Phoenix Mills, and Lodha Developers hold the largest weights within the index.",
+      "url": "https://timesofindia.indiatimes.com/real-estate/news/nifty-realty-index-how-nse-measures-performance-of-real-estate-sector/articleshow/132348434.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-13T04:00:00.000Z"
+    },
+    {
+      "title": "Chaos returns to Middle East: Oil prices jump 4% as US-Iran exchange strikes",
+      "summary": "Oil prices surged sharply as renewed military action between Iran and the United States escalated tensions. Fresh strikes expanded to Qatar and the United Arab Emirates over the weekend. This escalation has clouded the future of the interim US-Iran agreement signed last month.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/chaos-returns-to-middle-east-oil-prices-jump-4-as-us-iran-exchange-strikes-on-july-13-2026/articleshow/132354601.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-13T02:05:48.000Z"
+    },
+    {
+      "title": "Quote of the Day by Rahul Bajaj: ‘We are a true, proud and an independent nation...’",
+      "summary": "As the long-time chairman of the Bajaj Group, he became a household name across India for putting the middle class on wheels and helping shape the country's modern economic landscape.",
+      "url": "https://www.businesstoday.in/latest/trends/story/quote-of-the-day-by-rahul-bajaj-we-are-a-true-proud-and-an-independent-nation-541895-2026-07-13?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-13T02:00:03.000Z"
+    },
+    {
+      "title": "Auto lenders bet on embedded finance",
+      "summary": "Auto financiers are pushing for embedded finance and digital credit integration. This shift aims to make car purchases more seamless for customers. Traditional installment loans still dominate the Indian auto finance market.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/auto-lenders-bet-on-embedded-finance/articleshow/132354412.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-13T01:35:33.000Z"
+    },
+    {
+      "title": "After two years, pharma volumes pick up pace",
+      "summary": "Domestic pharmaceutical retail growth shows strong signs of demand-led expansion. Volume growth in June exceeded three percent, a significant positive shift. Industry growth outlook is now revised upwards to over eleven percent this year.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/after-two-years-pharma-volumes-pick-up-pace/articleshow/132354395.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-13T01:33:02.000Z"
+    },
+    {
+      "title": "Government weighs cybersecurity framework for IoT devices",
+      "summary": "India is considering a cybersecurity framework for internet-connected devices. This initiative aims to enhance security standards for smart meters and other IoT products. The government is exploring measures for stricter security and certification requirements.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/government-weighs-cybersecurity-framework-for-iot-devices/articleshow/132354357.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-13T01:26:30.000Z"
+    },
+    {
+      "title": "Foreign investors return to India, equities lead revival",
+      "summary": "Foreign investors have returned to Indian markets, showing renewed interest in equities during July. This shift follows months of consistent selling, with significant inflows recorded in early July.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/foreign-investors-return-to-india-equities-lead-revival/articleshow/132354244.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-13T00:58:19.000Z"
+    },
+    {
+      "title": "Oil companies plan expanding 10-kg LPG cylinder sales",
+      "summary": "State-run oil companies are considering expanding lightweight 10-kg LPG cylinders for commercial use. These cylinders will likely be sold at commercial LPG rates if approved by authorities. This move could benefit migrant workers, tenants, and street vendors needing LPG.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/oil-companies-plan-expanding-10-kg-lpg-cylinder-sales/articleshow/132354002.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-12T23:20:05.000Z"
+    },
+    {
       "title": "NFL's biggest-ever deal: India-born billionaire Vinod Khosla buys Seattle Seahawks for $9.6 billion",
       "summary": "The Seahawks' sale eclipses the previous NFL record of $6.05 billion paid for the Washington Commanders in 2023. At nearly $9.6 billion, the transaction underlines how professional sports teams have evolved into premium global assets that attract long-term inv…",
       "url": "https://www.businesstoday.in/latest/trends/story/nfls-biggest-ever-deal-india-born-billionaire-vinod-khosla-buys-seattle-seahawks-for-9-6-billion-542429-2026-07-12?utm_source=rssfeed",
@@ -71,302 +375,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-07-12T16:07:55.000Z"
-    },
-    {
-      "title": "Stock market this week: Q1 earnings, inflation data, Middle East tensions to keep D-Street volatile",
-      "summary": "The upcoming week will see investors focus on corporate earnings and key economic data. India's inflation figures and foreign exchange reserves are scheduled for release soon. Global developments, including West Asia tensions, will also influence market sentiment.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/stock-market-this-week-q1-earnings-inflation-middle-east-tensions-to-keep-d-street-volatile/articleshow/132347529.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-12T14:56:53.000Z"
-    },
-    {
-      "title": "India-UK FTA opens doors, but tariff cuts alone won't lift exports: GTRI",
-      "summary": "India's new trade pact with the UK opens market access for exporters. However, strengthening quality standards and logistics is crucial for success. Food and engineering sectors face specific regulatory and certification requirements.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/india-uk-fta-opens-doors-but-tariff-cuts-alone-wont-lift-exports-gtri/articleshow/132346520.cms",
-      "source": "Times of India Business",
-      "category": "regulatory",
-      "publishedAt": "2026-07-12T13:45:43.000Z"
-    },
-    {
-      "title": "EPFO launches one-time Amnesty Scheme for exempted PF trusts after portal revamp: What it means",
-      "summary": "EPFO introduced a one-time Amnesty Scheme for exempted Provident Fund Trusts. This scheme allows establishments to regularize their compliance status under the EPF Act. Eligible employers can obtain retrospective exemption and resolve pending issues.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/epfo-launches-one-time-amnesty-scheme-for-exempted-pf-trusts-after-portal-revamp-what-it-means/articleshow/132345373.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-12T12:19:36.000Z"
-    },
-    {
-      "title": "Gold, silver rate outlook: Middle East conflict, inflation data to drive prices this week",
-      "summary": "Precious metals are expected to remain under pressure in the coming week. Geopolitical uncertainty in the Middle East weighs against upcoming inflation data. Investors are awaiting economic indicators that could shape global interest rate expectations.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/gold-silver-rate-outlook-middle-east-conflict-inflation-data-to-drive-prices-this-week/articleshow/132345030.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-12T11:45:15.000Z"
-    },
-    {
-      "title": "'Mileage has gone from 17 to 5': Sourav Joshi claims ethanol-blended petrol is hurting his Mercedes",
-      "summary": "After pointing to the dashboard, Joshi blamed the fuel being sold at petrol stations.",
-      "url": "https://www.businesstoday.in/latest/trends/story/mileage-has-gone-from-17-to-5-sourav-joshi-claims-ethanol-blended-petrol-is-hurting-his-mercedes-542427-2026-07-12?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-12T11:23:37.000Z"
-    },
-    {
-      "title": "Tax-free income, luxury skyline, lonely nights: NRI woman's viral post reveals the cost of Dubai glamour",
-      "summary": "Despite highlighting the hardships, she does not regret her decision. Instead, she says the sacrifices are made with a larger purpose — to achieve financial stability and provide a better future for family members back home.",
-      "url": "https://www.businesstoday.in/latest/trends/story/tax-free-income-luxury-skyline-lonely-nights-nri-womans-viral-post-reveals-the-cost-of-dubai-glamour-542425-2026-07-12?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-12T10:26:20.000Z"
-    },
-    {
-      "title": "E20 controversy explained: Why an old roadmap is back in spotlight",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/e20-controversy-explained-why-an-old-roadmap-is-back-in-spotlight/articleshow/132343675.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-12T10:20:12.000Z"
-    },
-    {
-      "title": "Planning to quit your job?: Entrepreneur who left a ₹15 LPA role has this advice for you",
-      "summary": "In a follow-up thread, Das urged people not to resign from stable jobs unless they had no other option.",
-      "url": "https://www.businesstoday.in/latest/trends/story/planning-to-quit-your-job-entrepreneur-who-left-a-rs15-lpa-role-has-this-advice-for-you-542423-2026-07-12?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-12T09:49:52.000Z"
-    },
-    {
-      "title": "Google helps Kerala man repay a ₹25,000 loan borrowed in Saudi Arabia 25 years ago",
-      "summary": "Ismail and Lachanna, who is from Telangana's Jagtial district, worked at the same company in Saudi Arabia.",
-      "url": "https://www.businesstoday.in/latest/trends/story/google-helps-kerala-man-repay-a-rs25000-loan-borrowed-in-saudi-arabia-25-years-ago-542420-2026-07-12?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-12T08:32:12.000Z"
-    },
-    {
-      "title": "Bill Gates' daughter Phoebe Gates' shopping app is under scrutiny. Here's why",
-      "summary": "The publication said it tested the extension on more than 50 retail websites over the course of a week.",
-      "url": "https://www.businesstoday.in/latest/trends/story/bill-gates-daughter-phoebe-gates-shopping-app-is-under-scrutiny-heres-why-542417-2026-07-12?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-12T07:31:00.000Z"
-    },
-    {
-      "title": "Chai over luxury: Christopher Nolan, Tom Holland, Matt Damon visit 108-yr-old Mumbai café before The Odyssey premiere",
-      "summary": "Nolan, Holland and Damon are in India to promote The Odyssey, the filmmaker's adaptation of Homer's epic poem, which is set to release on July 17. Producer Emma Thomas also accompanied the team during the Mumbai visit.",
-      "url": "https://www.businesstoday.in/latest/trends/story/chai-over-luxury-christopher-nolan-tom-holland-matt-damon-visit-108-yr-old-mumbai-cafe-before-the-odyssey-premiere-542414-2026-07-12?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-12T06:44:08.000Z"
-    },
-    {
-      "title": "From New York to Sarojini stalls: How branded clothes end up selling for just a few hundred rupees",
-      "summary": "While buyers know the category of clothing they are purchasing, the brands, colours, sizes and styles remain unknown until the bale is opened.",
-      "url": "https://www.businesstoday.in/latest/trends/story/from-new-york-closets-to-sarojini-stalls-how-branded-clothes-end-up-selling-for-just-a-few-hundred-rupees-542413-2026-07-12?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-12T06:34:53.000Z"
-    },
-    {
-      "title": "'India needs much larger oil reserves': Montek Singh Ahluwalia as Hormuz crisis returns",
-      "summary": "'There was a shortage everywhere, and the international strategic reserves were being used. But it's possible that we might face a crisis that just affects us,' says economist Montek Singh Ahluwalia",
-      "url": "https://www.businesstoday.in/latest/economy/story/we-need-much-larger-oil-reserves-under-indian-control-montek-singh-ahluwalia-as-hormuz-crisis-returns-542408-2026-07-12?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-12T04:58:12.000Z"
-    },
-    {
-      "title": "Quote of the Day by Vedanta's Anil Agarwal: ‘Dear founders, certainty is a myth...’",
-      "summary": "Agarwal argued that rather than concentrating wealth entirely in private corporate groups, the Indian government should offer equity to the broader public while capping individual private stakes to ensure a democratic distribution of national wealth.",
-      "url": "https://www.businesstoday.in/latest/trends/story/quote-of-the-day-by-vedantas-anil-agarwal-dear-founders-certainty-is-a-myth-541891-2026-07-12?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "insurance",
-      "publishedAt": "2026-07-12T02:00:03.000Z"
-    },
-    {
-      "title": "Age-related discrimination could wipe out $500 billion in OECD productivity: Report",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/age-related-discrimination-could-wipe-out-500-billion-in-oecd-productivity-report/articleshow/132328955.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-11T11:31:34.000Z"
-    },
-    {
-      "title": "How trains running at 160 kmph aim to transform Delhi-NCR and cities around it",
-      "summary": "The Delhi-Meerut RRTS corridor is just the first stepping stone to a much larger urban mobility plan that aims to transform connectivity in and around Delhi-NCR, with an ambition to develop satellite cities as hubs for growth and development.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/namo-bharat-rrts-how-trains-running-at-160-kmph-aim-to-transform-delhi-ncr-and-cities-around-it-delhi-meerut-karnal-panipat-bawal-gurgaon/articleshow/132328329.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-11T10:33:33.000Z"
-    },
-    {
-      "title": "Westinghouse, EDF, Rosatom on Naveen Jindal Group’s nuclear shopping list",
-      "summary": "The Jindal Group had announced an investment of Rs 1.8 lakh crore to build 18 GW of nuclear power capacity over the next two decades. Is in talks with international players for next-generation nuclear reactors.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/westinghouse-edf-rosatom-on-naveen-jindal-groups-nuclear-shopping-list-542381-2026-07-11?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-11T09:26:59.000Z"
-    },
-    {
-      "title": "HDFC Bank FY26 report: AI ambitions, wealth growth, ESG focus, ₹60,000 crore fundraise",
-      "summary": "HDFC Bank has laid out a technology-led growth roadmap in its FY2025-26 Integrated Annual Report, highlighting artificial intelligence, capital strengthening, wealth management, sustainability and digital banking as its key strategic priorities.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/hdfc-bank-fy26-report-ai-ambitions-wealth-growth-esg-focus-rs60000-crore-fundraise-542380-2026-07-11?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-11T08:35:02.000Z"
-    },
-    {
-      "title": "NSE Indices launches Nifty500 Ahimsa Index: From 'ethical' filters to screening, how the benchmark works",
-      "summary": "NSE Indices has launched the Nifty500 Ahimsa Index, tracking companies aligned with non-violence principles. This new index targets investors seeking animal welfare considerations in their portfolios.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/nse-indices-launches-nifty500-ahimsa-index-from-criteria-to-screening-how-the-ethical-benchmark-works/articleshow/132326935.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-11T08:12:09.000Z"
-    },
-    {
-      "title": "Akasa Air pauses Noida–Navi Mumbai route weeks after launch amid network review: Report",
-      "summary": "Akasa Air has temporarily suspended its direct flights between Noida International Airport and Navi Mumbai International Airport less than two weeks after launching the service, citing network optimisation.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/akasa-air-pauses-noida-navi-mumbai-route-weeks-after-launch-amid-network-review-report-542376-2026-07-11?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-11T07:48:10.000Z"
-    },
-    {
-      "title": "HDFC Bank CEO: Chairman's resignation raised governance questions, bank remains committed to high standards",
-      "summary": "Sashidhar Jagdishan stressed in his letter to shareholders that HDFC Bank remains committed to the highest standards of corporate governance.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/resignation-of-part-time-chairman-a-challenging-event-raised-questions-on-lenders-governance-standards-hdfc-bank-md-and-ceo-jagdishan-542378-2026-07-11?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-11T07:46:40.000Z"
-    },
-    {
-      "title": "HDFC Bank bets big on AI with in-house GenAI platform 'Neev'; plans to transform customer service, lending, operations",
-      "summary": "HDFC Bank is ramping up its artificial intelligence ambitions with 'Neev', its in-house enterprise GenAI platform, to integrate AI across customer service, lending, wealth management and internal operations.",
-      "url": "https://www.businesstoday.in/technology/artificial-intelligence/story/hdfc-bank-bets-big-on-ai-with-in-house-genai-platform-neev-plans-to-transform-customer-service-lending-and-operations-542375-2026-07-11?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-11T07:07:24.000Z"
-    },
-    {
-      "title": "PwC employee secretly worked from India instead of his Dublin office. Here's what happened next",
-      "summary": "The case, heard by Ireland's Workplace Relations Commission (WRC), involved Jasch Asher, a senior associate in PwC's assurance practice, who joined the firm's Dublin office in February 2022",
-      "url": "https://www.businesstoday.in/latest/trends/story/pwc-employee-secretly-worked-from-india-instead-of-his-dublin-office-heres-what-happened-next-542297-2026-07-11?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-11T05:00:03.000Z"
-    },
-    {
-      "title": "India could lose over 19 working days a year to extreme heat by 2030: Report",
-      "summary": "India could lose more than 19 working days every year by 2030 due to extreme heat, with agriculture and construction workers expected to be the hardest hit, according to a new global report.",
-      "url": "https://www.businesstoday.in/latest/economy/story/india-could-lose-over-19-working-days-a-year-to-extreme-heat-by-2030-report-542370-2026-07-11?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-11T04:51:28.000Z"
-    },
-    {
-      "title": "From TCS employee to billionaire: Meet Bharat Desai who built a $3.4 billion IT giant",
-      "summary": "Born in Kenya and raised in India, Bharat Desai studied electrical engineering at the Indian Institute of Technology (IIT) Bombay before pursuing an MBA in finance at the University of Michigan",
-      "url": "https://www.businesstoday.in/latest/trends/story/from-tcs-employee-to-billionaire-meet-bharat-desai-who-built-a-3-4-billion-it-giant-542163-2026-07-11?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-11T04:00:04.000Z"
-    },
-    {
-      "title": "Could this housing model solve urban crises? Singapore's transformation offers clues",
-      "summary": "Once known for its crowded slums and cramped tenements, Singapore turned public housing into a national project — and in doing so, rewrote the future of urban living.",
-      "url": "https://www.businesstoday.in/latest/world/story/could-this-housing-model-solve-urban-crises-singapores-transformation-offers-clues-542220-2026-07-11?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "insurance",
-      "publishedAt": "2026-07-11T03:30:04.000Z"
-    },
-    {
-      "title": "About Naresh Gupta, the IIT Kanpur graduate who gifted ₹10 crore to his alma mater",
-      "summary": "Dr Gupta graduated from IIT Kanpur's Computer Science and Engineering department in 1988 before pursuing higher studies at the University of Maryland, College Park",
-      "url": "https://www.businesstoday.in/latest/trends/story/about-naresh-gupta-the-iit-kanpur-graduate-who-gifted-rs10-crore-to-his-alma-mater-542207-2026-07-11?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-11T03:00:03.000Z"
-    },
-    {
-      "title": "Sebi clears IPOs of Zetwerk, Rentomojo",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/sebi-clears-ipos-of-zetwerk-rentomojo/articleshow/132323005.cms",
-      "source": "Times of India Business",
-      "category": "regulatory",
-      "publishedAt": "2026-07-11T00:44:42.000Z"
-    },
-    {
-      "title": "Markets rally for 2nd day, sensex up 827 points",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/markets-rally-for-2nd-day-sensex-up-827-points/articleshow/132322999.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-11T00:42:31.000Z"
-    },
-    {
-      "title": "Oyo-Zostel appeal to be heard on August 12",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/oyo-zostel-appeal-to-be-heard-on-august-12/articleshow/132322989.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-11T00:37:09.000Z"
-    },
-    {
-      "title": "Tractors defy rain concerns as Q1 sales jump 19%",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/tractors-defy-rain-concerns-as-q1-sales-jump-19/articleshow/132322983.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-11T00:33:04.000Z"
-    },
-    {
-      "title": "$1bn SEZs in the works to boost seafood exports",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/1bn-sezs-in-the-works-to-boost-seafood-exports/articleshow/132322980.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-11T00:30:24.000Z"
-    },
-    {
-      "title": "Amfi data: Equity flows via SIPs increase 2.7% in June",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/amfi-data-equity-flows-via-sips-increase-2-7-in-june/articleshow/132322967.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-11T00:23:38.000Z"
-    },
-    {
-      "title": "Vivo-Dixon JV: A template for Chinese phone companies in India",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/vivo-dixon-jv-a-template-for-chinese-phone-companies-in-india/articleshow/132322959.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-11T00:17:52.000Z"
-    },
-    {
-      "title": "Indian Bank targets $2 billion through FCNR deposits",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/indian-bank-targets-2-billion-through-fcnr-deposits/articleshow/132322944.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-11T00:12:22.000Z"
-    },
-    {
-      "title": "EV ownership cost rises with battery-as-service",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/ev-ownership-cost-rises-with-battery-as-service/articleshow/132322911.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-10T23:45:37.000Z"
-    },
-    {
-      "title": "Banks add Rs 7 lakh crore deposits in last fortnight of Q1FY27",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/banks-add-rs-7-lakh-crore-deposits-in-last-fortnight-of-q1fy27/articleshow/132322851.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-10T23:36:13.000Z"
     }
   ]
 }
