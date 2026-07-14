@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-14T15:56:42.007Z",
+  "lastUpdated": "2026-07-14T16:57:07.566Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,22 @@
     }
   ],
   "articles": [
+    {
+      "title": "RBI officials meet top bankers. Here's key issues that were discussed",
+      "summary": "RBI Governor Sanjay Malhotra urged banks to leverage advanced technologies, including AI, to improve operational efficiency and enhance customer experience, while also ensuring robust cybersecurity,",
+      "url": "https://www.businesstoday.in/latest/corporate/story/rbi-officials-meet-top-bankers-heres-key-issues-that-were-discussed-542960-2026-07-14?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "regulatory",
+      "publishedAt": "2026-07-14T16:08:58.000Z"
+    },
+    {
+      "title": "Trump admin’s Section 301 probe: Why India’s ban on import of goods produced through use of forced labour is important",
+      "summary": "The move comes against the backdrop of a US investigation into forced labour practices across 60 economies, including India. The notification said the new provisions will take effect after the completion of 30 days from the date of their publication in the Official Gazette.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/trump-admins-section-301-probe-why-indias-ban-on-import-of-goods-produced-through-use-of-forced-labour-is-important/articleshow/132395962.cms",
+      "source": "Times of India Business",
+      "category": "regulatory",
+      "publishedAt": "2026-07-14T16:06:39.000Z"
+    },
     {
       "title": "Export boost, cheaper cars & whisky: India-UK trade deal comes into effect from July 15 - How India & Indians will benefit",
       "summary": "With its implementation, the trade deal will become the sixth free trade agreement brought into force during the Narendra Modi government's tenure.",
@@ -265,14 +281,6 @@
       "publishedAt": "2026-07-14T10:13:01.000Z"
     },
     {
-      "title": "How Sharks Quietly Keep Oceans Alive and Humans Safe",
-      "summary": "Sharks, as apex predators, maintain ocean balance by controlling fish populations, protecting habitats, and aiding carbon sequestration, all while supporting global marine health and human food security.",
-      "url": "https://www.businesstoday.in/latest/trends/photo/how-sharks-quietly-keep-oceans-alive-and-humans-safe-542848-2026-07-14?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-14T10:09:51.000Z"
-    },
-    {
       "title": "US-Iran war hits home: WPI inflation rises to 9.87%; food prices see spike",
       "summary": "It reflects the impact of the West Asia conflict and the effective blockade of the Strait of Hormuz, a key route through which most of India's crude oil imports arrive, along with the resulting spillover into food prices.",
       "url": "https://timesofindia.indiatimes.com/business/india-business/us-iran-war-hits-home-wpi-inflation-rises-to-9-87-food-prices-see-spike/articleshow/132384798.cms",
@@ -367,14 +375,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-07-14T01:24:27.000Z"
-    },
-    {
-      "title": "Supreme Court upholds Sebi action against Kotak AMC, MD & other executives",
-      "summary": "The Supreme Court upheld SEBI's action against Kotak Mahindra Asset Management Company. Senior executives, including Nilesh Shah, faced penalties for mutual fund rule violations. The court rejected the defense that investors did not suffer any financial losses.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/supreme-court-upholds-sebi-action-against-kotak-amc-md-other-executives/articleshow/132378744.cms",
-      "source": "Times of India Business",
-      "category": "regulatory",
-      "publishedAt": "2026-07-14T01:18:31.000Z"
     }
   ]
 }
