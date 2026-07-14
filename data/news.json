@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-14T16:57:07.566Z",
+  "lastUpdated": "2026-07-14T22:35:20.916Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,22 @@
     }
   ],
   "articles": [
+    {
+      "title": "US eases Russia sanctions bill, cuts tariff threat on India and China from 500% to 100%",
+      "summary": "US senators unveiled a revised Russia sanctions bill targeting major energy buyers. This legislation seeks to pressure Moscow and its key oil and gas importers. The updated bill reduces previously proposed tariffs on top purchasers like China and India.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/us-eases-russia-sanctions-bill-cuts-tariff-threat-on-india-and-china-from-500-to-100/articleshow/132400873.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-14T20:29:49.000Z"
+    },
+    {
+      "title": "India Post crosses Rs 4,000 crore quarterly revenue for first time; Q1 turnover jumps 22%",
+      "summary": "India Post achieved its highest-ever first-quarter revenue of Rs 4,008 crore. This revenue marks a significant 22.2 percent increase from the previous year. The parcel and mail segments showed substantial revenue growth during this period.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/india-post-crosses-rs-4000-crore-quarterly-revenue-for-first-time-q1-turnover-jumps-22/articleshow/132399702.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-14T18:40:50.000Z"
+    },
     {
       "title": "RBI officials meet top bankers. Here's key issues that were discussed",
       "summary": "RBI Governor Sanjay Malhotra urged banks to leverage advanced technologies, including AI, to improve operational efficiency and enhance customer experience, while also ensuring robust cybersecurity,",
@@ -185,14 +201,6 @@
       "publishedAt": "2026-07-14T11:45:07.000Z"
     },
     {
-      "title": "Gautam Adani tops Hurun real estate rich list, overtaking DLF's Rajiv Singh",
-      "summary": "Adani Properties emerged as the biggest value creator in India's real estate sector in 2026, helping Gautam Adani and family overtake DLF's Rajiv Singh to become the country's richest real estate entrepreneurs.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/gautam-adani-tops-hurun-real-estate-rich-list-overtaking-dlfs-rajiv-singh-dlf-remains-no-1-company-542893-2026-07-14?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-14T11:41:31.000Z"
-    },
-    {
       "title": "Love Gulab Jamun? This Brazilian treat is the viral dessert you need to know about",
       "summary": "The dessert shot to fame after Instagram creator Sunidhi (@nids.lid) shared a simple recipe video that has amassed more than 27 million views.",
       "url": "https://www.businesstoday.in/latest/trends/story/love-gulab-jamun-this-brazilian-treat-is-the-viral-dessert-you-need-to-know-about-542885-2026-07-14?utm_source=rssfeed",
@@ -281,6 +289,14 @@
       "publishedAt": "2026-07-14T10:13:01.000Z"
     },
     {
+      "title": "How Sharks Quietly Keep Oceans Alive and Humans Safe",
+      "summary": "Sharks, as apex predators, maintain ocean balance by controlling fish populations, protecting habitats, and aiding carbon sequestration, all while supporting global marine health and human food security.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/how-sharks-quietly-keep-oceans-alive-and-humans-safe-542848-2026-07-14?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-14T10:09:51.000Z"
+    },
+    {
       "title": "US-Iran war hits home: WPI inflation rises to 9.87%; food prices see spike",
       "summary": "It reflects the impact of the West Asia conflict and the effective blockade of the Strait of Hormuz, a key route through which most of India's crude oil imports arrive, along with the resulting spillover into food prices.",
       "url": "https://timesofindia.indiatimes.com/business/india-business/us-iran-war-hits-home-wpi-inflation-rises-to-9-87-food-prices-see-spike/articleshow/132384798.cms",
@@ -359,22 +375,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-07-14T01:36:03.000Z"
-    },
-    {
-      "title": "Supreme Court appoints ex-judge Rao to mediate Kalyani family feud",
-      "summary": "The Supreme Court appointed a retired judge to mediate a family dispute. This mediation concerns over one lakh crore rupees in assets between Baba Kalyani and his sister. The court gave the parties two weeks to attempt a settlement.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/supreme-court-appoints-ex-judge-rao-to-mediate-kalyani-family-feud/articleshow/132378783.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-14T01:30:36.000Z"
-    },
-    {
-      "title": "Sitharaman tells banks: Devise ways to sustain foreign currency deposits",
-      "summary": "Finance Minister Nirmala Sitharaman urged banks to enhance outreach to Non-Resident Indians. She called for introducing innovative deposit products to sustain foreign currency deposit momentum. Banks reported significant interest from NRIs in several key global locations.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/finance-minister-niramala-sitharaman-tells-banks-devise-ways-to-sustain-foreign-currency-deposits/articleshow/132378768.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-14T01:24:27.000Z"
     }
   ]
 }
