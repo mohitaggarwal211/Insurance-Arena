@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-15T14:52:07.879Z",
+  "lastUpdated": "2026-07-15T16:06:20.320Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,22 @@
     }
   ],
   "articles": [
+    {
+      "title": "JPMorgan Chase on track to become world's first bank with a $1 trillion valuation",
+      "summary": "JPMorgan Chase is nearing a $1 trillion market valuation, a historic milestone for a bank. The lender's shares reached a record high after reporting its highest quarterly profit ever. Analysts expect dealmaking activity to remain strong through the rest of 2026.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/jpmorgan-chase-on-track-to-become-worlds-first-bank-with-a-1-trillion-valuation/articleshow/132418862.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-15T15:19:04.000Z"
+    },
+    {
+      "title": "'Not aware of anything promised or offered': Gautam Adani denies any deal behind US move to drop criminal case",
+      "summary": "The affidavit was filed in response to a July 8 order by the US District Court for the Eastern District of New York, which directed Adani to state under oath whether he was aware of any promise, offer, or agreement related to the dismissal of the indictment",
+      "url": "https://www.businesstoday.in/latest/corporate/story/not-aware-of-anything-promised-or-offered-gautam-adani-denies-any-deal-behind-us-move-to-drop-criminal-case-543224-2026-07-15?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-15T14:25:38.000Z"
+    },
     {
       "title": "India-UK CETA kicks in: Kolkata ships first jewellery exports to Britain with zero import duty",
       "summary": "The flag-off was part of a simultaneous nationwide launch held in Delhi, Mumbai, Surat, Jaipur, and Chennai",
@@ -345,14 +361,6 @@
       "publishedAt": "2026-07-15T01:57:03.000Z"
     },
     {
-      "title": "With 73% rise, Adani Properties top realty gainer",
-      "summary": "Adani Properties saw significant wealth surge, moving to fourth position on the property list. DLF retained its top valuation despite a notable decline in its overall worth. Lodha Developers and Indian Hotels Company also experienced valuation decreases this year.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/with-73-rise-adani-properties-top-realty-gainer/articleshow/132403923.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-15T01:54:24.000Z"
-    },
-    {
       "title": "'Hello, this is Divya': How one WhatsApp message allegedly cost a 70-year-old Gwalior CA ₹21 crore",
       "summary": "On December 25, 2025, Vijayvargiya allegedly transferred ₹10,000 four times through UPI. A few days later, around ₹1 lakh was transferred through a friend's UPI account.",
       "url": "https://www.businesstoday.in/latest/trends/story/hello-this-is-divya-how-one-whatsapp-message-allegedly-cost-a-70-year-old-gwalior-ca-rs21-crore-542945-2026-07-15?utm_source=rssfeed",
@@ -367,14 +375,6 @@
       "source": "Business Today",
       "category": "insurance",
       "publishedAt": "2026-07-15T00:00:03.000Z"
-    },
-    {
-      "title": "RBI officials meet top bankers. Here's key issues that were discussed",
-      "summary": "RBI Governor Sanjay Malhotra urged banks to leverage advanced technologies, including AI, to improve operational efficiency and enhance customer experience, while also ensuring robust cybersecurity,",
-      "url": "https://www.businesstoday.in/latest/corporate/story/rbi-officials-meet-top-bankers-heres-key-issues-that-were-discussed-542960-2026-07-14?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "regulatory",
-      "publishedAt": "2026-07-14T16:08:58.000Z"
     }
   ]
 }
