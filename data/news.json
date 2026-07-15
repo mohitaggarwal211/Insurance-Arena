@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-15T16:06:20.320Z",
+  "lastUpdated": "2026-07-15T20:10:50.808Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,70 @@
     }
   ],
   "articles": [
+    {
+      "title": "India exports $140 million worth of goods to UK at zero duty on Day 1 of trade pact implementation",
+      "summary": "India exported over $140 million in goods duty-free to the UK on Wednesday. More than fifty export consignments were flagged off from over twenty locations. These shipments included electronics, pharmaceuticals, and textiles, reaching various global gateways.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/india-exports-140-million-worth-of-goods-to-uk-at-zero-duty-on-day-1-of-trade-pact-implementation/articleshow/132424371.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-15T19:23:11.000Z"
+    },
+    {
+      "title": "UK backs India’s security concerns, says trade deal based on trust",
+      "summary": "The India-UK trade deal commenced, reflecting significant trust and cooperation between nations. This agreement is expected to boost both economies and enhance bilateral trade relations. Discussions also addressed national security and the extradition of financial fugitives.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/uk-backs-indias-security-concerns-says-trade-deal-based-on-trust/articleshow/132424232.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-15T19:08:29.000Z"
+    },
+    {
+      "title": "SpaceX shares fall below IPO price for first time since market debut, wiping out post-listing gains",
+      "summary": "SpaceX shares have fallen below their initial public offering price for the first time. This decline reflects a broader shift in market sentiment and investor enthusiasm. Analysts point to concerns over interest rates and AI stock momentum.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/spacex-shares-fall-below-ipo-price-for-first-time-since-market-debut-wiping-out-post-listing-gains/articleshow/132421325.cms",
+      "source": "Times of India Business",
+      "category": "insurance",
+      "publishedAt": "2026-07-15T17:19:05.000Z"
+    },
+    {
+      "title": "US stocks today: Markets open in green despite Iran war tensions, oil price swings",
+      "summary": "US stock markets saw gains on Wednesday, driven by strong corporate earnings reports. Investors also reacted positively to recent inflation data, which showed a notable slowdown.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/us-stocks-today-15-july-2026-markets-open-in-green-despite-iran-war-tensions-oil-price-swings/articleshow/132421177.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-15T17:10:23.000Z"
+    },
+    {
+      "title": "NPCIL denies nuclear safety breach after reports of Kudankulam project drawings leak",
+      "summary": "The clarification comes amid media reports alleging a breach involving engineering drawings associated with the Kudankulam project, one of India's largest nuclear power stations located in Tamil Nadu.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/npcil-denies-nuclear-safety-breach-after-reports-of-kudankulam-project-drawings-leak-543239-2026-07-15?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-15T16:50:22.000Z"
+    },
+    {
+      "title": "US Senate bill proposes 100% tariffs on India over Russian oil: What it could mean",
+      "summary": "The bill, brokered by the late Republican Senator Lindsey Graham, targets India, China, Slovakia, Hungary and Azerbaijan—the five largest buyers of Russian oil.",
+      "url": "https://www.businesstoday.in/latest/economy/story/us-senate-bill-proposes-100-tariffs-on-india-over-russian-oil-what-it-could-mean-543232-2026-07-15?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-15T16:15:29.000Z"
+    },
+    {
+      "title": "US issues new non-proliferation sanctions targeting individuals, entities in Iran, Russia",
+      "summary": "The United States has enacted fresh sanctions against seven individuals and entities linked to Iran's arms procurement activities. Targeting parties in Iran, Russia, Italy, and Nigeria, these sanctions aim to cut off financial support for Iran’s military.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/us-issues-new-non-proliferation-sanctions-targeting-individuals-entities-in-iran-russia/articleshow/132419715.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-15T16:03:45.000Z"
+    },
+    {
+      "title": "RBI wants banks to appoint data owners, data stewards, data custodians",
+      "summary": "The RBI has unveiled an ambitious blueprint to strengthen data governance across banks and financial institutions, signalling that poor data management is now a key supervisory concern.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/rbi-wants-banks-to-appoint-data-owners-data-stewards-data-custodians-543227-2026-07-15?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "regulatory",
+      "publishedAt": "2026-07-15T16:02:55.000Z"
+    },
     {
       "title": "JPMorgan Chase on track to become world's first bank with a $1 trillion valuation",
       "summary": "JPMorgan Chase is nearing a $1 trillion market valuation, a historic milestone for a bank. The lender's shares reached a record high after reporting its highest quarterly profit ever. Analysts expect dealmaking activity to remain strong through the rest of 2026.",
@@ -297,22 +361,6 @@
       "publishedAt": "2026-07-15T02:29:21.000Z"
     },
     {
-      "title": "IBM shares tank 26% after initial results disappoint",
-      "summary": "International Business Machines reported disappointing preliminary results on Tuesday. This news caused significant drops in software and IT services company shares. Investors are now concerned about a capital spending pivot impacting the entire industry.",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/ibm-shares-tank-26-after-initial-results-disappoint/articleshow/132404126.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-15T02:13:33.000Z"
-    },
-    {
-      "title": "Air transport down 14% in April: ISP data",
-      "summary": "Air transport output contracted nearly fourteen percent in April, reflecting high fuel costs. Railways also saw a slight decline in output during the same month. Fourteen of nineteen services sub-sectors registered double-digit growth, showing overall resilience.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/air-transport-down-14-in-april-isp-data/articleshow/132404071.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-15T02:10:23.000Z"
-    },
-    {
       "title": "Oil price today: Crude tops $85 a barrel as US restores Strait of Hormuz blockade",
       "summary": "Oil prices surged beyond eighty-five dollars per barrel on Wednesday. This occurred after the United States reinstated a naval blockade on Iran. Fighting between Washington and Tehran escalated, raising concerns over crude supplies.",
       "url": "https://timesofindia.indiatimes.com/business/international-business/oil-price-today-crude-tops-85-a-barrel-as-us-restores-strait-of-hormuz-blockade/articleshow/132404076.cms",
@@ -321,60 +369,12 @@
       "publishedAt": "2026-07-15T02:09:41.000Z"
     },
     {
-      "title": "Singapore court denies stay on Byju's jail term",
-      "summary": "Singapore's high court denied Byju Raveendran's request to suspend his contempt sentence. The court lifted temporary protection for the Byju's founder while his appeal is pending. His legal team clarified the hearing focused only on the stay application.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/singapore-court-denies-stay-on-byjus-jail-term/articleshow/132404031.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-15T02:07:16.000Z"
-    },
-    {
-      "title": "NCLT okays record no. of cases, flags manpower shortage",
-      "summary": "The National Company Law Tribunal approved a record 78 resolution plans in April-June. This period saw approvals valued at Rs 5,518 crore, reaching nearly Rs 4.8 lakh crore total. The tribunal faces significant institutional capacity constraints and member vacancies.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/nclt-okays-record-no-of-cases-flags-manpower-shortage/articleshow/132403982.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-15T02:03:22.000Z"
-    },
-    {
       "title": "Top stocks to buy today: Stock recommendations for July 15, 2026 - check list",
       "summary": "Stock market recommendations: Route Mobile, Tata Power, and Dr. Reddy's Laboratories - these are the top stocks to buy picked by Mehul Kothari, DVP - Technical Research at Anand Rathi Shares for July 15, 2026.",
       "url": "https://timesofindia.indiatimes.com/business/india-business/top-stock-recommendations-for-july-15-2026-route-mobile-tata-power-dr-reddys-laboratories-best-stocks-to-buy-today/articleshow/132393363.cms",
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-07-15T02:02:00.000Z"
-    },
-    {
-      "title": "Quote of the Day by Steve Jobs: ‘Older people sit down and ask...’",
-      "summary": "Steve Jobs (1955-2011) was an American entrepreneur, inventor, and business magnate best known as the co-founder of Apple. Jobs played a key role in revolutionising personal computing, smartphones, digital music, and animation.",
-      "url": "https://www.businesstoday.in/latest/trends/story/quote-of-the-day-by-steve-jobs-older-people-sit-down-and-ask-542691-2026-07-15?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-15T02:00:03.000Z"
-    },
-    {
-      "title": "Wholesale inflation touches 27-month high of 9.9% in June",
-      "summary": "Wholesale inflation reached a 27-month high of 9.9 percent in June. This surge was driven by rising food prices and energy costs. Food prices accelerated to 5.5 percent while mineral prices rose significantly.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/wholesale-inflation-touches-27-mth-high-of-9-9-in-june/articleshow/132403939.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-15T01:57:03.000Z"
-    },
-    {
-      "title": "'Hello, this is Divya': How one WhatsApp message allegedly cost a 70-year-old Gwalior CA ₹21 crore",
-      "summary": "On December 25, 2025, Vijayvargiya allegedly transferred ₹10,000 four times through UPI. A few days later, around ₹1 lakh was transferred through a friend's UPI account.",
-      "url": "https://www.businesstoday.in/latest/trends/story/hello-this-is-divya-how-one-whatsapp-message-allegedly-cost-a-70-year-old-gwalior-ca-rs21-crore-542945-2026-07-15?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-15T01:30:05.000Z"
-    },
-    {
-      "title": "UK-India FTA goes live today: From whisky to premium cars, what gets cheaper and which Indian sectors gain",
-      "summary": "The FTA gives 99% of Indian exports duty-free access to the UK, while India has selectively reduced tariffs on British goods over a phased period. New Delhi has, however, protected sensitive domestic sectors",
-      "url": "https://www.businesstoday.in/latest/economy/story/uk-india-fta-goes-live-today-from-whisky-to-premium-cars-what-gets-cheaper-and-which-indian-sectors-gain-542803-2026-07-15?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "insurance",
-      "publishedAt": "2026-07-15T00:00:03.000Z"
     }
   ]
 }
