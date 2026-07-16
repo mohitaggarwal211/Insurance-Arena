@@ -33,7 +33,7 @@
   --green-dim:rgba(16,185,129,0.12); --red-dim:rgba(239,68,68,0.10);
   --sh-hover:0 8px 28px rgba(13,27,42,0.12);
   --hl-rgb:13,27,42;               /* hover-highlight base (navy on light) */
-  --header-bg:rgba(var(--hl-rgb),0.97);
+  --header-bg:rgba(255,255,255,0.97);
   --hero-grad:linear-gradient(135deg,#EEF2F7,#DDE7F3 55%,#EEF2F7);
   --surface:#FFFFFF;
   --surface-text:#0D1B2A;
@@ -2123,3 +2123,70 @@ select.tk-input option {
 /* A vs B shareable link button */
 .avb-share-link-btn{display:block;width:100%;margin:0 0 14px;padding:11px;background:transparent;border:1.5px dashed var(--teal);color:var(--teal);border-radius:10px;font-size:.86rem;font-weight:700;cursor:pointer;font-family:inherit;transition:var(--tr);}
 .avb-share-link-btn:hover{background:var(--teal-glow);}
+
+
+/* ══════════ CALCULATOR UPGRADES ══════════ */
+/* Sliders (ULIP calc) */
+.slider-field{margin-bottom:18px;}
+.slider-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:6px;}
+.slider-label{font-size:.82rem;font-weight:600;color:var(--g200);}
+.slider-value-box{display:flex;align-items:center;gap:4px;background:var(--bg-card);border:1.5px solid var(--bg-border);border-radius:8px;padding:4px 10px;}
+.slider-value-box input{width:90px;background:transparent;border:none;outline:none;color:var(--white);font-size:.9rem;font-weight:700;text-align:right;font-family:inherit;}
+.slider-value-box .sv-unit{font-size:.72rem;color:var(--g400);}
+.arena-slider{width:100%;-webkit-appearance:none;appearance:none;height:6px;border-radius:3px;background:rgba(var(--hl-rgb),.12);outline:none;}
+.arena-slider::-webkit-slider-thumb{-webkit-appearance:none;appearance:none;width:20px;height:20px;border-radius:50%;background:var(--teal);cursor:pointer;border:3px solid var(--bg-card);box-shadow:0 2px 8px rgba(0,0,0,.3);}
+.arena-slider::-moz-range-thumb{width:20px;height:20px;border-radius:50%;background:var(--teal);cursor:pointer;border:3px solid var(--bg-card);}
+.freq-toggle{display:flex;gap:0;border:1.5px solid var(--bg-border);border-radius:10px;overflow:hidden;margin-bottom:16px;width:fit-content;}
+.freq-btn{padding:8px 16px;background:transparent;border:none;color:var(--g400);font-size:.8rem;font-weight:600;cursor:pointer;font-family:inherit;}
+.freq-btn.active{background:var(--teal);color:#0D1B2A;}
+
+/* ULIP result summary + chart */
+.ulip-summary{display:flex;border:1.5px solid var(--bg-border);border-radius:14px;overflow:hidden;margin:14px 0;}
+.ulip-sum-cell{flex:1;padding:14px;text-align:center;}
+.ulip-sum-cell:first-child{border-right:1.5px dashed var(--bg-border);}
+.us-label{font-size:.7rem;font-weight:700;letter-spacing:.05em;color:var(--g400);text-transform:uppercase;}
+.us-sub{font-size:.66rem;color:var(--g600);}
+.us-val{font-size:1.3rem;font-weight:800;color:var(--white);margin-top:2px;}
+.us-val.teal{color:var(--teal);}
+.ulip-chart{display:flex;align-items:flex-end;gap:14px;height:170px;padding:10px 6px 0;border-bottom:2px solid var(--bg-border);margin:10px 0 6px;}
+.uc-col{flex:1;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;height:100%;}
+.uc-total{font-size:.64rem;font-weight:700;color:var(--teal);margin-bottom:3px;}
+.uc-bar{width:70%;max-width:54px;display:flex;flex-direction:column;justify-content:flex-end;border-radius:6px 6px 0 0;overflow:hidden;}
+.uc-growth{background:var(--teal);width:100%;}
+.uc-principal{background:rgba(var(--hl-rgb),.22);width:100%;}
+.uc-year{font-size:.66rem;color:var(--g400);margin-top:5px;text-align:center;}
+.ulip-legend{display:flex;gap:16px;justify-content:center;margin-bottom:10px;font-size:.7rem;color:var(--g400);}
+.ulip-legend span{display:inline-flex;align-items:center;gap:5px;}
+.lg-dot{width:10px;height:10px;border-radius:3px;display:inline-block;}
+.lg-dot.principal{background:rgba(var(--hl-rgb),.22);}
+.lg-dot.growth{background:var(--teal);}
+
+/* IRR advanced cash flows */
+.irr-mode-toggle{display:flex;gap:0;border:1.5px solid var(--bg-border);border-radius:10px;overflow:hidden;margin-bottom:14px;width:fit-content;}
+.cf-rows{display:flex;flex-direction:column;gap:8px;margin:10px 0;}
+.cf-row{display:flex;align-items:center;gap:10px;}
+.cf-year-lbl{width:64px;font-size:.78rem;font-weight:600;color:var(--g400);}
+.cf-row input{flex:1;max-width:220px;padding:9px 12px;background:var(--bg-card);border:1.5px solid var(--bg-border);border-radius:8px;color:var(--white);font-size:.88rem;font-family:inherit;outline:none;}
+.cf-row input:focus{border-color:var(--teal);}
+.cf-hint{font-size:.7rem;color:var(--g600);}
+.cf-add-btn{background:transparent;border:1.5px dashed var(--teal);color:var(--teal);border-radius:8px;padding:8px 14px;font-size:.78rem;font-weight:600;cursor:pointer;font-family:inherit;margin-top:4px;}
+.cf-guide{background:var(--teal-glow);border-radius:10px;padding:10px 14px;font-size:.75rem;color:var(--g200);line-height:1.5;margin-bottom:12px;}
+
+/* Financial Planning Calculator */
+.fpc-tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px;}
+.fpc-tab{padding:9px 16px;background:transparent;border:1.5px solid var(--bg-border);border-radius:20px;color:var(--g400);font-size:.8rem;font-weight:600;cursor:pointer;font-family:inherit;}
+.fpc-tab.active{background:var(--teal);color:#0D1B2A;border-color:var(--teal);}
+.fpc-pane{display:none;}
+.fpc-pane.active{display:block;}
+.fpc-cost-note{font-size:.72rem;color:var(--g400);margin-top:4px;}
+[data-theme="light"] .freq-btn.active,[data-theme="light"] .fpc-tab.active{color:#FFFFFF;}
+
+/* Details collapsible for unified cards */
+.card-more{margin:0 14px 12px;border:1px dashed var(--bg-border);border-radius:10px;}
+.card-more summary{padding:9px 12px;font-size:.76rem;font-weight:700;color:var(--teal);cursor:pointer;list-style:none;}
+.card-more summary::-webkit-details-marker{display:none;}
+.card-more summary::before{content:'▸ ';}
+.card-more[open] summary::before{content:'▾ ';}
+.card-more .pc-feature-list{padding:0 12px 10px;}
+.plan-card .card-uin{font-size:.62rem;color:var(--g600);margin-top:3px;}
+.plan-card .prod-base-tag{display:inline-block;background:var(--teal-glow);color:var(--teal);font-size:.64rem;font-weight:800;border:1px solid var(--teal-dim);border-radius:10px;padding:2px 8px;margin-top:4px;}
