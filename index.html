@@ -288,7 +288,7 @@
   
     <div class="tools-header">
       <h2 class="sec-title">Free Calculators</h2>
-      <p class="sec-sub">7 financial tools · No login · No data saved</p>
+      <p class="sec-sub">8 financial tools · No login · No data saved</p>
     </div>
     <div class="tool-tab-scroll">
       <button class="tool-tab active" data-tool="hlv">🛡️ Life Cover</button>
@@ -297,7 +297,7 @@
       <button class="tool-tab" data-tool="irr">📊 IRR</button>
       <button class="tool-tab" data-tool="tvm">⏱️ TVM</button>
       <button class="tool-tab" data-tool="emi">🏦 EMI</button>
-      <button class="tool-tab" data-tool="ulip">📉 ULIP</button>
+      <button class="tool-tab" data-tool="ulip">📉 ULIP</button>\n      <button class="tool-tab" data-tool="fpc">🎯 Financial Planning</button>
     </div>
     <div class="tool-panel active" id="tool-hlv">
       <div class="tool-card">
@@ -351,14 +351,32 @@
       <div class="tool-card">
         <div class="tool-card-title">Insurance IRR Calculator</div>
         <div class="tool-card-sub">Calculate actual return on an insurance product — for investment comparison only</div>
-        <div class="calc-grid">
-          <div class="calc-field"><label>Annual Premium (₹)</label><input type="number" id="irr-premium" placeholder="e.g. 50000"/></div>
-          <div class="calc-field"><label>Premium Paying Term (Yrs)</label><input type="number" id="irr-ppt" placeholder="e.g. 10"/></div>
-          <div class="calc-field"><label>Policy Term (Yrs)</label><input type="number" id="irr-term" placeholder="e.g. 20"/></div>
-          <div class="calc-field"><label>Maturity / Death Value (₹)</label><input type="number" id="irr-maturity" placeholder="e.g. 800000"/></div>
+        <div class="irr-mode-toggle">
+          <button class="freq-btn active" id="irrModeSimple" onclick="setIrrMode('simple')">Simple (Level Premium)</button>
+          <button class="freq-btn" id="irrModeAdv" onclick="setIrrMode('advanced')">Advanced (Cash Flows)</button>
         </div>
-        <button class="calc-btn" onclick="calcIRR()">Calculate IRR</button>
-        <button class="calc-reset-btn" onclick="resetCalc('irr')">Reset</button>
+
+        <div id="irrSimplePane">
+          <div class="calc-grid">
+            <div class="calc-field"><label>Annual Premium (₹)</label><input type="number" id="irr-premium" placeholder="e.g. 50000"/></div>
+            <div class="calc-field"><label>Premium Paying Term (Yrs)</label><input type="number" id="irr-ppt" placeholder="e.g. 10"/></div>
+            <div class="calc-field"><label>Policy Term (Yrs)</label><input type="number" id="irr-term" placeholder="e.g. 20"/></div>
+            <div class="calc-field"><label>Maturity / Death Value (₹)</label><input type="number" id="irr-maturity" placeholder="e.g. 800000"/></div>
+          </div>
+          <button class="calc-btn" onclick="calcIRR()">Calculate IRR</button>
+          <button class="calc-reset-btn" onclick="resetCalc('irr')">Reset</button>
+        </div>
+
+        <div id="irrAdvPane" class="hidden">
+          <div class="cf-guide">💡 <strong>How to enter:</strong> Money you PAY (premiums) = negative, e.g. <strong>-50000</strong>. Money you RECEIVE (income, cashback, maturity) = positive, e.g. <strong>35000</strong>. Perfect for plans where income starts before maturity. Year 0 = payment made today.</div>
+          <div class="cf-row"><span class="cf-year-lbl">Year 0</span><input type="number" id="cf-y0" placeholder="e.g. -100000"/><span class="cf-hint">investment today</span></div>
+          <div class="cf-rows" id="cfRows"></div>
+          <button class="cf-add-btn" onclick="addCfYears()">+ Add 5 More Years</button>
+          <div style="margin-top:12px">
+            <button class="calc-btn" onclick="calcIRRAdvanced()">Calculate IRR</button>
+            <button class="calc-reset-btn" onclick="resetIrrAdvanced()">Clear All</button>
+          </div>
+        </div>
         <div class="calc-result hidden" id="irr-result"></div>
         <div class="calc-note">⚠️ IRR is illustrative only — not a guaranteed return.</div>
       </div>
@@ -446,19 +464,121 @@
     </div>
     <div class="tool-panel" id="tool-ulip">
       <div class="tool-card">
-        <div class="tool-card-title">ULIP Projection Calculator</div>
-        <div class="tool-card-sub">Estimate how your ULIP investment can grow over time</div>
-        <div class="calc-grid">
-          <div class="calc-field"><label>Annual Premium (₹)</label><input type="number" id="ulip-premium" placeholder="e.g. 100000"/></div>
-          <div class="calc-field"><label>Premium Paying Term — PPT (Yrs)</label><input type="number" id="ulip-ppt" placeholder="e.g. 10" min="1"/></div>
-          <div class="calc-field"><label>Policy Term (Yrs)</label><input type="number" id="ulip-term" placeholder="e.g. 20" min="1"/></div>
-          <div class="calc-field"><label>Expected Annual Return (%)</label><input type="number" id="ulip-return" value="10" min="1" max="25"/></div>
-          <div class="calc-field"><label>Fund Management Charge — FMC (%/yr)</label><input type="number" id="ulip-fmc" value="1.35" min="0" max="1.35" step="0.05"/></div>
+        <div class="tool-card-title">ULIP Calculator</div>
+        <div class="tool-card-sub">Move the sliders — see your investment vs. estimated growth instantly</div>
+
+        <div class="freq-toggle" id="ulipFreqToggle">
+          <button class="freq-btn active" data-freq="12" onclick="setUlipFreq(this)">Monthly</button>
+          <button class="freq-btn" data-freq="2" onclick="setUlipFreq(this)">Half-yearly</button>
+          <button class="freq-btn" data-freq="1" onclick="setUlipFreq(this)">Yearly</button>
         </div>
-        <button class="calc-btn" onclick="calcULIP()">Project Fund Value</button>
-        <button class="calc-reset-btn" onclick="resetCalc('ulip')">Reset</button>
+
+        <div class="slider-field">
+          <div class="slider-head"><span class="slider-label">I want to invest</span>
+            <span class="slider-value-box">₹<input type="number" id="ulip-amt" value="5000" min="500" oninput="syncUlip('amt',this.value)"/></span></div>
+          <input type="range" class="arena-slider" id="ulip-amt-sl" min="500" max="1000000" step="500" value="5000" oninput="syncUlip('amt',this.value)"/>
+        </div>
+
+        <div class="slider-field">
+          <div class="slider-head"><span class="slider-label">I want to invest for (Premium Paying Term)</span>
+            <span class="slider-value-box"><input type="number" id="ulip-ppt" value="10" min="5" max="30" oninput="syncUlip('ppt',this.value)"/><span class="sv-unit">Yrs</span></span></div>
+          <input type="range" class="arena-slider" id="ulip-ppt-sl" min="5" max="30" value="10" oninput="syncUlip('ppt',this.value)"/>
+        </div>
+
+        <div class="slider-field">
+          <div class="slider-head"><span class="slider-label">I will stay invested for (Policy Term)</span>
+            <span class="slider-value-box"><input type="number" id="ulip-term" value="10" min="5" max="40" oninput="syncUlip('term',this.value)"/><span class="sv-unit">Yrs</span></span></div>
+          <input type="range" class="arena-slider" id="ulip-term-sl" min="5" max="40" value="10" oninput="syncUlip('term',this.value)"/>
+        </div>
+
+        <div class="slider-field">
+          <div class="slider-head"><span class="slider-label">Expected rate of return (Annual)</span>
+            <span class="slider-value-box"><input type="number" id="ulip-return" value="9" min="1" max="20" step="0.5" oninput="syncUlip('return',this.value)"/><span class="sv-unit">%</span></span></div>
+          <input type="range" class="arena-slider" id="ulip-return-sl" min="1" max="20" step="0.5" value="9" oninput="syncUlip('return',this.value)"/>
+        </div>
+
+        <div class="calc-grid">
+          <div class="calc-field"><label>Fund Management Charge — FMC (%/yr)</label><input type="number" id="ulip-fmc" value="1.35" min="0" max="1.35" step="0.05" oninput="calcULIPLive()"/></div>
+        </div>
+
+        <div class="ulip-summary">
+          <div class="ulip-sum-cell"><div class="us-label">You Invest</div><div class="us-sub" id="ulipInvSub">Over 10 years</div><div class="us-val" id="ulipInvVal">—</div></div>
+          <div class="ulip-sum-cell"><div class="us-label">You Get (Estimated)</div><div class="us-sub" id="ulipGetSub">After 10 years</div><div class="us-val teal" id="ulipGetVal">—</div></div>
+        </div>
+
+        <div class="ulip-legend"><span><i class="lg-dot principal"></i>Amount Invested</span><span><i class="lg-dot growth"></i>Estimated Growth</span></div>
+        <div class="ulip-chart" id="ulipChart"></div>
+
         <div class="calc-result hidden" id="ulip-result"></div>
-        <div class="calc-note">⚠️ Returns are illustrative only and not guaranteed. Actual returns depend on market performance and charges applicable.</div>
+        <div class="calc-note">⚠️ Market-linked returns are illustrative only and NOT guaranteed. Investment risk in ULIPs is borne by the policyholder. Actual value depends on fund performance and all applicable charges.</div>
+      </div>
+    </div>
+    <div class="tool-panel" id="tool-fpc">
+      <div class="tool-card">
+        <div class="tool-card-title">Financial Planning Calculator</div>
+        <div class="tool-card-sub">Plan for life's biggest goals — see today's cost grow into tomorrow's target</div>
+
+        <div class="fpc-tabs">
+          <button class="fpc-tab active" data-fpc="edu" onclick="switchFpc(this,'edu')">🎓 Child Education</button>
+          <button class="fpc-tab" data-fpc="marriage" onclick="switchFpc(this,'marriage')">💒 Child Marriage</button>
+          <button class="fpc-tab" data-fpc="retire" onclick="switchFpc(this,'retire')">🏖️ Retirement</button>
+        </div>
+
+        <div class="fpc-pane active" id="fpc-edu">
+          <div class="calc-grid">
+            <div class="calc-field"><label>Dream Profession for Your Child</label>
+              <select id="fpc-profession" onchange="fpcProfessionChange()">
+                <option value="70">Doctor (MBBS + PG) — est. ₹70 Lakh today</option>
+                <option value="24">Engineer (B.Tech, Private) — est. ₹24 Lakh today</option>
+                <option value="50">MBA (Top B-School) — est. ₹50 Lakh today</option>
+                <option value="10">Chartered Accountant — est. ₹10 Lakh today</option>
+                <option value="100">Commercial Pilot — est. ₹1 Crore today</option>
+                <option value="25">Lawyer (5-yr Integrated) — est. ₹25 Lakh today</option>
+                <option value="30">Designer / Architect — est. ₹30 Lakh today</option>
+                <option value="120">Study Abroad (UG/PG) — est. ₹1.2 Crore today</option>
+                <option value="other">Other — enter manually below</option>
+              </select>
+              <div class="fpc-cost-note">Costs are broad national estimates — edit the amount below to match your target institute.</div>
+            </div>
+            <div class="calc-field"><label>Current Cost of This Education (₹ Lakh)</label><input type="number" id="fpc-edu-cost" value="70" min="0.5" step="0.5"/></div>
+            <div class="calc-field"><label>Child's Current Age</label><input type="number" id="fpc-child-age" placeholder="e.g. 5" min="0" max="17"/></div>
+            <div class="calc-field"><label>Age When Education Starts</label><input type="number" id="fpc-edu-age" value="18" min="15" max="25"/></div>
+            <div class="calc-field"><label>Expected Education Inflation (%)</label><input type="number" id="fpc-edu-infl" value="8" min="1" max="15"/></div>
+            <div class="calc-field"><label>Expected Return on Investments (%)</label><input type="number" id="fpc-edu-ret" value="10" min="1" max="20"/></div>
+          </div>
+          <button class="calc-btn" onclick="calcFpcEducation()">Calculate Future Cost</button>
+          <button class="calc-reset-btn" onclick="resetCalc('fpc-edu')">Reset</button>
+          <div class="calc-result hidden" id="fpc-edu-result"></div>
+        </div>
+
+        <div class="fpc-pane" id="fpc-marriage">
+          <div class="calc-grid">
+            <div class="calc-field"><label>Estimated Marriage Cost Today (₹ Lakh)</label><input type="number" id="fpc-mar-cost" placeholder="e.g. 25" min="1"/></div>
+            <div class="calc-field"><label>Child's Current Age</label><input type="number" id="fpc-mar-age" placeholder="e.g. 5" min="0" max="30"/></div>
+            <div class="calc-field"><label>Expected Marriage Age</label><input type="number" id="fpc-mar-target" value="27" min="21" max="40"/></div>
+            <div class="calc-field"><label>Expected Inflation (%)</label><input type="number" id="fpc-mar-infl" value="7" min="1" max="15"/></div>
+            <div class="calc-field"><label>Expected Return on Investments (%)</label><input type="number" id="fpc-mar-ret" value="10" min="1" max="20"/></div>
+          </div>
+          <button class="calc-btn" onclick="calcFpcMarriage()">Calculate Future Cost</button>
+          <button class="calc-reset-btn" onclick="resetCalc('fpc-mar')">Reset</button>
+          <div class="calc-result hidden" id="fpc-mar-result"></div>
+        </div>
+
+        <div class="fpc-pane" id="fpc-retire">
+          <div class="calc-grid">
+            <div class="calc-field"><label>Your Current Age</label><input type="number" id="fpc-ret-age" placeholder="e.g. 35" min="18" max="60"/></div>
+            <div class="calc-field"><label>Retirement Age</label><input type="number" id="fpc-ret-target" value="60" min="45" max="70"/></div>
+            <div class="calc-field"><label>Monthly Expenses Today (₹)</label><input type="number" id="fpc-ret-exp" placeholder="e.g. 50000" min="5000"/></div>
+            <div class="calc-field"><label>Expected Inflation (%)</label><input type="number" id="fpc-ret-infl" value="6" min="1" max="12"/></div>
+            <div class="calc-field"><label>Life Expectancy</label><input type="number" id="fpc-ret-life" value="85" min="65" max="100"/></div>
+            <div class="calc-field"><label>Expected Return on Investments (%)</label><input type="number" id="fpc-ret-ret" value="10" min="1" max="20"/></div>
+          </div>
+          <button class="calc-btn" onclick="calcFpcRetirement()">Calculate Retirement Goal</button>
+          <button class="calc-reset-btn" onclick="resetCalc('fpc-ret')">Reset</button>
+          <div class="calc-result hidden" id="fpc-ret-result"></div>
+        </div>
+
+        <div class="calc-note">📌 Education cost estimates are indicative national averages for planning only — actual fees vary widely by institute. Always verify current fees with the institution.</div>
       </div>
     </div>
     <div class="tools-disclaimer">
