@@ -2190,3 +2190,41 @@ select.tk-input option {
 .card-more .pc-feature-list{padding:0 12px 10px;}
 .plan-card .card-uin{font-size:.62rem;color:var(--g600);margin-top:3px;}
 .plan-card .prod-base-tag{display:inline-block;background:var(--teal-glow);color:var(--teal);font-size:.64rem;font-weight:800;border:1px solid var(--teal-dim);border-radius:10px;padding:2px 8px;margin-top:4px;}
+
+/* ══════════ CALCULATOR RESULT REDESIGN — Release 4.1 ══════════ */
+/* Numbers use Inter tabular-nums (crisp, financial-grade) — never Syne */
+
+.calc-result{margin-top:20px;background:transparent;border:none;padding:0}
+
+.cr-hero{background:linear-gradient(135deg,#0A2E2A 0%,#0D1B2A 60%,#132B45 100%);border:1px solid rgba(0,201,167,.35);border-radius:16px;padding:22px 24px;position:relative;overflow:hidden}
+.cr-hero::after{content:'';position:absolute;top:-40%;right:-10%;width:220px;height:220px;background:radial-gradient(circle,rgba(0,201,167,.14),transparent 65%);pointer-events:none}
+.cr-hero-label{font-family:var(--font-b);font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--g400);margin-bottom:6px}
+.cr-hero-val{font-family:var(--font-b);font-variant-numeric:tabular-nums;font-size:clamp(30px,6vw,40px);font-weight:700;letter-spacing:-0.02em;line-height:1.1;background:linear-gradient(90deg,#00C9A7,#5EEAD4);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:#00C9A7}
+
+.cr-tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-top:12px}
+.cr-tile{background:var(--bg-card);border:1px solid var(--bg-border);border-radius:12px;padding:12px 14px;transition:var(--tr)}
+.cr-tile:hover{border-color:rgba(0,201,167,.4)}
+.cr-tile-label{font-size:.68rem;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--g400);margin-bottom:4px}
+.cr-tile-val{font-family:var(--font-b);font-variant-numeric:tabular-nums;font-size:.98rem;font-weight:700;color:var(--white);line-height:1.35}
+
+.calc-pdf-btn{display:block;width:100%;margin-top:12px;padding:12px;background:transparent;border:1.5px dashed var(--teal);color:var(--teal);border-radius:12px;font-size:.85rem;font-weight:700;cursor:pointer;font-family:var(--font-b);transition:var(--tr)}
+.calc-pdf-btn:hover{background:var(--teal-glow)}
+
+/* ULIP You Invest / You Get — Inter tabular, no Syne */
+.us-val{font-family:var(--font-b)!important;font-variant-numeric:tabular-nums;font-size:1.45rem;font-weight:700;letter-spacing:-0.01em}
+.us-val.teal{background:linear-gradient(90deg,#00C9A7,#5EEAD4);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.ulip-summary{background:var(--bg-card)}
+
+/* Light theme result variants */
+[data-theme="light"] .cr-hero{background:linear-gradient(135deg,#E9FBF7 0%,#FFFFFF 55%,#EAF2FB 100%);border-color:rgba(0,168,150,.45)}
+[data-theme="light"] .cr-hero-label{color:#5B6B80}
+[data-theme="light"] .cr-hero-val{background:linear-gradient(90deg,#00877A,#00A896);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:#00877A}
+[data-theme="light"] .us-val.teal{background:linear-gradient(90deg,#00877A,#00A896);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+
+/* Calculator inputs & sliders polish (all tools) */
+.calc-field label{font-size:.72rem;font-weight:600;letter-spacing:.03em;color:var(--g400)}
+.calc-field input,.calc-field select{font-family:var(--font-b);font-variant-numeric:tabular-nums;font-weight:600;transition:border-color .15s ease}
+.calc-field input:focus,.calc-field select:focus{border-color:var(--teal);outline:none;box-shadow:0 0 0 3px var(--teal-glow)}
+.slider-value-box{font-variant-numeric:tabular-nums}
+.tool-card{position:relative}
+.tool-card-title{font-family:var(--font-d);letter-spacing:.01em}
