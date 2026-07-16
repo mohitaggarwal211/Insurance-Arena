@@ -708,13 +708,20 @@ const CALC_CONFIG = {
   'ret-result':  { title: 'Retirement Corpus Calculator', desc: 'Calculates retirement corpus needed and monthly investment required to build it.', inputs: [['Current Age','ret-age','years'],['Retirement Age','ret-retire','years'],['Monthly Expenses Today','ret-expenses','₹'],['Inflation Rate','ret-inflation','% p.a.'],['Expected Return Rate','ret-return','% p.a.'],['Life Expectancy','ret-life','years']] },
   'emi-result':  { title: 'EMI / Loan Calculator', desc: 'Calculates monthly EMI and total interest on a loan.', inputs: [['Loan Amount','emi-loan','₹'],['Interest Rate','emi-rate','% p.a.'],['Loan Tenure','emi-tenure','years']] },
   'tvm-result':  { title: 'TVM Calculator', desc: 'Solve for any unknown — enter 4 values and click a button to solve for PV, PMT, FV, Rate or Periods.', inputs: [['Present Value','tvm-pv','₹'],['Payments (PMT)','tvm-pmt','₹'],['Future Value','tvm-fv','₹'],['Annual Rate','tvm-rate-new','%'],['Periods','tvm-periods','periods']] },
-  'ulip-result': { title: 'ULIP Projection Calculator', desc: 'Projects ULIP fund value after FMC deductions over the policy term.', inputs: [['Annual Premium','ulip-premium','₹'],['Premium Paying Term','ulip-ppt','years'],['Policy Term','ulip-term','years'],['Expected Return Rate','ulip-return','% p.a.'],['Fund Management Charge','ulip-fmc','% p.a.']] },
+  'ulip-result': { title: 'ULIP Projection Calculator', desc: 'Projects ULIP fund value at your chosen return assumption over the policy term.', inputs: [['Investment per Instalment','ulip-amt','₹'],['Premium Paying Term','ulip-ppt','years'],['Policy Term','ulip-term','years'],['Expected Return Rate','ulip-return','% p.a.']] },
 };
 
 function showCalcResult(id,mainVal,mainLabel,rows){
-  const el=document.getElementById(id);
+  const el=document.getElementById(id); if(!el) return;
   el.classList.remove('hidden');
-  el.innerHTML=`<div class="calc-result-main">${mainVal}</div><div class="calc-result-label">${mainLabel}</div><div class="calc-result-rows">${rows.map(([l,v])=>`<div class="calc-result-row"><span>${l}</span><span>${v}</span></div>`).join('')}</div><button class="calc-pdf-btn" onclick="generateCalcPDF('${id}')">📄 Download PDF Report</button>`;
+  el.innerHTML=`
+    <div class="cr-hero">
+      <div class="cr-hero-label">${mainLabel}</div>
+      <div class="cr-hero-val">${mainVal}</div>
+    </div>
+    <div class="cr-tiles">${rows.map(([l,v])=>`<div class="cr-tile"><div class="cr-tile-label">${l}</div><div class="cr-tile-val">${v}</div></div>`).join('')}</div>
+    <button class="calc-pdf-btn" onclick="generateCalcPDF('${id}')">📄 Download PDF Report</button>`;
+  el.scrollIntoView({behavior:'smooth',block:'nearest'});
 }
 
 function generateCalcPDF(resultId) {
@@ -1010,7 +1017,7 @@ function calcULIP(){
   const ppt      = getVal('ulip-ppt');
   const term     = getVal('ulip-term');
   const retRate  = getVal('ulip-return') / 100;
-  const fmc      = getVal('ulip-fmc') / 100;
+  const fmc      = 0; // FMC input removed — projection at entered return
   if(!premium||!ppt||!term||!retRate){showCalcError('ulip-result','Please fill all fields. PPT must be ≤ Policy Term.');return;}
   if(ppt>term){showCalcError('ulip-result','Premium Paying Term (PPT) cannot be greater than Policy Term. Reduce PPT or increase Policy Term.');return;}
   const netRate = retRate - fmc; // effective return after FMC
@@ -1136,12 +1143,12 @@ function resetCalc(id){
     irr:['irr-premium','irr-ppt','irr-term','irr-maturity'],
     tvm:['tvm-pv','tvm-pmt','tvm-fv','tvm-rate-new','tvm-periods'],
     emi:['emi-loan','emi-rate','emi-tenure'],
-    ulip:['ulip-premium','ulip-ppt','ulip-term','ulip-return','ulip-fmc'],
+    ulip:['ulip-amt','ulip-ppt','ulip-term','ulip-return'],
   };
   const defaults={
     'hlv-growth':'5','hlv-inflation':'6','hlv-retire':'60',
     'sip-return':'12','ret-retire':'60','ret-inflation':'6','ret-return':'10','ret-life':'80',
-    'tvm-rate-new':'8','ulip-return':'10','ulip-fmc':'1.35',
+    'tvm-rate-new':'8','ulip-return':'10',
   };
   (panels[id]||[]).forEach(fid=>{
     const el=document.getElementById(fid);
@@ -2047,10 +2054,9 @@ function calcULIPLive() {
   const ppt   = parseInt(document.getElementById('ulip-ppt')?.value, 10) || 0;
   const term  = parseInt(document.getElementById('ulip-term')?.value, 10) || 0;
   const ret   = (parseFloat(document.getElementById('ulip-return')?.value) || 0) / 100;
-  const fmc   = (parseFloat(document.getElementById('ulip-fmc')?.value) || 0) / 100;
   if (!amt || !ppt || !term || term < ppt) return;
 
-  const netRate = ret - fmc;
+  const netRate = ret;
   const perInstalment = netRate / ulipFreq;
   let fund = 0;
   const milestones = {};
@@ -2187,8 +2193,7 @@ function calcFpcEducation() {
   const cost = costL * 100000;
   const future = cost * Math.pow(1 + infl, yrs);
   // Monthly SIP needed
-  const rm = ret / 12, n = yrs * 12;
-  const sip = future * rm / (Math.pow(1 + rm, n) - 1);
+  const sip = future * ret / (Math.pow(1 + ret, yrs) - 1); // annual investment (end-of-year)
   // One-time lump sum needed today
   const lump = future / Math.pow(1 + ret, yrs);
   const profSel = document.getElementById('fpc-profession');
@@ -2197,7 +2202,7 @@ function calcFpcEducation() {
     ['Today\'s Cost', fmtLakh(cost)],
     ['Years to Goal', yrs + ' years'],
     ['Education Inflation Assumed', (infl*100).toFixed(1) + '% p.a.'],
-    ['Monthly SIP Needed (at ' + (ret*100).toFixed(0) + '% return)', fmtLakh(Math.ceil(sip))],
+    ['Annual Investment Needed (at ' + (ret*100).toFixed(0) + '% return)', fmtLakh(Math.ceil(sip))],
     ['OR One-time Investment Today', fmtLakh(Math.ceil(lump))],
   ]);
 }
@@ -2216,14 +2221,13 @@ function calcFpcMarriage() {
   const yrs = target - age;
   const cost = costL * 100000;
   const future = cost * Math.pow(1 + infl, yrs);
-  const rm = ret / 12, n = yrs * 12;
-  const sip = future * rm / (Math.pow(1 + rm, n) - 1);
+  const sip = future * ret / (Math.pow(1 + ret, yrs) - 1); // annual investment (end-of-year)
   const lump = future / Math.pow(1 + ret, yrs);
   showCalcResult('fpc-mar-result', fmtLakh(future), 'Future Marriage Cost (in ' + yrs + ' years)', [
     ['Today\'s Cost', fmtLakh(cost)],
     ['Years to Goal', yrs + ' years'],
     ['Inflation Assumed', (infl*100).toFixed(1) + '% p.a.'],
-    ['Monthly SIP Needed (at ' + (ret*100).toFixed(0) + '% return)', fmtLakh(Math.ceil(sip))],
+    ['Annual Investment Needed (at ' + (ret*100).toFixed(0) + '% return)', fmtLakh(Math.ceil(sip))],
     ['OR One-time Investment Today', fmtLakh(Math.ceil(lump))],
   ]);
 }
@@ -2248,13 +2252,12 @@ function calcFpcRetirement() {
   let corpus;
   if (Math.abs(realRet) < 0.0001) corpus = monthlyAtRetire * 12 * yrsInRetire;
   else corpus = monthlyAtRetire * 12 * (1 - Math.pow(1 + realRet, -yrsInRetire)) / realRet;
-  const rm = ret / 12, n = yrsToRetire * 12;
-  const sip = corpus * rm / (Math.pow(1 + rm, n) - 1);
+  const sip = corpus * ret / (Math.pow(1 + ret, yrsToRetire) - 1); // annual investment (end-of-year)
   showCalcResult('fpc-ret-result', fmtLakh(Math.round(corpus)), 'Retirement Corpus Needed at Age ' + target, [
     ['Monthly Expenses Today', fmtLakh(exp)],
     ['Monthly Expenses at Retirement', fmtLakh(Math.round(monthlyAtRetire))],
     ['Years in Retirement', yrsInRetire + ' years'],
-    ['Monthly SIP Needed (at ' + (ret*100).toFixed(0) + '% return)', fmtLakh(Math.ceil(sip))],
+    ['Annual Investment Needed (at ' + (ret*100).toFixed(0) + '% return)', fmtLakh(Math.ceil(sip))],
   ]);
 }
 
