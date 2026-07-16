@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-16T11:59:11.406Z",
+  "lastUpdated": "2026-07-16T15:03:28.989Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,70 @@
     }
   ],
   "articles": [
+    {
+      "title": "100 items, imports worth $51 billion: India eyes fresh domestic manufacturing push to reduce reliance on overseas suppliers",
+      "summary": "The renewed focus on expanding domestic production comes as India faces heightened supply-chain risks arising from geopolitical tensions. At the same time, the government is seeking to lower its dependence on China while reducing the country's trade deficit.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/100-items-imports-worth-51-billion-india-eyes-fresh-domestic-manufacturing-push-to-reduce-reliance-on-overseas-suppliers/articleshow/132441564.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-16T14:21:01.000Z"
+    },
+    {
+      "title": "US stocks today: AI stocks drop again; crude oil prices continue to climb",
+      "summary": "The S&P 500 declined 0.4%, a day after coming within 0.5% of the record high it reached last month. As of 7:05 PM IST, the Dow Jones Industrial Average had gained 64 points, or 0.1%, while the Nasdaq Composite was down 0.8%.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/us-stocks-today-july-16-2026-wall-street-ai-stocks-drop-again-crude-oil-prices-continue-to-climb/articleshow/132441261.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-16T14:01:06.000Z"
+    },
+    {
+      "title": "Jio Financial's payments business turns around as digital payment value jumps 2.5x, deposits rise 72%",
+      "summary": "Jio Payment Solutions, the company's merchant acquiring and payment processing arm, recorded a Total Payment Value (TPV) of ₹19,208 crore during the June quarter, a 2.5-fold increase year-on-year.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/jio-financials-payments-business-turns-around-as-digital-payment-value-jumps-2-5x-deposits-rise-72-543475-2026-07-16?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-16T13:31:55.000Z"
+    },
+    {
+      "title": "Thinking of switching to electric? These 5 scooters make the decision straightforward",
+      "summary": "From Ather 450X to Hero Vida V1, here are India's top 5 electric scooters offering 126–165 km range, fast charging and smart features — the smartest two-wheeler buys of 2026.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/thinking-of-switching-to-electric-these-5-scooters-make-the-decision-straightforward-543472-2026-07-16?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-16T13:06:41.000Z"
+    },
+    {
+      "title": "Ex-Paisabazaar executive Dhiraj Kalra joins Fundamento as AI startup expands in India, US",
+      "summary": "The company recently launched its platform for lenders in the US and says it now manages over 10 million customer interactions every month across banking, lending and insurance.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/ex-paisabazaar-executive-dhiraj-kalra-joins-fundamento-as-ai-startup-expands-in-india-us-543466-2026-07-16?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "insurance",
+      "publishedAt": "2026-07-16T13:04:20.000Z"
+    },
+    {
+      "title": "No gas connection! Instamart to deliver HPCL cylinders — but can quick commerce crack a regulated market?",
+      "summary": "HPCL's quick-commerce pilot promises greater convenience, but also puts the spotlight on customer verification, delivery safeguards and how a regulated commodity will be sold online.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/no-gas-connection-instamart-to-deliver-hpcl-cylinders-but-can-quick-commerce-crack-a-regulated-market-543452-2026-07-16?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-16T12:27:59.000Z"
+    },
+    {
+      "title": "Harsh reality for H-1B visa returnees: Changed Indian IT hiring landscape, lower salaries and fewer jobs",
+      "summary": "Recruitment trends indicate that companies are hiring cautiously, and many returnees are getting jobs at less than their salary expectations. Artificial intelligence has compounded the challenge since many roles have become redundant.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/harsh-reality-for-h-1b-visa-returnees-changed-indian-it-hiring-landscape-lower-salaries-and-fewer-jobs/articleshow/132435837.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-16T12:24:54.000Z"
+    },
+    {
+      "title": "Raghuram Rajan picked for US Fed review panel: Here's the role he'll play",
+      "summary": "Raghuram Rajan will serve on the Balance Sheet Policy task force alongside Harvard economist Karen Dynan and former Federal Reserve Governor Jeremy Stein.",
+      "url": "https://www.businesstoday.in/latest/economy/story/raghuram-rajan-picked-for-us-fed-review-panel-heres-the-role-hell-play-543446-2026-07-16?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-16T12:00:51.000Z"
+    },
     {
       "title": "A man zoomed into Google Maps—and may have uncovered a 390-million-year-old secret hidden on Earth",
       "summary": "From a casual Google Maps click to an international science stage, a nearly perfect ring spotted on Google Maps in a remote part of Quebec, Canada, has become the focus of scientific research.",
@@ -201,52 +265,12 @@
       "publishedAt": "2026-07-16T06:36:37.000Z"
     },
     {
-      "title": "The secret: What mechanics never tell car owners",
-      "summary": "Discover the secrets your car mechanic won’t tell you—save money, avoid unnecessary repairs, and learn how to spot hidden parts, DIY fixes, and common service scams.",
-      "url": "https://www.businesstoday.in/latest/trends/photo/the-secret-what-mechanics-never-tell-car-owners-543121-2026-07-16?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-16T06:30:58.000Z"
-    },
-    {
-      "title": "The secret iPhone and Android features that will blow your mind",
-      "summary": "Unlock hidden iPhone and Android features that boost productivity, simplify navigation, and transform daily device use. From Back Tap to Picture-in-Picture, discover your phone’s secret powers.",
-      "url": "https://www.businesstoday.in/latest/trends/photo/the-secret-iphone-and-android-features-that-will-blow-your-mind-543129-2026-07-16?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-16T06:30:12.000Z"
-    },
-    {
-      "title": "Top 10 nations with unmatched healthcare excellence",
-      "summary": "Discover the world’s top 10 nations with unmatched healthcare excellence. From Singapore’s seamless hospitals to Sweden’s universal care, these countries set global standards for health systems.",
-      "url": "https://www.businesstoday.in/latest/trends/photo/top-10-nations-with-unmatched-healthcare-excellence-543126-2026-07-16?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-16T06:29:50.000Z"
-    },
-    {
       "title": "US Fed enlists ex-RBI guv Rajan, 2 other Indians for massive policy overhaul",
       "summary": "Former RBI governor Raghuram Rajan will help shape US monetary policy. He joins a Federal Reserve task force reviewing its policy framework. Rajan will examine balance sheet policy alongside other experts. Other panels will assess data, productivity, and inflation frameworks.",
       "url": "https://timesofindia.indiatimes.com/business/international-business/ex-rbi-governor-raghuram-rajan-and-2-other-indians-on-us-feds-monetary-policy-review-panels/articleshow/132430111.cms",
       "source": "Times of India Business",
       "category": "regulatory",
       "publishedAt": "2026-07-16T05:19:17.000Z"
-    },
-    {
-      "title": "At just 2, Bengaluru's Akira has 4 world records—her journey started with simple curiosity",
-      "summary": "From scooter glides to record books, Bengaluru’s little Akira is proving that age is no barrier to extraordinary talent.",
-      "url": "https://www.businesstoday.in/latest/trends/story/at-just-2-bengalurus-akira-has-4-world-records-her-journey-started-with-simple-curiosity-543188-2026-07-16?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-16T04:58:37.000Z"
-    },
-    {
-      "title": "SBI appoints former LIC executive as its Chief Financial Officer",
-      "summary": "The lender said in an exchange filing that Agrawal joined the bank on July 15, and would be Key Managerial Personnel (KMP) of the bank under SEBI regulations.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/sbi-appoints-former-lic-executive-as-its-chief-financial-officer-543270-2026-07-16?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "regulatory",
-      "publishedAt": "2026-07-16T04:36:12.000Z"
     },
     {
       "title": "Bank holiday today: Will banks remain shut for Rath Yatra and Harela on July 16? Check state-wise list",
@@ -351,30 +375,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-07-16T00:57:27.000Z"
-    },
-    {
-      "title": "ILO: 100 crore covered under social security",
-      "summary": "India's social protection system now reaches 100 crore people, covering over two-thirds of its population. This significant expansion reflects the government's commitment to inclusive development and social welfare initiatives.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/ilo-100-crore-covered-under-social-security/articleshow/132427362.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-16T00:54:32.000Z"
-    },
-    {
-      "title": "New technology helps EPFO clear claims faster",
-      "summary": "EPFO's new technology is accelerating claim settlements and interest payments for members. Auto-processing now handles eighty-three percent of subscriber claims, a notable improvement.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/new-technology-helps-epfo-clear-claims-faster/articleshow/132427315.cms",
-      "source": "Times of India Business",
-      "category": "insurance",
-      "publishedAt": "2026-07-16T00:43:12.000Z"
-    },
-    {
-      "title": "India exports $140 million worth of goods to UK at zero duty on Day 1 of trade pact implementation",
-      "summary": "India exported over $140 million in goods duty-free to the UK on Wednesday. More than fifty export consignments were flagged off from over twenty locations. These shipments included electronics, pharmaceuticals, and textiles, reaching various global gateways.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/india-exports-140-million-worth-of-goods-to-uk-at-zero-duty-on-day-1-of-trade-pact-implementation/articleshow/132424371.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-15T19:23:11.000Z"
     }
   ]
 }
