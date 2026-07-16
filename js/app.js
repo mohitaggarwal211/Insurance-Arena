@@ -1286,72 +1286,68 @@ function renderPar() {
   const comps = ANMOL_PLANS.filter(p => !p.isBase);
   const all   = [base, ...comps];
 
-  let html = `
-  <div class="prod-note-bar">⚠️ All plans are <strong>Participating</strong> — bonus is non-guaranteed and depends on insurer performance each year.</div>
+  let html = `<div class="prod-note-bar">⚠️ All plans are <strong>Participating</strong> — bonus is non-guaranteed and depends on insurer performance each year.</div>
   <div class="prod-cards">`;
 
   all.forEach(p => {
+    if (!p) return;
     if (p.notAvailable && !p.isBase) {
-      html += `<div class="prod-card">
-        <div class="pc-top"><div><div class="pc-co">${san(p.company)}</div><div class="pc-pl">${san(p.plan)}</div></div><div class="pc-type">${san(p.type)}</div></div>
-        <div class="pc-na-block">❌ PPT 10 + PT 20 combination not available under this plan</div>
-        <div class="pc-unique">${san(p.uniqueFeature||'')}</div>
-        ${p.productUrl?`<a href="${san(p.productUrl)}" target="_blank" rel="noopener noreferrer" class="pc-btn">Visit Product →</a>`:''}
+      html += `<div class="plan-card">
+        <div class="card-header"><div class="card-company">${san(p.company)}</div><div class="card-plan-name">${san(p.plan)}</div></div>
+        <div class="pc-na-block">❌ ${san(p.naReason || 'Structurally different — not directly comparable')}</div>
+        ${p.uniqueFeature?`<div class="card-pitch"><div class="card-pitch-text">${san(p.uniqueFeature)}</div></div>`:''}
+        <div class="card-footer">${p.productUrl?`<a href="${san(p.productUrl)}" target="_blank" rel="noopener noreferrer" class="btn-details">Product →</a>`:''}</div>
       </div>`;
       return;
     }
 
     const meta = getMeta ? getMeta(p.id) : {};
-    const highlights = meta.keyHighlights || (p.isBase ? ['Non-Linked Participating Endowment','Compound Reversionary + Terminal Bonus','Extended Life Cover up to age 75 or 85','HER Benefits for women policyholders'] : []);
-    const limitations = meta.limitations || [];
-
-    html += `<div class="prod-card${p.isBase?' prod-card-base':''}${p.pending?' prod-card-pending':''}">
-      <div class="pc-top">
-        <div><div class="pc-co">${san(p.company)}</div><div class="pc-pl">${san(p.plan)}</div>
-        ${p.isBase?'<span class="prod-base-tag">Base Plan</span>':''}
-        ${p.uin&&p.uin!=='Verify from current policy document'?`<div class="pc-uin">UIN: ${san(p.uin)}</div>`:''}
-        </div>
-        <div class="pc-type">${san(p.type||'Non-Linked Participating')}</div>
-      </div>`;
-
-    if (highlights.length) {
-      html += `<div class="pc-section-title">✨ Key Highlights</div>
-      <ul class="pc-highlights">${highlights.map(h=>`<li>${san(h)}</li>`).join('')}</ul>`;
+    const pills = [];
+    pills.push('Participating');
+    if (p.bonusType) pills.push(String(p.bonusType).split('+')[0].trim().slice(0,22) + ' ✓');
+    if (p.isBase) { pills.push('Policy Loan ✓'); pills.push('4 Riders ✓'); pills.push('HER Benefits ✓'); }
+    else if (p.features) {
+      if (p.features.loan) pills.push('Policy Loan ✓');
+      if (p.features.riders) pills.push('Riders ✓');
+      if (p.features.jointLife) pills.push('Joint Life ✓');
     }
+    if (p.hasGuaranteedMaturityBenefit) pills.push('Guaranteed Maturity ✓');
 
-    html += `<div class="pc-section-title">📋 Plan Features</div>
-    <div class="pc-feature-list">
-      ${p.isBase?`
-      <div class="pc-feat"><span class="pc-fl">Entry Age</span><span class="pc-fv">30 days – 60 yrs</span></div>
-      <div class="pc-feat"><span class="pc-fl">Maturity Age</span><span class="pc-fv">85 years</span></div>
-      <div class="pc-feat"><span class="pc-fl">PPT Options</span><span class="pc-fv">Single Pay | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 years</span></div>
-      <div class="pc-feat"><span class="pc-fl">Policy Loan</span><span class="pc-fv">✅ Up to 80% of Surrender Value</span></div>
-      <div class="pc-feat"><span class="pc-fl">Riders</span><span class="pc-fv">Accidental Death | Critical Illness | Surgical Care | Hospital Care</span></div>
-      `:p.features?(() => {
-        const items=[];
-        if(p.features.riders) items.push(['Riders','✅ Available']);
-        if(p.features.loan) items.push(['Policy Loan','✅ Available']);
-        if(p.features.jointLife) items.push(['Joint Life Cover','✅ Yes']);
-        if(p.features.revivalPeriod&&!p.features.revivalPeriod.includes('Verify')) items.push(['Revival Period',p.features.revivalPeriod]);
-        return items.length?items.map(([l,v])=>`<div class="pc-feat"><span class="pc-fl">${san(l)}</span><span class="pc-fv">${san(v)}</span></div>`).join(''):'<div class="pc-feat-note">Refer official brochure for complete features</div>';
-      })():'<div class="pc-feat-note">Refer official brochure for complete features</div>'}
-    </div>`;
+    const stats = p.isBase
+      ? [{val:'85 yrs',lbl:'Maturity Age'},{val:'9',lbl:'PPT Options'},{val:String(p.saMultiple||11)+'×',lbl:'SA Multiple'}]
+      : [{val:p.saMultiple?String(p.saMultiple)+'×':'—',lbl:'SA Multiple'},{val:p.dataDate||'—',lbl:'Data Year'},{val:'Par',lbl:'Type'}];
 
+    const details = p.isBase ? [
+      ['Entry Age','30 days – 60 yrs'],['Maturity Age','85 years'],
+      ['PPT Options','Single Pay | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 years'],
+      ['Policy Loan','✅ Up to 80% of Surrender Value'],
+      ['Riders','Accidental Death | Critical Illness | Surgical Care | Hospital Care'],
+      ['Bonus Type', p.bonusType]
+    ] : [
+      ['Bonus Type', p.bonusType],
+      ['Riders', p.features && p.features.riders ? '✅ Available' : ''],
+      ['Policy Loan', p.features && p.features.loan ? '✅ Available' : ''],
+      ['Revival Period', p.features && p.features.revivalPeriod && !String(p.features.revivalPeriod).includes('Verify') ? p.features.revivalPeriod : '']
+    ];
 
+    const idx = ANMOL_PLANS.indexOf(p);
+    const buttons = `
+      ${p.productUrl?`<a href="${san(p.productUrl)}" target="_blank" rel="noopener noreferrer" class="btn-calc" onclick="event.stopPropagation()">Product →</a>`:''}
+      ${p.brochureUrl&&String(p.brochureUrl).startsWith('http')?`<a href="${san(p.brochureUrl)}" target="_blank" rel="noopener noreferrer" class="btn-details" onclick="event.stopPropagation()">Brochure</a>`:''}
+      <button class="btn-pdf" onclick="event.stopPropagation();generateSingleProductPDF(ANMOL_PLANS[${idx}],'par')">📄 PDF</button>`;
 
-    if (p.pitch) {
-      html += `<div class="pc-section-title">💬 Sales Story</div><div class="pc-pitch">"${san(p.pitch)}"</div>`;
-    }
-
-    html += `<div class="pc-links">
-      ${p.productUrl?`<a href="${san(p.productUrl)}" target="_blank" rel="noopener noreferrer" class="pc-btn">Product →</a>`:''}
-      ${p.brochureUrl&&!p.brochureUrl.startsWith('http')?'':(p.brochureUrl?`<a href="${san(p.brochureUrl)}" target="_blank" rel="noopener noreferrer" class="pc-btn-sec">Brochure →</a>`:'')}
-      ${`<button class="pc-btn-pdf" onclick="generateSingleProductPDF(ANMOL_PLANS[${ANMOL_PLANS.indexOf(p)}],'par')">📄 Download PDF</button>`}
-    </div></div>`;
+    const metaHL = (meta.keyHighlights && meta.keyHighlights[0]) || '';
+    html += arenaCard({
+      company: p.company, plan: p.plan,
+      bestFor: metaHL || (p.uniqueFeature ? String(p.uniqueFeature).slice(0,80) : ''),
+      uin: p.uin && !String(p.uin).includes('Verify') ? p.uin : '',
+      isBase: p.isBase, pills, stats,
+      pitch: p.pitch || '',
+      details, buttons
+    });
   });
 
   html += '</div>';
-
   wrap.innerHTML = html;
 }
 
@@ -1384,60 +1380,51 @@ function renderNPContent() {
 function renderNishchit(wrap) {
   const base  = NISHCHIT_PLANS.find(p => p.isBase);
   const comps = NISHCHIT_PLANS.filter(p => !p.isBase && !p.excluded);
-  const excl  = NISHCHIT_PLANS.filter(p => p.excluded);
   const all   = [base, ...comps];
 
-  let html = `
-  <div class="prod-note-bar">✅ All comparable plans are <strong>Non-Participating</strong> — returns fully guaranteed.</div>
+  let html = `<div class="prod-note-bar">ⓘ Non-Par guaranteed income plans where income starts DURING the premium payment term itself.</div>
   <div class="prod-cards">`;
 
   all.forEach(p => {
-    const meta = (typeof getMeta !== 'undefined') ? getMeta(p.isBase?'nishchit-absli':p.id) : {};
-    const highlights = meta.keyHighlights || p.keyHighlights || [];
+    if (!p) return;
+    const pills = [];
+    pills.push('Income ' + (String(p.incomeFrom).split(' ')[0] + ' ' + (String(p.incomeFrom).split(' ')[1]||'')).trim() + ' ✓');
+    pills.push(String(p.incomeType).toLowerCase().includes('increas') ? 'Increasing Income ✓' : 'Level Income ✓');
+    if (p.hasLumpSum) pills.push('Maturity Lump Sum ✓');
+    if (p.cashbackFeature) pills.push('Instant Cashback ✓');
+    if (p.ropOnDeath) pills.push('ROP on Death ✓');
+    if (p.guaranteed) pills.push('100% Guaranteed ✓');
+    if (p.policyContinuanceBenefit) pills.push('Policy Continuance ✓');
 
-    html += `<div class="prod-card${p.isBase?' prod-card-base':''}${p.pending?' prod-card-pending':''}">
-      <div class="pc-top">
-        <div><div class="pc-co">${san(p.company)}</div><div class="pc-pl">${san(p.plan)}</div>
-        ${p.isBase?'<span class="prod-base-tag">Base Plan</span>':''}
-        ${p.tag?`<span class="prod-tag">${san(p.tag)}</span>`:''}
-        </div>
-        <div class="pc-type">${san(p.type||'Non-Linked Non-Par')}</div>
-      </div>`;
+    const stats = [
+      { val: String(p.incomeFrom).replace(/\(.*\)/,'').trim().slice(0,12), lbl: 'Income Starts' },
+      { val: String(p.incomeType).toLowerCase().includes('increas') ? '5% ↑/yr' : 'Level', lbl: 'Income Type' },
+      { val: 'Non-Par', lbl: 'Guaranteed' }
+    ];
 
-    if (highlights.length) {
-      html += `<div class="pc-section-title">✨ Key Highlights</div>
-      <ul class="pc-highlights">${highlights.map(h=>`<li>${san(h)}</li>`).join('')}</ul>`;
-    }
+    const details = [
+      ['Entry Age', p.entryAge], ['Income From', p.incomeFrom],
+      ['Income Type', p.incomeType], ['Income Period', p.incomePeriod],
+      ['PPT', p.ppt], ['Maturity Lump Sum', p.hasLumpSum ? '✅ ' + (p.lumpSumNote||'Guaranteed') : ''],
+      ['Instant Cashback', p.cashbackFeature ? '✅ ' + (p.cashbackNote||'At issuance') : ''],
+      ['Policy Continuance', p.policyContinuanceBenefitNote],
+      ['Accidental Death Benefit', p.accidentalDeathBenefitNote]
+    ];
 
-    html += `<div class="pc-section-title">📋 Plan Features</div>
-    <div class="pc-feature-list">
-      <div class="pc-feat"><span class="pc-fl">Income From</span><span class="pc-fv">${san(p.incomeFrom||'—')}</span></div>
-      <div class="pc-feat"><span class="pc-fl">Income Type</span><span class="pc-fv">${san(p.incomeType||'—')}</span></div>
-      <div class="pc-feat"><span class="pc-fl">Income Period</span><span class="pc-fv">${san(p.incomePeriod||'—')}</span></div>
-      ${p.hasLumpSum?`<div class="pc-feat"><span class="pc-fl">Maturity Lump Sum</span><span class="pc-fv">✅ ${san(p.lumpSumNote||'Guaranteed')}</span></div>`:''}
-      ${p.cashbackFeature?`<div class="pc-feat"><span class="pc-fl">Instant Cashback</span><span class="pc-fv">✅ ${san(p.cashbackNote||'Available at policy issuance')}</span></div>`:''}
-      ${p.ropOnDeath?`<div class="pc-feat"><span class="pc-fl">Return of Premium on Death</span><span class="pc-fv">✅ Guaranteed</span></div>`:''}
-      ${p.note?`<div class="pc-feat-note">ⓘ ${san(p.note)}</div>`:''}
-    </div>`;
+    const idx = NISHCHIT_PLANS.filter(x=>!x.excluded).indexOf(p);
+    const buttons = `
+      ${p.productUrl?`<a href="${san(p.productUrl)}" target="_blank" rel="noopener noreferrer" class="btn-calc" onclick="event.stopPropagation()">Product →</a>`:''}
+      <button class="btn-pdf" onclick="event.stopPropagation();generateSingleProductPDF(NISHCHIT_PLANS.filter(x=>!x.excluded)[${idx}],'early-income')">📄 PDF</button>`;
 
-
-
-    if (p.pitch) { html += `<div class="pc-section-title">💬 Sales Story</div><div class="pc-pitch">"${san(p.pitch)}"</div>`; }
-
-    html += `<div class="pc-links">
-      ${p.productUrl?`<a href="${san(p.productUrl)}" target="_blank" rel="noopener noreferrer" class="pc-btn">Product →</a>`:''}
-      ${p.calcUrl?`<a href="${san(p.calcUrl)}" target="_blank" rel="noopener noreferrer" class="pc-btn-sec">Calculator →</a>`:''}
-      ${`<button class="pc-btn-pdf" onclick="generateSingleProductPDF(NISHCHIT_PLANS.filter(x=>!x.excluded)[${NISHCHIT_PLANS.filter(x=>!x.excluded).indexOf(p)}],'early-income')">📄 Download PDF</button>`}
-    </div></div>`;
+    html += arenaCard({
+      company: p.company, plan: p.plan,
+      bestFor: p.tag || '',
+      uin: p.uin, isBase: p.isBase, pills, stats,
+      pitch: p.pitch || p.uniqueFeature || '',
+      details, buttons
+    });
   });
   html += '</div>';
-
-
-
-  if (excl.length) {
-    html += `<div class="prod-excl"><h4>Excluded from Comparison</h4>
-    ${excl.map(p=>`<div class="prod-excl-item">❌ <strong>${san(p.company)} ${san(p.plan)}</strong> — ${san(p.excludedReason||'Does not meet benchmark criteria')}</div>`).join('')}</div>`;
-  }
   wrap.innerHTML = html;
 }
 
@@ -1446,11 +1433,11 @@ function renderSavingsComp(wrap) { renderFeatureCards(wrap, SAVINGS_PLANS, 'Guar
 function renderIncomeComp(wrap) { renderFeatureCards(wrap, INCOME_PLANS, 'Guaranteed Long Term Income Plans', 'Non-Linked Non-Par Income | Benefit Payout Period: 20/25/30 years'); }
 
 function renderFeatureCards(wrap, plans, title, bench) {
-  // Register plans for PDF access
   window._iaPlans = window._iaPlans || {};
   const base  = plans.find(p => p.isBase);
   const comps = plans.filter(p => !p.isBase);
   const all   = [base, ...comps];
+  const isSavings = plans === (typeof SAVINGS_PLANS !== 'undefined' ? SAVINGS_PLANS : null);
 
   let html = `
   <div class="prod-note-bar">ⓘ Data from official insurer sources. Fields not publicly available are hidden.</div>
@@ -1461,58 +1448,89 @@ function renderFeatureCards(wrap, plans, title, bench) {
     const isTW  = p.typeWarning;
     const isRep = p.replacementNote;
 
-    html += `<div class="prod-card${p.isBase?' prod-card-base':''}${isTW?' prod-card-warn':''}">
-      <div class="pc-top">
-        <div><div class="pc-co">${san(p.company)}</div><div class="pc-pl">${san(p.plan)}</div>
-        ${p.isBase?'<span class="prod-base-tag">Base Plan</span>':''}
-        </div>
-        <div class="pc-type${isTW?' pc-type-warn':''}">${san(p.type||'—')}</div>
-      </div>`;
+    // Pills — quick feature scan
+    const pills = [];
+    pills.push(isTW ? 'Participating ⚠️' : 'Non-Par Guaranteed');
+    if (p.guaranteedAdditions) pills.push('Guaranteed Additions ✓');
+    if (p.loyaltyAdditions) pills.push('Loyalty Additions ✓');
+    if (p.loan) pills.push('Policy Loan ✓');
+    if (p.jointLife) pills.push('Joint Life ✓');
+    if (p.incomePeriods?.length) pills.push('Income Plan ✓');
+    if (p.maturityBenefit) pills.push('Maturity Benefit ✓');
 
-    if (isTW) html += `<div class="pc-warn">⚠️ Participating plan — returns include non-guaranteed bonus. Different structure from Non-Par base plan.</div>`;
-    if (isRep) html += `<div class="pc-rep-note">ⓘ ${san(isRep)}</div>`;
+    // Stats strip
+    const stats = [];
+    if (p.entryAge && !String(p.entryAge).includes('Verify')) stats.push({val: String(p.entryAge).split('–')[1]?.trim() || p.entryAge, lbl: 'Max Entry'});
+    if (p.incomePeriods?.length) stats.push({val: p.incomePeriods.length + ' options', lbl: 'Income Periods'});
+    else if (p.ppt && !String(p.ppt).includes('Verify')) stats.push({val: String(p.ppt).slice(0,12), lbl: 'PPT'});
+    if (p.planOptions?.length) stats.push({val: String(p.planOptions.length), lbl: 'Plan Options'});
+    if (stats.length < 3 && p.dataDate) stats.push({val: p.dataDate, lbl: 'Data Year'});
 
-    // Key highlights
-    const highlights = p.isBase ? (title.includes('Savings') ?
-      ['Non-Linked, Non-Participating — guaranteed returns','Joint Life Protection option','Loyalty Additions at maturity','Multiple PPT options (5-12 years)','Multiple rider options available'] :
-      ['Non-Linked, Non-Participating — guaranteed returns','Income for 20/25/30 years (customer choice)','Option 2: Income + Return of Premium at end','Loyalty Additions boost income','Life cover throughout policy term']
-    ) : [];
+    // Details (collapsible)
+    const details = [];
+    if (p.entryAge) details.push(['Entry Age', p.entryAge]);
+    if (p.ppt) details.push(['PPT', p.ppt]);
+    if (p.incomePeriods?.length) details.push(['Income Period', p.incomePeriods.join(' / ')]);
+    if (p.planOptions?.length) details.push(['Plan Options', p.planOptions.join(' | ')]);
+    if (p.deathBenefit) details.push(['Death Benefit', p.deathBenefit]);
+    if (p.riders) details.push(['Riders', p.riders]);
+    if (p.maturityBenefit) details.push(['Maturity Benefit', typeof p.maturityBenefit==='string'?p.maturityBenefit:'✅ Yes']);
+    if (p.guaranteedAdditions) details.push(['Guaranteed Additions', '✅ Yes']);
+    if (p.loyaltyAdditions) details.push(['Loyalty Additions', '✅ Yes']);
+    if (p.loan) details.push(['Policy Loan', '✅ Yes']);
+    if (p.jointLife) details.push(['Joint Life', '✅ Yes']);
 
-    if (highlights.length) {
-      html += `<div class="pc-section-title">✨ Key Highlights</div>
-      <ul class="pc-highlights">${highlights.map(h=>`<li>${san(h)}</li>`).join('')}</ul>`;
-    }
+    const _pi = plans.indexOf(p);
+    const _arr = isSavings ? 'SAVINGS_PLANS' : 'INCOME_PLANS';
+    const _cat = p.incomePeriods ? 'income' : 'savings';
+    const buttons = `
+      ${p.url?`<a href="${san(p.url)}" target="_blank" rel="noopener noreferrer" class="btn-calc" onclick="event.stopPropagation()">Product →</a>`:''}
+      ${p.brochure&&!String(p.brochure).startsWith('Verify')?`<a href="${san(p.brochure)}" target="_blank" rel="noopener noreferrer" class="btn-details" onclick="event.stopPropagation()">Brochure</a>`:''}
+      <button class="btn-pdf" onclick="event.stopPropagation();generateSingleProductPDF(${_arr}[${_pi}],'${_cat}')">📄 PDF</button>`;
 
-    // Features
-    const featItems = [];
-    if (p.entryAge && !p.entryAge.includes('Verify')) featItems.push(['Entry Age', p.entryAge]);
-    if (p.ppt && !p.ppt.includes('Verify')) featItems.push(['PPT', p.ppt]);
-    if (p.incomePeriods?.length) featItems.push(['Income Period', p.incomePeriods.join(' / ')]);
-    if (p.planOptions?.length) featItems.push(['Plan Options', p.planOptions.join(' | ')]);
-    if (p.deathBenefit && !p.deathBenefit.includes('Verify')) featItems.push(['Death Benefit', p.deathBenefit]);
-    if (p.riders && !p.riders.includes('Verify')) featItems.push(['Riders', p.riders]);
-    if (p.maturityBenefit) featItems.push(['Maturity Benefit', typeof p.maturityBenefit==='string'?p.maturityBenefit:'✅ Yes']);
-    if (p.guaranteedAdditions) featItems.push(['Guaranteed Additions', '✅ Yes']);
-    if (p.loyaltyAdditions) featItems.push(['Loyalty Additions', '✅ Yes']);
-    if (p.loan) featItems.push(['Policy Loan', '✅ Yes']);
-    if (p.jointLife) featItems.push(['Joint Life', '✅ Yes']);
+    let warnHtml = '';
+    if (isTW) warnHtml += `<div class="pc-warn">⚠️ Participating plan — returns include non-guaranteed bonus. Different structure from Non-Par base plan.</div>`;
+    if (isRep) warnHtml += `<div class="pc-rep-note">ⓘ ${san(isRep)}</div>`;
 
-    if (featItems.length) {
-      html += `<div class="pc-section-title">📋 Plan Features</div>
-      <div class="pc-feature-list">${featItems.map(([l,v])=>`<div class="pc-feat"><span class="pc-fl">${san(l)}</span><span class="pc-fv">${san(v)}</span></div>`).join('')}</div>`;
-    }
-
-    // Sales story
-    if (p.uniqueFeature) { html += `<div class="pc-section-title">💬 Sales Story</div><div class="pc-pitch">"${san(p.pitch||p.uniqueFeature)}"</div>`; }
-
-    html += `<div class="pc-links">
-      ${p.url?`<a href="${san(p.url)}" target="_blank" rel="noopener noreferrer" class="pc-btn">Product →</a>`:''}
-      ${p.brochure&&!p.brochure.startsWith('Verify')?`<a href="${san(p.brochure)}" target="_blank" rel="noopener noreferrer" class="pc-btn-sec">Brochure →</a>`:''}
-      ${(()=>{ const _pi=plans.indexOf(p); const _arr=plans===SAVINGS_PLANS?'SAVINGS_PLANS':'INCOME_PLANS'; const _cat=p.incomePeriods?'income':'savings'; return `<button class="pc-btn-pdf" onclick="generateSingleProductPDF(${_arr}[${_pi}],'${_cat}')">📄 Download PDF</button>`;})()}
-    </div></div>`;
+    const card = arenaCard({
+      company: p.company, plan: p.plan,
+      bestFor: p.uniqueFeature ? String(p.uniqueFeature).slice(0,90) : '',
+      uin: p.uin && !String(p.uin).includes('Verify') ? p.uin : '',
+      isBase: p.isBase, pills, stats,
+      pitch: p.pitch || '',
+      details, buttons
+    });
+    // Inject warnings right after card header if present
+    html += warnHtml ? card.replace('</div>\n    ', '</div>' + warnHtml + '\n    ') : card;
   });
   html += '</div>';
   wrap.innerHTML = html;
+}
+
+
+// ══════════════════════════════════════════════════════════════
+// UNIFIED TERM-STYLE CARD BUILDER — all categories share the Term UI
+// cfg: {company, plan, bestFor, uin, isBase, type, pills[], stats[{val,lbl}],
+//       pitch, details[[label,value]], buttons(html string)}
+// ══════════════════════════════════════════════════════════════
+function arenaCard(cfg) {
+  const pills = (cfg.pills||[]).map(t => `<span class="feat-tag yes">${san(t)}</span>`).join('');
+  const stats = (cfg.stats||[]).map(s => `<div><span class="card-stat-val">${san(s.val)}</span><span class="card-stat-lbl">${san(s.lbl)}</span></div>`).join('');
+  const details = (cfg.details||[]).filter(d => d && d[1] && !String(d[1]).includes('Verify'));
+  return `<div class="plan-card${cfg.isBase?' prod-card-base':''}" role="article">
+    <div class="card-header">
+      <div class="card-company">${san(cfg.company)}</div>
+      <div class="card-plan-name">${san(cfg.plan)}</div>
+      ${cfg.bestFor?`<div class="card-best-for">⭐ ${san(cfg.bestFor)}</div>`:''}
+      ${cfg.isBase?'<span class="prod-base-tag">Base Plan</span>':''}
+      ${cfg.uin?`<div class="card-uin">UIN: ${san(cfg.uin)}</div>`:''}
+    </div>
+    ${pills?`<div class="card-features">${pills}</div>`:''}
+    ${stats?`<div class="card-stats">${stats}</div>`:''}
+    ${cfg.pitch?`<div class="card-pitch"><div class="card-pitch-label">Why this plan?</div><div class="card-pitch-text">${san(cfg.pitch)}</div></div>`:''}
+    ${details.length?`<details class="card-more"><summary>📋 Full Plan Features</summary><div class="pc-feature-list">${details.map(([l,v])=>`<div class="pc-feat"><span class="pc-fl">${san(l)}</span><span class="pc-fv">${san(v)}</span></div>`).join('')}</div></details>`:''}
+    <div class="card-footer">${cfg.buttons||''}</div>
+  </div>`;
 }
 
 // ════════════════════════════════════════════════════════════
@@ -1521,58 +1539,51 @@ function renderFeatureCards(wrap, plans, title, bench) {
 function renderULIP() {
   ulipRendered = true;
   const wrap = document.getElementById('ulipWrap'); if (!wrap) return;
-
   const base  = ULIP_PLANS.filter(p => p.isBase);
   const comps = ULIP_PLANS.filter(p => !p.isBase);
   const all   = [...base, ...comps];
 
-  let html = `
-  <div class="prod-note-bar">ⓘ Market-linked returns — investment risk borne by policyholder. IRR and illustration figures are never shown; use the IRR Calculator tool with your own assumptions.</div>
+  let html = `<div class="prod-note-bar">ⓘ Market-linked returns — investment risk borne by policyholder. IRR and illustration figures are never shown; use the IRR Calculator tool with your own assumptions.</div>
   <div class="prod-cards">`;
 
   all.forEach(p => {
-    const isPartial = p.verification && p.verification.startsWith('Partially') || p.verification?.startsWith('Needs verification');
+    const pills = [];
+    if (p.romc) pills.push('Charge Return ✓');
+    if (p.loyaltyAdditions) pills.push('Loyalty Boosters ✓');
+    if (typeof p.fundOptions === 'number') pills.push(p.fundOptions + ' Funds');
+    if (typeof p.portfolioStrategies === 'number') pills.push(p.portfolioStrategies + ' Strategies');
+    if (p.planOptions && !String(p.planOptions).includes('Verify')) pills.push('Multi-Option ✓');
+    if (p.riders && p.riders !== 'None' && !String(p.riders).includes('Verify')) pills.push('Riders ✓');
 
-    html += `<div class="prod-card${p.isBase?' prod-card-base':''}${isPartial?' prod-card-pending':''}">
-      <div class="pc-top">
-        <div><div class="pc-co">${san(p.company)}</div><div class="pc-pl">${san(p.plan)}</div>
-        ${p.isBase?'<span class="prod-base-tag">Base Plan</span>':''}
-        ${p.uin&&!String(p.uin).includes('Verify')?`<div class="pc-uin">UIN: ${san(p.uin)}</div>`:''}
-        </div>
-        <div class="pc-type">${san(p.type||'ULIP Non-Par')}</div>
-      </div>`;
+    const stats = [
+      { val: String(p.fundOptions || '—'), lbl: 'Fund Options' },
+      { val: String(p.portfolioStrategies || '—'), lbl: 'Strategies' },
+      { val: p.romc ? '✓' : '—', lbl: 'Charge Return' }
+    ];
 
-    if (p.keyHighlights && p.keyHighlights.length) {
-      html += `<div class="pc-section-title">✨ Key Highlights</div>
-      <ul class="pc-highlights">${p.keyHighlights.map(h=>`<li>${san(h)}</li>`).join('')}</ul>`;
-    }
+    const details = [
+      ['Entry Age', p.entryAge], ['Maturity Age', p.maturityAge],
+      ['PPT', p.ppt], ['Policy Term', p.pt], ['SA Multiple', p.saMultiple],
+      ['Plan Options', p.planOptions], ['Withdrawal Options', p.withdrawalOptions],
+      ['Charge Return', p.romcNote], ['Loyalty/Boosters', p.loyaltyNote],
+      ['Riders', p.riders]
+    ];
 
-    const featItems = [];
-    if (p.entryAge && !String(p.entryAge).includes('Verify')) featItems.push(['Entry Age', p.entryAge]);
-    if (p.maturityAge && !String(p.maturityAge).includes('Verify')) featItems.push(['Maturity Age', p.maturityAge]);
-    if (p.ppt && !String(p.ppt).includes('Verify')) featItems.push(['PPT', p.ppt]);
-    if (p.pt && !String(p.pt).includes('Verify')) featItems.push(['Policy Term', p.pt]);
-    if (p.fundOptions && !String(p.fundOptions).includes('Verify')) featItems.push(['Fund Options', p.fundOptions]);
-    if (p.portfolioStrategies && !String(p.portfolioStrategies).includes('Verify')) featItems.push(['Portfolio Strategies', p.portfolioStrategies]);
-    if (p.planOptions) featItems.push(['Plan Options', p.planOptions]);
-    if (p.withdrawalOptions) featItems.push(['Withdrawal Options', p.withdrawalOptions]);
-    if (p.romc) featItems.push(['Charge Return at Maturity', '✅ ' + (p.romcNote||'Yes')]);
-    if (p.loyaltyAdditions) featItems.push(['Loyalty/Wealth Boosters', '✅ ' + (p.loyaltyNote||'Yes')]);
-    if (p.riders && !String(p.riders).includes('Verify')) featItems.push(['Riders', p.riders]);
+    const idx = ULIP_PLANS.indexOf(p);
+    const buttons = `
+      ${p.url?`<a href="${san(p.url)}" target="_blank" rel="noopener noreferrer" class="btn-calc" onclick="event.stopPropagation()">Product →</a>`:''}
+      ${p.brochure&&!String(p.brochure).startsWith('Verify')?`<a href="${san(p.brochure)}" target="_blank" rel="noopener noreferrer" class="btn-details" onclick="event.stopPropagation()">Brochure</a>`:''}
+      ${p.fundPerformanceUrl?`<a href="${san(p.fundPerformanceUrl)}" target="_blank" rel="noopener noreferrer" class="btn-details" onclick="event.stopPropagation()">Fund NAVs</a>`:''}
+      <button class="btn-pdf" onclick="event.stopPropagation();generateSingleProductPDF(ULIP_PLANS[${idx}],'ulip')">📄 PDF</button>`;
 
-    if (featItems.length) {
-      html += `<div class="pc-section-title">📋 Plan Features</div>
-      <div class="pc-feature-list">${featItems.map(([l,v])=>`<div class="pc-feat"><span class="pc-fl">${san(l)}</span><span class="pc-fv">${san(v)}</span></div>`).join('')}</div>`;
-    }
-
-    if (p.uniqueFeature) { html += `<div class="pc-section-title">💬 Sales Story</div><div class="pc-pitch">"${san(p.pitch||p.uniqueFeature)}"</div>`; }
-
-    html += `<div class="pc-links">
-      ${p.url?`<a href="${san(p.url)}" target="_blank" rel="noopener noreferrer" class="pc-btn">Product →</a>`:''}
-      ${p.brochure&&!String(p.brochure).startsWith('Verify')?`<a href="${san(p.brochure)}" target="_blank" rel="noopener noreferrer" class="pc-btn-sec">Brochure →</a>`:''}
-      ${p.fundPerformanceUrl?`<a href="${san(p.fundPerformanceUrl)}" target="_blank" rel="noopener noreferrer" class="pc-btn-sec">Fund Performance →</a>`:''}
-      ${`<button class="pc-btn-pdf" onclick="generateSingleProductPDF(ULIP_PLANS[${ULIP_PLANS.indexOf(p)}],'ulip')">📄 Download PDF</button>`}
-    </div></div>`;
+    html += arenaCard({
+      company: p.company, plan: p.plan,
+      bestFor: (p.keyHighlights && p.keyHighlights[0]) || '',
+      uin: p.uin && !String(p.uin).includes('Verify') ? p.uin : '',
+      isBase: p.isBase, pills, stats,
+      pitch: p.pitch || p.uniqueFeature || '',
+      details, buttons
+    });
   });
   html += '</div>';
   wrap.innerHTML = html;
@@ -1997,3 +2008,255 @@ function annOpenNote(coId, optId) {
 }
 function annCloseNote() { document.getElementById('annNotePopup')?.classList.add('hidden'); }
 
+
+// ══════════════════════════════════════════════════════════════
+// UPGRADED CALCULATORS — Release 4
+// ══════════════════════════════════════════════════════════════
+
+// ── ULIP CALCULATOR (slider-driven, live chart) ──
+let ulipFreq = 12; // instalments per year (Monthly default)
+
+function setUlipFreq(btn) {
+  document.querySelectorAll('#ulipFreqToggle .freq-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  ulipFreq = parseInt(btn.getAttribute('data-freq'), 10) || 12;
+  calcULIPLive();
+}
+
+function syncUlip(field, value) {
+  const num = document.getElementById('ulip-' + field);
+  const sl  = document.getElementById('ulip-' + field + '-sl');
+  if (num && String(num.value) !== String(value)) num.value = value;
+  if (sl && String(sl.value) !== String(value)) sl.value = value;
+  // PPT can never exceed Policy Term
+  const ppt = parseFloat(document.getElementById('ulip-ppt')?.value) || 0;
+  const term = parseFloat(document.getElementById('ulip-term')?.value) || 0;
+  if (field === 'ppt' && ppt > term) { syncUlip('term', ppt); return; }
+  if (field === 'term' && term < ppt) { syncUlip('ppt', term); return; }
+  calcULIPLive();
+}
+
+function fmtLakh(v) {
+  if (v >= 10000000) return '₹' + (v/10000000).toFixed(2) + ' Cr';
+  if (v >= 100000)   return '₹' + (v/100000).toFixed(2) + ' Lakh';
+  return '₹' + Math.round(v).toLocaleString('en-IN');
+}
+
+function calcULIPLive() {
+  const amt   = parseFloat(document.getElementById('ulip-amt')?.value) || 0;
+  const ppt   = parseInt(document.getElementById('ulip-ppt')?.value, 10) || 0;
+  const term  = parseInt(document.getElementById('ulip-term')?.value, 10) || 0;
+  const ret   = (parseFloat(document.getElementById('ulip-return')?.value) || 0) / 100;
+  const fmc   = (parseFloat(document.getElementById('ulip-fmc')?.value) || 0) / 100;
+  if (!amt || !ppt || !term || term < ppt) return;
+
+  const netRate = ret - fmc;
+  const perInstalment = netRate / ulipFreq;
+  let fund = 0;
+  const milestones = {};
+  const marks = [2, Math.round(term*0.4), Math.round(term*0.6), term].filter((v,i,a)=>v>=1&&a.indexOf(v)===i).sort((a,b)=>a-b);
+
+  for (let y = 1; y <= term; y++) {
+    for (let m = 0; m < ulipFreq; m++) {
+      if (y <= ppt) fund += amt;
+      fund *= (1 + perInstalment);
+    }
+    if (marks.includes(y)) milestones[y] = { fund: Math.round(fund), invested: Math.min(y, ppt) * amt * ulipFreq };
+  }
+
+  const totalInvested = amt * ulipFreq * ppt;
+  const finalFund = Math.round(fund);
+
+  const invVal = document.getElementById('ulipInvVal'), getVal2 = document.getElementById('ulipGetVal');
+  const invSub = document.getElementById('ulipInvSub'), getSub = document.getElementById('ulipGetSub');
+  if (invVal) invVal.textContent = fmtLakh(totalInvested);
+  if (getVal2) getVal2.textContent = fmtLakh(finalFund);
+  if (invSub) invSub.textContent = 'Over ' + ppt + ' years';
+  if (getSub) getSub.textContent = 'After ' + term + ' years (estimated)';
+
+  const chart = document.getElementById('ulipChart');
+  if (chart) {
+    const maxV = Math.max(...Object.values(milestones).map(m => m.fund), 1);
+    chart.innerHTML = marks.map(y => {
+      const m = milestones[y]; if (!m) return '';
+      const totalH = Math.max(8, (m.fund / maxV) * 100);
+      const growth = Math.max(0, m.fund - m.invested);
+      const growthPct = m.fund > 0 ? (growth / m.fund) * 100 : 0;
+      return `<div class="uc-col">
+        <div class="uc-total">${fmtLakh(m.fund)}</div>
+        <div class="uc-bar" style="height:${totalH}%">
+          <div class="uc-growth" style="height:${growthPct}%"></div>
+          <div class="uc-principal" style="height:${100-growthPct}%"></div>
+        </div>
+        <div class="uc-year">Year ${y}</div>
+      </div>`;
+    }).join('');
+  }
+  track('calculator_used', {calc_type: 'ulip_live'});
+}
+
+// ── IRR: mode toggle + advanced irregular cash flows ──
+function setIrrMode(mode) {
+  document.getElementById('irrModeSimple')?.classList.toggle('active', mode === 'simple');
+  document.getElementById('irrModeAdv')?.classList.toggle('active', mode === 'advanced');
+  document.getElementById('irrSimplePane')?.classList.toggle('hidden', mode !== 'simple');
+  document.getElementById('irrAdvPane')?.classList.toggle('hidden', mode !== 'advanced');
+  document.getElementById('irr-result')?.classList.add('hidden');
+  if (mode === 'advanced' && document.getElementById('cfRows')?.children.length === 0) addCfYears();
+}
+
+function addCfYears() {
+  const rows = document.getElementById('cfRows'); if (!rows) return;
+  const start = rows.children.length + 1;
+  for (let y = start; y < start + 5 && y <= 60; y++) {
+    const div = document.createElement('div');
+    div.className = 'cf-row';
+    div.innerHTML = `<span class="cf-year-lbl">Year ${y}</span><input type="number" id="cf-y${y}" placeholder="0"/>`;
+    rows.appendChild(div);
+  }
+}
+
+function resetIrrAdvanced() {
+  const y0 = document.getElementById('cf-y0'); if (y0) y0.value = '';
+  document.querySelectorAll('#cfRows input').forEach(i => i.value = '');
+  document.getElementById('irr-result')?.classList.add('hidden');
+}
+
+function calcIRRAdvanced() {
+  track('calculator_used', {calc_type: 'irr_advanced'});
+  const cf = [parseFloat(document.getElementById('cf-y0')?.value) || 0];
+  document.querySelectorAll('#cfRows input').forEach(i => cf.push(parseFloat(i.value) || 0));
+  while (cf.length > 1 && cf[cf.length-1] === 0) cf.pop(); // trim trailing zeros
+
+  const hasNeg = cf.some(v => v < 0), hasPos = cf.some(v => v > 0);
+  if (cf.length < 2 || !hasNeg || !hasPos) {
+    showCalcError('irr-result', 'Enter at least one negative (money paid) and one positive (money received) cash flow. Use negative values for premiums, positive for income/maturity.');
+    return;
+  }
+
+  function npv(r) { return cf.reduce((s, c, t) => s + c / Math.pow(1 + r, t), 0); }
+  let lo = -0.99, hi = 10.0;
+  if (npv(lo) * npv(hi) > 0) {
+    showCalcError('irr-result', 'No valid IRR found for these cash flows. Check that total received exceeds total paid (or vice versa) and values are correctly signed.');
+    return;
+  }
+  for (let i = 0; i < 300; i++) {
+    const mid = (lo + hi) / 2;
+    if (Math.abs(hi - lo) < 0.0000005) break;
+    if (npv(lo) * npv(mid) < 0) hi = mid; else lo = mid;
+  }
+  const irr = ((lo + hi) / 2) * 100;
+  const paid = cf.filter(v => v < 0).reduce((s, v) => s - v, 0);
+  const recd = cf.filter(v => v > 0).reduce((s, v) => s + v, 0);
+  showCalcResult('irr-result', irr.toFixed(2) + '% p.a.', 'Internal Rate of Return (Irregular Cash Flows)', [
+    ['Total Money Paid (outflows)', fmtCr(paid)],
+    ['Total Money Received (inflows)', fmtCr(recd)],
+    ['Net Gain', fmtCr(Math.max(0, recd - paid))],
+    ['Cash Flow Years', (cf.length - 1) + ' years'],
+  ]);
+}
+
+// ── FINANCIAL PLANNING CALCULATOR ──
+function switchFpc(btn, pane) {
+  document.querySelectorAll('.fpc-tab').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  document.querySelectorAll('.fpc-pane').forEach(p => p.classList.remove('active'));
+  document.getElementById('fpc-' + pane)?.classList.add('active');
+}
+
+function fpcProfessionChange() {
+  const sel = document.getElementById('fpc-profession');
+  const cost = document.getElementById('fpc-edu-cost');
+  if (!sel || !cost) return;
+  if (sel.value === 'other') { cost.value = ''; cost.focus(); }
+  else cost.value = sel.value;
+}
+
+function calcFpcEducation() {
+  track('calculator_used', {calc_type: 'fpc_education'});
+  const costL = parseFloat(document.getElementById('fpc-edu-cost')?.value) || 0;
+  const childAge = parseFloat(document.getElementById('fpc-child-age')?.value);
+  const eduAge = parseFloat(document.getElementById('fpc-edu-age')?.value) || 18;
+  const infl = (parseFloat(document.getElementById('fpc-edu-infl')?.value) || 8) / 100;
+  const ret = (parseFloat(document.getElementById('fpc-edu-ret')?.value) || 10) / 100;
+  if (!costL || isNaN(childAge) || eduAge <= childAge) {
+    showCalcError('fpc-edu-result', 'Please fill all fields. Education start age must be greater than child\'s current age.');
+    return;
+  }
+  const yrs = eduAge - childAge;
+  const cost = costL * 100000;
+  const future = cost * Math.pow(1 + infl, yrs);
+  // Monthly SIP needed
+  const rm = ret / 12, n = yrs * 12;
+  const sip = future * rm / (Math.pow(1 + rm, n) - 1);
+  // One-time lump sum needed today
+  const lump = future / Math.pow(1 + ret, yrs);
+  const profSel = document.getElementById('fpc-profession');
+  const profName = profSel && profSel.value !== 'other' ? profSel.options[profSel.selectedIndex].text.split(' — ')[0] : 'chosen profession';
+  showCalcResult('fpc-edu-result', fmtLakh(future), 'Future Cost of ' + profName + ' (in ' + yrs + ' years)', [
+    ['Today\'s Cost', fmtLakh(cost)],
+    ['Years to Goal', yrs + ' years'],
+    ['Education Inflation Assumed', (infl*100).toFixed(1) + '% p.a.'],
+    ['Monthly SIP Needed (at ' + (ret*100).toFixed(0) + '% return)', fmtLakh(Math.ceil(sip))],
+    ['OR One-time Investment Today', fmtLakh(Math.ceil(lump))],
+  ]);
+}
+
+function calcFpcMarriage() {
+  track('calculator_used', {calc_type: 'fpc_marriage'});
+  const costL = parseFloat(document.getElementById('fpc-mar-cost')?.value) || 0;
+  const age = parseFloat(document.getElementById('fpc-mar-age')?.value);
+  const target = parseFloat(document.getElementById('fpc-mar-target')?.value) || 27;
+  const infl = (parseFloat(document.getElementById('fpc-mar-infl')?.value) || 7) / 100;
+  const ret = (parseFloat(document.getElementById('fpc-mar-ret')?.value) || 10) / 100;
+  if (!costL || isNaN(age) || target <= age) {
+    showCalcError('fpc-mar-result', 'Please fill all fields. Marriage age must be greater than current age.');
+    return;
+  }
+  const yrs = target - age;
+  const cost = costL * 100000;
+  const future = cost * Math.pow(1 + infl, yrs);
+  const rm = ret / 12, n = yrs * 12;
+  const sip = future * rm / (Math.pow(1 + rm, n) - 1);
+  const lump = future / Math.pow(1 + ret, yrs);
+  showCalcResult('fpc-mar-result', fmtLakh(future), 'Future Marriage Cost (in ' + yrs + ' years)', [
+    ['Today\'s Cost', fmtLakh(cost)],
+    ['Years to Goal', yrs + ' years'],
+    ['Inflation Assumed', (infl*100).toFixed(1) + '% p.a.'],
+    ['Monthly SIP Needed (at ' + (ret*100).toFixed(0) + '% return)', fmtLakh(Math.ceil(sip))],
+    ['OR One-time Investment Today', fmtLakh(Math.ceil(lump))],
+  ]);
+}
+
+function calcFpcRetirement() {
+  track('calculator_used', {calc_type: 'fpc_retirement'});
+  const age = parseFloat(document.getElementById('fpc-ret-age')?.value);
+  const target = parseFloat(document.getElementById('fpc-ret-target')?.value) || 60;
+  const exp = parseFloat(document.getElementById('fpc-ret-exp')?.value) || 0;
+  const infl = (parseFloat(document.getElementById('fpc-ret-infl')?.value) || 6) / 100;
+  const life = parseFloat(document.getElementById('fpc-ret-life')?.value) || 85;
+  const ret = (parseFloat(document.getElementById('fpc-ret-ret')?.value) || 10) / 100;
+  if (isNaN(age) || !exp || target <= age || life <= target) {
+    showCalcError('fpc-ret-result', 'Please fill all fields correctly (retirement age > current age, life expectancy > retirement age).');
+    return;
+  }
+  const yrsToRetire = target - age;
+  const yrsInRetire = life - target;
+  const monthlyAtRetire = exp * Math.pow(1 + infl, yrsToRetire);
+  // Corpus: present value of inflation-growing expenses during retirement at post-retirement real return
+  const realRet = (1 + ret * 0.7) / (1 + infl) - 1; // conservative post-retirement return = 70% of accumulation return
+  let corpus;
+  if (Math.abs(realRet) < 0.0001) corpus = monthlyAtRetire * 12 * yrsInRetire;
+  else corpus = monthlyAtRetire * 12 * (1 - Math.pow(1 + realRet, -yrsInRetire)) / realRet;
+  const rm = ret / 12, n = yrsToRetire * 12;
+  const sip = corpus * rm / (Math.pow(1 + rm, n) - 1);
+  showCalcResult('fpc-ret-result', fmtLakh(Math.round(corpus)), 'Retirement Corpus Needed at Age ' + target, [
+    ['Monthly Expenses Today', fmtLakh(exp)],
+    ['Monthly Expenses at Retirement', fmtLakh(Math.round(monthlyAtRetire))],
+    ['Years in Retirement', yrsInRetire + ' years'],
+    ['Monthly SIP Needed (at ' + (ret*100).toFixed(0) + '% return)', fmtLakh(Math.ceil(sip))],
+  ]);
+}
+
+// Initialise ULIP live calc on load
+document.addEventListener('DOMContentLoaded', function() { setTimeout(calcULIPLive, 500); });

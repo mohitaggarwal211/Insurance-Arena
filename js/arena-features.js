@@ -289,10 +289,10 @@ document.addEventListener('DOMContentLoaded', function() {
 // ─────────────────────────────────────────────
 function decorateProductCards() {
   if (typeof PRODUCT_REGISTRY === 'undefined' || !PRODUCT_REGISTRY) return;
-  document.querySelectorAll('.prod-card:not(.arena-decorated)').forEach(card => {
+  document.querySelectorAll('.prod-card:not(.arena-decorated), .plan-card:not(.arena-decorated)').forEach(card => {
     card.classList.add('arena-decorated');
-    const co = card.querySelector('.pc-co')?.textContent?.trim();
-    const pl = card.querySelector('.pc-pl')?.textContent?.trim();
+    const co = (card.querySelector('.pc-co') || card.querySelector('.card-company'))?.textContent?.trim();
+    const pl = (card.querySelector('.pc-pl') || card.querySelector('.card-plan-name'))?.textContent?.trim();
     if (!co || !pl) return;
     const entry = PRODUCT_REGISTRY.find(p => p.company === co && (p.plan === pl || p.plan.startsWith(pl) || pl.startsWith(p.plan)));
     if (!entry) return;
@@ -400,7 +400,8 @@ function injectCategorySearch() {
     const wrap = document.getElementById(wrapId);
     if (!wrap) return;
     const cards = wrap.querySelector('.prod-cards');
-    if (!cards || wrap.querySelector('.cat-search-bar')) return; // already injected or nothing to search
+    if (!cards || wrap.querySelector('.cat-search-bar')) return;
+    if (!cards.querySelector('.prod-card') && !cards.querySelector('.plan-card')) return; // already injected or nothing to search
 
     const bar = document.createElement('div');
     bar.className = 'cat-search-bar';
@@ -414,7 +415,7 @@ function filterCategoryCards(input) {
   const wrap = input.closest('[id$="Wrap"]');
   if (!wrap) return;
   const q = input.value.trim().toLowerCase();
-  const cards = wrap.querySelectorAll('.prod-card');
+  const cards = wrap.querySelectorAll('.prod-card, .plan-card');
   let visible = 0;
   cards.forEach(function(card) {
     const match = !q || card.textContent.toLowerCase().includes(q);
