@@ -297,7 +297,8 @@
       <button class="tool-tab" data-tool="irr">📊 IRR</button>
       <button class="tool-tab" data-tool="tvm">⏱️ TVM</button>
       <button class="tool-tab" data-tool="emi">🏦 EMI</button>
-      <button class="tool-tab" data-tool="ulip">📉 ULIP</button>\n      <button class="tool-tab" data-tool="fpc">🎯 Financial Planning</button>
+      <button class="tool-tab" data-tool="ulip">📉 ULIP</button>
+      <button class="tool-tab" data-tool="fpc">🎯 Financial Planning</button>
     </div>
     <div class="tool-panel active" id="tool-hlv">
       <div class="tool-card">
@@ -481,8 +482,8 @@
 
         <div class="slider-field">
           <div class="slider-head"><span class="slider-label">I want to invest for (Premium Paying Term)</span>
-            <span class="slider-value-box"><input type="number" id="ulip-ppt" value="10" min="5" max="30" oninput="syncUlip('ppt',this.value)"/><span class="sv-unit">Yrs</span></span></div>
-          <input type="range" class="arena-slider" id="ulip-ppt-sl" min="5" max="30" value="10" oninput="syncUlip('ppt',this.value)"/>
+            <span class="slider-value-box"><input type="number" id="ulip-ppt" value="10" min="1" max="30" oninput="syncUlip('ppt',this.value)"/><span class="sv-unit">Yrs</span></span></div>
+          <input type="range" class="arena-slider" id="ulip-ppt-sl" min="1" max="30" value="10" oninput="syncUlip('ppt',this.value)"/>
         </div>
 
         <div class="slider-field">
@@ -495,10 +496,6 @@
           <div class="slider-head"><span class="slider-label">Expected rate of return (Annual)</span>
             <span class="slider-value-box"><input type="number" id="ulip-return" value="9" min="1" max="20" step="0.5" oninput="syncUlip('return',this.value)"/><span class="sv-unit">%</span></span></div>
           <input type="range" class="arena-slider" id="ulip-return-sl" min="1" max="20" step="0.5" value="9" oninput="syncUlip('return',this.value)"/>
-        </div>
-
-        <div class="calc-grid">
-          <div class="calc-field"><label>Fund Management Charge — FMC (%/yr)</label><input type="number" id="ulip-fmc" value="1.35" min="0" max="1.35" step="0.05" oninput="calcULIPLive()"/></div>
         </div>
 
         <div class="ulip-summary">
