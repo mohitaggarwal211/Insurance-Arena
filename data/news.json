@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-18T04:18:43.973Z",
+  "lastUpdated": "2026-07-18T08:49:15.108Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,30 @@
     }
   ],
   "articles": [
+    {
+      "title": "New money? India's currency might soon get a plastic makeover",
+      "summary": "India's Reserve Bank is exploring polymer banknotes for enhanced durability. Manufacturers are invited to bid for specialized plastic substrate materials. Polymer notes offer greater resistance to moisture and dirt than paper.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/reserve-bank-of-india-planning-polymer-notes-new-money-indias-currency-might-soon-get-a-plastic-makeover/articleshow/132476206.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-18T08:14:56.000Z"
+    },
+    {
+      "title": "'Not just planted a new tree in space, but...': PM Modi to Skyroot Aerospace founders after Vikram-1's successful launch",
+      "summary": "Vikram-1's maiden test flight Mission Aagaman lifted off from the First Launch Pad at the Satish Dhawan Space Centre in Andhra Pradesh's Sriharikota on Saturday.",
+      "url": "https://www.businesstoday.in/india/story/not-just-planted-a-new-tree-in-space-but-pm-modi-to-skyroot-aerospace-founders-after-vikram-1s-successful-launch-543753-2026-07-18?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-18T07:34:44.000Z"
+    },
+    {
+      "title": "LNG traffic through the Strait of Hormuz falls sharply: S&P Global Energy",
+      "summary": "Laden LNG transits fall sharply after an attack on a QatarEnergy vessel while regional loadings remain resilient, but exports face renewed shipping constraints.",
+      "url": "https://www.businesstoday.in/latest/economy/story/lng-traffic-through-the-strait-of-hormuz-falls-sharply-sp-global-energy-543751-2026-07-18?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-18T06:38:32.000Z"
+    },
     {
       "title": "LPG, CNG, PNG rates today (July 18): Check latest prices in Delhi, Mumbai, Chennai, Kolkata and other cities",
       "summary": "Another respite for the consumer is that the government has removed all restrictions on the supply of non-domestic packed LPG cylinders and restored supplies to the levels prevailing before the West Asia crisis.",
@@ -321,28 +345,12 @@
       "publishedAt": "2026-07-17T10:28:02.000Z"
     },
     {
-      "title": "Reliance Jio’s LEO satellites get IN-SPACe nod, found technically sound: Report",
-      "summary": "Following this assessment, the government can extend regulatory support to Reliance Jio at the international level for securing orbital slots.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/reliance-jios-leo-satellites-get-in-space-nod-found-technically-sound-report-543646-2026-07-17?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "regulatory",
-      "publishedAt": "2026-07-17T10:27:47.000Z"
-    },
-    {
       "title": "LPG subsidy bill races beyond budget, may hit Rs 1 lakh crore this fiscal",
       "summary": "LPG subsidy spending may surpass one lakh crore rupees in FY27. This projection significantly exceeds the budget's thirty thousand crore rupee allocation. Higher fuel prices and ongoing war uncertainty are driving this increased subsidy burden.",
       "url": "https://timesofindia.indiatimes.com/business/india-business/lpg-subsidy-bill-races-beyond-budget-may-hit-rs-1-lakh-crore-this-fiscal/articleshow/132458865.cms",
       "source": "Times of India Business",
       "category": "regulatory",
       "publishedAt": "2026-07-17T10:27:11.000Z"
-    },
-    {
-      "title": "A foreigner called India's Vande Bharat Sleeper a \"five-star hotel on rails\" — here's why he's right",
-      "summary": "A foreign traveller called India's Vande Bharat Sleeper a \"five-star hotel on rails\" — and the video went viral. Here's what makes the train special and why the world is noticing.",
-      "url": "https://www.businesstoday.in/latest/trends/photo/a-foreigner-called-indias-vande-bharat-sleeper-a-five-star-hotel-on-rails-heres-why-hes-right-543649-2026-07-17?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-17T10:26:01.000Z"
     },
     {
       "title": "Mumbai-Ahmedabad bullet train update: Progress so far and Japan's E10 plan",
@@ -367,14 +375,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-07-17T08:55:21.000Z"
-    },
-    {
-      "title": "Gold price prediction: Is it time to buy gold on dips? Check July 17, 2026 outlook",
-      "summary": "Gold price prediction today: Gold prices are favouring a buy on dips strategy, says Jateen Trivedi, VP Research Analyst - Commodity and Currency, LKP Securities.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/gold-price-prediction-today-what-is-the-gold-rate-outlook-for-july-17-2026-should-you-buy-or-sell-mcx-gold/articleshow/132454800.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-17T06:55:27.000Z"
     }
   ]
 }
