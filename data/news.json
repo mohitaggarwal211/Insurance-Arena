@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-19T14:24:13.361Z",
+  "lastUpdated": "2026-07-19T20:07:52.280Z",
   "articlesCount": 43,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,14 @@
     }
   ],
   "articles": [
+    {
+      "title": "Top-5 valued firms add Rs 1.54 lakh crore in market cap; TCS emerges biggest gainer",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/top-5-valued-firms-add-rs-1-54-lakh-crore-in-market-cap-tcs-emerges-biggest-gainer/articleshow/132495861.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-19T14:12:35.000Z"
+    },
     {
       "title": "Gold, silver under pressure this week as US-Iran conflict, oil rally cloud outlook",
       "summary": "",
@@ -391,14 +399,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-07-17T21:50:38.000Z"
-    },
-    {
-      "title": "RIL Q1 profit plunges 25% to 23,000 crore, revenue up 25%",
-      "summary": "Reliance Industries saw a 25% profit decline, yet revenue grew significantly. Strong performances from oil-to-chemicals and Jio digital services boosted overall results. Jio's earnings climbed, supported by subscriber growth and increased average revenue per user.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/ril-q1-profit-plunges-25-to-23000-crore-revenue-up-25/articleshow/132469727.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-17T21:28:28.000Z"
     }
   ]
 }
