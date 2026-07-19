@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-07-19T09:05:11.651Z",
-  "articlesCount": 47,
+  "lastUpdated": "2026-07-19T11:35:36.094Z",
+  "articlesCount": 45,
   "sourcesOk": 5,
   "sourcesTotal": 9,
   "sourceStatus": [
@@ -19,7 +19,7 @@
     {
       "source": "Zee Business",
       "status": "ok",
-      "articles": 7,
+      "articles": 5,
       "feedUsed": "https://zeenews.india.com/rss/business.xml"
     },
     {
@@ -56,6 +56,46 @@
     }
   ],
   "articles": [
+    {
+      "title": "Husband at 19, became a father at 21, and still scored 605 marks: The story of a Gorakhpur student's four-year journey",
+      "summary": "By day he attended coaching and taught tuition classes; by night he studied in a library until 11 pm.",
+      "url": "https://www.businesstoday.in/latest/trends/story/husband-at-19-became-a-father-at-21-and-still-scored-605-marks-the-story-of-a-gorakhpur-students-four-year-journey-543813-2026-07-19?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-19T11:11:14.000Z"
+    },
+    {
+      "title": "'I left my ₹25,000 Gurgaon job': Auto driver says he now earns ₹45,000 a month and is using it to educate his three children",
+      "summary": "The driver said he earns ₹1,500–2,000 a day working eight to nine hours and uses the money to fund the education of his three children in the village.",
+      "url": "https://www.businesstoday.in/latest/trends/story/i-left-my-rs25000-gurgaon-job-auto-driver-says-he-now-earns-rs45000-a-month-and-is-using-it-to-educate-his-three-children-543810-2026-07-19?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-19T10:06:41.000Z"
+    },
+    {
+      "title": "Viral wallet hack decoded: Can aluminum foil help block wireless card theft? Here's the fact",
+      "summary": "The unusual hack has sparked curiosity — and skepticism — about whether a thin sheet of kitchen foil can really protect against cyber-enabled pickpocketing.",
+      "url": "https://www.businesstoday.in/latest/trends/story/viral-wallet-hack-decoded-can-aluminum-foil-help-block-wireless-card-theft-heres-the-fact-543809-2026-07-19?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-19T09:32:51.000Z"
+    },
+    {
+      "title": "India-UK ties to remain strong under new PM Andy Burnham, say strategic experts",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/india-uk-ties-to-remain-strong-under-new-pm-andy-burnham-say-strategic-experts/articleshow/132492167.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-19T09:18:38.000Z"
+    },
+    {
+      "title": "Pakistan trade crashes. Afghanistan pitches deeper economic ties with India",
+      "summary": "India-Afghanistan bilateral trade stood at $907.85 million in 2025-26 and has broadly remained around the $1 billion mark over the past five years",
+      "url": "https://www.businesstoday.in/latest/economy/story/pakistan-trade-crashes-afghanistan-pitches-deeper-economic-ties-with-india-543807-2026-07-19?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-19T09:07:57.000Z"
+    },
     {
       "title": "'Happy now, children?': Kerala declares school holiday for FIFA World Cup final, students get Monday off",
       "summary": "Football has dominated conversations in Kerala throughout the tournament, with several ministers openly backing their favourite teams.",
@@ -361,46 +401,6 @@
       "publishedAt": "2026-07-17T15:55:48.000Z"
     },
     {
-      "title": "Amitabh Bachchan back with Kaun Banega Crorepati Season 18. When, where & how to watch",
-      "summary": "The underlying premise of the new season is straightforward: when information is universally accessible, competitive advantage belongs to those who can connect the dots.",
-      "url": "https://www.businesstoday.in/latest/trends/story/amitabh-bachchan-back-with-kaun-banega-crorepati-season-18-when-where-how-to-watch-543736-2026-07-17?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-17T15:50:09.000Z"
-    },
-    {
-      "title": "India a step closer to its first demonstration-scale geothermal power project",
-      "summary": "ONGC has completed two wells in Ladakh to harness geothermal power as part of the Puga Geothermal Project.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/india-a-step-closer-to-its-first-demonstration-scale-geothermal-power-project-543731-2026-07-17?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-17T15:26:43.000Z"
-    },
-    {
-      "title": "SpaceX shares fall! Market cap of Elon Musk-led firm set to see $1 trillion drop from all-time high",
-      "summary": "After dropping as much as 6.9% in early US trading to $122.12 per share, the stock recovered some of its losses. At that level, the company's market value stood at $1.61 trillion, down from its high of $2.64 trillion seen at the close of June 16.",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/spacex-shares-fall-market-cap-of-elon-musk-led-firm-set-to-see-1-trillion-drop-from-all-time-high/articleshow/132464315.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-17T15:09:52.000Z"
-    },
-    {
-      "title": "Central Bank of India targets $400 million in FCNR (B) deposits; sees no major impact on asset quality from West Asia conflict",
-      "summary": "The state-owned lender is planning several outreach programmes around the upcoming festivals targeting its NRI customer base.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/central-bank-of-india-targets-400-million-in-fcnr-b-deposits-sees-no-major-impact-on-asset-quality-from-west-asia-conflict-543706-2026-07-17?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-17T13:12:04.000Z"
-    },
-    {
-      "title": "Here's how Gujarat, Maharashtra, and Tamil Nadu fared in NITI Aayog's Investment Friendliness Index",
-      "summary": "NITI Aayog Vice Chairman Ashok Lahiri underlined importance of investment in boosting demand, states should use index as an indicator to assess performance",
-      "url": "https://www.businesstoday.in/latest/economy/story/heres-how-gujarat-maharashtra-and-tamil-nadu-fared-in-niti-aayogs-investment-friendliness-index-543701-2026-07-17?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-17T12:49:56.000Z"
-    },
-    {
       "title": "Tesla sells fewer than 500 cars in first year of India operations",
       "summary": "The sales were significantly lower than those of established German luxury carmakers. During the same period, BMW sold 3,433 vehicles, while Mercedes-Benz retailed 1,116 units, the data showed.",
       "url": "https://zeenews.india.com/auto/tesla-sells-fewer-than-500-cars-in-first-year-of-india-operations-3061555.html",
@@ -415,22 +415,6 @@
       "source": "Zee Business",
       "category": "markets",
       "publishedAt": "2026-07-17T12:01:00.000Z"
-    },
-    {
-      "title": "Centre plans new pension cover for gig and unorganised sector workers under EPFO 3.0",
-      "summary": "Once a member turns 60, the scheme will convert their accumulated savings, referred to as the \"Target Retirement Sum\" (TRS), into a pension, calculated using the annuity and interest rates prevailing at the time.",
-      "url": "https://zeenews.india.com/economy/centre-plans-new-pension-cover-for-gig-and-unorganised-sector-workers-under-epfo-3-0-3061518.html",
-      "source": "Zee Business",
-      "category": "insurance",
-      "publishedAt": "2026-07-17T10:48:00.000Z"
-    },
-    {
-      "title": "Bomb threat note found on IndiGo Ahmedabad-bound flight; police launch probe",
-      "summary": "The discovery prompted airport authorities and security personnel to immediately activate standard safety protocols.",
-      "url": "https://zeenews.india.com/mobility/bomb-threat-note-found-on-indigo-ahmedabad-bound-flight-police-launch-probe-3061507.html",
-      "source": "Zee Business",
-      "category": "markets",
-      "publishedAt": "2026-07-17T09:49:00.000Z"
     }
   ]
 }
