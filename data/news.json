@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-07-19T11:35:36.094Z",
-  "articlesCount": 45,
+  "lastUpdated": "2026-07-19T14:24:13.361Z",
+  "articlesCount": 43,
   "sourcesOk": 5,
   "sourcesTotal": 9,
   "sourceStatus": [
@@ -19,7 +19,7 @@
     {
       "source": "Zee Business",
       "status": "ok",
-      "articles": 5,
+      "articles": 3,
       "feedUsed": "https://zeenews.india.com/rss/business.xml"
     },
     {
@@ -56,6 +56,30 @@
     }
   ],
   "articles": [
+    {
+      "title": "Gold, silver under pressure this week as US-Iran conflict, oil rally cloud outlook",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/gold-silver-face-pressure-this-week-as-us-iran-conflict-oil-rally-cloud-outlook/articleshow/132495169.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-19T13:15:40.000Z"
+    },
+    {
+      "title": "Promised 200 Riyals a month, made to work 12–15 hours a day, no pay for four months: Hyderabad woman's Oman ordeal",
+      "summary": "Unable to endure the alleged abuse, Shabnam Begum reportedly escaped from her employer.",
+      "url": "https://www.businesstoday.in/latest/trends/story/promised-200-riyals-a-month-made-to-work-12-15-hours-a-day-no-pay-for-four-months-hyderabad-womans-oman-ordeal-543816-2026-07-19?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-19T12:32:16.000Z"
+    },
+    {
+      "title": "Meet Amitabh Bachchan's former CA, who built a ₹28,000 crore pharma giant",
+      "summary": "Godha began his professional practice in 1971. Within a few years, he was handling the personal finances, taxation, and investments of Bollywood superstar Amitabh Bachchan and his family.",
+      "url": "https://www.businesstoday.in/latest/trends/story/meet-amitabh-bachchans-former-ca-who-built-a-rs28000-crore-pharma-giant-543814-2026-07-19?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-19T11:31:38.000Z"
+    },
     {
       "title": "Husband at 19, became a father at 21, and still scored 605 marks: The story of a Gorakhpur student's four-year journey",
       "summary": "By day he attended coaching and taught tuition classes; by night he studied in a library until 11 pm.",
@@ -375,46 +399,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-07-17T21:28:28.000Z"
-    },
-    {
-      "title": "Which states are the most investor friendly? Gujarat tops Niti Aayog index; Maharashtra & Tamil Nadu rank next",
-      "summary": "The index evaluates states and UTs across eight key pillars: infrastructure, business climate, resources, government policy, regulatory ease, institutional environment, financial health and environmental resilience.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/which-states-are-the-most-investor-friendly-gujarat-tops-niti-aayog-index-maharashtra-tamil-nadu-rank-next/articleshow/132465016.cms",
-      "source": "Times of India Business",
-      "category": "regulatory",
-      "publishedAt": "2026-07-17T16:00:38.000Z"
-    },
-    {
-      "title": "Timeless legend: Sir Garfield 'Garry' Sobers, West Indies cricketing great, dies at 89",
-      "summary": "The cricket world stood still in 1958 when a 21-year-old Sobers hammered a monumental 365 not out against Pakistan. The historic knock stood as the highest individual Test score for 36 years until it was broken by fellow West Indian Brian Lara in 1994.",
-      "url": "https://www.businesstoday.in/sports/story/timeless-legend-sir-garfield-garry-sobers-west-indies-cricketing-great-dies-at-89-543737-2026-07-17?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-17T15:56:00.000Z"
-    },
-    {
-      "title": "AI won't kill India's IT industry...: Anand Mahindra dismisses fears over AI replacing IT services",
-      "summary": "Speaking at Tech Mahindra's 39th Annual General Meeting (AGM), Mahindra addressed what he described as the biggest concern surrounding the rise of AI and argued that the technology would increase, not reduce, the importance of IT services companies.",
-      "url": "https://www.businesstoday.in/technology/artificial-intelligence/story/ai-wont-kill-indias-it-industry-anand-mahindra-dismisses-fears-over-ai-replacing-it-services-543728-2026-07-17?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-17T15:55:48.000Z"
-    },
-    {
-      "title": "Tesla sells fewer than 500 cars in first year of India operations",
-      "summary": "The sales were significantly lower than those of established German luxury carmakers. During the same period, BMW sold 3,433 vehicles, while Mercedes-Benz retailed 1,116 units, the data showed.",
-      "url": "https://zeenews.india.com/auto/tesla-sells-fewer-than-500-cars-in-first-year-of-india-operations-3061555.html",
-      "source": "Zee Business",
-      "category": "markets",
-      "publishedAt": "2026-07-17T12:29:00.000Z"
-    },
-    {
-      "title": "Ferrari Amalfi Spider launched in India, costs Rs 52 lakh more than coupe",
-      "summary": "As expected, the Spider looks nearly identical to the coupe. The biggest visual difference is that folding fabric roof, which opens in 13.5 seconds and works at speeds up to 60kph.",
-      "url": "https://zeenews.india.com/auto/ferrari-amalfi-spider-launched-in-india-costs-rs-52-lakh-more-than-coupe-3061532.html",
-      "source": "Zee Business",
-      "category": "markets",
-      "publishedAt": "2026-07-17T12:01:00.000Z"
     }
   ]
 }
