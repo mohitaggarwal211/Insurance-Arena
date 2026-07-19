@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-07-19T04:41:16.305Z",
-  "articlesCount": 49,
+  "lastUpdated": "2026-07-19T09:05:11.651Z",
+  "articlesCount": 47,
   "sourcesOk": 5,
   "sourcesTotal": 9,
   "sourceStatus": [
@@ -19,7 +19,7 @@
     {
       "source": "Zee Business",
       "status": "ok",
-      "articles": 9,
+      "articles": 7,
       "feedUsed": "https://zeenews.india.com/rss/business.xml"
     },
     {
@@ -56,6 +56,14 @@
     }
   ],
   "articles": [
+    {
+      "title": "'Happy now, children?': Kerala declares school holiday for FIFA World Cup final, students get Monday off",
+      "summary": "Football has dominated conversations in Kerala throughout the tournament, with several ministers openly backing their favourite teams.",
+      "url": "https://www.businesstoday.in/latest/story/happy-now-children-kerala-declares-school-holiday-for-fifa-world-cup-final-students-get-monday-off-543805-2026-07-19?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-19T08:29:58.000Z"
+    },
     {
       "title": "Quote of the Day by Azim Premji: ‘People have to take control of their own lives...’",
       "summary": "Often referred to as the \"Czar of the Indian IT Industry,\" he is best known for transforming Wipro Limited from a small family-run cooking oil business into a multi-billion-dollar global software and outsourcing giant.",
@@ -409,14 +417,6 @@
       "publishedAt": "2026-07-17T12:01:00.000Z"
     },
     {
-      "title": "World's first electromagnetic hybrid transmission: What MG ADAPT means for India's EV future",
-      "summary": "JSW MG Motor's new MG ADAPT is India's first multi-NEV platform supporting EV, HEV, PHEV and REEV powertrains. One EV and one PHEV will launch on it in FY27. Here's everything inside.",
-      "url": "https://www.businesstoday.in/latest/trends/photo/worlds-first-electromagnetic-hybrid-transmission-what-mg-adapt-means-for-indias-ev-future-543682-2026-07-17?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-17T11:56:46.000Z"
-    },
-    {
       "title": "Centre plans new pension cover for gig and unorganised sector workers under EPFO 3.0",
       "summary": "Once a member turns 60, the scheme will convert their accumulated savings, referred to as the \"Target Retirement Sum\" (TRS), into a pension, calculated using the annuity and interest rates prevailing at the time.",
       "url": "https://zeenews.india.com/economy/centre-plans-new-pension-cover-for-gig-and-unorganised-sector-workers-under-epfo-3-0-3061518.html",
@@ -431,22 +431,6 @@
       "source": "Zee Business",
       "category": "markets",
       "publishedAt": "2026-07-17T09:49:00.000Z"
-    },
-    {
-      "title": "Next-gen Toyota Hilux teased ahead of debut on July 28 - Details",
-      "summary": "The new Hilux will also retain physical buttons for functions including the HVAC system and four-wheel drive settings.",
-      "url": "https://zeenews.india.com/auto/next-gen-toyota-hilux-teased-ahead-of-debut-on-july-28-details-3061477.html",
-      "source": "Zee Business",
-      "category": "markets",
-      "publishedAt": "2026-07-17T05:40:00.000Z"
-    },
-    {
-      "title": "Planning to buy Tata Harrier petrol? Check performance, comfort and more",
-      "summary": "Power comes from the Hyperion 1.5-litre turbo-petrol engine, the same one that debuted on the Sierra, though Tata has retuned it specifically for the Harrier.",
-      "url": "https://zeenews.india.com/auto/planning-to-buy-tata-harrier-petrol-check-performance-comfort-and-more-3061470.html",
-      "source": "Zee Business",
-      "category": "markets",
-      "publishedAt": "2026-07-17T05:10:00.000Z"
     }
   ]
 }
