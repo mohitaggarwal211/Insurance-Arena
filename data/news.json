@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-07-20T04:36:29.474Z",
-  "articlesCount": 40,
+  "lastUpdated": "2026-07-20T04:58:16.195Z",
+  "articlesCount": 36,
   "sourcesOk": 5,
   "sourcesTotal": 9,
   "sourceStatus": [
@@ -19,7 +19,7 @@
     {
       "source": "Zee Business",
       "status": "ok",
-      "articles": 4,
+      "articles": 0,
       "feedUsed": "https://zeenews.india.com/rss/business.xml"
     },
     {
@@ -57,20 +57,20 @@
   ],
   "articles": [
     {
+      "title": "US import prices up 7.1% in June, highest annual gain since August 2022",
+      "summary": "United States import prices saw an unexpected rise in June. Nonfuel import costs increased, offsetting lower fuel prices during the month. Industrial supplies and materials became more expensive, driven by chemicals and finished nonmetals.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/us-import-prices-up-7-1-in-june-highest-annual-gain-since-august-2022/articleshow/132506149.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-20T04:38:53.000Z"
+    },
+    {
       "title": "Top stocks to buy: Stock recommendations for July 20, 2026 week - check list",
       "summary": "Stock market recommendations: Saatvik Green Energy, and Unimech Aerospace - Motilal Oswal Wealth Management Research Desk has picked these as the top stocks to buy for the week starting July 20, 2026:",
       "url": "https://timesofindia.indiatimes.com/business/india-business/top-stock-recommendations-for-july-20-2026-week-saatvik-green-energy-unimech-aerospace-stocks-to-buy-today/articleshow/132505235.cms",
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-07-20T03:29:53.000Z"
-    },
-    {
-      "title": "EPFO Scheme 2026: 12%, 9%, or a flat Rs 1,800 per month -- How to choose your PF contribution? Expert explains",
-      "summary": "As more companies are panning out Provident Fund (PF) contribution under the EPF Scheme, 2026, many employees are faced with the question regarding the appropriate contribution plan that suits them the best.",
-      "url": "https://zeenews.india.com/personal-finance/epfo-scheme-2026-12-9-or-a-flat-rs-1800-per-month-how-to-choose-your-pf-contribution-expert-explains-3061975.html",
-      "source": "Zee Business",
-      "category": "markets",
-      "publishedAt": "2026-07-20T03:04:00.000Z"
     },
     {
       "title": "Gold, Silver Rate Today Live Updates: International gold slips as Middle East tensions push crude higher",
@@ -241,14 +241,6 @@
       "publishedAt": "2026-07-19T02:00:02.000Z"
     },
     {
-      "title": "Mahadev app case: EBIX Group Chairman Vikas Garg given 10-days custody; how he used betting proceeds to buy foreign firms",
-      "summary": "The arrest follows a series of FIRs registered by police in Chhattisgarh, Andhra Pradesh, West Bengal, and other states against operators, promoters, and associates of these illegal betting platforms.",
-      "url": "https://zeenews.india.com/economy/mahadev-app-case-ebix-group-chairman-vikas-garg-given-10-days-custody-how-he-used-betting-proceeds-to-buy-foreign-firms-3061712.html",
-      "source": "Zee Business",
-      "category": "markets",
-      "publishedAt": "2026-07-18T17:20:00.000Z"
-    },
-    {
       "title": "Making waves underground: India's first undersea rail tunnel takes shape",
       "summary": "India's first undersea rail tunnel excavation has commenced for the bullet train project. A giant Tunnel Boring Machine began its journey beneath Thane Creek on Saturday. This marks the start of excavation on the seven-kilometer undersea stretch.",
       "url": "https://timesofindia.indiatimes.com/business/india-business/making-waves-underground-indias-first-undersea-rail-tunnel-takes-shape/articleshow/132483064.cms",
@@ -321,28 +313,12 @@
       "publishedAt": "2026-07-18T10:59:49.000Z"
     },
     {
-      "title": "IDBI Bank Q1FY27 net profit rises 3.3% to Rs 2007 crore",
-      "summary": "IDBI Bank reported a 3.3% rise in standalone net profit for June 2026 quarter. Lower provisions supported earnings, offsetting a weaker operating profit. Net interest income saw a slight decline while non-interest income dropped significantly.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/idbi-bank-q1fy27-net-profit-rises-3-3-to-rs-2007-crore/articleshow/132478619.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-18T10:56:45.000Z"
-    },
-    {
       "title": "Planning a mountain workation? This Blinkit delivery in Manali reveals one catch you can't ignore",
       "summary": "A video by content creator Akhil Dhruv showed just how far quick-commerce has travelled, and what it still can't do.",
       "url": "https://www.businesstoday.in/latest/trends/story/planning-a-mountain-workation-this-blinkit-delivery-in-manali-reveals-one-catch-you-cant-ignore-543763-2026-07-18?utm_source=rssfeed",
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-07-18T09:25:48.000Z"
-    },
-    {
-      "title": "Why Gujarat beat Maharashtra, Tamil Nadu to become India’s No.1 investment state",
-      "summary": "Gujarat topped NITI Aayog’s first Investment Friendliness Index 2026 with a score of 56.6, beating Maharashtra and Tamil Nadu thanks to its strong infrastructure, faster business approvals, lower power costs and high exports.",
-      "url": "https://zeenews.india.com/economy/why-gujarat-beat-maharashtra-tamil-nadu-to-become-india-s-no-1-investment-state-3061668.html",
-      "source": "Zee Business",
-      "category": "markets",
-      "publishedAt": "2026-07-18T08:55:00.000Z"
     },
     {
       "title": "CBDT grants retrospective income tax exemption to BBNDA under Section 10(46)",
@@ -367,14 +343,6 @@
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-07-18T06:38:32.000Z"
-    },
-    {
-      "title": "Is India’s first hydrogen train cheaper than diesel or more expensive? Cost of running 1 km revealed",
-      "summary": "Building a hydrogen train costs around Rs 40-80 crore, making it nearly 30% more expensive than a conventional diesel train. The bigger savings come after it starts running.",
-      "url": "https://zeenews.india.com/automobile/is-india-s-first-hydrogen-train-cheaper-than-diesel-or-more-expensive-cost-of-running-1-km-revealed-3061601.html",
-      "source": "Zee Business",
-      "category": "markets",
-      "publishedAt": "2026-07-18T05:06:00.000Z"
     }
   ]
 }
