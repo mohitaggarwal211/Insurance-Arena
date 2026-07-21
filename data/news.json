@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-21T15:04:56.553Z",
+  "lastUpdated": "2026-07-21T20:19:35.035Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -57,6 +57,46 @@
   ],
   "articles": [
     {
+      "title": "Centre uses 40% of annual fertiliser subsidy in first 3.5 months",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/centre-uses-40-of-annual-fertiliser-subsidy-in-first-3-5-months/articleshow/132546484.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-21T19:42:36.000Z"
+    },
+    {
+      "title": "India's growth remains strong, but trade barriers threaten 2047 goal: WTO",
+      "summary": "India's strong economic growth continues, but structural reforms are needed for developed nation status. High trade costs and regulatory complexity present significant challenges to global integration.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/indias-growth-remains-strong-but-trade-barriers-threaten-2047-goal-wto/articleshow/132542403.cms",
+      "source": "Times of India Business",
+      "category": "regulatory",
+      "publishedAt": "2026-07-21T17:38:26.000Z"
+    },
+    {
+      "title": "RBI releases draft foreign investment rules to simplify FDI framework",
+      "summary": "The central bank has invited comments from stakeholders until August 31 before finalising the rules",
+      "url": "https://www.businesstoday.in/latest/economy/story/rbi-releases-draft-foreign-investment-rules-to-simplify-fdi-framework-invites-public-comments-544337-2026-07-21?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "regulatory",
+      "publishedAt": "2026-07-21T16:35:01.000Z"
+    },
+    {
+      "title": "Russia, Latin American suppliers to rescue: India’s Middle East oil imports dip in April-June on Hormuz disruptions",
+      "summary": "India stepped up imports from Moscow once Washington granted a temporary waiver, helping offset reduced supplies from Gulf producers caused by the disruption of traffic through the strategically important Strait of Hormuz.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/russia-latin-american-suppliers-to-rescue-indias-middle-east-oil-imports-dip-in-april-june-on-hormuz-disruptions/articleshow/132540843.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-21T15:54:23.000Z"
+    },
+    {
+      "title": "Donald Trump's tariff tornado returns as India deal stalls",
+      "summary": "Donald Trump plans to impose new tariffs on many countries, including India. These tariffs will affect global trade and financial markets significantly. India's trade deal negotiations with the US face potential complications.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/donald-trumps-tariff-tornado-returns-as-india-deal-stalls/articleshow/132540539.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-21T15:44:39.000Z"
+    },
+    {
       "title": "US stock market today: AI stocks extend rally; Brent crude prices go above $90",
       "summary": "Following a prolonged surge fuelled by heavy investment in AI chips and data centres, these stocks have faced selling pressure in recent weeks amid concerns that valuations had become stretched.",
       "url": "https://timesofindia.indiatimes.com/business/international-business/us-stock-market-today-wall-street-july-21-2026-ai-stocks-extend-rally-brent-crude-prices-go-above-90/articleshow/132538705.cms",
@@ -81,7 +121,7 @@
       "publishedAt": "2026-07-21T13:01:06.000Z"
     },
     {
-      "title": "India's first bullet train launches August 15, 2027 — all 12 stations, speed and features explained",
+      "title": "India's first bullet train launch on August 15, 2027 — All 12 stations, speed and features explained",
       "summary": "India's first bullet train launches August 15, 2027, on the Mumbai-Ahmedabad corridor — 508 km, 12 stations, 320 kmph top speed and Japan's Shinkansen technology. Here's everything.",
       "url": "https://www.businesstoday.in/latest/trends/photo/indias-first-bullet-train-launches-august-15-2027-all-12-stations-speed-and-features-explained-544298-2026-07-21?utm_source=rssfeed",
       "source": "Business Today",
@@ -241,14 +281,6 @@
       "publishedAt": "2026-07-21T07:57:12.000Z"
     },
     {
-      "title": "Beyond football: Spain’s FIFA World Cup heroes, their crores, luxury homes and millionaire lifestyles",
-      "summary": "Spain’s World Cup heroes are football giants and millionaires. From Rodri and Laporte’s ₹289 crore fortunes to Yamal’s rise, explore their net worth, luxury homes and lifestyles.",
-      "url": "https://www.businesstoday.in/latest/trends/photo/beyond-football-spains-fifa-world-cup-heroes-their-crores-luxury-homes-and-millionaire-lifestyles-543901-2026-07-21?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-21T07:46:02.000Z"
-    },
-    {
       "title": "SBI Funds Management listing makes some employees crorepatis; stock debuts at 7% premium to IPO price",
       "summary": "SBI Funds Management made a strong debut on Dalal Street today, listing at a premium of around 7% over its IPO price. The stock opened at Rs 610 on the BSE, which is a gain of 6.27% from the issue price of Rs 574, while it listed at Rs 613.30 on the NSE.",
       "url": "https://timesofindia.indiatimes.com/business/india-business/sbi-funds-management-listing-makes-some-employees-crorepatis-stock-debuts-at-7-premium-to-ipo-price/articleshow/132530500.cms",
@@ -343,38 +375,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-07-20T22:08:12.000Z"
-    },
-    {
-      "title": "No move to scrap LTCG tax on equities: Govt",
-      "summary": "The government has informed Parliament about no current plans to abolish long-term capital gains tax on equities. Tax policies are revised periodically as part of the annual budgetary process and legislative revisions.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/no-move-to-scrap-ltcg-tax-on-equities-govt/articleshow/132524556.cms",
-      "source": "Times of India Business",
-      "category": "regulatory",
-      "publishedAt": "2026-07-20T22:05:24.000Z"
-    },
-    {
-      "title": "Not referring cases to internal ombudsman a concern: RBI",
-      "summary": "RBI deputy governor Swaminathan J expressed concern over banks bypassing internal ombudsman. He stated that many customer grievances resolved by the RBI ombudsman were never referred internally. This situation undermines the purpose of the internal ombudsman framework, he noted.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/not-referring-cases-to-internal-ombudsman-a-concern-rbi/articleshow/132524235.cms",
-      "source": "Times of India Business",
-      "category": "regulatory",
-      "publishedAt": "2026-07-20T22:03:28.000Z"
-    },
-    {
-      "title": "IndiGo places over 1,000 engines’ order for A320s",
-      "summary": "IndiGo has placed a record order for over one thousand engines. This significant deal is for their 510 Airbus A320neo family aircraft. CFM International will supply the LEAP-1A engines and establish an MRO facility.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/indigo-places-over-1000-engines-order-for-a320s/articleshow/132524230.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-20T22:02:50.000Z"
-    },
-    {
-      "title": "Inflow boost: Foreign deposits, swaps draw $21bn in 40 days",
-      "summary": "Sources undisclosed, mop-up so far 2X speculated amount",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/inflow-boost-foreign-deposits-swaps-draw-21bn-in-40-days/articleshow/132524217.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-20T21:57:37.000Z"
     }
   ]
 }
