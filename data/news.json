@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-24T14:56:35.723Z",
+  "lastUpdated": "2026-07-24T20:20:54.836Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,30 @@
     }
   ],
   "articles": [
+    {
+      "title": "WhatsApp chats to call records: How Sebi pieced together the Axis Mutual Fund front-running case",
+      "summary": "SEBI's investigation into the Axis Mutual Fund front-running case relied on far more than suspicious trades. From WhatsApp chats and call records to trading patterns and coded identities, the regulator pieced together a digital trail that culminated in one of …",
+      "url": "https://www.businesstoday.in/latest/corporate/story/whatsapp-chats-to-call-records-how-sebi-pieced-together-the-axis-mutual-fund-front-running-case-545159-2026-07-24?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "regulatory",
+      "publishedAt": "2026-07-24T16:45:03.000Z"
+    },
+    {
+      "title": "US stocks today: Wall Street inches higher as crude calms down; Dow jumps over 330 points, Nasdaq trades flat",
+      "summary": "Wall Street saw some relief as oil prices fell, but weekly losses continued. Investors weighed geopolitical tensions, new US tariffs, and the Federal Reserve's policy outlook. Major indices like the S&P 500 and Dow Jones Industrial Average posted gains on Friday.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/us-stocks-today-wall-street-inches-higher-as-crude-calms-down-dow-jumps-over-330-points-nasdaq-trades-flat/articleshow/132609598.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-24T15:38:55.000Z"
+    },
+    {
+      "title": "Bank of India targets $1.2 billion in FCNR (B) deposits",
+      "summary": "The state-owned lender expects global advances to grow 15-16 per cent in 2026-27. Deposits are seen growing 13-14 per cent.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/bank-of-india-targets-1-2-billion-in-fcnr-b-deposits-545172-2026-07-24?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-24T15:17:28.000Z"
+    },
     {
       "title": "Axis MF front-running case: Sebi bars former MF dealer Viresh Joshi for 7 years, imposes ₹3 crore penalty",
       "summary": "Sebi has barred former Axis Mutual Fund chief dealer Viresh Joshi from the securities market for seven years over his alleged role in a front-running case. The regulator also imposed a ₹3 crore penalty on Joshi and took action against 20 other individuals linked to the matter.",
@@ -257,22 +281,6 @@
       "publishedAt": "2026-07-24T09:50:52.000Z"
     },
     {
-      "title": "'My partner is half-Indian': Elon Musk rejects racism claims; why his son is named after Chandrasekhar",
-      "summary": "Musk's latest remarks come against the backdrop of long-running criticism over some of his public statements. Over the years, he has faced accusations of amplifying divisive rhetoric on immigration and race, while also expressing support for several right-wing…",
-      "url": "https://www.businesstoday.in/latest/trends/story/my-partner-is-half-indian-elon-musk-rejects-racism-claims-why-his-son-is-named-after-chandrasekhar-545035-2026-07-24?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "insurance",
-      "publishedAt": "2026-07-24T08:45:52.000Z"
-    },
-    {
-      "title": "Food inflation making a comeback? Why onions and vegetables are leading the price surge",
-      "summary": "Food inflation is back in focus as rising vegetable prices and an uneven monsoon threaten to push household budgets higher.",
-      "url": "https://www.businesstoday.in/latest/economy/story/food-inflation-making-a-comeback-why-onions-and-vegetables-are-leading-the-price-surge-545028-2026-07-24?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "regulatory",
-      "publishedAt": "2026-07-24T08:30:04.000Z"
-    },
-    {
       "title": "'No need to respond in advance': Canadian PM Mark Carney rules out retaliatory tariffs before Aug 19",
       "summary": "Canada will not retaliate in advance against proposed US tariffs, preferring negotiations. Prime Minister Mark Carney stated that premature action would be counterproductive at this stage.",
       "url": "https://timesofindia.indiatimes.com/business/international-business/no-need-to-respond-in-advance-canadian-pm-mark-carney-rules-out-retaliatory-tariffs-before-aug-19/articleshow/132597498.cms",
@@ -367,14 +375,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-07-23T21:37:16.000Z"
-    },
-    {
-      "title": "IndiGo offers crisis management plan to settle CCI probe into flight disruption case",
-      "summary": "IndiGo has proposed commitments to the Competition Commission of India. These proposals aim to address concerns over past flight disruptions and unfair practices. The airline will establish a crisis management group and a passenger grievance mechanism.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/indigo-offers-crisis-management-plan-to-settle-cci-probe-into-flight-disruption-case/articleshow/132587625.cms",
-      "source": "Times of India Business",
-      "category": "insurance",
-      "publishedAt": "2026-07-23T16:54:07.000Z"
     }
   ]
 }
