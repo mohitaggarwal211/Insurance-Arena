@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-07-26T11:43:54.784Z",
-  "articlesCount": 33,
+  "lastUpdated": "2026-07-26T14:38:03.691Z",
+  "articlesCount": 31,
   "sourcesOk": 5,
   "sourcesTotal": 9,
   "sourceStatus": [
@@ -41,7 +41,7 @@
     {
       "source": "Times of India Business",
       "status": "ok",
-      "articles": 13,
+      "articles": 11,
       "feedUsed": "https://timesofindia.indiatimes.com/rssfeeds/1898055.cms"
     },
     {
@@ -56,6 +56,22 @@
     }
   ],
   "articles": [
+    {
+      "title": "India’s first hydrogen-powered train saves 3,200 litres of diesel; Delhi route tests next",
+      "summary": "India's first hydrogen train has traveled over 1,200 kilometers during trial operations. This indigenous project has already saved over 3,200 liters of diesel fuel. The train generates electricity using hydrogen fuel cells, releasing only water vapor.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/indias-first-hydrogen-powered-train-completes-over-1200-km-trials-saves-3200-litres-of-diesel-onboard-fuel-cells-generate-electricity-emit-only-water-vapour/articleshow/132642162.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-26T13:41:57.000Z"
+    },
+    {
+      "title": "IPO rush ahead: Zepto, Shiprocket and 12 more firms to hit primary market; eye Rs 25,000 crore-plus fundraising",
+      "summary": "India's IPO market is preparing for a busy month with many companies planning public offerings. Over a dozen firms are expected to launch initial public offerings, raising over Rs 25,000 crore.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/ipo-rush-ahead-zepto-shiprocket-and-12-more-firms-to-hit-primary-market-eye-rs-25000-crore-plus-fundraising/articleshow/132639748.cms",
+      "source": "Times of India Business",
+      "category": "insurance",
+      "publishedAt": "2026-07-26T11:53:28.000Z"
+    },
     {
       "title": "Market recap: Top-10 firms shed Rs 2.74 lakh crore in value; HDFC Bank takes biggest hit",
       "summary": "Indian stock markets experienced a significant downturn last week. Nine of the ten most-valued companies saw their market worth decline. HDFC Bank faced the largest valuation drop, while Hindustan Unilever gained value.",
@@ -287,38 +303,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-07-24T15:38:55.000Z"
-    },
-    {
-      "title": "Cabinet approves Ballari-Guntakal rail project to boost freight, passenger connectivity",
-      "summary": "The Union cabinet approved a Rs 1,264-crore railway project for new lines. This initiative will enhance freight movement and passenger connectivity across key states. The project aims to ease congestion and improve logistics efficiency significantly.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/cabinet-approves-rs-1264-crore-ballari-guntakal-rail-project-to-boost-freight-passenger-connectivity/articleshow/132607267.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-24T13:38:47.000Z"
-    },
-    {
-      "title": "BHAVYA Rasayan scheme: Cabinet approves Rs 3,030 crore for three chemical parks",
-      "summary": "The Union cabinet approved a new Rs 3,030-crore scheme for three dedicated chemical parks. This initiative aims to strengthen India's chemicals sector with world-class infrastructure. The Bharat Audyogik Vikas Yojana Rasayan scheme will be implemented over five years.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/bhavya-rasayan-scheme-cabinet-approves-rs-3030-crore-for-three-chemical-parks/articleshow/132605268.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-24T12:19:46.000Z"
-    },
-    {
-      "title": "Sensex down 900 points, Nifty50 ends below 23,800: Why stock market crashed today",
-      "summary": "Indian stock markets closed lower for a fifth consecutive session on Friday. Rising oil prices and Middle East tensions fueled investor caution and market pressure. Foreign institutional investors continued their selling trend, impacting market sentiment negatively.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/sensex-down-900-points-nifty50-closes-below-23800-five-reasons-why-stock-market-crashed-today/articleshow/132604996.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-24T12:19:43.000Z"
-    },
-    {
-      "title": "12.5% to 10%: Why Trump admin imposed reduced tariff rate on India & what it means",
-      "summary": "US Trade Representative Jamieson Greer announced the revised tariffs on 60 economies on Thursday, one day before the expiry of the temporary additional 10% duties that had been imposed on imports from all countries.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/12-5-to-10-why-donald-trump-administration-imposed-reduced-tariff-rate-under-section-301-on-india-for-forced-labour-what-it-means/articleshow/132602928.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-24T11:45:31.000Z"
     }
   ]
 }
