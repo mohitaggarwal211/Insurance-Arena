@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-07-26T14:38:03.691Z",
-  "articlesCount": 31,
+  "lastUpdated": "2026-07-26T20:10:18.678Z",
+  "articlesCount": 32,
   "sourcesOk": 5,
   "sourcesTotal": 9,
   "sourceStatus": [
@@ -41,7 +41,7 @@
     {
       "source": "Times of India Business",
       "status": "ok",
-      "articles": 11,
+      "articles": 12,
       "feedUsed": "https://timesofindia.indiatimes.com/rssfeeds/1898055.cms"
     },
     {
@@ -56,6 +56,22 @@
     }
   ],
   "articles": [
+    {
+      "title": "Gold's next test: Fed verdict, crude oil and geopolitical tensions in focus",
+      "summary": "Gold and silver prices are set for a week driven by major events. The US Federal Reserve's interest rate decision will be a key factor. Geopolitical tensions involving Iran and crude oil price movements also impact markets.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/golds-next-test-fed-verdict-crude-oil-and-geopolitical-tensions-in-focus/articleshow/132644275.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-26T16:27:28.000Z"
+    },
+    {
+      "title": "'Don't make them run from pillar to post': FM Sitharaman asks income tax dept to work for common people",
+      "summary": "Finance Minister Nirmala Sitharaman urged income tax officials to simplify citizen access to government services. She emphasized that citizens should not face undue difficulties when seeking departmental assistance.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/dont-make-them-run-from-pillar-to-post-fm-sitharaman-asks-income-tax-dept-to-work-for-common-people/articleshow/132643921.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-26T16:01:04.000Z"
+    },
     {
       "title": "India’s first hydrogen-powered train saves 3,200 litres of diesel; Delhi route tests next",
       "summary": "India's first hydrogen train has traveled over 1,200 kilometers during trial operations. This indigenous project has already saved over 3,200 liters of diesel fuel. The train generates electricity using hydrogen fuel cells, releasing only water vapor.",
@@ -295,14 +311,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-07-24T22:35:14.000Z"
-    },
-    {
-      "title": "US stocks today: Wall Street inches higher as crude calms down; Dow jumps over 330 points, Nasdaq trades flat",
-      "summary": "Wall Street saw some relief as oil prices fell, but weekly losses continued. Investors weighed geopolitical tensions, new US tariffs, and the Federal Reserve's policy outlook. Major indices like the S&P 500 and Dow Jones Industrial Average posted gains on Friday.",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/us-stocks-today-wall-street-inches-higher-as-crude-calms-down-dow-jumps-over-330-points-nasdaq-trades-flat/articleshow/132609598.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-24T15:38:55.000Z"
     }
   ]
 }
