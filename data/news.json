@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-07-26T04:49:50.598Z",
-  "articlesCount": 36,
+  "lastUpdated": "2026-07-26T09:12:56.622Z",
+  "articlesCount": 34,
   "sourcesOk": 5,
   "sourcesTotal": 9,
   "sourceStatus": [
@@ -41,7 +41,7 @@
     {
       "source": "Times of India Business",
       "status": "ok",
-      "articles": 16,
+      "articles": 14,
       "feedUsed": "https://timesofindia.indiatimes.com/rssfeeds/1898055.cms"
     },
     {
@@ -56,6 +56,38 @@
     }
   ],
   "articles": [
+    {
+      "title": "From 4 stoves To ₹75 crore empire: R Madhavan applauds Bihar mother-son duo’s Thekua success story",
+      "summary": "Veena Devi, who worked as a teacher in Bihar for 15 years, moved to Bengaluru with her son Sameer.",
+      "url": "https://www.businesstoday.in/latest/trends/story/from-4-stoves-to-rs75-crore-empire-r-madhavan-applauds-bihar-mother-son-duos-thekua-success-story-545275-2026-07-26?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-26T08:12:37.000Z"
+    },
+    {
+      "title": "From Friday pubbing to running clubs: Why Gen Z is making a surprising lifestyle switch in this country?",
+      "summary": "Young adults are swapping pints for park runs, padel and coffee raves, reshaping one of Britain's oldest social traditions.",
+      "url": "https://www.businesstoday.in/latest/trends/story/from-friday-pubbing-to-running-clubs-why-gen-z-is-making-a-surprising-lifestyle-switch-545272-2026-07-26?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-26T07:14:34.000Z"
+    },
+    {
+      "title": "Vaishno Devi pilgrims get 4 new train services including 3 Vande Bharat Express — New Delhi, Jammu, Amritsar routes covered",
+      "summary": "Indian Railways launches 4 new trains for Vaishno Devi pilgrims — New Delhi–Katra Vande Bharat, Jammu–Srinagar Vande Bharat, and Amritsar–Katra Express among the new services.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/vaishno-devi-pilgrims-get-4-new-train-services-including-3-vande-bharat-express-new-delhi-jammu-amritsar-routes-covered-545271-2026-07-26?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-26T06:50:47.000Z"
+    },
+    {
+      "title": "'You don't perform, you don't exist': TV Mohandas Pai recalls working under Narayana Murthy, calls him the best boss he ever had",
+      "summary": "TV Mohandas Pai reflected on his years at Infosys, sharing stories of Narayana Murthy's demanding leadership style, relentless work ethic and unwavering focus on performance, discipline and accountability.",
+      "url": "https://www.businesstoday.in/india/story/you-dont-perform-you-dont-exist-tv-mohandas-pai-recalls-working-under-narayana-murthy-calls-him-the-best-boss-he-ever-had-545267-2026-07-26?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-26T05:34:46.000Z"
+    },
     {
       "title": "Petrol, diesel prices today, July 26: Check latest rates in Delhi, Mumbai, Chennai, Kolkata and other cities",
       "summary": "Petrol and diesel prices have remained steady since May 25, when state-owned Oil Marketing Companies (OMCs) raised petrol prices by ₹2.61 per litre and diesel prices by ₹2.71 per litre.",
@@ -225,22 +257,6 @@
       "publishedAt": "2026-07-24T23:47:34.000Z"
     },
     {
-      "title": "Asthma attacks dropped 70%: Ditching the gas stove rivaled major medical treatments",
-      "summary": "While switching to electric appliances isn't a silver-bullet cure for asthma or a substitute for medical care, health experts stress that simple mitigations — such as running range hood exhaust fans, opening windows during cooking, or using kitchen air purifie…",
-      "url": "https://www.businesstoday.in/latest/trends/story/asthma-attacks-dropped-70-ditching-the-gas-stove-rivaled-major-medical-treatments-545182-2026-07-25?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-24T23:30:05.000Z"
-    },
-    {
-      "title": "A $200 million fairy tale gone wrong: Inside Turkey’s abandoned village of Disney-style castles",
-      "summary": "Construction on Burj Al Babas began in 2014 a Turkish developer. The original master plan envisioned a sprawling community of 732 European-inspired homes, complete with ornate towers, decorative balconies, and grand façades styled after French châteaux.",
-      "url": "https://www.businesstoday.in/latest/trends/story/a-200-million-fairy-tale-gone-wrong-inside-turkeys-abandoned-village-of-disney-style-castles-545181-2026-07-25?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-24T23:00:03.000Z"
-    },
-    {
       "title": "Trump slaps 10% tariff on India, no major impact seen",
       "summary": "",
       "url": "https://timesofindia.indiatimes.com/business/india-business/trump-slaps-10-tariff-on-india-no-major-impact-seen/articleshow/132617010.cms",
@@ -249,28 +265,12 @@
       "publishedAt": "2026-07-24T22:35:14.000Z"
     },
     {
-      "title": "WhatsApp chats to call records: How Sebi pieced together the Axis Mutual Fund front-running case",
-      "summary": "SEBI's investigation into the Axis Mutual Fund front-running case relied on far more than suspicious trades. From WhatsApp chats and call records to trading patterns and coded identities, the regulator pieced together a digital trail that culminated in one of …",
-      "url": "https://www.businesstoday.in/latest/corporate/story/whatsapp-chats-to-call-records-how-sebi-pieced-together-the-axis-mutual-fund-front-running-case-545159-2026-07-24?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "regulatory",
-      "publishedAt": "2026-07-24T16:45:03.000Z"
-    },
-    {
       "title": "US stocks today: Wall Street inches higher as crude calms down; Dow jumps over 330 points, Nasdaq trades flat",
       "summary": "Wall Street saw some relief as oil prices fell, but weekly losses continued. Investors weighed geopolitical tensions, new US tariffs, and the Federal Reserve's policy outlook. Major indices like the S&P 500 and Dow Jones Industrial Average posted gains on Friday.",
       "url": "https://timesofindia.indiatimes.com/business/international-business/us-stocks-today-wall-street-inches-higher-as-crude-calms-down-dow-jumps-over-330-points-nasdaq-trades-flat/articleshow/132609598.cms",
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-07-24T15:38:55.000Z"
-    },
-    {
-      "title": "Bank of India targets $1.2 billion in FCNR (B) deposits",
-      "summary": "The state-owned lender expects global advances to grow 15-16 per cent in 2026-27. Deposits are seen growing 13-14 per cent.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/bank-of-india-targets-1-2-billion-in-fcnr-b-deposits-545172-2026-07-24?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-24T15:17:28.000Z"
     },
     {
       "title": "Cabinet approves Ballari-Guntakal rail project to boost freight, passenger connectivity",
@@ -327,22 +327,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-07-24T10:14:12.000Z"
-    },
-    {
-      "title": "'No need to respond in advance': Canadian PM Mark Carney rules out retaliatory tariffs before Aug 19",
-      "summary": "Canada will not retaliate in advance against proposed US tariffs, preferring negotiations. Prime Minister Mark Carney stated that premature action would be counterproductive at this stage.",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/no-need-to-respond-in-advance-canadian-pm-mark-carney-rules-out-retaliatory-tariffs-before-aug-19/articleshow/132597498.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-24T05:54:30.000Z"
-    },
-    {
-      "title": "RBI intervention lifts rupee 22 paise to 96.5 despite Brent crude topping $100",
-      "summary": "The Indian Rupee recovered 22 paise against the US dollar in early trade. This recovery occurred despite crude oil prices breaching the $100 a barrel mark. The Reserve Bank of India's intervention likely helped stabilize the domestic currency.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/rbi-intervention-lifts-rupee-22-paise-to-96-5-despite-brent-crude-topping-100/articleshow/132596724.cms",
-      "source": "Times of India Business",
-      "category": "regulatory",
-      "publishedAt": "2026-07-24T05:22:42.000Z"
     }
   ]
 }
