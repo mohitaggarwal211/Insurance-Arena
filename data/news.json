@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-07-26T09:12:56.622Z",
-  "articlesCount": 34,
+  "lastUpdated": "2026-07-26T11:43:54.784Z",
+  "articlesCount": 33,
   "sourcesOk": 5,
   "sourcesTotal": 9,
   "sourceStatus": [
@@ -41,7 +41,7 @@
     {
       "source": "Times of India Business",
       "status": "ok",
-      "articles": 14,
+      "articles": 13,
       "feedUsed": "https://timesofindia.indiatimes.com/rssfeeds/1898055.cms"
     },
     {
@@ -56,6 +56,38 @@
     }
   ],
   "articles": [
+    {
+      "title": "Market recap: Top-10 firms shed Rs 2.74 lakh crore in value; HDFC Bank takes biggest hit",
+      "summary": "Indian stock markets experienced a significant downturn last week. Nine of the ten most-valued companies saw their market worth decline. HDFC Bank faced the largest valuation drop, while Hindustan Unilever gained value.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/market-recap-top-10-firms-shed-rs-2-74-lakh-crore-in-value-hdfc-bank-takes-biggest-hit/articleshow/132639404.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-26T10:13:52.000Z"
+    },
+    {
+      "title": "Stock market outlook: Fed policy, crude oil prices and Q1 earnings to drive trade",
+      "summary": "Markets anticipate another volatile week as investors track Middle East developments and oil prices. The US Federal Reserve's policy meeting outcome will also significantly influence investor sentiment.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/stock-market-outlook-fed-policy-crude-oil-prices-and-q1-earnings-to-drive-trade/articleshow/132639201.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-26T09:45:56.000Z"
+    },
+    {
+      "title": "On Cockroach Janta Party's lines, now E20 Janta Party demands choice of 100% petrol",
+      "summary": "With fuel stations now selling only E20, users say they've lost the option to choose — and that's exactly what this new \"Janta Party\" wants back.",
+      "url": "https://www.businesstoday.in/india/story/on-cockroach-janta-partys-lines-now-e20-janta-party-demands-choice-of-100-petrol-545276-2026-07-26?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-26T09:01:27.000Z"
+    },
+    {
+      "title": "CBDT issues new crypto reporting guidance: No new tax, but exchanges must track and report all transactions",
+      "summary": "Onus on crypto asset service providers to undertake due diligence of customers, furnish information, no new tax introduced.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/cbdt-issues-new-crypto-reporting-guidance-no-new-tax-but-exchanges-must-track-and-report-all-transactions-545279-2026-07-26?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-26T09:01:12.000Z"
+    },
     {
       "title": "From 4 stoves To ₹75 crore empire: R Madhavan applauds Bihar mother-son duo’s Thekua success story",
       "summary": "Veena Devi, who worked as a teacher in Bihar for 15 years, moved to Bengaluru with her son Sameer.",
@@ -233,22 +265,6 @@
       "publishedAt": "2026-07-25T02:10:03.000Z"
     },
     {
-      "title": "BMW, Mercedes, Land Rover at Creta price: The deal sounds tempting",
-      "summary": "Haldiram’s, Lakshmi Mittal, and Mukesh Bansal backed Skyroot Aerospace, India’s first private space unicorn, turning early bets into a ₹700 crore success story.",
-      "url": "https://www.businesstoday.in/latest/trends/photo/bmw-mercedes-land-rover-at-creta-price-the-deal-sounds-tempting-545096-2026-07-25?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-25T02:00:03.000Z"
-    },
-    {
-      "title": "Quote of the Day by JRD Tata: ‘live life a little...’",
-      "summary": "JRD Tata was a legendary stickler for perfection. He believed that building a world-class enterprise could not be accomplished overnight or through superficial methods.",
-      "url": "https://www.businesstoday.in/latest/trends/story/quote-of-the-day-by-jrd-tata-live-life-a-little-544268-2026-07-25?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-25T02:00:03.000Z"
-    },
-    {
       "title": "Setback for Trump: US appeals court refuses to revive $100,000 H-1B visa fee",
       "summary": "A federal appeals court refused to lift a ruling blocking a $100,000 H-1B visa fee. The court left in place a decision finding the fee unlawful while the government challenges it.",
       "url": "https://timesofindia.indiatimes.com/business/international-business/setback-for-trump-us-appeals-court-refuses-to-revive-100000-h-1b-visa-fee/articleshow/132617133.cms",
@@ -303,30 +319,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-07-24T11:45:31.000Z"
-    },
-    {
-      "title": "India's fertiliser game plan: Over 32 lakh tonnes imported in Q1; strengthened supply chain through overseas deals",
-      "summary": "India imported over 32 lakh tonnes of key fertilizers during the first quarter. Domestic production of fertilizers reached 115.72 lakh tonnes in the same period. The government is diversifying import sources to mitigate supply chain risks.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/indias-fertiliser-game-plan-over-32-lakh-tonnes-imported-in-q1-strengthened-supply-chain-through-overseas-deals/articleshow/132603643.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-24T11:16:09.000Z"
-    },
-    {
-      "title": "Trump imposes new tariffs on 60 economies over forced labour concerns; India gets 10% duty - check full list",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/trump-imposes-new-tariffs-on-60-economies-over-forced-labour-concerns-india-gets-10-duty-check-full-list/articleshow/132602556.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-24T10:44:08.000Z"
-    },
-    {
-      "title": "10% US tariff on India: What it means for the country's exports",
-      "summary": "United States imposed a ten percent tariff on Indian goods, offering some relief. Economists believe the immediate impact on India's exports will be limited. Reducing dependence on single markets and broadening global reach is crucial.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/10-us-tariff-on-india-what-it-means-for-the-countrys-exports/articleshow/132602122.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-24T10:14:12.000Z"
     }
   ]
 }
