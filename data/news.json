@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-27T04:37:02.364Z",
+  "lastUpdated": "2026-07-27T05:00:17.284Z",
   "articlesCount": 38,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -13,7 +13,7 @@
     {
       "source": "Business Today",
       "status": "ok",
-      "articles": 19,
+      "articles": 18,
       "feedUsed": "https://www.businesstoday.in/rssfeeds/?id=225346"
     },
     {
@@ -41,7 +41,7 @@
     {
       "source": "Times of India Business",
       "status": "ok",
-      "articles": 19,
+      "articles": 20,
       "feedUsed": "https://timesofindia.indiatimes.com/rssfeeds/1898055.cms"
     },
     {
@@ -56,6 +56,14 @@
     }
   ],
   "articles": [
+    {
+      "title": "Rupee jumps 28 paise against US dollar as crude price drops to $92 per barrel",
+      "summary": "The Indian Rupee opened stronger against the US dollar on Monday. This rise was supported by declining crude oil prices and a weaker dollar. Easing Middle East hostilities between the US and Iran also improved global sentiment.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/rupee-jumps-28-paise-against-us-dollar-as-crude-price-drops-to-92-per-barrel/articleshow/132652308.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-27T04:26:14.000Z"
+    },
     {
       "title": "India's first hydrogen train covers 900 km in 5 days — tickets still Rs 10–25, zero emissions, water vapour only",
       "summary": "India's first hydrogen train, NaMo Green Rail, covered 900 km in 5 days on Jind–Sonipat route. World's largest-capacity hydrogen train — 2,600 seats, Rs 10–25 ticket, zero emissions.",
@@ -351,14 +359,6 @@
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-07-25T07:34:27.000Z"
-    },
-    {
-      "title": "Adani's airline push: Letter shows group wants to launch carrier, says report",
-      "summary": "The Adani Group has reportedly sought a change in airport ownership rules that would allow it to launch an airline, arguing the move would boost competition and regional connectivity.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/adanis-airline-push-letter-shows-group-wants-to-launch-carrier-says-report-545201-2026-07-25?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-25T04:52:51.000Z"
     }
   ]
 }
