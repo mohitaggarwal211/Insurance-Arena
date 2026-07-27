@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-27T13:24:19.279Z",
+  "lastUpdated": "2026-07-27T15:42:43.640Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -57,7 +57,15 @@
   ],
   "articles": [
     {
-      "title": "HDFC Bank penalises top officials, including CEO and CFO, in MSRDC case. Here’s why",
+      "title": "US stock market today: Wall Street rallies as US-Iran tensions ease; Nasdaq rises 1%",
+      "summary": "Early trading saw the S&P 500 rise 0.8%, recovering after two consecutive weeks of losses. The Dow Jones Industrial Average advanced 581 points, while the Nasdaq Composite gained 1%.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/us-stock-market-today-july-27-2026-wall-street-nasdaq-dow-jones-sp-500-us-iran-war-middle-east-conflict-brent-crude-price/articleshow/132663306.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-27T14:10:40.000Z"
+    },
+    {
+      "title": "HDFC Bank penalises top officials, including CEO & CFO, in MSRDC case. Here’s why",
       "summary": "The country’s largest private sector lender said that the conduct of the employees involved constituted business overreach rather than any mala fide action.",
       "url": "https://www.businesstoday.in/latest/corporate/story/hdfc-bank-penalises-top-officials-including-ceo-and-cfo-in-msrdc-case-heres-why-545522-2026-07-27?utm_source=rssfeed",
       "source": "Business Today",
@@ -367,14 +375,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-07-26T23:46:46.000Z"
-    },
-    {
-      "title": "BNP to take bancassurance route for insurance re-entry",
-      "summary": "BNP Paribas Cardif is acquiring a significant stake in IndiaFirst Life Insurance. This strategic investment marks Warburg Pincus's exit from the life insurer. The French insurer brings extensive global bancassurance expertise to the partnership.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/bnp-to-take-bancassurance-route-for-insurance-re-entry/articleshow/132650203.cms",
-      "source": "Times of India Business",
-      "category": "insurance",
-      "publishedAt": "2026-07-26T23:38:32.000Z"
     }
   ]
 }
