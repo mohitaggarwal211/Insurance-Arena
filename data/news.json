@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-29T09:38:01.508Z",
+  "lastUpdated": "2026-07-29T12:27:45.971Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -57,12 +57,132 @@
   ],
   "articles": [
     {
+      "title": "No more Kumbh traffic woes! Prayagraj's new 9.8-km Ganga bridge is opening in November — and it could change the city forever",
+      "summary": "Prayagraj's new ₹1,947-crore, 9.8-km, six-lane Ganga bridge — UP's longest cantilever structure — is 94% complete and set to open for vehicular traffic in November 2026.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/no-more-kumbh-traffic-woes-prayagrajs-new-9-8-km-ganga-bridge-is-opening-in-november-and-it-could-change-the-city-forever-546051-2026-07-29?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-29T11:43:37.000Z"
+    },
+    {
+      "title": "‘Made in India’ phones go global: Smartphone exports jump 165 times to Rs 2.59 lakh crore",
+      "summary": "India's electronics manufacturing sector has seen substantial growth over the past decade. Mobile phone exports have increased significantly, reaching approximately Rs 2.59 lakh crore by 2025-26.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/made-in-india-phones-go-global-smartphone-exports-jump-165-times-to-rs-2-59-lakh-crore/articleshow/132710144.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-29T11:04:19.000Z"
+    },
+    {
+      "title": "Once abandoned, now reborn: Andhra's iconic Havelock Bridge is set to become a must-visit spot",
+      "summary": "The century-old Havelock Bridge, once destined for the scrapyard, is now set for a dramatic revival as the state sanctions Rs 47 Crore for Havelock Bridge revamp.",
+      "url": "https://www.businesstoday.in/latest/trends/story/once-abandoned-now-reborn-andhras-iconic-havelock-bridge-is-set-to-become-a-must-visit-spot-546026-2026-07-29?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-29T10:52:06.000Z"
+    },
+    {
+      "title": "Payday winners: India’s salary hikes projected at 8.6%-10.2%; who gets the most?",
+      "summary": "Professionals in electric vehicles, fintech, healthcare, and engineering can expect brighter salary outlooks. Fast-growing sectors and technical roles will likely see higher pay increases.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/payday-winners-indias-salary-hikes-projected-at-8-6-10-2-who-gets-the-most/articleshow/132708743.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-29T10:44:17.000Z"
+    },
+    {
+      "title": "1854 to today: The mountain school where history meets global education",
+      "summary": "Founded in 1854, Woodstock School in Mussoorie is one of India’s oldest international boarding schools, known for its Himalayan campus, heritage architecture and global education.",
+      "url": "https://www.businesstoday.in/latest/photo/1854-to-today-the-mountain-school-where-history-meets-global-education-546023-2026-07-29?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-29T10:40:41.000Z"
+    },
+    {
+      "title": "Batwara 1947 trailer: Sunny Deol, A.R. Rahman and the partition drama that could be the film of the year",
+      "summary": "Sunny Deol and Rajkumar Santoshi reunite in Batwara 1947 — a Partition drama backed by Aamir Khan Productions, with A.R. Rahman's music, releasing August 14, 2026. Trailer is out now.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/batwara-1947-trailer-sunny-deol-ar-rahman-and-the-partition-drama-that-could-be-the-film-of-the-year-546020-2026-07-29?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-29T10:36:08.000Z"
+    },
+    {
+      "title": "No designer, no drama: Saumya Tandon’s self-designed home leaves fans amazed",
+      "summary": "TV actress Saumya Tandon’s Mumbai home reflects her personal style with vintage European interiors, pastel shades, classic furniture and artistic corners designed without a professional decorator.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/no-designer-no-drama-saumya-tandons-self-designed-home-leaves-fans-amazed-546015-2026-07-29?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-29T10:32:27.000Z"
+    },
+    {
+      "title": "TVS’ big move for kids: This mini bike could create India’s next racing stars",
+      "summary": "TVS Racing’s Apache RR 200 Mini brings professional-style racing to young riders aged 10-14. With a 197.75cc engine and track-focused setup, it aims to create India’s future racers.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/tvs-big-move-for-kids-this-mini-bike-could-create-indias-next-racing-stars-546011-2026-07-29?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-29T10:25:35.000Z"
+    },
+    {
+      "title": "Machine failed, business suffered: Kerala entrepreneur wins ₹75,000 after three-year battle over ₹25 lakh equipment",
+      "summary": "The entrepreneur said the company had promised that the machine could fill 1,000 litres of concentrate every hour, helping her reduce her workforce by five employees.",
+      "url": "https://www.businesstoday.in/latest/trends/story/machine-failed-business-suffered-kerala-entrepreneur-wins-rs75000-after-three-year-battle-over-rs25-lakh-equipment-545998-2026-07-29?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-29T10:19:34.000Z"
+    },
+    {
+      "title": "iPhone 18 Pro could have Apple's biggest-ever battery and first 2nm chip — here are all 5 leaks",
+      "summary": "iPhone 18 Pro leaks point to a 2nm A20 Pro chip, 5,500 mAh battery, 35% smaller Dynamic Island, Dark Cherry colour and manual camera aperture — starting at ₹1,39,900 in India.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/iphone-18-pro-could-have-apples-biggest-ever-battery-and-first-2nm-chip-here-are-all-5-leaks-546004-2026-07-29?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-29T10:11:17.000Z"
+    },
+    {
+      "title": "52 extra trips announced: Namo Bharat’s big move to handle Kanwar Yatra passenger rush",
+      "summary": "Namo Bharat adds 52 extra daily trips on the Delhi-Meerut corridor ahead of Kanwar Yatra rush. Trains will run every 8 minutes to ease travel for commuters and pilgrims.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/52-extra-trips-announced-namo-bharats-big-move-to-handle-kanwar-yatra-passenger-rush-546002-2026-07-29?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-29T10:05:28.000Z"
+    },
+    {
+      "title": "India is choosing between A400M, C-130J and C-390 defence aircrafts — here's what each can and cannot do",
+      "summary": "India's IAF is evaluating the A400M, C-130J and C-390 for its Medium Transport Aircraft programme. Here's how the three aircraft compare on payload, capability and industrial partnerships.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/india-is-choosing-between-a400m-c-130j-and-c-390-defence-aircrafts-heres-what-each-can-and-cannot-do-545997-2026-07-29?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-29T09:59:46.000Z"
+    },
+    {
+      "title": "Why did stock market rise today? BSE Sensex rallies 1,000 points; Nifty50 crosses 24,250 - top reasons for rally",
+      "summary": "Stock market today: Nifty50 and BSE Sensex rallied strongly in trade on Wednesday as IT sector stocks led the recovery. Broader markets also remained firmly positive, with the Nifty Midcap 100 and Nifty Smallcap 100 indices rising by as much as 0.6%.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/why-is-stock-market-up-today-july-29-2026-bse-sensex-rallies-1000-points-nifty50-crosses-24250-top-reasons-for-rally/articleshow/132708406.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-29T09:56:46.000Z"
+    },
+    {
       "title": "Higher US LPG imports: Why Indian Oil is looking to acquire 50% stake in very large gas carriers",
       "summary": "If the plan goes ahead, IOC will become the first Indian refiner to own VLGCs. At present, the company primarily depends on time-chartered vessels to transport both LPG and crude oil.",
       "url": "https://timesofindia.indiatimes.com/business/india-business/higher-us-lpg-imports-why-indian-oil-is-looking-to-acquire-50-stake-in-very-large-gas-carriers/articleshow/132707680.cms",
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-07-29T09:30:03.000Z"
+    },
+    {
+      "title": "Your UPI app now works for Dubai’s Burj Khalifa tickets — here’s what Indian travellers need to know",
+      "summary": "Indian visitors can now use UPI to pay for experiences on the attraction's official website before they even arrive in the UAE.",
+      "url": "https://www.businesstoday.in/india/story/your-upi-app-now-works-for-dubais-burj-khalifa-tickets-heres-what-indian-travellers-need-to-know-545978-2026-07-29?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-29T09:23:56.000Z"
+    },
+    {
+      "title": "Gurgaon Metro to connect directly with Yellow Line at City Centre — here’s how the interchange will work",
+      "summary": "Gurgaon Metro's new line will directly connect with Delhi Metro's Yellow Line at Millennium City Centre via platform and concourse-level access — minimising walking distance for commuters.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/gurgaon-metro-to-connect-directly-with-yellow-line-at-city-centre-heres-how-the-interchange-will-work-545984-2026-07-29?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-29T09:18:33.000Z"
     },
     {
       "title": "South Korea's Kospi tumbles 6% as SK Hynix slide, AI spending worries trigger chip selloff",
@@ -201,30 +321,6 @@
       "publishedAt": "2026-07-29T02:40:32.000Z"
     },
     {
-      "title": "Europe’s new eco-friendly plate is coming from India’s forest communities",
-      "summary": "Handmade by tribal communities, these biodegradable plates are turning a forest tradition into a global green business",
-      "url": "https://www.businesstoday.in/latest/trends/story/europes-new-eco-friendly-plate-is-coming-from-indias-forest-communities-545821-2026-07-29?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-29T02:30:04.000Z"
-    },
-    {
-      "title": "AC vs cooler: The one mistake that can secretly double your summer electricity bill",
-      "summary": "AC vs cooler: Know which appliance consumes more electricity, why AC bills rise sharply in summer, and how smart cooling choices can help reduce monthly power expenses.",
-      "url": "https://www.businesstoday.in/latest/trends/photo/ac-vs-cooler-the-one-mistake-that-can-secretly-double-your-summer-electricity-bill-545753-2026-07-29?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-29T02:00:04.000Z"
-    },
-    {
-      "title": "Quote of the Day by Mukesh Ambani: ‘I have always believed that technology...’",
-      "summary": "Under his leadership, RIL has grown into India’s largest private-sector conglomerate, with interests spanning energy, petrochemicals, retail and telecommunications.",
-      "url": "https://www.businesstoday.in/latest/trends/story/quote-of-the-day-by-mukesh-ambani-i-have-always-believed-that-technology-545566-2026-07-29?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-29T02:00:04.000Z"
-    },
-    {
       "title": "Crude prices climb over 4% as Middle East tensions, inventory draw fuel supply fears",
       "summary": "Oil prices rebounded sharply on Wednesday due to renewed Middle East tensions. Concerns over global crude supplies and lower US inventories supported the market. Military developments in the region and air strikes on militant targets heightened worries.",
       "url": "https://timesofindia.indiatimes.com/business/international-business/crude-prices-climb-over-4-as-renewed-middle-east-tensions-inventory-draw-fuel-supply-fears/articleshow/132697471.cms",
@@ -239,14 +335,6 @@
       "source": "Times of India Business",
       "category": "insurance",
       "publishedAt": "2026-07-29T01:48:00.000Z"
-    },
-    {
-      "title": "Tatkal booking changes from August 1: Indian Railways' new token system explained",
-      "summary": "Indian Railways launches a token-based Tatkal booking system from August 1. AC tokens at 8:30 AM, Non-AC at 9 AM. Family priority via Category A tokens. Here's everything you need to know.",
-      "url": "https://www.businesstoday.in/latest/trends/photo/tatkal-booking-changes-from-august-1-indian-railways-new-token-system-explained-545828-2026-07-29?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-29T01:45:02.000Z"
     },
     {
       "title": "Delhi high court orders winding up of Paytm Payments Bank",
@@ -287,94 +375,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-07-29T01:30:06.000Z"
-    },
-    {
-      "title": "Industrial output grows 7.3% in June, fastest in 22 months",
-      "summary": "Industrial production surged 7.3% in June, a 22-month high, driven by manufacturing and electricity growth. This strong performance occurred despite global uncertainties and an erratic monsoon season.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/industrial-output-grows-7-3-in-june-fastest-in-22-months/articleshow/132697272.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-29T01:24:13.000Z"
-    },
-    {
-      "title": "Planning an Uttarakhand trip? Prayagraj may soon get a direct train to Kathgodam; here's why it matters",
-      "summary": "The new service aims to cut travel time and eliminate the need for passengers to leave at Bareilly, Rampur or Moradabad and complete the final stretch by road.",
-      "url": "https://www.businesstoday.in/latest/trends/story/planning-an-uttarakhand-trip-prayagraj-may-soon-get-a-direct-train-to-kathgodam-heres-why-it-matters-545768-2026-07-29?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-29T01:15:02.000Z"
-    },
-    {
-      "title": "RBI's $100-bn strategy: Can FCNR deposits and ECBs shield India from an oil shock?",
-      "summary": "The RBI and the government are betting on foreign capital inflows rather than aggressive rate hikes to protect India's economy from rising crude oil prices.",
-      "url": "https://www.businesstoday.in/latest/economy/story/rbis-100-bn-strategy-can-fcnr-deposits-and-ecbs-shield-india-from-an-oil-shock-545811-2026-07-29?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "regulatory",
-      "publishedAt": "2026-07-29T00:25:01.000Z"
-    },
-    {
-      "title": "For ease of liquidity & business, government to amend MSME Act",
-      "summary": "New amendments to the MSME Development Act will ensure faster payments for small businesses. Mandatory digital invoicing and stronger protections against delayed payments are proposed. The government aims to improve liquidity for these vital enterprises.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/for-ease-of-liquidity-business-government-to-amend-msme-act/articleshow/132696961.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-29T00:14:55.000Z"
-    },
-    {
-      "title": "US stock market today: S&P 500, Dow Jones trade flat; Nasdaq drops over 1% as chips stocks drop",
-      "summary": "Broader market sentiment remained supported by another round of stronger-than-expected corporate earnings. Coca-Cola advanced 5.8% after reporting a 7% increase in revenue, despite what Chief Executive Officer Henrique Braun described as “a dynamic consumer landscape.”",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/us-stock-market-today-july-28-2026-sp-500-dow-jones-trade-flat-nasdaq-drops-over-1-as-chips-stocks-drop/articleshow/132686578.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-28T14:06:44.000Z"
-    },
-    {
-      "title": "Delhi HC orders winding up of Paytm Payments Bank; former SBI CGM appointed official liquidator",
-      "summary": "Delhi HC has ordered the winding up of Paytm Payments Bank, months after the Reserve Bank of India (RBI) cancelled its banking licence over persistent regulatory violations.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/delhi-hc-orders-winding-up-of-paytm-payments-bank-former-sbi-cgm-appointed-official-liquidator-545798-2026-07-28?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "regulatory",
-      "publishedAt": "2026-07-28T13:35:36.000Z"
-    },
-    {
-      "title": "Visa plans 2,600 job cuts as payments giant reduces workforce by 7%",
-      "summary": "The company is scheduled to announce its quarterly results after the market closes on Tuesday.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/visa-plans-2600-job-cuts-as-payments-giant-reduces-workforce-by-7-545796-2026-07-28?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-28T13:32:20.000Z"
-    },
-    {
-      "title": "Skyroot Aerospace sends world's first lab-grown diamond jewel into space aboard Vikram-1",
-      "summary": "Skyroot Aerospace and Cosmos Diamonds sent the Cosmos Bloom Diamond into orbit aboard Vikram-1. The collaboration linked Indian space technology, lab-grown diamonds and lotus-inspired craftsmanship in a single mission.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/skyroot-cosmos-lab-grown-diamond-jewel-space-vikram-1-545795-2026-07-28?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-28T13:25:09.000Z"
-    },
-    {
-      "title": "HUL to further raise prices. Here’s how much",
-      "summary": "HUL’s shares plunged 7% on Tuesday, July 28, and were the biggest loser on the BSE Sensex after the FMCG company reported a decline in ​ net profit",
-      "url": "https://www.businesstoday.in/latest/corporate/story/hul-to-further-raise-prices-heres-how-much-545792-2026-07-28?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-28T12:54:12.000Z"
-    },
-    {
-      "title": "24 hours in the sky: Airbus completes record test flight of Qantas’ ultra-long-range A350-1000ULR",
-      "summary": "Qantas is focusing heavily on passenger experience, aiming to ensure travellers arrive feeling refreshed after flights lasting more than 20 hours.",
-      "url": "https://www.businesstoday.in/latest/trends/story/24-hours-in-the-sky-airbus-completes-record-test-flight-of-qantas-ultra-long-range-a350-1000ulr-545757-2026-07-28?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-28T12:38:33.000Z"
-    },
-    {
-      "title": "All decks clear for Willie Walsh taking over as IndiGo CEO",
-      "summary": "The government has given security clearance for Walsh to take charge as IndiGo CEO on August 3. His term as IATA chief ends July 31.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/all-decks-clear-for-willie-walsh-taking-over-as-indigo-ceo-545770-2026-07-28?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-28T12:12:24.000Z"
     }
   ]
 }
