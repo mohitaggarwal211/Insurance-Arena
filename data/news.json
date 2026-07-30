@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-30T03:57:52.730Z",
+  "lastUpdated": "2026-07-30T04:25:36.162Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,30 @@
     }
   ],
   "articles": [
+    {
+      "title": "Mumbai–Pune in 48 minutes, Chennai–Bengaluru in 73: India’s 7 new proposed bullet train corridors explained",
+      "summary": "India plans 7 new bullet train corridors covering ~4,000 km — Mumbai–Pune in 48 min, Chennai–Bengaluru in 73 min. NHSRCL will use one standard design for all routes to cut costs and speed up construction.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/mumbai-pune-in-48-minutes-chennai-bengaluru-in-73-indias-7-new-proposed-bullet-train-corridors-explained-546144-2026-07-30?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-30T04:08:44.000Z"
+    },
+    {
+      "title": "Air India AI-171 crash: 'No abnormality found in fuel switch,' says Aviation Ministry",
+      "summary": "He said a detailed examination of the switch, including the structural integrity of its locking detents, found no abnormality, though inspection of the complete thrust control module is still under way at the OEM facility.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/air-india-ai-171-crash-no-abnormality-found-in-fuel-switch-says-aviation-ministry-546138-2026-07-30?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-30T03:53:15.000Z"
+    },
+    {
+      "title": "Samsung Q2 results: Tech giant posts record high $62 billion profit on AI chip boom",
+      "summary": "Samsung Electronics achieved its highest-ever quarterly operating profit, fueled by strong AI chip demand. Rival SK Hynix also reported record revenue, reflecting industry strength. However, investor sentiment declined due to expansion plans and Chinese competition.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/samsung-q2-results-tech-giant-posts-record-high-62-billion-profit-on-ai-chip-boom/articleshow/132726122.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-30T03:47:59.000Z"
+    },
     {
       "title": "Asian stocks trade mixed after Fed holds rates; Kospi rallies 4%, Shenzhen slips 300 points",
       "summary": "Asian equities showed signs of stabilizing on Thursday after a turbulent week. Taiwan and South Korea saw gains, while Japan's Nikkei headed for a decline. Oil prices briefly soared due to Middle East tensions before slipping back below $90.",
@@ -281,14 +305,6 @@
       "publishedAt": "2026-07-29T12:32:17.000Z"
     },
     {
-      "title": "GST boost: Maharashtra emerges as India’s top state tax contributor",
-      "summary": "Maharashtra now leads states in tax revenue after the Goods and Services Tax implementation. This growth is supported by high domestic consumption and a large services sector. State tax collections have strengthened significantly since the GST reform began.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/gst-boost-maharashtra-emerges-as-indias-top-state-tax-contributor/articleshow/132711351.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-29T12:29:00.000Z"
-    },
-    {
       "title": "No more Kumbh traffic woes! Prayagraj's new 9.8-km Ganga bridge is opening in November — and it could change the city forever",
       "summary": "Prayagraj's new ₹1,947-crore, 9.8-km, six-lane Ganga bridge — UP's longest cantilever structure — is 94% complete and set to open for vehicular traffic in November 2026.",
       "url": "https://www.businesstoday.in/latest/trends/photo/no-more-kumbh-traffic-woes-prayagrajs-new-9-8-km-ganga-bridge-is-opening-in-november-and-it-could-change-the-city-forever-546051-2026-07-29?utm_source=rssfeed",
@@ -359,22 +375,6 @@
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-07-29T10:05:28.000Z"
-    },
-    {
-      "title": "India is choosing between A400M, C-130J and C-390 defence aircrafts — here's what each can and cannot do",
-      "summary": "India's IAF is evaluating the A400M, C-130J and C-390 for its Medium Transport Aircraft programme. Here's how the three aircraft compare on payload, capability and industrial partnerships.",
-      "url": "https://www.businesstoday.in/latest/trends/photo/india-is-choosing-between-a400m-c-130j-and-c-390-defence-aircrafts-heres-what-each-can-and-cannot-do-545997-2026-07-29?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-29T09:59:46.000Z"
-    },
-    {
-      "title": "Your UPI app now works for Dubai’s Burj Khalifa tickets — here’s what Indian travellers need to know",
-      "summary": "Indian visitors can now use UPI to pay for experiences on the attraction's official website before they even arrive in the UAE.",
-      "url": "https://www.businesstoday.in/india/story/your-upi-app-now-works-for-dubais-burj-khalifa-tickets-heres-what-indian-travellers-need-to-know-545978-2026-07-29?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-29T09:23:56.000Z"
     }
   ]
 }
