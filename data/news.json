@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-30T12:11:08.337Z",
+  "lastUpdated": "2026-07-30T15:10:49.678Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,86 @@
     }
   ],
   "articles": [
+    {
+      "title": "US stock market today: Wall Street flat; Nasdaq climbs over 1.5% as tech stocks rally",
+      "summary": "Economic data released on Thursday showed the US economy expanded more slowly than economists had expected during the spring. Inflation remained above the Federal Reserve's target in the latest month, although it came in slightly below market expectations.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/us-stock-market-today-july-30-2026-wall-street-flat-nasdaq-climbs-tech-stocks-rally-dow-jones-sp-500/articleshow/132743219.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-30T14:46:00.000Z"
+    },
+    {
+      "title": "'Focus on renewables to ensure energy independence': PM Modi tells CCS amid Hormuz tensions",
+      "summary": "The Cabinet Secretary briefed the CCS on the geopolitical situation and the steps taken by various ministries and departments to ensure uninterrupted supplies of petroleum products, including LNG, LPG and fertilisers",
+      "url": "https://www.businesstoday.in/latest/economy/story/focus-on-renewables-ensure-energy-independence-pm-modi-tells-ccs-amid-hormuz-disruptions-546380-2026-07-30?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-30T14:14:50.000Z"
+    },
+    {
+      "title": "‘Uncompetitive’: Months after IndiGo flights fiasco, airline MD criticises new pilot duty rules",
+      "summary": "IndiGo, which held a 66.3% share of the domestic aviation market in June, came under the regulator's scanner after operational disruptions in December 2025 led to the cancellation of 2,507 flights over three days.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/uncompetitive-months-after-indigo-flights-fiasco-airline-md-criticises-new-pilot-duty-rules/articleshow/132742296.cms",
+      "source": "Times of India Business",
+      "category": "regulatory",
+      "publishedAt": "2026-07-30T14:08:54.000Z"
+    },
+    {
+      "title": "From ayurveda to insurance: Patanjali gets IRDAI nod for Rs 4,500 crore insurance entry",
+      "summary": "Patanjali Ayurved is set to enter financial services after IRDAI approved its nearly Rs 4,500 crore acquisition of Magma General Insurance.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/from-ayurveda-to-insurance-patanjali-gets-irdai-nod-for-rs-4500-crore-insurance-entry/articleshow/132739401.cms",
+      "source": "Times of India Business",
+      "category": "regulatory",
+      "publishedAt": "2026-07-30T13:24:22.000Z"
+    },
+    {
+      "title": "'Have I taken this too far?': Bryan Johnson's quest to beat death hits a moment of doubt",
+      "summary": "His experiments have frequently generated global headlines. Johnson has also explored emerging biotechnology and other futuristic approaches in his pursuit of a longer, healthier life.",
+      "url": "https://www.businesstoday.in/latest/trends/story/have-i-taken-this-too-far-bryan-johnsons-quest-to-beat-death-hits-a-moment-of-doubt-546362-2026-07-30?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-30T13:19:22.000Z"
+    },
+    {
+      "title": "Kia Sorento is officially coming to India — the teaser just confirmed it",
+      "summary": "Kia India teased the Sorento hybrid SUV via a clever Sorrento, Italy image. The three-row SUV with ADAS and hybrid powertrain will sit above the Seltos and Carens when it launches in 2026.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/kia-sorento-is-officially-coming-to-india-the-teaser-just-confirmed-it-546342-2026-07-30?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-30T12:33:20.000Z"
+    },
+    {
+      "title": "Delhi to Nepal in 8 hours: India’s Gorakhpur–Sonauli highway is 89% complete — here’s what’s coming",
+      "summary": "The Gorakhpur-Sonauli NH-24 is 89% complete — a four-lane, ATMS-equipped highway that will allow Delhi-to-Nepal travel in around 8 hours. Here's everything about India's cross-border road project.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/delhi-to-nepal-in-8-hours-indias-gorakhpur-sonauli-highway-is-89-complete-heres-whats-coming-546304-2026-07-30?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-30T12:30:04.000Z"
+    },
+    {
+      "title": "Fewer jobs, delayed onboarding: Why Indian IT sector is getting tougher for freshers",
+      "summary": "Experts say the hiring landscape is becoming increasingly project and demand driven rather than a case where freshers were hired in thousands to increase bench strength. The trend reflects a broader reset in the IT sector.",
+      "url": "https://timesofindia.indiatimes.com/technology/tech-news/fewer-jobs-delayed-onboarding-why-indian-it-sector-is-getting-tougher-for-freshers/articleshow/132736367.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-30T12:28:30.000Z"
+    },
+    {
+      "title": "From ₹19,900 to ₹1 lakh per month: The complete salary guide for Indian Railways loco pilots",
+      "summary": "Vande Bharat loco pilots earn ₹1 lakh+ per month after years of experience. Here's the full recruitment process, eligibility, salary structure and latest Vande Bharat updates explained.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/from-rs19900-to-rs1-lakh-per-month-the-complete-salary-guide-for-indian-railways-loco-pilots-546289-2026-07-30?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-30T12:20:03.000Z"
+    },
+    {
+      "title": "India’s first undersea rail tunnel is part of the bullet train project — here’s everything else that’s extraordinary",
+      "summary": "From India's first undersea rail tunnel to earthquake detection and 320 kmph speeds, here are 8 extraordinary engineering marvels behind the Mumbai-Ahmedabad bullet train project.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/indias-first-undersea-rail-tunnel-is-part-of-the-bullet-train-project-heres-everything-else-thats-extraordinary-546287-2026-07-30?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-30T12:15:02.000Z"
+    },
     {
       "title": "Anand Mahindra says 1 in 4 iPhones are now made in India; announces ₹15,000 cr Nagpur investment",
       "summary": "Addressing shareholders at the company's AGM, Mahindra said the global economy is moving away from traditional globalisation towards selective partnerships, creating an opportunity for countries that offer scale, stability, manufacturing capability and talent.",
@@ -201,36 +281,12 @@
       "publishedAt": "2026-07-30T06:14:56.000Z"
     },
     {
-      "title": "N Chandrasekaran’s reappointment: Tata board believes veteran’s association would benefit the company immensely",
-      "summary": "N Chandrasekaran’s reappointment: Tata board will take up the matter in its Annual General Meeting next month.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/n-chandrasekarans-reappointment-tata-board-believes-veterans-association-would-benefit-the-company-immensely-546166-2026-07-30?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-30T05:55:42.000Z"
-    },
-    {
       "title": "Microsoft Q4 results: Azure tops $100 billion as AI growth helps beat earnings estimates",
       "summary": "Microsoft reported strong cloud revenue growth and increased paid AI users. Azure revenue surpassed one hundred billion dollars for the first time. Microsoft 365 Copilot now has over thirty million paid seats.",
       "url": "https://timesofindia.indiatimes.com/business/india-business/microsoft-q4-results-azure-tops-100-billion-as-ai-growth-helps-beat-earnings-estimates/articleshow/132727782.cms",
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-07-30T05:25:39.000Z"
-    },
-    {
-      "title": "Mumbai–Pune in 48 minutes, Chennai–Bengaluru in 73: India’s 7 new proposed bullet train corridors explained",
-      "summary": "India plans 7 new bullet train corridors covering ~4,000 km — Mumbai–Pune in 48 min, Chennai–Bengaluru in 73 min. NHSRCL will use one standard design for all routes to cut costs and speed up construction.",
-      "url": "https://www.businesstoday.in/latest/trends/photo/mumbai-pune-in-48-minutes-chennai-bengaluru-in-73-indias-7-new-proposed-bullet-train-corridors-explained-546144-2026-07-30?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-30T04:08:44.000Z"
-    },
-    {
-      "title": "Air India AI-171 crash: 'No abnormality found in fuel switch,' says Aviation Ministry",
-      "summary": "He said a detailed examination of the switch, including the structural integrity of its locking detents, found no abnormality, though inspection of the complete thrust control module is still under way at the OEM facility.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/air-india-ai-171-crash-no-abnormality-found-in-fuel-switch-says-aviation-ministry-546138-2026-07-30?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-30T03:53:15.000Z"
     },
     {
       "title": "Samsung Q2 results: Tech giant posts record high $62 billion profit on AI chip boom",
@@ -255,14 +311,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-07-30T02:53:33.000Z"
-    },
-    {
-      "title": "These two countries consume 70% of the world’s coal…and it’s who you think it is",
-      "summary": "The rise in global consumption in 2025 was mainly driven by rapidly industrialising economies in Southeast Asia, while the United States also saw a reversal in coal use during the year.",
-      "url": "https://www.businesstoday.in/latest/economy/story/these-two-countries-consume-70-percent-of-the-worlds-coal-and-its-who-you-think-it-is-545994-2026-07-30?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-30T02:30:05.000Z"
     },
     {
       "title": "Mahindra arm, SML combine to be 4th largest CV player",
@@ -321,60 +369,12 @@
       "publishedAt": "2026-07-30T02:02:49.000Z"
     },
     {
-      "title": "₹5 lakh to ₹20 lakh tickets: Why Maharajas’ Express is considered India’s ultimate luxury train experience",
-      "summary": "Maharajas’ Express offers India’s ultimate luxury train journey with royal suites, fine dining, heritage tours and ticket prices ranging from ₹5 lakh to over ₹20 lakh per person.",
-      "url": "https://www.businesstoday.in/latest/trends/photo/rs5-lakh-to-rs20-lakh-tickets-why-maharajas-express-is-considered-indias-ultimate-luxury-train-experience-546029-2026-07-30?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-30T02:00:04.000Z"
-    },
-    {
-      "title": "Quote of the Day by Azim Premji: ‘You cannot have a society where you spend more than you earn. I mean, it's just fundamentally not viable in the long run’",
-      "summary": "Often referred to as the \"Czar of the Indian IT Industry,\" he is best known for transforming Wipro Limited from a small family-run cooking oil business into a multi-billion-dollar global software and outsourcing giant.",
-      "url": "https://www.businesstoday.in/latest/trends/story/quote-of-the-day-by-azim-premji-you-cannot-have-a-society-where-you-spend-more-than-you-earn-i-mean-its-just-fundamentally-not-viable-in-the-long-run-545908-2026-07-30?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-30T02:00:04.000Z"
-    },
-    {
       "title": "Banks collected Rs 7,100 crore as ‘minimum balance’ penalty in 2025-26",
       "summary": "Banks collected nearly Rs 7,100 crore in minimum balance penalties during FY26. Private banks gathered Rs 4,948 crore, a significant increase from the previous year. HDFC Bank alone levied Rs 1,800 crore in charges from its customers.",
       "url": "https://timesofindia.indiatimes.com/business/india-business/banks-collected-rs-7100-crore-as-minimum-balance-penalty-in-2025-26/articleshow/132724743.cms",
       "source": "Times of India Business",
       "category": "insurance",
       "publishedAt": "2026-07-30T01:50:07.000Z"
-    },
-    {
-      "title": "E20 petrol may harm BS-III vehicle rubber parts, says Nitin Gadkari",
-      "summary": "Road transport minister Nitin Gadkari informed Rajya Sabha about E20 fuel impacts. Studies found no major performance impact on overall vehicle operations. BS-VI vehicles continue meeting emission norms when tested with E20 fuel.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/e20-petrol-may-harm-bs-iii-vehicle-rubber-parts-says-nitin-gadkari/articleshow/132724625.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-30T01:32:48.000Z"
-    },
-    {
-      "title": "Companies boost health cover with top-ups for cancer",
-      "summary": "Companies are enhancing employee health benefits beyond standard medical insurance. AstraZeneca Pharma India leads by introducing a group cancer care policy. This new coverage supplements existing plans and addresses high treatment costs.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/companies-boost-health-cover-with-top-ups-for-cancer/articleshow/132724313.cms",
-      "source": "Times of India Business",
-      "category": "insurance",
-      "publishedAt": "2026-07-30T00:48:40.000Z"
-    },
-    {
-      "title": "Need to reinvent ways to deal with global challenges: Finance ministry",
-      "summary": "India's economy shows resilience despite global challenges and uncertainties. Swift policy responses and implementation are crucial for attracting investment. Rising crude oil prices pose a potential pressure on fiscal and current accounts.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/need-to-reinvent-ways-to-deal-with-global-challenges-finance-ministry/articleshow/132724283.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-30T00:13:13.000Z"
-    },
-    {
-      "title": "US Federal Reserve meet today: Kevin Warsh-led FOMC keeps interest rates unchanged",
-      "summary": "The US Federal Reserve, which began its two-day policy meeting on Tuesday, was widely expected to leave its benchmark interest rate unchanged.",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/us-federal-reserve-meet-today-july-29-2026-kevin-warsh-led-fomc-keeps-interest-rates-unchanged/articleshow/132719195.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-29T18:01:25.000Z"
     }
   ]
 }
