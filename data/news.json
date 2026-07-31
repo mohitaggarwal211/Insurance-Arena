@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-31T12:25:40.691Z",
+  "lastUpdated": "2026-07-31T15:20:18.592Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,38 @@
     }
   ],
   "articles": [
+    {
+      "title": "NCDEX appoints veteran banker Vikas Goel as new MD and CEO from August 1",
+      "summary": "He brings over 30 years of experience across treasury, global markets, fixed income, and financial operations. Most recently, Goel served as MD & CEO of PNB Gilts Limited from February 2019 to December 2024.",
+      "url": "https://www.businesstoday.in/jobs/story/ncdex-appoints-veteran-banker-vikas-goel-as-new-md-and-ceo-from-august-1-546612-2026-07-31?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-07-31T14:21:38.000Z"
+    },
+    {
+      "title": "US stock market today: Nasdaq rises as Amazon rallies strongly",
+      "summary": "Amazon joined other Big Tech firms in reporting robust cloud business growth, easing investor concerns over returns from heavy artificial intelligence spending.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/us-stock-market-today-july-31-2026-nasdaq-rises-as-amazon-rallies-strongly-wall-street-sp-500-dow-jones/articleshow/132770169.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-31T14:21:15.000Z"
+    },
+    {
+      "title": "ITR deadline on July 31, 2026: Top things NRIs should keep in mind when filing tax return",
+      "summary": "The return filing process and mandatory return filing requirement for NRIs is broadly similar to that of resident taxpayers, as returns are filed through the same Income Tax e-Filing portal using the applicable ITR form.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/itr-deadline-on-july-31-2026-top-things-nris-should-keep-in-mind-when-filing-tax-return/articleshow/132768986.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-07-31T13:24:34.000Z"
+    },
+    {
+      "title": "India to get plastic notes soon: Why the move is important - explained",
+      "summary": "RBI has already floated the tender to source materials for the polymer notes with its currency printing arm Bharatiya Reserve Bank Note Mudran Pvt Ltd inviting global expressions of interest.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/india-to-get-plastic-notes-soon-rbi-polymer-currency-why-the-move-is-important-explained/articleshow/132764423.cms",
+      "source": "Times of India Business",
+      "category": "regulatory",
+      "publishedAt": "2026-07-31T12:26:41.000Z"
+    },
     {
       "title": "From pink slip to ₹1.5 crore offer: Professional shares AI tips that helped crack tough interviews",
       "summary": "He shared that the experience proved the value of persistence and modern adaptation, demonstrating how artificial intelligence is shifting from a workplace novelty into an essential tool for personal survival and career mobility.",
@@ -225,14 +257,6 @@
       "publishedAt": "2026-07-31T07:59:38.000Z"
     },
     {
-      "title": "World Bank warns of increasing flight disruptions at Delhi airport but the reason's one you might not have expected",
-      "summary": "World Bank warns that in the coming years Indian airports are likely to see an increasing number of instances of operation disruptions.",
-      "url": "https://www.businesstoday.in/latest/economy/story/world-bank-warns-of-increasing-flight-disruptions-at-delhi-airport-but-the-reasons-one-you-might-not-have-expected-546469-2026-07-31?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-31T07:47:07.000Z"
-    },
-    {
       "title": "After made-in-India bullet train, new high-speed corridors to get indigenous signalling system",
       "summary": "Indian Railways is developing an indigenous signalling protocol for high-speed rail called the Bharat Train Control System (BTCS). The system is being designed specifically for Indian operating conditions.",
       "url": "https://timesofindia.indiatimes.com/business/india-business/after-made-in-india-bullet-train-new-high-speed-corridors-to-get-indigenous-signalling-system/articleshow/132758093.cms",
@@ -351,30 +375,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-07-30T15:38:05.000Z"
-    },
-    {
-      "title": "US economy slows as GDP growth slips to 1.5%, consumers keep momentum alive",
-      "summary": "US economic growth slowed to 1.5% in the second quarter, impacted by a significant rise in imports. Strong consumer spending and business investment provided crucial support for the economy during this period.",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/us-economy-slows-as-gdp-growth-slips-to-1-5-consumers-keep-momentum-alive/articleshow/132744027.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-30T15:14:08.000Z"
-    },
-    {
-      "title": "US stock market today: Wall Street flat; Nasdaq climbs over 1.5% as tech stocks rally",
-      "summary": "Economic data released on Thursday showed the US economy expanded more slowly than economists had expected during the spring. Inflation remained above the Federal Reserve's target in the latest month, although it came in slightly below market expectations.",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/us-stock-market-today-july-30-2026-wall-street-flat-nasdaq-climbs-tech-stocks-rally-dow-jones-sp-500/articleshow/132743219.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-30T14:46:00.000Z"
-    },
-    {
-      "title": "‘Uncompetitive’: Months after IndiGo flights fiasco, airline MD criticises new pilot duty rules",
-      "summary": "IndiGo, which held a 66.3% share of the domestic aviation market in June, came under the regulator's scanner after operational disruptions in December 2025 led to the cancellation of 2,507 flights over three days.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/uncompetitive-months-after-indigo-flights-fiasco-airline-md-criticises-new-pilot-duty-rules/articleshow/132742296.cms",
-      "source": "Times of India Business",
-      "category": "regulatory",
-      "publishedAt": "2026-07-30T14:08:54.000Z"
     }
   ]
 }
