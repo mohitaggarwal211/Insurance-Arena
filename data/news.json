@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-01T09:06:31.235Z",
+  "lastUpdated": "2026-08-01T11:41:27.725Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,38 @@
     }
   ],
   "articles": [
+    {
+      "title": "Indian Oil ramps up spot crude purchases as Middle East disruptions hit supplies",
+      "summary": "Indian Oil Corporation has significantly increased its spot crude purchases to nearly eighty-four percent. This strategic shift occurred after Middle East supply routes faced disruptions. The company also diversified imports from West Africa and Latin America.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/indian-oil-ramps-up-spot-crude-purchases-as-middle-east-disruptions-hit-supplies/articleshow/132786908.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-01T10:24:49.000Z"
+    },
+    {
+      "title": "₹12 lakh in just days? Viral post on Pune CA's ITR earnings sparks debate amid ITR filing",
+      "summary": "The post triggered mixed reactions across the internet. Many users defended the high earnings, citing the rigorous years of study, exhaustive examinations, and specialized expertise required to qualify as a CA.",
+      "url": "https://www.businesstoday.in/latest/trends/story/rs12-lakh-in-just-days-viral-post-on-pune-cas-itr-earnings-sparks-debate-amid-itr-filing-546672-2026-08-01?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-01T10:13:36.000Z"
+    },
+    {
+      "title": "Forex boost: RBI's special swap facility draws $40.8 bn in foreign inflows",
+      "summary": "Foreign exchange inflows under RBI's special swap facility reached $40.816 billion by July end. This figure nearly doubled from $20.718 billion reported just two weeks prior. FCNR(B) deposits were the primary driver, contributing $36.725 billion to the total collections.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/forex-boost-rbis-special-swap-facility-draws-40-8-billion-in-foreign-inflows-by-july-end/articleshow/132786251.cms",
+      "source": "Times of India Business",
+      "category": "regulatory",
+      "publishedAt": "2026-08-01T09:47:24.000Z"
+    },
+    {
+      "title": "BT Explainer: Air India back with its long-haul monopoly as IndiGo ends widebody operations",
+      "summary": "A challenging operating environment triggered by the ongoing geopolitical tensions led IndiGo to conclude its long-haul operations.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/bt-explainer-air-india-back-with-its-long-haul-monopoly-as-indigo-ends-widebody-operations-546662-2026-08-01?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-01T08:47:17.000Z"
+    },
     {
       "title": "US crude bound for Israel for first time since 2023",
       "summary": "A US crude oil cargo is heading to Israel after almost three years. The Aframax tanker Captain John loaded the oil in Texas on Thursday. This shipment carries approximately 550,000 barrels of West Texas Intermediate crude.",
@@ -281,22 +313,6 @@
       "publishedAt": "2026-07-31T14:21:38.000Z"
     },
     {
-      "title": "US stock market today: Nasdaq rises as Amazon rallies strongly",
-      "summary": "Amazon joined other Big Tech firms in reporting robust cloud business growth, easing investor concerns over returns from heavy artificial intelligence spending.",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/us-stock-market-today-july-31-2026-nasdaq-rises-as-amazon-rallies-strongly-wall-street-sp-500-dow-jones/articleshow/132770169.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-31T14:21:15.000Z"
-    },
-    {
-      "title": "ITR deadline on July 31, 2026: Top things NRIs should keep in mind when filing tax return",
-      "summary": "The return filing process and mandatory return filing requirement for NRIs is broadly similar to that of resident taxpayers, as returns are filed through the same Income Tax e-Filing portal using the applicable ITR form.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/itr-deadline-on-july-31-2026-top-things-nris-should-keep-in-mind-when-filing-tax-return/articleshow/132768986.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-31T13:24:34.000Z"
-    },
-    {
       "title": "India to get plastic notes soon: Why the move is important - explained",
       "summary": "RBI has already floated the tender to source materials for the polymer notes with its currency printing arm Bharatiya Reserve Bank Note Mudran Pvt Ltd inviting global expressions of interest.",
       "url": "https://timesofindia.indiatimes.com/business/india-business/india-to-get-plastic-notes-soon-rbi-polymer-currency-why-the-move-is-important-explained/articleshow/132764423.cms",
@@ -359,22 +375,6 @@
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-07-31T10:52:39.000Z"
-    },
-    {
-      "title": "Nicolas Cage’s WWII movie goes missing from Netflix desk; movie makers sue platform for $105 million",
-      "summary": "The lawsuit further alleged Netflix downplayed the incident by suggesting the stolen drive required an encryption key, despite knowing it was unencrypted",
-      "url": "https://www.businesstoday.in/latest/trends/story/nicolas-cages-wwii-movie-goes-missing-from-netflix-desk-movie-makers-sue-platform-for-usd-105-million-546517-2026-07-31?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-31T10:49:56.000Z"
-    },
-    {
-      "title": "Over 1 lakh Zomato, Blinkit delivery partners file ITRs; Rs 18 crore in tax refunds facilitated",
-      "summary": "Zomato and Blinkit have helped more than 100,000 delivery partners file income tax returns across 905 cities. The effort has unlocked ₹18 crore in refunds and brought many first-time filers into the formal financial system.",
-      "url": "https://www.businesstoday.in/personal-finance/tax/story/zomato-blinkit-itr-filing-delivery-partners-18-crore-refunds-905-cities-546515-2026-07-31?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-31T10:48:12.000Z"
     }
   ]
 }
