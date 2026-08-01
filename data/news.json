@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-01T04:44:47.532Z",
+  "lastUpdated": "2026-08-01T09:06:31.235Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,54 @@
     }
   ],
   "articles": [
+    {
+      "title": "US crude bound for Israel for first time since 2023",
+      "summary": "A US crude oil cargo is heading to Israel after almost three years. The Aframax tanker Captain John loaded the oil in Texas on Thursday. This shipment carries approximately 550,000 barrels of West Texas Intermediate crude.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/us-crude-bound-for-israel-for-first-time-since-2023/articleshow/132785392.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-01T08:43:58.000Z"
+    },
+    {
+      "title": "FCNR(B) deposits contribute over 90% of $40.82 bn raised under RBI's forex swap scheme",
+      "summary": "According to data released by the central bank on Saturday, total inflows under the scheme reached $40.816 billion as of July 31, reflecting sustained participation by banks and non-resident depositors.",
+      "url": "https://www.businesstoday.in/latest/economy/story/fcnrb-deposits-contribute-over-90-of-40-82-bn-raised-under-rbis-forex-swap-scheme-546658-2026-08-01?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "regulatory",
+      "publishedAt": "2026-08-01T07:38:54.000Z"
+    },
+    {
+      "title": "GST collections jump 15.4% to over Rs 2.11 lakh crore in July",
+      "summary": "India's gross Goods and Services Tax collections reached over Rs 2.11 lakh crore in July. This represents a significant 15.4 percent increase compared to the previous year. Higher revenues from both domestic transactions and imports contributed to this strong performance.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/gst-collections-jump-15-4-to-over-rs-2-11-lakh-crore-in-july/articleshow/132783496.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-01T06:58:38.000Z"
+    },
+    {
+      "title": "GST collections jump 15.4% to ₹2.11 lakh crore in July, import tax revenues surge nearly 29%",
+      "summary": "India's GST collections continued their strong momentum in July, with gross revenues rising 15.4% year-on-year to ₹2.11 lakh crore, driven by robust domestic collections and a sharp jump in tax receipts from imports.",
+      "url": "https://www.businesstoday.in/latest/economy/story/gst-collections-jump-15-4-to-rs2-11-lakh-crore-in-july-import-tax-revenues-surge-nearly-29-546657-2026-08-01?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-01T06:39:42.000Z"
+    },
+    {
+      "title": "Sebi bars Subhash Chandra, Punit Goenka from securities market for one year over ZEEL land pledge",
+      "summary": "In its 150-page final order issued on Friday, the market regulator also imposed monetary penalties totalling ₹1.48 crore on Chandra and Goenka. ZEEL has been fined ₹30 lakh and prohibited from accessing the securities market for two months.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/sebi-bars-subhash-chandra-punit-goenka-from-securities-market-for-one-year-over-zeel-land-pledge-546650-2026-08-01?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "regulatory",
+      "publishedAt": "2026-08-01T05:04:30.000Z"
+    },
+    {
+      "title": "RBI likely to keep repo rate unchanged in August as inflation, global risks outweigh strong GDP growth: SBI Research",
+      "summary": "The Reserve Bank of India is likely to keep the repo rate unchanged at its August 3-5 Monetary Policy Committee (MPC) meeting despite stronger-than-expected economic growth, according to SBI Research.",
+      "url": "https://www.businesstoday.in/latest/economy/story/rbi-likely-to-keep-repo-rate-unchanged-in-august-as-inflation-global-risks-outweigh-strong-gdp-growth-sbi-research-546648-2026-08-01?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "regulatory",
+      "publishedAt": "2026-08-01T04:48:35.000Z"
+    },
     {
       "title": "PM Modi to inaugurate Rs 5,640-crore Alluri Sitarama Raju International Airport in Andhra Pradesh — See pics",
       "summary": "Prime Minister Narendra Modi inaugurates the Alluri Sitarama Raju International Airport on Saturday. He will also lay foundation stones for significant development projects worth over seventeen thousand nine hundred crore.",
@@ -297,14 +345,6 @@
       "publishedAt": "2026-07-31T11:14:16.000Z"
     },
     {
-      "title": "‘Samudra Manthan’: Cabinet approves Rs 84,084 cr scheme for oil & gas exploration - top things to know",
-      "summary": "The scheme will be implemented through FY2030-31 with an aim to harness India's vast offshore energy resources - in what the government has termed as a modern day Samudra Manthan.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/samudra-manthan-cabinet-approves-rs-84084-cr-scheme-for-oil-gas-exploration-top-things-to-know/articleshow/132765198.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-31T11:08:40.000Z"
-    },
-    {
       "title": "No more toll booths between Gurugram and Jaipur from August 1 — here’s how the new system works",
       "summary": "From August 1, the entire Gurugram-Jaipur corridor on NH-48 goes barrier-free with MLFF toll system. No stopping at booths — but keep your FASTag balance topped up to avoid penalties.",
       "url": "https://www.businesstoday.in/latest/trends/photo/no-more-toll-booths-between-gurugram-and-jaipur-from-august-1-heres-how-the-new-system-works-546521-2026-07-31?utm_source=rssfeed",
@@ -321,14 +361,6 @@
       "publishedAt": "2026-07-31T10:52:39.000Z"
     },
     {
-      "title": "PM Surya Sarovar Yojana: Cabinet approves Rs 5,070 crore scheme for floating solar projects",
-      "summary": "The scheme has been approved for a period of 5 years. It will support up to Rs 1 crore per MW under the scheme with total outlay of Rs 5070 crore.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/pm-surya-sarovar-yojana-cabinet-approves-rs-5070-crore-scheme-for-floating-solar-projects/articleshow/132764917.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-31T10:51:41.000Z"
-    },
-    {
       "title": "Nicolas Cage’s WWII movie goes missing from Netflix desk; movie makers sue platform for $105 million",
       "summary": "The lawsuit further alleged Netflix downplayed the incident by suggesting the stolen drive required an encryption key, despite knowing it was unencrypted",
       "url": "https://www.businesstoday.in/latest/trends/story/nicolas-cages-wwii-movie-goes-missing-from-netflix-desk-movie-makers-sue-platform-for-usd-105-million-546517-2026-07-31?utm_source=rssfeed",
@@ -343,38 +375,6 @@
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-07-31T10:48:12.000Z"
-    },
-    {
-      "title": "₹5,640 crore transformation: How Alluri Sitarama Raju Airport is changing Andhra’s skies",
-      "summary": "Alluri Sitarama Raju International Airport in Andhra Pradesh opens with a ₹5,640 crore investment, AI-powered systems, green design and capacity to transform regional air connectivity.",
-      "url": "https://www.businesstoday.in/latest/photo/rs5640-crore-transformation-how-alluri-sitarama-raju-airport-is-changing-andhras-skies-546518-2026-07-31?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-31T10:46:07.000Z"
-    },
-    {
-      "title": "Maruti’s secret lineup: New EV, hybrid and 7-seater cars in the pipeline",
-      "summary": "Maruti Suzuki is preparing a major product expansion with new EVs, hybrid models, Baleno and Fronx updates, an electric MPV and a possible 7-seater SUV for India’s future car market.",
-      "url": "https://www.businesstoday.in/latest/photo/marutis-secret-lineup-new-ev-hybrid-and-7-seater-cars-in-the-pipeline-546513-2026-07-31?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-31T10:38:43.000Z"
-    },
-    {
-      "title": "After Hubble and Webb: NASA’s next telescope is ready to hunt impossible discoveries",
-      "summary": "NASA’s Nancy Grace Roman Space Telescope is set to follow Hubble and Webb with faster cosmic surveys, hunting galaxies, exoplanets, dark matter and discoveries beyond current science.",
-      "url": "https://www.businesstoday.in/latest/world/photo/after-hubble-and-webb-nasas-next-telescope-is-ready-to-hunt-impossible-discoveries-546511-2026-07-31?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-31T10:32:57.000Z"
-    },
-    {
-      "title": "Royal Enfield Shotgun 650 x Rough Crafts sold out in 3 minutes in India — here’s why it’s that special",
-      "summary": "Royal Enfield's Shotgun 650 x Rough Crafts sold all 100 units globally — India's 25-unit allocation at ₹5.75 lakh was gone in just 3 minutes after the July 30 online drop opened.",
-      "url": "https://www.businesstoday.in/latest/trends/photo/royal-enfield-shotgun-650-x-rough-crafts-sold-out-in-3-minutes-in-india-heres-why-its-that-special-546507-2026-07-31?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-31T10:29:18.000Z"
     }
   ]
 }
