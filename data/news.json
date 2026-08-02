@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-01T20:10:29.963Z",
+  "lastUpdated": "2026-08-02T04:24:05.582Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,134 @@
     }
   ],
   "articles": [
+    {
+      "title": "CBI books Anil Ambani, Reliance Capital in ₹1,816 crore EPFO case. Here's what happened",
+      "summary": "The case originates from a complaint filed by the Union Ministry of Labour and Employment on July 21, alleging offences of cheating, criminal conspiracy and causing wrongful loss to the EPFO",
+      "url": "https://www.businesstoday.in/latest/corporate/story/cbi-books-anil-ambani-reliance-capital-in-rs1816-crore-epfo-case-heres-what-happened-546691-2026-08-02?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-02T04:03:25.000Z"
+    },
+    {
+      "title": "India’s worst roads tested these SUVs — here are the ones that survived the toughest drives",
+      "summary": "India’s rough roads demand more than style. From Tata Punch to Mahindra Scorpio-N, these SUVs offer strong ground clearance, durable suspension and the toughness needed for potholes and bad roads.",
+      "url": "https://www.businesstoday.in/latest/photo/indias-worst-roads-tested-these-suvs-here-are-the-ones-that-survived-the-toughest-drives-546550-2026-08-02?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-02T02:35:01.000Z"
+    },
+    {
+      "title": "Passenger vehicle sales hit top gear as July dispatches jump 33%; Maruti, Hyundai set records",
+      "summary": "India's passenger vehicle sales saw robust growth in July. Leading manufacturers like Maruti Suzuki and Hyundai reported record monthly dispatches. Tata Motors and Mahindra & Mahindra also posted substantial increases in their sales.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/passenger-vehicle-sales-hit-top-gear-as-july-dispatches-jump-33-maruti-hyundai-set-records/articleshow/132799163.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-02T02:27:34.000Z"
+    },
+    {
+      "title": "From snake venom to wigs: India’s weirdest exports hiding inside trade data",
+      "summary": "India’s export basket hides surprising products beyond smartphones and fuel — from human hair and snake venom to jellyfish, carrom boards and unusual items shipped worldwide.",
+      "url": "https://www.businesstoday.in/latest/photo/from-snake-venom-to-wigs-indias-weirdest-exports-hiding-inside-trade-data-546525-2026-08-02?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-02T02:20:02.000Z"
+    },
+    {
+      "title": "Another attack in Hormuz: Tanker carrying Qatar LNG struck, blackout reported",
+      "summary": "The carrier reportedly loaded an LNG cargo in Qatar around July 27 and stopped transmitting its tracking signal on July 31 near the western entrance to the Strait of Hormuz",
+      "url": "https://www.businesstoday.in/world/story/another-attack-in-hormuz-tanker-carrying-qatar-lng-struck-blackout-reported-546686-2026-08-02?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-02T02:00:59.000Z"
+    },
+    {
+      "title": "116 metres underground: These are the world’s deepest metro stations hiding below cities",
+      "summary": "Explore the world’s deepest metro stations hidden beneath cities, from China’s 116-metre Hongyancun to Kyiv’s historic underground marvels built for travel and survival.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/116-metres-underground-these-are-the-worlds-deepest-metro-stations-hiding-below-cities-546039-2026-08-02?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-02T02:00:04.000Z"
+    },
+    {
+      "title": "Quote of the Day by Rakesh Jhunjhunwala: ‘I'm not afraid of losing money, I'm afraid of sour relationships’",
+      "summary": "Rakesh Jhunjhunwala (1960-2022) was a legendary Indian billionaire investor and stock trader often referred to as the “Big Bull” of India or the “Indian Warren Buffett”.",
+      "url": "https://www.businesstoday.in/latest/trends/story/quote-of-the-day-by-rakesh-jhunjhunwala-im-not-afraid-of-losing-money-im-afraid-of-sour-relationships-545921-2026-08-02?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-02T02:00:04.000Z"
+    },
+    {
+      "title": "No leave needed: 5 cities from Delhi you can explore in a day by Vande Bharat",
+      "summary": "Delhi travellers can now plan quick one-day getaways to Agra, Jaipur, Haridwar, Chandigarh and Dehradun with Vande Bharat’s faster connectivity, comfort and convenient schedules.",
+      "url": "https://www.businesstoday.in/latest/photo/no-leave-needed-5-cities-from-delhi-you-can-explore-in-a-day-by-vande-bharat-546523-2026-08-02?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-02T01:50:02.000Z"
+    },
+    {
+      "title": "Geopolitical tensions could spark inflation beyond oil prices, warns Jefferies",
+      "summary": "Escalating geopolitical tensions could trigger a broader inflation shock that extends far beyond rising crude oil prices, according to a Jefferies report.",
+      "url": "https://www.businesstoday.in/latest/economy/story/geopolitical-tensions-could-spark-inflation-beyond-oil-prices-warns-jefferies-546673-2026-08-02?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-02T01:25:01.000Z"
+    },
+    {
+      "title": "Thinking of buying an EV? Top 5 things you need to consider before making the big purchase",
+      "summary": "Before bringing an electric car home, there are a few practical factors you should consider to avoid unexpected expenses and regrets later.",
+      "url": "https://www.businesstoday.in/auto/story/thinking-of-buying-an-ev-top-5-things-you-need-to-consider-before-making-the-big-purchase-546671-2026-08-02?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-02T00:30:04.000Z"
+    },
+    {
+      "title": "Zepto to raise funds amid delayed listing",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/zepto-to-raise-funds-amid-delayed-listing/articleshow/132798503.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-01T22:40:09.000Z"
+    },
+    {
+      "title": "5.9 crore returns filed till July 31 deadline: I-T dept",
+      "summary": "Nearly 5.9 crore income tax returns were filed by the July 31 deadline. This number is lower than last year's extended filing period. Major tax concessions were announced during the last financial year. Taxpayers can still file returns until December with a penalty.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/5-9-crore-returns-filed-till-july-31-deadline-i-t-dept/articleshow/132798495.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-01T22:37:32.000Z"
+    },
+    {
+      "title": "UPI transactions touch Rs 76cr/day, FASTag declines",
+      "summary": "UPI processed 2,366 crore transactions in July, showing significant year-on-year growth. NETC FASTag transactions declined by 6% compared to the previous year. The value of UPI transactions rose to Rs 29.88 lakh crore in July.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/upi-transactions-touch-rs-76cr/day-fastag-declines/articleshow/132796835.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-01T21:40:46.000Z"
+    },
+    {
+      "title": "Forex mop up under RBI's swap scheme doubles to over $40bn",
+      "summary": "Total forex mobilization under RBI's concessional dollar swap facility has exceeded forty billion dollars. This amount more than doubled in just a fortnight, surpassing previous deposit drives.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/forex-mop-up-under-rbis-swap-scheme-doubles-to-over-40bn/articleshow/132796830.cms",
+      "source": "Times of India Business",
+      "category": "regulatory",
+      "publishedAt": "2026-08-01T21:38:18.000Z"
+    },
+    {
+      "title": "July auto sales rev up as Maruti crosses 2L, Tata EVs double",
+      "summary": "Several automakers achieved record July sales, largely due to new sport utility vehicle launches. Maruti Suzuki and Tata Motors reported significant year-on-year growth in their passenger vehicle segments.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/july-auto-sales-rev-up-as-maruti-crosses-2l-tata-evs-double/articleshow/132796743.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-01T21:19:06.000Z"
+    },
+    {
+      "title": "July GST collections up 15.4% to Rs 2.1 L cr on higher imports",
+      "summary": "Goods and Services Tax collections rose 15.4 percent to Rs 2,11,205 crore in July. This increase was largely due to a 29 percent jump in integrated GST on imports. Strong economic activity and higher commodity prices also contributed to the robust tax collections.",
+      "url": "https://timesofindia.indiatimes.com/india/july-gst-collections-up-15-4-to-rs-2-1-l-cr-on-higher-imports/articleshow/132796739.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-01T21:16:16.000Z"
+    },
     {
       "title": "UPI reaches new milestone in July with highest-ever transaction value of Rs 29.88 lakh crore",
       "summary": "India's UPI platform achieved its highest monthly transaction value ever. In July, transaction volumes also reached a new record high. The platform processed billions of transactions, surpassing previous records.",
@@ -209,36 +337,12 @@
       "publishedAt": "2026-08-01T03:23:23.000Z"
     },
     {
-      "title": "'Buy $5-10 billion yen': Bessent's note hints at US plan to back Japan's currency",
-      "summary": "The United States Treasury is reportedly considering buying Japanese yen. This move follows reports of potential intervention in the currency market. Japanese authorities had already intervened to support their currency earlier.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/buy-5-10-billion-yen-bessents-to-do-note-hints-at-us-plan-to-back-japanese-currency/articleshow/132779862.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-01T02:45:00.000Z"
-    },
-    {
       "title": "'If learning becomes the prerequisite...': Deepinder Goyal's Chief of Staff role reveals why he quit",
       "summary": "Mulchandani recalled that he first met the Zomato founder on December 25, 2024, expecting an interview for the Chief of Staff position",
       "url": "https://www.businesstoday.in/latest/trends/story/if-learning-becomes-the-prerequisite-deepinder-goyals-chief-of-staff-role-reveals-why-he-quit-546538-2026-08-01?utm_source=rssfeed",
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-08-01T02:30:04.000Z"
-    },
-    {
-      "title": "'It happened before the paper left NTA': IIT Madras director V Kamakoti's big claim on NEET paper leak",
-      "summary": "“It happened before the paper left NTA,” pointing to a failure at the “root of trust”—the question paper setters and the human chain around them.",
-      "url": "https://www.businesstoday.in/latest/trends/story/it-happened-before-the-paper-left-nta-iit-madras-director-v-kamakotis-big-claim-on-neet-paper-leak-546541-2026-08-01?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-01T02:00:03.000Z"
-    },
-    {
-      "title": "Quote of the Day by KM Birla: ‘I didn't have any great talent. I didn't want to become a rock star or an author’",
-      "summary": "Kumar Mangalam Birla (born June 14, 1967) is a prominent Indian industrialist and the Chairman of the Aditya Birla Group, a $67 billion multinational conglomerate.",
-      "url": "https://www.businesstoday.in/latest/trends/story/quote-of-the-day-by-km-birla-i-didnt-have-any-great-talent-i-didnt-want-to-become-a-rock-star-or-an-author-545915-2026-08-01?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-01T02:00:03.000Z"
     },
     {
       "title": "Commercial LPG prices cut by over Rs 200: Check 19-kg cylinder rates in Delhi, Kolkata",
@@ -265,116 +369,12 @@
       "publishedAt": "2026-08-01T00:09:24.000Z"
     },
     {
-      "title": "Cybercriminals widen net as assessees rush to meet I-T return filing deadline",
-      "summary": "Cybercriminals are targeting taxpayers during income tax return filing season. They send fake notices via WhatsApp and use cloned tax portals. These scams aim to steal banking credentials and gain device access.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/cybercriminals-widen-net-as-assessees-rush-to-meet-i-t-return-filing-deadline/articleshow/132779263.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-01T00:06:35.000Z"
-    },
-    {
-      "title": "‘Domestic funds own over 20% of Indian companies, FPIs 17%’",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/domestic-funds-own-over-20-of-indian-companies-fpis-17/articleshow/132779243.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-01T00:02:54.000Z"
-    },
-    {
-      "title": "GST rate cuts slow down Q1 tax collection growth",
-      "summary": "The Centre's fiscal deficit reached eighteen percent of its annual estimate during the first quarter. Tax revenue saw a modest increase, while capital expenditure rose significantly. Revenue expenditure also experienced a notable rise, driven by subsidies.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/gst-rate-cuts-slow-down-q1-tax-collection-growth/articleshow/132779222.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-01T00:00:48.000Z"
-    },
-    {
-      "title": "India among best markets globally: Cook",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/india-among-best-markets-globally-cook/articleshow/132779203.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-07-31T23:58:07.000Z"
-    },
-    {
-      "title": "Zepto to delay IPO by 2-3 qtrs, CEO tells staff",
-      "summary": "Zepto will delay its public listing by two to three quarters. The quick commerce startup faced tepid investor response on its valuation. Domestic investors offered valuations significantly lower than its last funding round.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/zepto-to-delay-ipo-by-2-3-qtrs-ceo-tells-staff/articleshow/132779180.cms",
-      "source": "Times of India Business",
-      "category": "insurance",
-      "publishedAt": "2026-07-31T23:55:46.000Z"
-    },
-    {
-      "title": "Sebi bars Zee’s Chandra, Goenka from market for 1 year",
-      "summary": "Sebi has banned Zee group's Subhash Chandra and Punit Goenka for one year. They fraudulently pledged Zee Entertainment Enterprises land parcels as security for personal loans. Chandra and Goenka misused their positions, risking the company's assets for personal gain.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/sebi-bars-zees-chandra-goenka-from-mkt-for-1-yr/articleshow/132779151.cms",
-      "source": "Times of India Business",
-      "category": "regulatory",
-      "publishedAt": "2026-07-31T23:53:20.000Z"
-    },
-    {
-      "title": "NCDEX appoints veteran banker Vikas Goel as new MD and CEO from August 1",
-      "summary": "He brings over 30 years of experience across treasury, global markets, fixed income, and financial operations. Most recently, Goel served as MD & CEO of PNB Gilts Limited from February 2019 to December 2024.",
-      "url": "https://www.businesstoday.in/jobs/story/ncdex-appoints-veteran-banker-vikas-goel-as-new-md-and-ceo-from-august-1-546612-2026-07-31?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-31T14:21:38.000Z"
-    },
-    {
       "title": "India to get plastic notes soon: Why the move is important - explained",
       "summary": "RBI has already floated the tender to source materials for the polymer notes with its currency printing arm Bharatiya Reserve Bank Note Mudran Pvt Ltd inviting global expressions of interest.",
       "url": "https://timesofindia.indiatimes.com/business/india-business/india-to-get-plastic-notes-soon-rbi-polymer-currency-why-the-move-is-important-explained/articleshow/132764423.cms",
       "source": "Times of India Business",
       "category": "regulatory",
       "publishedAt": "2026-07-31T12:26:41.000Z"
-    },
-    {
-      "title": "From pink slip to ₹1.5 crore offer: Professional shares AI tips that helped crack tough interviews",
-      "summary": "He shared that the experience proved the value of persistence and modern adaptation, demonstrating how artificial intelligence is shifting from a workplace novelty into an essential tool for personal survival and career mobility.",
-      "url": "https://www.businesstoday.in/latest/trends/story/from-pink-slip-to-rs1-5-crore-offer-professional-shares-ai-tips-that-helped-crack-tough-interviews-546549-2026-07-31?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-31T12:02:00.000Z"
-    },
-    {
-      "title": "Kashi Vishwanath, Triveni Sangam and Mahabodhi Temple in one trip: IRCTC’s new yatra explained",
-      "summary": "IRCTC's Ganga Gaya Sangam Yatra covers Gaya, Varanasi, Prayagraj, Ayodhya, Lucknow and Naimisharanya in 8 days from Hyderabad — starting at ₹38,750 per person from September 2, 2026.",
-      "url": "https://www.businesstoday.in/latest/trends/photo/kashi-vishwanath-triveni-sangam-and-mahabodhi-temple-in-one-trip-irctcs-new-yatra-explained-546545-2026-07-31?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-31T11:56:16.000Z"
-    },
-    {
-      "title": "‘Good to be back’: Taslima Nasrin returns to Kolkata after nearly 2 decades of exile",
-      "summary": "Nasrin is in Kolkata to participate in a literary programme at Rabindra Sadan on August 1, where she is expected to speak on literature, secularism and religious fundamentalism",
-      "url": "https://www.businesstoday.in/latest/trends/story/good-to-be-back-taslima-nasrin-returns-to-kolkata-after-nearly-2-decades-of-exile-546501-2026-07-31?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-31T11:17:57.000Z"
-    },
-    {
-      "title": "Bajaj’s ₹2.5 lakh electric bike: The new machine that could change India’s EV race",
-      "summary": "Bajaj is entering India’s electric motorcycle race with a premium EV bike expected around ₹2.5 lakh. The new model could combine sporty design, performance and Bajaj’s motorcycle legacy.",
-      "url": "https://www.businesstoday.in/latest/photo/bajajs-rs2-5-lakh-electric-bike-the-new-machine-that-could-change-indias-ev-race-546529-2026-07-31?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "insurance",
-      "publishedAt": "2026-07-31T11:17:27.000Z"
-    },
-    {
-      "title": "Content as currency: How this 25-year-old IIM Bangalore student built a ₹5 crore startup",
-      "summary": "Khan’s path to entrepreneurial success deviated sharply from the traditional playbook. Raised in a middle-class household where security was prioritised, the default career choices were strictly defined.",
-      "url": "https://www.businesstoday.in/latest/trends/story/content-as-currency-how-this-25-year-old-iim-bangalore-student-built-a-rs5-crore-startup-546527-2026-07-31?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-31T11:14:16.000Z"
-    },
-    {
-      "title": "No more toll booths between Gurugram and Jaipur from August 1 — here’s how the new system works",
-      "summary": "From August 1, the entire Gurugram-Jaipur corridor on NH-48 goes barrier-free with MLFF toll system. No stopping at booths — but keep your FASTag balance topped up to avoid penalties.",
-      "url": "https://www.businesstoday.in/latest/trends/photo/no-more-toll-booths-between-gurugram-and-jaipur-from-august-1-heres-how-the-new-system-works-546521-2026-07-31?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-07-31T10:55:36.000Z"
     }
   ]
 }
