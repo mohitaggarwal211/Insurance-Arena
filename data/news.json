@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-03T04:31:25.459Z",
+  "lastUpdated": "2026-08-03T04:55:26.954Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,30 @@
     }
   ],
   "articles": [
+    {
+      "title": "Japan, US step in to support yen, Tokyo keeps door open for more action",
+      "summary": "Japan and the United States intervened in currency markets to address yen volatility. This joint action followed a September 2025 finance ministers' statement. Tokyo is ready for further intervention if the yen continues to swing.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/japan-us-step-in-to-support-yen-with-rare-joint-intervention-tokyo-keeps-door-open-for-more-action/articleshow/132818720.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-03T04:40:11.000Z"
+    },
+    {
+      "title": "RBI MPC meeting: Repo rate pause likely as inflation, crude oil risks keep policymakers cautious",
+      "summary": "RBI's six-member Monetary Policy Committee (MPC) began its three-day meeting on Monday, with economists and market participants widely expecting policymakers to keep the benchmark repo rate unchanged at 5.25% while retaining the neutral policy stance.",
+      "url": "https://www.businesstoday.in/latest/economy/story/rbi-mpc-meeting-begins-today-repo-rate-pause-likely-as-inflation-crude-oil-risks-keep-policymakers-cautious-546753-2026-08-03?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "regulatory",
+      "publishedAt": "2026-08-03T04:39:10.000Z"
+    },
+    {
+      "title": "Gold, Silver Rate Today Live Updates: Spot gold edges higher as oil prices tumble after Trump delays fresh Iran strike",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/gold-silver-rate-today-live-updates-18k-22-carat-24k-gold-price-10g-silver-cost-per-kg-mcx-comex-etf-stock-precious-metal-gold-prediction-city-wise-cost-latest-gold-news/liveblog/132818094.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-03T03:57:13.000Z"
+    },
     {
       "title": "Stock market today: BSE Sensex jumps over 500 points, NSE Nifty50 above 24,550",
       "summary": "",
@@ -345,36 +369,12 @@
       "publishedAt": "2026-08-01T22:40:09.000Z"
     },
     {
-      "title": "5.9 crore returns filed till July 31 deadline: I-T dept",
-      "summary": "Nearly 5.9 crore income tax returns were filed by the July 31 deadline. This number is lower than last year's extended filing period. Major tax concessions were announced during the last financial year. Taxpayers can still file returns until December with a penalty.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/5-9-crore-returns-filed-till-july-31-deadline-i-t-dept/articleshow/132798495.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-01T22:37:32.000Z"
-    },
-    {
-      "title": "UPI transactions touch Rs 76cr/day, FASTag declines",
-      "summary": "UPI processed 2,366 crore transactions in July, showing significant year-on-year growth. NETC FASTag transactions declined by 6% compared to the previous year. The value of UPI transactions rose to Rs 29.88 lakh crore in July.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/upi-transactions-touch-rs-76cr/day-fastag-declines/articleshow/132796835.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-01T21:40:46.000Z"
-    },
-    {
       "title": "Why Air India is betting bigger on Canada new Mumbai-Toronto flights and new Dreamliner",
       "summary": "Beginning October 25, 2026, Air India will introduce a three-times-weekly non-stop service between Mumbai and Toronto, becoming the only airline offering direct flights between the two cities.",
       "url": "https://www.businesstoday.in/latest/corporate/story/why-air-india-is-betting-bigger-on-canada-new-mumbai-toronto-flights-and-new-dreamliner-546682-2026-08-01?utm_source=rssfeed",
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-08-01T12:43:35.000Z"
-    },
-    {
-      "title": "₹12 lakh in just days? Viral post on Pune CA's ITR earnings sparks debate amid ITR filing",
-      "summary": "The post triggered mixed reactions across the internet. Many users defended the high earnings, citing the rigorous years of study, exhaustive examinations, and specialized expertise required to qualify as a CA.",
-      "url": "https://www.businesstoday.in/latest/trends/story/rs12-lakh-in-just-days-viral-post-on-pune-cas-itr-earnings-sparks-debate-amid-itr-filing-546672-2026-08-01?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-01T10:13:36.000Z"
     }
   ]
 }
