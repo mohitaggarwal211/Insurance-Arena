@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-04T15:24:52.888Z",
+  "lastUpdated": "2026-08-04T20:25:41.751Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,30 @@
     }
   ],
   "articles": [
+    {
+      "title": "Airtel Q1 profit jumps 37% to Rs 8,167 crore",
+      "summary": "Bharti Airtel reported a significant profit increase of 37.3% in the first quarter. This growth was fueled by higher mobile tariffs and strong customer additions across businesses. Revenue also saw a substantial rise of 18.4% during the same period.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/airtel-q1-profit-jumps-37-to-rs-8167-crore/articleshow/132869332.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-04T18:01:24.000Z"
+    },
+    {
+      "title": "ONGC Q1 results: Oil giant's profit doubles to Rs 17,034 crore amid rising crude prices",
+      "summary": "ONGC's profit more than doubled in the April-June quarter. Higher crude oil prices and improved realisations significantly boosted earnings. Total income rose substantially compared to the previous year. Oil and gas production remained broadly stable with marginal declines.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/ongc-q1-results-oil-giants-profit-doubles-to-rs-17034-crore-amid-rising-crude-prices/articleshow/132866701.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-04T16:04:28.000Z"
+    },
+    {
+      "title": "54 bank fraud accused fled India, ED seizes assets worth over Rs 35,000 crore",
+      "summary": "The Enforcement Directorate is investigating 32 bank fraud cases with 54 absconding accused. Proceedings under the Fugitive Economic Offenders Act have been launched against 27 individuals. Assets worth over Rs 840 crore have been confiscated after nine were declared offenders.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/54-bank-fraud-accused-fled-india-ed-seizes-assets-worth-over-rs-35000-crore/articleshow/132866143.cms",
+      "source": "Times of India Business",
+      "category": "regulatory",
+      "publishedAt": "2026-08-04T15:41:40.000Z"
+    },
     {
       "title": "LIC stake sale: Government exercises green shoe option after institutional book sees robust demand",
       "summary": "The government's ₹31,000-crore Offer for Sale (OFS) in Life Insurance Corporation (LIC) witnessed strong institutional demand, prompting it to exercise the green shoe option. Retail investors can bid on Wednesday, with a ₹10 discount to the final discovered price.",
@@ -351,30 +375,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-08-03T23:52:26.000Z"
-    },
-    {
-      "title": "Changes to boost electronics, investment",
-      "summary": "New tax law amendments are proposed by Finance Minister Nirmala Sitharaman. These changes aim to offer concessions to overseas investors and boost electronics manufacturing. The government plans to extend tax exemptions for specified electronic goods by ten years.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/changes-to-boost-electronics-investment/articleshow/132843259.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-03T23:49:41.000Z"
-    },
-    {
-      "title": "AI fraud is hitting India’s new net users hardest: Amazon",
-      "summary": "Protecting new online shoppers from AI scams is India's next e-commerce challenge. Amazon's trust chief highlights consumer awareness as critical for digital fraud. Generative AI creates sophisticated scams, but also aids detection efforts.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/ai-fraud-is-hitting-indias-new-net-users-hardest-amazon/articleshow/132843254.cms",
-      "source": "Times of India Business",
-      "category": "regulatory",
-      "publishedAt": "2026-08-03T23:47:46.000Z"
-    },
-    {
-      "title": "Consider capping rates on affordable loans: LICHF chief",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/consider-capping-rates-on-affordable-loans-lichf-chief/articleshow/132843224.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-03T23:44:39.000Z"
     }
   ]
 }
