@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-05T15:14:23.340Z",
+  "lastUpdated": "2026-08-05T20:27:03.997Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,38 @@
     }
   ],
   "articles": [
+    {
+      "title": "Consumers already bearing UPI costs through broader economy: RBI governor",
+      "summary": "RBI governor Sanjay Malhotra emphasized that the costs of UPI transactions are already subtly included in operations. He expressed it is premature to introduce explicit fees for merchants. The priority lies in enhancing the payment infrastructure and increasing utilization.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/consumers-already-bearing-upi-costs-through-broader-economy-rbi-governor/articleshow/132950054.cms",
+      "source": "Times of India Business",
+      "category": "regulatory",
+      "publishedAt": "2026-08-05T16:15:37.000Z"
+    },
+    {
+      "title": "Liquidity surge due to NRI deposits to be limited and temporary: RBI",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/liquidity-surge-due-to-nri-deposits-to-be-limited-and-temporary-rbi/articleshow/132949219.cms",
+      "source": "Times of India Business",
+      "category": "regulatory",
+      "publishedAt": "2026-08-05T16:08:17.000Z"
+    },
+    {
+      "title": "Rupee hits 1-month closing high despite RBI repo rate pause; sliding crude oil prices help",
+      "summary": "The currency opened 0.5% stronger at 94.92 against the US dollar, its highest level since July 1. It later gave up nearly half of its early advance to settle at 95.1175 per dollar, its strongest closing level since July 7.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/rupee-hits-1-month-closing-high-despite-rbi-repo-rate-pause-sliding-crude-oil-prices-help/articleshow/132946040.cms",
+      "source": "Times of India Business",
+      "category": "regulatory",
+      "publishedAt": "2026-08-05T15:39:31.000Z"
+    },
+    {
+      "title": "'Ladka theek lagta hai...': How Atal Bihari Vajpayee helped Anil Agarwal list Vedanta in London",
+      "summary": "Agarwal recalled that December 10, 2003, remains one of the most memorable days of his career",
+      "url": "https://www.businesstoday.in/latest/corporate/story/ladka-theek-lagta-hai-how-atal-bihari-vajpayee-helped-anil-agarwal-list-vedanta-in-london-547510-2026-08-05?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-05T15:27:55.000Z"
+    },
     {
       "title": "For every Rs 100 Tamil Nadu builds with, it pays Rs 138 in interest",
       "summary": "The new Tamil Nadu budget reports a ₹690 crore cut in the state's debt. Here is what that number does, and does not, tell you.",
@@ -225,14 +257,6 @@
       "publishedAt": "2026-08-05T11:09:05.000Z"
     },
     {
-      "title": "Ajith Kumar’s racing story: The crashes, podiums and challenges fans never saw",
-      "summary": "Ajith Kumar’s motorsport journey gets a documentary spotlight, revealing his racing battles, podium finishes, crashes and passion for speed beyond his successful film career.",
-      "url": "https://www.businesstoday.in/latest/photo/ajith-kumars-racing-story-the-crashes-podiums-and-challenges-fans-never-saw-547403-2026-08-05?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-05T11:06:23.000Z"
-    },
-    {
       "title": "As gold, stock markets lose lustre - why your humble fixed deposit is forever",
       "summary": "Experts say that instead of timing the interest rate cycle, fixed deposits should be opted for based on goals and cash flow. But, if you are looking at fresh investments in FDs, higher interest rates may be a good lure. Is it the right time to invest in FDs? We ask experts:",
       "url": "https://timesofindia.indiatimes.com/business/india-business/as-gold-stock-markets-lose-lustre-why-your-humble-fixed-deposit-is-forever/articleshow/132910977.cms",
@@ -351,30 +375,6 @@
       "source": "Times of India Business",
       "category": "regulatory",
       "publishedAt": "2026-08-05T00:15:50.000Z"
-    },
-    {
-      "title": "MDR to help fintechs recover costs, boost their IPO hopes",
-      "summary": "In an effort to enhance sustainability within India’s payment ecosystem, industry stakeholders are advocating for increased subsidies or the introduction of a controlled merchant discount rate (MDR).",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/mdr-to-help-fintechs-recover-costs-boost-their-ipo-hopes/articleshow/132881939.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-05T00:14:53.000Z"
-    },
-    {
-      "title": "Govt ups LIC offer size, OFS India's biggest",
-      "summary": "The government has announced an extra four percent sale in LIC’s offering, responding to considerable interest revealed by a 3.3 times subscription on day one.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/govt-ups-lic-offer-size-ofs-indias-biggest/articleshow/132881793.cms",
-      "source": "Times of India Business",
-      "category": "insurance",
-      "publishedAt": "2026-08-05T00:10:25.000Z"
-    },
-    {
-      "title": "21-yr gold quest: Expand mining, make India export hub",
-      "summary": "In a groundbreaking announcement, the World Gold Council has introduced an extensive twenty-one-year roadmap for India's gold industry. This plan focuses on ramping up local mining efforts while establishing India as a premier jewelry hub.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/21-yr-gold-quest-expand-mining-make-india-export-hub/articleshow/132881641.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-05T00:07:08.000Z"
     }
   ]
 }
