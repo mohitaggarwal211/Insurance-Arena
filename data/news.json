@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-08T10:59:43.712Z",
+  "lastUpdated": "2026-08-08T13:46:53.781Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,22 @@
     }
   ],
   "articles": [
+    {
+      "title": "Why NBFC gold loans are growing nearly 70% despite tighter RBI regulations",
+      "summary": "Non-banking financial company gold loans grew nearly seventy percent year-on-year. This expansion significantly outpaced overall retail credit growth for these institutions. The Reserve Bank of India had introduced new rules for gold lending practices.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/why-nbfc-gold-loans-are-growing-nearly-70-despite-tighter-rbi-regulations/articleshow/133051443.cms",
+      "source": "Times of India Business",
+      "category": "regulatory",
+      "publishedAt": "2026-08-08T11:29:27.000Z"
+    },
+    {
+      "title": "Air India, Air India Express hike pilot salaries by up to 17% amid poaching battle: Report",
+      "summary": "Air India and Air India Express have raised pilot salaries by up to 17% as Indian and global airlines intensify competition for experienced cockpit crew.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/air-india-air-india-express-hike-pilot-salaries-by-up-to-17-amid-poaching-battle-report-548131-2026-08-08?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-08T11:05:10.000Z"
+    },
     {
       "title": "From 2008 cult classic ‘Subramaniapuram’ to driving an auto: How actor Marimuthu’s life changed after fame",
       "summary": "Despite years of uncertainty, Marimuthu has not completely walked away from cinema. He is married to Karthika, whom he reportedly met during his early working years, and continues to hope for another opportunity on the big screen.",
@@ -359,22 +375,6 @@
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-08-07T11:31:20.000Z"
-    },
-    {
-      "title": "Check your flight terminal twice! IndiGo ordered to pay ₹60,000 after passenger misses flight",
-      "summary": "The commission ordered the airline to pay Rs 50,000 as compensation. It additionally awarded Rs 5,000 for mental agony and Rs 5,000 towards litigation expenses, taking the total amount to Rs 60,000.",
-      "url": "https://www.businesstoday.in/latest/trends/story/check-your-flight-terminal-twice-indigo-ordered-to-pay-rs60000-after-passenger-misses-flight-547959-2026-08-07?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-07T11:28:09.000Z"
-    },
-    {
-      "title": "Younger, wider, diverse: How India's investor base is changing",
-      "summary": "India's investor community is witnessing remarkable transformation, with a younger demographic leading the growth. The median age of investors has notably declined, indicating an influx of fresh talent.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/younger-wider-diverse-how-indias-investor-base-is-changing/articleshow/133030045.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-07T10:08:08.000Z"
     }
   ]
 }
