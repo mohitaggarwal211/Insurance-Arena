@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-09T07:54:14.573Z",
+  "lastUpdated": "2026-08-09T11:01:08.251Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,46 @@
     }
   ],
   "articles": [
+    {
+      "title": "IPO bonanza: 5 firms to raise over Rs 7,400 crore this week",
+      "summary": "A bustling week looms for India's primary market as five companies gear up to unveil their IPOs, collectively aiming to gather an impressive Rs 7,443 crore for diverse corporate initiatives.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/ipo-bonanza-from-dhoot-transmission-to-shiprocket-5-companies-to-raise-over-rs-7400-crore-this-week/articleshow/133065941.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-09T10:37:30.000Z"
+    },
+    {
+      "title": "Centre weighs 200% increase in foreign investment approval threshold",
+      "summary": "India's government is considering raising the foreign investment approval threshold significantly. This move aims to attract larger overseas investments and simplify the process. The current Rs 5,000 crore limit has been in place since 2015.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/government-weighs-raising-fdi-approval-threshold-to-rs-15000-crore-from-rs-5000-crore-report/articleshow/133065304.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-09T10:04:56.000Z"
+    },
+    {
+      "title": "Market recap: Four of top 10 firms add Rs 1.43 lakh crore; SBI bags biggest gains",
+      "summary": "Dalal Street wrapped up last week on a high note, showcasing impressive gains among leading firms. State Bank of India saw a remarkable surge in its market value, joining industry giants Reliance Industries and TCS, which also experienced robust growth.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/market-recap-four-of-top-10-firms-add-rs-1-43-lakh-crore-sbi-bags-biggest-gains/articleshow/133065010.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-09T09:38:54.000Z"
+    },
+    {
+      "title": "Nearly $500 billion in debt issued in 2026: Is big tech borrowing too much for AI boom?",
+      "summary": "An investigation by Nikkei Asia found that Alphabet, Microsoft, Amazon, Meta and Oracle together could have around $1.65 trillion in liabilities outside their public balance sheets, compared with roughly $1.35 trillion in liabilities officially disclosed in the previous quarter.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/nearly-500-billion-in-debt-issued-in-2026-is-big-tech-borrowing-too-much-for-ai-boom-548173-2026-08-09?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "insurance",
+      "publishedAt": "2026-08-09T08:44:01.000Z"
+    },
+    {
+      "title": "'Hostile act against India': Fund manager on US bill threatening 100% tariffs",
+      "summary": "There is no special India-US relationship or friendship, if there ever was one, says the fund manager",
+      "url": "https://www.businesstoday.in/latest/story/this-is-a-hostile-act-against-india-fund-manager-on-us-bill-threatening-100-tariffs-548170-2026-08-09?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-09T07:33:34.000Z"
+    },
     {
       "title": "US tariff on Russian oil buyers: Brace for possible $120 crude shock, warns CareEdge",
       "summary": "The US bill provides for tariffs of up to 100%, but it is not yet clear how the measure would be applied across different commodities",
@@ -241,14 +281,6 @@
       "publishedAt": "2026-08-08T03:30:05.000Z"
     },
     {
-      "title": "'Being busy is not the flex': IIM Bangalore MBA student explains his AI productivity system",
-      "summary": "Rakshit Ravindranathan, an MBA candidate at IIM Bangalore, shared that he once missed an important assignment submission because the deadline",
-      "url": "https://www.businesstoday.in/latest/trends/story/being-busy-is-not-the-flex-iim-bangalore-mba-student-explains-his-ai-productivity-system-548030-2026-08-08?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-08T03:00:03.000Z"
-    },
-    {
       "title": "Hero MotoCorp Q1 PAT down 17% at 1.4k cr",
       "summary": "",
       "url": "https://timesofindia.indiatimes.com/business/india-business/hero-motocorp-q1-pat-down-17-at-1-4k-cr/articleshow/133045343.cms",
@@ -329,14 +361,6 @@
       "publishedAt": "2026-08-08T02:18:35.000Z"
     },
     {
-      "title": "150-year-old reason: Why your jeans has a tiny front pocket & what it was really made for",
-      "summary": "The survival of the pocket is a reminder that some of today's most familiar clothing details were created to solve practical problems faced by workers more than a century ago.",
-      "url": "https://www.businesstoday.in/latest/trends/story/150-year-old-reason-why-your-jeans-has-a-tiny-front-pocket-what-it-was-really-made-for-547910-2026-08-08?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-08T02:15:01.000Z"
-    },
-    {
       "title": "‘UPI infra mostly shared, costs can’t be singled out’",
       "summary": "",
       "url": "https://timesofindia.indiatimes.com/business/india-business/upi-infra-mostly-shared-costs-cant-be-singled-out/articleshow/133045128.cms",
@@ -351,30 +375,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-08-08T02:13:00.000Z"
-    },
-    {
-      "title": "Onion, oil or chicken: What made your thali costlier in July",
-      "summary": "In July, the prices for home-cooked thalis surged compared to the previous year, with vegetarian options increasing by four percent and non-vegetarian increasing by nine percent.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/onion-oil-or-chicken-what-made-your-thali-costlier-in-july/articleshow/133037992.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-07T16:10:50.000Z"
-    },
-    {
-      "title": "More hirings than firings: Nomura report tests ‘ground zero’; says AI creating more jobs in India than cuts",
-      "summary": "According to the report by Nomura Holdings Inc, AI-driven recruitment continues to be more than job losses in the country. Given the country's vast workforce, India is experiencing the \"largest absolute impact\" of AI across layoffs, hiring freezes and recruitment.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/more-hirings-than-firings-nomura-report-tests-ground-zero-says-ai-creating-more-jobs-in-india-than-cuts/articleshow/133036953.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-07T15:41:36.000Z"
-    },
-    {
-      "title": "Food for thought: Global food prices rise in July as cereals, sugar turn costly",
-      "summary": "In July, global food prices saw a notable rise, with cereals, vegetable oils, and sugar reflecting increased costs. Wheat and maize surged due to weather conditions and market apprehensions. Vegetable oils peaked since June 2022, bolstered by robust demand.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/food-for-thought-global-food-prices-rise-in-july-as-cereals-sugar-turn-costly/articleshow/133037072.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-07T15:27:56.000Z"
     }
   ]
 }
