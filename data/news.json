@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-09T13:50:39.905Z",
+  "lastUpdated": "2026-08-09T19:34:15.427Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,30 @@
     }
   ],
   "articles": [
+    {
+      "title": "Clean power push: India hits 300 GW non-fossil capacity milestone ahead of 2030 target",
+      "summary": "India has now achieved over 300 GW of non-fossil fuel electricity generation capacity. This significant milestone represents more than half of the nation's total installed power capacity. Solar power leads this expansion, followed by wind and hydro energy sources.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/clean-power-push-india-hits-300-gw-non-fossil-capacity-milestone-ahead-of-2030-target/articleshow/133070158.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-09T15:31:30.000Z"
+    },
+    {
+      "title": "'$200 billion market in 15 countries': Here's what India can do if US slaps 100% tariffs",
+      "summary": "As the US contemplates imposing substantial tariffs on Russian crude, India is strategically exploring alternative markets to bolster its exports. With fifteen potential markets worth an impressive two hundred billion dollars, Indian exporters are adapting to global challenges.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/200-billion-market-in-15-countries-heres-what-india-can-do-if-us-slaps-100-tariffs/articleshow/133069941.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-09T15:15:58.000Z"
+    },
+    {
+      "title": "Mahindra Group ropes in Cummins India MD Shveta Arya as Chief Strategy Officer",
+      "summary": "Former Cummins India MD Shveta Arya will be part of the Group Executive Board and will report to Anish Shah, Group CEO & MD, Mahindra Group.",
+      "url": "https://www.businesstoday.in/jobs/story/mahindra-group-ropes-in-cummins-india-md-shveta-arya-as-chief-strategy-officer-548193-2026-08-09?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-09T15:07:44.000Z"
+    },
     {
       "title": "Gold, silver prices may rise next week as US inflation data, Gulf tensions guide markets",
       "summary": "Gold and silver prices are expected to remain firm next week. Investors will track inflation data from major economies and West Asia developments. Upcoming Chinese economic data will also be important for industrial metals.",
@@ -281,14 +305,6 @@
       "publishedAt": "2026-08-08T08:25:12.000Z"
     },
     {
-      "title": "US FAA orders inspections of 471 Boeing 737 MAX jets over crack risk",
-      "summary": "The FAA’s airworthiness directive applies to in-service 737 MAX 8, MAX 9 and 737-8200 aircraft.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/us-faa-orders-inspections-of-471-boeing-737-max-jets-over-crack-risk-548112-2026-08-08?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-08T07:01:08.000Z"
-    },
-    {
       "title": "100% tariffs on India soon? US Senate clears Russia sanctions bill; 10 things to know",
       "summary": "The US Senate approved a bill allowing President Trump to impose tariffs on nations buying Russian energy. India could face up to 100% tariffs on its goods if the bill becomes law. This legislation pressures countries to choose between US markets and Russian energy purchases.",
       "url": "https://timesofindia.indiatimes.com/business/india-business/100-tariffs-on-india-soon-us-senate-clears-russia-sanctions-bill-10-things-to-know/articleshow/133046387.cms",
@@ -359,22 +375,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-08-08T02:22:43.000Z"
-    },
-    {
-      "title": "‘No charges on digital payments for consumers’",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/no-charges-on-digital-payments-for-consumers/articleshow/133045132.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-08T02:21:00.000Z"
-    },
-    {
-      "title": "As regulators crack the whip, firms return to drawing board",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/as-regulators-crack-the-whip-firms-return-to-drawing-board/articleshow/133045130.cms",
-      "source": "Times of India Business",
-      "category": "regulatory",
-      "publishedAt": "2026-08-08T02:18:35.000Z"
     }
   ]
 }
