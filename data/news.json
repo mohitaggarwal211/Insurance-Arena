@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-10T03:11:51.437Z",
+  "lastUpdated": "2026-08-10T03:20:59.836Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -63,6 +63,14 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-08-10T03:01:22.000Z"
+    },
+    {
+      "title": "New Tax Bill targets data centres, electronics manufacturing: Can India attract more global investment?",
+      "summary": "The Taxation and Other Laws (Amendment) Bill, 2026, seeks to attract long-term global investment by extending tax incentives for electronics manufacturing and easing rules for data centres.",
+      "url": "https://www.businesstoday.in/technology/news/story/new-tax-bill-targets-data-centres-electronics-manufacturing-can-india-attract-more-global-investment-548128-2026-08-10?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-10T02:50:02.000Z"
     },
     {
       "title": "Gold, silver prices may continue rally; US inflation, Iran tensions and more in focus",
@@ -367,14 +375,6 @@
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-08-08T11:05:10.000Z"
-    },
-    {
-      "title": "From 2008 cult classic ‘Subramaniapuram’ to driving an auto: How actor Marimuthu’s life changed after fame",
-      "summary": "Despite years of uncertainty, Marimuthu has not completely walked away from cinema. He is married to Karthika, whom he reportedly met during his early working years, and continues to hope for another opportunity on the big screen.",
-      "url": "https://www.businesstoday.in/latest/trends/story/from-2008-cult-classic-subramaniapuram-to-driving-an-auto-how-actor-marimuthus-life-changed-after-fame-548127-2026-08-08?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-08T10:03:02.000Z"
     }
   ]
 }
