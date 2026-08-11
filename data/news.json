@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-11T14:20:12.247Z",
+  "lastUpdated": "2026-08-11T20:00:07.364Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,54 @@
     }
   ],
   "articles": [
+    {
+      "title": "Equity MF inflows fall 15% in July as investors turn cautious, SIPs stay strong",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/equity-mf-inflows-fall-15-in-july-as-investors-turn-cautious-sips-stay-strong/articleshow/133159979.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-11T16:12:40.000Z"
+    },
+    {
+      "title": "Fitch retains India’s credit rating at BBB-, sees strong economy; warns of fiscal risks due to protests",
+      "summary": "The ratings agency said the Indian economy continues to demonstrate resilience despite the energy shock arising from the conflict in West Asia, supported by a strong growth outlook and sound external financing fundamentals.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/fitch-retains-indias-credit-rating-at-bbb-sees-strong-economy-warns-of-fiscal-risks-due-to-protests/articleshow/133159371.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-11T15:59:54.000Z"
+    },
+    {
+      "title": "Direct tax collections rise sharply to Rs 8.11 lakh crore; non-corporate taxes lead",
+      "summary": "India's direct tax collections have surged impressively, seeing an increase of over twenty-three percent. As of August 10, gross direct tax collections reached a staggering Rs 9.55 lakh crore.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/direct-tax-collections-rise-sharply-to-rs-8-11-lakh-crore-non-corporate-taxes-lead/articleshow/133158822.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-11T15:29:19.000Z"
+    },
+    {
+      "title": "RBI governor says inflation under control, strengthening bets on rate hold",
+      "summary": "The RBI had earlier this month kept its key policy rate unchanged for the fourth consecutive meeting, citing muted inflationary pressures.",
+      "url": "https://www.businesstoday.in/latest/economy/story/rbi-governor-says-inflation-under-control-strengthening-bets-on-rate-hold-548616-2026-08-11?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "regulatory",
+      "publishedAt": "2026-08-11T14:57:15.000Z"
+    },
+    {
+      "title": "US stock market today: Wall Street near record high as inflation data in focus; oil prices swing",
+      "summary": "Investors are now focused on Wednesday's release of the latest US inflation data. Economists expect the report to show that inflation remained elevated in July but eased slightly to 3.4% from 3.5% in June.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/us-stock-market-today-august-11-2026-wall-street-down-jones-industrial-average-sp-500-nasdaq-composite-us-iran-war-crude-oil-prices/articleshow/133157414.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-11T14:15:01.000Z"
+    },
+    {
+      "title": "Net direct tax collections rise 23.09% to ₹8.11 lakh crore till August 10: Government data",
+      "summary": "Gross direct tax collections stood at ₹9,54,775.91 crore as of August 10, 2026, marking a 19.75% increase from ₹7,97,327.83 crore recorded during the same period of FY 2025-26.",
+      "url": "https://www.businesstoday.in/latest/economy/story/net-direct-tax-collections-rise-23-09-to-rs8-11-lakh-crore-till-august-10-government-data-548614-2026-08-11?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-11T14:08:21.000Z"
+    },
     {
       "title": "What is MDR that is being proposed for UPI transactions, who pays the final cost? Explained",
       "summary": "The government has clarified that UPI will continue to remain free for consumers and no transaction charges will be applicable to person-to-person payments.",
@@ -257,22 +305,6 @@
       "publishedAt": "2026-08-11T05:44:41.000Z"
     },
     {
-      "title": "Delhi Metro beats global giants: The 59-second rule behind its stunning punctuality record",
-      "summary": "Delhi Metro clocks 99.95% punctuality under its strict 59-second delay rule, ranking among the world’s most reliable systems as its network and ridership surge.",
-      "url": "https://www.businesstoday.in/latest/trends/photo/delhi-metro-beats-global-giants-the-59-second-rule-behind-its-stunning-punctuality-record-548323-2026-08-11?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-11T05:43:38.000Z"
-    },
-    {
-      "title": "Indian Railways ticket rules: Missed your train? Here’s when your ticket works, when it doesn’t",
-      "summary": "Missed your train? Indian Railways rules decide whether your ticket remains valid, if you can board another train, claim a refund or file a TDR after missing it.",
-      "url": "https://www.businesstoday.in/latest/photo/indian-railways-ticket-rules-missed-your-train-heres-when-your-ticket-works-when-it-doesnt-548331-2026-08-11?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-11T05:43:20.000Z"
-    },
-    {
       "title": "$500 bn AI boom: Nvidia, Wall Street giants join hands for chip, data centre push",
       "summary": "Nvidia has joined forces with six prominent financial institutions to enhance AI infrastructure funding. The collaboration will see these firms create platforms aimed at financing companies that purchase Nvidia hardware.",
       "url": "https://timesofindia.indiatimes.com/business/international-business/500-billion-ai-boom-nvidia-wall-street-giants-join-hands-for-chip-data-centre-push/articleshow/133141372.cms",
@@ -313,14 +345,6 @@
       "publishedAt": "2026-08-11T02:03:56.000Z"
     },
     {
-      "title": "Voda Idea Q1 loss narrows to 3.7k cr post dues relaxation",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/voda-idea-q1-loss-narrows-to-3-7k-cr-post-dues-relaxation/articleshow/133140023.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-11T01:00:26.000Z"
-    },
-    {
       "title": "Telecom companies report 24.4bn spam calls, messages in April-June",
       "summary": "",
       "url": "https://timesofindia.indiatimes.com/business/india-business/telecom-companies-report-24-4bn-spam-calls-messages-in-april-june/articleshow/133140001.cms",
@@ -351,30 +375,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-08-11T00:41:55.000Z"
-    },
-    {
-      "title": "Govt: No policy stops airports from taking airline stakes",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/govt-no-policy-stops-airports-from-taking-airline-stakes/articleshow/133139953.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-11T00:37:18.000Z"
-    },
-    {
-      "title": "West Asia war fallout: Oil product exports find many new markets",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/oil-product-exports-find-many-new-markets/articleshow/133139691.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-10T23:25:55.000Z"
-    },
-    {
-      "title": "SpaceX retail investors turn net sellers for first time since IPO; offload $4.5 million worth of shares",
-      "summary": "Retail investors turned into net sellers of SpaceX shares as of August 7, marking the end of a buying frenzy. This change coincided with a stock price recovery, indicating that individuals may be taking profits.",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/spacex-retail-investors-turn-net-sellers-for-first-time-since-ipo-offload-4-5-million-worth-of-shares/articleshow/133126012.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-10T17:52:04.000Z"
     }
   ]
 }
