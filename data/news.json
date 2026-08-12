@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-12T11:20:49.302Z",
+  "lastUpdated": "2026-08-12T14:20:53.210Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,14 @@
     }
   ],
   "articles": [
+    {
+      "title": "‘Don’t pay attention to gossip, conspiracies you hear’: What N Chandrasekaran told Tata Sons staff",
+      "summary": "Speaking at a town hall meeting held at Bombay House in the afternoon, Chandrasekaran reportedly said he had been \"touched with the love and affection\" shown to him by employees throughout his career and looked back on his 40-year journey with the Tata Group.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/dont-pay-attention-to-gossip-conspiracies-you-hear-what-n-chandrasekaran-told-tata-sons-staff/articleshow/133184586.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-12T13:54:21.000Z"
+    },
     {
       "title": "5,000 years in gold: Sabyasachi raids The Met's history for a dazzling new collection",
       "summary": "Sabyasachi teams up with New York's The Met for a high-jewellery collection inspired by 5,000 years of art, from Roman relics to Byzantine treasures.",
@@ -367,14 +375,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-08-11T15:29:19.000Z"
-    },
-    {
-      "title": "US stock market today: Wall Street near record high as inflation data in focus; oil prices swing",
-      "summary": "Investors are now focused on Wednesday's release of the latest US inflation data. Economists expect the report to show that inflation remained elevated in July but eased slightly to 3.4% from 3.5% in June.",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/us-stock-market-today-august-11-2026-wall-street-down-jones-industrial-average-sp-500-nasdaq-composite-us-iran-war-crude-oil-prices/articleshow/133157414.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-11T14:15:01.000Z"
     }
   ]
 }
