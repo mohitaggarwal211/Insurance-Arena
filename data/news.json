@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-14T14:16:03.331Z",
+  "lastUpdated": "2026-08-14T19:49:37.717Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,22 @@
     }
   ],
   "articles": [
+    {
+      "title": "Trump admin accuses over 40 nations including India of helping China evade tariffs - what it means",
+      "summary": "The White House report classifies more than 40 countries into three separate tiers based on their alleged role in transshipment activities.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/trump-admin-accuses-over-40-nations-including-india-of-helping-china-evade-tariffs-what-it-means/articleshow/133245956.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-14T15:46:56.000Z"
+    },
+    {
+      "title": "US stock market today: Wall Street drifts near record highs; economic data in focus",
+      "summary": "The bond market was largely steady after government data showed that consumer spending at US retailers declined from the previous month. The reading caught economists off guard, as they had expected retail sales to post another monthly increase.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/us-stock-market-today-august-14-2026-wall-street-down-jones-industrial-average-sp-500-nasdaq-composite-us-iran-war-crude-oil-prices/articleshow/133244412.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-14T14:21:49.000Z"
+    },
     {
       "title": "RBI limits FCNR(B) forex swap facility after $52.3 bn inflows; ECB, OFCB window stays open",
       "summary": "The central bank said on Friday that the facility will now be available for FCNR(B) deposits mobilised only until August 31, 2026. However, swaps against these deposits can continue to be availed from the RBI until September 11, 2026.",
@@ -359,22 +375,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-08-13T15:19:25.000Z"
-    },
-    {
-      "title": "What Trump tariffs? Russia now supplies more than half of India’s crude oil imports",
-      "summary": "According to GTRI’s analysis, in June India imported crude oil worth $14.8 billion from all sources, of which $7.2 billion came from Russia. This translated into a Russian share of 48.6%.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/what-trump-tariffs-russia-now-supplies-more-than-half-of-indias-crude-oil-imports/articleshow/133216108.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-13T14:51:02.000Z"
-    },
-    {
-      "title": "Indian IT sector job market is changing: What can get you hired & at a premium",
-      "summary": "Experts believe that the era of broad-based recruitment and hefty pay hikes in the Indian IT sector is over. Companies are now tightening hiring at the entry level, while at the same time competing to get experienced professionals in select areas.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/indian-it-sector-job-market-is-changing-what-can-get-you-hired-at-a-premium/articleshow/133209023.cms",
-      "source": "Times of India Business",
-      "category": "insurance",
-      "publishedAt": "2026-08-13T11:22:28.000Z"
     }
   ]
 }
