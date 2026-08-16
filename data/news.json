@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-16T10:47:52.673Z",
-  "articlesCount": 40,
+  "lastUpdated": "2026-08-16T13:32:25.219Z",
+  "articlesCount": 39,
   "sourcesOk": 5,
   "sourcesTotal": 9,
   "sourceStatus": [
@@ -41,7 +41,7 @@
     {
       "source": "Times of India Business",
       "status": "ok",
-      "articles": 20,
+      "articles": 19,
       "feedUsed": "https://timesofindia.indiatimes.com/rssfeeds/1898055.cms"
     },
     {
@@ -56,6 +56,38 @@
     }
   ],
   "articles": [
+    {
+      "title": "Dalal Street outlook: Crude oil, Strait of Hormuz and Fed cues to drive stock market this week",
+      "summary": "Indian stock markets are currently influenced by geopolitical tensions and global monetary conditions. Investors are particularly vigilant about developments in the Strait of Hormuz and the ongoing US-Iran conflict.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/dalal-street-outlook-crude-oil-strait-of-hormuz-and-fed-cues-to-drive-stock-market-this-week/articleshow/133274804.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-16T12:01:21.000Z"
+    },
+    {
+      "title": "Bullion watch: Where are gold and silver prices headed next week? Fed minutes, Middle East in focus",
+      "summary": "Gold and silver prices may continue their upward trend next week. Geopolitical and economic cues will significantly influence this momentum. Analysts expect bullion to retain its positive bias amid global data.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/bullion-watch-where-are-gold-and-silver-prices-headed-next-week-fed-minutes-middle-east-in-focus/articleshow/133274315.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-16T11:40:48.000Z"
+    },
+    {
+      "title": "Market recap: Top 5 firms lose Rs 1 lakh crore in market value; TCS, Reliance suffer biggest hit",
+      "summary": "Last week witnessed a downturn in Indian stock markets, with five out of the top ten firms experiencing notable decreases in market capitalization. TCS and Reliance Industries led the decline in valuations. In contrast, LIC and Bharti Airtel reported impressive gains.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/market-recap-top-5-firms-lose-rs-1-lakh-crore-in-market-value-tcs-reliance-suffer-biggest-hit/articleshow/133273691.cms",
+      "source": "Times of India Business",
+      "category": "insurance",
+      "publishedAt": "2026-08-16T10:54:30.000Z"
+    },
+    {
+      "title": "Taping your suitcase wheels before travelling? Here’s what you should know",
+      "summary": "The hack may create problems if the tape is too thick, left loose or wrapped beyond the surface of the wheel.",
+      "url": "https://www.businesstoday.in/latest/trends/story/taping-your-suitcase-wheels-before-travelling-heres-what-you-should-know-549463-2026-08-16?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-16T10:36:55.000Z"
+    },
     {
       "title": "India cooks up LPG safety net: Govt fixes refinery-wise output targets; Reliance gets biggest quota",
       "summary": "India is establishing production benchmarks for its refineries and upstream firms, aimed at fortifying the domestic LPG supply system. Reliance Industries leads with the highest targets assigned to its refinery.",
@@ -305,14 +337,6 @@
       "publishedAt": "2026-08-15T02:30:05.000Z"
     },
     {
-      "title": "Wholesale inflation eases to 9.8% in July",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/wholesale-inflation-eases-to-9-8-in-july/articleshow/133254009.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-15T02:03:20.000Z"
-    },
-    {
       "title": "Quote of the Day by GD Birla: ‘Any fool can establish a business when there is a boom. But it is during a period of depression that one's ability to establish and run a business is really tested’",
       "summary": "G.D. Birla expanded his business interests across sectors, including textiles, jute, sugar, cement and banking, helping establish the Birla Group as one of India’s leading business houses",
       "url": "https://www.businesstoday.in/latest/trends/story/quote-of-the-day-by-gd-birla-any-fool-can-establish-a-business-when-there-is-a-boom-but-it-is-during-a-period-of-depression-that-ones-ability-to-establish-and-run-a-business-is-really-tested-548807-2026-08-15?utm_source=rssfeed",
@@ -321,28 +345,12 @@
       "publishedAt": "2026-08-15T02:00:04.000Z"
     },
     {
-      "title": "Claude downloads surge 30x, Gemini doubles",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/claude-downloads-surge-30x-gemini-doubles/articleshow/133253954.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-15T01:56:29.000Z"
-    },
-    {
       "title": "FMCG companies see recovery in consumption growth",
       "summary": "",
       "url": "https://timesofindia.indiatimes.com/business/india-business/fmcg-companies-see-recovery-in-consumption-growth/articleshow/133253935.cms",
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-08-15T01:53:47.000Z"
-    },
-    {
-      "title": "With $52.3 billion raised, FCNR(B) scheme to close a month early",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/with-52-3-billion-raised-fcnrb-scheme-to-close-a-month-early/articleshow/133253897.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-15T01:51:02.000Z"
     },
     {
       "title": "Independence Day 2026: Five Delhi landmarks that tell India’s freedom, political and military history",
@@ -359,22 +367,6 @@
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-08-15T01:15:01.000Z"
-    },
-    {
-      "title": "No artificial lights, only billion of stars: How Nashik’s tribal village is turning darkness into tourism gold",
-      "summary": "India’s major cities often have skies dominated by artificial glow, with only the brightest celestial objects visible to the naked eye. The problem is global.",
-      "url": "https://www.businesstoday.in/latest/trends/story/no-artificial-lights-just-billion-of-stars-how-nashiks-tribal-village-is-turning-darkness-into-tourism-gold-549300-2026-08-15?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-15T01:00:03.000Z"
-    },
-    {
-      "title": "India's big chip ambition: Can it become the world's next semiconductor hub?",
-      "summary": "Semiconductors sit underneath almost everything today: electronics, EVs, telecom, AI, data centres, defence, manufacturing. So having a self-reliant semiconductor ecosystem is an absolute necessity in the current globally uncertain economic and geopolitical environment.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/indias-big-chip-ambition-can-it-become-the-worlds-next-semiconductor-hub/articleshow/133242009.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-14T13:29:22.000Z"
     }
   ]
 }
