@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-16T02:36:53.094Z",
+  "lastUpdated": "2026-08-16T07:31:36.234Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,46 @@
     }
   ],
   "articles": [
+    {
+      "title": "From GST reform to GCCs: How India can become a $20 trillion economy by 2036",
+      "summary": "India could reach a $20 trillion economy by 2036 with reforms. Services will drive this expansion, contributing over 65% of the GDP. A 20-step reform agenda targets taxes and capital markets for efficiency.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/india-needs-faster-growth-stronger-rupee-to-hit-20-trillion-economy-by-2036-report/articleshow/133271328.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-16T07:04:40.000Z"
+    },
+    {
+      "title": "NMDC Q1 profit rises to ₹2,007 crore as iron ore production jumps 26%",
+      "summary": "NMDC produced 15.12 million tonnes (MT) of iron ore in the April-June quarter, compared with 11.99 MT a year earlier",
+      "url": "https://www.businesstoday.in/latest/corporate/story/nmdc-q1-profit-rises-to-rs2007-crore-as-iron-ore-production-jumps-26-549448-2026-08-16?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-16T04:47:13.000Z"
+    },
+    {
+      "title": "India’s engineering exports surge to $13.77 billion, Niti Aayog calls for regulation",
+      "summary": "Over the past decade, India's engineering services exports have skyrocketed, registering a remarkable compound annual growth rate of 22.8 percent. Despite this impressive growth, the sector currently suffers from a lack of a robust regulatory framework.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/indias-engineering-exports-surge-to-13-77-billion-niti-aayog-calls-for-regulation/articleshow/133269461.cms",
+      "source": "Times of India Business",
+      "category": "regulatory",
+      "publishedAt": "2026-08-16T04:00:35.000Z"
+    },
+    {
+      "title": "'Mileage depends on more than fuel alone': Oil Ministry defends E20, calls it validated",
+      "summary": "'E20 has undergone extensive testing and validation, while real-world mileage depends on the overall driving and vehicle conditions,' says the ministry",
+      "url": "https://www.businesstoday.in/latest/economy/story/mileage-depends-on-more-than-fuel-alone-oil-ministry-defends-e20-calls-it-validated-549441-2026-08-16?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-16T02:42:35.000Z"
+    },
+    {
+      "title": "Berkshire Hathaway reshuffles portfolio, raises Alphabet and homebuilder stakes",
+      "summary": "Berkshire Hathaway is undergoing a notable transformation in its investment approach. The company has notably augmented its investments in Alphabet and US homebuilders, while simultaneously diminishing its stakes in various financial firms and other stocks.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/berkshire-hathaway-reshuffles-portfolio-raises-alphabet-and-homebuilder-stakes/articleshow/133268982.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-16T02:30:35.000Z"
+    },
     {
       "title": "India’s corporate sector shows resilience as sales rise 24% in Q1 FY27",
       "summary": "India’s corporate sector remained resilient in Q1 FY27, with net sales of 2,257 listed non-BFSI companies rising 24% year-on-year, according to SBI Research.",
@@ -321,14 +361,6 @@
       "publishedAt": "2026-08-15T00:45:03.000Z"
     },
     {
-      "title": "Husky to Pug: 7 popular dogs that may pay a heavy price in India’s scorching summers",
-      "summary": "Siberian Husky to Pug, several popular dog breeds face serious heat challenges in India’s harsh summers. Know why these breeds struggle and what owners should watch for.",
-      "url": "https://www.businesstoday.in/latest/trends/photo/husky-to-pug-7-popular-dogs-that-may-pay-a-heavy-price-in-indias-scorching-summers-549026-2026-08-15?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-15T00:30:05.000Z"
-    },
-    {
       "title": "Trump admin accuses over 40 nations including India of helping China evade tariffs - what it means",
       "summary": "The White House report classifies more than 40 countries into three separate tiers based on their alleged role in transshipment activities.",
       "url": "https://timesofindia.indiatimes.com/business/india-business/trump-admin-accuses-over-40-nations-including-india-of-helping-china-evade-tariffs-what-it-means/articleshow/133245956.cms",
@@ -337,44 +369,12 @@
       "publishedAt": "2026-08-14T15:46:56.000Z"
     },
     {
-      "title": "US stock market today: Wall Street drifts near record highs; economic data in focus",
-      "summary": "The bond market was largely steady after government data showed that consumer spending at US retailers declined from the previous month. The reading caught economists off guard, as they had expected retail sales to post another monthly increase.",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/us-stock-market-today-august-14-2026-wall-street-down-jones-industrial-average-sp-500-nasdaq-composite-us-iran-war-crude-oil-prices/articleshow/133244412.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-14T14:21:49.000Z"
-    },
-    {
-      "title": "RBI limits FCNR(B) forex swap facility after $52.3 bn inflows; ECB, OFCB window stays open",
-      "summary": "The central bank said on Friday that the facility will now be available for FCNR(B) deposits mobilised only until August 31, 2026. However, swaps against these deposits can continue to be availed from the RBI until September 11, 2026.",
-      "url": "https://www.businesstoday.in/latest/economy/story/rbi-limits-fcnrb-forex-swap-facility-after-52-3-bn-inflows-ecb-ofcb-window-stays-open-549331-2026-08-14?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "regulatory",
-      "publishedAt": "2026-08-14T13:56:02.000Z"
-    },
-    {
       "title": "India's big chip ambition: Can it become the world's next semiconductor hub?",
       "summary": "Semiconductors sit underneath almost everything today: electronics, EVs, telecom, AI, data centres, defence, manufacturing. So having a self-reliant semiconductor ecosystem is an absolute necessity in the current globally uncertain economic and geopolitical environment.",
       "url": "https://timesofindia.indiatimes.com/business/india-business/indias-big-chip-ambition-can-it-become-the-worlds-next-semiconductor-hub/articleshow/133242009.cms",
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-08-14T13:29:22.000Z"
-    },
-    {
-      "title": "India's forex reserves climb to $707 billion, rise $14.1 billion in a week",
-      "summary": "India's foreign exchange reserves jumped a notable $14.136 billion, reaching a total of $707.002 billion for the week ending August 7. This surge was largely driven by a $9.946 billion rise in foreign currency assets, complemented by a $3.995 billion increase in gold reserves.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/indias-forex-reserves-climb-to-707-billion-rise-14-1-billion-in-a-week/articleshow/133241847.cms",
-      "source": "Times of India Business",
-      "category": "regulatory",
-      "publishedAt": "2026-08-14T12:54:05.000Z"
-    },
-    {
-      "title": "800 kmph in 5.3 seconds: China train sets third record in six months",
-      "summary": "China's experimental maglev train achieved 800 kmph in just 5.3 seconds. This remarkable acceleration sets a new world record for short-distance travel. The technology is not intended for passenger transport due to extreme acceleration levels.",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/800-kmph-in-5-3-seconds-china-train-sets-third-record-in-six-months/articleshow/133237971.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-14T10:44:43.000Z"
     }
   ]
 }
