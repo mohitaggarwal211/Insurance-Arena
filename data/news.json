@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-16T13:32:25.219Z",
+  "lastUpdated": "2026-08-16T19:21:33.366Z",
   "articlesCount": 39,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,30 @@
     }
   ],
   "articles": [
+    {
+      "title": "Karma hits back: Indian-origin CEO who fired 900 employees on Zoom call gets sacked as CEO",
+      "summary": "Though stripped of his executive duties, Garg has offered to return and work for a salary of just $1 a year until the company achieves profitability, after which he promises to step aside.",
+      "url": "https://www.businesstoday.in/latest/trends/story/karma-hits-back-indian-origin-ceo-who-fired-900-employees-on-zoom-call-gets-sacked-as-ceo-549472-2026-08-16?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-16T16:23:58.000Z"
+    },
+    {
+      "title": "FPIs turn buyers again, pump Rs 16,621 crore into Indian equities in August",
+      "summary": "In August, foreign investors turned the tide by purchasing Indian equities, building on the positive momentum from July's inflows. This shift follows a period of substantial selling earlier in the year.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/fpis-turn-buyers-again-pump-rs-16621-crore-into-indian-equities-in-august/articleshow/133278037.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-16T15:38:39.000Z"
+    },
+    {
+      "title": "Rs 6,400-crore IPO rush: 7 companies set to tap primary market next week",
+      "summary": "The IPO market anticipates a busy week with seven companies planning public offerings. These upcoming issues aim to collectively raise more than Rs 6,400 crore from investors.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/rs-6400-crore-ipo-rush-7-companies-set-to-tap-primary-market-next-week/articleshow/133277944.cms",
+      "source": "Times of India Business",
+      "category": "insurance",
+      "publishedAt": "2026-08-16T15:32:40.000Z"
+    },
     {
       "title": "Dalal Street outlook: Crude oil, Strait of Hormuz and Fed cues to drive stock market this week",
       "summary": "Indian stock markets are currently influenced by geopolitical tensions and global monetary conditions. Investors are particularly vigilant about developments in the Strait of Hormuz and the ongoing US-Iran conflict.",
@@ -321,14 +345,6 @@
       "publishedAt": "2026-08-15T03:06:52.000Z"
     },
     {
-      "title": "‘Fragile 5 to fastest growing’: PM Modi talks of India’s economic growth during Independence Day speech",
-      "summary": "Talking about the dream to become a developed country by 2047, PM Modi said, “The world will be forced to look at India differently when the most populous country becomes a developed nation.”",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/fragile-5-to-fastest-growing-pm-modi-talks-of-indias-economic-growth-during-independence-day-speech/articleshow/133254282.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-15T02:38:57.000Z"
-    },
-    {
       "title": "Ghaziabad to Noida Airport by Namo Bharat: Proposed stations, projected journey time and approval status",
       "summary": "NCRTC's proposed 72.44-km Ghaziabad–Jewar corridor combines Namo Bharat and Metro services across 22 physical stations. See the proposed stops, alignment and current approval status.",
       "url": "https://www.businesstoday.in/latest/trends/photo/ghaziabad-to-noida-airport-by-namo-bharat-proposed-stations-projected-journey-time-and-approval-status-549322-2026-08-15?utm_source=rssfeed",
@@ -345,28 +361,12 @@
       "publishedAt": "2026-08-15T02:00:04.000Z"
     },
     {
-      "title": "FMCG companies see recovery in consumption growth",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/fmcg-companies-see-recovery-in-consumption-growth/articleshow/133253935.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-15T01:53:47.000Z"
-    },
-    {
       "title": "Independence Day 2026: Five Delhi landmarks that tell India’s freedom, political and military history",
       "summary": "Explore five Delhi landmarks connected with India's freedom and military history, while noting that Red Fort and the PM Museum are not regular tourist visits on Independence Day itself.",
       "url": "https://www.businesstoday.in/latest/trends/photo/independence-day-2026-five-delhi-landmarks-that-tell-indias-freedom-political-and-military-history-549316-2026-08-15?utm_source=rssfeed",
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-08-15T01:30:04.000Z"
-    },
-    {
-      "title": "Planning a short trip? Seven easy escapes from Delhi for heritage, temples, resorts and food—plus the Sultanpur closure to remember",
-      "summary": "Compare seven short getaways from Delhi for the August weekend, with realistic distances, traffic-dependent drive times and one crucial warning: Sultanpur National Park is seasonally closed.",
-      "url": "https://www.businesstoday.in/latest/trends/photo/planning-a-short-trip-seven-easy-escapes-from-delhi-for-heritage-temples-resorts-and-food-plus-the-sultanpur-closure-to-remember-549319-2026-08-15?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-15T01:15:01.000Z"
     }
   ]
 }
