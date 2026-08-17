@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-16T19:21:33.366Z",
-  "articlesCount": 39,
+  "lastUpdated": "2026-08-17T02:19:39.849Z",
+  "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
   "sourceStatus": [
@@ -41,7 +41,7 @@
     {
       "source": "Times of India Business",
       "status": "ok",
-      "articles": 19,
+      "articles": 20,
       "feedUsed": "https://timesofindia.indiatimes.com/rssfeeds/1898055.cms"
     },
     {
@@ -56,6 +56,86 @@
     }
   ],
   "articles": [
+    {
+      "title": "Five among top 10 firms see market cap fall by Rs 1 lakh crore",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/five-among-top-10-firms-see-market-cap-fall-by-rs-1-lakh-crore/articleshow/133284711.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-17T02:07:29.000Z"
+    },
+    {
+      "title": "JP Morgan targets bigger M&A role",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/jp-morgan-targets-bigger-ma-role/articleshow/133284734.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-17T02:03:48.000Z"
+    },
+    {
+      "title": "Oil prices hold steady as Hormuz nears zero traffic while Iran-US talks on Strait opening stalls",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/oil-prices-hold-steady-as-hormuz-sees-less-activity-despite-iran-us-talks-showing-no-progress/articleshow/133284651.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-17T02:00:43.000Z"
+    },
+    {
+      "title": "Insolvency, bankruptcy board aims to check misuse of law",
+      "summary": "Tells Professionals To Inform NCLT In Case of Wrongdoings",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/insolvency-bankruptcy-board-aims-to-check-misuse-of-law/articleshow/133284666.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-17T01:57:20.000Z"
+    },
+    {
+      "title": "Railway Board orders cover seven Amrit Bharat services linking Dhanbad, Coimbatore, Prayagraj, Mumbai and Delhi",
+      "summary": "Railway Board orders cover seven Amrit Bharat services linking Dhanbad, Coimbatore, Prayagraj, Mumbai, Udhna, Gorakhpur, Delhi and Hyderabad. Here are the proposed routes and key caveats.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/railway-board-orders-cover-seven-amrit-bharat-services-linking-dhanbad-coimbatore-prayagraj-mumbai-and-delhi-549325-2026-08-17?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-17T01:30:04.000Z"
+    },
+    {
+      "title": "Ramayana's ₹4,000 crore budget: Yash sets record straight on budget, explains global scale",
+      "summary": "The actor outlined that Indian cinema must adapt to international operational frameworks if it aims to compete on the world stage. For Yash, high-budget endeavors are not merely financial gambles, but strategic necessities.",
+      "url": "https://www.businesstoday.in/latest/trends/story/ramayanas-rs4000-crore-budget-yash-sets-record-straight-on-budget-explains-global-scale-549473-2026-08-17?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "regulatory",
+      "publishedAt": "2026-08-17T01:00:04.000Z"
+    },
+    {
+      "title": "Vande Bharat Sleeper review: The luxury makeover that changed train travel forever",
+      "summary": "Vande Bharat Sleeper is redefining overnight train travel with luxury interiors, better hygiene, upgraded food service and modern features that promise a premium railway experience in India.",
+      "url": "https://www.businesstoday.in/latest/photo/vande-bharat-sleeper-review-the-luxury-makeover-that-changed-train-travel-forever-549246-2026-08-17?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "insurance",
+      "publishedAt": "2026-08-17T01:00:04.000Z"
+    },
+    {
+      "title": "Before Chandrasekaran's exit, he and Noel Tata separately briefed govt on rift, concerns",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/before-chandras-exit-he-and-noel-tata-separately-briefed-govt-on-rift-concerns/articleshow/133284282.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-17T00:59:59.000Z"
+    },
+    {
+      "title": "Tatkal ticket shock: The hidden network behind India’s railway rush",
+      "summary": "Indian Railways revealed a major crackdown on Tatkal ticket misuse, with 13,580 touts and 65 railway employees arrested as authorities target illegal reservation networks.",
+      "url": "https://www.businesstoday.in/latest/photo/tatkal-ticket-shock-the-hidden-network-behind-indias-railway-rush-549284-2026-08-17?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-17T00:50:03.000Z"
+    },
+    {
+      "title": "Parents are picking these books to introduce kids to India’s legacy",
+      "summary": "Discover books helping children explore India’s mythology, history, freedom struggle and inspiring personalities through stories of gods, heroes, thinkers and cultural heritage.",
+      "url": "https://www.businesstoday.in/latest/photo/parents-are-picking-these-books-to-introduce-kids-to-indias-legacy-549257-2026-08-17?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-17T00:30:04.000Z"
+    },
     {
       "title": "Karma hits back: Indian-origin CEO who fired 900 employees on Zoom call gets sacked as CEO",
       "summary": "Though stripped of his executive duties, Garg has offered to return and work for a salary of just $1 a year until the company achieves profitability, after which he promises to step aside.",
@@ -295,78 +375,6 @@
       "source": "Business Today",
       "category": "regulatory",
       "publishedAt": "2026-08-15T06:10:35.000Z"
-    },
-    {
-      "title": "Petrol export levy cut to nil, diesel and ATF duties retained: What changes from August 15",
-      "summary": "In a recent announcement, the government declared a temporary removal of export levies on petrol for a duration of two weeks. However, diesel exports will incur a duty of Rs 24 per litre, while aviation turbine fuel exports will be subject to a Rs 19.5 per litre levy.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/petrol-export-levy-cut-to-nil-diesel-and-atf-duties-retained-what-changes-from-august-15/articleshow/133256557.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-15T05:51:21.000Z"
-    },
-    {
-      "title": "Indian Army signs ₹1,577 crore drone contracts With Tata, Nibe for 840 long-range attack drones",
-      "summary": "The Indian Army is stepping up its drone warfare capabilities with a ₹1,577 crore order for 840 long-range one-way attack drones from Tata Advanced Systems and Nibe Defence.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/indian-army-signs-rs1577-crore-drone-contracts-with-tata-nibe-for-840-long-range-attack-drones-549369-2026-08-15?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-15T04:11:03.000Z"
-    },
-    {
-      "title": "India’s big semiconductor push: PM Modi says 7-8 plants coming up in few years; stresses self-reliance in chips",
-      "summary": "Looking ahead, PM Modi said an additional five to eight semiconductor plants are expected to be established over the next seven to eight years, further advancing India's journey towards Aatmanirbhar Bharat and Viksit Bharat.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/pm-modi-independence-day-speech-indias-big-semiconductor-push-pm-modi-says-5-8-plants-coming-up-in-few-years-stresses-self-reliance-in-chips/articleshow/133255271.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-15T03:53:21.000Z"
-    },
-    {
-      "title": "‘No-go’ to ‘go-ahead’: PM Modi hails ‘Samudra Manthan' for deep-sea exploration in Independence Day speech",
-      "summary": "To speed up offshore exploration, the government approved Samudra Manthan – the National Offshore Exploration Scheme on July 31, 2026. The scheme has been allocated Rs 84,084 crore for Phase I, covering the period up to FY2030-31.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/no-go-to-go-ahead-pm-modi-hails-samudra-manthan-for-deep-sea-exploration-in-independence-day-speech/articleshow/133255062.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-15T03:34:37.000Z"
-    },
-    {
-      "title": "'At least one Indian bank should...': PM Modi's ambitious target for India Inc ft. Fortune 500",
-      "summary": "In his address to the nation from the ramparts of the Red Fort, PM Modi said that India should aim to have 50 companies among the Fortune 500 in the coming decade.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/independence-day-2026-at-least-one-indian-bank-should-pm-modis-ambitious-target-for-india-inc-ft-fortune-500-companies-549362-2026-08-15?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-15T03:23:50.000Z"
-    },
-    {
-      "title": "PM Modi’s Independence Day speech: Energy security demand of our times; no shortage of gas, fuel, urea",
-      "summary": "Speaking about the country's long-term energy strategy, the Prime Minister stressed that energy security is a key national priority. He said India is working towards achieving 100 gigawatts of nuclear power capacity.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/pm-modis-independence-day-speech-energy-security-demand-of-our-times-no-shortage-of-gas-fuel-urea/articleshow/133254725.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-15T03:06:52.000Z"
-    },
-    {
-      "title": "Ghaziabad to Noida Airport by Namo Bharat: Proposed stations, projected journey time and approval status",
-      "summary": "NCRTC's proposed 72.44-km Ghaziabad–Jewar corridor combines Namo Bharat and Metro services across 22 physical stations. See the proposed stops, alignment and current approval status.",
-      "url": "https://www.businesstoday.in/latest/trends/photo/ghaziabad-to-noida-airport-by-namo-bharat-proposed-stations-projected-journey-time-and-approval-status-549322-2026-08-15?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-15T02:30:05.000Z"
-    },
-    {
-      "title": "Quote of the Day by GD Birla: ‘Any fool can establish a business when there is a boom. But it is during a period of depression that one's ability to establish and run a business is really tested’",
-      "summary": "G.D. Birla expanded his business interests across sectors, including textiles, jute, sugar, cement and banking, helping establish the Birla Group as one of India’s leading business houses",
-      "url": "https://www.businesstoday.in/latest/trends/story/quote-of-the-day-by-gd-birla-any-fool-can-establish-a-business-when-there-is-a-boom-but-it-is-during-a-period-of-depression-that-ones-ability-to-establish-and-run-a-business-is-really-tested-548807-2026-08-15?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-15T02:00:04.000Z"
-    },
-    {
-      "title": "Independence Day 2026: Five Delhi landmarks that tell India’s freedom, political and military history",
-      "summary": "Explore five Delhi landmarks connected with India's freedom and military history, while noting that Red Fort and the PM Museum are not regular tourist visits on Independence Day itself.",
-      "url": "https://www.businesstoday.in/latest/trends/photo/independence-day-2026-five-delhi-landmarks-that-tell-indias-freedom-political-and-military-history-549316-2026-08-15?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-15T01:30:04.000Z"
     }
   ]
 }
