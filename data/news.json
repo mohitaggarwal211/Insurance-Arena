@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-17T02:19:39.849Z",
+  "lastUpdated": "2026-08-17T02:36:45.617Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -79,6 +79,14 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-08-17T02:00:43.000Z"
+    },
+    {
+      "title": "Quote of the Day by Dhirubhai Ambani: ‘Between my past, the present and the future, there is one common factor: Relationship and Trust. This is the foundation of our growth’",
+      "summary": "He made these remarks while speaking about India's economic potential at the dawn of the 21st century, framing the youth as the primary drivers of the country's upcoming growth.",
+      "url": "https://www.businesstoday.in/latest/trends/story/quote-of-the-day-by-dhirubhai-ambani-between-my-past-the-present-and-the-future-there-is-one-common-factor-relationship-and-trust-this-is-the-foundation-of-our-growth-548818-2026-08-17?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-17T02:00:03.000Z"
     },
     {
       "title": "Insolvency, bankruptcy board aims to check misuse of law",
@@ -367,14 +375,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-08-15T09:19:28.000Z"
-    },
-    {
-      "title": "FCNR(B) inflows could reach $85 bn including ECBs, OFCBs, says SBI Research",
-      "summary": "Foreign currency inflows under the RBI’s special mobilisation scheme could reach $85 billion, including FCNR(B) deposits, OFCBs and ECBs, despite the scheme being shortened by a month, SBI Research said.",
-      "url": "https://www.businesstoday.in/latest/economy/story/fcnrb-inflows-could-reach-85-bn-including-ecbs-ofcbs-says-sbi-research-549392-2026-08-15?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "regulatory",
-      "publishedAt": "2026-08-15T06:10:35.000Z"
     }
   ]
 }
