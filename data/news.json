@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-19T13:44:55.702Z",
+  "lastUpdated": "2026-08-19T19:26:26.071Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,30 @@
     }
   ],
   "articles": [
+    {
+      "title": "US stock market today: Wall Street snaps 3-day slide as Treasury yields fall",
+      "summary": "Treasury yields moved lower on Wednesday morning after the US Treasury Department announced plans to at least double its intended purchases of longer-dated Treasury securities.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/us-stock-market-today-august-19-2026-wall-street-down-jones-industrial-average-sp-500-nasdaq-composite-us-iran-war-crude-oil-prices/articleshow/133351615.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-19T14:52:16.000Z"
+    },
+    {
+      "title": "‘Earning billions’: How fuel exporters in India, US are benefitting amid war-led oil supply disruptions",
+      "summary": "With their own operations unaffected by attacks or shipping restrictions, refineries in India and the US have increased exports to markets that previously depended heavily on supplies from the Middle East and Russia.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/earning-billions-how-fuel-exporters-in-india-us-are-benefitting-from-war-led-oil-supply-disruptions/articleshow/133350815.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-19T14:17:18.000Z"
+    },
+    {
+      "title": "India’s US exports stay resilient despite Trump tariffs, but trade surplus shrinks: Report",
+      "summary": "India’s trade relationship with the US has shifted under Trump’s tariff regime, but American demand for Indian goods has remained relatively steady, according to Bloomberg News.",
+      "url": "https://www.businesstoday.in/latest/economy/story/indias-us-exports-stay-resilient-despite-trump-tariffs-but-trade-surplus-shrinks-report-550189-2026-08-19?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-19T14:04:41.000Z"
+    },
     {
       "title": "Why is CCI giving companies more time to file commitment applications",
       "summary": "Companies to get more time to file applications, total timeline now at 180 days",
@@ -289,22 +313,6 @@
       "publishedAt": "2026-08-19T02:36:00.000Z"
     },
     {
-      "title": "Evaluating offers for luxury hotels in Dubai: ITC Hotels",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/evaluating-offers-for-luxury-hotels-in-dubai-itc-hotels/articleshow/133335463.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-19T02:25:15.000Z"
-    },
-    {
-      "title": "Sabse bada rupaiya: Rs. banknotes beat $, € in circulation",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/sabse-bada-rupaiya-rs-banknotes-beat-in-circulation/articleshow/133335354.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-19T02:17:59.000Z"
-    },
-    {
       "title": "Quote of the Day by Mark Zuckerberg: 'The thing that we are trying to do at facebook, is just help people connect and communicate more efficiently'",
       "summary": "The quote highlights the importance of embracing uncertainty, innovation, and bold decision-making in a rapidly evolving world.",
       "url": "https://www.businesstoday.in/latest/world/story/quote-of-the-day-by-mark-zuckerberg-the-thing-that-we-are-trying-to-do-at-facebook-is-just-help-people-connect-and-communicate-more-efficiently-549811-2026-08-19?utm_source=rssfeed",
@@ -367,14 +375,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-08-18T13:25:07.000Z"
-    },
-    {
-      "title": "Income Tax Dept identifies suspicious entities sending money abroad; 394 entities under scanner",
-      "summary": "The Income Tax Department has launched a nationwide verification drive into suspicious foreign remittances made by entities with low reported turnover or no tax-filing history.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/income-tax-dept-identifies-suspicious-entities-sending-money-abroad-394-entities-under-scanner-549884-2026-08-18?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-18T12:51:23.000Z"
     }
   ]
 }
