@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-19T10:53:59.073Z",
+  "lastUpdated": "2026-08-19T13:44:55.702Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,30 @@
     }
   ],
   "articles": [
+    {
+      "title": "Why is CCI giving companies more time to file commitment applications",
+      "summary": "Companies to get more time to file applications, total timeline now at 180 days",
+      "url": "https://www.businesstoday.in/latest/corporate/story/why-is-cci-giving-companies-more-time-to-file-commitment-applications-550180-2026-08-19?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-19T13:15:26.000Z"
+    },
+    {
+      "title": "No rate cut yet: RBI signals patience as food, fuel inflation risks persist",
+      "summary": "The RBI has kept the repo rate unchanged at 5.25% as rising food and fuel prices push headline inflation higher, opting to wait for greater clarity before changing policy.",
+      "url": "https://www.businesstoday.in/latest/economy/story/no-rate-cut-yet-rbi-signals-patience-as-food-fuel-inflation-risks-persist-550175-2026-08-19?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "regulatory",
+      "publishedAt": "2026-08-19T13:01:59.000Z"
+    },
+    {
+      "title": "Why delays in resolution remain a key challenge under Insolvency process",
+      "summary": "According to CareEdge Ratings, close to three-fourths of the ongoing CIRPs (Corporate Insolvency Resolution Process) had exceeded 270 days.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/why-delays-in-resolution-remain-a-key-challenge-under-insolvency-process-550171-2026-08-19?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-19T12:29:40.000Z"
+    },
     {
       "title": "Received income tax notice under Section 143(3)? What is faceless assessment & how you should respond",
       "summary": "This article explains what faceless scrutiny is. How does it work? Why are notices issued? And what are the timelines taxpayers should be aware of? Followed by some practical tips for preparing a clear and evidence-based response.",
@@ -351,30 +375,6 @@
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-08-18T12:51:23.000Z"
-    },
-    {
-      "title": "RBI’s surprise FCNR (B) move leaves banks scrambling as communication concerns grow: Report",
-      "summary": "The central bank’s decision to stop bearing hedging costs for foreign-currency deposits after August comes less than two weeks after Governor Sanjay Malhotra told reporters that there was “no proposal under consideration” to prematurely end the concession offe…",
-      "url": "https://www.businesstoday.in/latest/economy/story/rbis-surprise-fcnr-b-move-leaves-banks-scrambling-as-communication-concerns-grow-report-549871-2026-08-18?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "regulatory",
-      "publishedAt": "2026-08-18T12:16:26.000Z"
-    },
-    {
-      "title": "'India was number one': Sergio Gor applauds Indian companies for $20 bn US investment",
-      "summary": "'When Indian companies invest in America, it's a win-win situation. You gain access to the world's most dynamic market, and you create jobs back home in India and in the United States,' says Sergio Gor",
-      "url": "https://www.businesstoday.in/latest/economy/story/india-was-number-one-sergio-gor-applauds-indian-companies-for-20-bn-us-investment-549827-2026-08-18?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-18T10:30:32.000Z"
-    },
-    {
-      "title": "Tata Sons defers AGM as key shareholder misses meeting amid N Chandrasekaran exit: Report",
-      "summary": "Tata Sons has postponed its annual general meeting after a key shareholder could not participate, creating a procedural hurdle for the privately held holding company.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/tata-sons-defers-agm-as-key-shareholder-misses-meeting-amid-n-chandrasekaran-exit-report-549826-2026-08-18?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-18T10:26:50.000Z"
     }
   ]
 }
