@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T07:32:27.441Z",
+  "lastUpdated": "2026-08-22T10:48:19.382Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,38 @@
     }
   ],
   "articles": [
+    {
+      "title": "RBI forex swap facility draws $72.85 billion inflows, FCNR(B) deposits account for bulk",
+      "summary": "Of the total $72.848 billion mobilised under the facility, FCNR(B) deposits accounted for $65.397 billion. OFCBs contributed $4.860 billion, while ECBs brought in $2.591 billion.",
+      "url": "https://www.businesstoday.in/latest/economy/story/rbi-forex-swap-facility-draws-72-85-billion-inflows-fcnrb-deposits-account-for-bulk-550756-2026-08-22?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "regulatory",
+      "publishedAt": "2026-08-22T09:47:58.000Z"
+    },
+    {
+      "title": "NBFCs stay on growth track as asset quality remains stable: Report",
+      "summary": "Non-banking financial companies anticipate steady growth ahead. Credit demand remains robust despite global geopolitical uncertainties. NBFC earnings showed strong growth in the first quarter of FY27. Vehicle financiers experienced accelerated asset under management growth.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/nbfcs-stay-on-growth-track-as-asset-quality-remains-stable-report/articleshow/133421416.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-22T09:46:41.000Z"
+    },
+    {
+      "title": "29 states vs Meta: How a landmark child safety trial could reshape Facebook, Insta",
+      "summary": "Twenty-nine US states are suing Meta, alleging exploitative product design targeting young users. The lawsuit claims Meta concealed internal research about potential harms to teenagers.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/29-states-vs-meta-how-a-landmark-child-safety-trial-could-reshape-facebook-and-instagram/articleshow/133420026.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-22T08:03:21.000Z"
+    },
+    {
+      "title": "The Rs 606 problem: What happens when India puts a price on UPI",
+      "summary": "Parliament has cleared the way to charge shops for UPI payments. NPCI's own data shows the fee would miss almost everything India buys.",
+      "url": "https://www.businesstoday.in/latest/economy/story/the-rs-606-problem-what-happens-when-india-puts-a-price-on-upi-550747-2026-08-22?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-22T07:32:11.000Z"
+    },
     {
       "title": "UPI should remain free: Expert on why MDR could push merchants and consumers back to cash",
       "summary": "R S Sharma has argued that UPI should remain free for merchants and consumers, warning that a Merchant Discount Rate (MDR) could weaken India’s digital payments momentum.",
@@ -281,14 +313,6 @@
       "publishedAt": "2026-08-21T14:45:18.000Z"
     },
     {
-      "title": "Chinese stake rules eased: India sees 29 FDI proposals worth Rs 4,895.65 crore; check details",
-      "summary": "The 29 investment proposals have come from investors and entities based in several jurisdictions, including Mauritius, the US, South Korea, Japan, Singapore, Luxembourg and the Cayman Islands.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/chinese-stake-rules-eased-india-sees-29-fdi-proposals-worth-rs-4895-65-crore-check-details/articleshow/133406686.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-21T14:14:08.000Z"
-    },
-    {
       "title": "Current economic model in India is default: P. Chidambaram",
       "summary": "India’s economy is trapped in a square of regulation, investigation and enforcement, crony capitalism and bureaucratic hurdles, said former finance minister P Chidambaram.",
       "url": "https://www.businesstoday.in/india-at-100/story/current-economic-model-in-india-is-default-p-chidambaram-550687-2026-08-21?utm_source=rssfeed",
@@ -337,14 +361,6 @@
       "publishedAt": "2026-08-21T11:30:49.000Z"
     },
     {
-      "title": "SBI cash withdrawal rules change from October 1: Rs 15 fee after four free transactions",
-      "summary": "SBI customers will face charges for cash withdrawals exceeding four free monthly transactions. A fee of Rs 15 plus GST applies to Basic Savings Bank Deposit accounts. Digital transactions remain free, and Aadhaar Enabled Payment System transactions are now counted.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/sbi-cash-withdrawal-rules-change-from-october-1-rs-15-fee-after-four-free-transactions/articleshow/133401205.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-21T10:32:16.000Z"
-    },
-    {
       "title": "BT India@100 | Mumbai went vertical, Gurgaon built a private metro: DLF's Aakash Ohri on what Indian cities must do before 2047",
       "summary": "Aakash Ohri emphasises sustainable development, public-private partnerships, and accountable leadership as essential for shaping India's urban future by 2047",
       "url": "https://www.businesstoday.in/india-at-100/story/bt-india100-mumbai-went-vertical-gurgaon-built-a-private-metro-dlfs-aakash-ohri-on-what-indian-cities-must-do-before-2047-550610-2026-08-21?utm_source=rssfeed",
@@ -359,22 +375,6 @@
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-08-21T08:59:09.000Z"
-    },
-    {
-      "title": "Vedanta invests $1 billion in net-zero push as emissions fall 36 million tonnes",
-      "summary": "Vedanta’s renewable energy utilisation increased 52% year-on-year to 4 billion units, or 400 crore units, in FY2025-26. The company said this is equivalent to the annual electricity consumption of around 3 crore Indian households.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/vedanta-invests-1-billion-in-net-zero-push-as-emissions-fall-36-million-tonnes-550585-2026-08-21?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-21T08:33:06.000Z"
-    },
-    {
-      "title": "BT India@100: ‘Indian industry should forget about protectionism; time to beat China at its game,’ says Amitabh Kant",
-      "summary": "BT India@100: Amitabh Kant also said that India has done very well by striking multiple trade deals, but it is also a learning now for the industry that if they don’t get competitive, then products from these foreign markets will flood India.",
-      "url": "https://www.businesstoday.in/india-at-100/story/bt-india100-indian-industry-should-forget-about-protectionism-time-to-beat-china-at-its-game-says-amitabh-kant-550584-2026-08-21?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-21T08:32:27.000Z"
     }
   ]
 }
