@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T13:33:00.015Z",
+  "lastUpdated": "2026-08-23T19:22:46.479Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,38 @@
     }
   ],
   "articles": [
+    {
+      "title": "Private banks vs PSU banks: Goldman Sachs sees a major shift in the next two years",
+      "summary": "Goldman Sachs expects a cyclical recovery in Indian banks over FY27-FY29, but sees private lenders better placed than PSU banks to benefit from improving loan growth, margins and asset quality.",
+      "url": "https://www.businesstoday.in/industry/banks/story/private-banks-vs-psu-banks-goldman-sachs-sees-a-major-shift-in-the-next-two-years-550767-2026-08-23?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-23T17:55:02.000Z"
+    },
+    {
+      "title": "India’s derivatives market gets a Gen Z makeover, but losses pile up: Sebi",
+      "summary": "Recent trends indicate that traders aged under thirty now make up an impressive forty-three percent of all participants in the derivatives sector. Interestingly, individuals earning less than five lakh rupees a year are leading the market's activities.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/indias-derivatives-market-gets-a-gen-z-makeover-but-losses-pile-up-sebi/articleshow/133442543.cms",
+      "source": "Times of India Business",
+      "category": "regulatory",
+      "publishedAt": "2026-08-23T16:10:56.000Z"
+    },
+    {
+      "title": "FPIs turn buyers again: Foreign investors pour Rs 23,544 crore into Indian equities in August",
+      "summary": "In August, foreign portfolio investors made a notable comeback to Indian equities, infusing a substantial Rs 23,544 crore. This resurgence follows earlier trends where significant amounts were pulled out.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/fpis-turn-buyers-again-foreign-investors-pour-rs-23544-crore-into-indian-equities-in-august/articleshow/133442132.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-23T15:46:40.000Z"
+    },
+    {
+      "title": "Trump tariffs: What India can learn from Canada’s failed trade talks with US",
+      "summary": "Ottawa said it would introduce “dollar-for-dollar” retaliatory tariffs from September 8. The move brought an end to talks that had started on February 1, 2025, after the first round of new US tariffs was imposed.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/trump-tariffs-what-india-can-learn-from-canadas-failed-trade-talks-with-us/articleshow/133441067.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-23T14:11:10.000Z"
+    },
     {
       "title": "Market recap: Rs 87,960 crore wiped off four top-10 firms; Airtel bears biggest loss",
       "summary": "Dalal Street faced a setback last week, closing lower with four prominent companies witnessing significant depreciation in market value. Notably, Bharti Airtel and TCS experienced the steepest declines, which affected overall market confidence.",
@@ -321,14 +353,6 @@
       "publishedAt": "2026-08-21T23:30:05.000Z"
     },
     {
-      "title": "Cabinet clears four railway projects worth ₹9,450 crore that will add approximately 410 km of new track",
-      "summary": "Four railway projects worth approximately ₹9,450 crore will add about 410 km of track across four states. Here is the exact length and location of every approved section.",
-      "url": "https://www.businesstoday.in/latest/trends/photo/cabinet-clears-four-railway-projects-worth-rs9450-crore-that-will-add-approximately-410-km-of-new-track-550673-2026-08-22?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-21T23:00:03.000Z"
-    },
-    {
       "title": "Car buyers take fancy to mid-size SUV models",
       "summary": "",
       "url": "https://timesofindia.indiatimes.com/business/india-business/car-buyers-take-fancy-to-mid-size-suv-models/articleshow/133415322.cms",
@@ -343,30 +367,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-08-21T22:14:22.000Z"
-    },
-    {
-      "title": "PSBs losing share in high-value business: Report",
-      "summary": "Falling Behind Private & Foreign Banks In Credit Cards, Getting Contracts From GCCs",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/psbs-losing-share-in-high-value-business-report/articleshow/133413839.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-21T22:02:47.000Z"
-    },
-    {
-      "title": "Easier rules boost FDI inflows from China by $500 million",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/easier-rules-boost-fdi-inflows-from-china-by-500-million/articleshow/133413831.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-21T21:55:15.000Z"
-    },
-    {
-      "title": "Tablets gain from rising laptop prices",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/tablets-gain-from-rising-laptop-prices/articleshow/133413817.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-21T21:48:53.000Z"
     },
     {
       "title": "PM Modi meets 20 space startup CEOs, urges wider use of space tech for public benefit",
