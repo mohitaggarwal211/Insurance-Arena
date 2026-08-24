@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-24T02:22:34.832Z",
-  "articlesCount": 36,
+  "lastUpdated": "2026-08-24T02:40:11.168Z",
+  "articlesCount": 37,
   "sourcesOk": 5,
   "sourcesTotal": 9,
   "sourceStatus": [
@@ -13,7 +13,7 @@
     {
       "source": "Business Today",
       "status": "ok",
-      "articles": 16,
+      "articles": 17,
       "feedUsed": "https://www.businesstoday.in/rssfeeds/?id=225346"
     },
     {
@@ -56,6 +56,14 @@
     }
   ],
   "articles": [
+    {
+      "title": "Quote of the Day by Anand Mahindra: 'The job of automobile manufacturers is to passionately build something that others love to own'",
+      "summary": "The quote reflects on how material success and wealth alone cannot guarantee lasting happiness.",
+      "url": "https://www.businesstoday.in/india/story/quote-of-the-day-by-anand-mahindra-the-job-of-automobile-manufacturers-is-to-passionately-build-something-that-others-love-to-own-550514-2026-08-24?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-24T02:00:03.000Z"
+    },
     {
       "title": "Oil prices slip over $1 as US weighs ‘D-Day’ Iran sanctions; Strait of Hormuz shipping risks in focus",
       "summary": "In the lead-up to impending US sanctions on Iran, oil prices fell as investors capitalized on recent gains. As Washington prepares to unveil its most stringent measures Monday, the potential for disruptions in Middle Eastern oil supply looms large.",
