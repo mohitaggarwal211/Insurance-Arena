@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-24T11:01:12.615Z",
-  "articlesCount": 39,
+  "lastUpdated": "2026-08-24T13:52:38.595Z",
+  "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
   "sourceStatus": [
@@ -13,7 +13,7 @@
     {
       "source": "Business Today",
       "status": "ok",
-      "articles": 19,
+      "articles": 20,
       "feedUsed": "https://www.businesstoday.in/rssfeeds/?id=225346"
     },
     {
@@ -56,6 +56,30 @@
     }
   ],
   "articles": [
+    {
+      "title": "UPI instant payments network grows from 1.78 cr annual transactions to 24,162 crore",
+      "summary": "India's Unified Payments Interface (UPI) is currently facilitating an impressive 66 crore transactions each day. Since 2016, the growth in its transaction volume has skyrocketed by an astounding 13,000 times.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/10-years-of-upi-instant-payments-network-grows-from-1-78-cr-annual-transactions-to-24162-crore/articleshow/133463230.cms",
+      "source": "Times of India Business",
+      "category": "insurance",
+      "publishedAt": "2026-08-24T11:28:05.000Z"
+    },
+    {
+      "title": "From Kerala to the Universe: 19-year-old Kaziah Liz Mejo wins India's crown",
+      "summary": "Kerala’s 19-year-old Kaziah Liz Mejo wins Miss Universe India 2026 after defeating 52 finalists. She will now represent India at the 75th Miss Universe pageant in Puerto Rico.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/from-kerala-to-the-universe-19-year-old-kaziah-liz-mejo-wins-indias-crown-550983-2026-08-24?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-24T11:10:25.000Z"
+    },
+    {
+      "title": "'₹200 lakh crore business possible by 2030', SBI chief predicts ahead of platinum jubilee",
+      "summary": "SBI was established on July 1, 1955, through an Act of Parliament that provided for the transfer of the undertaking of the Imperial Bank of India. The bank will complete 75 years in 2030.",
+      "url": "https://www.businesstoday.in/india/story/rs200-lakh-crore-business-possible-by-2030-sbi-chief-predicts-ahead-of-platinum-jubilee-550903-2026-08-24?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-24T11:08:59.000Z"
+    },
     {
       "title": "No relief for Rial: Iranian currency sinks to record low as US works on new sanctions",
       "summary": "Iran's rial reached a record low as the United States prepared new economic sanctions. Existing restrictions and a naval blockade have already severely impacted Iran's economy. The currency's decline has not yielded concessions from the US President.",
@@ -297,14 +321,6 @@
       "publishedAt": "2026-08-23T23:24:13.000Z"
     },
     {
-      "title": "Cost pressure: Carmakers see strong sales but lower profits",
-      "summary": "Rising Commodity Prices, Adverse Forex Movements Take Toll",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/cost-pressure-carmakers-see-strong-sales-but-lower-profits/articleshow/133448506.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-23T23:11:43.000Z"
-    },
-    {
       "title": "Private banks vs PSU banks: Goldman Sachs sees a major shift in the next two years",
       "summary": "Goldman Sachs expects a cyclical recovery in Indian banks over FY27-FY29, but sees private lenders better placed than PSU banks to benefit from improving loan growth, margins and asset quality.",
       "url": "https://www.businesstoday.in/industry/banks/story/private-banks-vs-psu-banks-goldman-sachs-sees-a-major-shift-in-the-next-two-years-550767-2026-08-23?utm_source=rssfeed",
@@ -359,14 +375,6 @@
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-08-23T00:45:02.000Z"
-    },
-    {
-      "title": "₹15 charge after 4 withdrawals: SBI changes rules for basic savings accounts",
-      "summary": "SBI will revise BSBD account rules from October 1, 2026, charging ₹15 plus GST for withdrawals beyond four free transactions a month. Here’s what customers should know.",
-      "url": "https://www.businesstoday.in/latest/trends/photo/rs15-charge-after-4-withdrawals-sbi-changes-rules-for-basic-savings-accounts-550401-2026-08-23?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-23T00:30:04.000Z"
     }
   ]
 }
