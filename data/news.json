@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-23T19:22:46.479Z",
-  "articlesCount": 40,
+  "lastUpdated": "2026-08-24T02:22:34.832Z",
+  "articlesCount": 36,
   "sourcesOk": 5,
   "sourcesTotal": 9,
   "sourceStatus": [
@@ -13,7 +13,7 @@
     {
       "source": "Business Today",
       "status": "ok",
-      "articles": 20,
+      "articles": 16,
       "feedUsed": "https://www.businesstoday.in/rssfeeds/?id=225346"
     },
     {
@@ -56,6 +56,134 @@
     }
   ],
   "articles": [
+    {
+      "title": "Oil prices slip over $1 as US weighs ‘D-Day’ Iran sanctions; Strait of Hormuz shipping risks in focus",
+      "summary": "In the lead-up to impending US sanctions on Iran, oil prices fell as investors capitalized on recent gains. As Washington prepares to unveil its most stringent measures Monday, the potential for disruptions in Middle Eastern oil supply looms large.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/oil-prices-slip-over-1-as-us-weighs-d-day-iran-sanctions-strait-of-hormuz-shipping-risks-in-focus/articleshow/133449231.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-24T01:59:46.000Z"
+    },
+    {
+      "title": "Same earphones, different sound: Why your smartphone may be secretly changing your music",
+      "summary": "The same earphones can sound different across smartphones. DACs, Bluetooth codecs, EQ settings, earbud fit and volume can all reshape your listening experience.",
+      "url": "https://www.businesstoday.in/technology/photo/same-earphones-different-sound-why-your-smartphone-may-be-secretly-changing-your-music-550632-2026-08-24?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-24T01:05:02.000Z"
+    },
+    {
+      "title": "Ather’s ₹1 lakh gamble: Its cheapest scooter yet could shake up the EV market",
+      "summary": "Ather Konarc could become the brand’s cheapest electric scooter at around ₹1 lakh, bringing a new EL platform, metal body and fresh features to the EV battle.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/athers-rs1-lakh-gamble-its-cheapest-scooter-yet-could-shake-up-the-ev-market-550624-2026-08-24?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-24T00:55:02.000Z"
+    },
+    {
+      "title": "Windows users, save these: 5 keyboard tricks that could change how you work",
+      "summary": "Five useful Windows keyboard shortcuts can help you recover closed tabs, access clipboard history, take screenshots, manage windows and work faster without a mouse.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/windows-users-save-these-5-keyboard-tricks-that-could-change-how-you-work-550627-2026-08-24?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-24T00:45:02.000Z"
+    },
+    {
+      "title": "Yamuna vs Ganga Expressway: The better highway depends on where you're headed",
+      "summary": "Yamuna Expressway and Ganga Expressway serve different travel needs. Compare their length, speed, routes, airport links and strategic importance across Uttar Pradesh.",
+      "url": "https://www.businesstoday.in/latest/photo/yamuna-vs-ganga-expressway-the-better-highway-depends-on-where-youre-headed-550658-2026-08-24?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-24T00:30:05.000Z"
+    },
+    {
+      "title": "FPIs accelerate buying: Invest 23.5k crore in August",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/fpis-accelerate-buying-invest-23-5k-crore-in-august/articleshow/133448783.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-24T00:23:27.000Z"
+    },
+    {
+      "title": "Syed Akbaruddin, Annie George Mathew, Janmejaya Kumar Sinha on RBI board",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/syed-akbaruddin-annie-george-mathew-janmejaya-kumar-sinha-on-rbi-board/articleshow/133448758.cms",
+      "source": "Times of India Business",
+      "category": "regulatory",
+      "publishedAt": "2026-08-24T00:18:13.000Z"
+    },
+    {
+      "title": "Shriram bullish on CV growth despite recent price hikes",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/shriram-bullish-on-cv-growth-despite-recent-price-hikes/articleshow/133448742.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-24T00:11:44.000Z"
+    },
+    {
+      "title": "India eyes enhancing trade pact with Chile",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/india-eyes-enhancing-trade-pact-with-chile/articleshow/133448719.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-24T00:06:51.000Z"
+    },
+    {
+      "title": "Weakness in currency can create negative loop: HSBC",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/weakness-in-currency-can-create-negative-loop-hsbc/articleshow/133448623.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-23T23:55:37.000Z"
+    },
+    {
+      "title": "Government looks to deepen trade ties with Japan",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/government-looks-to-deepen-trade-ties-with-japan/articleshow/133448551.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-23T23:29:40.000Z"
+    },
+    {
+      "title": "Nifty 500 cos earnings jump 13% in Q1, OMCs feel West Asia heat",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/nifty-500-cos-earnings-jump-13-in-q1-omcs-feel-west-asia-heat/articleshow/133448526.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-23T23:24:13.000Z"
+    },
+    {
+      "title": "Cost pressure: Carmakers see strong sales but lower profits",
+      "summary": "Rising Commodity Prices, Adverse Forex Movements Take Toll",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/cost-pressure-carmakers-see-strong-sales-but-lower-profits/articleshow/133448506.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-23T23:11:43.000Z"
+    },
+    {
+      "title": "Onion prices surge; Centre to roll out Kanda Express from Monday",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/onion-prices-surge-centre-to-roll-out-kanda-express-from-monday/articleshow/133446454.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-23T20:19:36.000Z"
+    },
+    {
+      "title": "Govt to tighten vehicle lighting rules: Low-beam-only bikes, reduced headlamp glare",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/govt-to-tighten-vehicle-lighting-rules-low-beam-only-bikes-reduced-headlamp-glare/articleshow/133446435.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-23T20:09:27.000Z"
+    },
+    {
+      "title": "India projected to surpass China in affluent consumers by 2036 : Report",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/india-set-to-surpass-china-in-affluent-consumers-by-2036-report/articleshow/133443798.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-23T19:31:00.000Z"
+    },
     {
       "title": "Private banks vs PSU banks: Goldman Sachs sees a major shift in the next two years",
       "summary": "Goldman Sachs expects a cyclical recovery in Indian banks over FY27-FY29, but sees private lenders better placed than PSU banks to benefit from improving loan growth, margins and asset quality.",
@@ -153,14 +281,6 @@
       "publishedAt": "2026-08-23T04:50:46.000Z"
     },
     {
-      "title": "'Masters in our own home': Canada PM Carney explains why trade talks with US were suspended",
-      "summary": "Canada has halted trade negotiations with the United States due to perceived inequities in demands, leading to the US imposing hefty tariffs on Canadian exports. In response, Canada has unveiled countermeasures to address these tariffs.",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/masters-in-our-own-home-canada-pm-carney-explains-why-trade-talks-with-us-were-suspended/articleshow/133433826.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-23T03:28:51.000Z"
-    },
-    {
       "title": "Quote of the Day by Narayana Murthy : ‘Every company has to identify what I call its strategic resources, and make sure that it grabs as much of its strategic resources as possible’",
       "summary": "He lamented that even top gold medalists from IITs often struggled when pursuing research at global institutions like MIT or Harvard University because the Indian system fails to link theory with real-world.",
       "url": "https://www.businesstoday.in/india/story/quote-of-the-day-by-narayana-murthy-every-company-has-to-identify-what-i-call-its-strategic-resources-and-make-sure-that-it-grabs-as-much-of-its-strategic-resources-as-possible-550509-2026-08-23?utm_source=rssfeed",
@@ -193,52 +313,12 @@
       "publishedAt": "2026-08-23T00:30:04.000Z"
     },
     {
-      "title": "Luxury sales plunge in China as tax push hits rich shoppers",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/luxury-sales-plunge-in-china-as-tax-push-hits-rich-shoppers/articleshow/133431041.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-22T21:20:51.000Z"
-    },
-    {
-      "title": "Collections under RBI's dollar swap scheme exceed $72.8 billion",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/collections-under-rbis-dollar-swap-scheme-exceed-72-8-billion/articleshow/133431023.cms",
-      "source": "Times of India Business",
-      "category": "regulatory",
-      "publishedAt": "2026-08-22T21:05:48.000Z"
-    },
-    {
-      "title": "Amrit Bharat 3.0: AC coaches with Vande Bharat-style features for common man soon. Why it matters",
-      "summary": "Introduced in 2023, over 60-plus Amrit Bharat trains run across the Indian Railways network. The fares are around Rs 500 per 1,000 kilometres for sleeper class travel - the aim clearly being affordability.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/amrit-bharat-3-0-ac-coaches-with-vande-bharat-style-features-for-common-man-soon-why-it-matters/articleshow/133425509.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-22T13:54:02.000Z"
-    },
-    {
       "title": "RBI forex swap facility draws $72.85 billion inflows, FCNR(B) deposits account for bulk",
       "summary": "Of the total $72.848 billion mobilised under the facility, FCNR(B) deposits accounted for $65.397 billion. OFCBs contributed $4.860 billion, while ECBs brought in $2.591 billion.",
       "url": "https://www.businesstoday.in/latest/economy/story/rbi-forex-swap-facility-draws-72-85-billion-inflows-fcnrb-deposits-account-for-bulk-550756-2026-08-22?utm_source=rssfeed",
       "source": "Business Today",
       "category": "regulatory",
       "publishedAt": "2026-08-22T09:47:58.000Z"
-    },
-    {
-      "title": "NBFCs stay on growth track as asset quality remains stable: Report",
-      "summary": "Non-banking financial companies anticipate steady growth ahead. Credit demand remains robust despite global geopolitical uncertainties. NBFC earnings showed strong growth in the first quarter of FY27. Vehicle financiers experienced accelerated asset under management growth.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/nbfcs-stay-on-growth-track-as-asset-quality-remains-stable-report/articleshow/133421416.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-22T09:46:41.000Z"
-    },
-    {
-      "title": "29 states vs Meta: How a landmark child safety trial could reshape Facebook, Insta",
-      "summary": "Twenty-nine US states are suing Meta, alleging exploitative product design targeting young users. The lawsuit claims Meta concealed internal research about potential harms to teenagers.",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/29-states-vs-meta-how-a-landmark-child-safety-trial-could-reshape-facebook-and-instagram/articleshow/133420026.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-22T08:03:21.000Z"
     },
     {
       "title": "The Rs 606 problem: What happens when India puts a price on UPI",
@@ -257,124 +337,12 @@
       "publishedAt": "2026-08-22T06:32:40.000Z"
     },
     {
-      "title": "US-Canada trade standoff: 50% tariff kicks in as Ottawa vows 'dollar-for-dollar' response",
-      "summary": "Trade negotiations between the United States and Canada fell apart after a three-day face-off. Canada called a halt to discussions, criticizing the US for presenting proposals that were both unfair and detrimental.",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/us-canada-trade-standoff-50-tariff-kicks-in-as-ottawa-vows-dollar-for-dollar-response/articleshow/133417998.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-22T05:40:57.000Z"
-    },
-    {
       "title": "LPG, CNG, PNG rates today, August 22: Check latest prices in Delhi, Mumbai, Chennai, Kolkata and other cities",
       "summary": "Domestic LPG, CNG and PNG prices continue to remain largely stable for households across India despite the West Asia conflict involving the US and Israel on one side and Iran on the other nearing an end.",
       "url": "https://www.businesstoday.in/india/story/lpg-cng-png-rates-today-august-22-check-latest-prices-in-delhi-mumbai-chennai-kolkata-and-other-cities-550669-2026-08-22?utm_source=rssfeed",
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-08-22T03:52:31.000Z"
-    },
-    {
-      "title": "'Unfair': Canada suspends trade talks with US, PM Carney says will match tariffs 'dollar for dollar'",
-      "summary": "In response to unfair trade terms imposed by the United States, Canada has decided to suspend its trade negotiations. With significant tariffs on Canadian imports set to take effect at midnight, Prime Minister Carney announced that Canada will retaliate with equivalent tariffs.",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/unfair-canada-suspends-trade-talks-with-us-pm-carney-says-will-match-tariffs-dollar-for-dollar/articleshow/133416901.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-22T03:51:35.000Z"
-    },
-    {
-      "title": "US Navy aircraft transits Taiwan Strait before planned Xi-Trump meeting",
-      "summary": "In a groundbreaking move, China has launched an extensive automotive recall, impacting 4.3 million vehicles across multiple manufacturers including Tesla.",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/4-3-million-vehicles-recalled-in-china-over-safety-risks-tesla-accounts-for-2-98-million/articleshow/133416035.cms",
-      "source": "Times of India Business",
-      "category": "regulatory",
-      "publishedAt": "2026-08-22T02:41:33.000Z"
-    },
-    {
-      "title": "Quote of the Day by Steve Jobs: ‘Computers themselves, and software yet to be developed, will revolutionize the way we learn'",
-      "summary": "Steve Jobs (1955-2011) was an American entrepreneur, inventor, and business magnate best known as the co-founder of Apple. Jobs played a key role in revolutionising personal computing, smartphones, digital music, and animation.",
-      "url": "https://www.businesstoday.in/latest/world/story/quote-of-the-day-by-steve-jobs-computers-themselves-and-software-yet-to-be-developed-will-revolutionize-the-way-we-learn-550506-2026-08-22?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-22T02:00:03.000Z"
-    },
-    {
-      "title": "iQOO Z11 launch: The new smartphone packing a 7,050mAh battery and curved display",
-      "summary": "",
-      "url": "https://www.businesstoday.in/latest/trends/photo/iqoo-z11-launch-the-new-smartphone-packing-a-7050mah-battery-and-curved-display-550512-2026-08-22?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-22T01:05:02.000Z"
-    },
-    {
-      "title": "Beyond Bollywood glamour: Inside the lavish menu of Arpita Khan’s Mercii",
-      "summary": "Inside Arpita Khan Sharma’s Mumbai restaurant Mercii, where a Rs 10,000 fish, Rs 8,500 truffle pasta and champagne worth Rs 1.88 lakh turn dining into a luxury affair.",
-      "url": "https://www.businesstoday.in/latest/trends/photo/beyond-bollywood-glamour-inside-the-lavish-menu-of-arpita-khans-mercii-550400-2026-08-22?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-22T00:45:02.000Z"
-    },
-    {
-      "title": "Anil Kapoor’s first television payment was ₹250—five verified milestones from his early struggle to global recognition",
-      "summary": "Anil Kapoor’s documented journey includes a ₹250 Doordarshan payment, teenage production work, a background-dancing job, two early leading roles and a SAG ensemble victory.",
-      "url": "https://www.businesstoday.in/latest/trends/photo/anil-kapoors-first-television-payment-was-rs250-five-verified-milestones-from-his-early-struggle-to-global-recognition-550684-2026-08-22?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-22T00:30:04.000Z"
-    },
-    {
-      "title": "Delhi and New Delhi are not the same administrative unit—here is the accurate and updated difference",
-      "summary": "Delhi is the 1,483-sq-km National Capital Territory with 13 revenue districts. New Delhi is a district name and the commonly used name for its smaller administrative core.",
-      "url": "https://www.businesstoday.in/latest/trends/photo/delhi-and-new-delhi-are-not-the-same-administrative-unit-here-is-the-accurate-and-updated-difference-550678-2026-08-22?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-22T00:30:04.000Z"
-    },
-    {
-      "title": "Katra-Banihal rail boost: India’s toughest mountain route gets a major speed upgrade",
-      "summary": "Indian Railways raises the Katra-Banihal section’s maximum speed to 100 kmph, promising faster travel across the 111-km Himalayan route featuring 33 tunnels and iconic bridges.",
-      "url": "https://www.businesstoday.in/latest/trends/photo/katra-banihal-rail-boost-indias-toughest-mountain-route-gets-a-major-speed-upgrade-550395-2026-08-22?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-22T00:30:04.000Z"
-    },
-    {
-      "title": "Ahmedabad–Bhagalpur Amrit Bharat Express begins service on August 26: timings, route and coaches explained",
-      "summary": "The Ahmedabad–Bhagalpur Amrit Bharat Express begins weekly service on August 26. Check its verified departure times, journey duration, major stops and coach composition.",
-      "url": "https://www.businesstoday.in/latest/trends/photo/ahmedabad-bhagalpur-amrit-bharat-express-begins-service-on-august-26-timings-route-and-coaches-explained-550675-2026-08-22?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-21T23:35:01.000Z"
-    },
-    {
-      "title": "Planning a weekend with children in Delhi? These five destinations combine nature, heritage and practical learning",
-      "summary": "From Sunder Nursery and Lodhi Garden to trains and wildlife, these five Delhi outings give children specific opportunities to explore nature, architecture and transport history.",
-      "url": "https://www.businesstoday.in/latest/trends/photo/planning-a-weekend-with-children-in-delhi-these-five-destinations-combine-nature-heritage-and-practical-learning-550672-2026-08-22?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-21T23:30:05.000Z"
-    },
-    {
-      "title": "Car buyers take fancy to mid-size SUV models",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/car-buyers-take-fancy-to-mid-size-suv-models/articleshow/133415322.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-21T22:28:12.000Z"
-    },
-    {
-      "title": "Apple expected to expand manufacturing beyond iPhones: Govt",
-      "summary": "Google May Shift Share Of Production From China To India",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/apple-expected-to-expand-mfg-beyond-iphones-govt/articleshow/133414076.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-21T22:14:22.000Z"
-    },
-    {
-      "title": "PM Modi meets 20 space startup CEOs, urges wider use of space tech for public benefit",
-      "summary": "India Expecting Growth In Space Sector From $8 bn to $44 bn by 2033: INSPACe head",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/pm-modi-meets-ceos-of-20-space-startups-ask-them-for-wider-applications-of-space-tech-to-improve-peoples-lives/articleshow/133413394.cms",
-      "source": "Times of India Business",
-      "category": "insurance",
-      "publishedAt": "2026-08-21T19:49:50.000Z"
     }
   ]
 }
