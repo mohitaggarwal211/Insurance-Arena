@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T07:44:39.569Z",
+  "lastUpdated": "2026-08-25T10:58:48.204Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -57,12 +57,68 @@
   ],
   "articles": [
     {
+      "title": "Did you know India’s cash demand is strong despite the digital payment boom?",
+      "summary": "The growth of UPI has been particularly striking. According to the NPCI, UPI processed 23.6 billion transactions worth ₹29.9 lakh crore in May 2026",
+      "url": "https://www.businesstoday.in/latest/economy/story/did-you-know-indias-cash-demand-is-strong-despite-the-digital-payment-boom-551220-2026-08-25?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-25T10:21:10.000Z"
+    },
+    {
+      "title": "Sugar prices cool 18% after hitting record high, ex-mill rates fall to Rs 55 per kg",
+      "summary": "Following a surge in sugar prices to unprecedented levels last week, the market is now experiencing a decline. Government interventions aimed at curbing hoarding and speculation have contributed to this stabilization.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/sugar-prices-cool-18-after-hitting-record-high-ex-mill-rates-fall-to-rs-55-per-kg/articleshow/133504686.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-25T10:05:32.000Z"
+    },
+    {
+      "title": "SBI eyes $10 billion from NRIs, foreign investors as RBI swap window closes",
+      "summary": "SBI expects to mobilise around $9-10 billion from NRIs and foreign investors by August 31, as the RBI’s concessional FCNR(B) swap window nears closure.",
+      "url": "https://www.businesstoday.in/latest/economy/story/sbi-eyes-10-billion-from-nris-foreign-investors-as-rbi-swap-window-closes-551219-2026-08-25?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "regulatory",
+      "publishedAt": "2026-08-25T09:39:22.000Z"
+    },
+    {
+      "title": "From a toothbrush to cat food: This Bangkok cab driver stocks everyday essentials for passengers",
+      "summary": "The driver also offers passengers water and coffee.",
+      "url": "https://www.businesstoday.in/latest/trends/story/from-a-toothbrush-to-cat-food-this-bangkok-cab-driver-stocks-everyday-essentials-for-passengers-551217-2026-08-25?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-25T09:29:01.000Z"
+    },
+    {
+      "title": "741 banks on UPI: How India built the world’s biggest real-time payments ecosystem",
+      "summary": "UPI has grown from a network of just 21 banks at launch in 2016 to 741 banks by July 2026, creating one of the world’s largest real-time payments ecosystems.",
+      "url": "https://www.businesstoday.in/latest/economy/story/741-banks-on-upi-how-india-built-the-worlds-biggest-real-time-payments-ecosystem-551210-2026-08-25?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-25T09:07:06.000Z"
+    },
+    {
+      "title": "What if your job made you richer? Mark Cuban wants companies to give workers equity",
+      "summary": "Cuban recently responded to a question on X about how he would reduce wealth inequality. His proposal was direct: companies that do not offer employees equity should face higher taxes",
+      "url": "https://www.businesstoday.in/latest/trends/story/what-if-your-job-made-you-richer-mark-cuban-wants-companies-to-give-workers-equity-551158-2026-08-25?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-25T08:58:06.000Z"
+    },
+    {
       "title": "'Bulk of decent jobs in the next two decades will need to come from manufacturing'",
       "summary": "Sanjay Kathuria says India has not missed the bus on becoming a global manufacturing hub.",
       "url": "https://www.businesstoday.in/latest/economy/story/bulk-of-decent-jobs-in-the-next-two-decades-will-need-to-come-from-manufacturing-551162-2026-08-25?utm_source=rssfeed",
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-08-25T07:32:34.000Z"
+    },
+    {
+      "title": "From 600 to 5,000 packages an hour: FedEx unveils $150 million Delhi cargo hub",
+      "summary": "FedEx will invest $150 million to build a new air cargo hub in Delhi. This facility will significantly increase package processing capacity at the airport. The hub aims to strengthen air cargo connectivity across North and East India.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/from-600-to-5000-packages-an-hour-fedex-unveils-150-million-delhi-cargo-hub/articleshow/133497883.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-25T07:28:28.000Z"
     },
     {
       "title": "Why Trump may have to target China to make its Iran 'economic D-Day' work",
@@ -137,7 +193,7 @@
       "publishedAt": "2026-08-25T04:36:26.000Z"
     },
     {
-      "title": "Singtel wants to enter India’s satcom market; seeks FDI approval: Report",
+      "title": "Singtel seeks approval to provide satellite services directly in India",
       "summary": "STIPL has been operating in India for the past two decades but it needs fresh approval for its FDI as it seeks to expand its scope to include satellite communication-related services.",
       "url": "https://www.businesstoday.in/latest/corporate/story/singtel-wants-to-enter-indias-satcom-market-seeks-fdi-approval-report-551101-2026-08-25?utm_source=rssfeed",
       "source": "Business Today",
@@ -297,22 +353,6 @@
       "publishedAt": "2026-08-24T22:54:14.000Z"
     },
     {
-      "title": "TCS to acquire Porsche arm for $373 million, inks $1.4 billion deal",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/tcs-to-acquire-porsche-arm-for-373-million-inks-1-4-billion-deal/articleshow/133483342.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-24T22:48:38.000Z"
-    },
-    {
-      "title": "UPI@10: How platform changed the way we pay",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/upi10-how-platform-changed-the-way-we-pay/articleshow/133483190.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-24T22:40:36.000Z"
-    },
-    {
       "title": "'Our trade is growing again, thanks to PM Modi': Putin tells EAM Jaishankar",
       "summary": "Putin said India and Russia continued to cooperate across several areas, including energy, fertilisers, nuclear power, and high-tech sectors",
       "url": "https://www.businesstoday.in/latest/economy/story/our-trade-is-growing-again-thanks-to-pm-modi-putin-tells-eam-jaishankar-551054-2026-08-24?utm_source=rssfeed",
@@ -335,46 +375,6 @@
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-08-24T11:10:25.000Z"
-    },
-    {
-      "title": "'₹200 lakh crore business possible by 2030', SBI chief predicts ahead of platinum jubilee",
-      "summary": "SBI was established on July 1, 1955, through an Act of Parliament that provided for the transfer of the undertaking of the Imperial Bank of India. The bank will complete 75 years in 2030.",
-      "url": "https://www.businesstoday.in/india/story/rs200-lakh-crore-business-possible-by-2030-sbi-chief-predicts-ahead-of-platinum-jubilee-550903-2026-08-24?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-24T11:08:59.000Z"
-    },
-    {
-      "title": "'Judicial system is in an unbelievable mess': Montek Singh Ahluwalia calls for urgent reform",
-      "summary": "Unfortunately, I don't think the central government can set it right, says Montek Singh Ahluwalia",
-      "url": "https://www.businesstoday.in/latest/economy/story/judicial-system-is-in-an-unbelievable-mess-montek-singh-ahluwalia-calls-for-urgent-reform-550938-2026-08-24?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-24T09:31:36.000Z"
-    },
-    {
-      "title": "What are life settlement funds and why is HDFC Bank in the spotlight over it?",
-      "summary": "The bank has said that the fund was registered in a recognised jurisdiction and that at the time of investment the fund had a performance track record and had been honouring redemptions.",
-      "url": "https://www.businesstoday.in/india/story/what-are-life-settlement-funds-and-why-is-hdfc-bank-in-the-spotlight-over-it-550916-2026-08-24?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-24T08:18:36.000Z"
-    },
-    {
-      "title": "India-Japan ties: What is the flurry of engagement signalling?",
-      "summary": "Commerce and Industry Minister Piyush Goyal is currently in Japan until August 27 with India's largest-ever business delegation to the country, more than 200 representatives covering Tokyo, Nagoya, and Osaka",
-      "url": "https://www.businesstoday.in/latest/economy/story/india-japan-ties-what-is-the-flurry-of-engagement-signalling-550902-2026-08-24?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-24T07:40:01.000Z"
-    },
-    {
-      "title": "Russia has the most forests, but where does India rank? Check top 15 nations with largest forest cover",
-      "summary": "Eight countries from the Americas feature in the ranking: Brazil, Canada, the U.S., Peru, Mexico, Colombia, Bolivia and Venezuela. Collectively, the 15 countries account for nearly three-quarters of the world’s forests.",
-      "url": "https://www.businesstoday.in/latest/world/story/russia-has-the-most-forests-but-where-does-india-rank-check-top-15-nations-with-largest-forest-cover-550840-2026-08-24?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-24T06:26:42.000Z"
     }
   ]
 }
