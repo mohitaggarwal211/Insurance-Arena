@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T19:30:52.475Z",
+  "lastUpdated": "2026-08-25T02:18:07.923Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,158 @@
     }
   ],
   "articles": [
+    {
+      "title": "Oil price today: Brent crude stays above $90 as Middle East standoff intensifies",
+      "summary": "Amidst a backdrop of fresh US sanctions on Iran, oil prices held firm as investors calculated the implications. The atmosphere grew tense after an oil tanker encountered damage near Oman's shores.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/oil-price-today-brent-crude-stays-above-90-as-middle-east-standoff-intensifies/articleshow/133486908.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-25T02:02:09.000Z"
+    },
+    {
+      "title": "Quote of the Day by Elon Musk: 'If something's important enough, you should try. Even if - the probable outcome is failure'",
+      "summary": "Elon Musk is a prominent billionaire entrepreneur, engineer, and tech mogul best known for founding and leading groundbreaking companies in space exploration, electric vehicles, and artificial intelligence.",
+      "url": "https://www.businesstoday.in/latest/world/story/quote-of-the-day-by-elon-musk-if-somethings-important-enough-you-should-try-even-if-the-probable-outcome-is-failure-550929-2026-08-25?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-25T02:00:03.000Z"
+    },
+    {
+      "title": "Bangkok, Tokyo, Barcelona are world’s top workcation destinations; only one Indian city make it to the list",
+      "summary": "The rankings come as work-from-anywhere policies become more widespread. Of those surveyed, 90% said it had improved their work-life balance, while 80% said it had improved productivity.",
+      "url": "https://www.businesstoday.in/latest/trends/story/bangkok-tokyo-barcelona-are-worlds-top-workcation-destinations-only-one-indian-city-make-it-to-the-list-550973-2026-08-25?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-25T01:30:05.000Z"
+    },
+    {
+      "title": "Forget petrol bikes: Honda’s futuristic Outlier EV hints at a radical two-wheeler future",
+      "summary": "Honda’s Outlier EV concept hints at the future of electric motorcycles with radical design, in-wheel motors, futuristic styling and a new approach to two-wheeler mobility beyond petrol bikes.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/forget-petrol-bikes-hondas-futuristic-outlier-ev-hints-at-a-radical-two-wheeler-future-550981-2026-08-25?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-25T01:10:02.000Z"
+    },
+    {
+      "title": "Norton breaks superbike rules: Manx R wins rare global design honour",
+      "summary": "Norton Manx R wins Bronze at the 2026 IDEA Awards, becoming the first production combustion-engined sports motorcycle to earn the honour with its bold, minimalist superbike design.",
+      "url": "https://www.businesstoday.in/latest/world/photo/norton-breaks-superbike-rules-manx-r-wins-rare-global-design-honour-550990-2026-08-25?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-25T01:00:03.000Z"
+    },
+    {
+      "title": "From ₹8.49 lakh: India’s hottest 7-seaters reveal what family buyers really want",
+      "summary": "India’s 7-seater car market heats up as Maruti Ertiga, Mahindra Scorpio, Toyota Innova Hycross, Bolero and XUV 7XO dominate July sales with strong demand from family buyers.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/from-rs8-49-lakh-indias-hottest-7-seaters-reveal-what-family-buyers-really-want-550979-2026-08-25?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-25T00:50:03.000Z"
+    },
+    {
+      "title": "Bolt’s 9.58 eclipsed: Chinese robots run 100m faster than the human world record",
+      "summary": "Chinese humanoid robots Tiangong Ultra and Lightning beat Usain Bolt’s 9.58-second 100m benchmark at Beijing Robot Games, highlighting China’s push in AI-powered robotics.",
+      "url": "https://www.businesstoday.in/latest/world/photo/bolts-9-58-eclipsed-chinese-robots-run-100m-faster-than-the-human-world-record-550991-2026-08-25?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-25T00:40:02.000Z"
+    },
+    {
+      "title": "Made in Amethi: India’s first 100% indigenous AK-203 Sher is ready for its biggest test",
+      "summary": "India’s first fully indigenous AK-203 Sher assault rifle, made in Amethi, completes firing tests as it moves closer to Indian Army trials under the push for defence self-reliance.",
+      "url": "https://www.businesstoday.in/latest/photo/made-in-amethi-indias-first-100-indigenous-ak-203-sher-is-ready-for-its-biggest-test-550992-2026-08-25?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-25T00:30:04.000Z"
+    },
+    {
+      "title": "Meiji Seika to push new vaccine with SII in India",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/meiji-seika-to-push-new-vaccine-with-sii-in-india/articleshow/133484455.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-25T00:09:59.000Z"
+    },
+    {
+      "title": "Resona Bank deepens ties with Tata Cap",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/resona-bank-deepens-ties-with-tata-cap/articleshow/133484364.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-24T23:45:07.000Z"
+    },
+    {
+      "title": "Government eyes 3000 crore by selling 6% in Hindustan Copper",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/government-eyes-3000-crore-by-selling-6-in-hindustan-copper/articleshow/133484262.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-24T23:39:35.000Z"
+    },
+    {
+      "title": "Government looks to add more AI partners for digital projects",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/government-looks-to-add-more-ai-partners-for-digital-projects/articleshow/133484117.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-24T23:32:06.000Z"
+    },
+    {
+      "title": "Labour survey 2026 likely to track digital, platform workers",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/labour-survey-2026-likely-to-track-digital-platform-workers/articleshow/133483578.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-24T23:25:31.000Z"
+    },
+    {
+      "title": "Canada to announce retaliatory tariffs against US after Trump warns of 'worse consequences'",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/canada-to-announce-retaliatory-tariffs-against-us-after-trump-warns-of-worse-consequences/articleshow/133483773.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-24T23:15:06.000Z"
+    },
+    {
+      "title": "India a safe base, Piyush Goyal tells Japanese investors",
+      "summary": "Cites Long List Of Trade Deals, Says Data Is Protected, Intellectual Property Is Secure",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/india-a-safe-base-piyush-goyal-tells-japanese-investors/articleshow/133483468.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-24T22:54:14.000Z"
+    },
+    {
+      "title": "TCS to acquire Porsche arm for $373 million, inks $1.4 billion deal",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/tcs-to-acquire-porsche-arm-for-373-million-inks-1-4-billion-deal/articleshow/133483342.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-24T22:48:38.000Z"
+    },
+    {
+      "title": "UPI@10: How platform changed the way we pay",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/upi10-how-platform-changed-the-way-we-pay/articleshow/133483190.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-24T22:40:36.000Z"
+    },
+    {
+      "title": "Russian President Putin says will continue fertiliser supplies to India",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/russian-president-putin-says-will-continue-fertiliser-supplies-to-india/articleshow/133480571.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-24T22:04:41.000Z"
+    },
+    {
+      "title": "Trump admin set to revoke up to 2 lakh visas in historic crackdown",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/trump-admin-set-to-revoke-up-to-2-lakh-visas-in-historic-crackdown/articleshow/133479031.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-24T20:44:43.000Z"
+    },
     {
       "title": "As onion prices rise, Centre readies retail intervention in Delhi-NCR",
       "summary": "",
@@ -153,28 +305,12 @@
       "publishedAt": "2026-08-24T10:43:07.000Z"
     },
     {
-      "title": "'No sugar shortage': ISMA says India has enough stocks, expects prices to cool down soon",
-      "summary": "Industry representatives from India's sugar sector have assured that there is no shortage of sugar in the domestic market. The surge in retail prices is attributed to stockpiling speculation and adverse weather impacting production.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/no-sugar-shortage-isma-says-india-has-enough-stocks-expects-prices-to-cool-down-soon/articleshow/133461400.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-24T10:30:35.000Z"
-    },
-    {
       "title": "'Judicial system is in an unbelievable mess': Montek Singh Ahluwalia calls for urgent reform",
       "summary": "Unfortunately, I don't think the central government can set it right, says Montek Singh Ahluwalia",
       "url": "https://www.businesstoday.in/latest/economy/story/judicial-system-is-in-an-unbelievable-mess-montek-singh-ahluwalia-calls-for-urgent-reform-550938-2026-08-24?utm_source=rssfeed",
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-08-24T09:31:36.000Z"
-    },
-    {
-      "title": "‘Most expensive in years’: Iran war, Hormuz closure forces India to pay high prices for LNG",
-      "summary": "State-backed energy companies are increasingly going to the spot LNG market and bidding up prices as the government seeks to support fertilizer producers that use natural gas.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/most-expensive-in-years-iran-war-hormuz-closure-forces-india-to-pay-high-prices-for-lng/articleshow/133457485.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-24T09:20:30.000Z"
     },
     {
       "title": "What are life settlement funds and why is HDFC Bank in the spotlight over it?",
@@ -193,52 +329,12 @@
       "publishedAt": "2026-08-24T07:40:01.000Z"
     },
     {
-      "title": "81-year-old mother allegedly forced to leave house: SC restores son's eviction under Senior Citizens Act",
-      "summary": "A Bench of Justice Pamidighantam Sri Narasimha and Justice Alok Aradhe set aside the Allahabad High Court's orders holding that authorities under the 2007 Act had no power to order eviction.",
-      "url": "https://timesofindia.indiatimes.com/legal/news/81-year-old-mother-allegedly-forced-to-leave-house-sc-restores-sons-eviction-under-senior-citizens-act/articleshow/133455963.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-24T07:32:23.000Z"
-    },
-    {
-      "title": "‘75% global trade will be covered’: India negotiating trade deals with 8-9 more groups of countries",
-      "summary": "Speaking to business representatives from India and Japan, Goyal said India has a sizeable domestic market while also opening itself to the global economy through nine free trade agreements signed over the past four years.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/75-global-trade-will-be-covered-india-negotiating-trade-deals-with-8-9-more-groups-of-countries/articleshow/133455823.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-24T07:19:36.000Z"
-    },
-    {
-      "title": "Stocks to buy: What's the outlook for Nifty for August 24-August 28 week? Check list of top stock recommendations",
-      "summary": "Stock market recommendations: Viyash Scientific, and AU Small Finance Bank - have been picked as the top stocks to buy on August 24, 2026 by Sudeep Shah, Head - Technical Research and Derivatives, SBI Securities.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/top-stocks-to-buy-this-week-august-24-to-august-28-stock-recommendations-viyash-scientific-au-small-finance-bank/articleshow/133454322.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-24T06:48:24.000Z"
-    },
-    {
-      "title": "Gold price prediction today: Worst of gold price dips over? Check outlook for August 24, 2026 week",
-      "summary": "Gold price prediction today: Looking ahead, market participants will closely monitor further developments in US Treasury operations, fiscal policy discussions, and upcoming economic data releases, which are expected to remain key drivers for gold prices in the near term.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/gold-price-prediction-today-what-is-the-gold-rate-outlook-for-august-24-2026-week-should-you-buy-or-sell-mcx-gold-us-iran-war-middle-east/articleshow/133453711.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-24T06:29:34.000Z"
-    },
-    {
       "title": "Russia has the most forests, but where does India rank? Check top 15 nations with largest forest cover",
       "summary": "Eight countries from the Americas feature in the ranking: Brazil, Canada, the U.S., Peru, Mexico, Colombia, Bolivia and Venezuela. Collectively, the 15 countries account for nearly three-quarters of the world’s forests.",
       "url": "https://www.businesstoday.in/latest/world/story/russia-has-the-most-forests-but-where-does-india-rank-check-top-15-nations-with-largest-forest-cover-550840-2026-08-24?utm_source=rssfeed",
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-08-24T06:26:42.000Z"
-    },
-    {
-      "title": "Rupee climbs to 95.64 against US dollar; Iran sanctions, crude prices in focus",
-      "summary": "The rupee began the trading day on a stronger note against the US dollar, appreciating by seven paise to 95.64. Nonetheless, concerns over geopolitical tensions and steady demand from importers curbed significant gains.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/rupee-climbs-to-95-64-against-us-dollar-iran-sanctions-crude-prices-in-focus/articleshow/133451146.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-24T04:30:23.000Z"
     },
     {
       "title": "Beyond Bengaluru: Can Mohali and UP capture India’s next GCC wave?",
@@ -249,22 +345,6 @@
       "publishedAt": "2026-08-24T04:25:13.000Z"
     },
     {
-      "title": "KPMG Australia to cut 5% of workforce amid scandal, weak growth outlook",
-      "summary": "KPMG Australia is set to cut around five percent of its workforce, a move triggered by a scandal involving breach of client confidentiality. The firm projects a challenging economic landscape lasting until 2028.",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/kpmg-australia-to-cut-5-of-workforce-amid-scandal-weak-growth-outlook/articleshow/133450506.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-24T04:06:00.000Z"
-    },
-    {
-      "title": "Markets close slightly lower; Sensex falls 172 points, Nifty slips to 24,219.05",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/sensex-stock-market-today-24-august-2026-live-updates-nse-bse-gift-nifty-50-top-gainers-losers-mcx-stocks-in-focus-market-news/liveblog/133450041.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-24T03:02:56.000Z"
-    },
-    {
       "title": "‘Since I arrived, I’ve only been paying bills’: Indian man in Japan spends nearly ₹1 lakh in 25 days",
       "summary": "Vargiya also compared the prices of several everyday items in Japan with their approximate prices in India.",
       "url": "https://www.businesstoday.in/latest/trends/story/since-i-arrived-ive-only-been-paying-bills-indian-man-in-japan-spends-nearly-rs1-lakh-in-25-days-550807-2026-08-24?utm_source=rssfeed",
@@ -273,28 +353,12 @@
       "publishedAt": "2026-08-24T03:00:03.000Z"
     },
     {
-      "title": "Top stocks to buy: Stock recommendations for August 24, 2026 week - check list",
-      "summary": "Stock market recommendations: Crompton Greaves, and ICICI Prudential AMC- these are the top stocks that have been picked by Motilal Oswal Wealth Management Research Desk as stock recommendations for the week starting August 24, 2026:",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/top-stock-recommendations-for-august-24-2026-week-crompton-greaves-icici-prudential-amc-stocks-to-buy-today/articleshow/133449670.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-24T02:40:02.000Z"
-    },
-    {
       "title": "Quote of the Day by Anand Mahindra: 'The job of automobile manufacturers is to passionately build something that others love to own'",
       "summary": "The quote reflects on how material success and wealth alone cannot guarantee lasting happiness.",
       "url": "https://www.businesstoday.in/india/story/quote-of-the-day-by-anand-mahindra-the-job-of-automobile-manufacturers-is-to-passionately-build-something-that-others-love-to-own-550514-2026-08-24?utm_source=rssfeed",
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-08-24T02:00:03.000Z"
-    },
-    {
-      "title": "Oil prices slip over $1 as US weighs ‘D-Day’ Iran sanctions; Strait of Hormuz shipping risks in focus",
-      "summary": "In the lead-up to impending US sanctions on Iran, oil prices fell as investors capitalized on recent gains. As Washington prepares to unveil its most stringent measures Monday, the potential for disruptions in Middle Eastern oil supply looms large.",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/oil-prices-slip-over-1-as-us-weighs-d-day-iran-sanctions-strait-of-hormuz-shipping-risks-in-focus/articleshow/133449231.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-24T01:59:46.000Z"
     },
     {
       "title": "Same earphones, different sound: Why your smartphone may be secretly changing your music",
@@ -311,70 +375,6 @@
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-08-24T00:55:02.000Z"
-    },
-    {
-      "title": "Windows users, save these: 5 keyboard tricks that could change how you work",
-      "summary": "Five useful Windows keyboard shortcuts can help you recover closed tabs, access clipboard history, take screenshots, manage windows and work faster without a mouse.",
-      "url": "https://www.businesstoday.in/latest/trends/photo/windows-users-save-these-5-keyboard-tricks-that-could-change-how-you-work-550627-2026-08-24?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-24T00:45:02.000Z"
-    },
-    {
-      "title": "Yamuna vs Ganga Expressway: The better highway depends on where you're headed",
-      "summary": "Yamuna Expressway and Ganga Expressway serve different travel needs. Compare their length, speed, routes, airport links and strategic importance across Uttar Pradesh.",
-      "url": "https://www.businesstoday.in/latest/photo/yamuna-vs-ganga-expressway-the-better-highway-depends-on-where-youre-headed-550658-2026-08-24?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-24T00:30:05.000Z"
-    },
-    {
-      "title": "Shriram bullish on CV growth despite recent price hikes",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/shriram-bullish-on-cv-growth-despite-recent-price-hikes/articleshow/133448742.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-24T00:11:44.000Z"
-    },
-    {
-      "title": "Private banks vs PSU banks: Goldman Sachs sees a major shift in the next two years",
-      "summary": "Goldman Sachs expects a cyclical recovery in Indian banks over FY27-FY29, but sees private lenders better placed than PSU banks to benefit from improving loan growth, margins and asset quality.",
-      "url": "https://www.businesstoday.in/industry/banks/story/private-banks-vs-psu-banks-goldman-sachs-sees-a-major-shift-in-the-next-two-years-550767-2026-08-23?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-23T17:55:02.000Z"
-    },
-    {
-      "title": "'Kolkata has become a city of old age pensioners': FM Swapan Dasgupta on Bengal's decline and skill shortage",
-      "summary": "The Bengalis are in the top places all over the world. Some people say they are very accomplished, but they're not in Bengal, says FM Swapan Dasgupta",
-      "url": "https://www.businesstoday.in/latest/economy/story/kolkata-has-become-a-city-of-old-age-pensioners-fm-swapan-dasgupta-on-bengals-decline-and-skill-gap-550801-2026-08-23?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-23T10:23:43.000Z"
-    },
-    {
-      "title": "Office politics getting messy? 5 pieces of advice from entrepreneur Ankur Warikoo to stay out of trouble",
-      "summary": "Every workplace has people who seem to know what is happening across the organisation, from project updates and management decisions to promotions and internal discussions.",
-      "url": "https://www.businesstoday.in/latest/trends/story/office-politics-getting-messy-5-pieces-of-advice-from-entrepreneur-ankur-warikoo-to-stay-out-of-trouble-550798-2026-08-23?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-23T08:44:00.000Z"
-    },
-    {
-      "title": "'My friends ended up seeing psychiatrists': Rajnish Kumar on ixigo's near-death moments and a deal he walked away from",
-      "summary": "'We had a path to an exit; we had some secondary liquidity, so financially we were in a comfortable position, and we felt that being acquired by a very large company meant we had made it.",
-      "url": "https://www.businesstoday.in/india/story/my-three-friends-ended-up-seeing-psychiatrists-why-ixigo-co-founders-walked-away-from-a-lucrative-exit-550043-2026-08-23?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-23T06:08:06.000Z"
-    },
-    {
-      "title": "Quote of the Day by Narayana Murthy : ‘Every company has to identify what I call its strategic resources, and make sure that it grabs as much of its strategic resources as possible’",
-      "summary": "He lamented that even top gold medalists from IITs often struggled when pursuing research at global institutions like MIT or Harvard University because the Indian system fails to link theory with real-world.",
-      "url": "https://www.businesstoday.in/india/story/quote-of-the-day-by-narayana-murthy-every-company-has-to-identify-what-i-call-its-strategic-resources-and-make-sure-that-it-grabs-as-much-of-its-strategic-resources-as-possible-550509-2026-08-23?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-23T02:00:03.000Z"
     }
   ]
 }
