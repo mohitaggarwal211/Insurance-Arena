@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T02:24:45.825Z",
+  "lastUpdated": "2026-08-26T02:41:51.875Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,14 @@
     }
   ],
   "articles": [
+    {
+      "title": "Quote of the Day by Warren Buffett: ‘It's far better to buy a wonderful company at a fair price than a fair company at a wonderful price’",
+      "summary": "Known as the \"Oracle of Omaha,\" Warren Buffett is one of the most successful investors of all time. Buffett chairs Berkshire Hathaway.",
+      "url": "https://www.businesstoday.in/latest/world/story/quote-of-the-day-by-warren-buffett-its-far-better-to-buy-a-wonderful-company-at-a-fair-price-than-a-fair-company-at-a-wonderful-price-551104-2026-08-26?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-26T02:00:03.000Z"
+    },
     {
       "title": "Ujjain’s robot surprise: Humanoid dancer steals the show at sandwich shop opening",
       "summary": "A humanoid robot steals the spotlight at a Ujjain sandwich shop inauguration by joining rituals and dancing. The viral moment sparks debate over robotics, automation and the future of jobs.",
@@ -311,14 +319,6 @@
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-08-25T09:29:01.000Z"
-    },
-    {
-      "title": "741 banks on UPI: How India built the world’s biggest real-time payments ecosystem",
-      "summary": "UPI has grown from a network of just 21 banks at launch in 2016 to 741 banks by July 2026, creating one of the world’s largest real-time payments ecosystems.",
-      "url": "https://www.businesstoday.in/latest/economy/story/741-banks-on-upi-how-india-built-the-worlds-biggest-real-time-payments-ecosystem-551210-2026-08-25?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-25T09:07:06.000Z"
     },
     {
       "title": "From 600 to 5,000 packages an hour: FedEx unveils $150 million Delhi cargo hub",
