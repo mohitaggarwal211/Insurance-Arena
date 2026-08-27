@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-27T11:35:59.833Z",
+  "lastUpdated": "2026-08-27T20:39:00.966Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -57,6 +57,62 @@
   ],
   "articles": [
     {
+      "title": "BPCL takes rare risk to bring Iraqi crude through Strait of Hormuz",
+      "summary": "The refiner bought about 1 million barrels of crude from Iraq last week, its first Iraqi oil purchase in the financial year that began April 1",
+      "url": "https://www.businesstoday.in/latest/economy/story/bpcl-takes-rare-risk-to-bring-iraqi-crude-through-strait-of-hormuz-551899-2026-08-27?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-27T16:09:03.000Z"
+    },
+    {
+      "title": "NCLT order misread: Subhash Chandra's ₹22,006 cr case isn't a 99.97% bank loss, say govt sources",
+      "summary": "The ₹22,006 crore figure comprises claims against Chandra as a personal guarantor, while the principal corporate borrowers remain separately liable for their debts.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/nclt-subhash-chandra-case-why-rs22006-crore-claims-do-not-mean-a-99-97-bank-haircut-govt-explains-551909-2026-08-27?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-27T15:53:43.000Z"
+    },
+    {
+      "title": "Rs 1.1 lakh cr to Rs 2.1 lakh cr: Why cost of 1st bullet train project has doubled",
+      "summary": "The bullet train project is also becoming a platform for India's own high-speed rail ambitions. BEML and ICF are developing India's first indigenous high-speed trainset, with the first expected to roll out in 2027.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/indias-first-bullet-train-project-began-with-a-rs-1-1-lakh-crore-estimate-cost-has-now-nearly-doubled-to-rs-2-1-lakh-crore-indigenously-made-high-speed-train-to-start-running-from-august-2027/articleshow/133572399.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-27T15:52:17.000Z"
+    },
+    {
+      "title": "India eyes ₹13,000 crore battery component push to reduce reliance on China: Report",
+      "summary": "The proposed programme is aimed at strengthening domestic battery supply chains and reducing India’s dependence on imports from China, which dominates global battery production.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/india-eyes-rs13000-crore-battery-component-push-to-reduce-reliance-on-china-report-551890-2026-08-27?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-27T14:05:55.000Z"
+    },
+    {
+      "title": "Subhash Chandra says NCLT insolvency claim is ₹3,992 crore, not ₹22,000 crore as reported",
+      "summary": "In a statement issued on Thursday, Chandra said he had not directly borrowed money from any lender and was involved in the insolvency proceedings solely in his capacity as a personal guarantor for loans raised by various borrowing entities.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/subhash-chandra-says-nclt-insolvency-claim-is-rs3992-crore-not-rs22000-crore-as-reported-551858-2026-08-27?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-27T12:51:33.000Z"
+    },
+    {
+      "title": "India collects payments faster than China, Singapore: What working capital data shows",
+      "summary": "India’s average payment collection period fell to 56 days in 2025, marking the biggest improvement in days receivable across Asia Pacific, according to Aon. The figure was significantly lower than China’s 99 days, Singapore’s 73 days and Hong Kong’s 76 days.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/india-collects-payments-faster-than-china-singapore-what-working-capital-data-shows-551837-2026-08-27?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-27T12:04:28.000Z"
+    },
+    {
+      "title": "The big Indian IT sector shake-up: GCCs are hiring more than traditional tech; who is getting the jobs?",
+      "summary": "Global Capability Centres or GCCs which are essentially specialised offshore units of multinational companies are fast absorbing talent from the traditional IT sector. The trend suggests that India’s GCCs are emerging as an increasingly important engine of technology hiring.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/the-big-indian-it-sector-shake-up-gccs-are-hiring-more-than-traditional-tech-who-is-getting-the-jobs/articleshow/133565257.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-27T11:46:10.000Z"
+    },
+    {
       "title": "Jio wins ₹11,003 crore tax dispute: ITAT says book entries alone can’t decide tax treatment",
       "summary": "The dispute centred on expenses that Jio had capitalised under capital work-in-progress (CWIP) in its books, but claimed as revenue expenditure while computing its taxable income",
       "url": "https://www.businesstoday.in/latest/corporate/story/jio-wins-rs11003-crore-tax-dispute-itat-says-book-entries-alone-cant-decide-tax-treatment-551791-2026-08-27?utm_source=rssfeed",
@@ -73,11 +129,11 @@
       "publishedAt": "2026-08-27T10:04:03.000Z"
     },
     {
-      "title": "MBA degree is paying more than engineering: Top 10 B-schools offer Rs 27.4 lakh average, while the salary premium of MBAs over engineering is set to rise from 52% to 59%",
+      "title": "MBAs bag higher salaries than engineers: Top B-schools average Rs 27.4 lakh",
       "summary": "MBA roles for the class of 2026 offered average salaries that were 52% higher than those for engineering positions. The gap is expected to grow further, with MBA roles for students appearing for placements in 2026, or the class of 2027, projected to offer 59% …",
       "url": "https://timesofindia.indiatimes.com/business/india-business/mba-degree-is-paying-more-than-engineering-top-10-b-schools-offer-rs-27-4-lakh-average-while-the-salary-premium-of-mbas-over-engineering-is-set-to-rise-from-52-to-59/articleshow/133560807.cms",
       "source": "Times of India Business",
-      "category": "insurance",
+      "category": "markets",
       "publishedAt": "2026-08-27T09:02:00.000Z"
     },
     {
@@ -311,62 +367,6 @@
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-08-26T12:04:58.000Z"
-    },
-    {
-      "title": "Jio Financial’s ‘full-stack’ strategy: From payments to loans, investments and insurance",
-      "summary": "Jio Financial Services is building a full-stack financial ecosystem spanning lending, payments, investments and insurance, with JioFinance at the centre of its customer engagement strategy.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/jio-financials-full-stack-strategy-from-payments-to-loans-investments-and-insurance-551570-2026-08-26?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "insurance",
-      "publishedAt": "2026-08-26T11:58:32.000Z"
-    },
-    {
-      "title": "Gujarat industrial land prices are unsustainable for manufacturing: Founder shares pain of setting up plant",
-      "summary": "A plot in my GIDC estate runs ₹5,000 to ₹7,000 per square foot. A functioning factory building outside Detroit trades around ₹1,200 per square foot, says Titan Additive founder Maahir Panchal",
-      "url": "https://www.businesstoday.in/latest/economy/story/gujarat-industrial-land-prices-are-unsustainable-for-manufacturing-founder-shares-pain-of-setting-up-plant-551532-2026-08-26?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-26T11:26:45.000Z"
-    },
-    {
-      "title": "Vedanta denies reports of stake sale in Vedanta Ltd, Vedanta Aluminium Metal or group companies",
-      "summary": "Vedanta Resources has denied media speculation that it plans to sell its stake in Vedanta Ltd, Vedanta Aluminium or any other group company. The clarification comes as the group remains focused on its demerger into five businesses, growth investments and shareholder returns.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/vedanta-denies-reports-of-stake-sale-in-vedanta-ltd-vedanta-aluminium-metal-or-group-companies-551543-2026-08-26?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-26T11:20:18.000Z"
-    },
-    {
-      "title": "India paid second highest additional fossil fuel import bill during Iran conflict. Report finds $22 billion bill",
-      "summary": "India paid an additional $22 billion, after China with $35.5 billion, for fossil fuels during the period, finds CREA report.",
-      "url": "https://www.businesstoday.in/latest/economy/story/india-paid-second-highest-additional-fossil-fuel-import-bill-during-iran-conflict-report-finds-22-billion-bill-551535-2026-08-26?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-26T11:14:59.000Z"
-    },
-    {
-      "title": "Explained: When it makes sense to take a joint home loan and when it doesn’t",
-      "summary": "When two earning members of a household apply together for a loan, their combined income can potentially improve loan eligibility and help manage repayment burden more efficiently.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/explained-when-it-makes-sense-to-take-a-joint-home-loan-and-when-it-doesnt/articleshow/133537253.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-26T10:20:15.000Z"
-    },
-    {
-      "title": "From Zerodha, Kotak to Muthoot: The businesses behind India’s new finance fortunes",
-      "summary": "India’s financial sector is creating new billionaire fortunes, with 15 individuals and families collectively amassing more than $65 billion from financial services.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/from-zerodha-kotak-to-muthoot-the-businesses-behind-indias-new-finance-fortunes-551496-2026-08-26?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-26T09:46:33.000Z"
-    },
-    {
-      "title": "Rs 30 lakh a month for an intern? India’s high-speed trading firms are in a fierce talent war",
-      "summary": "In a bid to attract the brightest minds, high-frequency trading firms in India are ramping up intern compensation to unprecedented levels. This surge in hiring is influenced by stricter regulations on derivatives and a lull in equity market movements.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/rs-30-lakh-a-month-for-an-intern-indias-high-speed-trading-firms-are-in-a-fierce-talent-war/articleshow/133534799.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-26T09:07:28.000Z"
     },
     {
       "title": "Trump’s immigration crackdown: H-1B fee hike, visa appointments halted; key changes explained",
