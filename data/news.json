@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-27T10:57:32.015Z",
+  "lastUpdated": "2026-08-27T11:35:59.833Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -63,6 +63,14 @@
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-08-27T10:14:19.000Z"
+    },
+    {
+      "title": "India, China, Canada and more: 10 countries still under Trump’s tariff squeeze and why",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/india-china-canada-and-more-10-countries-still-under-trumps-tariff-squeeze-and-why/articleshow/133346162.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-27T10:04:03.000Z"
     },
     {
       "title": "MBA degree is paying more than engineering: Top 10 B-schools offer Rs 27.4 lakh average, while the salary premium of MBAs over engineering is set to rise from 52% to 59%",
@@ -367,14 +375,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-08-26T08:54:16.000Z"
-    },
-    {
-      "title": "Why India’s rice exports to Iran may survive Trump's sanctions threat",
-      "summary": "India's rice exports to Iran are expected to continue despite tougher US sanctions. Demand from Iran remains firm for food security reasons, ensuring continued purchases. Indian exporters utilize alternative payment channels in countries like Turkey and the UAE.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/why-indias-rice-exports-to-iran-may-survive-trumps-sanctions-threat/articleshow/133534935.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-26T08:50:48.000Z"
     }
   ]
 }
