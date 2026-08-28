@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-28T13:00:21.264Z",
+  "lastUpdated": "2026-08-28T21:12:33.236Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,62 @@
     }
   ],
   "articles": [
+    {
+      "title": "Raghuram Rajan says Fed should raise rates as inflation remains elevated",
+      "summary": "Former RBI governor Raghuram Rajan has urged the US Federal Reserve to take a more hawkish stance on interest rates, warning that current financial conditions may not be tight enough to contain persistent inflation.",
+      "url": "https://www.businesstoday.in/latest/economy/story/raghuram-rajan-says-fed-should-raise-rates-as-inflation-remains-elevated-552013-2026-08-28?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "regulatory",
+      "publishedAt": "2026-08-28T16:28:36.000Z"
+    },
+    {
+      "title": "India's forex reserves hit all-time high of $729.33bn after $12.42bn jump",
+      "summary": "India's foreign exchange reserves reached an all-time high of $729.328 billion. This surge marks eight consecutive weeks of significant increases in reserves. Foreign currency assets and gold holdings were the primary drivers of this substantial rise.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/indias-forex-reserves-hit-all-time-high-of-729-33-billion-after-12-42-billion-jump/articleshow/133595128.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-28T16:00:01.000Z"
+    },
+    {
+      "title": "IndiGo Ventures invests in Sarvam to enhance Artificial Intelligence in aviation",
+      "summary": "IndiGo Ventures is investing in Sarvam, an Indian AI company. This investment supports Sarvam's Series B funding round. The partnership aims to enhance customer experience and operational workflows. Both companies will develop AI applications for a modern airline infrastructure.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/indigo-ventures-invests-in-sarvam-to-enhance-artificial-intelligence-in-aviation/articleshow/133594534.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-28T15:10:20.000Z"
+    },
+    {
+      "title": "Evidence or invasion? Husband wins ₹15 lakh lawsuit after recording wife’s alleged affair, but gets jailed",
+      "summary": "What began as a clever way to gather evidence ended as a cautionary tale about privacy in the age of smart homes. The footage that secured Rs 15 lakh in compensation later secured him a five-month prison term.",
+      "url": "https://www.businesstoday.in/latest/world/story/evidence-or-invasion-husband-wins-rs1500000-lawsuit-after-recording-wifes-affair-but-gets-jailed-551996-2026-08-28?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-28T14:53:28.000Z"
+    },
+    {
+      "title": "Reliance Industries denies Subhash Chandra’s media allegations",
+      "summary": "Reliance Industries has rejected allegations made by Essel Group chairman Subhash Chandra against its media businesses, calling the remarks baseless.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/reliance-denies-subhash-chandras-allegations-as-dispute-over-rs22006-crore-claims-intensifies-552006-2026-08-28?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-28T14:49:57.000Z"
+    },
+    {
+      "title": "India vs China: Shankar Sharma flags education leadership gap behind technology divide",
+      "summary": "India and China have followed markedly different paths in building their education and technology ecosystems, and ace investor Shankar Sharma believes the quality of education leadership deserves closer scrutiny.",
+      "url": "https://www.businesstoday.in/latest/economy/story/india-vs-china-shankar-sharma-flags-education-leadership-gap-behind-technology-divide-552004-2026-08-28?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-28T14:32:27.000Z"
+    },
+    {
+      "title": "Why India and China are betting on the Northern Sea Route & why it matters",
+      "summary": "India’s interest in the Northern Sea Route is being shaped by two factors: its commercial potential and the need to broaden trade connectivity. The NSR also offers a clear geographical advantage on certain Asia-Europe trade lanes.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/from-suez-to-russias-arctic-why-india-china-are-betting-on-northern-sea-route-why-it-matters/articleshow/133592955.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-28T13:58:57.000Z"
+    },
     {
       "title": "Jio Platforms gets Sebi nod for $3.8bn IPO, potentially India’s biggest listing",
       "summary": "Jio Platforms secured Sebi approval for its substantial $3.8 billion initial public offering. This significant approval paves the way for India's potentially largest stock market listing. The company plans to offer new shares, raising approximately $4 billion for its operations.",
@@ -305,22 +361,6 @@
       "publishedAt": "2026-08-27T22:10:36.000Z"
     },
     {
-      "title": "BPCL takes rare risk to bring Iraqi crude through Strait of Hormuz",
-      "summary": "The refiner bought about 1 million barrels of crude from Iraq last week, its first Iraqi oil purchase in the financial year that began April 1",
-      "url": "https://www.businesstoday.in/latest/economy/story/bpcl-takes-rare-risk-to-bring-iraqi-crude-through-strait-of-hormuz-551899-2026-08-27?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-27T16:09:03.000Z"
-    },
-    {
-      "title": "NCLT order misread: Subhash Chandra's ₹22,006 cr case isn't a 99.97% bank loss, say govt sources",
-      "summary": "The ₹22,006 crore figure comprises claims against Chandra as a personal guarantor, while the principal corporate borrowers remain separately liable for their debts.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/nclt-subhash-chandra-case-why-rs22006-crore-claims-do-not-mean-a-99-97-bank-haircut-govt-explains-551909-2026-08-27?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-27T15:53:43.000Z"
-    },
-    {
       "title": "Rs 1.1 lakh cr to Rs 2.1 lakh cr: Why cost of 1st bullet train project has doubled",
       "summary": "The bullet train project is also becoming a platform for India's own high-speed rail ambitions. BEML and ICF are developing India's first indigenous high-speed trainset, with the first expected to roll out in 2027.",
       "url": "https://timesofindia.indiatimes.com/business/india-business/indias-first-bullet-train-project-began-with-a-rs-1-1-lakh-crore-estimate-cost-has-now-nearly-doubled-to-rs-2-1-lakh-crore-indigenously-made-high-speed-train-to-start-running-from-august-2027/articleshow/133572399.cms",
@@ -329,52 +369,12 @@
       "publishedAt": "2026-08-27T15:52:17.000Z"
     },
     {
-      "title": "India eyes ₹13,000 crore battery component push to reduce reliance on China: Report",
-      "summary": "The proposed programme is aimed at strengthening domestic battery supply chains and reducing India’s dependence on imports from China, which dominates global battery production.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/india-eyes-rs13000-crore-battery-component-push-to-reduce-reliance-on-china-report-551890-2026-08-27?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-27T14:05:55.000Z"
-    },
-    {
-      "title": "Subhash Chandra says NCLT insolvency claim is ₹3,992 crore, not ₹22,000 crore as reported",
-      "summary": "In a statement issued on Thursday, Chandra said he had not directly borrowed money from any lender and was involved in the insolvency proceedings solely in his capacity as a personal guarantor for loans raised by various borrowing entities.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/subhash-chandra-says-nclt-insolvency-claim-is-rs3992-crore-not-rs22000-crore-as-reported-551858-2026-08-27?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-27T12:51:33.000Z"
-    },
-    {
-      "title": "The big Indian IT sector shake-up: GCCs are hiring more than traditional tech; who is getting the jobs?",
-      "summary": "Global Capability Centres or GCCs which are essentially specialised offshore units of multinational companies are fast absorbing talent from the traditional IT sector. The trend suggests that India’s GCCs are emerging as an increasingly important engine of technology hiring.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/the-big-indian-it-sector-shake-up-gccs-are-hiring-more-than-traditional-tech-who-is-getting-the-jobs/articleshow/133565257.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-27T11:46:10.000Z"
-    },
-    {
-      "title": "India, China, Canada and more: 10 countries still under Trump’s tariff squeeze and why",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/india-china-canada-and-more-10-countries-still-under-trumps-tariff-squeeze-and-why/articleshow/133346162.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-27T10:04:03.000Z"
-    },
-    {
       "title": "MBAs bag higher salaries than engineers: Top B-schools average Rs 27.4 lakh",
       "summary": "MBA roles for the class of 2026 offered average salaries that were 52% higher than those for engineering positions. The gap is expected to grow further, with MBA roles for students appearing for placements in 2026, or the class of 2027, projected to offer 59% …",
       "url": "https://timesofindia.indiatimes.com/business/india-business/mba-degree-is-paying-more-than-engineering-top-10-b-schools-offer-rs-27-4-lakh-average-while-the-salary-premium-of-mbas-over-engineering-is-set-to-rise-from-52-to-59/articleshow/133560807.cms",
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-08-27T09:02:00.000Z"
-    },
-    {
-      "title": "Taxpayers alert! Weak rupee may push foreign assets above Rs 1 cr, raising tax bill",
-      "summary": "In fact, the rupee’s decline over the years, strict valuation requirements and the fact that many amounts exceed the prescribed lower limits are discouraging several taxpayers from disclosing previously unreported foreign income and assets.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/weaker-rupee-may-push-foreign-assets-above-fast-ds-rs-1-crore-limit-taxpayers-could-lose-the-disclosure-window-which-allows-lower-60-tax-outgo-and-face-a-steeper-income-tax-bill/articleshow/133560231.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-27T07:10:50.000Z"
     }
   ]
 }
