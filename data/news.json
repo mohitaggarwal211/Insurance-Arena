@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-30T17:14:28.798Z",
+  "lastUpdated": "2026-08-30T21:51:01.117Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,22 @@
     }
   ],
   "articles": [
+    {
+      "title": "Cost of good luck: How thousands of coins began tearing apart Ireland’s 40,000 volcanic pillars",
+      "summary": "The Giant’s Causeway comprises roughly 40,000 geometric columns formed millions of years ago when cooling volcanic lava fractured into interlocking pillars. In Irish mythology, the causeway was built by the giant Finn McCool as a bridge to Scotland.",
+      "url": "https://www.businesstoday.in/latest/trends/story/cost-of-good-luck-how-thousands-of-coins-began-tearing-apart-irelands-40000-volcanic-pillars-552108-2026-08-31?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-30T20:30:06.000Z"
+    },
+    {
+      "title": "From sweet to sour crude: India’s bitumen supply improves, but prices remain elevated",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/from-sweet-to-sour-crude-indias-bitumen-supply-improves-but-prices-remain-elevated/articleshow/133633683.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-30T17:09:32.000Z"
+    },
     {
       "title": "Bullion watch: What will shape gold, silver prices? Fed bets, US jobs data in focus",
       "summary": "Throughout September, gold and silver prices are likely to remain under pressure. Critical influences on trading will stem from forthcoming US employment data releases.",
@@ -313,14 +329,6 @@
       "publishedAt": "2026-08-29T09:10:41.000Z"
     },
     {
-      "title": "Nepal may need nearly a tenth of its economy to rebuild after devastating floods",
-      "summary": "Nepal's finance minister estimates flood reconstruction costs between four and five billion dollars. This devastating flood killed over 600 people and left thousands missing. The disaster destroyed towns, bridges, roads, and damaged hydropower stations significantly.",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/nepal-may-need-nearly-a-tenth-of-its-economy-to-rebuild-after-devastating-floods/articleshow/133606785.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-29T07:24:42.000Z"
-    },
-    {
       "title": "India should create 1,580 Suzukis: Piyush Goyal urges Japan to boost investment",
       "summary": "During his visit to Japan, Goyal said India has significant opportunities for Japanese companies and called for more businesses to build globally competitive operations from India.",
       "url": "https://www.businesstoday.in/latest/corporate/story/india-should-create-1580-suzukis-piyush-goyal-urges-japan-to-boost-investment-552030-2026-08-29?utm_source=rssfeed",
@@ -367,14 +375,6 @@
       "source": "Business Today",
       "category": "regulatory",
       "publishedAt": "2026-08-29T04:54:00.000Z"
-    },
-    {
-      "title": "Tata Sons gets 3-month AGM extension from RoC amid leadership uncertainty: Report",
-      "summary": "Tata Sons has secured a three-month extension from the Registrar of Companies to hold its annual general meeting, after its August 18 AGM was adjourned due to a lack of quorum.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/tata-sons-gets-3-month-agm-extension-from-roc-amid-leadership-uncertainty-report-552024-2026-08-29?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-29T04:27:46.000Z"
     }
   ]
 }
