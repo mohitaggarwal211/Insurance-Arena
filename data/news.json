@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-31T07:07:53.445Z",
+  "lastUpdated": "2026-08-31T14:53:50.923Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -57,16 +57,192 @@
   ],
   "articles": [
     {
-      "title": "'Nobody saw...': Robin Uthappa reveals how a ₹3.2-cr deal in 2008 PIL led to depression",
+      "title": "‘We do not need lower standards but wider lenses’: Gautam Adani calls for new credit framework",
+      "summary": "Gautam Adani said the proposed framework should go beyond assessing an infrastructure asset on a standalone basis and capture its wider economic benefits and the additional value created around it.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/we-do-not-need-lower-standards-but-wider-lenses-gautam-adani-calls-for-new-credit-framework-552389-2026-08-31?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-31T14:22:20.000Z"
+    },
+    {
+      "title": "GRT Jewellers to acquire 74.12% stake in Tribhovandas Bhimji Zaveri for Rs 1,033.71 crore",
+      "summary": "The deal, subject to regulatory approvals and customary closing conditions, will mark GRT Jewellers’ entry into a listed jewellery retail business and expand its presence across India.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/grt-jewellers-to-acquire-74-12-stake-in-tribhovandas-bhimji-zaveri-for-rs-1033-71-crore-552378-2026-08-31?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "regulatory",
+      "publishedAt": "2026-08-31T13:52:38.000Z"
+    },
+    {
+      "title": "New NPS PoP Charges: PFRDA sets Rs 200 onboarding fee, 0.20% annual PoP charge",
+      "summary": "Under the new fee structure, subscribers registering for NPS through a PoP will be charged a one-time onboarding fee of Rs 200 for each Permanent Retirement Account Number (PRAN). However, the entire Rs 200 will not be taken from the subscriber’s account at once.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/nps-charges-revised-from-october-1-2026-rs-200-onboarding-fee-0-20-annual-charge-e-nps-users-can-avoid-pop-fees-check-who-pays-and-who-gets-relief/articleshow/133654668.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-31T13:50:49.000Z"
+    },
+    {
+      "title": "Capital formation, exports fuel 7.8% Q1 GDP growth",
+      "summary": "Manufacturing also remained robust, FY27 economic growth seen at atleast 7%",
+      "url": "https://www.businesstoday.in/latest/economy/story/capital-formation-and-exports-boost-q1fy27-gdp-growth-to-7-8-552372-2026-08-31?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-31T13:36:58.000Z"
+    },
+    {
+      "title": "India’s aerospace push gains momentum as Mahindra Aerostructures bags new Airbus A320 contract",
+      "summary": "The development comes as India seeks to move beyond supplying smaller aerospace components and establish capabilities for manufacturing increasingly complex aircraft structures",
+      "url": "https://www.businesstoday.in/latest/corporate/story/indias-aerospace-push-gains-momentum-as-mahindra-aerostructures-bags-new-airbus-a320-contract-552348-2026-08-31?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-31T12:26:08.000Z"
+    },
+    {
+      "title": "'Doomsayers were doomed, India bloomed': PM Modi as GDP growth jumps to 7.8% in Q1 FY27",
+      "summary": "India's nominal GDP grew 10.3%, compared with 8.1% a year earlier. Real GVA grew 8.2%, while nominal GVA increased 11.5%",
+      "url": "https://www.businesstoday.in/latest/economy/story/doomsayers-were-doomed-india-bloomed-pm-modi-as-gdp-growth-jumps-to-7-8-in-q1-fy27-552338-2026-08-31?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-31T11:51:11.000Z"
+    },
+    {
+      "title": "Government may cut gold, silver import duties as higher rates fuel grey market: Report",
+      "summary": "The Centre may reconsider its higher import duties on gold and silver after the 15% levy failed to curb imports and industry flagged a sharp expansion in the grey market.",
+      "url": "https://www.businesstoday.in/latest/economy/story/government-may-cut-gold-silver-import-duties-as-higher-rates-fuel-grey-market-report-552339-2026-08-31?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-31T11:50:17.000Z"
+    },
+    {
+      "title": "TIME100 AI 2026: Meet 10 Indian and Indian-origin names shaping the future of AI",
+      "summary": "TIME100 AI 2026 features 10 Indian and Indian-origin leaders shaping AI across enterprise technology, science, healthcare, semiconductors, law, safety and AI governance.",
+      "url": "https://www.businesstoday.in/india/photo/time100-ai-2026-meet-10-indian-and-indian-origin-names-shaping-the-future-of-ai-552337-2026-08-31?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-31T11:41:43.000Z"
+    },
+    {
+      "title": "'Reforms are bearing results': FM Sitharaman as GDP grows 7.8% in Q1 FY27",
+      "summary": "India's nominal GDP grew 10.3% in Q1 FY27, compared with 8.1% a year earlier. Real GVA grew 8.2%, while nominal GVA increased 11.5%",
+      "url": "https://www.businesstoday.in/latest/economy/story/reforms-are-bearing-results-fm-sitharaman-as-gdp-grows-7-8-in-q1-552329-2026-08-31?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-31T11:28:19.000Z"
+    },
+    {
+      "title": "India-EU trade deal shows new economic alliances emerging as global supply chains fragment, says expert",
+      "summary": "The India-EU trade deal reflects a broader shift in global commerce as countries seek new trade partners and alternative supply chains amid rising geopolitical tensions, said Hal Brands.",
+      "url": "https://www.businesstoday.in/latest/economy/story/india-eu-trade-deal-shows-new-economic-alliances-emerging-as-global-supply-chains-fragment-says-expert-552309-2026-08-31?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-31T11:01:35.000Z"
+    },
+    {
+      "title": "India's rice bowl gets global audience as 3,317 buyers sign up for BIRC 2026",
+      "summary": "India's rice exporters look forward to a significant boost in international trade opportunities this October. With participation from over 3,300 buyers across 138 countries, the Bharat International Rice Conference is poised to be a game-changer.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/indias-rice-bowl-gets-global-audience-as-3317-buyers-sign-up-for-birc-2026/articleshow/133649468.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-31T10:31:08.000Z"
+    },
+    {
+      "title": "Bank loans are growing faster than deposits: What it means for your FD and loan rates",
+      "summary": "Indian bank loans are growing faster than deposits, putting pressure on lenders to attract and retain funds even as liquidity conditions improve.",
+      "url": "https://www.businesstoday.in/personal-finance/story/bank-loans-are-growing-faster-than-deposits-what-it-means-for-your-fd-and-loan-rates-552289-2026-08-31?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-31T10:29:30.000Z"
+    },
+    {
+      "title": "What’s forced Russia to import 1 million barrels in 2 months from India",
+      "summary": "Russia’s seaborne gasoline imports climbed to a record level of around 125,000 barrels per day (kbd) in August, which would amount to about 470,000 tonnes for the month.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/india-buys-record-2-6-mbd-russian-crude-oil-refines-some-of-it-and-now-sends-it-back-as-petrol-why-one-of-worlds-biggest-oil-suppliers-russia-has-been-forced-to-import-1-million-barrels-in-2-months-from-india-/articleshow/133649307.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-31T10:20:00.000Z"
+    },
+    {
+      "title": "AI could be the next growth engine for Indian IT from FY27: Anand Rathi",
+      "summary": "Indian IT firms expect a surge in growth as global investments pivot towards enterprise AI deployment. Starting in fiscal year twenty twenty-seven, this monumental shift from infrastructure development will fuel demand for services in data preparation and system integration.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/ai-could-be-the-next-growth-engine-for-indian-it-from-fy27-anand-rathi/articleshow/133649376.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-31T10:19:30.000Z"
+    },
+    {
+      "title": "No internet needed: PhonePe brings UPI payments to over 200m feature phone users",
+      "summary": "PhonePe has launched UPI 123Pay, enabling feature phone users to transact digitally. This service extends UPI payment capabilities to over two hundred million Indian feature phone users. The platform allows peer-to-peer and peer-to-merchant payments, and balance checks.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/no-internet-needed-phonepe-brings-upi-payments-to-over-200-million-feature-phone-users/articleshow/133649111.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-31T09:58:53.000Z"
+    },
+    {
+      "title": "Semicon 2.0 notified: ₹1.27 lakh crore scheme widens India’s chip ambitions",
+      "summary": "Semicon 2.0, a ₹1.27 lakh crore programme, is aimed at building a broader semiconductor ecosystem spanning chip design, fabs, packaging, equipment, materials and R&D.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/semicon-2-0-notified-rs1-27-lakh-crore-scheme-widens-indias-chip-ambitions-552278-2026-08-31?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-31T09:47:12.000Z"
+    },
+    {
+      "title": "Centre fast-tracks HMT revival plan; ₹2,000 crore package under consideration",
+      "summary": "The move comes as the government looks to strengthen domestic manufacturing capacity and revive strategically important public-sector industrial assets.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/centre-fast-tracks-hmt-revival-plan-rs2000-crore-package-under-consideration-552272-2026-08-31?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "insurance",
+      "publishedAt": "2026-08-31T09:38:06.000Z"
+    },
+    {
+      "title": "Big four-tracking push! Railways to expand on 7 high-density routes - why it matters",
+      "summary": "India’s seven high-density railway routes, covering about 11,000 km, are being expanded to four tracks to handle more passenger and freight traffic across the country, Vaishnaw said recently.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/indian-railways-busiest-rail-routes-are-getting-bigger-41-of-indias-rail-traffic-runs-on-just-16-of-its-network-railways-plans-four-tracks-across-11000-kms-of-its-network/articleshow/133646953.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-31T08:14:18.000Z"
+    },
+    {
+      "title": "HDFC Bank succession: Why the new MD & CEO will have to address multiple challenges",
+      "summary": "Analysts are surprised by Sashidhar Jagdishan’s decision not to seek reappointment as MD and CEO for a third term and feel that the uncertainty at the top may remain a near-term overhang on the stock, which has significantly lagged peers this year.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/hdfc-bank-succession-why-the-new-md-and-ceo-will-have-to-address-multiple-challenges-552219-2026-08-31?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-31T07:22:05.000Z"
+    },
+    {
+      "title": "Stocks to buy: What's the outlook for Nifty for August 31-September 4 week? Check list of top stock recommendations",
+      "summary": "Stock market recommendations: Glenmark Pharmaceuticals, and Ramkrishna Forgings are the top stocks to buy recommended by Sudeep Shah, Head - Technical Research and Derivatives, SBI Securities on August 31, 2026.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/top-stocks-to-buy-this-week-august-31-to-september-04-stock-recommendations-glenmark-pharmaceuticals-ramkrishna-forgings/articleshow/133645728.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-31T07:21:07.000Z"
+    },
+    {
+      "title": "HDFC Bank shares rise nearly 3% after CEO Jagdishan opts out of reappointment",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/hdfc-bank-shares-rise-nearly-3-after-after-ceo-jagdishan-opts-out-of-reappointment/articleshow/133645095.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-31T07:02:45.000Z"
+    },
+    {
+      "title": "'Nobody saw...': Robin Uthappa reveals how a ₹3.2-cr deal in 2008 IPL led to depression",
       "summary": "In a social media post, Uthappa wrote that he signed the deal at just 21. \"I was 21 at the time. I had never imagined earning so much money. Not at 30. Not at 40. Maybe never,\" he said.",
-      "url": "https://www.businesstoday.in/sports/story/nobody-saw-robin-uthappa-reveals-how-a-rs3-2-cr-deal-in-2008-pil-led-to-depression-552161-2026-08-31?utm_source=rssfeed",
+      "url": "https://www.businesstoday.in/sports/story/nobody-saw-robin-uthappa-reveals-how-a-rs3-2-cr-deal-in-2008-ipl-led-to-depression-552161-2026-08-31?utm_source=rssfeed",
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-08-31T06:59:29.000Z"
     },
     {
+      "title": "Gold price prediction today: Where are gold prices headed? Check outlook for August 31, 2026 week",
+      "summary": "Gold price prediction today: The medium-term case for investment in gold remains intact, despite recent fall in prices, says Manav Modi, Senior Analyst, Commodity Research at Motilal Oswal Financial Services Ltd.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/gold-price-prediction-today-what-is-the-gold-rate-outlook-for-august-31-2026-week-should-you-buy-or-sell-mcx-gold-us-iran-war-middle-east/articleshow/133645041.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-08-31T06:54:13.000Z"
+    },
+    {
       "title": "Parth Jindal takes charge as Chairman at JSW MG Motor India to drive green mobility",
-      "summary": "The leadership change comes as the company cements its position in the Indian electric vehicle market, having crossed over 1,50,000 EV sales since its initial launch, anchored by the MG Windsor as the country's top-selling electric vehicle.",
+      "summary": "The appointment comes at a time when JSW Group is looking to raise its stake in JSW MG Motor India above 35% to become the largest shareholder in the joint venture",
       "url": "https://www.businesstoday.in/jobs/story/parth-jindal-takes-charge-as-chairman-at-jsw-mg-motor-india-to-drive-green-mobility-552159-2026-08-31?utm_source=rssfeed",
       "source": "Business Today",
       "category": "markets",
@@ -153,22 +329,6 @@
       "publishedAt": "2026-08-31T00:45:02.000Z"
     },
     {
-      "title": "Srikant Tiwari goes green: Manoj Bajpayee buys ₹1.37 crore land parcel near Lonavala",
-      "summary": "The purchase marks another major addition to the real estate portfolio of the actor, whose career spans more than three decades with critically acclaimed performances in Satya, Gangs of Wasseypur and Aligarh alongside his massively popular streaming avatar Sri…",
-      "url": "https://www.businesstoday.in/real-estate/story/srikant-tiwari-goes-green-manoj-bajpayee-buys-rs1-37-crore-land-parcel-near-lonavala-552104-2026-08-31?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-31T00:30:03.000Z"
-    },
-    {
-      "title": "New car rule: Why your headlights may behave differently from next year",
-      "summary": "India may soon change car headlight rules with low beam as default, lower intensity limits, high beam alerts and reflective tapes for safer night driving.",
-      "url": "https://www.businesstoday.in/latest/photo/new-car-rule-why-your-headlights-may-behave-differently-from-next-year-551830-2026-08-31?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-31T00:30:03.000Z"
-    },
-    {
       "title": "Despite global headwinds, Q1 growth seen resilient on demand, government capex",
       "summary": "",
       "url": "https://timesofindia.indiatimes.com/business/india-business/despite-global-headwinds-q1-growth-seen-resilient-on-demand-government-capex/articleshow/133638882.cms",
@@ -193,14 +353,6 @@
       "publishedAt": "2026-08-30T23:13:57.000Z"
     },
     {
-      "title": "Cost of good luck: How thousands of coins began tearing apart Ireland’s 40,000 volcanic pillars",
-      "summary": "The Giant’s Causeway comprises roughly 40,000 geometric columns formed millions of years ago when cooling volcanic lava fractured into interlocking pillars. In Irish mythology, the causeway was built by the giant Finn McCool as a bridge to Scotland.",
-      "url": "https://www.businesstoday.in/latest/trends/story/cost-of-good-luck-how-thousands-of-coins-began-tearing-apart-irelands-40000-volcanic-pillars-552108-2026-08-31?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-30T20:30:06.000Z"
-    },
-    {
       "title": "From sweet to sour crude: India’s bitumen supply improves, but prices remain elevated",
       "summary": "",
       "url": "https://timesofindia.indiatimes.com/business/india-business/from-sweet-to-sour-crude-indias-bitumen-supply-improves-but-prices-remain-elevated/articleshow/133633683.cms",
@@ -223,158 +375,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-08-30T11:09:53.000Z"
-    },
-    {
-      "title": "What will guide Dalal Street this week? GDP data, crude and more in focus",
-      "summary": "This week promises significant economic developments on Dalal Street with a flurry of data to analyze. India’s Q1 FY27 GDP stats are anticipated on August 31, giving insight into economic growth.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/dalal-street-outlook-stock-market-headed-for-busy-week-gdp-data-global-cues-and-more-in-focus/articleshow/133627834.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-30T11:01:46.000Z"
-    },
-    {
-      "title": "India’s economy set for 7-7.2% growth in FY27 despite global headwinds: EY",
-      "summary": "India's economy is poised for significant growth in FY27, with forecasts suggesting an expansion between 7 and 7.2 percent. This anticipated surge in economic activity will be driven by strong domestic demand and government investment initiatives.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/indias-economy-set-for-7-7-2-growth-in-fy27-despite-global-headwinds-ey/articleshow/133627167.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-30T10:12:49.000Z"
-    },
-    {
-      "title": "India reaches fiscal deficit target for 2025-26, credit ratings improving: FM Sitharaman in US",
-      "summary": "India proudly announces the achievement of its fiscal deficit target for 2025-26, showcasing commendable fiscal discipline. With a clear vision, the government aspires to maintain a 50 percent debt-to-GDP ratio by 2030.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/india-reaches-fiscal-deficit-target-for-2025-26-credit-ratings-improving-fm-sitharaman-in-us/articleshow/133626963.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-30T09:56:30.000Z"
-    },
-    {
-      "title": "NSE's ₹30,000 crore IPO: SBI, its investment banking arm to offload 1% stake",
-      "summary": "Beyond capital market operations, the lender is rapidly expanding its primary lending engine. SBI's mortgage portfolio is projected to cross the landmark ₹10 lakh crore mark within the current quarter, building on the ₹9 lakh crore threshold crossed last financial year.",
-      "url": "https://www.businesstoday.in/markets/story/nses-rs30000-crore-ipo-sbi-its-investment-banking-arm-to-offload-1-stake-552096-2026-08-30?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-30T09:47:46.000Z"
-    },
-    {
-      "title": "Iran war at 6 months: Who gained, who lost the most economically",
-      "summary": "Six months into the war, global economic fears have not fully materialized. Oil prices surged initially but have since eased from their peak. Financial markets have recovered strongly, boosted by artificial intelligence optimism.",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/iran-war-at-6-months-who-gained-who-lost-the-most-economically/articleshow/133626634.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-30T09:20:33.000Z"
-    },
-    {
-      "title": "Shopping with AI: Consumers ask artificial intelligence for advice but less than half trust it",
-      "summary": "Consumers now use artificial intelligence for shopping decisions, though trust remains low. Younger shoppers consult more sources but trust them less, challenging brands. Companies must optimize websites for AI searches as brand mentions are minimal.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/shopping-with-ai-consumers-ask-artificial-intelligence-for-advice-but-less-than-half-trust-it/articleshow/133623425.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-30T05:43:34.000Z"
-    },
-    {
-      "title": "India becomes key petrol supplier to Russia amid attacks on refineries, fuel shortages",
-      "summary": "India's role as a major gasoline supplier to Russia has surged recently, particularly after Ukrainian drone strikes impacted Russian refinery activities. In August, Russian gasoline imports hit unprecedented levels, with India emerging as a central contributor.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/india-becomes-key-petrol-supplier-to-russia-amid-attacks-on-refineries-fuel-shortages/articleshow/133623733.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-30T05:41:05.000Z"
-    },
-    {
-      "title": "Less than $1 per tonne-km: Bengaluru startup announces autonomous seaplane to cut cargo costs",
-      "summary": "Eureka is designed to carry a 1,000-kg payload autonomously at 6,500 feet above mean sea level. It has a stated range of 2,000 km",
-      "url": "https://www.businesstoday.in/latest/story/less-than-1-per-tonne-km-bengaluru-startup-announces-autonomous-seaplane-to-cut-cargo-costs-552080-2026-08-30?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-30T05:05:49.000Z"
-    },
-    {
-      "title": "India's debt ratio looks reasonable, but its interest cost doesn't, says ISB finance professor",
-      "summary": "India has a lower debt-to-GDP ratio than the US and UK, yet pays more as a share of GDP to service it, warns Prasanna Tantri",
-      "url": "https://www.businesstoday.in/latest/economy/story/indias-debt-ratio-looks-reasonable-but-its-interest-cost-doesnt-says-isb-finance-professor-552078-2026-08-30?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-30T04:34:42.000Z"
-    },
-    {
-      "title": "Bank holidays in September 2026: When and where will banks remain closed? Check state-wise list",
-      "summary": "In September, banks throughout India will close for various festive occasions. On September 4th, multiple states will celebrate Janmashtami, resulting in branch closures.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/bank-holidays-in-september-2026-when-and-where-will-banks-remain-closed-check-state-wise-list/articleshow/133622532.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-30T04:00:52.000Z"
-    },
-    {
-      "title": "US-Venezuela energy pact: What we know about Trump’s ‘biggest oil deal in world history’",
-      "summary": "In a landmark move, the United States and Venezuela have forged a 25-year energy partnership designed to uplift Venezuela's ailing oil sector and enhance production capabilities. Under this agreement, rights to unexplored oil reserves will be held for a century, with the U.S.",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/us-venezuela-deal-what-we-know-about-trumps-biggest-oil-deal-in-world-history/articleshow/133622205.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-30T02:40:48.000Z"
-    },
-    {
-      "title": "Quote of the Day by GD Birla: ‘More enterprise and greater production are the only means by which the standard of living can be raised’",
-      "summary": "G.D. Birla expanded his business interests across sectors, including textiles, jute, sugar, cement and banking, helping establish the Birla Group as one of India’s leading business houses",
-      "url": "https://www.businesstoday.in/india/story/quote-of-the-day-by-gd-birla-more-enterprise-and-greater-production-are-the-only-means-by-which-the-standard-of-living-can-be-raised-551798-2026-08-30?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-30T02:00:03.000Z"
-    },
-    {
-      "title": "Kolkata to Bali: IRCTC launches an all-in-one holiday plan with a catch",
-      "summary": "IRCTC launches a Bali holiday package from Kolkata with flights, hotel, meals and sightseeing included. The ₹61,500 tour covers top attractions but has limited seats and extra charges.",
-      "url": "https://www.businesstoday.in/latest/photo/kolkata-to-bali-irctc-launches-an-all-in-one-holiday-plan-with-a-catch-551254-2026-08-30?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-30T01:00:03.000Z"
-    },
-    {
-      "title": "Durga Puja special: Darjeeling’s iconic toy train returns with a magical mountain ride",
-      "summary": "Darjeeling Himalayan Railway brings back special Durga Puja joyrides with steam and diesel trains, including Tagore-inspired Mukta Dhara and Red Panda heritage mountain journeys.",
-      "url": "https://www.businesstoday.in/latest/photo/durga-puja-special-darjeelings-iconic-toy-train-returns-with-a-magical-mountain-ride-551829-2026-08-30?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-30T00:45:01.000Z"
-    },
-    {
-      "title": "Train seat rules: The innocent mistake that can land passengers in trouble",
-      "summary": "Train seat rules explained: Know when you can swap seats, why selling tickets is illegal, and how waiting list travel or unauthorised seat changes can lead to penalties.",
-      "url": "https://www.businesstoday.in/latest/photo/train-seat-rules-the-innocent-mistake-that-can-land-passengers-in-trouble-551539-2026-08-30?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-30T00:30:05.000Z"
-    },
-    {
-      "title": "Gen Z, Gen Alpha to drive half of India’s beauty spending by FY31: Brands prepare for new-age consumer",
-      "summary": "Gen Z and Gen Alpha are poised to reshape India’s beauty market, with their combined share of BPC spending expected to reach nearly 50% by FY31 from 32% in FY24.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/gen-z-gen-alpha-to-drive-half-of-indias-beauty-spending-by-fy31-brands-prepare-for-new-age-consumer-552054-2026-08-30?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-29T21:50:02.000Z"
-    },
-    {
-      "title": "Union, Canara Bank to appeal NCLT's Chandra order",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/union-canara-bank-to-appeal-nclts-chandra-order/articleshow/133619544.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-29T21:05:07.000Z"
-    },
-    {
-      "title": "HDFC Bank leadership shake-up: CEO Sashidhar Jagdishan to retire on Oct 26, will not seek reappointment",
-      "summary": "HDFC Bank CEO Sashidhar Jagdishan will retire on October 26, 2026, after deciding against seeking reappointment, bringing the leadership succession at India’s largest private-sector lender into focus.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/hdfc-bank-leadership-shake-up-ceo-sashidhar-jagdishan-to-retire-on-oct-26-will-not-seek-reappointment-552056-2026-08-29?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-29T13:42:26.000Z"
-    },
-    {
-      "title": "BT Explainer: How the NCLT order in the Subhash Chandra case exposed gaps in personal guarantor cases",
-      "summary": "Data from the Insolvency and Bankruptcy Board of India (IBBI) shows, in the 2,137 cases related to insolvency resolution of personal guarantors where resolution professional had been appointed, only 64 cases had yielded approval of repayment plan as of June 20…",
-      "url": "https://www.businesstoday.in/latest/corporate/story/bt-explainer-how-the-nclt-order-in-the-subhash-chandra-case-exposed-gaps-in-personal-guarantor-cases-and-what-could-be-done-to-improve-outcomes-552048-2026-08-29?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-29T12:32:31.000Z"
     }
   ]
 }
