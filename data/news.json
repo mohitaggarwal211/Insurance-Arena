@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-31T06:45:09.643Z",
+  "lastUpdated": "2026-08-31T07:07:53.445Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,14 @@
     }
   ],
   "articles": [
+    {
+      "title": "'Nobody saw...': Robin Uthappa reveals how a ₹3.2-cr deal in 2008 PIL led to depression",
+      "summary": "In a social media post, Uthappa wrote that he signed the deal at just 21. \"I was 21 at the time. I had never imagined earning so much money. Not at 30. Not at 40. Maybe never,\" he said.",
+      "url": "https://www.businesstoday.in/sports/story/nobody-saw-robin-uthappa-reveals-how-a-rs3-2-cr-deal-in-2008-pil-led-to-depression-552161-2026-08-31?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-08-31T06:59:29.000Z"
+    },
     {
       "title": "Parth Jindal takes charge as Chairman at JSW MG Motor India to drive green mobility",
       "summary": "The leadership change comes as the company cements its position in the Indian electric vehicle market, having crossed over 1,50,000 EV sales since its initial launch, anchored by the MG Windsor as the country's top-selling electric vehicle.",
@@ -367,14 +375,6 @@
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-08-29T12:32:31.000Z"
-    },
-    {
-      "title": "Multiple options exist post the deferment of Tata Sons' AGM, say legal experts",
-      "summary": "Time till end-December can be viewed as a positive, say legal experts",
-      "url": "https://www.businesstoday.in/latest/corporate/story/multiple-options-exist-post-the-deferment-of-tata-sons-agm-say-legal-experts-552047-2026-08-29?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-08-29T12:25:16.000Z"
     }
   ]
 }
