@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-01T15:02:31.216Z",
+  "lastUpdated": "2026-09-01T17:11:53.832Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,30 @@
     }
   ],
   "articles": [
+    {
+      "title": "Rs 25,000 salary to Rs 1 crore EPF corpus: Compounding math can make you a crorepati",
+      "summary": "Over time, the interest earned on the accumulated balance earns interest, allowing compounding to steadily increase your retirement savings. With regular contributions maintained over a long period, an employee can potentially build an EPF corpus of Rs 1 crore or more.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/start-with-rs-25000-basic-salary-end-with-rs-1-crore-corpus-how-epf-compounding-math-can-make-you-a-crorepati-at-8-25-interest-in-less-than-30-years-with-6-annual-increment/articleshow/133687161.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-01T16:40:31.000Z"
+    },
+    {
+      "title": "Insolvency and the law: Subhash Chandra case raises wider questions about IBC",
+      "summary": "The matter has taken an unusual and unprecedented institutional turn - a five-member NCLT bench headed by the tribunal’s President has been set up to hear the dispute.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/insolvency-and-the-law-subhash-chandra-case-raises-wider-questions-about-ibc-552690-2026-09-01?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-01T16:17:36.000Z"
+    },
+    {
+      "title": "UPI gets festive boost: Digital payments hit a record 24.51 bn transactions in August",
+      "summary": "In August, Unified Payments Interface hit an all-time high for monthly transaction volumes, largely fueled by festive celebrations like Raksha Bandhan that encouraged peer-to-peer transfers.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/upi-gets-festive-boost-digital-payments-hit-a-record-24-51-billion-transactions-in-august/articleshow/133685986.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-01T15:34:12.000Z"
+    },
     {
       "title": "A new engine for India's growth? Private investment finally picks up pace",
       "summary": "Investment accounted for 34.3% of the economy in the April-June quarter, up from 31.4% a year earlier, according to the National Statistics Office.",
@@ -337,14 +361,6 @@
       "publishedAt": "2026-09-01T03:10:54.000Z"
     },
     {
-      "title": "LPG, CNG, PNG prices today, September 1: Check latest rates in Delhi, Mumbai, Kolkata, other cities",
-      "summary": "LPG, CNG, PNG prices today: After Indraprastha Gas Ltd (IGL), Mahanagar Gas Ltd (MGL) increased CNG prices in Mumbai by ₹2 per kg.",
-      "url": "https://www.businesstoday.in/india/story/lpg-cng-png-prices-today-september-1-check-latest-rates-in-delhi-mumbai-kolkata-other-cities-552425-2026-09-01?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-01T02:22:36.000Z"
-    },
-    {
       "title": "Soota’s Happiest Minds to merge with ITC Infotech",
       "summary": "",
       "url": "https://timesofindia.indiatimes.com/business/india-business/sootas-happiest-minds-to-merge-with-itc-infotech/articleshow/133665941.cms",
@@ -359,22 +375,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-09-01T02:06:42.000Z"
-    },
-    {
-      "title": "Oil climbs past $90 as Middle East conflict keeps Strait of Hormuz shut",
-      "summary": "On Tuesday, oil prices saw a significant uptick, driven by escalating tensions between the US and Iran and looming risks to supply chains. Brent crude hit $91.04, while WTI crude climbed to $86.55 per barrel.",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/oil-climbs-past-90-as-middle-east-conflict-keeps-strait-of-hormuz-shut/articleshow/133665918.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-01T02:03:16.000Z"
-    },
-    {
-      "title": "CAS smooth on MSCI index rebalancing day",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/cas-smooth-on-msci-index-rebalancing-day/articleshow/133665894.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-01T01:55:48.000Z"
     }
   ]
 }
