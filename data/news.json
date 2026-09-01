@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-01T06:04:46.712Z",
+  "lastUpdated": "2026-09-01T06:20:47.715Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,22 @@
     }
   ],
   "articles": [
+    {
+      "title": "Wanted for overstaying? Japan catches 72-year-old who lived there illegally for 33 years",
+      "summary": "According to police, Man entered Japan using his younger brother’s passport and was granted a 15-day short-term tourist visa, apparently to look for better-paying work.",
+      "url": "https://www.businesstoday.in/latest/world/story/wanted-for-overstaying-japan-catches-72-year-old-who-lived-there-illegally-for-33-years-552456-2026-09-01?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-01T06:16:26.000Z"
+    },
+    {
+      "title": "Namo Bharat: India’s fastest train corridor to soon meet 60% of power needs by solar",
+      "summary": "The Delhi-Meerut Namo Bharat corridor is set to receive power from a 110 MW captive solar plant, which is expected to fulfil nearly 60% of the corridor’s electricity needs.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/indias-first-160-kmph-namo-bharat-train-service-also-the-fastest-began-in-2023-now-a-rs-450-crore-110-mw-solar-plant-will-meet-nearly-60-of-delhi-meerut-corridors-power-needs-and-cut-electricity-costs-25/articleshow/133669767.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-01T05:54:15.000Z"
+    },
     {
       "title": "Shun foreign holidays, weddings abroad, buy gold only if needed: PM Modi's 'vocal for local' pitch",
       "summary": "",
@@ -353,28 +369,12 @@
       "publishedAt": "2026-08-31T14:22:20.000Z"
     },
     {
-      "title": "GRT Jewellers to acquire 74.12% stake in Tribhovandas Bhimji Zaveri for Rs 1,033.71 crore",
-      "summary": "The deal, subject to regulatory approvals and customary closing conditions, will mark GRT Jewellers’ entry into a listed jewellery retail business and expand its presence across India.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/grt-jewellers-to-acquire-74-12-stake-in-tribhovandas-bhimji-zaveri-for-rs-1033-71-crore-552378-2026-08-31?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "regulatory",
-      "publishedAt": "2026-08-31T13:52:38.000Z"
-    },
-    {
       "title": "New NPS PoP Charges: PFRDA sets Rs 200 onboarding fee, 0.20% annual PoP charge",
       "summary": "Under the new fee structure, subscribers registering for NPS through a PoP will be charged a one-time onboarding fee of Rs 200 for each Permanent Retirement Account Number (PRAN). However, the entire Rs 200 will not be taken from the subscriber’s account at once.",
       "url": "https://timesofindia.indiatimes.com/business/india-business/nps-charges-revised-from-october-1-2026-rs-200-onboarding-fee-0-20-annual-charge-e-nps-users-can-avoid-pop-fees-check-who-pays-and-who-gets-relief/articleshow/133654668.cms",
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-08-31T13:50:49.000Z"
-    },
-    {
-      "title": "India's rice bowl gets global audience as 3,317 buyers sign up for BIRC 2026",
-      "summary": "India's rice exporters look forward to a significant boost in international trade opportunities this October. With participation from over 3,300 buyers across 138 countries, the Bharat International Rice Conference is poised to be a game-changer.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/indias-rice-bowl-gets-global-audience-as-3317-buyers-sign-up-for-birc-2026/articleshow/133649468.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-08-31T10:31:08.000Z"
     }
   ]
 }
