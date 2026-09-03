@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-03T05:31:25.673Z",
+  "lastUpdated": "2026-09-03T05:58:39.726Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,14 @@
     }
   ],
   "articles": [
+    {
+      "title": "SBI hits back at 2.6% GDP growth claim, says numbers compared incorrectly",
+      "summary": "The State Bank of India has challenged assertions of low nominal GDP growth, asserting that the 2.6% figure arose from inconsistent data comparisons. The bank highlights that the official real GDP growth for Q1 FY27 remains robust at 7.8%.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/intellectual-dishonesty-sbi-hits-back-at-2-6-gdp-growth-claim-says-numbers-compared-incorrectly/articleshow/133725668.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-03T05:24:35.000Z"
+    },
     {
       "title": "Rupee gains 47 paise as record FCNR inflows boost forex liquidity",
       "summary": "On Thursday morning, the Indian rupee saw a notable rise, fueled by an influx of foreign-currency deposits that enhanced the foreign-exchange liquidity of the country. This robust support helped mitigate global economic pressures.",
@@ -367,14 +375,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-09-02T03:25:01.000Z"
-    },
-    {
-      "title": "Oil prices jump 1% as US-Iran strikes deepen fears of supply disruption",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/oil-prices-jump-1-as-us-iran-strikes-deepen-fears-of-supply-disruption/articleshow/133695797.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-02T02:46:09.000Z"
     }
   ]
 }
