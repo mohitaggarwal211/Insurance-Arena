@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-02T21:37:29.258Z",
-  "articlesCount": 48,
+  "lastUpdated": "2026-09-03T05:31:25.673Z",
+  "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
   "sourceStatus": [
@@ -13,8 +13,8 @@
     {
       "source": "Business Today",
       "status": "ok",
-      "articles": 30,
-      "feedUsed": "https://www.businesstoday.in/rss/markets"
+      "articles": 20,
+      "feedUsed": "https://www.businesstoday.in/rssfeeds/?id=225346"
     },
     {
       "source": "Zee Business",
@@ -57,12 +57,188 @@
   ],
   "articles": [
     {
-      "title": "India's Manufacturing Majors: The Companies Building at Scale",
-      "summary": "",
-      "url": "https://www.businesstoday.in/magazine/deep-dive/story/indias-manufacturing-majors-the-companies-building-at-scale-551718-2026-08-28?utm_source=rssfeed",
+      "title": "Rupee gains 47 paise as record FCNR inflows boost forex liquidity",
+      "summary": "On Thursday morning, the Indian rupee saw a notable rise, fueled by an influx of foreign-currency deposits that enhanced the foreign-exchange liquidity of the country. This robust support helped mitigate global economic pressures.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/rupee-gains-47-paise-as-record-fcnr-inflows-boost-forex-liquidity/articleshow/133725320.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-03T04:50:51.000Z"
+    },
+    {
+      "title": "SAEL secures 1 GWp solar module orders in six months; NTPC project accounts for 585.8 MWp",
+      "summary": "SAEL has secured orders to supply 1 GWp of solar PV modules over the past six months, marking a significant expansion of its module business. NTPC Renewable Energy’s 585.8 MWp Chitrakoot solar project accounts for more than half of the order pipeline.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/sael-secures-1-gwp-solar-module-orders-in-six-months-ntpc-project-accounts-for-585-8-mwp-553018-2026-09-03?utm_source=rssfeed",
       "source": "Business Today",
       "category": "markets",
-      "publishedAt": "2026-09-02T21:37:25.057Z"
+      "publishedAt": "2026-09-03T04:45:02.000Z"
+    },
+    {
+      "title": "Trump’s face debuts on US currency, $1 coins run ‘out of stock’ within hours",
+      "summary": "A freshly minted $1 coin has been released to celebrate America's 250th anniversary, featuring the portrait of Donald Trump. While federal regulations usually prevent living presidents from appearing on currency, unique allowances have made this release possible.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/trumps-face-debuts-on-us-currency-1-coins-run-out-of-stock-within-hours/articleshow/133724401.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-03T04:16:49.000Z"
+    },
+    {
+      "title": "Why is India importing so much more gold from the UAE? The 1% tariff gap holds the clue",
+      "summary": "India imported $649.4 million worth of gold from the UAE in June 2026, up 175.2% from $235.9 million in June 2025. In contrast, imports from the rest of the world fell 17.7%, from $1.60 billion to $1.32 billion.",
+      "url": "https://www.businesstoday.in/latest/economy/story/why-is-india-importing-so-much-more-gold-from-the-uae-the-1-tariff-gap-holds-the-clue-553024-2026-09-03?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-03T04:11:51.000Z"
+    },
+    {
+      "title": "Rupee jumps 67 paise to open at 94.30 against the US dollar; highest level in two months",
+      "summary": "Shinhan Bank suggested the Rupee could strengthen further to around 93.50 in the coming days.",
+      "url": "https://www.businesstoday.in/latest/economy/story/rupee-jumps-67-paise-to-open-at-94-30-against-the-us-dollar-highest-level-in-two-months-553025-2026-09-03?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-03T04:07:35.000Z"
+    },
+    {
+      "title": "LPG, CNG, PNG prices today (September 3): Check latest rates in Delhi, Mumbai, Kolkata, other cities",
+      "summary": "While LPG remains the most used cooking fuel for many Indian households, CNG and PNG are also emerging as much more stable and cost-effective alternatives.",
+      "url": "https://www.businesstoday.in/india/story/lpg-cng-png-prices-today-september-3-check-latest-rates-in-delhi-mumbai-kolkata-other-cities-553013-2026-09-03?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-03T04:02:31.000Z"
+    },
+    {
+      "title": "Top stocks to buy today: Stock recommendations for September 3, 2026 - check list",
+      "summary": "Top stock market recommendations: Bank of Maharashtra, Glenmark Pharma, and Tata Technologies have been shared as the top stocks to buy today on September 3, 2026 by Aakash K Hindocha, Vice President - Research, Nuvama Professional Clients Group/Nuvama Wealth.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/top-stock-recommendations-for-september-03-2026-bank-of-maharashtra-glenmark-pharma-tata-technologies-best-stocks-to-buy-today/articleshow/133723261.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-03T03:35:30.000Z"
+    },
+    {
+      "title": "GDP revisions are not manipulation, they reflect better data, says former CEA Krishnamurthy V Subramanian",
+      "summary": "GDP estimates are revised as statistical agencies incorporate more complete data, updated sources and improved methodologies, rather than because of an attempt to manipulate growth figures, former CEA Krishnamurthy V Subramanian said.",
+      "url": "https://www.businesstoday.in/latest/economy/story/gdp-revisions-are-not-manipulation-they-reflect-better-data-says-former-cea-553015-2026-09-03?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-03T03:27:38.000Z"
+    },
+    {
+      "title": "Tata share transfer case: Inquiry closed, Charity Commissioner finds sale followed due process",
+      "summary": "Tata share transfer case: The Charity Commissioner found that the decision to sell the shares was neither sudden nor arbitrary.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/tata-share-transfer-case-inquiry-closed-charity-commissioner-finds-sale-followed-due-process-553012-2026-09-03?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-03T03:18:50.000Z"
+    },
+    {
+      "title": "Tata Sons clears 10k cr for AI, with conditions attached",
+      "summary": "Tata Sons' board approved a significant Rs 10,000 crore capital infusion for Air India. This investment is contingent upon business case presentations from the airline and other ventures. The decision follows a pause in equity injections after Air India's doubled losses in FY26.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/tata-sons-clears-10k-cr-for-ai-with-conditions-attached/articleshow/133723813.cms",
+      "source": "Times of India Business",
+      "category": "regulatory",
+      "publishedAt": "2026-09-03T03:02:57.000Z"
+    },
+    {
+      "title": "‘Ill-educated, egregiously wrong…’: Neelkanth Mishra says ‘2.6% GDP growth’ claim is obviously incorrect",
+      "summary": "India's GDP growth: The new series that significantly improved the methodology was introduced in February, said Neelkanth Mishra. The downward revision in the base was known in March, he said.",
+      "url": "https://www.businesstoday.in/latest/economy/story/ill-educated-egregiously-wrong-neelkanth-mishra-says-2-6-gdp-growth-claim-is-obviously-incorrect-553006-2026-09-03?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-03T02:53:53.000Z"
+    },
+    {
+      "title": "Stock market today: BSE Sensex jumps over 260 points, Nifty50 nears 24,000",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/sensex-stock-market-today-03-september-2026-live-updates-nse-bse-gift-nifty-50-top-gainers-losers-mcx-stocks-in-focus-market-news/liveblog/133723589.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-03T02:40:33.000Z"
+    },
+    {
+      "title": "Oil price today: Crude continues to trade beyond $95 per barrel",
+      "summary": "Oil prices took a minor dip on Thursday following a turbulent trading day. Investors are closely monitoring the repercussions of the US-Iran strikes on oil supply lines. Activity in the Strait of Hormuz is currently lower than average.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/oil-price-today-crude-continues-to-trade-beyond-95-per-barrel-amid-hormuz-supply-tensions/articleshow/133723230.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-03T02:04:53.000Z"
+    },
+    {
+      "title": "Quote of the Day by Steve Jobs: ‘Design is not just what it looks like and feels like. Design is how it works'",
+      "summary": "Steve Jobs (1955-2011) was an American entrepreneur, inventor, and business magnate best known as the co-founder of Apple. Jobs played a key role in revolutionising personal computing, smartphones, digital music, and animation.",
+      "url": "https://www.businesstoday.in/latest/world/story/quote-of-the-day-by-steve-jobs-design-is-not-just-what-it-looks-like-and-feels-like-design-is-how-it-works-552867-2026-09-03?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-03T02:00:03.000Z"
+    },
+    {
+      "title": "100 new airports: India’s next aviation boom may change how smaller cities travel",
+      "summary": "India plans 100 new airports over the next decade with a ₹30,000 crore investment, expanding air connectivity to smaller cities and boosting the country’s aviation ambitions.",
+      "url": "https://www.businesstoday.in/latest/photo/100-new-airports-indias-next-aviation-boom-may-change-how-smaller-cities-travel-552860-2026-09-03?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-03T01:00:03.000Z"
+    },
+    {
+      "title": "IRCTC special Navratri tour: Visit Vaishno Devi and 6 Shakti Peethas in 7 days",
+      "summary": "IRCTC’s Navratri Special Shaktipeeth Tour offers a 7-day spiritual journey from Mumbai to Vaishno Devi, covering six major Devi temples, Dharamshala and more from ₹53,000.",
+      "url": "https://www.businesstoday.in/latest/photo/irctc-special-navratri-tour-visit-vaishno-devi-and-6-shakti-peethas-in-7-days-552854-2026-09-03?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-03T00:50:03.000Z"
+    },
+    {
+      "title": "Flipkart sale is here: The deals shoppers may want to grab before September 6",
+      "summary": "Flipkart’s Big Billion Days sale brings discounts of up to 85% on electronics, appliances and more, with bank offers adding extra savings before the September 6 deadline.",
+      "url": "https://www.businesstoday.in/latest/photo/flipkart-sale-is-here-the-deals-shoppers-may-want-to-grab-before-september-6-552862-2026-09-03?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-03T00:40:03.000Z"
+    },
+    {
+      "title": "Royal Enfield hits a record August — and the numbers are getting hard to ignore",
+      "summary": "Royal Enfield posted its strongest-ever August sales in 2026, with 1.26 lakh motorcycles sold. Domestic demand and exports rose, while April-August sales jumped 23%.",
+      "url": "https://www.businesstoday.in/latest/photo/royal-enfield-hits-a-record-august-and-the-numbers-are-getting-hard-to-ignore-552865-2026-09-03?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-03T00:30:05.000Z"
+    },
+    {
+      "title": "'11am or 11pm, I feel safe': Indian woman in Japan sparks debate over women’s safety",
+      "summary": "She said that during her time in Japan, she had generally felt comfortable stepping outside regardless of whether it was 11 am or 11 pm",
+      "url": "https://www.businesstoday.in/latest/trends/story/11am-or-11pm-i-feel-safe-indian-woman-in-japan-sparks-debate-over-womens-safety-552987-2026-09-03?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-03T00:00:04.000Z"
+    },
+    {
+      "title": "Canada fund buys 24% in tower firm for $1.3bn",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/canada-fund-buys-24-in-tower-firm-for-1-3bn/articleshow/133722450.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-02T23:09:47.000Z"
+    },
+    {
+      "title": "High-value tech imports a worry: Auto cos",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/high-value-tech-imports-a-worry-auto-cos/articleshow/133722439.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-02T23:04:52.000Z"
+    },
+    {
+      "title": "India produces over 1.14 billion tonnes of fuel: Where it stands among world’s top producers",
+      "summary": "India's position at No. 4 highlights the continuing importance of coal to the country's energy system. At 1.085 billion tonnes, coal accounted for roughly 95% of India's combined fuel output by weight in the ranking",
+      "url": "https://www.businesstoday.in/latest/world/story/india-produces-over-1-14-billion-tonnes-of-fuel-where-it-stands-among-worlds-top-producers-552988-2026-09-03?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-02T23:00:04.000Z"
+    },
+    {
+      "title": "Fresh investments by pvt cos jump 97% in Q1: CMIE",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/fresh-investments-by-pvt-cos-jump-97-in-q1-cmie/articleshow/133722427.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-02T23:00:01.000Z"
     },
     {
       "title": "Rs 30 lakh salary, missed ITR after job switch; why ITAT cancelled Rs 3.74 lakh tax penalty",
@@ -73,20 +249,12 @@
       "publishedAt": "2026-09-02T16:20:31.000Z"
     },
     {
-      "title": "'Comparing apples to oranges': Amitabh Kant defends India's revised GDP methodology",
-      "summary": "Kant said GDP figures from different series should not be directly compared because the underlying methodology and data framework have changed",
-      "url": "https://www.businesstoday.in/india/story/comparing-apples-to-oranges-amitabh-kant-defends-indias-revised-gdp-methodology-552983-2026-09-02?utm_source=rssfeed",
+      "title": "'Magical moment for India': Ex-Finance Commission Chairman hails Japan's A- rating upgrade, defends new GDP methodology",
+      "summary": "Addressing criticism over the change in the GDP series, Singh argued that revisions to the base year are standard statistical practice",
+      "url": "https://www.businesstoday.in/latest/economy/story/magical-moment-for-india-ex-finance-commission-chairman-hails-japans-a-rating-upgrade-defends-new-gdp-methodology-552976-2026-09-02?utm_source=rssfeed",
       "source": "Business Today",
       "category": "markets",
-      "publishedAt": "2026-09-02T16:02:52.000Z"
-    },
-    {
-      "title": "'Excited to see Indian startups build the local AI economy': Nvidia CEO Jensen Huang",
-      "summary": "India is one of the world's leading IT industries, and this is the beginning of a new IT platform, says Jensen Huang",
-      "url": "https://www.businesstoday.in/technology/story/excited-to-see-indian-startups-build-the-local-ai-economy-nvidia-ceo-jensen-huang-552986-2026-09-02?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-02T15:58:55.000Z"
+      "publishedAt": "2026-09-02T16:10:23.000Z"
     },
     {
       "title": "India draws record $127 billion through forex deposits: RBI",
@@ -113,14 +281,6 @@
       "publishedAt": "2026-09-02T15:17:11.000Z"
     },
     {
-      "title": "Mahindra-SML merger to unlock sourcing, product platform and service synergies: Vinod Sahay",
-      "summary": "The Mahindra Group decided to bring the two commercial vehicle businesses under SML Mahindra as part of its ambition to scale up its truck and bus business, which currently has about 7% market share on a combined basis",
-      "url": "https://www.businesstoday.in/auto/story/mahindra-sml-merger-to-unlock-sourcing-product-platform-and-service-synergies-vinod-sahay-552984-2026-09-02?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-02T15:14:56.000Z"
-    },
-    {
       "title": "Dollar deluge: RBI’s forex scheme draws $136.37 billion",
       "summary": "Seen to help boost forex reserves, aid deposit mobilisation by banks",
       "url": "https://www.businesstoday.in/latest/economy/story/dollar-deluge-rbis-forex-scheme-draws-136-37-billion-552982-2026-09-02?utm_source=rssfeed",
@@ -129,12 +289,12 @@
       "publishedAt": "2026-09-02T14:54:59.000Z"
     },
     {
-      "title": "'Sugar availability is more than sufficient': Industry dismisses shortage fears ahead of festive season",
-      "summary": "The brief surge to ₹49–₹50 per kg witnessed in the third week of August applied strictly to an isolated, fractional volume of only 2 to 3 lakh tonnes, says sugar industry bodies",
-      "url": "https://www.businesstoday.in/industry/story/sugar-availability-is-more-than-sufficient-industry-dismisses-shortage-fears-ahead-of-festive-season-552978-2026-09-02?utm_source=rssfeed",
+      "title": "All data sources in public domain, several sub sectors performed better than expected, says MOSPI Secretary on 7.8% GDP growth",
+      "summary": "Q1 FY27 estimates to see lesser revision, GDP back series by year end.",
+      "url": "https://www.businesstoday.in/latest/economy/story/all-data-sources-in-public-domain-several-sub-sectors-performed-better-than-expected-says-mospi-secretary-on-7-8-gdp-growth-552974-2026-09-02?utm_source=rssfeed",
       "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-02T14:26:58.000Z"
+      "category": "insurance",
+      "publishedAt": "2026-09-02T13:55:43.000Z"
     },
     {
       "title": "Yolo meets SIP: How Gen Z is rewriting money rules & mistakes they should avoid",
@@ -145,76 +305,28 @@
       "publishedAt": "2026-09-02T13:28:31.000Z"
     },
     {
+      "title": "RBI's forex swap facility draws massive $127 billion through FCNR(B) deposits",
+      "summary": "The RBI had introduced the special USD-INR forex swap facility on June 8, 2026, covering FCNR(B) deposits, ECBs, and OFCBs. The facility was aimed at boosting foreign exchange inflows into the country",
+      "url": "https://www.businesstoday.in/latest/economy/story/rbis-forex-swap-facility-draws-massive-127-billion-through-fcnrb-deposits-552954-2026-09-02?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "regulatory",
+      "publishedAt": "2026-09-02T13:03:22.000Z"
+    },
+    {
+      "title": "₹90 crore for 15 episodes? What reports claim about Ajay Devgn’s Crime Patrol hosting fee",
+      "summary": "Ajay Devgn presents Crime Patrol 2026 on Sony TV and Sony LIV. The widely reported ₹90-crore fee for 15 episodes remains unconfirmed.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/rs90-crore-for-15-episodes-what-reports-claim-about-ajay-devgns-crime-patrol-hosting-fee-552952-2026-09-02?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-02T12:52:52.000Z"
+    },
+    {
       "title": "Uber lays off 3,300 employees as it restructures for faster growth",
       "summary": "Uber is cutting approximately ten percent of its global workforce, impacting about thirty-three hundred employees. This major restructuring aims to reduce management layers and simplify company operations.",
       "url": "https://timesofindia.indiatimes.com/business/international-business/uber-lays-off-3300-employees-as-it-restructures-for-faster-growth/articleshow/133710037.cms",
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-09-02T12:19:04.000Z"
-    },
-    {
-      "title": "U.S. May Tighten Child Passport Checks Under Trump, Indians And Birth Tourism Families Face Scrutiny",
-      "summary": "The Trump administration is stepping up its crackdown on birth tourism in the United States, with proposed new checks for children applying for passports. Under the reported changes, parents may need to provide proof of their U.S.",
-      "url": "https://www.businesstoday.in/bt-tv/whats-hot/video/us-may-tighten-child-passport-checks-under-trump-indians-and-birth-tourism-families-face-scrutiny-552885-2026-09-02?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-02T11:57:17.000Z"
-    },
-    {
-      "title": "Market Commentary | Deven Choksey On Buying Opportunities & Market Trends",
-      "summary": "Indian stock markets face sharp selling as rising crude oil prices, higher global bond yields, and Middle East tensions pressure the Nifty, Bank Nifty, and IT index.",
-      "url": "https://www.businesstoday.in/bt-tv/market-today/video/market-commentary-deven-choksey-on-buying-opportunities-market-trends-552876-2026-09-02?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-02T11:55:09.000Z"
-    },
-    {
-      "title": "“India Is Certainly Not In Crisis”: Arvind Panagariya On Growth, Investment And Reforms",
-      "summary": "India’s latest growth numbers have sparked a fresh debate over the strength of the economy. In an exclusive conversation with India Today’s Marya Shakil, Arvind Panagariya, Chairman of the 16th Finance Commission and former Vice Chairman of NITI Aayog, says In…",
-      "url": "https://www.businesstoday.in/bt-tv/whats-hot/video/india-is-certainly-not-in-crisis-arvind-panagariya-on-growth-investment-and-reforms-552872-2026-09-02?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-02T11:51:22.000Z"
-    },
-    {
-      "title": "Delhi Launches Solar Policy 2.0: Free 3kW Rooftop Solar For 2.3 Lakh Households",
-      "summary": "Delhi has launched the next version of its Solar Energy Policy, aimed at making rooftop solar more accessible for households.",
-      "url": "https://www.businesstoday.in/bt-tv/whats-hot/video/delhi-launches-solar-policy-2-0-free-3kw-rooftop-solar-for-2-3-lakh-households-552841-2026-09-02?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-02T11:47:06.000Z"
-    },
-    {
-      "title": "Karnataka Jobs Row: BJP-JDS Protest As Congress Govt Faces Recruitment Allegations",
-      "summary": "Karnataka’s political battle is heating up over alleged irregularities in government recruitment. BJP and JDS workers have stepped up protests against the Congress-led state government, targeting alleged Karnataka Public Service Commission recruitment issues.",
-      "url": "https://www.businesstoday.in/bt-tv/whats-hot/video/karnataka-jobs-row-bjp-jds-protest-as-congress-govt-faces-recruitment-allegations-552838-2026-09-02?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "insurance",
-      "publishedAt": "2026-09-02T11:45:27.000Z"
-    },
-    {
-      "title": "Exclusive | ₹15 Lk Cr Giant: LIC CEO On Multi-Billion Rupee NSE IPO Stake, HDFC Bank & Stock Action",
-      "summary": "As the Life Insurance Corporation of India (LIC) celebrates its monumental 70th anniversary, the state-owned giant stands at a fascinating financial crossroads.",
-      "url": "https://www.businesstoday.in/bt-tv/market-today/video/exclusive-rs15-lk-cr-giant-lic-ceo-on-multi-billion-rupee-nse-ipo-stake-hdfc-bank-stock-action-552829-2026-09-02?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "insurance",
-      "publishedAt": "2026-09-02T11:36:29.000Z"
-    },
-    {
-      "title": "Barefoot Mother In Saree Wins Marathon To Fund Daughters' Education | Ramabai's Viral Story",
-      "summary": "A heartwarming video of 47-year-old Ramabai Ranveer has gone viral after she won a marathon in Beed—running barefoot in a saree—to support her daughters' education.",
-      "url": "https://www.businesstoday.in/bt-tv/whats-hot/video/barefoot-mother-in-saree-wins-marathon-to-fund-daughters-education-ramabais-viral-story-552816-2026-09-02?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-02T11:32:57.000Z"
-    },
-    {
-      "title": "'No mechanical boost to GDP numbers': MoSPI's detailed clarification on 7.8% growth",
-      "summary": "MoSPI has explained how changes in the GDP series, price deflators, and sector-wise estimates affect the headline numbers",
-      "url": "https://www.businesstoday.in/latest/economy/story/no-mechanical-boost-to-gdp-growth-mospi-issues-detailed-clarification-on-7-8-growth-552870-2026-09-02?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-02T11:18:00.000Z"
     },
     {
       "title": "'To bring more clarity': Centre issues FAQs after oppn red flags GDP figures",
@@ -225,94 +337,6 @@
       "publishedAt": "2026-09-02T11:15:22.000Z"
     },
     {
-      "title": "'Are these growth numbers real?': Ex-RBI governor Raghuram Rajan casts doubts on India's GDP numbers",
-      "summary": "On Tuesday, the Ministry of Statistics and Programme Implementation (MoSPI) said that the Indian economy grew at a faster-than-expected rate of 7.8%.",
-      "url": "https://www.businesstoday.in/latest/economy/story/are-these-growth-numbers-real-ex-rbi-governor-raghuram-rajan-casts-doubts-on-indias-gdp-numbers-552855-2026-09-02?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "regulatory",
-      "publishedAt": "2026-09-02T10:58:41.000Z"
-    },
-    {
-      "title": "‘Some people are unable to digest…’: SBI Ecowrap says unnecessary controversy has been created on 7.8% GDP growth rate",
-      "summary": "India GDP growth at 7.8%: The report also pointed out that GDP revisions can move in either direction. Quarterly data on the old base showed 25 upward revisions and 12 downward revisions between FY22 and FY25.",
-      "url": "https://www.businesstoday.in/latest/economy/story/some-people-are-unable-to-digest-sbi-ecowrap-says-unnecessary-controversy-has-been-created-on-7-8-percent-gdp-growth-rate-552866-2026-09-02?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-02T10:52:35.000Z"
-    },
-    {
-      "title": "'Faking GDP growth is very difficult': Arvind Panagariya explains why numbers are hard to manipulate",
-      "summary": "An inflated growth number, he said, would eventually make it harder to sustain the same pace in subsequent years",
-      "url": "https://www.businesstoday.in/latest/economy/story/faking-gdp-growth-is-very-difficult-arvind-panagariya-explains-why-numbers-are-hard-to-manipulate-552861-2026-09-02?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-02T10:37:03.000Z"
-    },
-    {
-      "title": "Exclusive: FSSAI CEO Rajit Punhani On Red Labels, Misleading Food Ads & India's Obesity Crisis",
-      "summary": "In an exclusive interview with India Today, FSSAI CEO Rajit Punhani addresses growing concerns over what Indians are eating amid rising diabetes and obesity.",
-      "url": "https://www.businesstoday.in/bt-tv/whats-hot/video/exclusive-fssai-ceo-rajit-punhani-on-red-labels-misleading-food-ads-indias-obesity-crisis-552806-2026-09-02?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-02T10:09:15.000Z"
-    },
-    {
-      "title": "America At SCO Spotlight? Sergio Gor's Clever Central Asia Diplomacy Raises Big Questions",
-      "summary": "America is not an SCO member, but Washington found itself in the diplomatic spotlight as SCO leaders gathered in Bishkek. US Special Envoy Sergio Gor arrived for the World Nomad Games and held meetings with the presidents of Kyrgyzstan, Tajikistan and Uzbekist…",
-      "url": "https://www.businesstoday.in/bt-tv/whats-hot/video/america-at-sco-spotlight-sergio-gors-clever-central-asia-diplomacy-raises-big-questions-552802-2026-09-02?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-02T10:07:35.000Z"
-    },
-    {
-      "title": "Paper Leak Protests: Supreme Court Quashes FIRs, CJP Calls Off September 5 March",
-      "summary": "In a major development over protests against alleged paper leaks, the Supreme Court has quashed FIRs filed across the country in connection with demonstrations held between July 20 and July 25.",
-      "url": "https://www.businesstoday.in/bt-tv/whats-hot/video/paper-leak-protests-supreme-court-quashes-firs-cjp-calls-off-september-5-march-552792-2026-09-02?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-02T10:04:44.000Z"
-    },
-    {
-      "title": "Mukesh Ambani's ₹10 power play: From Campa Cola to ice cream, why Reliance is betting big on India’s middle class",
-      "summary": "The ₹10 price is significant because Reliance is not entering the category at the premium end.",
-      "url": "https://www.businesstoday.in/india/story/mukesh-ambanis-rs10-power-play-from-campa-cola-to-ice-cream-why-reliance-is-betting-big-on-indias-middle-class-552812-2026-09-02?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "insurance",
-      "publishedAt": "2026-09-02T09:55:50.000Z"
-    },
-    {
-      "title": "After TCS, Wipro installs employee productivity tracker: Inactive days could trigger leave",
-      "summary": "Wipro’s move puts workplace digital activity under closer scrutiny, as the IT major expands a system designed to measure working time while addressing productivity demands from employees and clients.",
-      "url": "https://www.businesstoday.in/technology/news/story/after-tcs-wipro-installs-employee-productivity-tracker-inactive-days-could-trigger-leave-552836-2026-09-02?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-02T09:37:01.000Z"
-    },
-    {
-      "title": "SBI customers alert! UPI to go offline on September 4: Check timing, duration and alternative",
-      "summary": "SBI has announced that its UPI services will be temporarily unavailable from 12:30 AM to 1:15 AM on September 4, covering a total period of 45 minutes",
-      "url": "https://www.businesstoday.in/india/story/sbi-customers-using-upi-services-to-be-unavailable-on-september-4-check-duration-alternative-552822-2026-09-02?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-02T09:35:28.000Z"
-    },
-    {
-      "title": "'No serious economist will complain': PM's advisor Sanjeev Sanyal defends India's 7.8% GDP growth",
-      "summary": "'I don't think anybody should complain. We did exactly what the IMF and others were asking us to do,' Sanyal defends GDP methodology",
-      "url": "https://www.businesstoday.in/latest/economy/story/no-serious-economist-will-complain-pms-advisor-sanjeev-sanyal-defends-indias-7-8-gdp-growth-552809-2026-09-02?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-02T09:22:03.000Z"
-    },
-    {
-      "title": "The GDP conundrum: Economists split over India's faster-than-expected 7.8% GDP growth rate",
-      "summary": "India GDP growth at 7.8%: The robust growth rate has split economists, kickstarting a debate on whether the government engaged in ‘statistical gymnastics’ to boost the growth rate.",
-      "url": "https://www.businesstoday.in/latest/economy/story/the-gdp-conundrum-economists-split-over-indias-faster-than-expected-7-8-percent-gdp-growth-rate-552811-2026-09-02?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-02T08:44:23.000Z"
-    },
-    {
       "title": "First Vande Bharat in 2019, sleeper version came in 2026; now 260 trains in works",
       "summary": "The first pair of Vande Bharat sleeper trains was launched earlier this year between Guwahati and Howrah. The second pair is undergoing trials and is expected to enter service soon.",
       "url": "https://timesofindia.indiatimes.com/business/india-business/in-2019-india-launched-its-first-vande-bharat-express-seven-years-later-came-the-sleeper-version-and-railways-now-plans-260-vande-sleeper-rakes-with-world-class-features/articleshow/133702275.cms",
@@ -321,28 +345,12 @@
       "publishedAt": "2026-09-02T08:21:00.000Z"
     },
     {
-      "title": "Subhash Chandra insolvency case: 'I've been vilified across country over ₹6.5 crore repayment plan,' says media baron",
-      "summary": "Appearing for Chandra, advocate Sasmit Patra said that the proceedings led to a media trial that tarnished the media baron's reputation.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/subhash-chandra-insolvency-case-ive-been-vilified-across-country-over-rs6-5-crore-repayment-plan-says-media-baron-552752-2026-09-02?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-02T07:04:39.000Z"
-    },
-    {
       "title": "Won Rs 15 lakh chit prize, payout delayed; how he won relief against company’s claim",
       "summary": "Kapil Chits attributed the delay to Eashwar’s late submission of the required sureties, saying the documents had to be verified before the prize money could be released.",
       "url": "https://timesofindia.indiatimes.com/business/india-business/mobile-shop-owner-won-rs-15-lakh-chit-prize-but-waited-55-days-for-payout-company-blamed-late-sureties-but-consumer-commission-found-its-records-contradicted-the-claim-and-ordered-rs-44500-relief/articleshow/133700213.cms",
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-09-02T06:49:02.000Z"
-    },
-    {
-      "title": "El Niño to cut power output as India’s electricity demand stays high: Report",
-      "summary": "The drop is adding pressure on the power grid as demand stays firm and evening shortages persist.",
-      "url": "https://www.businesstoday.in/india/story/power-crunch-ahead-weak-monsoon-cuts-hydro-output-as-indias-electricity-demand-stays-elevated-552753-2026-09-02?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-02T06:09:33.000Z"
     },
     {
       "title": "Gold price prediction today: Will gold, silver prices continue to fall? Check September 2, 2026 outlook",
@@ -361,84 +369,12 @@
       "publishedAt": "2026-09-02T03:25:01.000Z"
     },
     {
-      "title": "Top stocks to buy today: Stock recommendations for September 2, 2026 - check list",
-      "summary": "Stock market recommendations: NLC India, Deepak Nitrite, and Hindustan Copper have been picked as the top stocks to buy today on September 2, 2026 by Mehul Kothari, DVP - Technical Research at Anand Rathi Shares:",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/top-stock-recommendations-for-september-02-2026-nlc-india-deepak-nitrite-hindustan-copper-best-stocks-to-buy-today/articleshow/133695885.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-02T02:46:49.000Z"
-    },
-    {
       "title": "Oil prices jump 1% as US-Iran strikes deepen fears of supply disruption",
       "summary": "",
       "url": "https://timesofindia.indiatimes.com/business/india-business/oil-prices-jump-1-as-us-iran-strikes-deepen-fears-of-supply-disruption/articleshow/133695797.cms",
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-09-02T02:46:09.000Z"
-    },
-    {
-      "title": "5-member NCLT bench stays Subhash Chandra '6.5cr repayment order",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/5-member-nclt-bench-stays-subhash-chandra-6-5cr-repayment-order/articleshow/133694065.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-01T22:57:03.000Z"
-    },
-    {
-      "title": "Sun Pharma offers US cheaper drug supply",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/sun-pharma-offers-us-cheaper-drug-supply/articleshow/133694047.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-01T22:44:25.000Z"
-    },
-    {
-      "title": "TCS pips Accenture to take over Best Buy's India GCC ops",
-      "summary": "Five-Year Deal Size Estimated At 2k Cr, To Deepen Cos' Ties",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/tcs-pips-accenture-to-take-over-best-buys-india-gcc-ops/articleshow/133694028.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-01T22:39:45.000Z"
-    },
-    {
-      "title": "Rs 25,000 salary to Rs 1 crore EPF corpus: Compounding math can make you a crorepati",
-      "summary": "Over time, the interest earned on the accumulated balance earns interest, allowing compounding to steadily increase your retirement savings. With regular contributions maintained over a long period, an employee can potentially build an EPF corpus of Rs 1 crore or more.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/start-with-rs-25000-basic-salary-end-with-rs-1-crore-corpus-how-epf-compounding-math-can-make-you-a-crorepati-at-8-25-interest-in-less-than-30-years-with-6-annual-increment/articleshow/133687161.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-01T16:40:31.000Z"
-    },
-    {
-      "title": "UPI gets festive boost: Digital payments hit a record 24.51 bn transactions in August",
-      "summary": "In August, Unified Payments Interface hit an all-time high for monthly transaction volumes, largely fueled by festive celebrations like Raksha Bandhan that encouraged peer-to-peer transfers.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/upi-gets-festive-boost-digital-payments-hit-a-record-24-51-billion-transactions-in-august/articleshow/133685986.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-01T15:34:12.000Z"
-    },
-    {
-      "title": "India’s tech jobs face another jolt: Oracle to cut 3,000, Microsoft puts 500 on PIPs",
-      "summary": "Global tech giant Microsoft has put around 500 employees in India on performance improvement plans (PIPs), while Oracle is preparing to cut roughly 3,000 jobs in the country as technology companies reorganise their workforces and redirect spending towards newer areas.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/indias-tech-workforce-gets-another-jolt-oracle-is-cutting-around-3000-jobs-while-microsoft-puts-about-500-employees-on-pips-as-companies-shift-budgets-towards-newer-skills/articleshow/133678507.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-01T12:11:44.000Z"
-    },
-    {
-      "title": "Centre halves sugar stock limit for dealers to curb hoarding, price rise",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/centre-halves-sugar-stock-limit-for-dealers-to-curb-hoarding-price-rise/articleshow/133680665.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-01T12:07:46.000Z"
-    },
-    {
-      "title": "Rs 1 crore at 26 to Rs 7 crore net worth at 31: How Bengaluru techie achieved this",
-      "summary": "His financial journey, however, did not begin with a large salary or a carefully constructed investment portfolio. He claims he started investing small amounts in mutual funds soon after college, when he first became interested in financial independence.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/he-hit-rs-1-crore-net-worth-at-26-rs-5-crore-at-29-and-rs-7-crore-at-31-how-bengaluru-techie-paid-off-property-debt-and-survived-a-failed-ai-app-on-his-financial-independence-retire-early-journey/articleshow/133674559.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-01T10:02:00.000Z"
     }
   ]
 }
