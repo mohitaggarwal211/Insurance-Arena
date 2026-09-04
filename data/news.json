@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-04T14:27:43.241Z",
-  "articlesCount": 40,
+  "lastUpdated": "2026-09-04T16:46:04.246Z",
+  "articlesCount": 39,
   "sourcesOk": 5,
   "sourcesTotal": 9,
   "sourceStatus": [
@@ -41,7 +41,7 @@
     {
       "source": "Times of India Business",
       "status": "ok",
-      "articles": 20,
+      "articles": 19,
       "feedUsed": "https://timesofindia.indiatimes.com/rssfeeds/1898055.cms"
     },
     {
@@ -56,6 +56,38 @@
     }
   ],
   "articles": [
+    {
+      "title": "GDP growth at 7.8%: Arvind Subramanian says India’s data needs more transparency, trust",
+      "summary": "India’s 7.8% GDP growth estimate has sparked renewed questions over whether official data fully reflects the economy’s performance amid an energy shock and weak economic indicators.",
+      "url": "https://www.businesstoday.in/latest/economy/story/gdp-growth-at-7-8-arvind-subramanian-says-indias-data-needs-more-transparency-trust-553398-2026-09-04?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-04T16:13:42.000Z"
+    },
+    {
+      "title": "Breather for India? Trump’s Russia sanctions bill may be stalled for now; could have led to 100% tariffs",
+      "summary": "Lawmakers are concerned that the legislation could give President Donald Trump broader authority to impose tariffs and potentially push oil prices higher. Meanwhile, India’s reliance on Russian crude has increased sharply and is at record levels.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/breather-for-india-trumps-russia-sanctions-bill-may-be-stalled-for-now-could-have-led-to-100-tariffs/articleshow/133768779.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-04T15:36:53.000Z"
+    },
+    {
+      "title": "Ex-IMF economist Surjit Bhalla backs 7.8% GDP number: 'No evidence of exaggeration'",
+      "summary": "The revised GDP series has raised questions over whether the downward revision in earlier estimates helped lift the latest growth figure. While economist Surjit Bhalla sees no evidence of political manipulation, experts Montek Singh Ahluwalia, Dr.",
+      "url": "https://www.businesstoday.in/latest/economy/story/7-8-gdp-row-absolutely-no-politics-in-gdp-numbers-no-evidence-of-exaggeration-says-surjit-bhalla-553394-2026-09-04?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-04T14:52:27.000Z"
+    },
+    {
+      "title": "Neighbour held 4.27 acres for 40 years; 80 year old original owner gets his title restored",
+      "summary": "Long-term occupation of a property does not automatically amount to adverse possession. To establish such a claim, there must also be a clear assertion of hostile title along with the necessary animus.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/neighbour-occupied-4-27-acres-for-40-years-and-his-name-was-added-in-land-records-karnataka-hc-rejects-adverse-possession-claim-and-restores-original-owners-title/articleshow/133767045.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-04T14:34:39.000Z"
+    },
     {
       "title": "Phuket-Delhi flight incident: Air India terminates pilot who tested positive for drugs",
       "summary": "Air India terminated a pilot's employment after he tested positive for a psychoactive substance. This action followed an incident where the aircraft experienced multiple hydraulic failures. The flight encountered an altitude upset, causing injuries to passengers and crew.",
@@ -73,7 +105,7 @@
       "publishedAt": "2026-09-04T13:16:07.000Z"
     },
     {
-      "title": "Air India Phuket-Delhi flight lost all three hydraulic systems at 36,000 feet, 24 injured: Report",
+      "title": "Air India sacks Phuket-Delhi pilot after psychoactive substance test comes back positive",
       "summary": "The 10-page report said the aircraft’s green, blue and yellow hydraulic systems lost pressure within seconds of each other. The systems recovered shortly afterwards and the aircraft continued its journey to Delhi, where it landed safely.",
       "url": "https://www.businesstoday.in/india/story/air-india-phuket-delhi-flight-lost-all-three-hydraulic-systems-at-36000-feet-24-injured-report-553381-2026-09-04?utm_source=rssfeed",
       "source": "Business Today",
@@ -289,22 +321,6 @@
       "publishedAt": "2026-09-03T16:55:37.000Z"
     },
     {
-      "title": "8th Pay Commission: Level 8 employee could earn up to Rs 28.89 lakh extra if 7% increment is implemented",
-      "summary": "Employee bodies have argued that the current 3% annual increment is not sufficient to keep pace with rising expenses. Their recommendations have ranged from 5% to 7%.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/8th-pay-commission-salary-hike-calculator-a-level-8-employee-could-earn-up-to-rs-28-89-lakh-extra-over-10-years-if-annual-increment-rises-from-3-to-7-with-2-15-fitment-factor/articleshow/133740989.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-03T16:16:53.000Z"
-    },
-    {
-      "title": "Bank holiday on Janmashtami: Where are banks closed on Sept 4, 2026? Check list",
-      "summary": "Indian banks across various states will be closed on September 4 to observe Krishna Janmashtami. Customers should be aware that further closures will occur throughout the month for additional festivals and elections.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/bank-holiday-on-janmashtami-where-are-banks-closed-on-september-4-2026-check-state-wise-list/articleshow/133740393.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-03T16:04:36.000Z"
-    },
-    {
       "title": "Subhash Garg had called new GDP series 'more representative', 'accurate': Amit Malviya shares March article",
       "summary": "Amit Malviya said Garg had described the revised GDP series as more representative and accurate shortly after it was released in March, but was now calling the same methodology \"fiddled\".",
       "url": "https://www.businesstoday.in/latest/economy/story/subhash-garg-had-called-new-gdp-series-more-representative-accurate-amit-malviya-shares-march-article-553285-2026-09-03?utm_source=rssfeed",
@@ -345,36 +361,12 @@
       "publishedAt": "2026-09-03T13:41:56.000Z"
     },
     {
-      "title": "'Methodology is very robust': Former statisticians back GDP base year revision",
-      "summary": "Previous such exercises have also seen revision in estimates, former officials back new series, methodology",
-      "url": "https://www.businesstoday.in/latest/economy/story/methodology-is-very-robust-former-statisticians-back-gdp-base-year-revision-553249-2026-09-03?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-03T13:23:20.000Z"
-    },
-    {
-      "title": "Mahindra’s 800-acre Nagpur plant: Company plans jobs, skilling & capacity for 5 lakh vehicles a year",
-      "summary": "Alongside the physical development of the facility, Mahindra is also working on building the workforce and skills needed to operate the plant.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/mahindras-800-acre-nagpur-plant-company-plans-jobs-skilling-capacity-for-5-lakh-vehicles-a-year-553230-2026-09-03?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-03T12:47:04.000Z"
-    },
-    {
       "title": "Indian Railways set to get indigenous 280 kmph bullet trains by early 2027",
       "summary": "India could see the launch of its first bullet train service in 2027, with the Surat–Bilimora section of the Mumbai-Ahmedabad bullet train project expected to become operational by August that year.",
       "url": "https://timesofindia.indiatimes.com/business/india-business/bullet-train-project-was-launched-in-2017-ten-years-later-indian-railways-is-set-to-roll-out-its-own-rs-866-87-crore-high-speed-280-kmph-trains-by-early-next-year/articleshow/133729526.cms",
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-09-03T08:49:41.000Z"
-    },
-    {
-      "title": "Indians cash in idle gold: Rs 20 lakh for a home, Rs 80 lakh for US degree & business",
-      "summary": "What is changing is what a younger generation wants it to do with idle gold. For some, the jewellery in the locker is no longer something to preserve indefinitely. It can become a house, an education, a business or an investment.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/a-couple-sold-gold-for-rs-20-lakh-to-buy-a-home-another-family-got-rs-80-lakh-for-a-us-degree-and-business-how-indians-are-unlocking-value-of-idle-gold-sitting-in-their-lockers/articleshow/133714204.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-02T15:17:11.000Z"
     }
   ]
 }
