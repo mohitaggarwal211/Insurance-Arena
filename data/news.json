@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T05:19:53.129Z",
+  "lastUpdated": "2026-09-05T05:55:07.752Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -57,28 +57,12 @@
   ],
   "articles": [
     {
-      "title": "'Pack and go' order: Tata Chemicals claims full regulatory compliance as Kenya demands exit from Lake Magadi",
-      "summary": "\"Tata has held mining rights for 100 years, yet it has not built anything in Kajiado,\" President Ruto was quoted by Bloomberg as saying. \"They take our resource to India and other places.\"",
-      "url": "https://www.businesstoday.in/india/story/pack-and-go-order-tata-chemicals-claims-full-regulatory-compliance-as-kenya-demands-exit-from-lake-magadi-553413-2026-09-05?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "regulatory",
-      "publishedAt": "2026-09-05T04:48:57.000Z"
-    },
-    {
       "title": "Tesla’s wheel-free Cybercabs face US safety probe just a day after launch",
       "summary": "The US safety regulator is conducting an investigation into Tesla's innovative taxis that operate without a steering wheel. The National Highway Traffic Safety Administration is assessing whether these vehicles adhere to federal safety regulations.",
       "url": "https://timesofindia.indiatimes.com/business/international-business/teslas-wheel-free-cybercabs-face-us-safety-probe-just-a-day-after-launch/articleshow/133787079.cms",
       "source": "Times of India Business",
       "category": "regulatory",
       "publishedAt": "2026-09-05T04:18:44.000Z"
-    },
-    {
-      "title": "'Quality maintain karna or I’ll send HIM': Salman Khan drops hilarious warning for Bandra café",
-      "summary": "While the actor did not explicitly name anyone, the capitalized \"HIM\" was immediately linked by fans and social media users to Maharashtra Food and Drug Administration Commissioner Tukaram Mundhe.",
-      "url": "https://www.businesstoday.in/latest/trends/story/quality-maintain-karna-or-ill-send-him-salman-khan-drops-hilarious-warning-for-bandra-cafe-553412-2026-09-05?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-05T04:14:03.000Z"
     },
     {
       "title": "Trump team quietly closed probe into businessman eyed by US to broker Venezuela oil deal",
@@ -375,6 +359,22 @@
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-09-04T01:00:03.000Z"
+    },
+    {
+      "title": "IAF tests Khagantak-243: The indigenous weapon built to cut import dependence",
+      "summary": "IAF has successfully tested Khagantak-243, an indigenous long-range glide bomb developed by JSR Dynamics and BEL, strengthening India’s precision-strike capability and reducing import dependence.",
+      "url": "https://www.businesstoday.in/latest/photo/iaf-tests-khagantak-243-the-indigenous-weapon-built-to-cut-import-dependence-553175-2026-09-04?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-04T00:45:02.000Z"
+    },
+    {
+      "title": "Janmashtami travel alert: Delhi gets special trains to Mathura, Ringas and Varanasi",
+      "summary": "Delhi Railways has announced special Janmashtami trains to Mathura, Ringas and Varanasi, giving devotees extra travel options. Check timings, routes, stops and coach details.",
+      "url": "https://www.businesstoday.in/latest/photo/janmashtami-travel-alert-delhi-gets-special-trains-to-mathura-ringas-and-varanasi-553182-2026-09-04?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-04T00:30:05.000Z"
     }
   ]
 }
