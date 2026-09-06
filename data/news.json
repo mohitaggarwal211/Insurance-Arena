@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T13:44:46.521Z",
+  "lastUpdated": "2026-09-06T16:00:59.226Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,30 @@
     }
   ],
   "articles": [
+    {
+      "title": "Builder promised 5,069 sq ft, delivered 3,900; RERA orders refund, Rs 98 lakh penalty",
+      "summary": "Telangana RERA condemned the use of such tactics by the builder, stating that the alleged conduct amounted to cheating, violated Section 3 of the RE(R&D) Act and made the builder liable for a penalty.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/homebuyer-promised-5069-sq-ft-villa-by-builder-but-only-3900-sq-ft-delivered-telangana-rera-orders-rs-20-lakh-refund-and-rs-98-lakh-penalty/articleshow/133842980.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-06T15:48:12.000Z"
+    },
+    {
+      "title": "IPO rush ahead: 11 companies line up to raise Rs 7,055 crore from investors",
+      "summary": "The primary market in India is gearing up for an exciting week ahead, with eleven main-board IPOs lined up to collectively raise more than seven thousand crore rupees. These IPOs span various sectors, showcasing a vibrant market landscape.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/ipo-rush-ahead-11-companies-line-up-to-raise-rs-7055-crore-from-investors/articleshow/133842397.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-06T15:31:47.000Z"
+    },
+    {
+      "title": "Bullion markets this week: US inflation, crude and Middle East tensions to set the tone",
+      "summary": "This week sees potential volatility in gold and silver prices, primarily driven by upcoming US inflation figures and interest rate speculation. The influence of crude oil fluctuations and geopolitical developments in the Middle East also play a significant role.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/bullion-markets-this-week-us-inflation-crude-and-middle-east-tensions-to-set-the-tone/articleshow/133841839.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-06T15:06:52.000Z"
+    },
     {
       "title": "India holds strong: How government & RBI worked to shield economy from US-Iran war",
       "summary": "The economy has shown resilience in the face of multiple crises. GDP growth is just one aspect of the story. Foreign exchange reserves have recently hit an all-time high. GST collections - an important high frequency indicator - are robust.",
@@ -351,30 +375,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-09-04T22:38:25.000Z"
-    },
-    {
-      "title": "As protein demand rises, brands go for smaller packs",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/as-protein-demand-rises-brands-go-for-smaller-packs/articleshow/133780266.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-04T22:32:32.000Z"
-    },
-    {
-      "title": "Unfinished agenda larger than I thought: Axis CEO",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/unfinished-agenda-larger-than-i-thought-axis-ceo/articleshow/133780194.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-04T22:28:44.000Z"
-    },
-    {
-      "title": "Breather for India? Trump’s Russia sanctions bill may be stalled for now; could have led to 100% tariffs",
-      "summary": "Lawmakers are concerned that the legislation could give President Donald Trump broader authority to impose tariffs and potentially push oil prices higher. Meanwhile, India’s reliance on Russian crude has increased sharply and is at record levels.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/breather-for-india-trumps-russia-sanctions-bill-may-be-stalled-for-now-could-have-led-to-100-tariffs/articleshow/133768779.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-04T15:36:53.000Z"
     }
   ]
 }
