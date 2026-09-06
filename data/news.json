@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T11:32:41.518Z",
+  "lastUpdated": "2026-09-06T13:44:46.521Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,30 @@
     }
   ],
   "articles": [
+    {
+      "title": "India holds strong: How government & RBI worked to shield economy from US-Iran war",
+      "summary": "The economy has shown resilience in the face of multiple crises. GDP growth is just one aspect of the story. Foreign exchange reserves have recently hit an all-time high. GST collections - an important high frequency indicator - are robust.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/india-holds-strong-how-government-rbi-worked-to-shield-economy-from-us-iran-war/articleshow/133838157.cms",
+      "source": "Times of India Business",
+      "category": "regulatory",
+      "publishedAt": "2026-09-06T13:10:33.000Z"
+    },
+    {
+      "title": "West Bengal has Rs 8 lakh crore debt. Then why is it giving Rs 3,000 cash? FM Swapan Dasgupta explains",
+      "summary": "Swapan Dasgupta, who took charge as Bengal's finance minister on June 1, said the bigger challenge was changing the state's image as an investment destination",
+      "url": "https://www.businesstoday.in/latest/economy/story/west-bengal-has-rs-8-lakh-crore-debt-then-why-is-it-giving-rs-3000-cash-swapan-dasgupta-explains-553508-2026-09-06?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-06T12:56:41.000Z"
+    },
+    {
+      "title": "Apple wanted to bring their Chinese vendors: Ex-NITI Aayog VC makes case for more China FDI",
+      "summary": "India could learn from China's own approach to foreign investment. They had the largest investment from countries with whom they fought wars, says Rajiv Kumar",
+      "url": "https://www.businesstoday.in/latest/economy/story/apple-wanted-chinese-vendors-ex-niti-aayog-vc-makes-case-for-more-china-fdi-553506-2026-09-06?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-06T11:49:43.000Z"
+    },
     {
       "title": "Crude prices, Fed bets and more: What’s in store for markets this week",
       "summary": "In the coming week, global events are set to significantly impact stock markets, with investors on high alert for developments in the Middle East and fluctuations in crude oil prices.",
@@ -241,28 +265,12 @@
       "publishedAt": "2026-09-05T16:00:32.000Z"
     },
     {
-      "title": "$60 billion in 10 days: How banks pulled off a last-minute FCNR(B) deposit rush",
-      "summary": "Banks pulled in more than $60 billion in FCNR(B) deposits in the final 10 days before the August 31 deadline, taking total system inflows to $136.4 billion.",
-      "url": "https://www.businesstoday.in/industry/banks/story/60-billion-in-10-days-how-banks-pulled-off-a-last-minute-fcnrb-deposit-rush-553459-2026-09-05?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-05T14:39:42.000Z"
-    },
-    {
       "title": "Son loses gifted flat after neglecting parents; why he may still inherit it later",
       "summary": "A recent Bombay High Court case involved a son who was directed to vacate his father’s flat after the court found that he had failed to honour the condition attached to the gift of the property.",
       "url": "https://timesofindia.indiatimes.com/business/india-business/parents-gifted-their-son-a-flat-on-condition-he-care-for-them-after-he-neglected-them-bombay-hc-cancelled-the-gift-but-heres-why-he-may-still-inherit-it-later/articleshow/133795029.cms",
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-09-05T14:10:20.000Z"
-    },
-    {
-      "title": "Tata Technologies: Former CEO Patrick McGoldrick sells shares worth nearly Rs 165 crore",
-      "summary": "McGoldrick offloaded 21 lakh shares, representing a 0.51 per cent stake in the Pune-based global product engineering and digital services company.",
-      "url": "https://www.businesstoday.in/markets/stocks/story/tata-technologies-former-ceo-patrick-mcgoldrick-sells-shares-worth-nearly-rs-165-crore-553456-2026-09-05?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-05T14:07:48.000Z"
     },
     {
       "title": "Global food prices rise 1.9%, says UN body; highest since 2022 amid weather, war disruptions",
@@ -367,14 +375,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-09-04T15:36:53.000Z"
-    },
-    {
-      "title": "Neighbour held 4.27 acres for 40 years; 80 year old original owner gets his title restored",
-      "summary": "Long-term occupation of a property does not automatically amount to adverse possession. To establish such a claim, there must also be a clear assertion of hostile title along with the necessary animus.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/neighbour-occupied-4-27-acres-for-40-years-and-his-name-was-added-in-land-records-karnataka-hc-rejects-adverse-possession-claim-and-restores-original-owners-title/articleshow/133767045.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-04T14:34:39.000Z"
     }
   ]
 }
