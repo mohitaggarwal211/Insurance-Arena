@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-07T13:19:54.895Z",
+  "lastUpdated": "2026-09-07T15:57:17.037Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,14 @@
     }
   ],
   "articles": [
+    {
+      "title": "Traffic violations could cost driving licence points; Gadkari plans new rules",
+      "summary": "The proposed system would assign penalty points to motorists for different traffic offences. If a driver accumulates points beyond a specified limit, the authorities could suspend the driving licence or cancel it altogether.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/gadkari-plans-graded-driving-licence-points-traffic-violations-could-cut-points-repeat-offenders-may-lose-licences-while-good-drivers-could-get-rewards/articleshow/133883846.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-07T13:58:54.000Z"
+    },
     {
       "title": "Reliance Finance case gets bigger: CBI chargesheets 17 more over alleged ₹6,229 crore diversion",
       "summary": "The accused include three Reliance ADA Group executives, eight companies, and six bank officials associated with Bank of Baroda, Punjab National Bank, and Indian Overseas Bank",
@@ -367,14 +375,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-09-06T15:06:52.000Z"
-    },
-    {
-      "title": "India holds strong: How government & RBI worked to shield economy from US-Iran war",
-      "summary": "The economy has shown resilience in the face of multiple crises. GDP growth is just one aspect of the story. Foreign exchange reserves have recently hit an all-time high. GST collections - an important high frequency indicator - are robust.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/india-holds-strong-how-government-rbi-worked-to-shield-economy-from-us-iran-war/articleshow/133838157.cms",
-      "source": "Times of India Business",
-      "category": "regulatory",
-      "publishedAt": "2026-09-06T13:10:33.000Z"
     }
   ]
 }
