@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-08T12:00:26.135Z",
+  "lastUpdated": "2026-09-08T14:41:22.399Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -57,12 +57,92 @@
   ],
   "articles": [
     {
+      "title": "Crypto goes abroad, returns as gift cards for Indians to buy groceries & gold",
+      "summary": "The mechanism involves leading fintech and e-commerce platforms incorporated in Sweden, Germany and Singapore. Individuals can use these platforms to obtain gift cards or vouchers, which effectively serve as proxy money, by transferring stablecoins from their …",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/crypto-goes-abroad-comes-back-as-shopping-money-how-indians-can-use-overseas-platforms-to-turn-usdt-stablecoins-into-gift-cards-to-buy-groceries-fuel-food-mobile-recharges-and-even-gold/articleshow/133928881.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-08T14:12:54.000Z"
+    },
+    {
+      "title": "'India's fintech story has been amazing... A big champion of this is UPI': PM Modi",
+      "summary": "PM Narendra Modi called UPI a major force behind India’s fintech transformation, saying the digital payments platform has made financial services more accessible and is now central to India’s fintech story.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/indias-fintech-story-has-been-amazing-a-big-champion-of-this-is-upi-pm-modi-554083-2026-09-08?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-08T13:58:27.000Z"
+    },
+    {
+      "title": "Why just Russian oil? US supplies over 50% of India’s LPG imports - what it means",
+      "summary": "Even as Russia remains India’s largest crude oil supplier, the US has emerged as the biggest LPG exporter for India and the trend is likely to continue despite higher costs if Middle East supplies remain uncertain.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/why-just-russian-oil-us-supplies-over-50-of-indias-lpg-imports-what-it-means/articleshow/133926992.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-08T13:34:04.000Z"
+    },
+    {
+      "title": "NSE IPO may open on Sept 18, list on Sept 25; Rs 30,000 crore issue in sight: Report",
+      "summary": "The National Stock Exchange's Rs 30,000-crore initial public offering is anticipated to open for subscription on September 18. This offering will be an offer for sale, with existing shareholders selling nearly 15 crore equity shares.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/nse-ipo-may-open-on-september-18-list-on-september-25-rs-30000-crore-issue-in-sight-report/articleshow/133927368.cms",
+      "source": "Times of India Business",
+      "category": "regulatory",
+      "publishedAt": "2026-09-08T13:28:34.000Z"
+    },
+    {
+      "title": "Robust GDP, record forex: Why economic boom is still taking a bite out of your breakfast",
+      "summary": "India's economy grew strongly, yet everyday food prices are increasing. Sugar and edible oil costs have risen significantly, impacting household budgets. Packaged food companies face higher input costs and may increase prices.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/robust-gdp-record-forex-why-economic-boom-is-still-taking-a-bite-out-of-your-breakfast/articleshow/133924981.cms",
+      "source": "Times of India Business",
+      "category": "regulatory",
+      "publishedAt": "2026-09-08T13:04:15.000Z"
+    },
+    {
+      "title": "The alleged iPhone 18 Pro Max video looks convincing—but demo units cannot confirm Apple’s final design",
+      "summary": "A video appears to show Dark Cherry and blue iPhone 18 Pro demo units, but Apple has authenticated neither. Here is what the clip supports, where the leaks conflict and what remains rumour.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/the-alleged-iphone-18-pro-max-video-looks-convincing-but-demo-units-cannot-confirm-apples-final-design-554068-2026-09-08?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-08T12:57:47.000Z"
+    },
+    {
+      "title": "India’s first bullet-train test coach is ready: What it means for the Surat–Bilimora opening target in 2027",
+      "summary": "India’s first bullet-train test coach is ready, while Surat–Bilimora is targeted for commissioning in 2027. Here are the separate milestones and the complete 508-km, 12-station route.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/indias-first-bullet-train-test-coach-is-ready-what-it-means-for-the-surat-bilimora-opening-target-in-2027-554064-2026-09-08?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-08T12:45:22.000Z"
+    },
+    {
+      "title": "Diwali and Chhath train tickets are selling fast—know the exact rules before believing a “100% confirmed” claim",
+      "summary": "No method guarantees a confirmed Diwali or Chhath train ticket. These five verified steps explain the 60-day window, Master List, alternatives, payment preparation and exact Tatkal timings.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/diwali-and-chhath-train-tickets-are-selling-fast-know-the-exact-rules-before-believing-a-100-confirmed-claim-554055-2026-09-08?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-08T12:30:48.000Z"
+    },
+    {
+      "title": "Cars24 transaction GMV hits ₹937 crore in August; loans up 70%",
+      "summary": "Loans disbursed rose 70% year-on-year to ₹415 crore, up 15.7% from July",
+      "url": "https://www.businesstoday.in/auto/story/cars24-transaction-gmv-hits-rs937-crore-in-august-loans-up-70-554046-2026-09-08?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-08T12:17:21.000Z"
+    },
+    {
       "title": "Indian startup unveils testing & manufacturing hubs to validate reusable rocket stages",
       "summary": "Indian space startup Agnikul Cosmos inaugurated two new facilities in Chennai. These facilities will support testing and manufacturing of reusable rocket stages. The company aims to develop reusable launch vehicle technology for future missions.",
       "url": "https://timesofindia.indiatimes.com/science/indian-startup-agnikul-cosmos-unveils-testing-manufacturing-hubs-in-chennai-to-validate-reusable-rocket-stages/articleshow/133922997.cms",
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-09-08T11:34:29.000Z"
+    },
+    {
+      "title": "NTPC and Adani apply under Rs 37,500 crore coal gasification scheme",
+      "summary": "The first round of the coal gasification scheme received applications from players. The government has now launched the second bidding round.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/ntpc-and-adani-apply-under-rs-37500-crore-coal-gasification-scheme-554013-2026-09-08?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-08T11:34:18.000Z"
     },
     {
       "title": "Delhi to Katra in six hours and Amritsar in four? What NHAI’s expressway travel-time targets really mean",
@@ -225,28 +305,12 @@
       "publishedAt": "2026-09-08T03:56:03.000Z"
     },
     {
-      "title": "LPG, CNG, PNG prices today (September 8): Check latest rates in Delhi, Mumbai, Kolkata, other cities",
-      "summary": "LPG, CNG, and PNG prices today: This comes even as the government is seeking to reduce dependence on imported cooking gas, secure supplies from alternative sources, strengthen domestic LPG availability and expand piped natural gas connections.",
-      "url": "https://www.businesstoday.in/latest/economy/story/lpg-cng-png-prices-today-september-8-check-latest-rates-in-delhi-mumbai-kolkata-other-cities-553814-2026-09-08?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-08T03:42:11.000Z"
-    },
-    {
       "title": "Top stocks to buy or sell today: Stock market recommendations for September 8, 2026 - check list",
       "summary": "Stock market recommendations: Life Insurance Corporation of India, Tata Steel, and Bank of India are the top stocks to sell as per Somil Mehta, Head of Retail Research, Mirae Asset ShareKhan on September 8, 2026.",
       "url": "https://timesofindia.indiatimes.com/business/india-business/top-stock-recommendations-for-september-08-2026-life-insurance-corporation-of-india-lic-tata-steel-bank-of-india-ge-vernova-td-india-to-buy-or-sell-today/articleshow/133885500.cms",
       "source": "Times of India Business",
       "category": "insurance",
       "publishedAt": "2026-09-08T03:22:00.000Z"
-    },
-    {
-      "title": "‘Intellectual poseurs peddling rancorous story’: SBI Ecowrap defends 7.8% GDP growth",
-      "summary": "India GDP growth rate: SBI Research said casting doubts on the GDP data is akin to casting doubts on the qualifications and integrity of the galaxy of experts that constituted the committees.",
-      "url": "https://www.businesstoday.in/latest/economy/story/intellectual-poseurs-peddling-rancorous-story-sbi-ecowrap-defends-7-8-percent-gdp-growth-553811-2026-09-08?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-08T03:04:15.000Z"
     },
     {
       "title": "Stock market today: BSE Sensex tanks over 330 points, NSE Nifty50 opens below 23,700",
@@ -257,14 +321,6 @@
       "publishedAt": "2026-09-08T02:28:42.000Z"
     },
     {
-      "title": "Quote of the Day by Ratan Tata: 'The early Rockefellers made their wealth from being in certain businesses and remained personally very wealthy'",
-      "summary": "Tata believed that early-stage businesses succeed because of the drive and creativity of their creators. Ideas can pivot and change, but true passion and original thinking cannot be manufactured.",
-      "url": "https://www.businesstoday.in/india/story/quote-of-the-day-by-ratan-tata-the-early-rockefellers-made-their-wealth-from-being-in-certain-businesses-and-remained-personally-very-wealthy-553457-2026-09-08?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-08T02:00:03.000Z"
-    },
-    {
       "title": "Brent crude climbs beyond $97 as Hormuz disruptions choke global oil supplies",
       "summary": "With the ongoing conflict in the Middle East escalating, oil prices are experiencing a significant uptick as global supplies come under threat. Iran has issued warnings of retaliation against US actions, heightening fears surrounding energy infrastructure.",
       "url": "https://timesofindia.indiatimes.com/business/international-business/brent-crude-climbs-beyond-97-as-strait-of-hormuz-disruptions-choke-global-oil-supplies/articleshow/133903159.cms",
@@ -273,36 +329,12 @@
       "publishedAt": "2026-09-08T01:57:40.000Z"
     },
     {
-      "title": "Gold-loan NBFCs stare at tougher competition as banks enter the market",
-      "summary": "Antique Stock Broking expects growth in the gold-financing sector to become more dependent on customer acquisition, loan volumes and branch productivity as the pace of gold-price appreciation moderates.",
-      "url": "https://www.businesstoday.in/industry/banks/story/gold-loan-nbfcs-stare-at-tougher-competition-as-banks-enter-the-market-553801-2026-09-08?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-08T01:40:02.000Z"
-    },
-    {
       "title": "Alternate fuels overtake petrol in passenger car sales",
       "summary": "",
       "url": "https://timesofindia.indiatimes.com/business/india-business/alternate-fuels-overtake-petrol-in-passenger-car-sales/articleshow/133902722.cms",
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-09-08T01:24:30.000Z"
-    },
-    {
-      "title": "Hydrogen train gets a speed push: Railways eyes 110 kmph operation",
-      "summary": "India’s first hydrogen-powered train could soon operate at 110 kmph after successful 120 kmph trials, as Railways weighs routes, fuel supply and cleaner transport options.",
-      "url": "https://www.businesstoday.in/latest/photo/hydrogen-train-gets-a-speed-push-railways-eyes-110-kmph-operation-553692-2026-09-08?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-08T01:10:03.000Z"
-    },
-    {
-      "title": "India’s metro network is closing in on the US — and the gap is shrinking fast",
-      "summary": "India’s metro network has reached 1,170 km across 26 cities and is now just 216 km behind the US. With rapid expansion, India could overtake the US within two years.",
-      "url": "https://www.businesstoday.in/latest/photo/indias-metro-network-is-closing-in-on-the-us-and-the-gap-is-shrinking-fast-553698-2026-09-08?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-08T01:00:04.000Z"
     },
     {
       "title": "India joins US, 24 nations in push for next-generation 6G networks",
@@ -329,44 +361,12 @@
       "publishedAt": "2026-09-07T20:26:12.000Z"
     },
     {
-      "title": "We'll make Air India great again: Gebremariam",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/well-make-air-india-great-again-gebremariam/articleshow/133896108.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-07T20:18:14.000Z"
-    },
-    {
-      "title": "6-week high: India's crude import price hits $100-a-barrel mark",
-      "summary": "Likely To Rise Further Amid West Asia Crisis",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/6-week-high-indias-crude-import-price-hits-100-a-barrel-mark/articleshow/133895072.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-07T19:22:09.000Z"
-    },
-    {
       "title": "Salary stayed Rs 2.6 lakh after maternity leave, but duties were cut; HC awards Rs 10 lakh",
       "summary": "The High Court has made it clear that the statutory safeguard also covers the work she performs, her position in the organisational hierarchy, supervisory powers and opportunities for appraisal and promotion.",
       "url": "https://timesofindia.indiatimes.com/business/india-business/woman-returned-from-maternity-leave-to-the-same-rs-2-6-lakh-monthly-salary-but-fewer-managerial-duties-delhi-hc-awards-rs-10-lakh-says-pay-alone-cannot-protect-career/articleshow/133889832.cms",
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-09-07T16:55:53.000Z"
-    },
-    {
-      "title": "Carbon pricing relief for Indian exporters to UK",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/carbon-pricing-relief-for-indian-exporters-to-uk/articleshow/133888688.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-07T16:06:01.000Z"
-    },
-    {
-      "title": "India Inc business confidence rises sharply in Q2 FY27: CII survey",
-      "summary": "Indian business confidence improved significantly in the second quarter of fiscal year twenty twenty-seven. Companies anticipate stronger domestic demand and increased hiring in the coming months.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/india-inc-business-confidence-rises-sharply-in-q2-fy27-cii-survey/articleshow/133887515.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-07T15:38:17.000Z"
     },
     {
       "title": "Loan repaid in 2003, but bank lost property papers; court orders Rs 5,000 per day payout",
