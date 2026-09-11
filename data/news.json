@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-11T06:10:59.068Z",
-  "articlesCount": 59,
+  "lastUpdated": "2026-09-11T12:03:44.139Z",
+  "articlesCount": 60,
   "sourcesOk": 5,
   "sourcesTotal": 9,
   "sourceStatus": [
@@ -19,7 +19,7 @@
     {
       "source": "Zee Business",
       "status": "ok",
-      "articles": 19,
+      "articles": 20,
       "feedUsed": "https://zeenews.india.com/rss/business.xml"
     },
     {
@@ -56,6 +56,278 @@
     }
   ],
   "articles": [
+    {
+      "title": "Bankers' Books Evidence Act, 2026 to take effect from Oct 1; adopts tech-neutral approach",
+      "summary": "The Bankers’ Books Evidence Act, 2026, which received the assent of the President on August 13, replaces the Bankers’ Books Evidence Act, 1891, to provide for a modern framework for the use of banking records as evidence in line with contemporary banking practices.",
+      "url": "https://zeenews.india.com/economy/bankers-books-evidence-act-2026-to-take-effect-from-oct-1-adopts-tech-neutral-approach-3071053.html",
+      "source": "Zee Business",
+      "category": "markets",
+      "publishedAt": "2026-09-11T11:46:00.000Z"
+    },
+    {
+      "title": "Uber exits Nigeria, Uganda: Why Africa's ride-hailing market is getting tougher",
+      "summary": "Uber has officially ended its operations in Nigeria and Uganda, marking a significant retreat from these markets. This decision comes as a result of escalating operating expenses and fierce competition, which have negatively impacted ride-hailing fares and driver earnings.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/uber-exits-nigeria-uganda-why-africas-ride-hailing-market-is-getting-tougher/articleshow/134062657.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-11T11:34:31.000Z"
+    },
+    {
+      "title": "India eyes overseas mining blocks, boosts processing and recycling capacity: Mines minister",
+      "summary": "India plans to enhance critical mineral stockpiles, mineral processing and step up recycling e-waste to reduce import dependence",
+      "url": "https://www.businesstoday.in/industry/infra/story/india-eyes-overseas-mining-blocks-boosts-processing-and-recycling-capacity-mines-minister-554949-2026-09-11?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-11T11:33:11.000Z"
+    },
+    {
+      "title": "Apple Watch Series 12 starts at ₹56,900—not ₹1,09,900: Seven facts Indian buyers should check",
+      "summary": "Apple Watch Series 12 starts at ₹56,900, adds faster health sensing, readiness score, and 24-hour battery life. Check AI availability and iPhone compatibility before you order one.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/apple-watch-series-12-starts-at-rs56900-not-rs109900-seven-facts-indian-buyers-should-check-554948-2026-09-11?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-11T11:32:18.000Z"
+    },
+    {
+      "title": "BMW 7 Series facelift launched at Rs...; Check what's changed",
+      "summary": "Alongside the petrol-powered 7 Series, BMW has also launched the updated electric i7, offered in eDrive50 and M70 versions.",
+      "url": "https://zeenews.india.com/auto/bmw-7-series-facelift-launched-at-rs-check-whats-changed-3071050.html",
+      "source": "Zee Business",
+      "category": "markets",
+      "publishedAt": "2026-09-11T11:31:00.000Z"
+    },
+    {
+      "title": "NPS Swasthya likely to launch within a month, includes health-insurance top-up: PFRDA Chairman",
+      "summary": "The Pension Fund Regulatory and Development Authority (PFRDA) may soon launch its NPS Swasthya pension product within the next 30 days. PFRDA Chairman Sivasubramanian Ramann says that the final guidelines are likely to be put out in a few days.",
+      "url": "https://zeenews.india.com/personal-finance/nps-swasthya-likely-to-launch-within-a-month-includes-health-insurance-top-up-pfrda-chairman-3071049.html",
+      "source": "Zee Business",
+      "category": "regulatory",
+      "publishedAt": "2026-09-11T11:30:00.000Z"
+    },
+    {
+      "title": "EU Commission proposes India trade deal for Council approval, moving pact closer to signing",
+      "summary": "The European Commission has proposed the India-EU free trade agreement for approval by the EU Council, bringing the landmark pact closer to signing and implementation.",
+      "url": "https://www.businesstoday.in/latest/economy/story/eu-commission-proposes-india-trade-deal-for-council-approval-moving-pact-closer-to-signing-554947-2026-09-11?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-11T11:29:25.000Z"
+    },
+    {
+      "title": "BRICS Summit impact: Delhi Metro to start two hours early on September 13",
+      "summary": "Delhi Metro will start services at 6 am on September 13 amid BRICS Summit traffic restrictions, helping students reach exam centres and commuters avoid delays and plan journeys early.",
+      "url": "https://www.businesstoday.in/latest/photo/brics-summit-impact-delhi-metro-to-start-two-hours-early-on-september-13-554895-2026-09-11?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-11T11:25:02.000Z"
+    },
+    {
+      "title": "Your train may run but from another station: Five BRICS-related railway changes Delhi passengers must know",
+      "summary": "Around 120 trains face cancellations, diversions, delays or terminal changes through Delhi from September 11 to 13. Check your own train number and boarding station before leaving.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/your-train-may-run-but-from-another-station-five-brics-related-railway-changes-delhi-passengers-must-know-554939-2026-09-11?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-11T11:18:45.000Z"
+    },
+    {
+      "title": "Power ministry seeks green energy status for nuclear power",
+      "summary": "Green energy status for nuclear power could ensure access to green bonds, green loans, and blended finance.",
+      "url": "https://www.businesstoday.in/latest/economy/story/power-ministry-seeks-green-energy-status-for-nuclear-power-554934-2026-09-11?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-11T11:13:28.000Z"
+    },
+    {
+      "title": "IGI flights continue during the BRICS Summit; these smaller aircraft, drones and flying schools face curbs",
+      "summary": "IGI Airport is not shut for BRICS. Airlines can operate, while training flights, small aircraft and drones face restrictions. Road diversions remain a major concern for passengers.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/igi-flights-continue-during-the-brics-summit-these-smaller-aircraft-drones-and-flying-schools-face-curbs-554930-2026-09-11?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-11T11:06:50.000Z"
+    },
+    {
+      "title": "BRICS Summit 2026: Delhi gets a dazzling makeover as lights, flowers take over Lutyens’ zone",
+      "summary": "BRICS Summit 2026 gives Delhi a dazzling makeover with 15,000+ plants, floral displays, illuminated roads and BRICS-themed signages ahead of the September 12-13 summit.",
+      "url": "https://www.businesstoday.in/latest/photo/brics-summit-2026-delhi-gets-a-dazzling-makeover-as-lights-flowers-take-over-lutyens-zone-554891-2026-09-11?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-11T11:05:05.000Z"
+    },
+    {
+      "title": "From edible lotus to galouti kebabs: What The Taj, Leela Palace and Lalit are serving BRICS leaders in Delhi",
+      "summary": "From edible lotus and galouti kebabs to regional Indian snacks, The Taj, Leela Palace and The LaLiT are serving curated menus and edible gifts to BRICS delegates in Delhi.",
+      "url": "https://www.businesstoday.in/latest/photo/from-edible-lotus-to-galouti-kebabs-what-the-taj-leela-palace-and-lalit-are-serving-brics-leaders-in-delhi-554926-2026-09-11?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-11T11:00:09.000Z"
+    },
+    {
+      "title": "Apple removed these iPhones, Watches and AirPods after its 2026 launch—what Indian buyers should know",
+      "summary": "Apple has removed the iPhone 17 Pro line, Watch Series 11, Ultra 3 and AirPods 4 from direct sale. Here’s what Indian buyers need to know before purchasing leftover retailer stock.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/apple-removed-these-iphones-watches-and-airpods-after-its-2026-launch-what-indian-buyers-should-know-554927-2026-09-11?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-11T10:58:46.000Z"
+    },
+    {
+      "title": "‘AI a double-edged sword’: FM Sitharaman flags innovation risks, urges efficiency without fragility",
+      "summary": "Finance Minister Nirmala Sitharaman addressed artificial intelligence risks at the Global Fintech Fest 2026. She highlighted technology's potential to influence public opinion and electoral outcomes.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/ai-a-double-edged-sword-fm-sitharaman-flags-innovation-risks-urges-efficiency-without-fragility/articleshow/134061412.cms",
+      "source": "Times of India Business",
+      "category": "regulatory",
+      "publishedAt": "2026-09-11T10:55:12.000Z"
+    },
+    {
+      "title": "EPFO delayed retiree’s Rs 14.06 lakh PF claim by 35 days; court orders 6% interest",
+      "summary": "A consumer court has ordered the Employees' Provident Fund Organisation (EPFO) to pay 6 per cent annual interest to a retired employee after finding a 35-day delay in the settlement of his provident fund claim worth more than Rs 14 lakh.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/epfo-delayed-a-retirees-rs-14-06-lakh-pf-claim-by-35-days-citing-a-missing-document-consumer-court-rejects-defence-and-orders-6-interest/articleshow/134057397.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-11T10:46:00.000Z"
+    },
+    {
+      "title": "Barrier-free tolling on highways to be rolled out by Feb: Gadkari",
+      "summary": "“The tolling systems that we will implement where the number plate and FASTag both will be used will lead to an incremental increase of Rs 10,000 crore in toll revenues annually,” Gadkari said.",
+      "url": "https://zeenews.india.com/mobility/barrier-free-tolling-on-highways-to-be-rolled-out-by-feb-gadkari-3071026.html",
+      "source": "Zee Business",
+      "category": "markets",
+      "publishedAt": "2026-09-11T10:40:00.000Z"
+    },
+    {
+      "title": "UPI now dominates merchant payments: Are cards becoming less useful?",
+      "summary": "UPI now dominates Indian merchant payments, significantly reducing card usage. Debit cards are primarily used for cash withdrawals, not shopping. Credit cards are specializing in larger purchases and e-commerce transactions. RuPay credit cards can now link directly to UPI apps.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/upi-now-dominates-merchant-payments-are-cards-becoming-less-useful/articleshow/134059772.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-11T10:36:43.000Z"
+    },
+    {
+      "title": "iPhone 18 Pro Max vs Galaxy S26 Ultra: Six differences that matter before spending flagship money",
+      "summary": "The iPhone 18 Pro Max costs more, while the Galaxy S26 Ultra is lighter and includes an S Pen. Compare their displays, cameras, storage, and battery claims before buying this year.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/iphone-18-pro-max-vs-galaxy-s26-ultra-six-differences-that-matter-before-spending-flagship-money-554915-2026-09-11?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-11T10:35:09.000Z"
+    },
+    {
+      "title": "No-stop toll plazas by March 2027? Nitin Gadkari sets deadline for barrier-free system",
+      "summary": "India is set to roll out a barrier-free digital tolling system by early 2027, allowing vehicles to glide past toll booths without stopping.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/no-stop-toll-plazas-by-march-2027-nitin-gadkari-sets-deadline-for-barrier-free-system/articleshow/134060164.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-11T10:27:43.000Z"
+    },
+    {
+      "title": "Advance tax: Know the second instalment deadline, interest and instalment details",
+      "summary": "As the deadline to pay the second instalment of Advance Tax is approaching, taxpayers still have the chance to pay their tax liability applicable till September 15.",
+      "url": "https://zeenews.india.com/personal-finance/advance-tax-know-the-second-instalment-deadline-interest-and-instalment-details-3071021.html",
+      "source": "Zee Business",
+      "category": "markets",
+      "publishedAt": "2026-09-11T10:25:00.000Z"
+    },
+    {
+      "title": "BRICS countries have a huge share of the world's population. How big the bloc really is",
+      "summary": "BRICS now represents nearly half of the world’s population, giving the expanded 11-member bloc an enormous demographic and consumer footprint. Its growing share of global GDP and trade has also strengthened its position as an increasingly important force in the global economy.",
+      "url": "https://www.businesstoday.in/latest/economy/story/brics-countries-have-a-huge-share-of-the-worlds-population-how-big-the-bloc-really-is-554898-2026-09-11?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-11T10:00:52.000Z"
+    },
+    {
+      "title": "IRCTC books record 20.06 lakh train tickets in a day amid festive rush",
+      "summary": "According to IRCTC, its website handled a huge rush on September 7, 2026. The ticket booking website registered its highest-ever single-day booking, with 20,06,353 tickets booked. The record was achieved amid festive-season ARP booking.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/irctc-records-highest-ever-20-06-lakh-ticket-bookings-in-a-day-system-capacity-doubled-as-festive-rush-drives-demand-19-51-lakh-more-booked-next-day/articleshow/134054231.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-11T09:32:00.000Z"
+    },
+    {
+      "title": "Fintech firms key partners in advancing financial inclusion: RBI Governor",
+      "summary": "Malhotra attributed much of the progress in financial inclusion to collaboration between the public and private sectors, but said the next phase should focus on making financial services truly universal and available everywhere.",
+      "url": "https://zeenews.india.com/economy/fintech-firms-key-partners-in-advancing-financial-inclusion-rbi-governor-3071018.html",
+      "source": "Zee Business",
+      "category": "regulatory",
+      "publishedAt": "2026-09-11T09:31:00.000Z"
+    },
+    {
+      "title": "Strongest El Niño since 1950? US climate centre gives 75% chance of historic event",
+      "summary": "The Climate Prediction Centre cautioned that a stronger El Niño does not necessarily translate into proportionately stronger weather impacts. The intensity of the event can only increase the likelihood of certain impacts.",
+      "url": "https://www.businesstoday.in/latest/world/story/strongest-el-nino-since-1950-us-climate-centre-gives-75-chance-of-historic-event-554867-2026-09-11?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-11T09:12:39.000Z"
+    },
+    {
+      "title": "Trump admin removes 'Mr Singh' deportation ad following Sikh, Indian-American outrage",
+      "summary": "The use of “Singh” drew particular outrage because it is one of the most common surnames among Sikh men. Advocacy organisations argued that the imagery and wording effectively stereotyped Sikhs and Indians as unwanted immigrants and poor drivers.",
+      "url": "https://www.businesstoday.in/latest/world/story/trump-admin-removes-mr-singh-deportation-ad-following-sikh-indian-american-outrage-554874-2026-09-11?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-11T09:12:24.000Z"
+    },
+    {
+      "title": "‘India is realistic,’ says Elon Musk after Irish guy mocks country’s citizenship, welfare rules",
+      "summary": "The post was put up by a user on X, Aidan Joyce, whose first post said he had landed in Kolkata, which he loves very much and wants to stay back. He asked Grok to clarify how long will it take him to become a citizen.",
+      "url": "https://www.businesstoday.in/latest/trends/story/india-is-realistic-says-elon-musk-after-irish-guy-mocks-countrys-citizenship-welfare-rules-554878-2026-09-11?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-11T09:03:18.000Z"
+    },
+    {
+      "title": "SBI cash withdrawal limits for THIS account changing from October 1",
+      "summary": "SBI has announced revision in cash withdrawal charges for Basic Savings Deposit Account.",
+      "url": "https://zeenews.india.com/personal-finance/sbi-cash-withdrawal-limits-for-this-account-changing-from-october-1-3071012.html",
+      "source": "Zee Business",
+      "category": "markets",
+      "publishedAt": "2026-09-11T08:41:00.000Z"
+    },
+    {
+      "title": "Maruti Baleno facelift 2026: Full variant-wise price list out",
+      "summary": "The AMT variants cost Rs 50,000 more than the manual variant. The CNG option costs even more, coming in at Rs 92,000 above the petrol manual.",
+      "url": "https://zeenews.india.com/auto/maruti-baleno-facelift-2026-full-variant-wise-price-list-out-3070994.html",
+      "source": "Zee Business",
+      "category": "markets",
+      "publishedAt": "2026-09-11T07:33:00.000Z"
+    },
+    {
+      "title": "BRICS leaders call for factory investments, policy alignment, and certifications for tech expansion",
+      "summary": "Egyptian smart meter technology company Iskraemeco plans to establish factories in India to serve the Indian and wider Asian markets, its Chairman and CEO Mohamed Elsayed said.",
+      "url": "https://zeenews.india.com/economy/brics-leaders-call-for-factory-investments-policy-alignment-and-certifications-for-tech-expansion-3070987.html",
+      "source": "Zee Business",
+      "category": "markets",
+      "publishedAt": "2026-09-11T07:16:00.000Z"
+    },
+    {
+      "title": "Gold price prediction: Is it time to buy gold on dips? Check September 11, 2026 outlook",
+      "summary": "Gold has recovered sharply from the lower portion of its recent trading range and is now moving towards the upper side of the short-term structure.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/gold-price-prediction-today-what-is-the-gold-rate-outlook-for-september-11-2026-should-you-buy-or-sell-mcx-gold/articleshow/134052170.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-11T07:13:49.000Z"
+    },
+    {
+      "title": "Indian in Kuwait sent Rs 1.09 crore, no ITR; ITAT deletes Rs 5.52 lakh, checks Rs 2.5 crore",
+      "summary": "The absence of an original ITR became a key issue. Although the department had information about the substantial sums held in his Indian accounts, there was no tax return on record explaining their nature and source.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/indian-working-in-kuwait-sent-home-over-a-crore-in-remittances-but-filed-no-itr-taxman-treated-rs-3-63-crore-as-unexplained-itat-deletes-rs-5-52-lakh-and-orders-fresh-check-of-rs-2-50-crore/articleshow/134050663.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-11T06:49:04.000Z"
+    },
+    {
+      "title": "Hyundai Venue, Venue N Line get Bluelink Remote Immobiliser; Here's how it works",
+      "summary": "This feature will not be limited to these models only; Hyundai plans to offer it as standard in its upcoming connected vehicles.",
+      "url": "https://zeenews.india.com/auto/hyundai-venue-venue-n-line-get-bluelink-remote-immobiliser-heres-how-it-works-3070984.html",
+      "source": "Zee Business",
+      "category": "markets",
+      "publishedAt": "2026-09-11T06:33:00.000Z"
+    },
+    {
+      "title": "NABARD develops AI models for on-demand Kisan Credit loans",
+      "summary": "Digitalisation is gaining traction across agriculture and allied sectors, including fisheries and dairy, creating new opportunities to improve credit delivery and financial inclusion in rural India.",
+      "url": "https://zeenews.india.com/economy/nabard-develops-ai-models-for-on-demand-kisan-credit-loans-3070983.html",
+      "source": "Zee Business",
+      "category": "markets",
+      "publishedAt": "2026-09-11T06:30:00.000Z"
+    },
     {
       "title": "Top stocks to buy today: Stock market recommendations for September 11, 2026 - check list",
       "summary": "Stock market recommendations: Finolex Cables, Adani Ports, and Emmvee Photovoltaic Power are the top stocks to buy today on September 11, 2026, identified and recommended by Hitesh Rathi, Technical Analyst (Equity & Derivatives) at Angel One",
@@ -177,28 +449,12 @@
       "publishedAt": "2026-09-11T00:50:02.000Z"
     },
     {
-      "title": "Baleno gets a rival: Toyota Glanza facelift may arrive with a big mileage surprise",
-      "summary": "Toyota Glanza facelift could arrive with a new engine, higher mileage and ADAS, taking on the refreshed Maruti Suzuki Baleno. Here’s what to expect on price, features and launch.",
-      "url": "https://www.businesstoday.in/latest/photo/baleno-gets-a-rival-toyota-glanza-facelift-may-arrive-with-a-big-mileage-surprise-554636-2026-09-11?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-11T00:40:02.000Z"
-    },
-    {
       "title": "Small towns power Quick-commerce biz for Flipkart",
       "summary": "",
       "url": "https://timesofindia.indiatimes.com/business/india-business/small-towns-power-quick-commerce-biz-for-flipkart/articleshow/134037812.cms",
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-09-11T00:36:40.000Z"
-    },
-    {
-      "title": "₹10,783 crore rail boost: What West Bengal, Jharkhand, Odisha, MP and Chhattisgarh get",
-      "summary": "Indian Railways has approved ₹10,783 crore for 656 km of multitracking across five states, aiming to improve connectivity, boost freight movement and benefit nearly 4,790 villages.",
-      "url": "https://www.businesstoday.in/latest/photo/rs10783-crore-rail-boost-what-west-bengal-jharkhand-odisha-mp-and-chhattisgarh-get-554640-2026-09-11?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-11T00:30:05.000Z"
     },
     {
       "title": "Gross SIP flows, fund industry assets at record high",
@@ -241,46 +497,6 @@
       "publishedAt": "2026-09-10T23:26:53.000Z"
     },
     {
-      "title": "May tweak F&O settlement price mechanism: Sebi chief",
-      "summary": "Pandey Reiterates There Is No Going Back On CAS System",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/may-tweak-fo-settlement-price-mechanism-sebi-chief/articleshow/134035897.cms",
-      "source": "Times of India Business",
-      "category": "regulatory",
-      "publishedAt": "2026-09-10T23:23:38.000Z"
-    },
-    {
-      "title": "Checks on e-commerce platforms from October: FSSAI",
-      "summary": "'Won't Be Allowed To Take Plea That They Are Just Aggregators'",
-      "url": "https://timesofindia.indiatimes.com/india/checks-on-e-commerce-platforms-from-october-fssai/articleshow/134029959.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-10T20:54:13.000Z"
-    },
-    {
-      "title": "Shopping online? From January, you'll see the discount margin",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/shopping-online-from-january-youll-see-the-discount-margin/articleshow/134029680.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-10T20:41:59.000Z"
-    },
-    {
-      "title": "eMudhra appointed Validation Agent for LEI services in India as LEI adoption rises",
-      "summary": "Under the arrangement, eMudhra will act as a Validation Agent for LEIL, which is a GLEIF-accredited LEI issuer and a wholly owned subsidiary of the Clearing Corporation of India Ltd (CCIL).",
-      "url": "https://www.businesstoday.in/latest/corporate/story/emudhra-appointed-validation-agent-for-lei-services-in-india-as-lei-adoption-rises-554718-2026-09-11?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-10T18:35:01.000Z"
-    },
-    {
-      "title": "83-year-old had Rs 2.42 lakh FD, Rs 1.06 lakh cash; how she won 9-year-old tax demand case",
-      "summary": "For reasons not known, the woman did not respond to the notice. The Income Tax Assessing Officer consequently completed the assessment under Section 144 and determined her total income at Rs 5.15 lakh, treating the amount as unexplained.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/senior-citizen-woman-had-rs-2-42-lakh-fd-and-rs-1-06-lakh-cash-deposit-she-didnt-file-itr-tax-officer-determines-rs-5-15-lakh-unexplained-income-itat-gives-relief-after-9-years/articleshow/134018731.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-10T16:34:36.000Z"
-    },
-    {
       "title": "Hyundai launches Lounge Edition for Creta, Alcazar and Creta Electric - Here's what's new",
       "summary": "On pricing, the Creta Lounge Edition is based on the King trim and comes with either the 1.5-litre petrol-CVT or 1.5-litre diesel-automatic combo. It costs Rs 53,000 more than the regular King variant.",
       "url": "https://zeenews.india.com/auto/hyundai-launches-lounge-edition-for-creta-alcazar-and-creta-electric-heres-whats-new-3070936.html",
@@ -289,84 +505,12 @@
       "publishedAt": "2026-09-10T14:37:00.000Z"
     },
     {
-      "title": "Crypto challenge unresolved, need partners beyond regulators: FATF VP",
-      "summary": "Vivek Aggarwal highlighted the ongoing challenges posed by virtual assets and technology-driven fraud. He urged for enhanced collaboration among stakeholders to combat these growing threats.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/crypto-challenge-unresolved-need-partners-beyond-regulators-fatf-vp/articleshow/134011063.cms",
-      "source": "Times of India Business",
-      "category": "regulatory",
-      "publishedAt": "2026-09-10T13:02:43.000Z"
-    },
-    {
-      "title": "Global Fintech Fest 2026: India can shape future global finance architecture, says RBI governor",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/global-fintech-fest-2026-india-can-shape-future-global-finance-architecture-says-rbi-governor/articleshow/134008937.cms",
-      "source": "Times of India Business",
-      "category": "regulatory",
-      "publishedAt": "2026-09-10T12:45:04.000Z"
-    },
-    {
-      "title": "Govt tightens e-commerce rules to curb price manipulation, dark patterns: What changes?",
-      "summary": "Effective January 2027, upcoming e-commerce rules aim to bolster consumer safeguards by requiring platforms to exhibit previous pricing clearly and avoid search result manipulation. There will be mandatory disclosures for sponsored listings to assist consumers in their choices.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/government-tightens-e-commerce-rules-from-price-transparency-to-dark-patterns-key-changes-explained/articleshow/134009495.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-10T12:32:54.000Z"
-    },
-    {
-      "title": "Swiggy’s LYNK exit: non-core asset cleanup, with a bet on Udaan’s IPO",
-      "summary": "Swiggy is shedding a non-core B2B asset while retaining a 3.2% stake in Udaan, giving it potential upside from the latter’s planned IPO",
-      "url": "https://www.businesstoday.in/latest/corporate/story/swiggys-lynk-exit-non-core-asset-cleanup-with-a-bet-on-udaans-ipo-554675-2026-09-10?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-10T12:31:02.000Z"
-    },
-    {
-      "title": "‘Time for India’s manufacturing to pick up’: Anant Goenka flags opportunity from global supply-chain shifts",
-      "summary": "India’s manufacturing sector is poised for fresh growth as global supply chains diversify, according to RPG Group Vice Chairman Anant Goenka. He said strong fundamentals and reforms give India a window to accelerate manufacturing.",
-      "url": "https://www.businesstoday.in/latest/economy/story/time-for-indias-manufacturing-to-pick-up-anant-goenka-flags-opportunity-from-global-supply-chain-shifts-554668-2026-09-10?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-10T12:23:59.000Z"
-    },
-    {
-      "title": "Internship the new interview: Companies turning interns into full-time hires; what it means for IT sector jobs",
-      "summary": "For students who are entering the job market, an internship is no longer just a line on their resume. It can be the first real test of whether a company sees them as a potential full-time employee.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/internship-the-new-interview-companies-turning-interns-into-full-time-hires-what-it-means-for-it-sector-jobs/articleshow/134005405.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-10T12:10:30.000Z"
-    },
-    {
-      "title": "Bahrain Court rejects claims by investors in Credit Suisse AT1 bonds case against HDFC Bank",
-      "summary": "HDFC Bank has secured favourable rulings in all seven cases filed by investors in Bahrain over Credit Suisse AT-1 bonds, easing a key legal overhang linked to allegations that the high-risk securities were mis-sold.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/bahrain-court-rejects-claims-by-investors-in-credit-suisse-at1-bonds-case-against-hdfc-bank-554655-2026-09-10?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-10T11:51:06.000Z"
-    },
-    {
       "title": "Apple hikes iPhone prices in India; iPhone 16, 17, 17e and Air get costlier",
       "summary": "Starting with the iPhone 17e, this entry-level model has seen its price rise by Rs 15,000, moving from Rs 64,900 to Rs 79,900.",
       "url": "https://zeenews.india.com/auto/apple-hikes-iphone-prices-in-india-iphone-16-17-17e-and-air-get-costlier-3070885.html",
       "source": "Zee Business",
       "category": "markets",
       "publishedAt": "2026-09-10T11:36:00.000Z"
-    },
-    {
-      "title": "China and India power BRICS trade expansion as intra-bloc commerce gains momentum: Report",
-      "summary": "China and India are driving BRICS’ expanding trade footprint, with rising intra-bloc commerce increasing the grouping’s influence in global trade.",
-      "url": "https://www.businesstoday.in/latest/economy/story/china-and-india-power-brics-trade-expansion-as-intra-bloc-commerce-gains-momentum-report-554629-2026-09-10?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-10T11:26:06.000Z"
-    },
-    {
-      "title": "From 20% to 16.7%: What’s behind the setback for women leaders in India Inc?",
-      "summary": "As US companies scale back DEI efforts, women’s share of corporate executive roles at India’s Best Companies falls to 16.7% from 20%, putting the spotlight on whether India Inc is losing momentum on women’s leadership.",
-      "url": "https://www.businesstoday.in/jobs/story/from-20-to-16-7-whats-behind-the-setback-for-women-leaders-in-india-inc-554623-2026-09-10?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-10T11:20:24.000Z"
     },
     {
       "title": "Zee Business Bond Tokenization Summit 2026: Tokenization to unlock India's bond market to millions of retail investors",
@@ -391,142 +535,6 @@
       "source": "Zee Business",
       "category": "regulatory",
       "publishedAt": "2026-09-10T11:12:00.000Z"
-    },
-    {
-      "title": "DGCA orders one-time drug tests for all pilots by July 2027: Report",
-      "summary": "India is moving to tighten cockpit safety standards after a series of incidents raised concerns over drug use among airline crew. The aviation regulator has ordered carriers to complete one-time drug testing of all pilots by July next year.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/dgca-orders-one-time-drug-tests-for-all-pilots-by-july-2027-report-554613-2026-09-10?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "regulatory",
-      "publishedAt": "2026-09-10T10:44:55.000Z"
-    },
-    {
-      "title": "Three Russian military aircraft landed at Jewar—but does that mean Putin will use Noida Airport? Here’s the evidence",
-      "summary": "Three Russian military aircraft reportedly landed at Noida Airport before BRICS. They carried an advance team, but current security reporting says Vladimir Putin is expected at Palam.",
-      "url": "https://www.businesstoday.in/latest/trends/photo/three-russian-military-aircraft-landed-at-jewar-but-does-that-mean-putin-will-use-noida-airport-heres-the-evidence-554611-2026-09-10?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-10T10:36:58.000Z"
-    },
-    {
-      "title": "Coforge after OP Bhatt: Advent’s growing influence puts board dynamics under spotlight",
-      "summary": "Bhatt’s exit follows Advent’s opposition to his continuation and comes as the private equity investor gains greater ownership and board representation after the Encora deal.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/coforge-after-op-bhatt-advents-growing-influence-puts-board-dynamics-under-spotlight-554599-2026-09-10?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-10T10:17:10.000Z"
-    },
-    {
-      "title": "Zee Business Bond Tokenization Summit 2026: Tokenization has potential to repeat UPI-like success, can place India as global digital asset powerhouse",
-      "summary": "Tejinder Virk, Co-founder and CEO of Blockmaze, explained in detail how tokenization is going to completely change the ways of investing in India in the times to come.",
-      "url": "https://zeenews.india.com/economy/zee-business-bond-tokenization-summit-2026-tokenization-has-potential-to-repeat-upi-like-success-can-place-india-as-global-digital-asset-powerhouse-3070863.html",
-      "source": "Zee Business",
-      "category": "markets",
-      "publishedAt": "2026-09-10T10:15:00.000Z"
-    },
-    {
-      "title": "Tamil Nadu to Telangana: 540 km railway expansion gets ₹10,021 crore Cabinet nod",
-      "summary": "The Cabinet has approved ₹10,021 crore for five railway multitracking projects across Tamil Nadu, Andhra Pradesh, Karnataka and Telangana, adding 540 km to the rail network.",
-      "url": "https://www.businesstoday.in/latest/photo/tamil-nadu-to-telangana-540-km-railway-expansion-gets-rs10021-crore-cabinet-nod-554595-2026-09-10?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-10T10:09:30.000Z"
-    },
-    {
-      "title": "“Should I become a cockroach?” Mallya’s viral post revives a ₹14,131-crore question courts have not settled",
-      "summary": "ijay Mallya says ₹14,131.60 crore was recovered against a ₹6,203-crore judgment debt. An official figure supports about ₹14,000 crore in restitution, but the accounting dispute is unresolved.",
-      "url": "https://www.businesstoday.in/latest/trends/photo/should-i-become-a-cockroach-mallyas-viral-post-revives-a-rs14131-crore-question-courts-have-not-settled-554581-2026-09-10?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-10T09:53:46.000Z"
-    },
-    {
-      "title": "Tier-2 cities lead India’s digital credit inclusion with highest DCII score: Report",
-      "summary": "Tier-2 cities recorded an average DCII score of 58.64, compared with 53.1 for Tier-1 and 55.7 for Tier-3 cities. Coimbatore, Surat, Nagpur, Indore, Prayagraj, Ranchi, Ghaziabad and Ludhiana are among the cities driving the trend.",
-      "url": "https://www.businesstoday.in/latest/economy/story/tier-2-cities-lead-indias-digital-credit-inclusion-with-highest-dcii-score-report-554582-2026-09-10?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-10T09:51:09.000Z"
-    },
-    {
-      "title": "Chinese missiles and Turkish guns: What Pakistan’s new air-defence display means after Operation Sindoor",
-      "summary": "Pakistan has displayed China’s HQ-17A missile system and Türkiye’s KORKUT gun system after Operation Sindoor. Their roles differ, and a public display cannot prove combat effectiveness.",
-      "url": "https://www.businesstoday.in/latest/trends/photo/chinese-missiles-and-turkish-guns-what-pakistans-new-air-defence-display-means-after-operation-sindoor-554574-2026-09-10?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "insurance",
-      "publishedAt": "2026-09-10T09:36:13.000Z"
-    },
-    {
-      "title": "Zee Business Bond Tokenization Summit 2026: Tokenized bonds make investing cheap, experts seek clarity on regularization",
-      "summary": "CA Sonu Jain of Tikka dwelled upon the fate of digital bonds that rest on the regulatory environment setting the tone for investors.",
-      "url": "https://zeenews.india.com/economy/zee-business-bond-tokenization-summit-2026-tokenized-bonds-make-investing-cheap-experts-seek-clarity-on-regularization-3070849.html",
-      "source": "Zee Business",
-      "category": "regulatory",
-      "publishedAt": "2026-09-10T08:39:00.000Z"
-    },
-    {
-      "title": "Zee Business Bond Tokenization Summit 2026: Why regulatory frameworks are the real hurdle for tokenized bonds? Expert explains",
-      "summary": "The Zee Business Bond Tokenization Summit 2026 organised in Mumbai on September 9 saw the country’s finance, policy and technology leaders come together to discuss the future of bond tokenization.",
-      "url": "https://zeenews.india.com/economy/zee-business-bond-tokenization-summit-2026-why-regulatory-frameworks-are-the-real-hurdle-for-tokenized-bonds-expert-explains-3070801.html",
-      "source": "Zee Business",
-      "category": "regulatory",
-      "publishedAt": "2026-09-10T05:54:00.000Z"
-    },
-    {
-      "title": "Centre refutes criticism of GST growth estimates",
-      "summary": "The Central Board of Indirect Taxes and Customs (CBIC) said in a statement on Wednesday that the GST revenue figures published month on month reflect the correct picture of GST revenue performance, with full disclosure.",
-      "url": "https://zeenews.india.com/economy/centre-refutes-criticism-of-gst-growth-estimates-3070787.html",
-      "source": "Zee Business",
-      "category": "markets",
-      "publishedAt": "2026-09-10T04:04:00.000Z"
-    },
-    {
-      "title": "No more extra apps; check how UIDAI’s Aadhaar Face Authentication SDK, Sandbox will drastically cut your Aadhaar verification time",
-      "summary": "The Aadhaar Face Authentication SDK brings UIDAI’s Face Authentication capability directly into native Android and iOS applications.",
-      "url": "https://zeenews.india.com/personal-finance/no-more-extra-apps-check-how-uidai-s-aadhaar-face-authentication-sdk-sandbox-will-drastically-cut-your-aadhaar-verification-time-3070782.html",
-      "source": "Zee Business",
-      "category": "markets",
-      "publishedAt": "2026-09-10T02:41:00.000Z"
-    },
-    {
-      "title": "After E20, what next? India prepares to roll out petrol with higher ethanol blend",
-      "summary": "The government is also exploring other uses for ethanol and biofuels, including CBG, isobutanol, potash and biofuel-based diesel additives.",
-      "url": "https://zeenews.india.com/automobile/after-e20-what-next-india-prepares-to-roll-out-petrol-with-higher-ethanol-blend-3070773.html",
-      "source": "Zee Business",
-      "category": "markets",
-      "publishedAt": "2026-09-09T18:44:00.000Z"
-    },
-    {
-      "title": "UIDAI prepares Aadhaar infrastructure for 300 million daily authentications: Chairman Neelkanth Mishra",
-      "summary": "Speaking at the Global Fintech Festival 2026 here, Mishra said Aadhaar is currently processing about 10 crore authentications daily and the pace of growth has exceeded expectations.",
-      "url": "https://zeenews.india.com/economy/uidai-prepares-aadhaar-infrastructure-for-300-million-daily-authentications-chairman-neelkanth-mishra-3070676.html",
-      "source": "Zee Business",
-      "category": "markets",
-      "publishedAt": "2026-09-09T11:06:00.000Z"
-    },
-    {
-      "title": "Sensex crashes over 800 points as Brent crude hits $100 amid US-Iran tensions",
-      "summary": "The benchmark Sensex fell 813.35 points, or 1.08 per cent, to settle at 74,764.23, while the Nifty declined 203.60 points, or 0.86 per cent, to close at 23,431.50.",
-      "url": "https://zeenews.india.com/economy/sensex-crashes-over-800-points-as-brent-crude-hits-100-amid-us-iran-tensions-3070667.html",
-      "source": "Zee Business",
-      "category": "markets",
-      "publishedAt": "2026-09-09T10:37:00.000Z"
-    },
-    {
-      "title": "Crude oil prices surge nearly 2% as US-Iran conflict escalates",
-      "summary": "Brent crude rose as much as 1.79 per cent or $1.76 to near $100 a barrel, while US West Texas Intermediate crude gained 1.88 per cent or $1.75 to $94.78 a barrel.",
-      "url": "https://zeenews.india.com/economy/crude-oil-prices-surge-nearly-2-as-us-iran-conflict-escalates-3070642.html",
-      "source": "Zee Business",
-      "category": "markets",
-      "publishedAt": "2026-09-09T07:20:00.000Z"
-    },
-    {
-      "title": "15 crypto platforms get notices from India's Financial Intelligence Unit for PMLA non-compliance",
-      "summary": "According to the Finance Ministry, the notices were issued by the Director of FIU-India as part of compliance action against entities operating without meeting the required obligations.",
-      "url": "https://zeenews.india.com/economy/15-crypto-platforms-get-notices-from-indias-financial-intelligence-unit-for-pmla-non-compliance-3070641.html",
-      "source": "Zee Business",
-      "category": "markets",
-      "publishedAt": "2026-09-09T07:18:00.000Z"
     }
   ]
 }
