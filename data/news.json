@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-11T21:33:22.654Z",
+  "lastUpdated": "2026-09-12T05:27:25.991Z",
   "articlesCount": 60,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,126 @@
     }
   ],
   "articles": [
+    {
+      "title": "Global Fintech Fest: FM Sitharaman urges RBI to ‘sharpen capability’ of digital Rupee platform",
+      "summary": "Reflecting on the theme of GFF, the finance minister warned THAT Artificial Intelligence acts as \"a double-edged sword\" as it helps \"detect and perpetrate fraud.”",
+      "url": "https://zeenews.india.com/economy/global-fintech-fest-fm-sitharaman-urges-rbi-to-sharpen-capability-of-digital-rupee-platform-3071131.html",
+      "source": "Zee Business",
+      "category": "regulatory",
+      "publishedAt": "2026-09-12T05:09:00.000Z"
+    },
+    {
+      "title": "Nvidia weighs $10 billion investment in Anthropic’s mega IPO: Report",
+      "summary": "Anthropic, an artificial intelligence firm, is gearing up for a landmark initial public offering that could reshape the tech landscape. Reports indicate that Nvidia is eyeing a sizable investment in this IPO, which could fortify their strategic partnership.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/nvidia-weighs-10-billion-investment-in-anthropics-mega-ipo-report/articleshow/134108357.cms",
+      "source": "Times of India Business",
+      "category": "insurance",
+      "publishedAt": "2026-09-12T04:49:36.000Z"
+    },
+    {
+      "title": "SP Group chairman Shapoor Mistry seeks ₹25,000 crore from Tata Sons over next two years: Report",
+      "summary": "Shapoor Mistry had been in talks with Tata Sons chairman N Chandrasekaran and Noel Tata on the stake monetisation until July.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/sp-group-chairman-shapoor-mistry-seeks-rs-25000-crore-from-tata-sons-over-next-two-years-report-555054-2026-09-12?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-12T04:29:41.000Z"
+    },
+    {
+      "title": "Ice cream to defence: How Canada’s tariff war with US is boosting local businesses",
+      "summary": "Canadian businesses are experiencing increased sales due to a 'buy Canadian' movement. Local ice cream and gift shops report significant sales boosts from consumers. Wineries also saw demand rise after American alcohol was removed from shelves.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/ice-cream-to-defence-how-canadas-tariff-war-with-us-is-boosting-local-businesses/articleshow/134105619.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-12T03:45:42.000Z"
+    },
+    {
+      "title": "US diesel prices at record $6: American farmers feel the heat as harvest season begins",
+      "summary": "With diesel prices hitting unprecedented levels, US farmers are grappling with steep fuel expenses that have doubled. This dramatic rise is disrupting essential operations for corn and soybean harvests, jeopardizing profitability and financial health.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/us-diesel-prices-at-record-6-american-farmers-feel-the-heat-as-harvest-season-begins/articleshow/134103442.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-12T02:29:11.000Z"
+    },
+    {
+      "title": "Apple iPhone Duo: No Face ID, hidden camera and more features you need to know",
+      "summary": "Apple iPhone Duo brings a ₹2.99 lakh foldable design with Touch ID instead of Face ID, eSIM-only support, split-screen iOS 27 and a hidden under-display selfie camera.",
+      "url": "https://www.businesstoday.in/latest/photo/apple-iphone-duo-no-face-id-hidden-camera-and-more-features-you-need-to-know-554899-2026-09-12?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-12T00:40:02.000Z"
+    },
+    {
+      "title": "Unified BRICS payment system is achievable, but trust is key hurdle: BRICS Business Council chair",
+      "summary": "Ziaad Suleiman of the BRICS Business Council said a unified payment system for the 11-member grouping is achievable, but countries must first establish trust, data-security safeguards and an appropriate regulatory framework.",
+      "url": "https://www.businesstoday.in/latest/economy/story/unified-brics-payment-system-is-achievable-but-trust-is-key-hurdle-brics-business-council-chair-555038-2026-09-12?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "regulatory",
+      "publishedAt": "2026-09-12T00:30:06.000Z"
+    },
+    {
+      "title": "Report: MSMEs need digital infra",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/report-msmes-need-digital-infra/articleshow/134097034.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-11T23:15:45.000Z"
+    },
+    {
+      "title": "Consumer durables drive customer growth",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/consumer-durables-drive-customer-growth/articleshow/134096872.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-11T23:09:02.000Z"
+    },
+    {
+      "title": "AI corners 80% of all global equity funding in March quarter",
+      "summary": "Global funding for AI reached a remarkable $226 billion by the end of March this year, accounting for nearly eighty percent of the total equity funding landscape.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/ai-corners-80-of-all-global-equity-funding-in-march-quarter/articleshow/134096737.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-11T23:03:48.000Z"
+    },
+    {
+      "title": "FM calls for tech body for stronger global voice",
+      "summary": "In a bold move for India's tech sector, Finance Minister Nirmala Sitharaman has unveiled a federated industry platform designed to amplify the industry's global presence.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/fm-calls-for-tech-body-for-stronger-global-voice/articleshow/134096592.cms",
+      "source": "Times of India Business",
+      "category": "regulatory",
+      "publishedAt": "2026-09-11T22:59:56.000Z"
+    },
+    {
+      "title": "Days after Bhatt, another director quits Coforge board",
+      "summary": "Coforge has experienced a shakeup as independent director DK Singh resigns amid tensions over the board’s strategy. His departure follows the resignation of chairman OP Bhatt, sparked by an internal audit that uncovered issues with the evaluation report.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/days-after-bhatt-another-director-quits-coforge-board/articleshow/134096088.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-11T22:46:58.000Z"
+    },
+    {
+      "title": "NSE reduces public offer size to 22.6k crore, issue opens Sept 17",
+      "summary": "Bourse's Shares Slotted To Be Listed On BSE On Sept 24",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/nse-reduces-public-offer-size-to-22-6k-crore-issue-opens-sept-17/articleshow/134095529.cms",
+      "source": "Times of India Business",
+      "category": "insurance",
+      "publishedAt": "2026-09-11T22:27:43.000Z"
+    },
+    {
+      "title": "Busy week for primary market as nine IPOs attract bids worth Rs 1.4 lakh crore",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/nine-ipos-attract-bids-worth-1-4-lakh-crore/articleshow/134094680.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-11T22:20:41.000Z"
+    },
+    {
+      "title": "RBI moves to suck out excess liquidity",
+      "summary": "As Forex Reserves Swell To All-Time High Of $786Bn, RBI Announces Sale Of 1L Cr Bonds",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/rbi-moves-to-suck-out-excess-liquidity/articleshow/134093991.cms",
+      "source": "Times of India Business",
+      "category": "regulatory",
+      "publishedAt": "2026-09-11T22:15:27.000Z"
+    },
     {
       "title": "BRICS Summit 2026: Putin’s Aurus vs Xi Jinping’s Hongqi L5 – which car is more powerful? Features, price and security",
       "summary": "Putin’s Aurus packs a 598 hp engine and BR5 ballistic protection, while Xi’s Hongqi L5 comes with armour, bulletproof glass and protection against chemical and biological threats.",
@@ -143,14 +263,6 @@
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-09-11T14:58:23.000Z"
-    },
-    {
-      "title": "India's forex reserves surge record $44.9 billion to all-time high of $785.7 billion",
-      "summary": "India has achieved a remarkable milestone with its foreign exchange reserves soaring to an impressive $785.706 billion. This upswing comes on the heels of a notable rise in the previous week, primarily fueled by robust foreign currency assets.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/indias-forex-reserves-surge-record-44-9-billion-to-all-time-high-of-785-7-billion/articleshow/134074148.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-11T14:57:31.000Z"
     },
     {
       "title": "Mercedes-AMG reveals CLE 646 Spezialanfertigung; Production limited to 30 units only",
@@ -305,30 +417,6 @@
       "publishedAt": "2026-09-11T11:30:00.000Z"
     },
     {
-      "title": "EU Commission proposes India trade deal for Council approval, moving pact closer to signing",
-      "summary": "The European Commission has proposed the India-EU free trade agreement for approval by the EU Council, bringing the landmark pact closer to signing and implementation.",
-      "url": "https://www.businesstoday.in/latest/economy/story/eu-commission-proposes-india-trade-deal-for-council-approval-moving-pact-closer-to-signing-554947-2026-09-11?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-11T11:29:25.000Z"
-    },
-    {
-      "title": "BRICS Summit impact: Delhi Metro to start two hours early on September 13",
-      "summary": "Delhi Metro will start services at 6 am on September 13 amid BRICS Summit traffic restrictions, helping students reach exam centres and commuters avoid delays and plan journeys early.",
-      "url": "https://www.businesstoday.in/latest/photo/brics-summit-impact-delhi-metro-to-start-two-hours-early-on-september-13-554895-2026-09-11?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-11T11:25:02.000Z"
-    },
-    {
-      "title": "Your train may run but from another station: Five BRICS-related railway changes Delhi passengers must know",
-      "summary": "Around 120 trains face cancellations, diversions, delays or terminal changes through Delhi from September 11 to 13. Check your own train number and boarding station before leaving.",
-      "url": "https://www.businesstoday.in/latest/trends/photo/your-train-may-run-but-from-another-station-five-brics-related-railway-changes-delhi-passengers-must-know-554939-2026-09-11?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-11T11:18:45.000Z"
-    },
-    {
       "title": "‘AI a double-edged sword’: FM Sitharaman flags innovation risks, urges efficiency without fragility",
       "summary": "Finance Minister Nirmala Sitharaman addressed artificial intelligence risks at the Global Fintech Fest 2026. She highlighted technology's potential to influence public opinion and electoral outcomes.",
       "url": "https://timesofindia.indiatimes.com/business/india-business/ai-a-double-edged-sword-fm-sitharaman-flags-innovation-risks-urges-efficiency-without-fragility/articleshow/134061412.cms",
@@ -377,14 +465,6 @@
       "publishedAt": "2026-09-11T10:25:00.000Z"
     },
     {
-      "title": "IRCTC books record 20.06 lakh train tickets in a day amid festive rush",
-      "summary": "According to IRCTC, its website handled a huge rush on September 7, 2026. The ticket booking website registered its highest-ever single-day booking, with 20,06,353 tickets booked. The record was achieved amid festive-season ARP booking.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/irctc-records-highest-ever-20-06-lakh-ticket-bookings-in-a-day-system-capacity-doubled-as-festive-rush-drives-demand-19-51-lakh-more-booked-next-day/articleshow/134054231.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-11T09:32:00.000Z"
-    },
-    {
       "title": "Fintech firms key partners in advancing financial inclusion: RBI Governor",
       "summary": "Malhotra attributed much of the progress in financial inclusion to collaboration between the public and private sectors, but said the next phase should focus on making financial services truly universal and available everywhere.",
       "url": "https://zeenews.india.com/economy/fintech-firms-key-partners-in-advancing-financial-inclusion-rbi-governor-3071018.html",
@@ -417,22 +497,6 @@
       "publishedAt": "2026-09-11T07:16:00.000Z"
     },
     {
-      "title": "Gold price prediction: Is it time to buy gold on dips? Check September 11, 2026 outlook",
-      "summary": "Gold has recovered sharply from the lower portion of its recent trading range and is now moving towards the upper side of the short-term structure.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/gold-price-prediction-today-what-is-the-gold-rate-outlook-for-september-11-2026-should-you-buy-or-sell-mcx-gold/articleshow/134052170.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-11T07:13:49.000Z"
-    },
-    {
-      "title": "Indian in Kuwait sent Rs 1.09 crore, no ITR; ITAT deletes Rs 5.52 lakh, checks Rs 2.5 crore",
-      "summary": "The absence of an original ITR became a key issue. Although the department had information about the substantial sums held in his Indian accounts, there was no tax return on record explaining their nature and source.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/indian-working-in-kuwait-sent-home-over-a-crore-in-remittances-but-filed-no-itr-taxman-treated-rs-3-63-crore-as-unexplained-itat-deletes-rs-5-52-lakh-and-orders-fresh-check-of-rs-2-50-crore/articleshow/134050663.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-11T06:49:04.000Z"
-    },
-    {
       "title": "Hyundai Venue, Venue N Line get Bluelink Remote Immobiliser; Here's how it works",
       "summary": "This feature will not be limited to these models only; Hyundai plans to offer it as standard in its upcoming connected vehicles.",
       "url": "https://zeenews.india.com/auto/hyundai-venue-venue-n-line-get-bluelink-remote-immobiliser-heres-how-it-works-3070984.html",
@@ -449,36 +513,12 @@
       "publishedAt": "2026-09-11T06:30:00.000Z"
     },
     {
-      "title": "Top stocks to buy today: Stock market recommendations for September 11, 2026 - check list",
-      "summary": "Stock market recommendations: Finolex Cables, Adani Ports, and Emmvee Photovoltaic Power are the top stocks to buy today on September 11, 2026, identified and recommended by Hitesh Rathi, Technical Analyst (Equity & Derivatives) at Angel One",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/top-stock-recommendations-for-september-11-2026-finolex-cables-adani-ports-emmvee-photovoltaic-power-stocks-to-buy-today/articleshow/134046785.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-11T05:50:11.000Z"
-    },
-    {
-      "title": "Rupee tumbles 27 paise against US dollar as crude prices hold firm above $108 per barrel",
-      "summary": "The Indian Rupee weakened against the US dollar on Friday, extending its previous day's losses. High crude oil prices and foreign portfolio outflows continued to exert downward pressure.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/rupee-tumbles-27-paise-against-us-dollar-as-crude-prices-hold-firm-above-108-per-barrel/articleshow/134044947.cms",
-      "source": "Times of India Business",
-      "category": "regulatory",
-      "publishedAt": "2026-09-11T04:39:01.000Z"
-    },
-    {
       "title": "Nationwide Bank strike today 11 September: Are branches closed? SBI, PNB announces THIS",
       "summary": "The bank union has also decided to launch an indefinite strike from October 26 if its demands are not addressed by the government and bank management.",
       "url": "https://zeenews.india.com/personal-finance/nationwide-bank-strike-today-11-september-are-branches-closed-sbi-pnb-announces-this-3070966.html",
       "source": "Zee Business",
       "category": "markets",
       "publishedAt": "2026-09-11T03:57:00.000Z"
-    },
-    {
-      "title": "‘Key growth engine’: IMF hails India’s 7.8% growth, backs GDP estimate changes",
-      "summary": "India's economy showcased remarkable resilience by achieving a robust 7.8 percent GDP growth for the April-June quarter, surpassing forecasts. The strength of the services and export sectors contributed significantly to this success.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/key-growth-engine-for-the-world-imf-hails-indias-7-8-growth-backs-gdp-estimate-changes/articleshow/134043605.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-11T03:42:02.000Z"
     },
     {
       "title": "No Aadhaar biometrics, no GST: Delhi HC orders big GST rule change",
@@ -495,46 +535,6 @@
       "source": "Zee Business",
       "category": "regulatory",
       "publishedAt": "2026-09-11T02:59:00.000Z"
-    },
-    {
-      "title": "IMF calls India key engine of global growth",
-      "summary": "The stronger-than-expected performance was driven by services and exports, even as the economy faced an energy price shock, said Julie Kozak, Director of the IMF’s Communications Department.",
-      "url": "https://zeenews.india.com/economy/imf-calls-india-key-engine-of-global-growth-3070961.html",
-      "source": "Zee Business",
-      "category": "markets",
-      "publishedAt": "2026-09-11T02:53:00.000Z"
-    },
-    {
-      "title": "Gold, Silver Rate Today Live Updates: Gold heads for third weekly loss as US rate hike bets strengthen",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/gold-silver-rate-today-live-updates-18k-22-carat-24k-gold-price-10g-silver-cost-per-kg-mcx-comex-etf-stock-precious-metal-gold-prediction-city-wise-cost-latest-gold-news/liveblog/134041964.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-11T02:52:12.000Z"
-    },
-    {
-      "title": "Stock market today: BSE Sensex tanks over 650 points, NSE Nifty50 opens below 23,300",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/sensex-stock-market-today-11-september-2026-live-updates-nse-bse-gift-nifty-50-top-gainers-losers-mcx-stocks-in-focus-market-news/liveblog/134041366.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-11T02:33:30.000Z"
-    },
-    {
-      "title": "Oil touches $107 per barrel as Hormuz remains choked for over six months",
-      "summary": "This week, oil prices surged past a hundred dollars per barrel amidst growing worries over supply disruptions caused by attacks on shipping routes in the Middle East. US fuel prices reflect this trend as supply chains experience strain.",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/oil-price-today-brent-crude-wti-over-100-per-barrel-for-first-time-in-4-months/articleshow/134039908.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-11T02:03:40.000Z"
-    },
-    {
-      "title": "Small towns power Quick-commerce biz for Flipkart",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/small-towns-power-quick-commerce-biz-for-flipkart/articleshow/134037812.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-11T00:36:40.000Z"
     }
   ]
 }
