@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-12T11:30:23.623Z",
-  "articlesCount": 60,
+  "lastUpdated": "2026-09-12T13:40:38.992Z",
+  "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
   "sourceStatus": [
@@ -19,7 +19,7 @@
     {
       "source": "Zee Business",
       "status": "ok",
-      "articles": 20,
+      "articles": 0,
       "feedUsed": "https://zeenews.india.com/rss/business.xml"
     },
     {
@@ -57,20 +57,52 @@
   ],
   "articles": [
     {
+      "title": "Oil shock meets bond-market stress: Why 2026 is starting to resemble 2008 — but for different reasons",
+      "summary": "Oil prices are feeding directly into inflation expectations and government bond yields, creating a 2026 market shock that echoes 2008 but has a very different trigger.",
+      "url": "https://www.businesstoday.in/latest/economy/story/oil-shock-meets-bond-market-stress-why-2026-is-starting-to-resemble-2008-but-for-different-reasons-555168-2026-09-12?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-12T13:08:47.000Z"
+    },
+    {
+      "title": "From Russian miniatures to African beads: The BRICS Bazaar taking over Delhi",
+      "summary": "BRICS Bazaar 2026 in Delhi brings crafts from 18 countries together, featuring Russian miniature art, African beadwork, Indian handicrafts and a vibrant celebration of global culture.",
+      "url": "https://www.businesstoday.in/latest/photo/from-russian-miniatures-to-african-beads-the-brics-bazaar-taking-over-delhi-555174-2026-09-12?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-12T13:06:55.000Z"
+    },
+    {
+      "title": "RBI rejects Tata Sons’ CIC deregistration bid, makes stock market listing mandatory: Report",
+      "summary": "In a letter dated September 11, 2026, the central bank informed Tata Sons that its application for voluntary surrender from the CIC category could not be accepted.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/rbi-rejects-tata-sons-cic-deregistration-bid-makes-stock-market-listing-mandatory-report-555171-2026-09-12?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "regulatory",
+      "publishedAt": "2026-09-12T13:02:00.000Z"
+    },
+    {
+      "title": "1,212 pillars, 22 sacred wells: The temple behind the BRICS photo",
+      "summary": "Ramanathaswamy Temple, known for its 1,212 pillars, 22 sacred wells and 1,200-metre corridors, takes the global spotlight as the striking backdrop to the BRICS photo.",
+      "url": "https://www.businesstoday.in/latest/photo/1212-pillars-22-sacred-wells-the-temple-behind-the-brics-photo-555165-2026-09-12?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-12T12:33:38.000Z"
+    },
+    {
+      "title": "Russia partners Adani Defence, HAL, BDL for missiles, fighter upgrades, defence production: Report",
+      "summary": "Russia is deepening defence cooperation with India through partnerships with Adani Defence & Aerospace, HAL and BDL, with several missile and fighter-upgrade programmes underway.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/russia-partners-adani-defence-hal-bdl-for-missiles-fighter-upgrades-defence-production-report-555160-2026-09-12?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-12T12:09:50.000Z"
+    },
+    {
       "title": "Zomato introduces additional fee for cash-on-delivery orders",
       "summary": "",
       "url": "https://timesofindia.indiatimes.com/business/india-business/zomato-introduces-additional-fee-for-cash-on-delivery-orders/articleshow/134124148.cms",
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-09-12T10:29:48.000Z"
-    },
-    {
-      "title": "India supplies 895 crore litres of ethanol by August during ESY2025-26: Industry data",
-      "summary": "According to AIDA, grain-based feedstocks contributed 624 crore litres of the total ethanol supplied, while sugar-based feedstocks accounted for 271 crore litres.",
-      "url": "https://zeenews.india.com/economy/india-supplies-895-crore-litres-of-ethanol-by-august-during-esy2025-26-industry-data-3071206.html",
-      "source": "Zee Business",
-      "category": "markets",
-      "publishedAt": "2026-09-12T10:29:00.000Z"
     },
     {
       "title": "Data centre boom: India’s infrastructure opportunity could hit $90 billion",
@@ -89,14 +121,6 @@
       "publishedAt": "2026-09-12T10:23:11.000Z"
     },
     {
-      "title": "SLW or SUR? How to Choose the Right NPS Withdrawal Option",
-      "summary": "An employee works for years to make savings and other kinds of funds to help build the future. Among these funds, one that is crucial for post-retirement life is a pension fund.",
-      "url": "https://zeenews.india.com/personal-finance/slw-or-sur-how-to-choose-the-right-nps-withdrawal-option-3071201.html",
-      "source": "Zee Business",
-      "category": "markets",
-      "publishedAt": "2026-09-12T10:09:00.000Z"
-    },
-    {
       "title": "CAS closing price under review: Sebi proposes 2 options for expiry settlement",
       "summary": "The Securities and Exchange Board of India (Sebi) is actively exploring modifications to how derivative settlement prices are calculated. Two alternative methods are currently up for review, inviting stakeholder feedback.",
       "url": "https://timesofindia.indiatimes.com/business/india-business/cas-closing-price-under-review-sebi-proposes-2-options-for-expiry-settlement/articleshow/134122804.cms",
@@ -111,22 +135,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-09-12T08:36:52.000Z"
-    },
-    {
-      "title": "RBI announces new UPI features: Tap and Pay, MyUPI make payments faster and secure",
-      "summary": "NFC stands for Near Field Communication technology, which enables devices kept in proximity to exchange information wirelessly, reducing the need to manually fill in the information.",
-      "url": "https://zeenews.india.com/personal-finance/rbi-announces-new-upi-features-tap-and-pay-myupi-make-payments-faster-and-secure-3071179.html",
-      "source": "Zee Business",
-      "category": "regulatory",
-      "publishedAt": "2026-09-12T07:56:00.000Z"
-    },
-    {
-      "title": "Global Fintech Fest: FM Sitharaman urges RBI to ‘sharpen capability’ of digital Rupee platform",
-      "summary": "Reflecting on the theme of GFF, the finance minister warned THAT Artificial Intelligence acts as \"a double-edged sword\" as it helps \"detect and perpetrate fraud.”",
-      "url": "https://zeenews.india.com/economy/global-fintech-fest-fm-sitharaman-urges-rbi-to-sharpen-capability-of-digital-rupee-platform-3071131.html",
-      "source": "Zee Business",
-      "category": "regulatory",
-      "publishedAt": "2026-09-12T05:09:00.000Z"
     },
     {
       "title": "Nvidia weighs $10 billion investment in Anthropic’s mega IPO: Report",
@@ -241,14 +249,6 @@
       "publishedAt": "2026-09-11T22:15:27.000Z"
     },
     {
-      "title": "BRICS Summit 2026: Putin’s Aurus vs Xi Jinping’s Hongqi L5 – which car is more powerful? Features, price and security",
-      "summary": "Putin’s Aurus packs a 598 hp engine and BR5 ballistic protection, while Xi’s Hongqi L5 comes with armour, bulletproof glass and protection against chemical and biological threats.",
-      "url": "https://zeenews.india.com/mobility/brics-summit-2026-putin-s-aurus-vs-xi-jinping-s-hongqi-l5-which-car-is-more-powerful-features-price-and-security-3071106.html",
-      "source": "Zee Business",
-      "category": "markets",
-      "publishedAt": "2026-09-11T21:04:00.000Z"
-    },
-    {
       "title": "UNT names new AI college after Anuradha and Vikas Sinha following ₹191 crore donation",
       "summary": "The new college is expected to become an academic and research hub focused on artificial intelligence, intelligent systems, data analytics, cybersecurity, health informatics and learning technologies",
       "url": "https://www.businesstoday.in/latest/world/story/unt-names-new-ai-college-after-anuradha-and-vikas-sinha-following-rs191-crore-donation-554888-2026-09-12?utm_source=rssfeed",
@@ -305,14 +305,6 @@
       "publishedAt": "2026-09-11T15:16:02.000Z"
     },
     {
-      "title": "EPF partial withdrawal: Three new categories specified by EPFO explained",
-      "summary": "An emergency seems uncalled for and may pop up at the most unexpected times, arising out of financial needs for education, housing, health or something else.",
-      "url": "https://zeenews.india.com/personal-finance/epf-partial-withdrawal-three-new-categories-specified-by-epfo-explained-3071092.html",
-      "source": "Zee Business",
-      "category": "markets",
-      "publishedAt": "2026-09-11T15:03:00.000Z"
-    },
-    {
       "title": "India’s forex reserves jump $44.9 billion to record $785.71 billion",
       "summary": "Foreign currency assets (FCA), the largest component of India’s forex reserves, rose by $47.498 billion during the week to $648.17 billion, accounting for the bulk of the overall increase.",
       "url": "https://www.businesstoday.in/latest/economy/story/indias-forex-reserves-jump-44-9-billion-to-record-785-71-billion-555031-2026-09-11?utm_source=rssfeed",
@@ -329,28 +321,12 @@
       "publishedAt": "2026-09-11T14:58:23.000Z"
     },
     {
-      "title": "Mercedes-AMG reveals CLE 646 Spezialanfertigung; Production limited to 30 units only",
-      "summary": "The CLE 646 is based on the AMG CLE 53, but Mercedes has reworked almost everything: the engine, suspension, body, and interior.",
-      "url": "https://zeenews.india.com/auto/mercedes-amg-reveals-cle-646-spezialanfertigung-production-limited-to-30-units-only-3071086.html",
-      "source": "Zee Business",
-      "category": "markets",
-      "publishedAt": "2026-09-11T14:01:00.000Z"
-    },
-    {
       "title": "India’s BRICS trade doubles to $417 billion in five years: ASSOCHAM",
       "summary": "ASSOCHAM said stronger South-South cooperation could help India raise merchandise exports to BRICS nations to $200 billion by 2030.",
       "url": "https://www.businesstoday.in/latest/economy/story/indias-brics-trade-doubles-to-417-billion-in-five-years-assocham-555014-2026-09-11?utm_source=rssfeed",
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-09-11T13:41:51.000Z"
-    },
-    {
-      "title": "BMW launches new i7 in India at Rs 1.95 crore - Range, features and specs",
-      "summary": "The base i7 eDrive 50 makes 455hp and 600Nm, hitting 100kph from a standstill in 5.5 seconds, with a top speed of 210kph.",
-      "url": "https://zeenews.india.com/auto/bmw-launches-new-i7-in-india-at-rs-1-95-crore-range-features-and-specs-3071083.html",
-      "source": "Zee Business",
-      "category": "markets",
-      "publishedAt": "2026-09-11T13:39:00.000Z"
     },
     {
       "title": "In 2010, India launched Aadhaar Card; 16 years later UIDAI says work underway to take Aadhaar global",
@@ -393,148 +369,12 @@
       "publishedAt": "2026-09-11T13:06:24.000Z"
     },
     {
-      "title": "BRICS FMs seek for faster and cheaper cross-border payment within bloc, flag tariff risk to global trade",
-      "summary": "The BRICS Payment Task Force had studied cross-border interoperability of payment and messaging channels and discussed trade settlements and investments using local currencies",
-      "url": "https://zeenews.india.com/economy/brics-fms-seek-for-faster-and-cheaper-cross-border-payment-within-bloc-flag-tariff-risk-to-global-trade-3071078.html",
-      "source": "Zee Business",
-      "category": "markets",
-      "publishedAt": "2026-09-11T13:05:00.000Z"
-    },
-    {
-      "title": "BRICS quietly grew from 5 countries to 11 — here's exactly who joined, when, and the one holdout",
-      "summary": "BRICS added six new members in under two years, yet one still hasn't confirmed it joined. Here's a country-by-country timeline of who's actually in the bloc ahead of Delhi's summit.",
-      "url": "https://www.businesstoday.in/latest/trends/photo/brics-quietly-grew-from-5-countries-to-11-heres-exactly-who-joined-when-and-the-one-holdout-554989-2026-09-11?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-11T12:57:36.000Z"
-    },
-    {
-      "title": "Planning a phone or appliance purchase? Flipkart’s October 9 sale date has leaked, but do not fix your budget yet",
-      "summary": "The leak points to October 9 for Flipkart Big Billion Days 2026 and October 8 early access, but Flipkart has not confirmed it. Here is what budget-conscious shoppers should verify.",
-      "url": "https://www.businesstoday.in/latest/trends/photo/planning-a-phone-or-appliance-purchase-flipkarts-october-9-sale-date-has-leaked-but-do-not-fix-your-budget-yet-554983-2026-09-11?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "regulatory",
-      "publishedAt": "2026-09-11T12:43:00.000Z"
-    },
-    {
-      "title": "RBI’s record forex deposit drive to generate additional income, says Governor Sanjay Malhotra",
-      "summary": "The RBI expects its record foreign-currency deposit drive to generate additional income rather than impose a cost on the central bank, Governor Sanjay Malhotra said.",
-      "url": "https://www.businesstoday.in/latest/economy/story/rbis-record-forex-deposit-drive-to-generate-additional-income-says-governor-sanjay-malhotra-554974-2026-09-11?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "regulatory",
-      "publishedAt": "2026-09-11T12:27:37.000Z"
-    },
-    {
-      "title": "BRICS must ensure transparent trade, investment practices: Jaishankar",
-      "summary": "Addressing the BRICS Business Forum in New Delhi, Jaishankar said the grouping must focus on strengthening economic stability while enabling businesses to access new markets, build partnerships and diversify commercial relationships.",
-      "url": "https://www.businesstoday.in/latest/economy/story/brics-must-ensure-transparent-trade-investment-practices-jaishankar-554969-2026-09-11?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-11T12:13:05.000Z"
-    },
-    {
-      "title": "Bankers' Books Evidence Act, 2026 to take effect from Oct 1; adopts tech-neutral approach",
-      "summary": "The Bankers’ Books Evidence Act, 2026, which received the assent of the President on August 13, replaces the Bankers’ Books Evidence Act, 1891, to provide for a modern framework for the use of banking records as evidence in line with contemporary banking practices.",
-      "url": "https://zeenews.india.com/economy/bankers-books-evidence-act-2026-to-take-effect-from-oct-1-adopts-tech-neutral-approach-3071053.html",
-      "source": "Zee Business",
-      "category": "markets",
-      "publishedAt": "2026-09-11T11:46:00.000Z"
-    },
-    {
       "title": "Uber exits Nigeria, Uganda: Why Africa's ride-hailing market is getting tougher",
       "summary": "Uber has officially ended its operations in Nigeria and Uganda, marking a significant retreat from these markets. This decision comes as a result of escalating operating expenses and fierce competition, which have negatively impacted ride-hailing fares and driver earnings.",
       "url": "https://timesofindia.indiatimes.com/business/international-business/uber-exits-nigeria-uganda-why-africas-ride-hailing-market-is-getting-tougher/articleshow/134062657.cms",
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-09-11T11:34:31.000Z"
-    },
-    {
-      "title": "India eyes overseas mining blocks, boosts processing and recycling capacity: Mines minister",
-      "summary": "India plans to enhance critical mineral stockpiles, mineral processing and step up recycling e-waste to reduce import dependence",
-      "url": "https://www.businesstoday.in/industry/infra/story/india-eyes-overseas-mining-blocks-boosts-processing-and-recycling-capacity-mines-minister-554949-2026-09-11?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-11T11:33:11.000Z"
-    },
-    {
-      "title": "BMW 7 Series facelift launched at Rs...; Check what's changed",
-      "summary": "Alongside the petrol-powered 7 Series, BMW has also launched the updated electric i7, offered in eDrive50 and M70 versions.",
-      "url": "https://zeenews.india.com/auto/bmw-7-series-facelift-launched-at-rs-check-whats-changed-3071050.html",
-      "source": "Zee Business",
-      "category": "markets",
-      "publishedAt": "2026-09-11T11:31:00.000Z"
-    },
-    {
-      "title": "NPS Swasthya likely to launch within a month, includes health-insurance top-up: PFRDA Chairman",
-      "summary": "The Pension Fund Regulatory and Development Authority (PFRDA) may soon launch its NPS Swasthya pension product within the next 30 days. PFRDA Chairman Sivasubramanian Ramann says that the final guidelines are likely to be put out in a few days.",
-      "url": "https://zeenews.india.com/personal-finance/nps-swasthya-likely-to-launch-within-a-month-includes-health-insurance-top-up-pfrda-chairman-3071049.html",
-      "source": "Zee Business",
-      "category": "regulatory",
-      "publishedAt": "2026-09-11T11:30:00.000Z"
-    },
-    {
-      "title": "Barrier-free tolling on highways to be rolled out by Feb: Gadkari",
-      "summary": "“The tolling systems that we will implement where the number plate and FASTag both will be used will lead to an incremental increase of Rs 10,000 crore in toll revenues annually,” Gadkari said.",
-      "url": "https://zeenews.india.com/mobility/barrier-free-tolling-on-highways-to-be-rolled-out-by-feb-gadkari-3071026.html",
-      "source": "Zee Business",
-      "category": "markets",
-      "publishedAt": "2026-09-11T10:40:00.000Z"
-    },
-    {
-      "title": "Advance tax: Know the second instalment deadline, interest and instalment details",
-      "summary": "As the deadline to pay the second instalment of Advance Tax is approaching, taxpayers still have the chance to pay their tax liability applicable till September 15.",
-      "url": "https://zeenews.india.com/personal-finance/advance-tax-know-the-second-instalment-deadline-interest-and-instalment-details-3071021.html",
-      "source": "Zee Business",
-      "category": "markets",
-      "publishedAt": "2026-09-11T10:25:00.000Z"
-    },
-    {
-      "title": "Fintech firms key partners in advancing financial inclusion: RBI Governor",
-      "summary": "Malhotra attributed much of the progress in financial inclusion to collaboration between the public and private sectors, but said the next phase should focus on making financial services truly universal and available everywhere.",
-      "url": "https://zeenews.india.com/economy/fintech-firms-key-partners-in-advancing-financial-inclusion-rbi-governor-3071018.html",
-      "source": "Zee Business",
-      "category": "regulatory",
-      "publishedAt": "2026-09-11T09:31:00.000Z"
-    },
-    {
-      "title": "SBI cash withdrawal limits for THIS account changing from October 1",
-      "summary": "SBI has announced revision in cash withdrawal charges for Basic Savings Deposit Account.",
-      "url": "https://zeenews.india.com/personal-finance/sbi-cash-withdrawal-limits-for-this-account-changing-from-october-1-3071012.html",
-      "source": "Zee Business",
-      "category": "markets",
-      "publishedAt": "2026-09-11T08:41:00.000Z"
-    },
-    {
-      "title": "Maruti Baleno facelift 2026: Full variant-wise price list out",
-      "summary": "The AMT variants cost Rs 50,000 more than the manual variant. The CNG option costs even more, coming in at Rs 92,000 above the petrol manual.",
-      "url": "https://zeenews.india.com/auto/maruti-baleno-facelift-2026-full-variant-wise-price-list-out-3070994.html",
-      "source": "Zee Business",
-      "category": "markets",
-      "publishedAt": "2026-09-11T07:33:00.000Z"
-    },
-    {
-      "title": "BRICS leaders call for factory investments, policy alignment, and certifications for tech expansion",
-      "summary": "Egyptian smart meter technology company Iskraemeco plans to establish factories in India to serve the Indian and wider Asian markets, its Chairman and CEO Mohamed Elsayed said.",
-      "url": "https://zeenews.india.com/economy/brics-leaders-call-for-factory-investments-policy-alignment-and-certifications-for-tech-expansion-3070987.html",
-      "source": "Zee Business",
-      "category": "markets",
-      "publishedAt": "2026-09-11T07:16:00.000Z"
-    },
-    {
-      "title": "Hyundai Venue, Venue N Line get Bluelink Remote Immobiliser; Here's how it works",
-      "summary": "This feature will not be limited to these models only; Hyundai plans to offer it as standard in its upcoming connected vehicles.",
-      "url": "https://zeenews.india.com/auto/hyundai-venue-venue-n-line-get-bluelink-remote-immobiliser-heres-how-it-works-3070984.html",
-      "source": "Zee Business",
-      "category": "markets",
-      "publishedAt": "2026-09-11T06:33:00.000Z"
-    },
-    {
-      "title": "NABARD develops AI models for on-demand Kisan Credit loans",
-      "summary": "Digitalisation is gaining traction across agriculture and allied sectors, including fisheries and dairy, creating new opportunities to improve credit delivery and financial inclusion in rural India.",
-      "url": "https://zeenews.india.com/economy/nabard-develops-ai-models-for-on-demand-kisan-credit-loans-3070983.html",
-      "source": "Zee Business",
-      "category": "markets",
-      "publishedAt": "2026-09-11T06:30:00.000Z"
     }
   ]
 }
