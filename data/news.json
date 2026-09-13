@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-13T16:51:48.173Z",
-  "articlesCount": 54,
+  "lastUpdated": "2026-09-13T21:15:39.986Z",
+  "articlesCount": 39,
   "sourcesOk": 5,
   "sourcesTotal": 9,
   "sourceStatus": [
@@ -13,13 +13,13 @@
     {
       "source": "Business Today",
       "status": "ok",
-      "articles": 20,
+      "articles": 19,
       "feedUsed": "https://www.businesstoday.in/rssfeeds/?id=225346"
     },
     {
       "source": "Zee Business",
       "status": "ok",
-      "articles": 14,
+      "articles": 0,
       "feedUsed": "https://zeenews.india.com/rss/business.xml"
     },
     {
@@ -57,12 +57,12 @@
   ],
   "articles": [
     {
-      "title": "Air India Mumbai-Dehradun flight diverted to Lucknow due to bad weather",
-      "summary": "An Air India flight from Mumbai to Dehradun was diverted to Lucknow on Sunday, according to the airline.",
-      "url": "https://zeenews.india.com/mobility/air-india-mumbai-dehradun-flight-diverted-to-lucknow-due-to-bad-weather-3071414.html",
-      "source": "Zee Business",
+      "title": "Oil infra hit by Ukraine, Russia gets 70% of its fuel from India",
+      "summary": "August marked a milestone for Russia as it imported record levels of oil products, with Indian exports accounting for nearly seventy percent. The gasoline supplied by India was produced from Russian crude at a shared refinery.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/oil-infra-hit-by-ukraine-russia-gets-70-of-its-fuel-from-india/articleshow/134223885.cms",
+      "source": "Times of India Business",
       "category": "markets",
-      "publishedAt": "2026-09-13T16:46:00.000Z"
+      "publishedAt": "2026-09-13T20:24:06.000Z"
     },
     {
       "title": "Fed, crude, dollar and Iran war: 4 factors that could move gold next week",
@@ -105,28 +105,12 @@
       "publishedAt": "2026-09-13T13:36:29.000Z"
     },
     {
-      "title": "Use of Indian Patent Office (IPO) logo without prior written approval prohibited: DPIIT",
-      "summary": "According to the notice, use of the official IPO logo, trade dress or DPIIT insignia in print, digital media, social media or sponsored search advertisements requires prior formal, written approval from the competent authority in the CGPDTM or DPIIT.",
-      "url": "https://zeenews.india.com/economy/use-of-indian-patent-office-ipo-logo-without-prior-written-approval-prohibited-dpiit-3071393.html",
-      "source": "Zee Business",
-      "category": "markets",
-      "publishedAt": "2026-09-13T12:13:00.000Z"
-    },
-    {
       "title": "India’s semiconductor sector attracts $1.4 billion in funding across 281 companies",
       "summary": "India's semiconductor sector has attracted $1.4 billion in equity funding across many companies. Nearly half of this investment occurred since 2025, showing rapid growth. The nation is preparing to host SEMICON India 2026, a major industry event.",
       "url": "https://timesofindia.indiatimes.com/business/india-business/indias-semiconductor-sector-attracts-1-4-billion-in-funding-across-281-companies/articleshow/134197886.cms",
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-09-13T11:52:35.000Z"
-    },
-    {
-      "title": "Ready for a new era in economic relations between our two countries: South African President Ramaphosa",
-      "summary": "Addressing the South Africa-India Roundtable in New Delhi on the sidelines of the BRICS Summit, Ramaphosa urged businesses from both countries to strengthen partnerships and turn policy discussions into commercially viable projects and long-term investments.",
-      "url": "https://zeenews.india.com/economy/ready-for-a-new-era-in-economic-relations-between-our-two-countries-south-african-president-ramaphosa-3071385.html",
-      "source": "Zee Business",
-      "category": "markets",
-      "publishedAt": "2026-09-13T11:23:00.000Z"
     },
     {
       "title": "India is the second-best BRICS performer, but that is not enough: Economist Surjit Bhalla",
@@ -161,14 +145,6 @@
       "publishedAt": "2026-09-13T10:51:49.000Z"
     },
     {
-      "title": "EPFO data shows Gen Zs generate 79% of UANs in FY26; indicates youth-driven workforce",
-      "summary": "Women's engagement in the formal workspace has also increased over time. During 2025-26, 28 percent of the new UANs generated belonged to women, while they also received 26 percent of the total apprenticeship contracts.",
-      "url": "https://zeenews.india.com/economy/epfo-data-shows-gen-zs-generate-79-of-uans-in-fy26-indicates-youth-driven-workforce-3071381.html",
-      "source": "Zee Business",
-      "category": "markets",
-      "publishedAt": "2026-09-13T10:46:00.000Z"
-    },
-    {
       "title": "India supplies 70% of Russia’s record fuel imports as Ukrainian drones hit refineries",
       "summary": "In August, India became Russia's largest supplier of fuel amidst significant disruptions to Russia's domestic production caused by drone attacks from Ukraine. Remarkably, India accounted for seventy percent of the fuel imported by Russia during this period.",
       "url": "https://timesofindia.indiatimes.com/business/india-business/india-supplies-70-of-russias-record-fuel-imports-as-ukrainian-drones-hit-refineries/articleshow/134192421.cms",
@@ -183,22 +159,6 @@
       "source": "Business Today",
       "category": "regulatory",
       "publishedAt": "2026-09-13T09:05:22.000Z"
-    },
-    {
-      "title": "New PNG Incentive Scheme aims to expand domestic connections, cut payback period to 3 years: Govt",
-      "summary": "The Incentive Scheme for Promotion of Domestic PNG Connections was launched on August 18, 2026 and came into effect from September 1. It seeks to increase the number of active domestic PNG connections.",
-      "url": "https://zeenews.india.com/economy/new-png-incentive-scheme-aims-to-expand-domestic-connections-cut-payback-period-to-3-years-govt-3071316.html",
-      "source": "Zee Business",
-      "category": "markets",
-      "publishedAt": "2026-09-13T07:35:00.000Z"
-    },
-    {
-      "title": "Annuity Plans explained: Retiring soon? Here's how to choose the right plan",
-      "summary": "For corpuses above ₹12 lakh, government employees are required to invest at least 40 percent of the corpus to buy an annuity at normal exit. While a private sector employee can withdraw 80 percent of the corpus as a lump sum",
-      "url": "https://zeenews.india.com/personal-finance/annuity-plans-explained-retiring-soon-heres-how-to-choose-the-right-plan-3071313.html",
-      "source": "Zee Business",
-      "category": "insurance",
-      "publishedAt": "2026-09-13T07:12:00.000Z"
     },
     {
       "title": "BRICS 2026 gets a Bollywood touch: Malaysian PM sings Kishore Kumar iconic ‘Khwaab Ho Tum’. Watch",
@@ -305,22 +265,6 @@
       "publishedAt": "2026-09-12T14:43:06.000Z"
     },
     {
-      "title": "HDFC Bank proposes two names for MD and CEO posts; re-appoints Executive Director V Srinivasa Rangan",
-      "summary": "The board approved the proposal at its meeting on Saturday based on the recommendations of its Governance, Nomination and Remuneration Committee and in accordance with the Banking Regulation Act and RBI’s Commercial Banks - Governance Directions, 2025.",
-      "url": "https://zeenews.india.com/economy/hdfc-bank-proposes-two-names-for-md-and-ceo-posts-re-appoints-executive-director-v-srinivasa-rangan-3071263.html",
-      "source": "Zee Business",
-      "category": "regulatory",
-      "publishedAt": "2026-09-12T13:31:00.000Z"
-    },
-    {
-      "title": "BRICS Pay seeks to expand its cross-border payment network; MoUs signed with China, Belarus, Turkey",
-      "summary": "Mikhaylishin said BRICS Pay is being developed as an open payment ecosystem that can connect national payment infrastructure, allowing people and businesses to use the platform for cross-border transactions.",
-      "url": "https://zeenews.india.com/economy/brics-pay-seeks-to-expand-its-cross-border-payment-network-mous-signed-with-china-belarus-turkey-3071261.html",
-      "source": "Zee Business",
-      "category": "markets",
-      "publishedAt": "2026-09-12T13:19:00.000Z"
-    },
-    {
       "title": "Oil shock meets bond-market stress: Why 2026 is starting to resemble 2008 — but for different reasons",
       "summary": "Oil prices are feeding directly into inflation expectations and government bond yields, creating a 2026 market shock that echoes 2008 but has a very different trigger.",
       "url": "https://www.businesstoday.in/latest/economy/story/oil-shock-meets-bond-market-stress-why-2026-is-starting-to-resemble-2008-but-for-different-reasons-555168-2026-09-12?utm_source=rssfeed",
@@ -343,14 +287,6 @@
       "source": "Business Today",
       "category": "regulatory",
       "publishedAt": "2026-09-12T13:02:00.000Z"
-    },
-    {
-      "title": "Zomato introduces additional cash-on-delivery charge; ranges from Rs 5 to Rs 20",
-      "summary": "The decision comes as the company seeks to monetise payment methods amid intensifying competition. As per IANS, app screenshots showed the charge commonly at Rs 5, though in some cases users were billed Rs 7 or as much as Rs 20, according to multiple reports.",
-      "url": "https://zeenews.india.com/economy/zomato-introduces-additional-cash-on-delivery-charge-ranges-from-rs-5-to-rs-20-3071253.html",
-      "source": "Zee Business",
-      "category": "markets",
-      "publishedAt": "2026-09-12T12:41:00.000Z"
     },
     {
       "title": "1,212 pillars, 22 sacred wells: The temple behind the BRICS photo",
@@ -377,14 +313,6 @@
       "publishedAt": "2026-09-12T10:29:48.000Z"
     },
     {
-      "title": "India supplies 895 crore litres of ethanol by August during ESY2025-26: Industry data",
-      "summary": "According to AIDA, grain-based feedstocks contributed 624 crore litres of the total ethanol supplied, while sugar-based feedstocks accounted for 271 crore litres.",
-      "url": "https://zeenews.india.com/economy/india-supplies-895-crore-litres-of-ethanol-by-august-during-esy2025-26-industry-data-3071206.html",
-      "source": "Zee Business",
-      "category": "markets",
-      "publishedAt": "2026-09-12T10:29:00.000Z"
-    },
-    {
       "title": "Data centre boom: India’s infrastructure opportunity could hit $90 billion",
       "summary": "India's data centre industry is poised for a substantial $90 billion opportunity by FY35, catalyzed by rising demand for construction, cooling, and power infrastructure. The surge in artificial intelligence will further heighten energy and cooling requirements.",
       "url": "https://timesofindia.indiatimes.com/business/india-business/data-centre-boom-indias-infrastructure-opportunity-could-hit-90-billion/articleshow/134123769.cms",
@@ -401,14 +329,6 @@
       "publishedAt": "2026-09-12T10:23:11.000Z"
     },
     {
-      "title": "SLW or SUR? How to Choose the Right NPS Withdrawal Option",
-      "summary": "An employee works for years to make savings and other kinds of funds to help build the future. Among these funds, one that is crucial for post-retirement life is a pension fund.",
-      "url": "https://zeenews.india.com/personal-finance/slw-or-sur-how-to-choose-the-right-nps-withdrawal-option-3071201.html",
-      "source": "Zee Business",
-      "category": "markets",
-      "publishedAt": "2026-09-12T10:09:00.000Z"
-    },
-    {
       "title": "CAS closing price under review: Sebi proposes 2 options for expiry settlement",
       "summary": "The Securities and Exchange Board of India (Sebi) is actively exploring modifications to how derivative settlement prices are calculated. Two alternative methods are currently up for review, inviting stakeholder feedback.",
       "url": "https://timesofindia.indiatimes.com/business/india-business/cas-closing-price-under-review-sebi-proposes-2-options-for-expiry-settlement/articleshow/134122804.cms",
@@ -423,22 +343,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-09-12T08:36:52.000Z"
-    },
-    {
-      "title": "RBI announces new UPI features: Tap and Pay, MyUPI make payments faster and secure",
-      "summary": "NFC stands for Near Field Communication technology, which enables devices kept in proximity to exchange information wirelessly, reducing the need to manually fill in the information.",
-      "url": "https://zeenews.india.com/personal-finance/rbi-announces-new-upi-features-tap-and-pay-myupi-make-payments-faster-and-secure-3071179.html",
-      "source": "Zee Business",
-      "category": "regulatory",
-      "publishedAt": "2026-09-12T07:56:00.000Z"
-    },
-    {
-      "title": "Global Fintech Fest: FM Sitharaman urges RBI to ‘sharpen capability’ of digital Rupee platform",
-      "summary": "Reflecting on the theme of GFF, the finance minister warned THAT Artificial Intelligence acts as \"a double-edged sword\" as it helps \"detect and perpetrate fraud.”",
-      "url": "https://zeenews.india.com/economy/global-fintech-fest-fm-sitharaman-urges-rbi-to-sharpen-capability-of-digital-rupee-platform-3071131.html",
-      "source": "Zee Business",
-      "category": "regulatory",
-      "publishedAt": "2026-09-12T05:09:00.000Z"
     },
     {
       "title": "SP Group chairman Shapoor Mistry seeks ₹25,000 crore from Tata Sons over next two years: Report",
@@ -463,30 +367,6 @@
       "source": "Business Today",
       "category": "regulatory",
       "publishedAt": "2026-09-12T00:30:06.000Z"
-    },
-    {
-      "title": "BRICS Summit 2026: Putin’s Aurus vs Xi Jinping’s Hongqi L5 – which car is more powerful? Features, price and security",
-      "summary": "Putin’s Aurus packs a 598 hp engine and BR5 ballistic protection, while Xi’s Hongqi L5 comes with armour, bulletproof glass and protection against chemical and biological threats.",
-      "url": "https://zeenews.india.com/mobility/brics-summit-2026-putin-s-aurus-vs-xi-jinping-s-hongqi-l5-which-car-is-more-powerful-features-price-and-security-3071106.html",
-      "source": "Zee Business",
-      "category": "markets",
-      "publishedAt": "2026-09-11T21:04:00.000Z"
-    },
-    {
-      "title": "UNT names new AI college after Anuradha and Vikas Sinha following ₹191 crore donation",
-      "summary": "The new college is expected to become an academic and research hub focused on artificial intelligence, intelligent systems, data analytics, cybersecurity, health informatics and learning technologies",
-      "url": "https://www.businesstoday.in/latest/world/story/unt-names-new-ai-college-after-anuradha-and-vikas-sinha-following-rs191-crore-donation-554888-2026-09-12?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-11T18:50:03.000Z"
-    },
-    {
-      "title": "2 homebuyers paid Rs 1.16 crore, got no flats; RERA orders builder to refund with interest",
-      "summary": "The Maharashtra Real Estate Regulatory Authority has directed the developer to refund the amounts paid, along with applicable interest, after noting that the project remained incomplete and its registration had lapsed without an extension.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/two-homebuyers-booked-flats-for-rs-1-16-crore-in-2013-they-were-promised-possession-by-2014-years-later-they-still-had-no-homes-maharera-orders-builder-to-refund-money-with-interest/articleshow/134073992.cms",
-      "source": "Times of India Business",
-      "category": "regulatory",
-      "publishedAt": "2026-09-11T17:02:00.000Z"
     }
   ]
 }
