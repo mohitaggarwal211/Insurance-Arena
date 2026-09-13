@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T12:35:07.980Z",
+  "lastUpdated": "2026-09-13T14:32:00.244Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,22 @@
     }
   ],
   "articles": [
+    {
+      "title": "The next time govt takes a financial risk, ISB professor says it should be on start-ups",
+      "summary": "There is certainly a possibility that taxpayers will lose money on some equity guarantees. But the total loss should be far smaller than the bill imposed by the NRI subsidy scheme, says Professor Prasanna Tantri",
+      "url": "https://www.businesstoday.in/latest/economy/story/the-next-time-govt-takes-a-financial-risk-isb-professor-says-it-should-be-on-start-ups-555310-2026-09-13?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-13T14:23:17.000Z"
+    },
+    {
+      "title": "India completes its 2,843 km Dedicated Freight Corridor network; why it’s a game-changer for railways",
+      "summary": "India's Dedicated Freight Corridor project has finally reached a milestone that was years in the making. With the commissioning of the last remaining sections of the Western Dedicated Freight Corridor, the country's 2,843-km dedicated freight network is now fully operational.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/india-completes-its-2843-km-dedicated-freight-corridor-network-why-its-a-game-changer-for-railways/articleshow/134202894.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-13T13:36:29.000Z"
+    },
     {
       "title": "India’s semiconductor sector attracts $1.4 billion in funding across 281 companies",
       "summary": "India's semiconductor sector has attracted $1.4 billion in equity funding across many companies. Nearly half of this investment occurred since 2025, showing rapid growth. The nation is preparing to host SEMICON India 2026, a major industry event.",
@@ -345,14 +361,6 @@
       "publishedAt": "2026-09-12T00:30:06.000Z"
     },
     {
-      "title": "Report: MSMEs need digital infra",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/report-msmes-need-digital-infra/articleshow/134097034.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-11T23:15:45.000Z"
-    },
-    {
       "title": "UNT names new AI college after Anuradha and Vikas Sinha following ₹191 crore donation",
       "summary": "The new college is expected to become an academic and research hub focused on artificial intelligence, intelligent systems, data analytics, cybersecurity, health informatics and learning technologies",
       "url": "https://www.businesstoday.in/latest/world/story/unt-names-new-ai-college-after-anuradha-and-vikas-sinha-following-rs191-crore-donation-554888-2026-09-12?utm_source=rssfeed",
@@ -367,14 +375,6 @@
       "source": "Times of India Business",
       "category": "regulatory",
       "publishedAt": "2026-09-11T17:02:00.000Z"
-    },
-    {
-      "title": "Coforge independent director D.K. Singh resigns from board amid governance turmoil",
-      "summary": "In his resignation letter, Singh cited the “unfortunate events of the past several weeks” and Bhatt’s resignation earlier this week as the reasons behind his decision.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/coforge-independent-director-dk-singh-resigns-from-board-amid-governance-turmoil-555040-2026-09-11?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-11T15:46:40.000Z"
     }
   ]
 }
