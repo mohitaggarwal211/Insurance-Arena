@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-14T06:31:40.239Z",
-  "articlesCount": 38,
+  "lastUpdated": "2026-09-14T13:43:20.346Z",
+  "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
   "sourceStatus": [
@@ -13,7 +13,7 @@
     {
       "source": "Business Today",
       "status": "ok",
-      "articles": 18,
+      "articles": 20,
       "feedUsed": "https://www.businesstoday.in/rssfeeds/?id=225346"
     },
     {
@@ -56,6 +56,166 @@
     }
   ],
   "articles": [
+    {
+      "title": "EPFO launches WhatsApp channel for PF updates; here’s how to join",
+      "summary": "The EPFO, in a social media post on X (formerly Twitter), said that members who join the WhatsApp channel can stay informed about the organisation’s latest updates.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/epfo-has-an-official-whatsapp-channel-for-pf-updates-heres-how-to-join-and-get-educational-information-on-epf-advance-withdrawals-and-more/articleshow/134239048.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-14T13:17:00.000Z"
+    },
+    {
+      "title": "Inflation heats up: Food prices rise, crude crosses $100; what it means for your wallet",
+      "summary": "Retail and wholesale inflation rose further in August; food prices increased, and global crude oil prices remain a concern",
+      "url": "https://www.businesstoday.in/latest/economy/story/inflation-heats-up-food-prices-rise-crude-crosses-100-what-it-means-for-your-wallet-555462-2026-09-14?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-14T12:44:44.000Z"
+    },
+    {
+      "title": "India’s retail inflation rises to 4.82%, wholesale inflation climbs to 9.92%",
+      "summary": "India's retail inflation rose to 4.82% in August, while wholesale inflation neared double digits. Food inflation increased to 5.95% at the consumer level and 7.05% wholesale. Fuel and power inflation surged sharply to over 22% on the wholesale price index.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/indias-retail-inflation-rises-to-4-82-wholesale-inflation-climbs-to-9-92/articleshow/134241039.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-14T12:19:07.000Z"
+    },
+    {
+      "title": "Brics leaders call for reliable supply chains for critical minerals",
+      "summary": "India is actively seeking critical mineral supplies through international partnerships and domestic initiatives. Discussions are underway with Argentina, Australia, and Chile for lithium acquisition.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/brics-leaders-call-for-reliable-supply-chains-for-critical-minerals/articleshow/134240573.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-14T11:54:03.000Z"
+    },
+    {
+      "title": "Char Dham rail boost: Rishikesh-Karnprayag line hits 41 tunnel breakthroughs",
+      "summary": "The Rishikesh Project Implementation Unit of RVNL achieved the breakthrough on Friday after completing the full 10.847-km length of Escape Tunnel 1. The tunnel is the second-longest on the project.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/rishikesh-karnprayag-railway-line-project-for-char-dham-connectivity-boost-hits-41-tunnel-breakthroughs-rvnl-completes-10-847-km-escape-tunnel-1-with-5-more-expected-within-a-year/articleshow/134237993.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-14T11:27:00.000Z"
+    },
+    {
+      "title": "Who is Anupriya Nagar? The economics student who invested one-third of Hanuman Ansh’s reported ₹2-crore budget",
+      "summary": "Anupriya Nagar says she invested three years of UK savings—not all the budget—in Hanuman Ansh. Five clear facts explain the 21-year-old producer's journey from economics to cinema.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/who-is-anupriya-nagar-the-economics-student-who-invested-one-third-of-hanuman-anshs-reported-rs2-crore-budget-555454-2026-09-14?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "regulatory",
+      "publishedAt": "2026-09-14T11:26:39.000Z"
+    },
+    {
+      "title": "Retail inflation climbs to 4.82% in August as food prices rise",
+      "summary": "The data showed significant differences in price movements across individual food items. Onion prices rose 48.27% year on year in August, while garlic inflation stood at 43.60% and ginger at 73.82%",
+      "url": "https://www.businesstoday.in/latest/economy/story/retail-inflation-climbs-to-4-82-in-august-as-food-prices-rise-555451-2026-09-14?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "insurance",
+      "publishedAt": "2026-09-14T11:06:58.000Z"
+    },
+    {
+      "title": "Ivolga FG for India explained: The speed claim, local-production offer and 120-train Vande Bharat connection",
+      "summary": "Russia's TMH has offered its 360-km/h Ivolga FG concept, not a confirmed train order. Its existing JV is building 120 Vande Bharat Sleeper sets, with a prototype due by March 2027.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/ivolga-fg-for-india-explained-the-speed-claim-local-production-offer-and-120-train-vande-bharat-connection-555450-2026-09-14?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-14T11:03:53.000Z"
+    },
+    {
+      "title": "Vande Bharat or Rajdhani for your next family trip? Compare seats, berths, speed, food and journey type first",
+      "summary": "",
+      "url": "https://www.businesstoday.in/latest/trends/photo/vande-bharat-or-rajdhani-for-your-next-family-trip-compare-seats-berths-speed-food-and-journey-type-first-555445-2026-09-14?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-14T10:54:44.000Z"
+    },
+    {
+      "title": "JSW Combat is coming! The new SUV betting big on hybrid power and rugged looks",
+      "summary": "JSW Combat, based on the Chery Jetour T2, could bring rugged styling and plug-in hybrid power to India’s SUV market, taking on rivals such as the Toyota Fortuner.",
+      "url": "https://www.businesstoday.in/latest/photo/jsw-combat-is-coming-the-new-suv-betting-big-on-hybrid-power-and-rugged-looks-555434-2026-09-14?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-14T10:50:05.000Z"
+    },
+    {
+      "title": "Hanuman Ansh shocks Mirzapur and Haiwaan on Sunday, but the worldwide totals reveal a much tighter contest",
+      "summary": "Hanuman Ansh led Sunday's India net earnings, while its estimated worldwide gross was just ₹2.01 crore ahead of Mirzapur. Here is the fairer comparison in India as of September 14.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/hanuman-ansh-shocks-mirzapur-and-haiwaan-on-sunday-but-the-worldwide-totals-reveal-a-much-tighter-contest-555439-2026-09-14?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-14T10:33:25.000Z"
+    },
+    {
+      "title": "Buying a camera phone under ₹40,000? Four strong options—and one 200MP model",
+      "summary": "These four phones below ₹40,000 take different camera routes: OIS, ultrawide lenses, 50MP selfies or a rear mirror. Vivo's V70 FE now costs ₹44,999, so it misses the cap right now.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/buying-a-camera-phone-under-rs40000-four-strong-options-and-one-200mp-model-555436-2026-09-14?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-14T10:23:35.000Z"
+    },
+    {
+      "title": "Festive rush: Flight fares soar for domestic routes on Diwali weekend",
+      "summary": "The capacity backdrop is also tighter. According to aviation data provider OAG, India's domestic scheduled capacity is down 5.6% year-on-year in September to 15 million seats.",
+      "url": "https://www.businesstoday.in/latest/economy/story/festive-rush-flight-fares-soar-for-domestic-routes-on-diwali-weekend-555432-2026-09-14?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-14T10:17:24.000Z"
+    },
+    {
+      "title": "Big car in small budget? Check these nine affordable seven-seater cars",
+      "summary": "These seven-seat cars start from ₹5.73 lakh, but model prices, CNG mileage and even the cheapest seven-seat variant differ. Here is what family buyers should verify before booking.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/big-car-in-small-budget-check-these-nine-affordable-seven-seater-cars-555433-2026-09-14?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "regulatory",
+      "publishedAt": "2026-09-14T10:14:22.000Z"
+    },
+    {
+      "title": "Ramayana's first song arrives: Ranbir, Sai, Arijit and Shreya reveal the epic’s first big glimpse",
+      "summary": "Ramayana’s first song, Jai Jai Ram, brings together A.R. Rahman, Kumar Vishwas, Arijit Singh and Shreya Ghoshal, as Ranbir Kapoor and Sai Pallavi lead the epic’s first big glimpse.",
+      "url": "https://www.businesstoday.in/latest/photo/ramayanas-first-song-arrives-ranbir-sai-arijit-and-shreya-reveal-the-epics-first-big-glimpse-555430-2026-09-14?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-14T10:09:00.000Z"
+    },
+    {
+      "title": "Essar Energy Transition Retail acquires UK forecourt operator SGN Retail",
+      "summary": "EET Retail said the acquisition will help accelerate its strategy of integrating fuel production with retail sales in the UK.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/essar-energy-transition-retail-acquires-uk-forecourt-operator-sgn-retail-555418-2026-09-14?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-14T09:25:37.000Z"
+    },
+    {
+      "title": "Nitin Gadkari: 100% barrier-free FASTag tolls soon; to deliver Rs 25,000 crore benefit",
+      "summary": "The Road Transport and Highways Minister said the government plans to make all toll booths on national highways barrier-free by March 2027.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/nitin-gadkari-says-fastag-lifted-toll-income-by-rs-7000-crore-to-over-rs-82000-crore-full-barrier-free-rollout-by-march-2027-could-bring-government-up-to-rs-25000-crore-a-year/articleshow/134236080.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-14T08:33:00.000Z"
+    },
+    {
+      "title": "Record $44.9 billion jump takes India’s forex reserves to lifetime high of $785.71 billion",
+      "summary": "India's forex reserves had been under pressure since the West Asia conflict began earlier this year. The rupee came under sustained pressure during the period, prompting the RBI to intervene in the foreign exchange market through dollar sales.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/in-2014-indias-forex-reserves-were-just-over-300-billion-12-years-later-amid-us-iran-war-they-hit-a-lifetime-high-of-785-71-billion-after-a-record-44-9-billion-weekly-jump/articleshow/134235535.cms",
+      "source": "Times of India Business",
+      "category": "regulatory",
+      "publishedAt": "2026-09-14T07:25:35.000Z"
+    },
+    {
+      "title": "State finances are turning into a matter of concern. Here’s why",
+      "summary": "Rising revenue expenditure, falling capex, and increased debt liabilities have been flagged by CAG and economists.",
+      "url": "https://www.businesstoday.in/latest/economy/story/state-finances-are-turning-into-a-matter-of-concern-heres-why-555366-2026-09-14?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-14T07:04:52.000Z"
+    },
+    {
+      "title": "GE HealthCare targets 2X+ exports from India by 2030",
+      "summary": "Company wants 75% of India revenue from locally designed and manufactured products as it deploys the bulk of its ₹8,000-crore investment.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/ge-healthcare-targets-2x-exports-from-india-by-2030-555367-2026-09-14?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-14T06:57:30.000Z"
+    },
     {
       "title": "PwC India and US to form JV with 40,000 employees on board; to unite talent, capabilities",
       "summary": "The new entity will integrate PwC India’s consulting operations, including management, technology, and risk consulting, with PwC US Advisory’s India-based capabilities.",
@@ -201,22 +361,6 @@
       "publishedAt": "2026-09-13T11:21:08.000Z"
     },
     {
-      "title": "FPIs turn sellers again: Rs 13,138 crore pulled out of Indian equities",
-      "summary": "In 2023, foreign portfolio investors have pulled out an astonishing Rs 2.37 lakh crore from Indian equities. The latest round of selling experienced in early September is attributed to global uncertainties and increasing US bond yields.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/fpis-turn-sellers-again-rs-13138-crore-pulled-out-of-indian-equities/articleshow/134195608.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-13T11:02:29.000Z"
-    },
-    {
-      "title": "Stock market outlook: Fed, crude prices and more to guide Dalal Street this week",
-      "summary": "Dalal Street is gearing up for a condensed trading week, with investors keenly awaiting pivotal global and domestic data. The focus will be on the US Federal Reserve's interest rate decision and outlook on policy.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/fed-crude-prices-more-what-will-guide-dalal-street-this-week/articleshow/134194178.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-13T10:54:00.000Z"
-    },
-    {
       "title": "Indian-origin CEO spent ₹3.5 crore on girlfriend, then sued her to get it back after break-up",
       "summary": "A ₹3.5 crore relationship bill turned into a courtroom battle after the couple split in 2023, with the CEO ordered to pay his ex-girlfriend’s legal costs.",
       "url": "https://www.businesstoday.in/latest/trends/story/indian-origin-ceo-spent-rs3-5-crore-on-girlfriend-then-sued-her-to-get-it-back-after-break-up-555262-2026-09-13?utm_source=rssfeed",
@@ -225,140 +369,12 @@
       "publishedAt": "2026-09-13T10:51:49.000Z"
     },
     {
-      "title": "India supplies 70% of Russia’s record fuel imports as Ukrainian drones hit refineries",
-      "summary": "In August, India became Russia's largest supplier of fuel amidst significant disruptions to Russia's domestic production caused by drone attacks from Ukraine. Remarkably, India accounted for seventy percent of the fuel imported by Russia during this period.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/india-supplies-70-of-russias-record-fuel-imports-as-ukrainian-drones-hit-refineries/articleshow/134192421.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-13T09:59:07.000Z"
-    },
-    {
       "title": "Enjoying in Delhi-NCR on a ₹1,000 budget? Here’s how students can have a fun weekend",
       "summary": "Here are some activities students can try without necessarily spending thousands of rupees that students can consider for their weekend outing.",
       "url": "https://www.businesstoday.in/latest/trends/story/enjoying-in-delhi-ncr-on-a-rs1000-budget-heres-how-students-can-have-a-fun-weekend-555228-2026-09-13?utm_source=rssfeed",
       "source": "Business Today",
       "category": "regulatory",
       "publishedAt": "2026-09-13T09:05:22.000Z"
-    },
-    {
-      "title": "BRICS 2026 gets a Bollywood touch: Malaysian PM sings Kishore Kumar iconic ‘Khwaab Ho Tum’. Watch",
-      "summary": "The impromptu performance took place on Saturday night during an informal engagement alongside the summit proceedings at Bharat Mandapam. With a pianist providing the melody, Anwar joined in on the 1965 romantic classic.",
-      "url": "https://www.businesstoday.in/india/story/brics-2026-gets-a-bollywood-touch-malaysian-pm-sings-kishore-kumar-iconic-khwaab-ho-tum-watch-555222-2026-09-13?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-13T05:17:05.000Z"
-    },
-    {
-      "title": "India’s gem exports rise 3.14% in August as studded gold jewellery shipments surge",
-      "summary": "India's gem and jewellery exports saw a 3.14% increase in August, reaching $2.30 billion. This growth was primarily fueled by a significant rise in studded gold jewellery shipments.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/indias-gem-exports-rise-3-14-in-august-as-studded-gold-jewellery-shipments-surge/articleshow/134174181.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-13T04:40:41.000Z"
-    },
-    {
-      "title": "Brics 2026: Piyush Goyal hails unanimous adoption of New Delhi Declaration",
-      "summary": "At the latest summit, BRICS leaders unanimously endorsed the New Delhi Declaration, marking a significant step toward a resilient strategic partnership. This declaration focuses on fostering cooperation in emerging technologies and strengthening digital infrastructure.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/brics-2026-piyush-goyal-hails-unanimous-adoption-of-new-delhi-declaration/articleshow/134174075.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-13T03:33:16.000Z"
-    },
-    {
-      "title": "Will the Tata companies with interest in Tata Sons be impacted on Tuesday and how?",
-      "summary": "A listing will not only provide the holding company of the conglomerate flexibility to raise funds, it will also provide much needed funds for the Shapoorji Pallonji Group, which holds over 18% stake in Tata Sons.",
-      "url": "https://www.businesstoday.in/india/story/tata-sons-listing-may-be-inevitable-after-rbi-rejection-to-deregister-as-cic-555212-2026-09-13?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-13T01:59:55.000Z"
-    },
-    {
-      "title": "₹60 lakh EV? VinFast VF9 is set to shake up India’s luxury electric SUV market",
-      "summary": "VinFast VF9 is set to enter India’s luxury EV market with a 123kWh battery, 402hp, up to 626km range and fast charging, taking aim at premium electric SUV buyers.",
-      "url": "https://www.businesstoday.in/latest/photo/rs60-lakh-ev-vinfast-vf9-is-set-to-shake-up-indias-luxury-electric-suv-market-554902-2026-09-13?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "insurance",
-      "publishedAt": "2026-09-13T00:40:02.000Z"
-    },
-    {
-      "title": "The ₹2.99 lakh iPhone Duo is coming to India - All details here",
-      "summary": "Apple's first foldable iPhone Duo starts at ₹2.99 lakh in India, with 2TB storage, October 23 sale date, premium pricing and Apple's growing India business in focus.",
-      "url": "https://www.businesstoday.in/latest/photo/the-rs2-99-lakh-iphone-duo-is-coming-to-india-all-details-here-554909-2026-09-13?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "insurance",
-      "publishedAt": "2026-09-13T00:30:05.000Z"
-    },
-    {
-      "title": "HDFC Bank sends names of 2 CEO candidates to RBI",
-      "summary": "HDFC Bank has presented two candidates to the RBI for the upcoming role of managing director and CEO. The board has also sanctioned the promotion of Jimmy Tata to executive director while seeking an extension for V Srinivasa Rangan.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/hdfc-bank-sends-names-of-2-ceo-candidates-to-rbi/articleshow/134163788.cms",
-      "source": "Times of India Business",
-      "category": "regulatory",
-      "publishedAt": "2026-09-12T22:56:53.000Z"
-    },
-    {
-      "title": "Japanese, Korean banks see massive EPS upgrades while India lags: Jefferies",
-      "summary": "Jefferies noted FY27 consensus earnings-per-share (EPS) estimates for Japanese financials rose 19% and those for Korean financials increased 18% between December 2025 and September 2026, compared with just 1% for India.",
-      "url": "https://www.businesstoday.in/latest/economy/story/japanese-korean-banks-see-massive-eps-upgrades-while-india-lags-jefferies-555073-2026-09-13?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-12T19:05:02.000Z"
-    },
-    {
-      "title": "HDFC Bank appoints Jimmy Tata as Executive Director: Who is he?",
-      "summary": "Jimmy Tata is currently HDFC Bank’s Chief Credit Officer. He holds a Master of Financial Management from the Jamnalal Bajaj Institute of Management and is also a Chartered Financial Analyst from the Institute of Chartered Financial Analysts of India.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/hdfc-bank-appoints-jimmy-tata-as-executive-director-who-is-he-555206-2026-09-12?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-12T16:11:54.000Z"
-    },
-    {
-      "title": "Oil shock meets bond-market stress: Why 2026 is starting to resemble 2008 — but for different reasons",
-      "summary": "Oil prices are feeding directly into inflation expectations and government bond yields, creating a 2026 market shock that echoes 2008 but has a very different trigger.",
-      "url": "https://www.businesstoday.in/latest/economy/story/oil-shock-meets-bond-market-stress-why-2026-is-starting-to-resemble-2008-but-for-different-reasons-555168-2026-09-12?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-12T13:08:47.000Z"
-    },
-    {
-      "title": "From Russian miniatures to African beads: The BRICS Bazaar taking over Delhi",
-      "summary": "BRICS Bazaar 2026 in Delhi brings crafts from 18 countries together, featuring Russian miniature art, African beadwork, Indian handicrafts and a vibrant celebration of global culture.",
-      "url": "https://www.businesstoday.in/latest/photo/from-russian-miniatures-to-african-beads-the-brics-bazaar-taking-over-delhi-555174-2026-09-12?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-12T13:06:55.000Z"
-    },
-    {
-      "title": "RBI rejects Tata Sons’ CIC deregistration bid, makes stock market listing mandatory: Report",
-      "summary": "In a letter dated September 11, 2026, the central bank informed Tata Sons that its application for voluntary surrender from the CIC category could not be accepted.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/rbi-rejects-tata-sons-cic-deregistration-bid-makes-stock-market-listing-mandatory-report-555171-2026-09-12?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "regulatory",
-      "publishedAt": "2026-09-12T13:02:00.000Z"
-    },
-    {
-      "title": "1,212 pillars, 22 sacred wells: The temple behind the BRICS photo",
-      "summary": "Ramanathaswamy Temple, known for its 1,212 pillars, 22 sacred wells and 1,200-metre corridors, takes the global spotlight as the striking backdrop to the BRICS photo.",
-      "url": "https://www.businesstoday.in/latest/photo/1212-pillars-22-sacred-wells-the-temple-behind-the-brics-photo-555165-2026-09-12?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-12T12:33:38.000Z"
-    },
-    {
-      "title": "Russia partners Adani Defence, HAL, BDL for missiles, fighter upgrades, defence production: Report",
-      "summary": "Russia is deepening defence cooperation with India through partnerships with Adani Defence & Aerospace, HAL and BDL, with several missile and fighter-upgrade programmes underway.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/russia-partners-adani-defence-hal-bdl-for-missiles-fighter-upgrades-defence-production-report-555160-2026-09-12?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-12T12:09:50.000Z"
-    },
-    {
-      "title": "‘Global South must become a global decision-maker’: PM Modi at BRICS Summit with Xi, Putin",
-      "summary": "PM Narendra Modi called for a greater role for the Global South in global decision-making as he opened the BRICS Summit in New Delhi in the presence of Chinese President Xi Jinping and Russian President Vladimir Putin.",
-      "url": "https://www.businesstoday.in/latest/economy/story/global-south-must-become-a-global-decision-maker-pm-modi-at-brics-summit-with-xi-putin-555130-2026-09-12?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-12T10:23:11.000Z"
     }
   ]
 }
