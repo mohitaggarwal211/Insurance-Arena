@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-14T05:53:36.920Z",
-  "articlesCount": 36,
+  "lastUpdated": "2026-09-14T06:31:40.239Z",
+  "articlesCount": 38,
   "sourcesOk": 5,
   "sourcesTotal": 9,
   "sourceStatus": [
@@ -13,7 +13,7 @@
     {
       "source": "Business Today",
       "status": "ok",
-      "articles": 16,
+      "articles": 18,
       "feedUsed": "https://www.businesstoday.in/rssfeeds/?id=225346"
     },
     {
@@ -56,6 +56,30 @@
     }
   ],
   "articles": [
+    {
+      "title": "PwC India and US to form JV with 40,000 employees on board; to unite talent, capabilities",
+      "summary": "The new entity will integrate PwC India’s consulting operations, including management, technology, and risk consulting, with PwC US Advisory’s India-based capabilities.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/pwc-india-and-us-to-form-jv-with-40000-employees-on-board-to-unite-talent-capabilities-555359-2026-09-14?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-14T06:03:44.000Z"
+    },
+    {
+      "title": "Rs 6.42 lakh business travel paid via wife’s card and reimbursed, man gets tax notice; what ITAT said",
+      "summary": "The Income Tax Appellate Tribunal (ITAT) Mumbai has provided partial relief to a businessman after the income tax department disallowed Rs 6.42 lakh of his travel expenses because the payments had been made using his wife's credit card.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/businessman-paid-rs-6-42-lakh-for-foreign-business-travel-using-wifes-card-and-then-reimbursed-her-taxman-disallowed-it-itat-mumbai-says-nothing-in-law-bars-it/articleshow/134233539.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-14T05:48:04.000Z"
+    },
+    {
+      "title": "Drunk men chase, ram their car against woman biker in Gurugram; watch video",
+      "summary": "In the video posted online, Sia said the occupants of a white sedan had been chasing her from the start of the ride",
+      "url": "https://www.businesstoday.in/latest/trends/story/drunk-men-chase-ram-their-car-against-woman-biker-in-gurugram-watch-video-555347-2026-09-14?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-14T05:36:24.000Z"
+    },
     {
       "title": "Oil prices jump over 2% as fresh Saudi, Strait of Hormuz strikes fuel supply fears",
       "summary": "",
@@ -271,14 +295,6 @@
       "source": "Times of India Business",
       "category": "regulatory",
       "publishedAt": "2026-09-12T22:56:53.000Z"
-    },
-    {
-      "title": "RBI rejects Tata Sons' bid to stay private, directs listing",
-      "summary": "Tata Sons' bid to relinquish its core investment company registration has been turned down by the Reserve Bank of India, pushing the Tata Group's holding firm nearer to a public stock offering.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/rbi-rejects-tata-sons-bid-to-stay-private-directs-listing/articleshow/134163398.cms",
-      "source": "Times of India Business",
-      "category": "regulatory",
-      "publishedAt": "2026-09-12T22:44:44.000Z"
     },
     {
       "title": "Japanese, Korean banks see massive EPS upgrades while India lags: Jefferies",
