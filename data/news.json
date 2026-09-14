@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-13T21:15:39.986Z",
-  "articlesCount": 39,
+  "lastUpdated": "2026-09-14T05:53:36.920Z",
+  "articlesCount": 36,
   "sourcesOk": 5,
   "sourcesTotal": 9,
   "sourceStatus": [
@@ -13,7 +13,7 @@
     {
       "source": "Business Today",
       "status": "ok",
-      "articles": 19,
+      "articles": 16,
       "feedUsed": "https://www.businesstoday.in/rssfeeds/?id=225346"
     },
     {
@@ -57,6 +57,62 @@
   ],
   "articles": [
     {
+      "title": "Oil prices jump over 2% as fresh Saudi, Strait of Hormuz strikes fuel supply fears",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/oil-prices-jump-over-2-brent-tops-107-as-fresh-saudi-strait-of-hormuz-strikes-fuel-supply-fears/articleshow/134230995.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-14T02:34:47.000Z"
+    },
+    {
+      "title": "Petrol powers half of new cars if hybrids not counted",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/petrol-powers-half-of-new-cars-if-hybrids-not-counted/articleshow/134229829.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-14T00:27:41.000Z"
+    },
+    {
+      "title": "FPIs withdraw 13,100 crore from equities in 2 weeks",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/fpis-withdraw-13100-crore-from-equities-in-2-weeks/articleshow/134229804.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-14T00:18:50.000Z"
+    },
+    {
+      "title": "Companies hunt for margin, pricing balance",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/copanies-hunt-for-margin-pricing-balance/articleshow/134229769.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-14T00:12:35.000Z"
+    },
+    {
+      "title": "RBI: Only disputed amount can be frozen under new norms",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/rbi-only-disputed-amt-can-be-frozen-under-new-norms/articleshow/134229725.cms",
+      "source": "Times of India Business",
+      "category": "regulatory",
+      "publishedAt": "2026-09-14T00:03:08.000Z"
+    },
+    {
+      "title": "From policy to code: DPDP creates new privacy roles",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/from-policy-to-code-dpdp-creates-new-privacy-roles/articleshow/134229661.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-13T23:53:15.000Z"
+    },
+    {
+      "title": "IPO set to unlock value in group cos holding Tata Sons stake",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/ipo-set-to-unlock-value-in-group-cos-holding-tata-sons-stake/articleshow/134229591.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-13T23:34:10.000Z"
+    },
+    {
       "title": "Oil infra hit by Ukraine, Russia gets 70% of its fuel from India",
       "summary": "August marked a milestone for Russia as it imported record levels of oil products, with Indian exports accounting for nearly seventy percent. The gasoline supplied by India was produced from Russian crude at a shared refinery.",
       "url": "https://timesofindia.indiatimes.com/business/international-business/oil-infra-hit-by-ukraine-russia-gets-70-of-its-fuel-from-india/articleshow/134223885.cms",
@@ -73,7 +129,7 @@
       "publishedAt": "2026-09-13T16:28:39.000Z"
     },
     {
-      "title": "Stock market holiday: Are NSE, BSE closed for trading on Ganesh Chaturthi?",
+      "title": "Stock market today: Are NSE, BSE closed for trading on Ganesh Chaturthi?",
       "summary": "On September 14, stock markets will halt trading in observance of Ganesh Chaturthi. While equity derivatives will remain suspended for the day, the commodity market will only partially close during the morning session. Trading will pick back up in the evening session.",
       "url": "https://timesofindia.indiatimes.com/business/india-business/stock-market-holiday-are-nse-bse-closed-for-trading-on-ganesh-chaturthi/articleshow/134207678.cms",
       "source": "Times of India Business",
@@ -225,14 +281,6 @@
       "publishedAt": "2026-09-12T22:44:44.000Z"
     },
     {
-      "title": "Sebi for changes to CAS timing, derivatives settlement prices",
-      "summary": "Sebi has put forth new proposals aimed at modifying the Closing Auction Session timings and derivatives pricing. Following the recent launch of the session, traders have noted an uptick in market volatility.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/sebi-for-changes-to-cas-timing-derivatives-settlement-prices/articleshow/134159679.cms",
-      "source": "Times of India Business",
-      "category": "regulatory",
-      "publishedAt": "2026-09-12T21:57:55.000Z"
-    },
-    {
       "title": "Japanese, Korean banks see massive EPS upgrades while India lags: Jefferies",
       "summary": "Jefferies noted FY27 consensus earnings-per-share (EPS) estimates for Japanese financials rose 19% and those for Korean financials increased 18% between December 2025 and September 2026, compared with just 1% for India.",
       "url": "https://www.businesstoday.in/latest/economy/story/japanese-korean-banks-see-massive-eps-upgrades-while-india-lags-jefferies-555073-2026-09-13?utm_source=rssfeed",
@@ -247,22 +295,6 @@
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-09-12T16:11:54.000Z"
-    },
-    {
-      "title": "Brics nations to have a common currency? Here’s what MEA said",
-      "summary": "Brics nations are discussing local currency trade settlements to reduce transaction costs. There is currently no proposal for a common Brics currency among member states. This initiative aims to complement existing global payment systems and improve trade efficiency.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/india-rules-out-brics-currency-proposal-backs-local-currency-trade-settlements/articleshow/134138086.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-12T14:56:03.000Z"
-    },
-    {
-      "title": "Canada 'wants to make a deal very badly,' says Donald Trump",
-      "summary": "President Trump stated Canada desires a trade deal soon and wants farmers treated better. He also expressed a wish for Ireland to be unified eventually. Trump met with Irish Prime Minister Micheal Martin and President Catherine Connolly.",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/canada-wants-to-make-a-deal-very-badly-says-donald-trump/articleshow/134137438.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-12T14:43:06.000Z"
     },
     {
       "title": "Oil shock meets bond-market stress: Why 2026 is starting to resemble 2008 — but for different reasons",
@@ -305,68 +337,12 @@
       "publishedAt": "2026-09-12T12:09:50.000Z"
     },
     {
-      "title": "Zomato introduces additional fee for cash-on-delivery orders",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/zomato-introduces-additional-fee-for-cash-on-delivery-orders/articleshow/134124148.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-12T10:29:48.000Z"
-    },
-    {
-      "title": "Data centre boom: India’s infrastructure opportunity could hit $90 billion",
-      "summary": "India's data centre industry is poised for a substantial $90 billion opportunity by FY35, catalyzed by rising demand for construction, cooling, and power infrastructure. The surge in artificial intelligence will further heighten energy and cooling requirements.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/data-centre-boom-indias-infrastructure-opportunity-could-hit-90-billion/articleshow/134123769.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-12T10:23:31.000Z"
-    },
-    {
       "title": "‘Global South must become a global decision-maker’: PM Modi at BRICS Summit with Xi, Putin",
       "summary": "PM Narendra Modi called for a greater role for the Global South in global decision-making as he opened the BRICS Summit in New Delhi in the presence of Chinese President Xi Jinping and Russian President Vladimir Putin.",
       "url": "https://www.businesstoday.in/latest/economy/story/global-south-must-become-a-global-decision-maker-pm-modi-at-brics-summit-with-xi-putin-555130-2026-09-12?utm_source=rssfeed",
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-09-12T10:23:11.000Z"
-    },
-    {
-      "title": "CAS closing price under review: Sebi proposes 2 options for expiry settlement",
-      "summary": "The Securities and Exchange Board of India (Sebi) is actively exploring modifications to how derivative settlement prices are calculated. Two alternative methods are currently up for review, inviting stakeholder feedback.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/cas-closing-price-under-review-sebi-proposes-2-options-for-expiry-settlement/articleshow/134122804.cms",
-      "source": "Times of India Business",
-      "category": "regulatory",
-      "publishedAt": "2026-09-12T09:55:49.000Z"
-    },
-    {
-      "title": "Minor had Rs 1.17 crore interest income, father faced Rs 12.83 lakh penalty; what ITAT did",
-      "summary": "The ruling arose from the tax dispute involving a man in New Delhi. He filed his income tax return on November 4, 2022, reporting total income of Rs 8.43 crore. The case was subsequently reopened by the Income Tax Assessing Officer (AO) at Jhandewalan on March 22, 2025.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/minor-child-had-rs-1-17-crore-interest-income-father-faced-rs-12-83-lakh-penalty-itat-delhi-cancels-it-rules-tax-rate-dispute-isnt-under-reporting/articleshow/134076542.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-12T08:36:52.000Z"
-    },
-    {
-      "title": "SP Group chairman Shapoor Mistry seeks ₹25,000 crore from Tata Sons over next two years: Report",
-      "summary": "Shapoor Mistry had been in talks with Tata Sons chairman N Chandrasekaran and Noel Tata on the stake monetisation until July.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/sp-group-chairman-shapoor-mistry-seeks-rs-25000-crore-from-tata-sons-over-next-two-years-report-555054-2026-09-12?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-12T04:29:41.000Z"
-    },
-    {
-      "title": "Apple iPhone Duo: No Face ID, hidden camera and more features you need to know",
-      "summary": "Apple iPhone Duo brings a ₹2.99 lakh foldable design with Touch ID instead of Face ID, eSIM-only support, split-screen iOS 27 and a hidden under-display selfie camera.",
-      "url": "https://www.businesstoday.in/latest/photo/apple-iphone-duo-no-face-id-hidden-camera-and-more-features-you-need-to-know-554899-2026-09-12?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-12T00:40:02.000Z"
-    },
-    {
-      "title": "Unified BRICS payment system is achievable, but trust is key hurdle: BRICS Business Council chair",
-      "summary": "Ziaad Suleiman of the BRICS Business Council said a unified payment system for the 11-member grouping is achievable, but countries must first establish trust, data-security safeguards and an appropriate regulatory framework.",
-      "url": "https://www.businesstoday.in/latest/economy/story/unified-brics-payment-system-is-achievable-but-trust-is-key-hurdle-brics-business-council-chair-555038-2026-09-12?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "regulatory",
-      "publishedAt": "2026-09-12T00:30:06.000Z"
     }
   ]
 }
