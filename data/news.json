@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T17:31:18.139Z",
+  "lastUpdated": "2026-09-15T21:56:54.888Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,22 @@
     }
   ],
   "articles": [
+    {
+      "title": "FCNR(B) deposits need less liquidity buffer: How LCR rules could improve bank margins",
+      "summary": "YES Securities says FCNR(B) deposits collected under the recent swap window are treated more like retail deposits for calculating the Liquidity Coverage Ratio (LCR).",
+      "url": "https://www.businesstoday.in/latest/economy/story/fcnrb-deposits-need-less-liquidity-buffer-how-lcr-rules-could-improve-bank-margins-555642-2026-09-16?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-15T20:05:02.000Z"
+    },
+    {
+      "title": "'Important step': RBI backs new UPI charges, says all transactions remain free for users",
+      "summary": "'It will help UPI in continuing to scale, innovate and serve consumers and businesses across the country,' says RBI",
+      "url": "https://www.businesstoday.in/latest/economy/story/important-step-rbi-backs-new-upi-charges-says-all-transactions-remain-free-for-users-555744-2026-09-15?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "regulatory",
+      "publishedAt": "2026-09-15T17:41:57.000Z"
+    },
     {
       "title": "India’s exports to US, China surge in August amid stronger global trade",
       "summary": "India's merchandise exports to the US and China saw significant growth in August. Shipments to the US increased by over twenty-one percent while China saw a fifty-two percent rise. Overall exports climbed by more than twenty-six percent, driven by key sectors.",
@@ -257,28 +273,12 @@
       "publishedAt": "2026-09-15T08:35:31.000Z"
     },
     {
-      "title": "India needs $100 bn in annual FDI: Amitabh Kant lays out reforms to win global investment race",
-      "summary": "Amitabh Kant said that India needs to move beyond short-term capital flows and focus on stable, long-term foreign investment.",
-      "url": "https://www.businesstoday.in/latest/economy/story/india-needs-100-bn-in-annual-fdi-amitabh-kant-lays-out-reforms-to-win-global-investment-race-555558-2026-09-15?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-15T07:41:04.000Z"
-    },
-    {
       "title": "Gold price prediction today: Will bearish bias continue? Check outlook for September 15, 2026 week",
       "summary": "Gold remains under corrective pressure after the sharp rejection from the recent Rs 164,000–166,000 zone, with prices currently trading near Rs 151,000.",
       "url": "https://timesofindia.indiatimes.com/business/india-business/gold-price-prediction-today-what-is-the-gold-rate-outlook-for-september-15-2026-week-should-you-buy-or-sell-mcx-gold-us-iran-war-middle-east/articleshow/134253863.cms",
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-09-15T06:16:50.000Z"
-    },
-    {
-      "title": "India’s dependence on Russian crude set to rise after a steep drop in August",
-      "summary": "A bigger risk for India is not only the physical availability of crude, but the rising landed cost. Higher crude prices, freight, insurance, and longer voyages all increase the delivered cost of barrels",
-      "url": "https://www.businesstoday.in/latest/economy/story/indias-dependence-on-russian-crude-set-to-rise-after-a-steep-drop-in-august-555524-2026-09-15?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "insurance",
-      "publishedAt": "2026-09-15T06:10:05.000Z"
     },
     {
       "title": "Real estate businessman lost Rs 34.21 lakh in F&O, got a notice; what ITAT did",
