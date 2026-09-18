@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-18T16:58:34.234Z",
+  "lastUpdated": "2026-09-18T21:27:31.880Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,22 @@
     }
   ],
   "articles": [
+    {
+      "title": "Countries with the highest take-home pay: Switzerland tops global ranking, Check full list here",
+      "summary": "The analysis compares average gross monthly salaries with estimated deductions and calculates the amount workers are left with after taxes and employee contributions.",
+      "url": "https://www.businesstoday.in/latest/world/story/countries-with-the-highest-take-home-pay-switzerland-tops-global-ranking-check-full-list-here-556580-2026-09-19?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-18T20:30:04.000Z"
+    },
+    {
+      "title": "Sugar retail prices down 10% ahead of festive season, govt eases stock cap",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/sugar-retail-prices-down-10-ahead-of-festive-season-govt-eases-stock-cap/articleshow/134343638.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-18T20:01:05.000Z"
+    },
     {
       "title": "NSE IPO subscribed 1.16 times on Day 2 led by non-institutional investors, QIBs",
       "summary": "The Rs 22,569-crore IPO has become India’s second-largest public issue, behind Hyundai Motor India’s Rs 27,870-crore offering in 2024. It has also moved past LIC’s Rs 21,000-crore IPO of 2022, but remains smaller than Hyundai Motor India’s record issue.",
@@ -359,22 +375,6 @@
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-09-18T00:40:02.000Z"
-    },
-    {
-      "title": "Chandra needs majority support from Tata Trusts' nominees: Ex-CJI",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/chandra-needs-majority-support-from-tata-trusts-nominees-ex-cji/articleshow/134323468.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-18T00:32:17.000Z"
-    },
-    {
-      "title": "MrBeast's biggest video arrives Saturday: $10 Million budget is public, but the actual concept is still under wraps",
-      "summary": "MrBeast says his next video cost around $10 million, took years and consumed over 1,000 hours of his time. The upload is scheduled for September 19, but its subject and format remain secret.",
-      "url": "https://www.businesstoday.in/latest/trends/photo/mrbeasts-biggest-video-arrives-saturday-10-million-budget-is-public-but-the-actual-concept-is-still-under-wraps-556261-2026-09-18?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "regulatory",
-      "publishedAt": "2026-09-18T00:30:05.000Z"
     }
   ]
 }
