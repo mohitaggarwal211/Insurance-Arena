@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-18T05:36:13.126Z",
+  "lastUpdated": "2026-09-18T06:05:02.832Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,22 @@
     }
   ],
   "articles": [
+    {
+      "title": "Rupee rebounds 16 paise to 95.73 from over two-month low on crude relief",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/rupee-rebounds-16-paise-to-95-73-from-over-two-month-low-on-crude-relief/articleshow/134326956.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-18T05:36:37.000Z"
+    },
+    {
+      "title": "‘Welcome the decision wholeheartedly’: Shapoorji Pallonji on RBI’s decision on Tata Sons listing; full text",
+      "summary": "Tata Sons listing: Chairman of SP Group, Shapoorji Pallonji Mistry said that the RBI decision should not be seen as the triumph of one stakeholder over another",
+      "url": "https://www.businesstoday.in/latest/corporate/story/welcome-the-decision-wholeheartedly-shapoorji-pallonji-on-rbis-decision-on-tata-sons-listing-full-text-556360-2026-09-18?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "regulatory",
+      "publishedAt": "2026-09-18T05:32:06.000Z"
+    },
     {
       "title": "NSE IPO Day 2: After 43% subscription on first day, GMP stands at 8%; what brokerages are saying",
       "summary": "NSE IPO: On the first day, the issue was subscribed 43% overall, with bids received against the 8.86 crore shares on offer. Retail investors subscribed to 44% of the 4.41 crore shares reserved for them.",
@@ -337,14 +353,6 @@
       "publishedAt": "2026-09-17T14:17:35.000Z"
     },
     {
-      "title": "Tata Sons boardroom war: How N. Chandrasekaran's vote on his own reappointment was accepted",
-      "summary": "The Tata Sons board’s decision to revisit N Chandrasekaran’s reappointment has triggered a fresh dispute with the Tata Trusts, with the two sides taking opposing positions on the validity of the resolution.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/tata-sons-boardroom-war-how-n-chandrasekarans-vote-on-his-own-reappointment-was-accepted-556271-2026-09-17?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-17T13:34:10.000Z"
-    },
-    {
       "title": "NSE IPO subscription status: National Stock Exchange’s offer gets subscribed 42% on its first day",
       "summary": "IPO subscriptions often gain pace in the later stages of the bidding period. The NSE issue will remain open until September 21, with the listing scheduled for September 24.",
       "url": "https://timesofindia.indiatimes.com/business/india-business/nse-ipo-subscription-status-national-stock-exchanges-offer-gets-subscribed-42-on-its-first-day/articleshow/134311873.cms",
@@ -367,14 +375,6 @@
       "source": "Times of India Business",
       "category": "regulatory",
       "publishedAt": "2026-09-17T11:19:42.000Z"
-    },
-    {
-      "title": "Fortis moves Supreme Court against Delhi High Court order",
-      "summary": "Fortis Healthcare has appealed to the Supreme Court against a recent Delhi High Court order. The order mandated a forensic audit of Fortis's dealings with IHH Healthcare and RHT Health Trust.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/fortis-moves-supreme-court-against-delhi-high-court-order/articleshow/134309495.cms",
-      "source": "Times of India Business",
-      "category": "insurance",
-      "publishedAt": "2026-09-17T10:57:24.000Z"
     }
   ]
 }
