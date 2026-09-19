@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T13:57:30.600Z",
+  "lastUpdated": "2026-09-19T16:17:28.240Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,46 @@
     }
   ],
   "articles": [
+    {
+      "title": "LPG Aadhaar rule from Oct 1: Authentication mandatory for these refills",
+      "summary": "Consumers who have not undergone BAA will not be stopped from receiving LPG cylinders. However, those who choose not to complete the authentication will have to pay the prevailing market price and will not receive the subsidy.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/lpg-aadhaar-rule-from-october-1-authentication-mandatory-for-subsidised-gas-refills-how-to-complete-process-check-steps/articleshow/134356757.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-19T16:01:06.000Z"
+    },
+    {
+      "title": "UPI MDR: Can Rs 6,000 be split into three Rs 2,000 payments? No daily cap",
+      "summary": "The NPCI framework and the FAQs issued with it do not stipulate that multiple payments relating to a single bill must be clubbed together. Such a restriction, if in place, could prevent businesses from breaking up larger payments into multiple transactions of Rs 2,000 or less.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/upi-mdr-is-coming-can-a-rs-6000-bill-be-split-into-three-rs-2000-payments-to-avoid-charges-for-now-npci-has-no-daily-cap/articleshow/134356384.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-19T15:30:36.000Z"
+    },
+    {
+      "title": "Aadhaar authentication mandatory for subsidised LPG refills from October 1: Check rules",
+      "summary": "Biometric Aadhaar Authentication will be mandatory from October 1, 2026, for domestic LPG consumers seeking refills at the regulated price with applicable subsidy.",
+      "url": "https://www.businesstoday.in/india/story/aadhaar-authentication-mandatory-for-subsidised-lpg-refills-from-october-1-check-rules-556646-2026-09-19?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-19T14:51:00.000Z"
+    },
+    {
+      "title": "Aramco stops crude supplies to India; replacement barrels costlier as oil tops $100",
+      "summary": "The pipeline was shut late last week after it was allegedly targeted by drones. It had become Saudi Arabia’s main alternative route for transporting crude after the maritime chokepoint, the Strait of Hormuz, was disrupted.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/saudi-aramco-stops-crude-supplies-to-indian-refiners-after-pipeline-attack-replacement-barrels-available-but-oil-is-at-over-100-and-freight-costs-are-set-to-rise/articleshow/134356048.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-19T14:49:37.000Z"
+    },
+    {
+      "title": "Tata Steel seeks fresh UK government funding as Port Talbot project faces delays",
+      "summary": "Tata Steel approached the Department for Business, Innovation and Science in recent weeks to discuss additional government support, according to the report.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/tata-steel-seeks-fresh-uk-government-funding-as-port-talbot-project-faces-delays-556642-2026-09-19?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-19T14:03:45.000Z"
+    },
     {
       "title": "How Vande Bharat Express marked a tech leap for railways after Rajdhani & Shatabdi. Next stop: Bullet trains",
       "summary": "Fifty years after the first Rajdhani Express was launched, and over 30 years after the Shatabdi, came the Vande Bharat Express - a technological leap that has changed modern day travel on Indian Railways.",
@@ -335,46 +375,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-09-18T13:43:45.000Z"
-    },
-    {
-      "title": "Spending ₹36,999 or ₹49,999 on a Redmi phone? Compare the Note 17 Pro and Pro Max before buying in India",
-      "summary": "Redmi Note 17 Pro starts at ₹36,999 and Pro Max at ₹49,999. Compare their 9,000mAh and 10,000mAh batteries, processors, storage, cameras, displays and software support before buying.",
-      "url": "https://www.businesstoday.in/latest/trends/photo/spending-rs36999-or-rs49999-on-a-redmi-phone-compare-the-note-17-pro-and-pro-max-before-buying-in-india-556547-2026-09-18?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-18T13:07:47.000Z"
-    },
-    {
-      "title": "Earning between ₹15,000 and ₹25,000? The new EPF rule could change your payslip and retirement savings",
-      "summary": "The EPF wage ceiling is now ₹25,000. See who may enter mandatory coverage, why deductions could rise by ₹1,200, how take-home pay may change and which benefit claims remain unconfirmed.",
-      "url": "https://www.businesstoday.in/latest/trends/photo/earning-between-rs15000-and-rs25000-the-new-epf-rule-could-change-your-payslip-and-retirement-savings-556539-2026-09-18?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-18T12:45:43.000Z"
-    },
-    {
-      "title": "RBI has record forex reserves, but why is rupee still not out of the woods?",
-      "summary": "The currency is now hovering back to its two-month lows. While the RBI is intervening to prevent major volatility, the fact is the rupee is still facing immense pressure, and experts believe the currency is unlikely to appreciate much any time soon.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/rbi-has-record-forex-reserves-but-why-is-rupee-still-not-out-of-the-woods/articleshow/134333283.cms",
-      "source": "Times of India Business",
-      "category": "regulatory",
-      "publishedAt": "2026-09-18T11:22:01.000Z"
-    },
-    {
-      "title": "India’s first hydrogen train may be extended to Delhi due to low traffic",
-      "summary": "India’s first indigenous hydrogen-powered train was launched on July 17, marking a step towards the use of next-generation clean and sustainable transportation technology.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/in-july-2026-indias-first-hydrogen-train-was-launched-but-only-40-60-ride-it-despite-2600-capacity-two-months-later-railways-plans-to-extend-it-to-delhi/articleshow/134329608.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-18T10:44:00.000Z"
-    },
-    {
-      "title": "NSE’s mega IPO crosses full subscription mark with strong institutional demand",
-      "summary": "The National Stock Exchange of India's IPO saw full subscription on its second day. Strong demand from institutional investors drove the significant subscription levels. Qualified Institutional Buyers and non-institutional investors showed robust interest in the offering.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/nses-mega-rs-22569-crore-ipo-crosses-full-subscription-mark-with-strong-institutional-demand/articleshow/134331709.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-18T10:18:38.000Z"
     }
   ]
 }
