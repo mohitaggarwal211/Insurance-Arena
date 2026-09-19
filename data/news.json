@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-19T16:17:28.240Z",
-  "articlesCount": 40,
+  "lastUpdated": "2026-09-19T21:19:48.450Z",
+  "articlesCount": 39,
   "sourcesOk": 5,
   "sourcesTotal": 9,
   "sourceStatus": [
@@ -41,7 +41,7 @@
     {
       "source": "Times of India Business",
       "status": "ok",
-      "articles": 20,
+      "articles": 19,
       "feedUsed": "https://timesofindia.indiatimes.com/rssfeeds/1898055.cms"
     },
     {
@@ -57,12 +57,44 @@
   ],
   "articles": [
     {
+      "title": "From 18% to 100%: How the new US law changes the tariff risk for India",
+      "summary": "The significance for India lies in the gap between the 18% tariff rate referred to in an earlier February 6 joint statement and the new law’s provision allowing tariffs of up to 100%.",
+      "url": "https://www.businesstoday.in/latest/economy/story/from-18-to-100-how-the-new-us-law-changes-the-tariff-risk-for-india-556641-2026-09-20?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-19T20:05:01.000Z"
+    },
+    {
+      "title": "States need to improve project preparation, boost private investment, says CEA Nageswaran",
+      "summary": "CEA V Anantha Nageswaran has called on states to boost capital expenditure, improve project preparation and create conditions that attract private investment. The push comes as India seeks to mobilise resources and accelerate development towards its Viksit Bharat 2047 goal.",
+      "url": "https://www.businesstoday.in/latest/economy/story/states-need-to-improve-project-preparation-boost-private-investment-says-cea-nageswaran-556658-2026-09-19?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-19T17:16:22.000Z"
+    },
+    {
+      "title": "Air India AI171 crash: Pilots seek detailed probe into Boeing 787 electrical systems",
+      "summary": "In a letter dated September 18, the pilots’ body said a detailed examination of the aircraft’s electrical and electronically controlled systems should be an important part of the ongoing probe.",
+      "url": "https://www.businesstoday.in/india/story/air-india-ai171-crash-pilots-seek-detailed-probe-into-boeing-787-electrical-systems-556656-2026-09-19?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-19T17:04:17.000Z"
+    },
+    {
       "title": "LPG Aadhaar rule from Oct 1: Authentication mandatory for these refills",
       "summary": "Consumers who have not undergone BAA will not be stopped from receiving LPG cylinders. However, those who choose not to complete the authentication will have to pay the prevailing market price and will not receive the subsidy.",
       "url": "https://timesofindia.indiatimes.com/business/india-business/lpg-aadhaar-rule-from-october-1-authentication-mandatory-for-subsidised-gas-refills-how-to-complete-process-check-steps/articleshow/134356757.cms",
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-09-19T16:01:06.000Z"
+    },
+    {
+      "title": "Aastha Spintex advances 1.35 MW solar project at Falcon Yarns facility",
+      "summary": "Solar project moves into on-site execution as company works to reduce energy costs at its expanded manufacturing base",
+      "url": "https://www.businesstoday.in/latest/corporate/story/aastha-spintex-advances-1-35-mw-solar-project-at-falcon-yarns-facility-556649-2026-09-19?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-19T15:59:22.000Z"
     },
     {
       "title": "UPI MDR: Can Rs 6,000 be split into three Rs 2,000 payments? No daily cap",
@@ -305,14 +337,6 @@
       "publishedAt": "2026-09-18T22:15:54.000Z"
     },
     {
-      "title": "Countries with the highest take-home pay: Switzerland tops global ranking, Check full list here",
-      "summary": "The analysis compares average gross monthly salaries with estimated deductions and calculates the amount workers are left with after taxes and employee contributions.",
-      "url": "https://www.businesstoday.in/latest/world/story/countries-with-the-highest-take-home-pay-switzerland-tops-global-ranking-check-full-list-here-556580-2026-09-19?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-18T20:30:04.000Z"
-    },
-    {
       "title": "Sugar retail prices down 10% ahead of festive season, govt eases stock cap",
       "summary": "",
       "url": "https://timesofindia.indiatimes.com/business/india-business/sugar-retail-prices-down-10-ahead-of-festive-season-govt-eases-stock-cap/articleshow/134343638.cms",
@@ -329,22 +353,6 @@
       "publishedAt": "2026-09-18T15:45:42.000Z"
     },
     {
-      "title": "Air India's incoming CEO weighs merging budget arm AI Express to rein in swelling costs: Report",
-      "summary": "At Air India, Gebremariam faces an array of external pressures, including the ongoing closure of Pakistani airspace to Indian carriers and lingering regional conflicts in the Middle East that have inflated fuel overheads and disrupted international routing.",
-      "url": "https://www.businesstoday.in/india/story/air-indias-incoming-ceo-weighs-merging-budget-arm-ai-express-to-rein-in-swelling-costs-report-556574-2026-09-18?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "regulatory",
-      "publishedAt": "2026-09-18T15:31:54.000Z"
-    },
-    {
-      "title": "Tata Electronics partners with Japanese, Malaysian firms to boost semiconductor manufacturing in India",
-      "summary": "The partnerships span the semiconductor supply chain, from high-purity chemicals and materials to logistics, equipment installation, packaging components and engineering capabilities",
-      "url": "https://www.businesstoday.in/latest/corporate/story/tata-electronics-partners-with-japanese-malaysian-firms-to-boost-semiconductor-manufacturing-in-india-556556-2026-09-18?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-18T14:51:55.000Z"
-    },
-    {
       "title": "He wrongly showed Rs 9.6 lakh EPF interest in ITR, taxman added it; ITAT gives full relief",
       "summary": "The tribunal found that the addition could not stand in the absence of evidence that the taxpayer had actually received the amount from the Employees’ Provident Fund Organisation (EPFO), withdrawn it from his EPF account or received any corresponding credit in his bank account.",
       "url": "https://timesofindia.indiatimes.com/business/india-business/rs-9-6-lakh-epf-interest-mistakenly-shown-by-him-in-itr-but-taxman-added-it-to-income-itat-mumbai-orders-full-relief/articleshow/134337856.cms",
@@ -359,22 +367,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-09-18T14:30:31.000Z"
-    },
-    {
-      "title": "Tata Electronics, L&T Semiconductor team up to expand India’s semiconductor manufacturing",
-      "summary": "Under the partnership, the two companies will explore chip fabrication and packaging opportunities for LTSCT’s existing and upcoming products using Tata Electronics’ range of fab process technologies and packaging solutions",
-      "url": "https://www.businesstoday.in/latest/corporate/story/tata-electronics-lt-semiconductor-team-up-to-expand-indias-semiconductor-manufacturing-556553-2026-09-18?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-18T13:53:00.000Z"
-    },
-    {
-      "title": "The UPI fee is two rupees. Your fund fee is two thousand",
-      "summary": "One honest caveat. Index funds have the least room to absorb anything. UTI Nifty 50 Index, direct plan, charges 0.18 per cent a year. Some index funds charge as little as 0.05.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/the-upi-fee-is-two-rupees-your-fund-fee-is-two-thousand/articleshow/134337042.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-18T13:43:45.000Z"
     }
   ]
 }
