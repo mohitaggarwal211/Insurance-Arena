@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T05:49:04.279Z",
+  "lastUpdated": "2026-09-20T06:29:49.876Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,14 @@
     }
   ],
   "articles": [
+    {
+      "title": "Cough syrups still being given to very young children; red warning for under-4s proposed",
+      "summary": "The proposed changes include a visual showing school-age children on the packaging, intended to make it clear that the medicine is meant for older children rather than infants and toddlers.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/despite-a-2025-advisory-against-cough-syrups-for-very-young-children-prescribing-continued-india-now-weighs-a-red-warning-on-bottles-saying-they-should-not-be-used-in-children-under-4/articleshow/134363477.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-20T05:42:45.000Z"
+    },
     {
       "title": "China’s new AI economy: People are licensing their faces and earning up to ₹15 lakh",
       "summary": "Platforms such as ActID and New Claw allow users to register their faces after identity verification. Producers can then browse digital catalogues and search for faces based on age, gender and appearance, with categories including “girl-next-door”, “rugged” and “supermodel”.",
@@ -367,14 +375,6 @@
       "source": "Times of India Business",
       "category": "insurance",
       "publishedAt": "2026-09-18T15:45:42.000Z"
-    },
-    {
-      "title": "He wrongly showed Rs 9.6 lakh EPF interest in ITR, taxman added it; ITAT gives full relief",
-      "summary": "The tribunal found that the addition could not stand in the absence of evidence that the taxpayer had actually received the amount from the Employees’ Provident Fund Organisation (EPFO), withdrawn it from his EPF account or received any corresponding credit in his bank account.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/rs-9-6-lakh-epf-interest-mistakenly-shown-by-him-in-itr-but-taxman-added-it-to-income-itat-mumbai-orders-full-relief/articleshow/134337856.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-18T14:38:37.000Z"
     }
   ]
 }
