@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T12:03:48.365Z",
+  "lastUpdated": "2026-09-20T14:17:58.956Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -57,7 +57,15 @@
   ],
   "articles": [
     {
-      "title": "'Majority among two is two': Tata Trusts says Chandrasekaran reappointment failed AoA condition, has no legal effect",
+      "title": "India on track for 6.5-7% real GDP growth this fiscal, earnings seen accelerating",
+      "summary": "India anticipates 6.5-7 percent real GDP growth this fiscal year. Bank credit expansion signals strong economic momentum and business activity. Domestic demand remains firm, evidenced by rising GST and power consumption.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/india-on-track-for-6-5-7-real-gdp-growth-this-fiscal-earnings-seen-accelerating-jefferies/articleshow/134367899.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-20T11:56:04.000Z"
+    },
+    {
+      "title": "'Majority among two is two': Tata Trusts says Chandra's reappointment failed AoA condition, has no legal effect",
       "summary": "The affirmative support of Tata Trusts Nominee Directors was not given. The condition failed, and so did the resolution, says Tata Trusts",
       "url": "https://www.businesstoday.in/latest/economy/story/majority-among-two-is-two-tata-trusts-says-chandrasekaran-reappointment-failed-aoa-condition-has-no-legal-effect-556696-2026-09-20?utm_source=rssfeed",
       "source": "Business Today",
@@ -367,14 +375,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-09-19T01:20:57.000Z"
-    },
-    {
-      "title": "Trump extends H-1B visa restrictions, including $100,000 payment requirement, for another year",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/trump-extends-h-1b-visa-restrictions-including-100000-payment-requirement-for-another-year/articleshow/134345979.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-19T00:18:39.000Z"
     }
   ]
 }
