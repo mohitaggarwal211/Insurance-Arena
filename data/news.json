@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-19T21:19:48.450Z",
-  "articlesCount": 39,
+  "lastUpdated": "2026-09-20T05:49:04.279Z",
+  "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
   "sourceStatus": [
@@ -41,7 +41,7 @@
     {
       "source": "Times of India Business",
       "status": "ok",
-      "articles": 19,
+      "articles": 20,
       "feedUsed": "https://timesofindia.indiatimes.com/rssfeeds/1898055.cms"
     },
     {
@@ -56,6 +56,70 @@
     }
   ],
   "articles": [
+    {
+      "title": "China’s new AI economy: People are licensing their faces and earning up to ₹15 lakh",
+      "summary": "Platforms such as ActID and New Claw allow users to register their faces after identity verification. Producers can then browse digital catalogues and search for faces based on age, gender and appearance, with categories including “girl-next-door”, “rugged” and “supermodel”.",
+      "url": "https://www.businesstoday.in/technology/story/chinas-new-ai-economy-people-are-licensing-their-faces-and-earning-up-to-rs15-lakh-556667-2026-09-20?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-20T05:24:31.000Z"
+    },
+    {
+      "title": "Builder gave homebuyer parking in 2008, society changed rules; here’s why court gave interim relief to resident",
+      "summary": "The Phase-1 society claimed that the area where the couple had been parking their car belonged to the society. The builder, however, took a different position, saying the space formed part of the open area of the building where it proposed to develop a recreation ground.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/homebuyer-got-parking-from-builder-in-2008-but-society-later-adopted-a-first-come-first-served-rule-maharashtra-court-protects-residents-space-until-ownership-dispute-is-decided/articleshow/134357547.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-20T03:31:58.000Z"
+    },
+    {
+      "title": "Quote of the Day by Ratan Tata: 'I've often felt that the Indian tiger has not been unleashed'",
+      "summary": "Tata believed that early-stage businesses succeed because of the drive and creativity of their creators. Ideas can pivot and change, but true passion and original thinking cannot be manufactured.",
+      "url": "https://www.businesstoday.in/india/story/quote-of-the-day-by-ratan-tata-ive-often-felt-that-the-indian-tiger-has-not-been-unleashed-556637-2026-09-20?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-20T02:00:04.000Z"
+    },
+    {
+      "title": "Life is a marathon, not a sprint, says Tata Sons’ Chandrasekaran",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/life-is-a-marathon-not-a-sprint-says-tata-sons-chandra/articleshow/134362667.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-20T01:34:46.000Z"
+    },
+    {
+      "title": "India’s hydrogen train may soon reach Delhi, opening a new chapter in clean rail travel",
+      "summary": "India’s hydrogen train could soon extend to Delhi as Railways explores a new route from Jind. Officials are weighing passenger demand, capacity, refuelling and operational challenges.",
+      "url": "https://www.businesstoday.in/latest/photo/indias-hydrogen-train-may-soon-reach-delhi-opening-a-new-chapter-in-clean-rail-travel-556463-2026-09-20?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-20T01:00:03.000Z"
+    },
+    {
+      "title": "TVS upgrades its premium bikes: New Apache and Ronin features revealed",
+      "summary": "TVS has updated its premium motorcycle range ahead of the festive season, adding new features and variants to Apache and Ronin models, with prices starting at ₹1.27 lakh.",
+      "url": "https://www.businesstoday.in/latest/photo/tvs-upgrades-its-premium-bikes-new-apache-and-ronin-features-revealed-556464-2026-09-20?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "insurance",
+      "publishedAt": "2026-09-20T00:45:02.000Z"
+    },
+    {
+      "title": "OpenAI’s new AI lawyer: Astra for Law could change how legal research gets done",
+      "summary": "OpenAI’s Astra for Law targets legal research and drafting by combining GPT-6 Astra with US legal documents, while firms and legal-tech companies explore specialised AI applications.",
+      "url": "https://www.businesstoday.in/latest/photo/openais-new-ai-lawyer-astra-for-law-could-change-how-legal-research-gets-done-556467-2026-09-20?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-20T00:30:05.000Z"
+    },
+    {
+      "title": "₹5 lakh crore profit, not loss? SBI Research’s case for FCNR(B) scheme explained",
+      "summary": "The FCNR(B) scheme mobilised $127 billion in less than three months, with SBI Research estimating significant potential benefits for banks from the resulting liquidity and credit creation.",
+      "url": "https://www.businesstoday.in/latest/economy/story/rs5-lakh-crore-profit-not-loss-sbi-researchs-case-for-fcnrb-scheme-explained-556640-2026-09-20?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-20T00:05:02.000Z"
+    },
     {
       "title": "From 18% to 100%: How the new US law changes the tariff risk for India",
       "summary": "The significance for India lies in the gap between the 18% tariff rate referred to in an earlier February 6 joint statement and the new law’s provision allowing tariffs of up to 100%.",
@@ -233,14 +297,6 @@
       "publishedAt": "2026-09-19T02:00:03.000Z"
     },
     {
-      "title": "New Mahindra Thar facelift teased: Expected lights, cabin upgrades and the price question buyers should watch",
-      "summary": "Mahindra will reveal the Thar facelift on September 22. Here is the one design change officially teased, the upgrades suggested by spy shots and what buyers must wait to confirm before booking.",
-      "url": "https://www.businesstoday.in/latest/trends/photo/new-mahindra-thar-facelift-teased-expected-lights-cabin-upgrades-and-the-price-question-buyers-should-watch-556544-2026-09-19?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-19T02:00:03.000Z"
-    },
-    {
       "title": "Direct tax kitty up 15.2% on faster corp tax growth",
       "summary": "",
       "url": "https://timesofindia.indiatimes.com/business/india-business/direct-tax-kitty-up-15-2-on-faster-corp-tax-growth/articleshow/134346415.cms",
@@ -265,44 +321,12 @@
       "publishedAt": "2026-09-19T01:36:03.000Z"
     },
     {
-      "title": "Delhi–Varanasi Sleeper Vande Bharat before Diwali? Check the proposed timetable and what Railways has not confirmed",
-      "summary": "A Delhi–Varanasi Sleeper Vande Bharat is reportedly planned before Diwali. Check its proposed four-station route, 7-hour-40-minute timings, coach layout and the details still unconfirmed.",
-      "url": "https://www.businesstoday.in/latest/trends/photo/delhi-varanasi-sleeper-vande-bharat-before-diwali-check-the-proposed-timetable-and-what-railways-has-not-confirmed-556542-2026-09-19?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-19T01:30:05.000Z"
-    },
-    {
       "title": "Anthropic quietly sets up biology lab for AI drug project",
       "summary": "",
       "url": "https://timesofindia.indiatimes.com/world/us/anthropic-quietly-sets-up-biology-lab-for-ai-drug-project/articleshow/134346200.cms",
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-09-19T01:20:57.000Z"
-    },
-    {
-      "title": "Mumbai’s 100-year-old Taj hotel makes world’s top 50, jumps 8 places",
-      "summary": "Mumbai’s iconic Taj Mahal Palace has entered the world’s top 50 hotels at No. 30, rising eight places from last year. The 1903 landmark remains a global luxury icon.",
-      "url": "https://www.businesstoday.in/latest/photo/mumbais-100-year-old-taj-hotel-makes-worlds-top-50-jumps-8-places-556460-2026-09-19?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-19T00:40:02.000Z"
-    },
-    {
-      "title": "Tata Sierra Legend Series starts at ₹11.99 lakh: What Indian SUV buyers get in each new L variant in India",
-      "summary": "Tata Sierra Legend Series starts at ₹11.99 lakh across five trims. This gallery compares prices, cabin upgrades, comfort features and powertrains to show what each step adds in India.",
-      "url": "https://www.businesstoday.in/latest/trends/photo/tata-sierra-legend-series-starts-at-rs11-99-lakh-what-indian-suv-buyers-get-in-each-new-l-variant-in-india-556534-2026-09-19?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-19T00:30:06.000Z"
-    },
-    {
-      "title": "Asian Games 2026 begins in Japan: India’s stars, events and how to watch live",
-      "summary": "Asian Games 2026 begin in Japan with India aiming to build on its record 107-medal haul. Check key Indian stars, sports, dates, TV telecast and live streaming details.",
-      "url": "https://www.businesstoday.in/latest/photo/asian-games-2026-begins-in-japan-indias-stars-events-and-how-to-watch-live-556458-2026-09-19?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-19T00:30:06.000Z"
     },
     {
       "title": "Trump extends H-1B visa restrictions, including $100,000 payment requirement, for another year",
@@ -319,14 +343,6 @@
       "source": "Times of India Business",
       "category": "insurance",
       "publishedAt": "2026-09-18T23:50:58.000Z"
-    },
-    {
-      "title": "David-Victoria Beckham sell Miami penthouse for $25 million, make nearly $5 million profit",
-      "summary": "The Beckhams bought the residence in 2020, acquiring the full-floor penthouse in the Zaha Hadid-designed One Thousand Museum tower in downtown Miami. The residence occupies the 59th floor of the 62-storey property and spans approximately 9,200 square feet.",
-      "url": "https://www.businesstoday.in/latest/world/story/david-victoria-beckham-sell-miami-penthouse-for-25-million-make-nearly-5-million-profit-556548-2026-09-19?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-18T23:30:05.000Z"
     },
     {
       "title": "Trump signs Russia sanctions bill into law, gains authority to impose 100% tariff on India and China",
@@ -359,14 +375,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-09-18T14:38:37.000Z"
-    },
-    {
-      "title": "'No crude oil next month: Saudi Aramco to some European refiners after pipeline attack",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/no-crude-oil-next-month-saudi-aramco-tells-some-european-refiners-after-red-sea-pipeline-attack/articleshow/134337945.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-18T14:30:31.000Z"
     }
   ]
 }
