@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-22T15:06:04.950Z",
+  "lastUpdated": "2026-09-22T17:32:41.844Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,22 @@
     }
   ],
   "articles": [
+    {
+      "title": "Trump touts Venezuela oil deal, says it will drive down energy prices worldwide",
+      "summary": "US President Donald Trump announced a major oil deal with Venezuela. This agreement covers sixty-five billion barrels of oil and aims to lower global energy costs. The deal is expected to boost Venezuela's oil production significantly over time.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/unga-address-donald-trump-touts-venezuela-oil-deal-says-it-will-drive-down-energy-prices-worldwide/articleshow/134415730.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-22T15:49:27.000Z"
+    },
+    {
+      "title": "Tata Trusts vs Tata Sons: Abhishek Singhvi says shareholder rights cannot be ‘nullified’",
+      "summary": "Singhvi, a five-term Member of Parliament who also represented the Tata Group in its 2016 legal battle with Cyrus Mistry, said the central issue now is the relationship between Tata Trusts and Tata Sons.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/tata-trusts-vs-tata-sons-abhishek-singhvi-says-shareholder-rights-cannot-be-nullified-557145-2026-09-22?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-22T15:17:21.000Z"
+    },
     {
       "title": "Rs 1.79 lakh ITR, Rs 11.22 crore tax addition; ITAT gives chance if he plants 500 trees",
       "summary": "The Assessing Officer examined the taxpayer's financial transactions and identified substantial cash deposits, unsecured loans running into crores and agricultural income of Rs 3 lakh that was not backed by supporting evidence.",
@@ -337,14 +353,6 @@
       "publishedAt": "2026-09-22T01:00:03.000Z"
     },
     {
-      "title": "350 kmph B35: India’s bullet train plan now meets Japan’s next-gen E10",
-      "summary": "India is developing the 350 kmph B35 bullet train, while Japan advances its 320 kmph E10 Shinkansen. Here’s what B28, BTCS and the ₹2 lakh crore rail project mean.",
-      "url": "https://www.businesstoday.in/latest/photo/350-kmph-b35-indias-bullet-train-plan-now-meets-japans-next-gen-e10-556825-2026-09-22?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-22T00:45:02.000Z"
-    },
-    {
       "title": "GST rate rejig helps consumers upgrade",
       "summary": "",
       "url": "https://timesofindia.indiatimes.com/business/india-business/gst-rate-rejig-helps-consumers-upgrade/articleshow/134397833.cms",
@@ -367,14 +375,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-09-21T21:57:32.000Z"
-    },
-    {
-      "title": "New Zealand trade pact to take effect on Oct 20, to give duty-free access",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/new-zealand-trade-pact-to-take-effect-on-oct-20-to-give-duty-free-access/articleshow/134397576.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-21T20:59:48.000Z"
     }
   ]
 }
