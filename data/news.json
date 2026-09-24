@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-24T12:35:17.084Z",
+  "lastUpdated": "2026-09-24T15:21:33.900Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,70 @@
     }
   ],
   "articles": [
+    {
+      "title": "GST Council to take up proposal of MDR on UPI",
+      "summary": "Sources underline MDR is not a tax or cess levied by govt, to be used by payment ecosystem",
+      "url": "https://www.businesstoday.in/latest/economy/story/gst-council-to-take-up-proposal-of-mdr-on-upi-557686-2026-09-24?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-24T14:54:51.000Z"
+    },
+    {
+      "title": "Govt, IBA to work on mechanism to ensure UPI MDR isn't passed on to consumers",
+      "summary": "The discussions are aimed at ensuring that consumers do not end up bearing any additional cost following the introduction of MDR on specified UPI transactions, say sources",
+      "url": "https://www.businesstoday.in/latest/economy/story/govt-iba-to-work-on-mechanism-to-ensure-upi-mdr-isnt-passed-on-to-consumers-557680-2026-09-24?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-24T14:36:29.000Z"
+    },
+    {
+      "title": "Dubai-based Indian cancelled 2 flats, builder claims deductions; why MahaREAT ordered full refund",
+      "summary": "On July 1, 2026, the homebuyer won the matter before the MahaREAT. In its ruling, the tribunal directed the builder to refund the homebuyer Rs 48.73 lakh and Rs 66.56 lakh, along with interest at the State Bank of India's Marginal Cost of Lending Rate (MCLR) plus 2%.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/dubai-based-indian-bought-two-mumbai-flats-but-later-cancelled-them-after-delayed-possession-builder-sought-deductions-but-mahareat-orders-full-rs-1-15-crore-refund-plus-interest/articleshow/134464196.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-24T14:27:06.000Z"
+    },
+    {
+      "title": "Oil rises as Iran threat to widen war dims hopes of Strait of Hormuz deal",
+      "summary": "Brent crude futures rose more than 3% to above $106 a barrel before paring some gains as traders assessed higher oil flows from the region. Brent for November settlement was up 2% at $105.09 a barrel at 8:46 a.m. in New York, while West Texas Intermediate gained 1.7% to $93.71.",
+      "url": "https://www.businesstoday.in/latest/economy/story/oil-rises-as-iran-threat-to-widen-war-dims-hopes-of-strait-of-hormuz-deal-557670-2026-09-24?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-24T14:09:12.000Z"
+    },
+    {
+      "title": "Tata Sons rejects Noel Tata objections over N. Chandrasekaran reappointment",
+      "summary": "In a September 24 letter to Noel Tata, Tata Sons maintained that the board had followed the applicable legal and governance procedures while approving Chandrasekaran’s fresh five-year term.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/tata-sons-rejects-noel-tata-objections-over-n-chandrasekaran-reappointment-557662-2026-09-24?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-24T13:40:45.000Z"
+    },
+    {
+      "title": "UPI needs greater investment, resilience as ecosystem costs rise: NPCI CEO Dilip Asbe",
+      "summary": "NPCI MD and CEO Dilip Asbe has called for greater investment and resilience in the UPI ecosystem as operating costs and cybersecurity risks rise.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/upi-needs-greater-investment-resilience-as-ecosystem-costs-rise-npci-ceo-dilip-asbe-557654-2026-09-24?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-24T13:07:46.000Z"
+    },
+    {
+      "title": "Biggest risk is regulatory risk...: Nithin Kamath warns fintech valuations face rule-change risk after IRDAI commission proposals",
+      "summary": "IRDAI’s proposed changes to insurance commissions have put the spotlight on how regulatory decisions can reshape the economics of financial and fintech businesses.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/biggest-risk-is-regulatory-risk-nithin-kamath-warns-fintech-valuations-face-rule-change-risk-after-irdai-commission-proposals-557647-2026-09-24?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "regulatory",
+      "publishedAt": "2026-09-24T12:54:22.000Z"
+    },
+    {
+      "title": "Just 1.85%, yet NSE has best debut among India's five biggest IPOs",
+      "summary": "NSE made its debut as a listed company on the BSE, opening at ₹1,800 and closing at ₹1,818. The initial public offering was valued at ₹22,561.57 crore, making it the second-largest in Indian history. NSE's shares gained 1.85% on the first day despite a broader market decline.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/just-1-85-yet-nse-has-best-debut-among-indias-five-biggest-ipos/articleshow/134462301.cms",
+      "source": "Times of India Business",
+      "category": "insurance",
+      "publishedAt": "2026-09-24T12:44:09.000Z"
+    },
     {
       "title": "Only 1 in 10 Indian households has an AC: Why India’s appliance market has a long runway",
       "summary": "India’s consumer durables market has significant room to expand, with household penetration of key appliances still well below regional peers. The BCG-CII report identifies this gap as a major structural driver of demand through 2030.",
@@ -241,60 +305,12 @@
       "publishedAt": "2026-09-24T02:39:20.000Z"
     },
     {
-      "title": "Quote of the Day by Kunal Bahl: 'Entrepreneurship is a state of mind. You don’t need a big idea; you just need to start solving a problem'",
-      "summary": "Beyond building Snapdeal, Bahl has become an active investor and startup mentor. Through Titan Capital, he has backed several Indian startups, supporting founders across sectors including fintech, consumer technology",
-      "url": "https://www.businesstoday.in/india/story/quote-of-the-day-by-kunal-bahl-entrepreneurship-is-a-state-of-mind-you-dont-need-a-big-idea-you-just-need-to-start-solving-a-problem-557419-2026-09-24?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-24T02:00:03.000Z"
-    },
-    {
       "title": "NSE IPO: Stock lists at Rs 1,800 versus issue price of Rs 1,785",
       "summary": "NSE launched its initial public offering earlier this month, seeking to raise Rs 22,562 crore through a 12.64 crore-share offer for sale (OFS) by existing shareholders.",
       "url": "https://timesofindia.indiatimes.com/business/india-business/nse-ipo-listing-date-live-stock-price-debut-on-bse-gmp-national-stock-exchange-of-india-news/articleshow/134440416.cms",
       "source": "Times of India Business",
       "category": "insurance",
       "publishedAt": "2026-09-24T01:58:00.000Z"
-    },
-    {
-      "title": "Harmanpreet Kaur does what no T20 captain has done before, leaves Dhoni behind",
-      "summary": "Harmanpreet Kaur has broken MS Dhoni’s T20 record with 10 finals won as captain after leading India to Asian Games gold, becoming the first male or female captain to reach the mark.",
-      "url": "https://www.businesstoday.in/latest/photo/harmanpreet-kaur-does-what-no-t20-captain-has-done-before-leaves-dhoni-behind-557331-2026-09-24?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-24T01:20:02.000Z"
-    },
-    {
-      "title": "Honda's Bullet challenger is here, but the ₹5,000 booking is not the only twist",
-      "summary": "Honda has updated the CB350C with a ₹5,000 booking amount, 348.36cc engine and new Special Edition, adding fresh styling and modern features to its retro motorcycle range.",
-      "url": "https://www.businesstoday.in/latest/photo/hondas-bullet-challenger-is-here-but-the-rs5000-booking-is-not-the-only-twist-557320-2026-09-24?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-24T00:40:03.000Z"
-    },
-    {
-      "title": "BT Big Story: Is 66% = zero? The Tata Sons question on everyone’s minds",
-      "summary": "The Tata Sons battle is testing how far a board can go against the wishes of a controlling shareholder—and where the balance of power really lies between ownership and the boardroom",
-      "url": "https://www.businesstoday.in/latest/corporate/story/bt-big-story-is-66-zero-the-tata-sons-question-on-everyones-minds-557341-2026-09-24?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-24T00:30:04.000Z"
-    },
-    {
-      "title": "Diwali car rush: New models from Honda, Volvo, Tata and more could arrive soon",
-      "summary": "Diwali could bring several new car launches in India, with Honda, Volvo, Tata, Toyota, Audi, Hyundai and JSW preparing updated models, EVs, SUVs and a PHEV.",
-      "url": "https://www.businesstoday.in/latest/photo/diwali-car-rush-new-models-from-honda-volvo-tata-and-more-could-arrive-soon-557333-2026-09-24?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-24T00:30:04.000Z"
-    },
-    {
-      "title": "RBI repo rate hike on or off? S&P sees 5.5%, Fitch projects 5.75% in 2027",
-      "summary": "The prospect of an RBI repo rate hike has returned to focus as S&P Global Ratings and Fitch Ratings flag rising inflationary pressures, strong domestic demand and geopolitical risks.",
-      "url": "https://www.businesstoday.in/latest/economy/story/rbi-repo-rate-hike-on-or-off-sp-sees-5-5-fitch-projects-5-75-in-2027-557373-2026-09-24?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "regulatory",
-      "publishedAt": "2026-09-24T00:05:02.000Z"
     },
     {
       "title": "Airtel Money plans to list on LSE, looks to raise $800mn",
@@ -359,22 +375,6 @@
       "source": "Times of India Business",
       "category": "regulatory",
       "publishedAt": "2026-09-23T20:47:29.000Z"
-    },
-    {
-      "title": "Trump weighs 90-day diesel export ban as US fuel prices hit record high: Report",
-      "summary": "The Trump administration is contemplating a 90-day ban on US diesel exports to combat rising energy prices. This initiative comes as diesel prices have surged significantly amid international conflicts and supply disruptions.",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/trump-weighs-90-day-diesel-export-ban-as-us-fuel-prices-hit-record-high-report/articleshow/134443699.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-23T17:52:22.000Z"
-    },
-    {
-      "title": "Not an apartment, but an entire tower: Angel One founder buys it for Rs 711 crore",
-      "summary": "Dinesh Thakkar, founder and CMD of financial services and stockbroking company Angel One, will acquire an entire luxury residential tower in Mumbai's Juhu area from Embassy Developments for more than Rs 711 crore.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/angel-one-founder-dinesh-thakkar-buys-entire-63000-sq-ft-juhu-tower-for-rs-711-crore-74-3-million-deal-at-rs-1-13-lakh/sq-ft-sets-new-record-making-it-indias-costliest-known-single-home-purchase/articleshow/134440961.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-23T16:41:23.000Z"
     }
   ]
 }
