@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-25T12:36:35.468Z",
+  "lastUpdated": "2026-09-25T15:23:50.593Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,22 @@
     }
   ],
   "articles": [
+    {
+      "title": "Tata Sons boardroom dispute: Why Tata Trusts and the group are at odds",
+      "summary": "Tata Sons is facing a high-stakes governance dispute as Tata Trusts and the company’s board remain divided over N. Chandrasekaran’s reappointment and the proposed listing of the holding company.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/tata-sons-boardroom-dispute-why-tata-trusts-and-the-group-are-at-odds-557949-2026-09-25?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-25T13:34:03.000Z"
+    },
+    {
+      "title": "One-fourth of cars sold by Tata Motors Passenger Vehicles are now EVs",
+      "summary": "India’s biggest electric car maker has ramped up its EV capacity from 8,000 units a year ago to over 16,000 units currently.",
+      "url": "https://www.businesstoday.in/auto/story/one-fourth-of-cars-sold-by-tata-motors-passenger-vehicles-are-now-evs-557940-2026-09-25?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-25T13:04:50.000Z"
+    },
     {
       "title": "Govt denies five-day banking: Govt says no commitment; unions press strike from Sept 28",
       "summary": "",
@@ -311,22 +327,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-09-25T02:09:39.000Z"
-    },
-    {
-      "title": "Quote of the Day by Anand Mahindra: 'It is imperative for us to protect the flora and fauna around us'",
-      "summary": "The quote reflects on how material success and wealth alone cannot guarantee lasting happiness.",
-      "url": "https://www.businesstoday.in/india/story/quote-of-the-day-by-anand-mahindra-it-is-imperative-for-us-to-protect-the-flora-and-fauna-around-us-557695-2026-09-25?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-25T02:00:03.000Z"
-    },
-    {
-      "title": "10 months of new labour codes: What has changed for employees and employers?",
-      "summary": "Ten months into the rollout of India’s four labour codes, the workplace landscape is beginning to shift from legal reform to operational change.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/10-months-of-new-labour-codes-what-has-changed-for-employees-and-employers-557677-2026-09-25?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-25T01:20:03.000Z"
     },
     {
       "title": "Banks to deploy excess liquidity over next few months: RBI DG",
