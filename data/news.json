@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-25T05:55:41.856Z",
-  "articlesCount": 40,
+  "lastUpdated": "2026-09-25T06:14:02.452Z",
+  "articlesCount": 49,
   "sourcesOk": 5,
   "sourcesTotal": 9,
   "sourceStatus": [
@@ -13,8 +13,8 @@
     {
       "source": "Business Today",
       "status": "ok",
-      "articles": 20,
-      "feedUsed": "https://www.businesstoday.in/rssfeeds/?id=225346"
+      "articles": 30,
+      "feedUsed": "https://www.businesstoday.in/rss/markets"
     },
     {
       "source": "Zee Business",
@@ -57,6 +57,94 @@
   ],
   "articles": [
     {
+      "title": "What Will Define the Next Generation of Finance Leaders?",
+      "summary": "",
+      "url": "https://www.businesstoday.in/impact-feature/story/what-will-define-the-next-generation-of-finance-leaders-556564-2026-09-18?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-25T06:13:57.342Z"
+    },
+    {
+      "title": "How Tech Mahindra's Mohit Joshi turned around the company's performance while simultaneously driving growth",
+      "summary": "",
+      "url": "https://www.businesstoday.in/magazine/deep-dive/story/how-tech-mahindras-mohit-joshi-turned-around-the-companys-performance-while-simultaneously-driving-growth-555854-2026-09-16?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-25T06:13:57.341Z"
+    },
+    {
+      "title": "SBI Life, Max Fin, HDFC Life, LIC share price targets: IRDAI may need to revisit proposed cap, says Systematix",
+      "summary": "Systematix cited two key drivers: product mix, including term versus savings or ULIP versus annuity, and the mix of single-premium versus regular-premium flows.",
+      "url": "https://www.businesstoday.in/markets/stocks/story/sbi-life-max-fin-hdfc-life-lic-share-price-targets-irdai-may-need-to-revisit-proposed-cap-says-systematix-557757-2026-09-25?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "regulatory",
+      "publishedAt": "2026-09-25T05:38:23.000Z"
+    },
+    {
+      "title": "Turtlemint, PB Fintech, Home First Finance shares crack further, slump up to 20% in early trade",
+      "summary": "The stocks have come under pressure as investors assess the potential impact of the proposed insurance distribution reforms.",
+      "url": "https://www.businesstoday.in/markets/trending-stocks/story/turtlemint-pb-fintech-home-first-finance-shares-crack-further-slump-up-to-20-in-early-trade-557754-2026-09-25?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "insurance",
+      "publishedAt": "2026-09-25T05:30:29.000Z"
+    },
+    {
+      "title": "Sikkim landslide: Heavy rainfall triggers massive landslide; houses, connectivity damaged",
+      "summary": "Sikkim landslide: Local authorities have been asked to remain on high alert, closely monitor the situation and take all necessary steps to ensure the safety of residents.",
+      "url": "https://www.businesstoday.in/india/story/sikkim-landslide-heavy-rainfall-triggers-massive-landslide-houses-connectivity-damaged-557749-2026-09-25?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-25T05:26:53.000Z"
+    },
+    {
+      "title": "West Asia war: Iran proposes 7-day deadline to clear Strait of Hormuz, re-engage on nuclear talks",
+      "summary": "During this interim window, all hostilities would cease while Washington lifts its naval blockade of Iranian ports, releases over $12 billion in frozen Iranian financial assets, and issues oil sanction waivers.",
+      "url": "https://www.businesstoday.in/world/story/west-asia-war-iran-proposes-7-day-deadline-to-clear-strait-of-hormuz-re-engage-on-nuclear-talks-557750-2026-09-25?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-25T05:24:42.000Z"
+    },
+    {
+      "title": "Google wants to build AI data centres in space: What Project Suncatcher's satellite test means",
+      "summary": "Google is set to launch a prototype satellite next week as part of Project Suncatcher to test AI computing in space.",
+      "url": "https://www.businesstoday.in/technology/artificial-intelligence/story/google-wants-to-build-ai-data-centres-in-space-what-project-suncatchers-satellite-test-means-557746-2026-09-25?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-25T05:19:19.000Z"
+    },
+    {
+      "title": "‘We’re not going to let you...’: JD Vance issues fresh H-1B warning to US companies",
+      "summary": "The Trump administration argues that parts of the programme have been used by outsourcing companies and other employers to obtain lower-paid foreign labour and reduce their US workforce.",
+      "url": "https://www.businesstoday.in/nri/visa/story/were-not-going-to-let-you-jd-vance-issues-fresh-h-1b-warning-to-us-companies-557741-2026-09-25?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-25T04:58:33.000Z"
+    },
+    {
+      "title": "iPhone 18 Pro bug triggers freezes and restarts when Face ID fails: Apple confirms software fix",
+      "summary": "Apple is working on a software fix for an iPhone 18 Pro issue that can leave devices frozen and force them to restart following failed Face ID authentication.",
+      "url": "https://www.businesstoday.in/technology/news/story/iphone-18-pro-bug-triggers-freezes-and-restarts-when-face-id-fails-apple-confirms-software-fix-557727-2026-09-25?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-25T04:28:55.000Z"
+    },
+    {
+      "title": "NSE to expand co-location capacity; chairman says manipulation can be flagged in real time: Report",
+      "summary": "To accommodate the expansion, NSE has freed up space at its existing headquarters for additional data-centre infrastructure.",
+      "url": "https://www.businesstoday.in/markets/stocks/story/nse-to-expand-co-location-capacity-chairman-says-manipulation-can-be-flagged-in-real-time-report-557734-2026-09-25?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-25T04:14:37.000Z"
+    },
+    {
+      "title": "Delhi SIR notices: S Jaishankar, L K Advani, Rekha Gupta among big names verified on voter rolls",
+      "summary": "Poll officials, however, said most of their details have now been verified through field checks and their names have been kept for inclusion in the final electoral roll.",
+      "url": "https://www.businesstoday.in/india/story/delhi-sir-notices-s-jaishankar-l-k-advani-rekha-gupta-among-big-names-verified-on-voter-rolls-557725-2026-09-25?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-25T03:58:55.000Z"
+    },
+    {
       "title": "Stock market today: BSE Sensex opens over 100 points up, NSE Nifty50 trades above 23,000",
       "summary": "Dalal Street began trading on a positive note after experiencing a significant decline earlier this week. BSE Sensex opened over 100 points higher, while NSE Nifty traded above 23,000. However, rising crude oil prices are impacting overall market sentiment and limiting gains.",
       "url": "https://timesofindia.indiatimes.com/business/india-business/stock-market-today-bse-sensex-opens-over-100-points-up-nse-nifty50-trades-above-23000/articleshow/134474079.cms",
@@ -73,12 +161,28 @@
       "publishedAt": "2026-09-25T03:50:26.000Z"
     },
     {
-      "title": "Adani Realty to launch premium, luxury residential projects in Mumbai: Report",
-      "summary": "The developer intends to launch two luxury projects in Mumbai's Goregaon (West) and Bandra areas.",
-      "url": "https://www.businesstoday.in/real-estate/story/adani-realty-to-launch-premium-luxury-residential-projects-in-mumbai-report-557713-2026-09-25?utm_source=rssfeed",
+      "title": "Iran President Pezeshkian urges US to revive June truce agreement before November midterms",
+      "summary": "Addressing international concern over Tehran's nuclear capabilities, Pezeshkian insisted the technology is strictly for peaceful applications.",
+      "url": "https://www.businesstoday.in/world/story/iran-president-pezeshkian-urges-us-to-revive-june-truce-agreement-before-november-midterms-557716-2026-09-25?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-25T03:23:31.000Z"
+    },
+    {
+      "title": "IIT-B student death: IIT Bombay reconsiders disciplinary action on students, exams postponed to October",
+      "summary": "Wakode was found hanging in his hostel room hours after allegedly being caught using ChatGPT during an exam, setting off protests, a hunger strike, and caste-discrimination allegations against a professor now on leave.",
+      "url": "https://www.businesstoday.in/india/story/iit-b-student-death-iit-bombay-reconsiders-disciplinary-action-on-students-exams-postponed-to-october-557706-2026-09-25?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-25T03:21:49.000Z"
+    },
+    {
+      "title": "What is panda diplomacy? How China uses giant pandas to build global ties",
+      "summary": "China has used pandas as diplomatic symbols for centuries, but the practice became especially prominent after the founding of the People’s Republic of China in 1949.",
+      "url": "https://www.businesstoday.in/world/story/what-is-panda-diplomacy-how-china-uses-giant-pandas-to-build-global-ties-557710-2026-09-25?utm_source=rssfeed",
       "source": "Business Today",
       "category": "insurance",
-      "publishedAt": "2026-09-25T03:20:09.000Z"
+      "publishedAt": "2026-09-25T02:58:31.000Z"
     },
     {
       "title": "Top stocks to buy today: Angel One recommends Godrej Agrovet, Caplin Point, Tilaknagar Industries",
@@ -89,6 +193,14 @@
       "publishedAt": "2026-09-25T02:43:57.000Z"
     },
     {
+      "title": "Trump-Xi meet: Warm words, sharp divide on AI as US-China moves into ‘superintelligence’ age",
+      "summary": "The Chinese president said the US and China, as leading AI powers, have a responsibility to ensure the technology is developed “for good” and remains “under human control”.",
+      "url": "https://www.businesstoday.in/world/story/trump-xi-meet-warm-words-sharp-divide-on-ai-as-us-china-moves-into-superintelligence-age-557704-2026-09-25?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-25T02:15:18.000Z"
+    },
+    {
       "title": "Oil slips 1% as traders hope for US-Iran truce amid fresh attacks on Saudi pipeline",
       "summary": "Following a tumultuous week influenced by geopolitical unrest and supply worries, oil prices have dipped slightly. WTI crude now stands at $93.52 a barrel, while Brent crude has retreated to $105.80.",
       "url": "https://timesofindia.indiatimes.com/business/international-business/oil-prices-slip-1-as-traders-hope-for-us-iran-truce-amid-fresh-attacks-on-saudi-pipeline/articleshow/134472895.cms",
@@ -97,20 +209,12 @@
       "publishedAt": "2026-09-25T02:09:39.000Z"
     },
     {
-      "title": "Quote of the Day by Anand Mahindra: 'It is imperative for us to protect the flora and fauna around us'",
-      "summary": "The quote reflects on how material success and wealth alone cannot guarantee lasting happiness.",
-      "url": "https://www.businesstoday.in/india/story/quote-of-the-day-by-anand-mahindra-it-is-imperative-for-us-to-protect-the-flora-and-fauna-around-us-557695-2026-09-25?utm_source=rssfeed",
+      "title": "'6 crore shopkeepers, traders impacted': Trade body urges Nirmala Sitharaman to roll back UPI MDR",
+      "summary": "From October 15, eligible person-to-merchant UPI payments above ₹2,000 will attract an MDR of 0.4 per cent, capped at ₹300 per transaction.",
+      "url": "https://www.businesstoday.in/india/story/6-crore-shopkeepers-traders-impacted-trade-body-urges-nirmala-sitharaman-to-roll-back-upi-mdr-557702-2026-09-25?utm_source=rssfeed",
       "source": "Business Today",
       "category": "markets",
-      "publishedAt": "2026-09-25T02:00:03.000Z"
-    },
-    {
-      "title": "10 months of new labour codes: What has changed for employees and employers?",
-      "summary": "Ten months into the rollout of India’s four labour codes, the workplace landscape is beginning to shift from legal reform to operational change.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/10-months-of-new-labour-codes-what-has-changed-for-employees-and-employers-557677-2026-09-25?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-25T01:20:03.000Z"
+      "publishedAt": "2026-09-25T02:04:19.000Z"
     },
     {
       "title": "Banks to deploy excess liquidity over next few months: RBI DG",
@@ -119,14 +223,6 @@
       "source": "Times of India Business",
       "category": "regulatory",
       "publishedAt": "2026-09-25T01:13:59.000Z"
-    },
-    {
-      "title": "From UPI to cross-border payments: Why interoperability is the next big opportunity",
-      "summary": "UPI’s expansion beyond India is opening the door to a more connected cross-border payments ecosystem, as instant-payment networks gain traction across countries.",
-      "url": "https://www.businesstoday.in/latest/economy/story/from-upi-to-cross-border-payments-why-interoperability-is-the-next-big-opportunity-557592-2026-09-25?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-25T01:05:02.000Z"
     },
     {
       "title": "India can meet screen-protector demand locally, assures IT secy",
@@ -209,20 +305,20 @@
       "publishedAt": "2026-09-25T00:15:26.000Z"
     },
     {
+      "title": "Insurance commission caps: What happens to your policy when the seller earns less?",
+      "summary": "IRDAI’s proposed insurance commission caps could reshape how motor, health and life policies are sold, particularly by reducing upfront payouts to distributors.",
+      "url": "https://www.businesstoday.in/personal-finance/story/insurance-commission-caps-what-happens-to-your-policy-when-the-seller-earns-less-557631-2026-09-25?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "regulatory",
+      "publishedAt": "2026-09-25T00:05:01.000Z"
+    },
+    {
       "title": "Ex-CJI, more legal experts back Tata Sons on Chandra's reappointment",
       "summary": "",
       "url": "https://timesofindia.indiatimes.com/business/india-business/ex-cji-more-legal-experts-back-tata-sons-on-chandras-reappointment/articleshow/134470064.cms",
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-09-24T21:52:58.000Z"
-    },
-    {
-      "title": "Top 10 countries for science education: China leads global ranking, Singapore follows",
-      "summary": "The assessment measures not only students' knowledge of scientific concepts but also their ability to explain scientific phenomena, evaluate investigations and evidence, and use scientific information for decision-making",
-      "url": "https://www.businesstoday.in/education/story/top-10-countries-for-science-education-china-leads-global-ranking-singapore-follows-557678-2026-09-25?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-24T20:50:03.000Z"
     },
     {
       "title": "Tata Sons tells Noel Tata Chandrasekaran reappointment was legally valid: Report",
@@ -233,44 +329,12 @@
       "publishedAt": "2026-09-24T17:14:15.000Z"
     },
     {
-      "title": "'Former neighbour': Anand Mahindra recalls NSE's journey from Mahindra Towers to IPO",
-      "summary": "The NSE's shares opened at Rs 1,800 on the BSE on Thursday, up 0.84% from the issue price of Rs 1,785. The stock later climbed 3.36% to Rs 1,845",
-      "url": "https://www.businesstoday.in/latest/corporate/story/former-neighbour-anand-mahindra-recalls-nses-journey-from-mahindra-towers-to-ipo-557698-2026-09-24?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-24T16:44:05.000Z"
-    },
-    {
       "title": "Wife sold shares, bought husband’s Rs 7.5 crore property; taxman send notice",
       "summary": "When a woman sold her unlisted shares, she reported long-term capital gains of Rs 8.31 crore. In June 2021, she put Rs 6.91 crore into a residential property on Juhu Tara Road, Mumbai, and claimed exemption under Section 54F.",
       "url": "https://timesofindia.indiatimes.com/business/india-business/wife-sold-shares-for-rs-8-31-crore-ltcg-bought-husbands-mumbai-property-for-rs-7-5-crore-and-claimed-section-54f-exemption-taxman-calls-it-tax-avoidance-but-itat-mumbai-gives-relief-to-her/articleshow/134465968.cms",
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-09-24T16:32:01.000Z"
-    },
-    {
-      "title": "'Self-contained civilisation': Indian co-founder visits Shenzhen, returns with a lesson for India",
-      "summary": "Mathur also highlighted Shenzhen’s extensive public infrastructure, including its metro network, pedestrian facilities, cycling infrastructure, parks and public transport",
-      "url": "https://www.businesstoday.in/latest/trends/story/self-contained-civilisation-indian-co-founder-visits-shenzhen-returns-with-a-lesson-for-india-557571-2026-09-24?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "insurance",
-      "publishedAt": "2026-09-24T15:34:45.000Z"
-    },
-    {
-      "title": "GST Council to take up proposal of MDR on UPI",
-      "summary": "Sources underline MDR is not a tax or cess levied by govt, to be used by payment ecosystem",
-      "url": "https://www.businesstoday.in/latest/economy/story/gst-council-to-take-up-proposal-of-mdr-on-upi-557686-2026-09-24?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-24T14:54:51.000Z"
-    },
-    {
-      "title": "Govt, IBA to work on mechanism to ensure UPI MDR isn't passed on to consumers",
-      "summary": "The discussions are aimed at ensuring that consumers do not end up bearing any additional cost following the introduction of MDR on specified UPI transactions, say sources",
-      "url": "https://www.businesstoday.in/latest/economy/story/govt-iba-to-work-on-mechanism-to-ensure-upi-mdr-isnt-passed-on-to-consumers-557680-2026-09-24?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-24T14:36:29.000Z"
     },
     {
       "title": "Dubai-based Indian cancelled 2 flats, builder claims deductions; why MahaREAT ordered full refund",
@@ -281,36 +345,12 @@
       "publishedAt": "2026-09-24T14:27:06.000Z"
     },
     {
-      "title": "Oil rises as Iran threat to widen war dims hopes of Strait of Hormuz deal",
-      "summary": "Brent crude futures rose more than 3% to above $106 a barrel before paring some gains as traders assessed higher oil flows from the region. Brent for November settlement was up 2% at $105.09 a barrel at 8:46 a.m. in New York, while West Texas Intermediate gained 1.7% to $93.71.",
-      "url": "https://www.businesstoday.in/latest/economy/story/oil-rises-as-iran-threat-to-widen-war-dims-hopes-of-strait-of-hormuz-deal-557670-2026-09-24?utm_source=rssfeed",
+      "title": "Meta’s New Gadgets: Camera-Free Glasses, VR Eyewear And AI Handheld Device Unveiled",
+      "summary": "Meta has unveiled a new lineup of AI and immersive devices at its annual Connect conference, including camera-free Ray-Ban Meta Audio glasses, Meta VR Glasses and a compact handheld device powered by its Muse AI assistant.",
+      "url": "https://www.businesstoday.in/bt-tv/whats-hot/video/metas-new-gadgets-camera-free-glasses-vr-eyewear-and-ai-handheld-device-unveiled-557658-2026-09-24?utm_source=rssfeed",
       "source": "Business Today",
       "category": "markets",
-      "publishedAt": "2026-09-24T14:09:12.000Z"
-    },
-    {
-      "title": "Tata Sons rejects Noel Tata objections over N. Chandrasekaran reappointment",
-      "summary": "In a September 24 letter to Noel Tata, Tata Sons maintained that the board had followed the applicable legal and governance procedures while approving Chandrasekaran’s fresh five-year term.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/tata-sons-rejects-noel-tata-objections-over-n-chandrasekaran-reappointment-557662-2026-09-24?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-24T13:40:45.000Z"
-    },
-    {
-      "title": "UPI needs greater investment, resilience as ecosystem costs rise: NPCI CEO Dilip Asbe",
-      "summary": "NPCI MD and CEO Dilip Asbe has called for greater investment and resilience in the UPI ecosystem as operating costs and cybersecurity risks rise.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/upi-needs-greater-investment-resilience-as-ecosystem-costs-rise-npci-ceo-dilip-asbe-557654-2026-09-24?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-24T13:07:46.000Z"
-    },
-    {
-      "title": "Biggest risk is regulatory risk...: Nithin Kamath warns fintech valuations face rule-change risk after IRDAI commission proposals",
-      "summary": "IRDAI’s proposed changes to insurance commissions have put the spotlight on how regulatory decisions can reshape the economics of financial and fintech businesses.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/biggest-risk-is-regulatory-risk-nithin-kamath-warns-fintech-valuations-face-rule-change-risk-after-irdai-commission-proposals-557647-2026-09-24?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "regulatory",
-      "publishedAt": "2026-09-24T12:54:22.000Z"
+      "publishedAt": "2026-09-24T13:31:50.000Z"
     },
     {
       "title": "Just 1.85%, yet NSE has best debut among India's five biggest IPOs",
@@ -321,20 +361,44 @@
       "publishedAt": "2026-09-24T12:44:09.000Z"
     },
     {
-      "title": "Only 1 in 10 Indian households has an AC: Why India’s appliance market has a long runway",
-      "summary": "India’s consumer durables market has significant room to expand, with household penetration of key appliances still well below regional peers. The BCG-CII report identifies this gap as a major structural driver of demand through 2030.",
-      "url": "https://www.businesstoday.in/india/story/only-1-in-10-indian-households-has-an-ac-why-indias-appliance-market-has-a-long-runway-557625-2026-09-24?utm_source=rssfeed",
+      "title": "MDR Levy: Will Retail Trading Volumes Take A Hit? | NSE Chairman Srinivas Injeti",
+      "summary": "Will the MDR levy affect retail trading volumes? NSE Chairman Srinivas Injeti says there is currently no overwhelming feedback suggesting a significant “speed breaker” for retail activity.",
+      "url": "https://www.businesstoday.in/bt-tv/market-today/video/mdr-levy-will-retail-trading-volumes-take-a-hit-nse-chairman-srinivas-injeti-557641-2026-09-24?utm_source=rssfeed",
       "source": "Business Today",
       "category": "markets",
-      "publishedAt": "2026-09-24T12:24:33.000Z"
+      "publishedAt": "2026-09-24T12:38:20.000Z"
     },
     {
-      "title": "From Azim Premji to DMart’s Radhakishan Damani: The famous investors sitting on thousands of crores in NSE shares",
-      "summary": "Premji Invest, 360 ONE, Radhakishan Damani and Infosys-linked family offices entered NSE’s listing with stakes worth thousands of crores. See their shares, values and selling decisions.",
-      "url": "https://www.businesstoday.in/latest/trends/photo/from-azim-premji-to-dmarts-radhakishan-damani-the-famous-investors-sitting-on-thousands-of-crores-in-nse-shares-557640-2026-09-24?utm_source=rssfeed",
+      "title": "NSE Lists At ₹1,800: Exclusive Post-Listing Interview With India's Largest Exchange",
+      "summary": "India’s National Stock Exchange has completed its long-awaited public listing, marking a historic milestone for the country’s capital markets.",
+      "url": "https://www.businesstoday.in/bt-tv/market-today/video/nse-lists-at-rs1800-exclusive-post-listing-interview-with-indias-largest-exchange-557638-2026-09-24?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "regulatory",
+      "publishedAt": "2026-09-24T12:28:28.000Z"
+    },
+    {
+      "title": "From Mobile Trading To AI: How NSE Plans To Protect Market Integrity",
+      "summary": "Artificial intelligence is emerging as a major force in financial-market technology, and NSE MD & CEO Ashishkumar Chauhan explains how the exchange is preparing for that shift.",
+      "url": "https://www.businesstoday.in/bt-tv/market-today/video/from-mobile-trading-to-ai-how-nse-plans-to-protect-market-integrity-557636-2026-09-24?utm_source=rssfeed",
       "source": "Business Today",
       "category": "markets",
-      "publishedAt": "2026-09-24T12:22:16.000Z"
+      "publishedAt": "2026-09-24T12:27:00.000Z"
+    },
+    {
+      "title": "NSE On India’s Capital Markets Growth | IPOs, REITs, InvITs And More",
+      "summary": "India’s capital markets are playing an increasingly important role in funding economic growth, with the National Stock Exchange (NSE) highlighting the scale of capital mobilisation in recent years.",
+      "url": "https://www.businesstoday.in/bt-tv/market-today/video/nse-on-indias-capital-markets-growth-ipos-reits-invits-and-more-557633-2026-09-24?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-24T12:21:39.000Z"
+    },
+    {
+      "title": "NSE On Its Next Growth Phase | Electronic Gold Receipts, Coal & Bond Index Futures",
+      "summary": "NSE MD & CEO Ashishkumar Chauhan discusses the exchange’s strategy to diversify beyond weekly options amid evolving SEBI regulations.",
+      "url": "https://www.businesstoday.in/bt-tv/market-today/video/nse-on-its-next-growth-phase-electronic-gold-receipts-coal-bond-index-futures-557632-2026-09-24?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "regulatory",
+      "publishedAt": "2026-09-24T12:17:13.000Z"
     },
     {
       "title": "From 33 to 12 hours, 14 to 6: Vande Bharat, roads cutting travel time drastically",
@@ -345,22 +409,6 @@
       "publishedAt": "2026-09-24T12:14:30.000Z"
     },
     {
-      "title": "NSE finally goes public: Inside the landmark listing on rival BSE",
-      "summary": "NSE makes its landmark market debut on rival BSE at ₹1,800 after a ₹22,569-crore IPO, marking the end of a decade-long wait and a major moment for India's markets.",
-      "url": "https://www.businesstoday.in/latest/photo/nse-finally-goes-public-inside-the-landmark-listing-on-rival-bse-557617-2026-09-24?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "insurance",
-      "publishedAt": "2026-09-24T12:08:20.000Z"
-    },
-    {
-      "title": "₹800 premium, ₹40 commission: Why low-ticket insurance could become the biggest casualty of new rules",
-      "summary": "IRDAI’s proposed insurance commission caps could sharply alter the economics of selling low-premium policies, particularly two-wheeler insurance.",
-      "url": "https://www.businesstoday.in/personal-finance/story/rs800-premium-rs40-commission-why-low-ticket-insurance-could-become-the-biggest-casualty-of-new-rules-557628-2026-09-24?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "regulatory",
-      "publishedAt": "2026-09-24T11:49:40.000Z"
-    },
-    {
       "title": "PF wage ceiling rises to Rs 25,000: Top FAQs answered for employees",
       "summary": "For employees, however, the immediate reaction may be simple: What does this mean for me? The answer depends on an employee’s wage structure, provident fund membership status and pension coverage.",
       "url": "https://timesofindia.indiatimes.com/business/india-business/provident-fund-wage-ceiling-rises-to-rs-25000-what-does-this-mean-for-you-top-faqs-answered/articleshow/134458275.cms",
@@ -369,12 +417,36 @@
       "publishedAt": "2026-09-24T11:32:00.000Z"
     },
     {
-      "title": "Beyond Noel Tata and N Chandrasekaran: Meet the five key players in Tata's boardroom battle",
-      "summary": "Beyond Noel Tata and N Chandrasekaran, five key figures are shaping the Tata boardroom battle, from Venu Srinivasan and Shapoor Mistry to Jimmy Tata and others.",
-      "url": "https://www.businesstoday.in/latest/photo/beyond-noel-tata-and-n-chandrasekaran-meet-the-five-key-players-in-tatas-boardroom-battle-557604-2026-09-24?utm_source=rssfeed",
+      "title": "NSE Stock Outlook: G Chokkalingam Explains Growth Potential And Long-Term Investor View",
+      "summary": "The National Stock Exchange (NSE) made its much-awaited debut on the Indian stock market today, with the stock opening in positive territory.",
+      "url": "https://www.businesstoday.in/bt-tv/market-today/video/nse-stock-outlook-g-chokkalingam-explains-growth-potential-and-long-term-investor-view-557606-2026-09-24?utm_source=rssfeed",
       "source": "Business Today",
       "category": "markets",
-      "publishedAt": "2026-09-24T11:00:20.000Z"
+      "publishedAt": "2026-09-24T11:12:46.000Z"
+    },
+    {
+      "title": "40 Kms Off Odisha Coast ONGC's Mahadin Well Struck Gas, What's The Road Ahead?",
+      "summary": "In this Exclusive conversation with O.P. Sinha, ONGC’s Director-Exploration we talk about their recent find in the Mahanadi basin, expected volumes of gas, what lies ahead in their E&P playbook and Why ONGC and India needs the next big find in the quest to ach…",
+      "url": "https://www.businesstoday.in/bt-tv/whats-hot/video/40-kms-off-odisha-coast-ongcs-mahadin-well-struck-gas-whats-the-road-ahead-557611-2026-09-24?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-24T11:09:17.000Z"
+    },
+    {
+      "title": "Insurance Stocks Crash: Will IRDAI’s Commission Cuts Lower Prices For Consumers?",
+      "summary": "Insurance stocks came under heavy selling pressure after IRDAI proposed sweeping changes to insurance distribution. PB Fintech plunged over 30%, while several other insurance stocks also witnessed sharp declines.",
+      "url": "https://www.businesstoday.in/bt-tv/market-today/video/insurance-stocks-crash-will-irdais-commission-cuts-lower-prices-for-consumers-557603-2026-09-24?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "regulatory",
+      "publishedAt": "2026-09-24T11:08:41.000Z"
+    },
+    {
+      "title": "AI Safety Crisis: Why Tech Leaders Want Frontier Models Slowed Down",
+      "summary": "Artificial intelligence is advancing faster than governments and safety systems can respond. Former AI employees, leading researchers, and technology executives are warning that frontier models could develop dangerous capabilities, from autonomous cyberattacks…",
+      "url": "https://www.businesstoday.in/tech-today/video/ai-safety-crisis-why-tech-leaders-want-frontier-models-slowed-down-557356-2026-09-24?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-24T07:36:25.000Z"
     }
   ]
 }
