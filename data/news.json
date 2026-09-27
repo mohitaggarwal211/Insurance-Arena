@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-27T06:21:38.794Z",
+  "lastUpdated": "2026-09-27T06:41:34.451Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,14 @@
     }
   ],
   "articles": [
+    {
+      "title": "Are banks open or closed on Sunday, September 27? What customers need to know",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/banks-open-today-are-banks-open-or-closed-on-sunday-september-27-ahead-of-a-3-day-strike/articleshow/134515612.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-27T06:15:54.000Z"
+    },
     {
       "title": "Festive season shock: AC, TV and appliance prices set to rise from October 1",
       "summary": "",
@@ -367,14 +375,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-09-25T12:30:56.000Z"
-    },
-    {
-      "title": "Why has Sensex not hit a new closing high in two years?",
-      "summary": "Foreign investors take out record money, rupee on a depreciating spree, bloodbath on Dalal Street - these are the headlines that have dominated the stock market circuit for two years now.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/two-years-ago-sensex-hit-lifetime-high-what-went-wrong-after-that-whats-the-road-ahead/articleshow/134482189.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-25T11:56:42.000Z"
     }
   ]
 }
