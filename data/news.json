@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-27T12:50:29.216Z",
+  "lastUpdated": "2026-09-27T15:13:05.907Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,38 @@
     }
   ],
   "articles": [
+    {
+      "title": "Gold and silver outlook: Job data, crude and more in focus to guide bullion this week",
+      "summary": "The gold and silver markets are poised for significant fluctuations as crucial US jobs and inflation data are on the horizon. Investors are keenly aware of the Federal Reserve's hints about possible policy adjustments, which could greatly influence precious metals.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/gold-and-silver-outlook-whats-in-store-for-traders-this-week-job-data-crude-and-more-in-focus/articleshow/134521399.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-27T14:01:56.000Z"
+    },
+    {
+      "title": "EAM Jaishankar, Canada FM Anand discuss taking bilateral ties ‘to a higher level’",
+      "summary": "India and Canada are actively enhancing their bilateral ties as External Affairs Minister S Jaishankar engages with Anita Anand. This meeting is a part of trade negotiations aiming for a significant increase in trade by 2030.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/eam-jaishankar-canada-fm-anand-discuss-taking-bilateral-ties-to-a-higher-level/articleshow/134520874.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-27T13:38:47.000Z"
+    },
+    {
+      "title": "Barrier-free tolling: FASTag & ANPR will help collect toll from your vehicle automatically",
+      "summary": "With barrier-free tolling, vehicles can move through at normal highway speeds while cameras and FASTag systems identify the vehicle and collect the toll automatically.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/indias-barrier-free-tolling-explained-no-more-stopping-as-fastag-number-plate-recognition-will-help-collect-toll-automatically/articleshow/134520514.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-27T13:07:28.000Z"
+    },
+    {
+      "title": "Boeing detects software glitch in 737 MAX, working on permanent fix: Report",
+      "summary": "Boeing had informed 737 operators about the issue last month",
+      "url": "https://www.businesstoday.in/latest/story/boeing-detects-software-glitch-in-737-max-working-on-permanent-fix-report-558096-2026-09-27?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-27T13:00:30.000Z"
+    },
     {
       "title": "New mobile recharge rules: 30-day plans, call-only options and more",
       "summary": "The Telecom Regulatory Authority of India has unveiled enhancements to prepaid mobile recharge options, featuring more voice-and-SMS-only Special Tariff Vouchers. Users can now access plans with a validity of 30 days or less.",
@@ -321,14 +353,6 @@
       "publishedAt": "2026-09-26T01:25:02.000Z"
     },
     {
-      "title": "₹4,299 Nokia 3210 is back: The tiny 4G phone with an old-school feel",
-      "summary": "The Nokia 3210 returns as a ₹4,299 4G feature phone with a 1,450mAh removable battery, 2MP camera, 2.4-inch display, USB Type-C, Bluetooth 5.0 and Snake.",
-      "url": "https://www.businesstoday.in/latest/photo/rs4299-nokia-3210-is-back-the-tiny-4g-phone-with-an-old-school-feel-557623-2026-09-26?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-26T01:00:04.000Z"
-    },
-    {
       "title": "Self-listing of bourses feasible, says NSE chief",
       "summary": "",
       "url": "https://timesofindia.indiatimes.com/business/india-business/self-listing-of-bourses-feasible-says-nse-chief/articleshow/134492279.cms",
@@ -351,30 +375,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-09-25T21:15:31.000Z"
-    },
-    {
-      "title": "No extra time for realising export proceeds",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/no-extra-time-for-realising-export-proceeds/articleshow/134492260.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-25T21:10:48.000Z"
-    },
-    {
-      "title": "India may sign new investment pact with Australia & Canada",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/india-may-sign-new-investment-pact-with-australia-canada/articleshow/134492259.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-25T21:08:18.000Z"
-    },
-    {
-      "title": "Festive sales: Cos paying retention bonus to workers",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/festive-sales-cos-paying-retention-bonus-to-workers/articleshow/134492242.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-25T21:04:02.000Z"
     }
   ]
 }
