@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-29T06:38:37.693Z",
-  "articlesCount": 39,
+  "lastUpdated": "2026-09-29T07:04:08.652Z",
+  "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
   "sourceStatus": [
@@ -13,7 +13,7 @@
     {
       "source": "Business Today",
       "status": "ok",
-      "articles": 19,
+      "articles": 20,
       "feedUsed": "https://www.businesstoday.in/rssfeeds/?id=225346"
     },
     {
@@ -56,6 +56,14 @@
     }
   ],
   "articles": [
+    {
+      "title": "Private capex puzzle: RBI sees ₹5.6 lakh crore pipeline, NIPFP flags weak investment conversion",
+      "summary": "India’s private capex cycle is showing mixed signals, with RBI data pointing to a sharp rise in investment intentions while NIPFP flags a gap between project announcements and actual capital spending.",
+      "url": "https://www.businesstoday.in/latest/economy/story/private-capex-puzzle-rbi-sees-rs5-6-lakh-crore-pipeline-nipfp-flags-weak-investment-conversion-558457-2026-09-29?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "regulatory",
+      "publishedAt": "2026-09-29T06:23:05.000Z"
+    },
     {
       "title": "US exempts India, 19 other countries from 100% tariff on speciality drugs",
       "summary": "",
