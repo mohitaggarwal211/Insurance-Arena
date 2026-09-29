@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-29T07:04:08.652Z",
+  "lastUpdated": "2026-09-29T13:49:21.604Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -57,12 +57,156 @@
   ],
   "articles": [
     {
+      "title": "Shaktikanta Das flags need to cut India's oil import dependence, cites Rs 84,000-crore offshore push",
+      "summary": "The Union Cabinet had in July approved the Samudra Manthan, National Offshore Exploration Scheme with an outlay of Rs 84,084 crore through 2030-31",
+      "url": "https://www.businesstoday.in/latest/economy/story/shaktikanta-das-flags-need-to-cut-indias-oil-import-dependence-cites-rs-84000-crore-offshore-push-558606-2026-09-29?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-29T12:56:07.000Z"
+    },
+    {
+      "title": "A prolonged West Asia conflict will increase risks to corporate earnings, says Nomura's Saion Mukherjee",
+      "summary": "There is significant uncertainty right now, and one would have to be very selective in the stock market right now, said Mukherjee",
+      "url": "https://www.businesstoday.in/latest/corporate/story/a-prolonged-west-asia-conflict-will-increase-risks-to-corporate-earnings-says-nomuras-saion-mukherjee-558602-2026-09-29?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-29T12:43:10.000Z"
+    },
+    {
+      "title": "5-day banking closer to discussion stage as IBA forms high-level committee",
+      "summary": "IBA has formed a high-level committee with bank unions to discuss the implementation of five-day banking and declaring the remaining Saturdays as holidays.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/5-day-banking-closer-to-discussion-stage-as-iba-forms-high-level-committee-558601-2026-09-29?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-29T12:38:53.000Z"
+    },
+    {
+      "title": "Son died, LIC denied father Rs 5 lakh over heart condition; Commission orders payout with interest",
+      "summary": "The Commission referred to a National Consumer Disputes Redressal Commission decision concerning \"silent diseases\", observing that a person may not necessarily be aware of a condition until it aggravates and symptoms become apparent.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/his-son-died-insurance-company-denied-father-rs-5-lakh-over-alleged-undisclosed-heart-condition-punjab-consumer-commission-finds-no-reliable-medical-proof-orders-rs-5-lakh-plus-7-interest-and-rs-10000/articleshow/134560425.cms",
+      "source": "Times of India Business",
+      "category": "insurance",
+      "publishedAt": "2026-09-29T12:25:00.000Z"
+    },
+    {
+      "title": "Trade irony amid Trump threat: Why Russia is buying its own oil as fuel from India",
+      "summary": "The underlying issue is not Russia's access to crude oil but its ability to convert crude into usable fuels. Refinery outages and infrastructure disruptions have constrained domestic production, forcing Russia to import products such as gasoline.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/trade-irony-amid-trump-threat-why-russia-is-buying-its-own-oil-as-fuel-from-india/articleshow/134563758.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-29T12:12:58.000Z"
+    },
+    {
+      "title": "Nvidia announces record $150 billion share buyback amid AI boom",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/nvidia-announces-record-150-billion-share-buyback-amid-ai-boom/articleshow/134563925.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-29T10:56:49.000Z"
+    },
+    {
+      "title": "Reliance, Nayara restrict fuel sales as crude hits $107 and retail prices stay frozen: Report",
+      "summary": "Reliance Industries and Nayara Energy have begun restricting diesel and petrol sales at some outlets as crude prices surge while domestic pump prices remain unchanged.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/reliance-nayara-restrict-fuel-sales-as-crude-hits-107-and-retail-prices-stay-frozen-report-558566-2026-09-29?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-29T10:13:57.000Z"
+    },
+    {
+      "title": "'Largest steel plant in American history': Trump announces Essar-backed $18 billion investment",
+      "summary": "Mesabi Metallics, a Minnesota-based company owned by India's Essar Group, is developing an iron ore mine in Nashwauk on the Mesabi Iron Range",
+      "url": "https://www.businesstoday.in/latest/corporate/story/largest-steel-plant-in-american-history-trump-announces-essar-backed-18-billion-investment-558562-2026-09-29?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-29T10:04:01.000Z"
+    },
+    {
+      "title": "Affordable housing loans: Why ₹10-15 lakh borrowers remain the sweet spot for specialist lenders",
+      "summary": "The ₹10-15 lakh loan segment remains a key growth market for specialist affordable housing finance companies, with more than 60-65% of borrowers surveyed by Systematix falling in this ticket-size bracket.",
+      "url": "https://www.businesstoday.in/personal-finance/story/affordable-housing-loans-why-rs10-15-lakh-borrowers-remain-the-sweet-spot-for-specialist-lenders-558535-2026-09-29?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-29T09:32:28.000Z"
+    },
+    {
+      "title": "BT Exclusive: ONGC Videsh to restart operations in Venezuela's San Cristobal oilfield soon",
+      "summary": "Production and investment plans agreed with Venezuelan authorities; field revival could begin within 90-120 days of Venezuelan govt approval.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/ongc-videsh-to-restart-operations-in-venezuelas-san-cristobal-oilfield-soon-558534-2026-09-29?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-29T09:30:01.000Z"
+    },
+    {
+      "title": "GST compliance burden weighs more heavily on smaller unincorporated firms",
+      "summary": "An analysis finds that firms with annual turnover below Rs 4.9 lakh are likely to bear higher compliance costs, estimated at 3.28%-13.9% of their annual turnover.",
+      "url": "https://www.businesstoday.in/latest/economy/story/gst-compliance-burden-weighs-more-heavily-on-smaller-unincorporated-firms-558531-2026-09-29?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-29T09:22:32.000Z"
+    },
+    {
+      "title": "All about Akhil Gupta, former Bharti Enterprises V-C who is Coforge's new chairperson after O P Bhatt",
+      "summary": "Coforge announced the decision in a stock exchange filing on 27th September. The company selected Gupta following a global search conducted with executive search firm Egon Zehnder.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/all-about-akhil-gupta-former-bharti-enterprises-v-c-who-is-coforges-new-chairperson-after-o-p-bhatt-558460-2026-09-29?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-29T09:17:30.000Z"
+    },
+    {
+      "title": "Nitin Gadkari: Rs 61,500 crore, 630-km highway to link Siliguri, Guwahati, Shillong",
+      "summary": "The project is estimated to cost Rs 61,500 crore. The road transport ministry has also initiated an expressway connectivity project between Gorakhpur in Uttar Pradesh and Siliguri.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/nitin-gadkari-says-rs-61500-crore-630-km-highway-corridor-to-link-siliguri-with-guwahati-shillong-high-speed-between-up-north-east-in-works-to-cut-travel-time/articleshow/134558905.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-29T08:38:54.000Z"
+    },
+    {
+      "title": "India inflation hits 4.8% as price pressures broaden beyond food and fuel: Report",
+      "summary": "India’s inflation rose to 4.8% in August, its highest level since January 2025, while price pressures are broadening beyond food and fuel. BNP Paribas said rising core inflation, higher crude prices and a weakening rupee are adding to the macroeconomic pressure.",
+      "url": "https://www.businesstoday.in/latest/economy/story/india-inflation-hits-4-8-as-price-pressures-broaden-beyond-food-and-fuel-report-558499-2026-09-29?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-29T07:51:01.000Z"
+    },
+    {
+      "title": "Gold price outlook: Gold under extreme pressure; analyst sees rallies as opportunity to sell",
+      "summary": "Gold price prediction: Gold is under extreme downside pressure on exponential rise in real yields and a firmer US Dollar on robust US data and hawkish Federal Reserve. It is to be noted that the Fed officials continue to maintain a hawkish view post-FOMC decision.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/gold-price-prediction-today-where-are-gold-rates-headed-on-september-29-2026-and-in-the-near-term-mcx-gold-silver-prices/articleshow/134559727.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-29T07:29:46.000Z"
+    },
+    {
+      "title": "Tata Sons listing may have no immediate rating impact, S&P says",
+      "summary": "S&P Global Ratings said a potential Tata Sons listing and leadership transition at the Tata group are unlikely to have an immediate impact on the ratings of key group entities.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/tata-sons-listing-may-have-no-immediate-rating-impact-sp-says-558489-2026-09-29?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-29T07:24:13.000Z"
+    },
+    {
+      "title": "Small savings rates for Q3 FY27: Will the government hike interest rates for the October-December quarter?",
+      "summary": "If rates are revised upwards, it would be the first change since December 2024, when the government increased rates for the Sukanya Samriddhi Account and the three-year Post Office Time Deposit.",
+      "url": "https://www.businesstoday.in/personal-finance/story/small-savings-rates-for-q3-fy27-will-the-government-hike-interest-rates-for-the-october-december-quarter-558469-2026-09-29?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-29T06:58:15.000Z"
+    },
+    {
       "title": "Private capex puzzle: RBI sees ₹5.6 lakh crore pipeline, NIPFP flags weak investment conversion",
       "summary": "India’s private capex cycle is showing mixed signals, with RBI data pointing to a sharp rise in investment intentions while NIPFP flags a gap between project announcements and actual capital spending.",
       "url": "https://www.businesstoday.in/latest/economy/story/private-capex-puzzle-rbi-sees-rs5-6-lakh-crore-pipeline-nipfp-flags-weak-investment-conversion-558457-2026-09-29?utm_source=rssfeed",
       "source": "Business Today",
       "category": "regulatory",
       "publishedAt": "2026-09-29T06:23:05.000Z"
+    },
+    {
+      "title": "Family found Gulmarg hotel missing, spent night in car at -4C; travel portal to pay Rs 48,775",
+      "summary": "The advocate had reportedly reserved a family room at an inn in Srinagar for December 27 and 28, 2025. He paid Rs 5,788 for the booking. For the next leg of the trip, he booked two rooms at a hotel Gulmarg for December 28 and 29 at a cost of Rs 12,987.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/advocate-his-wife-son-daughter-booked-a-gulmarg-hotel-but-on-reaching-discovered-it-did-not-exist-family-forced-to-spend-night-in-car-at-4-degrees-travel-portal-ordered-to-pay-rs-48775/articleshow/134557762.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-29T06:17:09.000Z"
     },
     {
       "title": "US exempts India, 19 other countries from 100% tariff on speciality drugs",
@@ -209,22 +353,6 @@
       "publishedAt": "2026-09-28T21:34:13.000Z"
     },
     {
-      "title": "D-Street sees red as Gulf crisis, poor monsoon cloud outlook",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/sensex-slips-1-1k-points-to-6-month-low-d-street-sees-red-as-gulf-crisis-poor-monsoon-cloud-outlook/articleshow/134550141.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-28T21:28:26.000Z"
-    },
-    {
-      "title": "SiMa.ai raises $150mn to scale physical AI",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/sima-ai-raises-150mn-to-scale-physical-ai/articleshow/134550132.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-28T21:21:53.000Z"
-    },
-    {
       "title": "India’s weak trade with neighbours is a structural economic disadvantage, says expert",
       "summary": "While East Asian economies have built strong trade links with one another, India remains relatively disconnected from its neighbouring markets, according to Ruchir Sharma. He said that India’s low intraregional trade is a significant structural weakness.",
       "url": "https://www.businesstoday.in/latest/economy/story/indias-weak-trade-with-neighbours-is-a-structural-economic-disadvantage-says-expert-558375-2026-09-29?utm_source=rssfeed",
@@ -241,140 +369,12 @@
       "publishedAt": "2026-09-28T16:45:14.000Z"
     },
     {
-      "title": "Rs 5.2 crore cash deposit, but Rs 7.65 lakh ITR: Why ITAT quashed tax notice",
-      "summary": "The AO issued several notices to the individual seeking an explanation for the cash deposit and details relating to his ITR. The responses did not satisfy the tax department, following which the AO passed an assessment order.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/rs-5-2-crore-cash-deposit-but-rs-7-65-lakh-shown-in-itr-grain-trader-wins-tax-case-after-itat-quashes-notice-finds-bank-account-was-disclosed-in-form-3cd/articleshow/134546630.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-28T16:31:00.000Z"
-    },
-    {
-      "title": "Tata Trusts propose merging 2 firms with Tata Sons to avoid RBI listing mandate",
-      "summary": "In a strategic move, Tata Trusts have put forth a plan to merge Tata Electronics Systems Solutions Pvt Ltd and Tata Consulting Engineers into Tata Sons. This restructuring aims to redefine Tata Sons' regulatory classification, thereby sidestepping extra regulatory burdens.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/tata-trusts-propose-merging-2-firms-with-tata-sons-to-avoid-rbi-listing-mandate-nbfc-tag/articleshow/134545466.cms",
-      "source": "Times of India Business",
-      "category": "regulatory",
-      "publishedAt": "2026-09-28T14:51:10.000Z"
-    },
-    {
       "title": "Cleartrip checks in for a holiday-powered growth trip",
       "summary": "With holidays offering higher ticket sizes and margins than core travel bookings, Cleartrip expects the new business to materially improve customer economics at scale.",
       "url": "https://www.businesstoday.in/latest/corporate/story/cleartrip-checks-in-for-a-holiday-powered-growth-trip-558361-2026-09-28?utm_source=rssfeed",
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-09-28T14:30:43.000Z"
-    },
-    {
-      "title": "Tata Trusts propose merger of two Tata units with Tata Sons to avoid listing",
-      "summary": "The Tata Trusts, which hold a 66% stake in Tata Sons, have written to the company’s board seeking approval for the proposal",
-      "url": "https://www.businesstoday.in/latest/corporate/story/tata-trusts-propose-merger-of-two-tata-units-with-tata-sons-to-avoid-listing-558362-2026-09-28?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-28T13:53:33.000Z"
-    },
-    {
-      "title": "Sensex, Nifty sink further: Indices at six‑month lows; Rs 17.17 lakh crore wiped out in a month",
-      "summary": "The sell-off intensified on Monday. The BSE benchmark plunged 1,124.02 points, or 1.52%, to close at 72,771.72, marking its lowest closing level since March 30, 2026. The Nifty fell 360.25 points, or 1.56%, to finish at 22,780.25, its lowest level in nearly six months.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/stock-market-crash-takes-sensex-to-6-month-low-index-tanks-5-in-a-month-as-investors-lose-rs-17-lakh-crore/articleshow/134544486.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-28T13:42:33.000Z"
-    },
-    {
-      "title": "India's industrial output hits 8% growth in August, manufacturing up 9%",
-      "summary": "The August data marks the fifth monthly Index of Industrial Production reading under the new series. The IIP had grown 4.7% in August 2025",
-      "url": "https://www.businesstoday.in/latest/economy/story/indias-industrial-output-hits-8-growth-in-august-manufacturing-up-9-558329-2026-09-28?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-28T11:58:35.000Z"
-    },
-    {
-      "title": "CBDT extends tax audit report deadline till October 21, ITR filing last date to November 21",
-      "summary": "The Central Board of Direct Taxes has officially updated the deadlines for income-tax return submissions, providing taxpayers who are subject to audit an extension until November 21, 2026. Additionally, the deadline for submitting audit reports has shifted to October 21, 2026.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/cbdt-extends-tax-audit-report-deadline-till-october-21-itr-last-date-to-november-21/articleshow/134541506.cms",
-      "source": "Times of India Business",
-      "category": "regulatory",
-      "publishedAt": "2026-09-28T11:53:16.000Z"
-    },
-    {
-      "title": "50% work from home, parking charges doubled: Delhi steps up pollution curbs ahead of winter",
-      "summary": "The measures will be in force from November 1, with some restrictions continuing until January or February, depending on the activity",
-      "url": "https://www.businesstoday.in/latest/story/50-work-from-home-parking-charges-doubled-delhi-steps-up-pollution-curbs-ahead-of-winter-558231-2026-09-28?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-28T08:40:52.000Z"
-    },
-    {
-      "title": "2030 expansion blueprint: HSBC targets India’s growing rich pool in smaller cities",
-      "summary": "HSBC recently surfaced as the largest lender to the Indian diaspora under a special foreign-exchange swap initiative, disbursing $10.9 billion out of GIFT City over a three-month period, outpacing ICICI Bank’s second-place figure of $8.4 billion.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/2030-expansion-blueprint-hsbc-targets-indias-growing-rich-pool-in-smaller-cities-558165-2026-09-28?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-28T06:00:31.000Z"
-    },
-    {
-      "title": "Tata Sons AGM: Why holding the board meeting is critical amid the boardroom tussle",
-      "summary": "It has already been deferred once. From RoC, a request to again defer it may need to go to NCLT. N Chandrasekaran’s reappointment is a key item on the agenda",
-      "url": "https://www.businesstoday.in/latest/corporate/story/tata-sons-agm-why-holding-the-board-meeting-is-critical-amid-the-boardroom-tussle-558156-2026-09-28?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-28T05:29:38.000Z"
-    },
-    {
-      "title": "Quote of the Day by Dhirubhai Ambani: 'I consider myself a pathfinder. I have been excavating the jungle and making the road for others to walk. I like to be the first in everything I do'",
-      "summary": "He made these remarks while speaking about India's economic potential at the dawn of the 21st century, framing the youth as the primary drivers of the country's upcoming growth.",
-      "url": "https://www.businesstoday.in/india/story/quote-of-the-day-by-dhirubhai-ambani-i-consider-myself-a-pathfinder-i-have-been-excavating-the-jungle-and-making-the-road-for-others-to-walk-i-like-to-be-the-first-in-everything-i-do-558042-2026-09-28?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-28T02:00:04.000Z"
-    },
-    {
-      "title": "BT Big Story: India wants to become a shipbuilding power. Can it match China, Japan & South Korea?",
-      "summary": "India's Rs 70,000-crore bet to break into the world's shipbuilding elite club will need all hands on deck. But they have a few things going for them.",
-      "url": "https://www.businesstoday.in/india/story/bt-big-story-india-wants-to-become-a-shipbuilding-power-can-it-match-china-japan-south-korea-558082-2026-09-28?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-28T00:30:06.000Z"
-    },
-    {
-      "title": "'We are playing hockey, they are playing football': FM Sitharaman on China's trade barriers",
-      "summary": "In India, the consumer sets the requirement, whereas in China, the consumer may need it, but the authority sets the requirement and doesn't allow you to go in, says FM Sitharaman",
-      "url": "https://www.businesstoday.in/latest/economy/story/we-are-playing-hockey-they-are-playing-football-fm-sitharaman-on-chinas-trade-barriers-558101-2026-09-28?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-27T19:00:04.000Z"
-    },
-    {
-      "title": "India's former top negotiator at WTO. Now he warns of risks in a full-fledged FTA with US",
-      "summary": "A limited trade deal with the US could benefit India, but a broader agreement could put pressure on Indian agriculture and industry, as well as sectors such as pharmaceuticals, dairy, and poultry, says JS Deepak",
-      "url": "https://www.businesstoday.in/latest/economy/story/indias-former-top-negotiator-at-wto-now-he-warns-of-risks-in-a-full-fledged-fta-with-us-558102-2026-09-27?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-27T16:13:26.000Z"
-    },
-    {
-      "title": "Boeing detects software glitch in 737 MAX, working on permanent fix: Report",
-      "summary": "Boeing had informed 737 operators about the issue last month",
-      "url": "https://www.businesstoday.in/latest/story/boeing-detects-software-glitch-in-737-max-working-on-permanent-fix-report-558096-2026-09-27?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-27T13:00:30.000Z"
-    },
-    {
-      "title": "India's China trade deficit may not tell the full story, FM Sitharaman explains why",
-      "summary": "Our export account would say that we are still not adequately exporting to China. Actually, it is going to China, but it never gets accounted like that because it goes to Vietnam, says FM Sitharaman",
-      "url": "https://www.businesstoday.in/latest/economy/story/indias-china-trade-deficit-may-not-tell-the-full-story-fm-sitharaman-explains-why-558089-2026-09-27?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-27T11:00:20.000Z"
-    },
-    {
-      "title": "Tata Sons-Trusts battle: When Justice Nariman said nominee directors not bound by Trusts' directions",
-      "summary": "Justice Nariman's opinion dealt with whether directors nominated by Tata Trusts could be required to follow the Trusts' directions when voting on Tata Sons board resolutions",
-      "url": "https://www.businesstoday.in/latest/corporate/story/tata-sons-trusts-battle-when-justice-nariman-said-nominee-directors-not-bound-by-trusts-directions-558087-2026-09-27?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-27T09:46:19.000Z"
     }
   ]
 }
