@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-29T16:35:12.912Z",
-  "articlesCount": 50,
+  "lastUpdated": "2026-09-29T22:51:20.927Z",
+  "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
   "sourceStatus": [
@@ -13,8 +13,8 @@
     {
       "source": "Business Today",
       "status": "ok",
-      "articles": 30,
-      "feedUsed": "https://www.businesstoday.in/rss/markets"
+      "articles": 20,
+      "feedUsed": "https://www.businesstoday.in/rssfeeds/?id=225346"
     },
     {
       "source": "Zee Business",
@@ -57,28 +57,44 @@
   ],
   "articles": [
     {
-      "title": "Why there are clear signs of a reset in India's quick-commerce sector",
-      "summary": "",
-      "url": "https://www.businesstoday.in/magazine/cover-story/story/why-there-are-clear-signs-of-a-reset-in-indias-quick-commerce-sector-555364-2026-09-14?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-29T16:35:06.689Z"
-    },
-    {
-      "title": "What Will Define the Next Generation of Finance Leaders?",
-      "summary": "",
-      "url": "https://www.businesstoday.in/impact-feature/story/what-will-define-the-next-generation-of-finance-leaders-556564-2026-09-18?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-29T16:35:06.689Z"
-    },
-    {
-      "title": "The truth behind legendary actor Jackie Chan's viral death rumours",
-      "summary": "This is not the first time that a false report about a major celebrity’s death has gone viral, and Chan has now joined the list of public figures targeted by such misinformation",
-      "url": "https://www.businesstoday.in/trending/entertainment/story/the-truth-behind-legendary-actor-jackie-chans-viral-death-rumours-558641-2026-09-29?utm_source=rssfeed",
+      "title": "China cut bancassurance commissions 30%: Could India see a similar insurance reset?",
+      "summary": "China’s 2023 bancassurance overhaul cut commissions by around 30%, initially slowing sales. India’s proposed reset could similarly pressure bancassurance as banks and insurers renegotiate distribution economics.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/china-cut-bancassurance-commissions-30-could-india-see-a-similar-insurance-reset-558611-2026-09-30?utm_source=rssfeed",
       "source": "Business Today",
       "category": "insurance",
-      "publishedAt": "2026-09-29T15:56:47.000Z"
+      "publishedAt": "2026-09-29T21:00:05.000Z"
+    },
+    {
+      "title": "Top 10 fastest-growing major economies in 2026: India leads with 6.2% ahead of China, US",
+      "summary": "Indonesia is projected to expand by 4.9% in 2026, matching its projected growth rate for 2025. This puts the Southeast Asian economy behind India but significantly ahead of most advanced economies",
+      "url": "https://www.businesstoday.in/latest/world/story/top-10-fastest-growing-major-economies-in-2026-india-leads-with-6-2-ahead-of-china-us-558630-2026-09-30?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-29T20:00:05.000Z"
+    },
+    {
+      "title": "Centre picks 50 cities for PRAGATI-50 clean-city initiative",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/centre-picks-50-cities-for-pragati-50-clean-city-initiative/articleshow/134571763.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-29T17:42:06.000Z"
+    },
+    {
+      "title": "Noel Tata raises key Tata Sons listing concern: What if a group company gets into trouble?",
+      "summary": "Why we avoid listing is that we believe that it will fundamentally change the way the company has and the group has been run over the last 150 years, says Noel tata",
+      "url": "https://www.businesstoday.in/latest/corporate/story/noel-tata-raises-key-tata-sons-listing-concern-what-if-a-group-company-gets-into-trouble-558646-2026-09-29?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-29T17:04:53.000Z"
+    },
+    {
+      "title": "India's deep-tech moment? 22 projects get backing under ₹1 lakh crore RDI Fund",
+      "summary": "Our first cohort: 22 projects, ₹4,744 Cr of R&D, with RDIF funding ₹2,192 Cr. The companies are putting up more than half the money themselves, says Pinnacle Industries' Sudhir Mehta",
+      "url": "https://www.businesstoday.in/latest/economy/story/indias-deep-tech-moment-22-projects-get-backing-under-rs1-lakh-crore-rdi-fund-558642-2026-09-29?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-29T16:18:07.000Z"
     },
     {
       "title": "Festive season ahead: Govt urges edible-oil processors to cut retail prices after duty cuts",
@@ -97,20 +113,20 @@
       "publishedAt": "2026-09-29T14:33:54.000Z"
     },
     {
-      "title": "Eiffel Tower operator to step down after female staff excluded from BAPS visit: Report",
-      "summary": "Patrick Branco Ruivo, director general of the Société d’Exploitation de la Tour Eiffel (SETE), will leave his position following the investigation into events surrounding the September 5 visit.",
-      "url": "https://www.businesstoday.in/world/story/eiffel-tower-operator-to-step-down-after-female-staff-excluded-from-baps-visit-report-558628-2026-09-29?utm_source=rssfeed",
+      "title": "Oberoi unveils luxury resort in Saudi Arabia's Wadi Safar, set to open in 2027",
+      "summary": "The luxury resort, currently under development, is located about 30 minutes from Riyadh and close to At-Turaif, a UNESCO World Heritage Site in Diriyah",
+      "url": "https://www.businesstoday.in/latest/corporate/story/oberoi-unveils-luxury-resort-in-saudi-arabias-wadi-safar-set-to-open-in-2027-558618-2026-09-29?utm_source=rssfeed",
       "source": "Business Today",
       "category": "markets",
-      "publishedAt": "2026-09-29T14:28:23.000Z"
+      "publishedAt": "2026-09-29T13:58:29.000Z"
     },
     {
-      "title": "Bank holidays in October 2026: Check state-wise closures before visiting your branch",
-      "summary": "Banks will remain closed on several days in October 2026 due to national and regional festivals, including Dussehra, Durga Puja and Mahalaya Amavasya.",
-      "url": "https://www.businesstoday.in/india/story/bank-holidays-in-october-2026-check-state-wise-closures-before-visiting-your-branch-558612-2026-09-29?utm_source=rssfeed",
+      "title": "NKN Media hits AED 300 million valuation after AED 15 million investment by Dhiraj Jain",
+      "summary": "NKN Media has reached a valuation of AED 300 million following a strategic AED 15 million investment by entrepreneur and investor Dhiraj Jain, who has acquired a 5% stake in the UAE-based media company.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/nkn-media-hits-aed-300-million-valuation-after-aed-15-million-investment-by-dhiraj-jain-558613-2026-09-29?utm_source=rssfeed",
       "source": "Business Today",
       "category": "markets",
-      "publishedAt": "2026-09-29T13:25:44.000Z"
+      "publishedAt": "2026-09-29T13:41:46.000Z"
     },
     {
       "title": "Shaktikanta Das flags need to cut India's oil import dependence, cites Rs 84,000-crore offshore push",
@@ -129,28 +145,20 @@
       "publishedAt": "2026-09-29T12:43:10.000Z"
     },
     {
+      "title": "5-day banking closer to discussion stage as IBA forms high-level committee",
+      "summary": "IBA has formed a high-level committee with bank unions to discuss the implementation of five-day banking and declaring the remaining Saturdays as holidays.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/5-day-banking-closer-to-discussion-stage-as-iba-forms-high-level-committee-558601-2026-09-29?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-29T12:38:53.000Z"
+    },
+    {
       "title": "Son died, LIC denied father Rs 5 lakh over heart condition; Commission orders payout with interest",
       "summary": "The Commission referred to a National Consumer Disputes Redressal Commission decision concerning \"silent diseases\", observing that a person may not necessarily be aware of a condition until it aggravates and symptoms become apparent.",
       "url": "https://timesofindia.indiatimes.com/business/india-business/his-son-died-insurance-company-denied-father-rs-5-lakh-over-alleged-undisclosed-heart-condition-punjab-consumer-commission-finds-no-reliable-medical-proof-orders-rs-5-lakh-plus-7-interest-and-rs-10000/articleshow/134560425.cms",
       "source": "Times of India Business",
       "category": "insurance",
       "publishedAt": "2026-09-29T12:25:00.000Z"
-    },
-    {
-      "title": "Supreme Court Questions High Medicine Prices At Corporate Hospitals | Essential Drugs Pricing",
-      "summary": "The Supreme Court has raised serious concerns over the pricing of essential medicines at corporate hospitals, questioning why patients are often required to purchase drugs through in-house pharmacies at significantly higher prices.",
-      "url": "https://www.businesstoday.in/bt-tv/market-today/video/supreme-court-questions-high-medicine-prices-at-corporate-hospitals-essential-drugs-pricing-558594-2026-09-29?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-29T12:24:06.000Z"
-    },
-    {
-      "title": "India Seeks Alternate Air Routes Via China, Bhutan To Cut Airline Costs | Pakistan Airspace Ban",
-      "summary": "The government is exploring alternate air routes to help Indian airlines reduce the additional cost and flying time caused by the extended Pakistan airspace ban, according to sources cited by Business Today Television.",
-      "url": "https://www.businesstoday.in/bt-tv/market-today/video/india-seeks-alternate-air-routes-via-china-bhutan-to-cut-airline-costs-pakistan-airspace-ban-558598-2026-09-29?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-29T12:20:24.000Z"
     },
     {
       "title": "Trade irony amid Trump threat: Why Russia is buying its own oil as fuel from India",
@@ -161,108 +169,12 @@
       "publishedAt": "2026-09-29T12:12:58.000Z"
     },
     {
-      "title": "Indian rupee hits two-month low, ends nearly flat below 96 per US dollar",
-      "summary": "The rupee's move comes as crude oil prices remain elevated, a key factor for India's external balance given the country's dependence on imported crude oil.",
-      "url": "https://www.businesstoday.in/markets/story/indian-rupee-hits-two-month-low-ends-nearly-flat-below-96-per-us-dollar-558595-2026-09-29?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-29T11:50:07.000Z"
-    },
-    {
-      "title": "8 Years Of Ayushman Bharat: Benefits, Eligibility & How To Claim | Insurance Guide | Money Today",
-      "summary": "Are government health insurance schemes enough to cover rising medical costs? On Money Today’s Insurance Masterclass, Dr. S.",
-      "url": "https://www.businesstoday.in/bt-tv/whats-hot/video/8-years-of-ayushman-bharat-benefits-eligibility-how-to-claim-insurance-guide-money-today-558547-2026-09-29?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "insurance",
-      "publishedAt": "2026-09-29T11:31:12.000Z"
-    },
-    {
-      "title": "Noel Tata Hits Back With New Merger Plan | Can Tata Sons Avoid Listing? | Boardroom War",
-      "summary": "The Tata Sons boardroom battle has taken a dramatic new turn as Tata Trusts Chairman Noel Tata proposes a major restructuring to keep the Tata Group's holding company unlisted.",
-      "url": "https://www.businesstoday.in/bt-tv/whats-hot/video/noel-tata-hits-back-with-new-merger-plan-can-tata-sons-avoid-listing-boardroom-war-558583-2026-09-29?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "regulatory",
-      "publishedAt": "2026-09-29T11:27:45.000Z"
-    },
-    {
-      "title": "Tata Vs Tata: The iPhone, Ram Mandir Connection That Could ‘Rescue” Tata Sons",
-      "summary": "Can an iPhone manufacturer and the engineering consultant behind major Indian infrastructure projects help Tata Sons avoid a stock market listing? Tata Trusts has proposed merging Tata Electronics Systems Solutions (TESS) and Tata Consulting Engineers (TCE) in…",
-      "url": "https://www.businesstoday.in/bt-tv/whats-hot/video/tata-vs-tata-the-iphone-ram-mandir-connection-that-could-rescue-tata-sons-558559-2026-09-29?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "regulatory",
-      "publishedAt": "2026-09-29T11:05:37.000Z"
-    },
-    {
-      "title": "Market Crash Or Value Trap? | Oil Above $100 Vs Stock Market Crash | Dinshaw Irani | Helios Capital",
-      "summary": "Welcome to another episode of Market Guru on Business Today TV. With the Nifty crashing over 2,100 points to mid-April lows, investor panic is at peak levels.",
-      "url": "https://www.businesstoday.in/bt-tv/market-guru/video/market-crash-or-value-trap-oil-above-100-vs-stock-market-crash-dinshaw-irani-helios-capital-558548-2026-09-29?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-29T11:02:45.000Z"
-    },
-    {
-      "title": "Gold is booming, but EGRs aren’t: Why electronic gold receipts are struggling to attract investors despite market buzz",
-      "summary": "Gold remains a popular investment asset, but electronic gold receipts (EGRs) have struggled to generate similar investor interest despite being designed to offer exchange-traded ownership of physical gold.",
-      "url": "https://www.businesstoday.in/personal-finance/story/gold-is-booming-but-egrs-arent-why-electronic-gold-receipts-struggle-to-attract-investors-despite-market-buzz-558579-2026-09-29?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-29T11:01:24.000Z"
-    },
-    {
-      "title": "What’s Hot: Stocks, Gold & Big Money Moves | Daily Markets Show | September 29 | Business Today",
-      "summary": "Welcome to What's Hot on Business Today TV. The D-Street is feeling the pinch as the Nifty slips below the crucial 22,600 mark during an extremely forgettable September expiry session.",
-      "url": "https://www.businesstoday.in/bt-tv/market-today/video/whats-hot-stocks-gold-big-money-moves-daily-markets-show-september-29-business-today-558549-2026-09-29?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-29T11:01:10.000Z"
-    },
-    {
-      "title": "Why Global Airlines Are Rushing to India's Untapped Aviation Goldmine | Rammohan Naidu",
-      "summary": "India's tier-2 cities are sitting on a massive, untapped aviation goldmine. Civil Aviation Minister K. Rammohan Naidu highlights the explosive growth in regional airports, citing Vijayawada's staggering 500% passenger surge and Guwahati's massive domestic footfall.",
-      "url": "https://www.businesstoday.in/bt-tv/whats-hot/video/why-global-airlines-are-rushing-to-indias-untapped-aviation-goldmine-rammohan-naidu-558536-2026-09-29?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-29T10:58:51.000Z"
-    },
-    {
       "title": "Nvidia announces record $150 billion share buyback amid AI boom",
       "summary": "",
       "url": "https://timesofindia.indiatimes.com/business/international-business/nvidia-announces-record-150-billion-share-buyback-amid-ai-boom/articleshow/134563925.cms",
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-09-29T10:56:49.000Z"
-    },
-    {
-      "title": "EAM Jaishankar On US-India Ties As World Moves Towards A More Multipolar Order",
-      "summary": "External Affairs Minister S. Jaishankar spoke about the changing dynamic between India, the US and other major powers as the world moves towards greater multipolarity.",
-      "url": "https://www.businesstoday.in/bt-tv/whats-hot/video/eam-jaishankar-on-us-india-ties-as-world-moves-towards-a-more-multipolar-order-558525-2026-09-29?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-29T10:53:39.000Z"
-    },
-    {
-      "title": "Nifty Falls 7% In September: Crude, FII Selling & Rupee Pressure Hit Markets",
-      "summary": "Indian markets are witnessing a sharp September correction, with the Nifty falling around 7% over 22 trading sessions to levels last seen in mid-April. Higher crude oil prices, rising bond yields, heavy foreign investor selling and a weaker rupee have added pressure on equities.",
-      "url": "https://www.businesstoday.in/bt-tv/market-today/video/nifty-falls-7-in-september-crude-fii-selling-rupee-pressure-hit-markets-558522-2026-09-29?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-29T10:51:20.000Z"
-    },
-    {
-      "title": "Govt explores alternative air routes amid ban on Pakistan airspace",
-      "summary": "Pakistan's ban affects Indian-registered aircraft and those operated or leased by Indian airlines, including military flights.",
-      "url": "https://www.businesstoday.in/india/story/govt-explores-alternative-air-routes-amid-ban-on-pakistan-airspace-558575-2026-09-29?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-29T10:49:29.000Z"
-    },
-    {
-      "title": "Subway's Indian parent EverBrands files DRHP with SEBI to launch its IPO; check details",
-      "summary": "EverBrands India, formerly known as Culinary Brands, has filed its DRHP with the SEBI for an initial public offering.",
-      "url": "https://www.businesstoday.in/markets/ipo-corner/story/subways-indian-parent-everbrands-files-drhp-with-sebi-to-launch-its-ipo-check-details-558573-2026-09-29?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "regulatory",
-      "publishedAt": "2026-09-29T10:42:23.000Z"
     },
     {
       "title": "Reliance, Nayara restrict fuel sales as crude hits $107 and retail prices stay frozen: Report",
@@ -273,12 +185,28 @@
       "publishedAt": "2026-09-29T10:13:57.000Z"
     },
     {
-      "title": "How new safety evidence is boosting India’s expanding Ashwagandha market",
-      "summary": "Government-backed 24-week trial of 1,200 adults finds no liver or kidney injury from a standardised root extract.",
-      "url": "https://www.businesstoday.in/india/story/how-new-safety-evidence-is-boosting-indias-expanding-ashwagandha-market-558540-2026-09-29?utm_source=rssfeed",
+      "title": "'Largest steel plant in American history': Trump announces Essar-backed $18 billion investment",
+      "summary": "Mesabi Metallics, a Minnesota-based company owned by India's Essar Group, is developing an iron ore mine in Nashwauk on the Mesabi Iron Range",
+      "url": "https://www.businesstoday.in/latest/corporate/story/largest-steel-plant-in-american-history-trump-announces-essar-backed-18-billion-investment-558562-2026-09-29?utm_source=rssfeed",
       "source": "Business Today",
       "category": "markets",
-      "publishedAt": "2026-09-29T09:41:10.000Z"
+      "publishedAt": "2026-09-29T10:04:01.000Z"
+    },
+    {
+      "title": "Affordable housing loans: Why ₹10-15 lakh borrowers remain the sweet spot for specialist lenders",
+      "summary": "The ₹10-15 lakh loan segment remains a key growth market for specialist affordable housing finance companies, with more than 60-65% of borrowers surveyed by Systematix falling in this ticket-size bracket.",
+      "url": "https://www.businesstoday.in/personal-finance/story/affordable-housing-loans-why-rs10-15-lakh-borrowers-remain-the-sweet-spot-for-specialist-lenders-558535-2026-09-29?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-29T09:32:28.000Z"
+    },
+    {
+      "title": "BT Exclusive: ONGC Videsh to restart operations in Venezuela's San Cristobal oilfield soon",
+      "summary": "Production and investment plans agreed with Venezuelan authorities; field revival could begin within 90-120 days of Venezuelan govt approval.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/ongc-videsh-to-restart-operations-in-venezuelas-san-cristobal-oilfield-soon-558534-2026-09-29?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-29T09:30:01.000Z"
     },
     {
       "title": "GST compliance burden weighs more heavily on smaller unincorporated firms",
@@ -305,20 +233,12 @@
       "publishedAt": "2026-09-29T08:38:54.000Z"
     },
     {
-      "title": "Who is Chirantan 'CJ' Desai, Meta's pick to lead its enterprise AI push?",
-      "summary": "Chirantan Desai is joining Meta as Chief Enterprise Platform Officer and will report directly to Zuckerberg.",
-      "url": "https://www.businesstoday.in/technology/story/who-is-chirantan-cj-desai-metas-pick-to-lead-its-enterprise-ai-push-558518-2026-09-29?utm_source=rssfeed",
+      "title": "India inflation hits 4.8% as price pressures broaden beyond food and fuel: Report",
+      "summary": "India’s inflation rose to 4.8% in August, its highest level since January 2025, while price pressures are broadening beyond food and fuel. BNP Paribas said rising core inflation, higher crude prices and a weakening rupee are adding to the macroeconomic pressure.",
+      "url": "https://www.businesstoday.in/latest/economy/story/india-inflation-hits-4-8-as-price-pressures-broaden-beyond-food-and-fuel-report-558499-2026-09-29?utm_source=rssfeed",
       "source": "Business Today",
       "category": "markets",
-      "publishedAt": "2026-09-29T08:29:53.000Z"
-    },
-    {
-      "title": "No social media for under 18s? Centre mulls new safeguards after SC raises concern",
-      "summary": "The Supreme Court has expressed serious concerns over social media access for users under 18 and called for legally binding safeguards.",
-      "url": "https://www.businesstoday.in/india/story/no-social-media-for-under-18s-centre-mulls-new-safeguards-after-sc-raises-concern-558513-2026-09-29?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-29T08:14:00.000Z"
+      "publishedAt": "2026-09-29T07:51:01.000Z"
     },
     {
       "title": "Gold price outlook: Gold under extreme pressure; analyst sees rallies as opportunity to sell",
@@ -329,12 +249,28 @@
       "publishedAt": "2026-09-29T07:29:46.000Z"
     },
     {
+      "title": "Tata Sons listing may have no immediate rating impact, S&P says",
+      "summary": "S&P Global Ratings said a potential Tata Sons listing and leadership transition at the Tata group are unlikely to have an immediate impact on the ratings of key group entities.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/tata-sons-listing-may-have-no-immediate-rating-impact-sp-says-558489-2026-09-29?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-29T07:24:13.000Z"
+    },
+    {
       "title": "Small savings rates for Q3 FY27: Will the government hike interest rates for the October-December quarter?",
       "summary": "If rates are revised upwards, it would be the first change since December 2024, when the government increased rates for the Sukanya Samriddhi Account and the three-year Post Office Time Deposit.",
       "url": "https://www.businesstoday.in/personal-finance/story/small-savings-rates-for-q3-fy27-will-the-government-hike-interest-rates-for-the-october-december-quarter-558469-2026-09-29?utm_source=rssfeed",
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-09-29T06:58:15.000Z"
+    },
+    {
+      "title": "Private capex puzzle: RBI sees ₹5.6 lakh crore pipeline, NIPFP flags weak investment conversion",
+      "summary": "India’s private capex cycle is showing mixed signals, with RBI data pointing to a sharp rise in investment intentions while NIPFP flags a gap between project announcements and actual capital spending.",
+      "url": "https://www.businesstoday.in/latest/economy/story/private-capex-puzzle-rbi-sees-rs5-6-lakh-crore-pipeline-nipfp-flags-weak-investment-conversion-558457-2026-09-29?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "regulatory",
+      "publishedAt": "2026-09-29T06:23:05.000Z"
     },
     {
       "title": "Family found Gulmarg hotel missing, spent night in car at -4C; travel portal to pay Rs 48,775",
@@ -383,14 +319,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-09-29T03:11:37.000Z"
-    },
-    {
-      "title": "BT BIG STORY: Why crypto is still thriving among Indian investors",
-      "summary": "Despite regulatory uncertainty and stiff taxes, virtual digital assets continue to see a steady inflow of investors. As widespread adoption continues, is it time for India to introduce regulations?",
-      "url": "https://www.businesstoday.in/crypto/story/bt-big-story-why-crypto-is-still-thriving-among-indian-investors-558385-2026-09-29?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "regulatory",
-      "publishedAt": "2026-09-29T00:30:07.000Z"
     },
     {
       "title": "Piyush Goyal to hold talks for trade deal with US",
@@ -447,14 +375,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-09-28T21:48:42.000Z"
-    },
-    {
-      "title": "Gold hits 7-week low as oil surge fuels rate hike bets",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/gold-hits-7-week-low-as-oil-surge-fuels-rate-hike-bets/articleshow/134550341.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-28T21:44:10.000Z"
     }
   ]
 }
