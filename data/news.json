@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-30T16:27:40.824Z",
+  "lastUpdated": "2026-09-30T22:49:41.122Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,30 @@
     }
   ],
   "articles": [
+    {
+      "title": "Senior citizen wrongly paid tax on Rs 25.42 lakh bond interest; ITAT orders Rs 9.91 lakh refund",
+      "summary": "Each year, the senior citizen reported the interest earned from his investments in tax-free bonds under the ‘exempt income’ category in his income tax return (ITR). But made a mistake in one year.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/senior-citizen-invested-rs-3-crore-in-tax-free-bonds-but-mistakenly-paid-tax-on-rs-25-42-lakh-interest-earnings-why-itat-delhi-ordered-rs-9-91-lakh-refund/articleshow/134595737.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-30T21:25:00.000Z"
+    },
+    {
+      "title": "Harshad Mehta scam to insurance reforms: Why Deepak Shenoy calls regulation 'a feature, not a bug'",
+      "summary": "The aftermath of the Harshad Mehta scam reshaped India’s financial-market regulation, with reforms aimed at strengthening transparency and investor confidence.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/harshad-mehta-scam-to-insurance-reforms-why-deepak-shenoy-calls-regulation-a-feature-not-a-bug-558897-2026-10-01?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "insurance",
+      "publishedAt": "2026-09-30T19:05:03.000Z"
+    },
+    {
+      "title": "5 money changes in Oct: Bulk FD rates, UPI MDR, SBI ATM limit cut, LPG KYC & more",
+      "summary": "The money changes include a reduction in the number of free ATM transactions for certain State Bank of India (SBI) salary account customers, new disclosure norms for interest rates on bulk fixed deposits (FDs), revised charges under the National Pension System…",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/5-money-rule-changes-from-october-2026-bulk-fd-rates-upi-mdr-starts-above-rs-2000-sbi-atm-free-limit-falls-to-5-lpg-aadhaar-kyc-new-nps-charges/articleshow/134587809.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-30T17:25:00.000Z"
+    },
     {
       "title": "Premiumisation moves beyond metros as tier-2, 3 consumers drive demand for new-age brands",
       "summary": "New-age brands are seeing stronger demand from smaller cities as digital access, social media and rising aspirations reshape how consumers discover and buy products.",
@@ -345,36 +369,12 @@
       "publishedAt": "2026-09-30T02:37:47.000Z"
     },
     {
-      "title": "Quote of the Day by Azim Premji: 'You cannot underestimate the value of luck in success in life. And I've really learned to appreciate that'",
-      "summary": "Often referred to as the \"Czar of the Indian IT Industry,\" he is best known for transforming Wipro Limited from a small family-run cooking oil business into a multi-billion-dollar global software and outsourcing giant.",
-      "url": "https://www.businesstoday.in/india/story/quote-of-the-day-by-azim-premji-you-cannot-underestimate-the-value-of-luck-in-success-in-life-and-ive-really-learned-to-appreciate-that-558640-2026-09-30?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-30T02:00:07.000Z"
-    },
-    {
       "title": "Oil stays above $103 after Trump denies easing sanctions on Iran",
       "summary": "Rising oil prices are reflecting a renewed uncertainty over US sanctions on Iran, with Brent crude surpassing $103 a barrel and WTI hovering around $89.",
       "url": "https://timesofindia.indiatimes.com/business/international-business/oil-stays-above-103-after-trump-denies-easing-sanctions-on-iran/articleshow/134577192.cms",
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-09-30T01:54:09.000Z"
-    },
-    {
-      "title": "Walking a tightrope: 5 hurdles facing Noel Tata and an unlisted Tata Sons",
-      "summary": "Noel Tata's plan for merging Tata companies seeks to maintain the private status of Tata Sons, avoiding any public listing. However, the Reserve Bank of India has already rejected previous requests to ease regulatory restrictions on Tata Sons.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/5-hurdles-facing-noel-tata-and-an-unlisted-tata-sons/articleshow/134577100.cms",
-      "source": "Times of India Business",
-      "category": "regulatory",
-      "publishedAt": "2026-09-30T01:34:47.000Z"
-    },
-    {
-      "title": "Centre picks 50 cities for PRAGATI-50 clean-city initiative",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/centre-picks-50-cities-for-pragati-50-clean-city-initiative/articleshow/134571763.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-29T17:42:06.000Z"
     }
   ]
 }
