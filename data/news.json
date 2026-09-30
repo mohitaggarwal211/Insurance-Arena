@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-30T06:54:21.798Z",
+  "lastUpdated": "2026-09-30T13:22:53.985Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,150 @@
     }
   ],
   "articles": [
+    {
+      "title": "RBI MPC meet: Why your borrowing costs may go up from October",
+      "summary": "High oil prices and weak monsoon, which will weigh on food prices, are likely to push up inflation, and in this backdrop, RBI may raise the repo rate by 25 bps each in October and December, feels D. K. Joshi, Chief Economist at Crisil",
+      "url": "https://www.businesstoday.in/latest/economy/story/rbi-mpc-meet-why-your-borrowing-costs-may-go-up-from-october-558891-2026-09-30?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "regulatory",
+      "publishedAt": "2026-09-30T12:58:05.000Z"
+    },
+    {
+      "title": "Switched to the new income tax regime? Why these older tax-saving instruments still make sense",
+      "summary": "While the usual go-to avenues may have lost some of their appeal as tax-saving instruments, they still hold great financial value in terms of long-term financial security. Many taxpayers view life insurance as a tax-saving tool, but its value is far greater.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/switched-to-the-new-income-tax-regime-why-older-tax-saving-instruments-like-ppf-nps-life-insurance/articleshow/134589490.cms",
+      "source": "Times of India Business",
+      "category": "insurance",
+      "publishedAt": "2026-09-30T12:32:00.000Z"
+    },
+    {
+      "title": "ASI 2024-25: Manufacturing workforce crossed 21 million, factories up 2.6%",
+      "summary": "Manufacturing GVA up 7.8%; TN, Gujarat, Maharashtra lead the way in number of factories",
+      "url": "https://www.businesstoday.in/latest/economy/story/asi-2024-25-manufacturing-workforce-crossed-21-million-factories-up-2-6-558882-2026-09-30?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-30T12:29:50.000Z"
+    },
+    {
+      "title": "DoorDash to create 3,000 jobs at global tech hub in Telangana",
+      "summary": "This hub is also DoorDash’s second tech office in India after Pune, where it operates software, data and analytics teams linked to its 2021 acquisition of robotics start-up Chowbotics.",
+      "url": "https://www.businesstoday.in/jobs/story/doordash-to-create-3000-jobs-at-global-tech-hub-in-telangana-558828-2026-09-30?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-30T10:36:24.000Z"
+    },
+    {
+      "title": "Nitin Gadkari: 100% ethanol flex-fuel engines being developed",
+      "summary": "India currently imports petroleum worth around Rs 22 lakh crore, Gadkari said, underlining the need to reduce the country's dependence on imported fuels through greater use of ethanol, electricity, hydrogen and other alternative energy sources.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/nitin-gadkari-says-flex-fuel-engines-capable-of-running-on-100-ethanol-are-being-developed-vehicles-using-the-technology-will-be-introduced-as-india-pushes-alternative-fuels/articleshow/134585484.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-30T10:36:15.000Z"
+    },
+    {
+      "title": "Delhi traffic gets ‘brain’: How new Rs 1,789cr traffic system will change your commute",
+      "summary": "Delhi will soon introduce an Intelligent Traffic Management System to improve traffic management across the capital. The project aims to adjust traffic signals based on real-time conditions and reduce congestion.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/delhi-traffic-gets-a-brain-how-new-rs-1789-crore-traffic-system-will-change-your-commute/articleshow/134590904.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-30T10:24:09.000Z"
+    },
+    {
+      "title": "Rabi MSP hike, Rs 1.86 lakh crore green corridor, Delhi AI traffic system: Cabinet clears 3 key measures",
+      "summary": "The Union Cabinet has sanctioned increased Minimum Support Prices for Rabi crops, fostering agricultural growth for farmers across the country.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/rabi-msp-hike-rs-1-86-lakh-crore-green-corridor-delhi-ai-traffic-system-cabinet-clears-3-key-measures/articleshow/134590128.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-30T10:15:09.000Z"
+    },
+    {
+      "title": "Cabinet clears ₹2.79 lakh crore package: Rabi MSP hike, PM DHARA and Delhi traffic system",
+      "summary": "The largest allocation, ₹1,86,405 crore, has been approved for PM DHARA (Developing Harmonized and Accelerated Renewable Energy Access), a programme aimed at developing and accelerating access to renewable energy.",
+      "url": "https://www.businesstoday.in/latest/economy/story/cabinet-clears-rs2-79-lakh-crore-package-rabi-msp-hike-pm-dhara-and-delhi-traffic-system-558824-2026-09-30?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-30T10:09:20.000Z"
+    },
+    {
+      "title": "Small savings rates today: PPF, NSC, SCSS, KVP, POMIS -- which schemes are most mispriced against G-sec yields?",
+      "summary": "The Finance Ministry is set to announce small savings interest rates for October-December 2026 today, September 30, amid a prolonged rate freeze. G-sec yields show wide gaps between formula-implied and actual rates across schemes, with NSC among the most notable.",
+      "url": "https://www.businesstoday.in/personal-finance/investment/story/small-savings-rates-today-ppf-nsc-scss-kvp-pomis-which-schemes-are-most-mispriced-against-g-sec-yields-558816-2026-09-30?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-30T09:50:09.000Z"
+    },
+    {
+      "title": "Bank holidays in October: When and where will banks remain closed?",
+      "summary": "Bank customers are advised to organize their visits in light of several upcoming regional and national holidays that will lead to branch closures. Key dates to remember include Mahatma Gandhi Jayanti on October 2 and Dussehra on October 19, which will affect various states.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/bank-holidays-in-october-when-and-where-will-banks-remain-closed-check-state-wise-list/articleshow/134589874.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-30T09:48:22.000Z"
+    },
+    {
+      "title": "Small savings interest rates today: PPF, SSY and SCSS rates face September 30 review; what investors should know",
+      "summary": "The Finance Ministry is set to announce the small savings interest rates for the October-December 2026 quarter today, with investors closely watching PPF, SSY and SCSS.",
+      "url": "https://www.businesstoday.in/personal-finance/story/small-savings-interest-rates-today-ppf-ssy-and-scss-rates-face-september-30-review-what-investors-should-know-558796-2026-09-30?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-30T09:25:21.000Z"
+    },
+    {
+      "title": "L&T bags twin Dubai contracts for bridges, tunnels and roads, projects to handle 130,000 trips daily",
+      "summary": "According to L&T’s order classification, a Large contract is valued between ₹2,500 crore and ₹5,000 crore, while a Significant contract falls in the ₹1,000 crore to ₹2,500 crore range",
+      "url": "https://www.businesstoday.in/latest/corporate/story/lt-bags-twin-dubai-contracts-for-bridges-tunnels-and-roads-projects-to-handle-130000-trips-daily-558775-2026-09-30?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-30T08:55:50.000Z"
+    },
+    {
+      "title": "New CAFE-III fuel-efficiency rules: What changes for EVs, hybrids and small cars",
+      "summary": "As of April 1, 2027, India will roll out new Corporate Average Fuel Economy (CAFE) regulations aimed at passenger vehicles, demanding increasing fuel-efficiency targets that will evolve each year until 2032.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/new-cafe-iii-fuel-efficiency-rules-what-changes-for-evs-hybrids-and-small-cars/articleshow/134582940.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-30T08:43:48.000Z"
+    },
+    {
+      "title": "RBI rate hikes ahead? BofA sees 100 bps repo rate increase through H1 2027",
+      "summary": "Bank of America Securities anticipates that the Reserve Bank of India will implement significant interest rate hikes by mid-2027.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/rbi-rate-hikes-ahead-bofa-sees-100-bps-repo-rate-increase-through-h1-2027/articleshow/134584123.cms",
+      "source": "Times of India Business",
+      "category": "regulatory",
+      "publishedAt": "2026-09-30T08:29:14.000Z"
+    },
+    {
+      "title": "Rhetan TMT, Bajaj Tubular sign MoU for potential ₹250-₹300 crore business",
+      "summary": "Proposed purchase of about 20,000 tonnes of TMT bars over 24 months could lift volumes and capacity utilisation",
+      "url": "https://www.businesstoday.in/latest/corporate/story/rhetan-tmt-bajaj-tubular-sign-mou-for-potential-rs250-rs300-crore-business-558774-2026-09-30?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-09-30T08:26:46.000Z"
+    },
+    {
+      "title": "Rs 1.54 lakh crore and counting: Why Indians still choose PPF, SSY, SCSS",
+      "summary": "The net collections under small savings schemes are expected to surpass the budgeted Rs 3.59 lakh crore target for financial year 2026-27 by a comfortable margin, with inflows during the first four months of the fiscal already 56% higher than in the correspond…",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/rs-1-54-lakh-crore-and-counting-why-ppf-sukanya-samriddhi-and-senior-citizen-schemes-keep-attracting-indians-fy27-target-of-rs-3-59-lakh-crore-set-to-be-beaten/articleshow/134583847.cms",
+      "source": "Times of India Business",
+      "category": "regulatory",
+      "publishedAt": "2026-09-30T07:34:35.000Z"
+    },
+    {
+      "title": "Anthropic Ipo Prospectus: firm seeks $2trn valuation with 12x 2025 revenue; $518bn capex fuels AI trade",
+      "summary": "Aiming for a valuation surpassing $2 trillion, Anthropic has pledged an impressive $518 billion in infrastructure investments. In 2025, the company saw its revenue multiply by twelve times, capturing the attention of investors.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/anthropic-targets-2-trillion-valuation-despite-huge-spending-and-billions-in-losses/articleshow/134583969.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-09-30T07:02:10.000Z"
+    },
+    {
+      "title": "IRDAI insurance reforms: IBAI warns commission caps could hurt policyholders, jobs and growth",
+      "summary": "The Insurance Brokers Association of India (IBAI) has raised concerns over IRDAI’s proposed insurance distribution reforms, warning that commission caps and lower expense limits could affect policyholders, jobs and insurance growth.",
+      "url": "https://www.businesstoday.in/personal-finance/story/irdai-insurance-reforms-ibai-warns-commission-caps-could-hurt-policyholders-jobs-and-growth-558725-2026-09-30?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "regulatory",
+      "publishedAt": "2026-09-30T06:46:58.000Z"
+    },
     {
       "title": "Noel Tata on Tata Sons listing: ‘Hope RBI will engage with us and find a solution to avoid listing’",
       "summary": "Tata Trusts Chairman Noel Tata has raised concerns over a potential Tata Sons listing, saying it could change the way the group has operated and supported its businesses for more than 150 years.",
@@ -225,156 +369,12 @@
       "publishedAt": "2026-09-29T16:18:07.000Z"
     },
     {
-      "title": "Festive season ahead: Govt urges edible-oil processors to cut retail prices after duty cuts",
-      "summary": "On September 24, the government cut the basic customs duty on major imported crude edible oils to moderate domestic prices",
-      "url": "https://www.businesstoday.in/latest/economy/story/festive-season-ahead-govt-urges-edible-oil-processors-to-cut-retail-prices-after-duty-cuts-558639-2026-09-29?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-29T15:22:30.000Z"
-    },
-    {
       "title": "Indians buying gold at Rs 5,000 per 10 grams discount on cash deals",
       "summary": "For bulk purchases, such off-the-record cash deals can bring prices down by as much as 6% from prevailing market rates. Dealers who take cash can avoid certain taxes and share some of those savings with buyers.",
       "url": "https://timesofindia.indiatimes.com/business/india-business/she-bought-gold-at-a-discount-of-rs-5000-per-10-grams-took-no-receipt-how-indians-are-turning-to-under-the-counter-cash-deals-as-gold-prices-soar-bagging-discounts-of-up-to-6/articleshow/134568697.cms",
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-09-29T14:33:54.000Z"
-    },
-    {
-      "title": "Oberoi unveils luxury resort in Saudi Arabia's Wadi Safar, set to open in 2027",
-      "summary": "The luxury resort, currently under development, is located about 30 minutes from Riyadh and close to At-Turaif, a UNESCO World Heritage Site in Diriyah",
-      "url": "https://www.businesstoday.in/latest/corporate/story/oberoi-unveils-luxury-resort-in-saudi-arabias-wadi-safar-set-to-open-in-2027-558618-2026-09-29?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-29T13:58:29.000Z"
-    },
-    {
-      "title": "NKN Media hits AED 300 million valuation after AED 15 million investment by Dhiraj Jain",
-      "summary": "NKN Media has reached a valuation of AED 300 million following a strategic AED 15 million investment by entrepreneur and investor Dhiraj Jain, who has acquired a 5% stake in the UAE-based media company.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/nkn-media-hits-aed-300-million-valuation-after-aed-15-million-investment-by-dhiraj-jain-558613-2026-09-29?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-29T13:41:46.000Z"
-    },
-    {
-      "title": "Shaktikanta Das flags need to cut India's oil import dependence, cites Rs 84,000-crore offshore push",
-      "summary": "The Union Cabinet had in July approved the Samudra Manthan, National Offshore Exploration Scheme with an outlay of Rs 84,084 crore through 2030-31",
-      "url": "https://www.businesstoday.in/latest/economy/story/shaktikanta-das-flags-need-to-cut-indias-oil-import-dependence-cites-rs-84000-crore-offshore-push-558606-2026-09-29?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-29T12:56:07.000Z"
-    },
-    {
-      "title": "A prolonged West Asia conflict will increase risks to corporate earnings, says Nomura's Saion Mukherjee",
-      "summary": "There is significant uncertainty right now, and one would have to be very selective in the stock market right now, said Mukherjee",
-      "url": "https://www.businesstoday.in/latest/corporate/story/a-prolonged-west-asia-conflict-will-increase-risks-to-corporate-earnings-says-nomuras-saion-mukherjee-558602-2026-09-29?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-29T12:43:10.000Z"
-    },
-    {
-      "title": "5-day banking closer to discussion stage as IBA forms high-level committee",
-      "summary": "IBA has formed a high-level committee with bank unions to discuss the implementation of five-day banking and declaring the remaining Saturdays as holidays.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/5-day-banking-closer-to-discussion-stage-as-iba-forms-high-level-committee-558601-2026-09-29?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-29T12:38:53.000Z"
-    },
-    {
-      "title": "Son died, LIC denied father Rs 5 lakh over heart condition; Commission orders payout with interest",
-      "summary": "The Commission referred to a National Consumer Disputes Redressal Commission decision concerning \"silent diseases\", observing that a person may not necessarily be aware of a condition until it aggravates and symptoms become apparent.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/his-son-died-insurance-company-denied-father-rs-5-lakh-over-alleged-undisclosed-heart-condition-punjab-consumer-commission-finds-no-reliable-medical-proof-orders-rs-5-lakh-plus-7-interest-and-rs-10000/articleshow/134560425.cms",
-      "source": "Times of India Business",
-      "category": "insurance",
-      "publishedAt": "2026-09-29T12:25:00.000Z"
-    },
-    {
-      "title": "Trade irony amid Trump threat: Why Russia is buying its own oil as fuel from India",
-      "summary": "The underlying issue is not Russia's access to crude oil but its ability to convert crude into usable fuels. Refinery outages and infrastructure disruptions have constrained domestic production, forcing Russia to import products such as gasoline.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/trade-irony-amid-trump-threat-why-russia-is-buying-its-own-oil-as-fuel-from-india/articleshow/134563758.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-29T12:12:58.000Z"
-    },
-    {
-      "title": "Nvidia announces record $150 billion share buyback amid AI boom",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/nvidia-announces-record-150-billion-share-buyback-amid-ai-boom/articleshow/134563925.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-29T10:56:49.000Z"
-    },
-    {
-      "title": "Reliance, Nayara restrict fuel sales as crude hits $107 and retail prices stay frozen: Report",
-      "summary": "Reliance Industries and Nayara Energy have begun restricting diesel and petrol sales at some outlets as crude prices surge while domestic pump prices remain unchanged.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/reliance-nayara-restrict-fuel-sales-as-crude-hits-107-and-retail-prices-stay-frozen-report-558566-2026-09-29?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-29T10:13:57.000Z"
-    },
-    {
-      "title": "'Largest steel plant in American history': Trump announces Essar-backed $18 billion investment",
-      "summary": "Mesabi Metallics, a Minnesota-based company owned by India's Essar Group, is developing an iron ore mine in Nashwauk on the Mesabi Iron Range",
-      "url": "https://www.businesstoday.in/latest/corporate/story/largest-steel-plant-in-american-history-trump-announces-essar-backed-18-billion-investment-558562-2026-09-29?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-29T10:04:01.000Z"
-    },
-    {
-      "title": "All about Akhil Gupta, former Bharti Enterprises V-C who is Coforge's new chairperson after O P Bhatt",
-      "summary": "Coforge announced the decision in a stock exchange filing on 27th September. The company selected Gupta following a global search conducted with executive search firm Egon Zehnder.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/all-about-akhil-gupta-former-bharti-enterprises-v-c-who-is-coforges-new-chairperson-after-o-p-bhatt-558460-2026-09-29?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-29T09:17:30.000Z"
-    },
-    {
-      "title": "Nitin Gadkari: Rs 61,500 crore, 630-km highway to link Siliguri, Guwahati, Shillong",
-      "summary": "The project is estimated to cost Rs 61,500 crore. The road transport ministry has also initiated an expressway connectivity project between Gorakhpur in Uttar Pradesh and Siliguri.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/nitin-gadkari-says-rs-61500-crore-630-km-highway-corridor-to-link-siliguri-with-guwahati-shillong-high-speed-between-up-north-east-in-works-to-cut-travel-time/articleshow/134558905.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-29T08:38:54.000Z"
-    },
-    {
-      "title": "Gold price outlook: Gold under extreme pressure; analyst sees rallies as opportunity to sell",
-      "summary": "Gold price prediction: Gold is under extreme downside pressure on exponential rise in real yields and a firmer US Dollar on robust US data and hawkish Federal Reserve. It is to be noted that the Fed officials continue to maintain a hawkish view post-FOMC decision.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/gold-price-prediction-today-where-are-gold-rates-headed-on-september-29-2026-and-in-the-near-term-mcx-gold-silver-prices/articleshow/134559727.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-29T07:29:46.000Z"
-    },
-    {
-      "title": "Family found Gulmarg hotel missing, spent night in car at -4C; travel portal to pay Rs 48,775",
-      "summary": "The advocate had reportedly reserved a family room at an inn in Srinagar for December 27 and 28, 2025. He paid Rs 5,788 for the booking. For the next leg of the trip, he booked two rooms at a hotel Gulmarg for December 28 and 29 at a cost of Rs 12,987.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/advocate-his-wife-son-daughter-booked-a-gulmarg-hotel-but-on-reaching-discovered-it-did-not-exist-family-forced-to-spend-night-in-car-at-4-degrees-travel-portal-ordered-to-pay-rs-48775/articleshow/134557762.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-29T06:17:09.000Z"
-    },
-    {
-      "title": "US exempts India, 19 other countries from 100% tariff on speciality drugs",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/us-exempts-india-19-other-countries-from-100-tariff-on-speciality-drugs/articleshow/134557350.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-29T05:38:18.000Z"
-    },
-    {
-      "title": "Sensex, Nifty extend slide: Stock market crash continues as oil and yields rattle sentiment",
-      "summary": "Dalal Street was also tracking the broader weakness across global markets. US stocks ended the previous session sharply lower, with the tech-heavy Nasdaq falling more than 0.9% and the S&P 500 declining around 0.8%.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/stock-market-crash-today-why-bse-sensex-nifty50-are-down-on-september-29-2026-top-reasons-for-fall/articleshow/134556577.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-29T05:06:14.000Z"
-    },
-    {
-      "title": "Infosys to shift a third of 320,000 staff into specialist roles; here’s why",
-      "summary": "Infosys has more than 320,000 employees, but the growing impact of AI on billing models based on the number of people deployed on projects is putting pressure on the traditional headcount-driven pricing structure.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/infosys-plans-to-shift-up-to-one-third-of-320000-employees-into-specialist-roles-build-a-team-of-6000-frontier-engineers-as-ai-reshapes-it-jobs/articleshow/134539780.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-29T04:36:15.000Z"
     }
   ]
 }
