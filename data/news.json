@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-01T07:19:08.344Z",
+  "lastUpdated": "2026-10-01T14:20:52.295Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,190 @@
     }
   ],
   "articles": [
+    {
+      "title": "Finance ministry projects 7.3% Q2 growth as economy maintains momentum",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/finance-ministry-projects-7-3-q2-growth-as-economy-maintains-momentum/articleshow/134621094.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-01T14:12:17.000Z"
+    },
+    {
+      "title": "Global headwinds pose fresh risks to Indian assets, rupee: Monthly Economic Review",
+      "summary": "India’s strong domestic growth is facing renewed external headwinds as higher oil prices, rising global bond yields and trade uncertainty put pressure on the rupee and Indian assets.",
+      "url": "https://www.businesstoday.in/latest/economy/story/global-headwinds-pose-fresh-risks-to-indian-assets-rupee-monthly-economic-review-559157-2026-10-01?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-01T13:48:04.000Z"
+    },
+    {
+      "title": "Indian IT sector layoffs: Which jobs are facing pressure & which skills are in demand?",
+      "summary": "AI is not just making some jobs in the Indian IT sector obsolete, it is also forcing firms to adapt their business models as the demand for their traditional services faces disruption.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/indian-it-sector-layoffs-which-jobs-are-facing-pressure-which-skills-are-in-demand/articleshow/134614885.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-01T13:12:21.000Z"
+    },
+    {
+      "title": "HDFC Bank appoints Anup Bagchi as MD & CEO for three-year term from October 27",
+      "summary": "Bagchi will take charge as MD & CEO from October 27, 2026, succeeding Sashidhar Jagdishan, whose current term ends on October 26.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/hdfc-bank-appoints-anup-bagchi-as-md-ceo-for-three-year-term-from-october-27-559151-2026-10-01?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-01T13:06:02.000Z"
+    },
+    {
+      "title": "Indian pilot Smit Machchhar airlifted to Abu Dhabi for advanced medical care",
+      "summary": "The Indian Embassy in Riyadh had earlier been in contact with Saudi authorities and the pilot's family regarding his medical condition",
+      "url": "https://www.businesstoday.in/india/story/indian-pilot-smit-machchhar-airlifted-to-abu-dhabi-for-advanced-medical-care-559147-2026-10-01?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-01T12:49:39.000Z"
+    },
+    {
+      "title": "Global bond yields hit multi-decade highs as oil, inflation and debt worries mount: Report",
+      "summary": "The 10-year US Treasury yield, a key benchmark for global borrowing costs and asset valuations, touched 5.34% on Thursday, its highest level since 2002.",
+      "url": "https://www.businesstoday.in/latest/economy/story/global-bond-yields-hit-multi-decade-highs-as-oil-inflation-and-debt-worries-mount-report-559144-2026-10-01?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-01T12:43:00.000Z"
+    },
+    {
+      "title": "Noel Tata reached out to India's top business tycoons ahead of Tata Sons board showdown: Report",
+      "summary": "Chandra was reappointed for another five-year term on September 17 despite opposition from Noel Tata. The board also agreed to comply with a regulatory push to list Tata Sons, a move Noel opposed.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/noel-tata-reached-out-to-indias-top-business-tycoons-ahead-of-tata-sons-board-showdown-report-559134-2026-10-01?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "regulatory",
+      "publishedAt": "2026-10-01T12:34:12.000Z"
+    },
+    {
+      "title": "Gadkari backs IIT tech; waste plastic used in bitumen for national highway for first time",
+      "summary": "A pilot test section was laid recently along the main carriageway of NH-44 in Jhansi. Officials involved in the pilot said the technology could lower the consumption of conventional bitumen by around 4%, reducing demand for a material that India largely import…",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/nitin-gadkari-led-ministry-backs-iit-technology-of-using-waste-plastic-in-bitumen-for-national-highways-indias-first-nh-44-pilot-stretch-laid-new-method-could-cut-bitumen-use-4-and-costs-20/articleshow/134612492.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-01T12:31:07.000Z"
+    },
+    {
+      "title": "Why CEA Nageswaran wants households to move from short-term trading to long-term savings",
+      "summary": "DFS Secretary hopes that pension funds will be gradually able to provide patient capital; S Ramann says NPS Tatkal to help add 2-3 crore subscribers",
+      "url": "https://www.businesstoday.in/latest/economy/story/why-cea-nageswaran-wants-households-to-move-from-short-term-trading-to-long-term-savings-559117-2026-10-01?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-01T11:57:05.000Z"
+    },
+    {
+      "title": "Anthropic IPO Risks and Power: draft filing flags existential AI threat; governance concentrates control",
+      "summary": "Anthropic plans a significant IPO, targeting a $2 trillion valuation emphasizing both transformative potential and risks of advanced AI. The company highlights that AI can enhance quality of life but also poses existential risks if not properly managed.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/anthropics-ai-paradox-more-powerful-systems-could-mean-bigger-risks-to-humanity/articleshow/134615641.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-01T10:27:26.000Z"
+    },
+    {
+      "title": "Arjun Das and Aishwarya Lekshmi lead Netflix’s #Love: Rival dating apps, one challenge and an October 2 premiere",
+      "summary": "Netflix’s #Love premieres on October 2 with Arjun Das and Aishwarya Lekshmi as rival dating-app founders. Explore their opposing ideas, the 60-day challenge, age rating and the creative team.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/arjun-das-and-aishwarya-lekshmi-lead-netflixs-love-rival-dating-apps-one-challenge-and-an-october-2-premiere-559094-2026-10-01?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-01T10:17:49.000Z"
+    },
+    {
+      "title": "Gemini 4 Argon is built for longer work tasks: Google’s announced features, API prices and access limits",
+      "summary": "Google has announced Gemini 4 Argon with restricted initial access. Explore its work-focused features, output allowance, introductory API prices and what Google says about a wider public rollout.",
+      "url": "https://www.businesstoday.in/technology/photo/gemini-4-argon-is-built-for-longer-work-tasks-googles-announced-features-api-prices-and-access-limits-559087-2026-10-01?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "insurance",
+      "publishedAt": "2026-10-01T09:58:08.000Z"
+    },
+    {
+      "title": "Stuck at Delhi traffic lights? A ₹1,789.52-crore plan aims to change signal timings across 42 corridors",
+      "summary": "Delhi has approved a ₹1,789.52-crore traffic-management project covering 42 corridors. Explore adaptive signals, ambulance priority, enforcement and the planned two-year implementation period.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/stuck-at-delhi-traffic-lights-a-rs1789-52-crore-plan-aims-to-change-signal-timings-across-42-corridors-559082-2026-10-01?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-01T09:51:47.000Z"
+    },
+    {
+      "title": "Public sector banks to stay closed on Saturdays? PIB debunks fake govt notification",
+      "summary": "PIB Fact Check has debunked claims about a government notification for public sector banks declaring Saturdays as holidays. A fake document circulated on social media created confusion around the banking holiday issue.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/public-sector-banks-to-stay-closed-on-saturdays-pib-debunks-fake-government-notification/articleshow/134614257.cms",
+      "source": "Times of India Business",
+      "category": "regulatory",
+      "publishedAt": "2026-10-01T09:32:59.000Z"
+    },
+    {
+      "title": "Venu Srinivasan, Vijay Singh write to trustees; raise concerns about Tata Sons restructuring: Report",
+      "summary": "Venu Srinivasan and Vijay Singh questioned the appropriateness of a shareholder asking the Tata Sons board to approve a business restructuring proposal.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/venu-srinivasan-vijay-singh-write-to-trustees-raise-concerns-about-tata-sons-restructuring-report-559063-2026-10-01?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-01T09:27:35.000Z"
+    },
+    {
+      "title": "Rs 6L cr wiped out! D-Street suffers worst week in 25 yrs; what caused the crash?",
+      "summary": "Dalal Street is experiencing its longest losing streak in nearly 25 years, with investors incurring significant losses. Foreign investor outflows and rising US bond yields are contributing to market concerns and pressure.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/why-is-sensex-crashing-rs-9-lakh-crore-wiped-out-as-dalal-street-heads-for-worst-week-in-25-years/articleshow/134613883.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-01T09:20:06.000Z"
+    },
+    {
+      "title": "Will MDR on UPI give a boost to digital rupee?",
+      "summary": "S&P Global’s Geeta Chugh feels UPI will remain the key payments infra, but the key strength of the central bank digital currency (CBDC) is its programmability, and she sees its importance in areas like targeted lending and subsidy payments",
+      "url": "https://www.businesstoday.in/latest/economy/story/will-mdr-on-upi-give-a-boost-to-digital-rupee-559043-2026-10-01?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-01T08:54:59.000Z"
+    },
+    {
+      "title": "NASA-SpaceX Crew-13 is in orbit: 4 astronauts, 6 months and a rare Dragon milestone",
+      "summary": "NASA-SpaceX Crew-13 is now in orbit with four astronauts heading to the ISS for a six-month mission, including Jessica Watkins’ rare second Dragon flight and a major crew handover.",
+      "url": "https://www.businesstoday.in/latest/world/photo/nasa-spacex-crew-13-is-in-orbit-4-astronauts-6-months-and-a-rare-dragon-milestone-559030-2026-10-01?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-01T08:35:03.000Z"
+    },
+    {
+      "title": "Apple Pay launches in India: The Axis Bank cards, older iPhones and setup steps you should check before paying",
+      "summary": "Apple Pay has launched in India with eligible Axis Bank credit cards. Check supported iPhones, learn the Wallet setup and tap-to-pay steps, and see what to do if your device goes missing.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/apple-pay-launches-in-india-the-axis-bank-cards-older-iphones-and-setup-steps-you-should-check-before-paying-559032-2026-10-01?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-01T08:28:19.000Z"
+    },
+    {
+      "title": "From Trichy to Thane: How a 1,405-tonne bridge made its way to the bullet train route",
+      "summary": "A 1,405-tonne steel bridge has travelled 1,300 km from Trichy to Thane for India’s bullet train project. It is Maharashtra’s first such bridge, with 16 of 28 now completed.",
+      "url": "https://www.businesstoday.in/latest/photo/from-trichy-to-thane-how-a-1405-tonne-bridge-made-its-way-to-the-bullet-train-route-558565-2026-10-01?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-01T08:26:26.000Z"
+    },
+    {
+      "title": "WhatsApp changes from October 1: Businesses will pay, but will you?",
+      "summary": "WhatsApp Business Platform pricing changes from October 1, with utility messages becoming chargeable for businesses, while customers remain free and 1,000 service replies stay free monthly.",
+      "url": "https://www.businesstoday.in/latest/photo/whatsapp-changes-from-october-1-businesses-will-pay-but-will-you-559031-2026-10-01?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-01T08:20:42.000Z"
+    },
+    {
+      "title": "GST collections cross Rs 2 lakh crore again, rise 14.7% in September",
+      "summary": "India's GST collections soared past Rs 2 lakh crore in September, showcasing a commendable increase. Revenue from local transactions saw a growth of 10.1%, significantly boosting total collections.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/gst-collections-cross-rs-2-lakh-crore-again-rise-14-7-in-september/articleshow/134612434.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-01T08:04:03.000Z"
+    },
+    {
+      "title": "Fake gold hallmark stamps may rise; GJC flags fraud risk for buyers",
+      "summary": "Consumers bear the hallmarking cost when purchasing jewellery. However, many buyers are still unaware that they can verify the Hallmark Unique Identification (HUID) number through the Bureau of Indian Standards' Care mobile application.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/unscrupulous-jewellers-may-use-fake-stamps-to-mark-your-gold-as-hallmarking-charges-rise-to-rs-75-from-rs-45-gem-and-jewellery-domestic-council-flags-risk-of-rise-in-fraudsters/articleshow/134610852.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-01T07:34:56.000Z"
+    },
     {
       "title": "India's factory growth hits 7 month high in September, thanks to demand and hiring boost",
       "summary": "In September, India's manufacturing sector experienced significant progress with rising demand and production levels. The HSBC India Manufacturing Purchasing Managers’ Index climbed to 55.1, reflecting vibrant business activity.",
@@ -121,7 +305,7 @@
       "publishedAt": "2026-10-01T05:55:54.000Z"
     },
     {
-      "title": "Scotch whisky gets cheaper in India after trade deal with US; check new prices",
+      "title": "Scotch whisky gets cheaper in India after trade deal with UK; check new prices",
       "summary": "Under the India-UK agreement, the import tariff on British whisky was reduced to 75% from 150%, effectively cutting the rate by half. The tariff is scheduled to decline further to 40% over the next 10 years.",
       "url": "https://timesofindia.indiatimes.com/business/india-business/scotch-whisky-gets-cheaper-in-india-after-uk-trade-pact-johnnie-walker-black-label-prices-falls-to-rs-3800-from-rs-4250-jb-to-rs-1700-from-rs-2300-as-tariff-drops-from-150-to-75/articleshow/134590266.cms",
       "source": "Times of India Business",
@@ -153,23 +337,7 @@
       "publishedAt": "2026-10-01T03:26:53.000Z"
     },
     {
-      "title": "Chandrasekaran, Venu Srinivasan did not disclose family firm deal to Tata Sons board: Report",
-      "summary": "The lack of disclosure has raised questions among corporate governance experts on whether the transactions represent a conflict of interest or breach the Tata Code of Conduct.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/chandrasekaran-venu-srinivasan-did-not-disclose-family-firm-deal-to-tata-sons-board-report-558939-2026-10-01?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-01T03:21:43.000Z"
-    },
-    {
-      "title": "Tata boardroom tussle: After Venu Srinivasan, Vijay Singh writes to charity commissioner; flags SDTT’s interference with Tata Sons",
-      "summary": "Tata boardroom tussle: Vijay Singh also called for an inquiry into Venu Srinivasan’s exclusion from decision-making processes.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/tata-boardroom-tussle-after-venu-srinivasan-vijay-singh-writes-to-charity-commissioner-flags-sdtts-interference-with-tata-sons-558931-2026-10-01?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-01T02:52:06.000Z"
-    },
-    {
-      "title": "Stock market today: BSE Sensex tumbles over 90 points, NSE Nifty50 opens below 22,600",
+      "title": "Sensex drops 570.59 points at closing; Nifty tanks to 22,421.95",
       "summary": "",
       "url": "https://timesofindia.indiatimes.com/business/india-business/sensex-stock-market-today-01-october-2026-live-updates-nse-bse-gift-nifty-50-top-gainers-losers-mcx-stocks-in-focus-market-news/liveblog/134606940.cms",
       "source": "Times of India Business",
@@ -185,30 +353,6 @@
       "publishedAt": "2026-10-01T02:09:09.000Z"
     },
     {
-      "title": "Quote of the Day by Ratan Tata: 'If you want to walk fast, walk alone. But if you want to walk far, walk together'",
-      "summary": "Tata believed that early-stage businesses succeed because of the drive and creativity of their creators. Ideas can pivot and change, but true passion and original thinking cannot be manufactured.",
-      "url": "https://www.businesstoday.in/india/story/quote-of-the-day-by-ratan-tata-if-you-want-to-walk-fast-walk-alone-but-if-you-want-to-walk-far-walk-together-558915-2026-10-01?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-01T02:00:05.000Z"
-    },
-    {
-      "title": "Oil prices stay flat as markets weigh US-Iran talks and Middle East supply",
-      "summary": "Despite slight changes in oil prices today, Brent and WTI Crude both experienced gains in their last trading sessions. Investors remain alert to the evolving US-Iran negotiations, as their outcomes are likely to sway market dynamics.",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/oil-prices-stay-flat-as-markets-weigh-us-iran-talks-and-middle-east-supply/articleshow/134605935.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-01T01:49:56.000Z"
-    },
-    {
-      "title": "Strait of Hormuz disruption puts India’s energy security in focus: What former diplomat said",
-      "summary": "India’s dependence on imported crude oil, LNG and LPG makes Strait of Hormuz disruptions a key energy-security concern, former US Ambassador Navtej Sarna said. He stressed the need to diversify energy sources and strengthen domestic capabilities amid rising geopolitical risks.",
-      "url": "https://www.businesstoday.in/latest/economy/story/strait-of-hormuz-disruption-puts-indias-energy-security-in-focus-what-former-diplomat-said-558909-2026-10-01?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-01T00:00:07.000Z"
-    },
-    {
       "title": "Senior citizen wrongly paid tax on Rs 25.42 lakh bond interest; ITAT orders Rs 9.91 lakh refund",
       "summary": "Each year, the senior citizen reported the interest earned from his investments in tax-free bonds under the ‘exempt income’ category in his income tax return (ITR). But made a mistake in one year.",
       "url": "https://timesofindia.indiatimes.com/business/india-business/senior-citizen-invested-rs-3-crore-in-tax-free-bonds-but-mistakenly-paid-tax-on-rs-25-42-lakh-interest-earnings-why-itat-delhi-ordered-rs-9-91-lakh-refund/articleshow/134595737.cms",
@@ -217,156 +361,12 @@
       "publishedAt": "2026-09-30T21:25:00.000Z"
     },
     {
-      "title": "Harshad Mehta scam to insurance reforms: Why Deepak Shenoy calls regulation 'a feature, not a bug'",
-      "summary": "The aftermath of the Harshad Mehta scam reshaped India’s financial-market regulation, with reforms aimed at strengthening transparency and investor confidence.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/harshad-mehta-scam-to-insurance-reforms-why-deepak-shenoy-calls-regulation-a-feature-not-a-bug-558897-2026-10-01?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "insurance",
-      "publishedAt": "2026-09-30T19:05:03.000Z"
-    },
-    {
-      "title": "5 money changes in Oct: Bulk FD rates, UPI MDR, SBI ATM limit cut, LPG KYC & more",
-      "summary": "The money changes include a reduction in the number of free ATM transactions for certain State Bank of India (SBI) salary account customers, new disclosure norms for interest rates on bulk fixed deposits (FDs), revised charges under the National Pension System…",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/5-money-rule-changes-from-october-2026-bulk-fd-rates-upi-mdr-starts-above-rs-2000-sbi-atm-free-limit-falls-to-5-lpg-aadhaar-kyc-new-nps-charges/articleshow/134587809.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-30T17:25:00.000Z"
-    },
-    {
-      "title": "Premiumisation moves beyond metros as tier-2, 3 consumers drive demand for new-age brands",
-      "summary": "New-age brands are seeing stronger demand from smaller cities as digital access, social media and rising aspirations reshape how consumers discover and buy products.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/premiumization-moves-beyond-metros-as-tier-2-3-consumers-drive-demand-for-new-age-brands-558918-2026-09-30?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "insurance",
-      "publishedAt": "2026-09-30T15:32:24.000Z"
-    },
-    {
-      "title": "'No UPI Day' withdrawn after traders meet FM Sitharaman over proposed MDR",
-      "summary": "The trade bodies urged the government to defer the proposed MDR in view of the upcoming festive season and increased business activity",
-      "url": "https://www.businesstoday.in/latest/economy/story/no-upi-day-withdrawn-after-traders-meet-fm-sitharaman-over-proposed-mdr-558917-2026-09-30?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-30T15:12:54.000Z"
-    },
-    {
       "title": "Mother and nominee son died; bank delayed funds to father, ordered to pay Rs 15,000",
       "summary": "A woman had Rs 62,541 in her savings account. Her son was registered as the nominee. Both the mother and son passed away, leaving her 83-year-old husband as the only surviving member of the family. The man was a farmer and was not very familiar with English.",
       "url": "https://timesofindia.indiatimes.com/business/india-business/mother-nominated-son-for-savings-account-but-both-died-farmer-father-faced-long-delays-got-money-but-lodged-a-compliant-consumer-commission-orders-bank-to-pay-rs-15000-relief/articleshow/134590731.cms",
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-09-30T14:37:44.000Z"
-    },
-    {
-      "title": "HDFC Bank appoints V.N. Srivatsan as Chief Compliance Officer for three-year term",
-      "summary": "The appointment was approved by the bank’s board at its meeting on Wednesday, following recommendations from the Audit Committee and the Governance, Nomination and Remuneration Committee. Srivatsan’s three-year term will begin from his date of joining, HDFC Bank said.",
-      "url": "https://www.businesstoday.in/jobs/story/hdfc-bank-appoints-vn-srivatsan-as-chief-compliance-officer-for-three-year-term-558911-2026-09-30?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-30T14:20:18.000Z"
-    },
-    {
-      "title": "Small savings scheme interest rates unchanged for Q3 FY27: Check PPF, SCSS, SSY rates",
-      "summary": "Small savings interest rates have remained unchanged for the October-December 2026 quarter, with the government retaining the same rates for the ninth consecutive quarter.",
-      "url": "https://www.businesstoday.in/personal-finance/story/small-savings-scheme-interest-rates-unchanged-for-q3-fy27-check-ppf-scss-ssy-rates-558892-2026-09-30?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-30T13:00:14.000Z"
-    },
-    {
-      "title": "RBI MPC meet: Why your borrowing costs may go up from October",
-      "summary": "High oil prices and weak monsoon, which will weigh on food prices, are likely to push up inflation, and in this backdrop, RBI may raise the repo rate by 25 bps each in October and December, feels D. K. Joshi, Chief Economist at Crisil",
-      "url": "https://www.businesstoday.in/latest/economy/story/rbi-mpc-meet-why-your-borrowing-costs-may-go-up-from-october-558891-2026-09-30?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "regulatory",
-      "publishedAt": "2026-09-30T12:58:05.000Z"
-    },
-    {
-      "title": "Switched to the new income tax regime? Why these older tax-saving instruments still make sense",
-      "summary": "While the usual go-to avenues may have lost some of their appeal as tax-saving instruments, they still hold great financial value in terms of long-term financial security. Many taxpayers view life insurance as a tax-saving tool, but its value is far greater.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/switched-to-the-new-income-tax-regime-why-older-tax-saving-instruments-like-ppf-nps-life-insurance/articleshow/134589490.cms",
-      "source": "Times of India Business",
-      "category": "insurance",
-      "publishedAt": "2026-09-30T12:32:00.000Z"
-    },
-    {
-      "title": "ASI 2024-25: Manufacturing workforce crossed 21 million, factories up 2.6%",
-      "summary": "Manufacturing GVA up 7.8%; TN, Gujarat, Maharashtra lead the way in number of factories",
-      "url": "https://www.businesstoday.in/latest/economy/story/asi-2024-25-manufacturing-workforce-crossed-21-million-factories-up-2-6-558882-2026-09-30?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-30T12:29:50.000Z"
-    },
-    {
-      "title": "DoorDash to create 3,000 jobs at global tech hub in Telangana",
-      "summary": "This hub is also DoorDash’s second tech office in India after Pune, where it operates software, data and analytics teams linked to its 2021 acquisition of robotics start-up Chowbotics.",
-      "url": "https://www.businesstoday.in/jobs/story/doordash-to-create-3000-jobs-at-global-tech-hub-in-telangana-558828-2026-09-30?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-30T10:36:24.000Z"
-    },
-    {
-      "title": "Nitin Gadkari: 100% ethanol flex-fuel engines being developed",
-      "summary": "India currently imports petroleum worth around Rs 22 lakh crore, Gadkari said, underlining the need to reduce the country's dependence on imported fuels through greater use of ethanol, electricity, hydrogen and other alternative energy sources.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/nitin-gadkari-says-flex-fuel-engines-capable-of-running-on-100-ethanol-are-being-developed-vehicles-using-the-technology-will-be-introduced-as-india-pushes-alternative-fuels/articleshow/134585484.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-30T10:36:15.000Z"
-    },
-    {
-      "title": "Delhi traffic gets ‘brain’: How new Rs 1,789cr traffic system will change your commute",
-      "summary": "Delhi will soon introduce an Intelligent Traffic Management System to improve traffic management across the capital. The project aims to adjust traffic signals based on real-time conditions and reduce congestion.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/delhi-traffic-gets-a-brain-how-new-rs-1789-crore-traffic-system-will-change-your-commute/articleshow/134590904.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-30T10:24:09.000Z"
-    },
-    {
-      "title": "Rabi MSP hike, Rs 1.86 lakh crore green corridor, Delhi AI traffic system: Cabinet clears 3 key measures",
-      "summary": "The Union Cabinet has sanctioned increased Minimum Support Prices for Rabi crops, fostering agricultural growth for farmers across the country.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/rabi-msp-hike-rs-1-86-lakh-crore-green-corridor-delhi-ai-traffic-system-cabinet-clears-3-key-measures/articleshow/134590128.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-30T10:15:09.000Z"
-    },
-    {
-      "title": "Cabinet clears ₹2.79 lakh crore package: Rabi MSP hike, PM DHARA and Delhi traffic system",
-      "summary": "The largest allocation, ₹1,86,405 crore, has been approved for PM DHARA (Developing Harmonized and Accelerated Renewable Energy Access), a programme aimed at developing and accelerating access to renewable energy.",
-      "url": "https://www.businesstoday.in/latest/economy/story/cabinet-clears-rs2-79-lakh-crore-package-rabi-msp-hike-pm-dhara-and-delhi-traffic-system-558824-2026-09-30?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-30T10:09:20.000Z"
-    },
-    {
-      "title": "Small savings rates today: PPF, NSC, SCSS, KVP, POMIS -- which schemes are most mispriced against G-sec yields?",
-      "summary": "The Finance Ministry is set to announce small savings interest rates for October-December 2026 today, September 30, amid a prolonged rate freeze. G-sec yields show wide gaps between formula-implied and actual rates across schemes, with NSC among the most notable.",
-      "url": "https://www.businesstoday.in/personal-finance/investment/story/small-savings-rates-today-ppf-nsc-scss-kvp-pomis-which-schemes-are-most-mispriced-against-g-sec-yields-558816-2026-09-30?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-30T09:50:09.000Z"
-    },
-    {
-      "title": "Bank holidays in October: When and where will banks remain closed?",
-      "summary": "Bank customers are advised to organize their visits in light of several upcoming regional and national holidays that will lead to branch closures. Key dates to remember include Mahatma Gandhi Jayanti on October 2 and Dussehra on October 19, which will affect various states.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/bank-holidays-in-october-when-and-where-will-banks-remain-closed-check-state-wise-list/articleshow/134589874.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-30T09:48:22.000Z"
-    },
-    {
-      "title": "Small savings interest rates today: PPF, SSY and SCSS rates face September 30 review; what investors should know",
-      "summary": "The Finance Ministry is set to announce the small savings interest rates for the October-December 2026 quarter today, with investors closely watching PPF, SSY and SCSS.",
-      "url": "https://www.businesstoday.in/personal-finance/story/small-savings-interest-rates-today-ppf-ssy-and-scss-rates-face-september-30-review-what-investors-should-know-558796-2026-09-30?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-30T09:25:21.000Z"
-    },
-    {
-      "title": "New CAFE-III fuel-efficiency rules: What changes for EVs, hybrids and small cars",
-      "summary": "As of April 1, 2027, India will roll out new Corporate Average Fuel Economy (CAFE) regulations aimed at passenger vehicles, demanding increasing fuel-efficiency targets that will evolve each year until 2032.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/new-cafe-iii-fuel-efficiency-rules-what-changes-for-evs-hybrids-and-small-cars/articleshow/134582940.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-09-30T08:43:48.000Z"
     },
     {
       "title": "Son claims share in mother’s house, cites Rs 2.1 lakh given; couple ordered to vacate",
