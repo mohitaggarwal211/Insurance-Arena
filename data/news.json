@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-01T06:56:33.234Z",
+  "lastUpdated": "2026-10-01T07:19:08.344Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,30 @@
     }
   ],
   "articles": [
+    {
+      "title": "India's factory growth hits 7 month high in September, thanks to demand and hiring boost",
+      "summary": "In September, India's manufacturing sector experienced significant progress with rising demand and production levels. The HSBC India Manufacturing Purchasing Managers’ Index climbed to 55.1, reflecting vibrant business activity.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/indias-factory-growth-hits-7-month-high-in-september-thanks-to-demand-and-hiring-boost/articleshow/134610296.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-01T07:01:30.000Z"
+    },
+    {
+      "title": "GST state-wise collection September 2026: Assam jumps 88%, UP 18%; Tamil Nadu falls 5%",
+      "summary": "India’s gross GST collections rose 14.7% year-on-year to ₹2.04 lakh crore in September, but state-wise growth remained uneven. Assam and Manipur posted sharp increases, while Jammu & Kashmir, Uttarakhand and Tamil Nadu recorded declines in domestic GST collections.",
+      "url": "https://www.businesstoday.in/latest/economy/story/gst-state-wise-collection-september-2026-assam-jumps-88-up-18-tamil-nadu-falls-5-558994-2026-10-01?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-01T06:39:50.000Z"
+    },
+    {
+      "title": "India cannot afford to take its growth performance for granted: Monthly Economic Report",
+      "summary": "India’s real GDP grew 7.8% in the first quarter of FY27, the highest first-quarter growth in the current series, with manufacturing, construction and services contributing to the expansion.",
+      "url": "https://www.businesstoday.in/latest/economy/story/india-cannot-afford-to-take-its-growth-performance-for-granted-monthly-economic-report-558992-2026-10-01?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-01T06:34:10.000Z"
+    },
     {
       "title": "Consumer loans, credit card dues enter slow lane",
       "summary": "Increase 2.4% and 3.6% YoY, gold loans glitter once again",
@@ -337,36 +361,12 @@
       "publishedAt": "2026-09-30T09:25:21.000Z"
     },
     {
-      "title": "L&T bags twin Dubai contracts for bridges, tunnels and roads, projects to handle 130,000 trips daily",
-      "summary": "According to L&T’s order classification, a Large contract is valued between ₹2,500 crore and ₹5,000 crore, while a Significant contract falls in the ₹1,000 crore to ₹2,500 crore range",
-      "url": "https://www.businesstoday.in/latest/corporate/story/lt-bags-twin-dubai-contracts-for-bridges-tunnels-and-roads-projects-to-handle-130000-trips-daily-558775-2026-09-30?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-30T08:55:50.000Z"
-    },
-    {
       "title": "New CAFE-III fuel-efficiency rules: What changes for EVs, hybrids and small cars",
       "summary": "As of April 1, 2027, India will roll out new Corporate Average Fuel Economy (CAFE) regulations aimed at passenger vehicles, demanding increasing fuel-efficiency targets that will evolve each year until 2032.",
       "url": "https://timesofindia.indiatimes.com/business/india-business/new-cafe-iii-fuel-efficiency-rules-what-changes-for-evs-hybrids-and-small-cars/articleshow/134582940.cms",
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-09-30T08:43:48.000Z"
-    },
-    {
-      "title": "RBI rate hikes ahead? BofA sees 100 bps repo rate increase through H1 2027",
-      "summary": "Bank of America Securities anticipates that the Reserve Bank of India will implement significant interest rate hikes by mid-2027.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/rbi-rate-hikes-ahead-bofa-sees-100-bps-repo-rate-increase-through-h1-2027/articleshow/134584123.cms",
-      "source": "Times of India Business",
-      "category": "regulatory",
-      "publishedAt": "2026-09-30T08:29:14.000Z"
-    },
-    {
-      "title": "Rhetan TMT, Bajaj Tubular sign MoU for potential ₹250-₹300 crore business",
-      "summary": "Proposed purchase of about 20,000 tonnes of TMT bars over 24 months could lift volumes and capacity utilisation",
-      "url": "https://www.businesstoday.in/latest/corporate/story/rhetan-tmt-bajaj-tubular-sign-mou-for-potential-rs250-rs300-crore-business-558774-2026-09-30?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-09-30T08:26:46.000Z"
     },
     {
       "title": "Son claims share in mother’s house, cites Rs 2.1 lakh given; couple ordered to vacate",
