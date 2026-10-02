@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-02T16:19:24.650Z",
+  "lastUpdated": "2026-10-02T22:49:59.178Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,30 @@
     }
   ],
   "articles": [
+    {
+      "title": "Oil shock bypasses petrol pumps, hits Indian businesses through raw-material costs",
+      "summary": "India’s oil shock is increasingly showing up in industrial input costs rather than at petrol pumps, with several raw materials seeing sharp price increases. IndiaMART data shows PP granules rose 32% between July and September, highlighting mounting pressure on businesses.",
+      "url": "https://www.businesstoday.in/latest/economy/story/oil-shock-bypasses-petrol-pumps-hits-indian-businesses-through-raw-material-costs-559246-2026-10-03?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-02T22:05:03.000Z"
+    },
+    {
+      "title": "India’s GST revenue growth has lost momentum: What the post-2025 data shows",
+      "summary": "India’s GST collections remain robust in absolute terms, but the pace of revenue growth has slowed sharply from FY23 levels, top economists said.",
+      "url": "https://www.businesstoday.in/latest/economy/story/indias-gst-revenue-growth-has-lost-momentum-what-the-post-2025-data-shows-559270-2026-10-03?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-02T19:05:03.000Z"
+    },
+    {
+      "title": "Father got 3 bigha in 1972; HC protects married daughter's land claim after parents death",
+      "summary": "In 1972, the Himachal Pradesh government allotted three bigha and two biswas of agricultural land in Shimla to a person under the Nautor rules for cultivation.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/in-1972-father-got-3-bigha-of-land-from-himachal-government-but-patta-was-never-signed-why-hc-allowed-married-daughters-inheritance-appeal-what-role-hindu-succession-act-plays/articleshow/134636006.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-02T16:32:37.000Z"
+    },
     {
       "title": "‘Workers growing increasingly anxious’: US adds 29k jobs, far below 90k expected",
       "summary": "US employers added only 29,000 jobs in September, significantly lower than economists' expectations of 90,000. The unemployment rate rose to 4.2% as more people entered the workforce without immediate jobs.",
@@ -345,36 +369,12 @@
       "publishedAt": "2026-10-02T01:13:54.000Z"
     },
     {
-      "title": "Banks, NPCI to ensure MDR not passed on: SBI",
-      "summary": "Chairman Setty says bank aspires to increase UPI transactions through Yono to 5cr per day",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/banks-npci-to-ensure-mdr-not-passed-on-sbi/articleshow/134629925.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-02T00:58:59.000Z"
-    },
-    {
       "title": "No branch visit: Here’s how to change your bank-linked mobile number",
       "summary": "Changed your mobile number? You may not need to visit a bank branch. Here's how internet banking or mobile apps can help update your registered number and complete verification.",
       "url": "https://www.businesstoday.in/latest/photo/no-branch-visit-heres-how-to-change-your-bank-linked-mobile-number-558564-2026-10-02?utm_source=rssfeed",
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-10-02T00:45:02.000Z"
-    },
-    {
-      "title": "BT BIG STORY: Tata Sons restructuring: What it means for the listing and governance",
-      "summary": "Were all the Tata trustees on board—and were they consulted? Questions over disclosure add another layer to the dispute",
-      "url": "https://www.businesstoday.in/latest/corporate/story/bt-big-story-tata-sons-restructuring-what-it-means-for-the-listing-and-governance-559156-2026-10-02?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-02T00:30:33.000Z"
-    },
-    {
-      "title": "Ai+ launches ₹9,999 phone and 10,000mAh 5G tablet: Here’s what you get",
-      "summary": "Ai+ has launched the ₹9,999 Pulse 2 FE phone and two tablets, including the Nova LapTab 5G with a 10,000mAh battery, 2.4K display, 5G and stylus support.",
-      "url": "https://www.businesstoday.in/latest/photo/ai-launches-rs9999-phone-and-10000mah-5g-tablet-heres-what-you-get-558558-2026-10-02?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-02T00:30:33.000Z"
     }
   ]
 }
