@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-02T13:38:57.836Z",
+  "lastUpdated": "2026-10-02T16:19:24.650Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,22 @@
     }
   ],
   "articles": [
+    {
+      "title": "‘Workers growing increasingly anxious’: US adds 29k jobs, far below 90k expected",
+      "summary": "US employers added only 29,000 jobs in September, significantly lower than economists' expectations of 90,000. The unemployment rate rose to 4.2% as more people entered the workforce without immediate jobs.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/workers-growing-increasingly-anxious-us-adds-29000-jobs-far-below-90000-expected/articleshow/134641459.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-02T14:08:10.000Z"
+    },
+    {
+      "title": "Gold's Rs 1.5 lakh price drives buyers to silver who get 650g silver at same price",
+      "summary": "At current prices, 10 grams of 24-karat gold costs around Rs 1.5 lakh, an amount that would buy approximately 650 grams of silver. With gold prices remaining prohibitively high for a large section of middle-class buyers, the white metal is steadily attracting attention.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/gold-at-rs-1-5-lakh-per-10-grams-is-pushing-middle-class-indian-buyers-to-silver-who-are-getting-650-grams-of-silver-at-the-same-price-some-betting-silver-at-rs-2-3-lakh-per-kg-may-hit-rs-4-lakh/articleshow/134634505.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-02T13:29:22.000Z"
+    },
     {
       "title": "GST collections may look stronger than they are: What rate re-labelling is hiding",
       "summary": "GST rate changes since September 2025 have simplified the tax structure, but changes in revenue classification may be masking a weaker underlying revenue trend, top economists said.",
@@ -337,28 +353,12 @@
       "publishedAt": "2026-10-02T00:58:59.000Z"
     },
     {
-      "title": "Macro data signals growth: Sept GST jumps 14.7%; auto, UPI, PE-VC stay strong",
-      "summary": "GST collections rise 15%, dispatches from top 5 car companies grow in double-digit",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/macro-data-shows-economy-on-growth-path/articleshow/134629904.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-02T00:54:14.000Z"
-    },
-    {
       "title": "No branch visit: Here’s how to change your bank-linked mobile number",
       "summary": "Changed your mobile number? You may not need to visit a bank branch. Here's how internet banking or mobile apps can help update your registered number and complete verification.",
       "url": "https://www.businesstoday.in/latest/photo/no-branch-visit-heres-how-to-change-your-bank-linked-mobile-number-558564-2026-10-02?utm_source=rssfeed",
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-10-02T00:45:02.000Z"
-    },
-    {
-      "title": "New Chiefs Cleared: RBI okays Bagchi, Saha as CEOs of HDFC Bank, Kotak; ends succession uncertainty",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/day-of-anups-at-hdfc-and-kotak-with-much-in-common-in-banking/articleshow/134629792.cms",
-      "source": "Times of India Business",
-      "category": "regulatory",
-      "publishedAt": "2026-10-02T00:33:49.000Z"
     },
     {
       "title": "BT BIG STORY: Tata Sons restructuring: What it means for the listing and governance",
