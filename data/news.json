@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-02T22:49:59.178Z",
+  "lastUpdated": "2026-10-03T06:07:32.157Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,86 @@
     }
   ],
   "articles": [
+    {
+      "title": "'Oil's' well in September: How India kept crude flowing amid the energy crisis",
+      "summary": "September marked a significant high in India's crude oil imports, mainly spurred by boosted supplies from Gulf nations. The reintroduction of Iraqi and Kuwaiti crude has notably changed the dynamics of India's import sources, ensuring better supply availability.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/oils-well-in-september-how-india-kept-crude-flowing-amid-the-energy-crisis/articleshow/134652181.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-03T05:29:04.000Z"
+    },
+    {
+      "title": "UPI transactions rise 27% to 145 billion in H1 FY27 ahead of new MDR",
+      "summary": "UPI has recorded significant transaction growth, processing 145 billion transactions in the first half of the financial year. The value of these transactions increased to Rs 177 lakh crore, reflecting a notable rise.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/upi-transactions-rise-27-to-145-billion-in-h1-fy27-ahead-of-new-mdr/articleshow/134651885.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-03T04:34:01.000Z"
+    },
+    {
+      "title": "'No amount of money can ever...': Mankind Pharma honours flydubai pilot Smit Machchhar with ₹1 crore",
+      "summary": "Machchhar was stabbed and seriously injured by his co-pilot in the cockpit of Flydubai flight FZ1073 while the aircraft was flying from Dubai to Tel Aviv on Wednesday.",
+      "url": "https://www.businesstoday.in/india/story/no-amount-of-money-can-ever-mankind-pharma-honours-flydubai-pilot-smit-machchhar-with-rs1-crore-559291-2026-10-03?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-03T04:09:45.000Z"
+    },
+    {
+      "title": "G7’s 100-million-barrel diesel fix: What happens after the emergency release",
+      "summary": "The G7 announced an urgent release of 100 million barrels of oil and fuel products to counteract the ongoing diesel shortages, starting now and extending over the upcoming four months.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/g7s-100-million-barrel-diesel-fix-what-happens-after-the-emergency-release/articleshow/134651312.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-03T03:41:00.000Z"
+    },
+    {
+      "title": "Petrol, diesel prices today (October 3): Check latest rates in Delhi, Mumbai, Chennai, Kolkata & more",
+      "summary": "While international crude continues its upward trajectory, retail prices for petrol, diesel, and LPG have not been adjusted, leaving state refiners to absorb the full impact of the price surge.",
+      "url": "https://www.businesstoday.in/india/story/petrol-diesel-prices-today-october-3-check-latest-rates-in-delhi-mumbai-chennai-kolkata-more-559290-2026-10-03?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-03T03:29:38.000Z"
+    },
+    {
+      "title": "Irdai plan to help check mis-selling, raise returns",
+      "summary": "Irdai has introduced proposed guidelines aimed at reshaping the commission and expense structures for insurance distribution. This shift focuses on reducing reliance on high commission models, favoring a more customer-oriented strategy.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/irdai-plan-to-help-check-mis-selling-raise-returns/articleshow/134650814.cms",
+      "source": "Times of India Business",
+      "category": "regulatory",
+      "publishedAt": "2026-10-03T02:30:42.000Z"
+    },
+    {
+      "title": "Sea of red for most asset classes",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/sea-of-red-for-most-asset-classes/articleshow/134650694.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-03T02:22:38.000Z"
+    },
+    {
+      "title": "₹1.50 lakh gold tests Indian consumers: Lightweight jewellery gains traction",
+      "summary": "Gold’s recent correction could offer a buying window ahead of Diwali and the wedding season, but prices near ₹1.50 lakh per 10 grams remain a concern.",
+      "url": "https://www.businesstoday.in/india/story/rs1-50-lakh-gold-tests-indian-consumers-lightweight-jewellery-gains-traction-559261-2026-10-03?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-03T01:15:04.000Z"
+    },
+    {
+      "title": "₹4,69,000 EVs this Diwali? 5 electric cars get massive price cuts, but there’s a catch",
+      "summary": "Five EVs are being offered at lower upfront prices through Battery-as-a-Service this Diwali, with savings of up to ₹7.04 lakh. But buyers still pay a per-km battery rental.",
+      "url": "https://www.businesstoday.in/latest/photo/rs469000-evs-this-diwali-5-electric-cars-get-massive-price-cuts-but-theres-a-catch-558299-2026-10-03?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-03T00:45:02.000Z"
+    },
+    {
+      "title": "CNG drivers, check this before your next refill: IGL’s new system can flag your car at the pump",
+      "summary": "IGL’s new CNG verification system can scan a vehicle’s registration number and check its cylinder hydro-test record before refuelling, potentially blocking cars with expired safety certificates.",
+      "url": "https://www.businesstoday.in/latest/photo/cng-drivers-check-this-before-your-next-refill-igls-new-system-can-flag-your-car-at-the-pump-558289-2026-10-03?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-03T00:30:10.000Z"
+    },
     {
       "title": "Oil shock bypasses petrol pumps, hits Indian businesses through raw-material costs",
       "summary": "India’s oil shock is increasingly showing up in industrial input costs rather than at petrol pumps, with several raw materials seeing sharp price increases. IndiaMART data shows PP granules rose 32% between July and September, highlighting mounting pressure on businesses.",
@@ -281,14 +361,6 @@
       "publishedAt": "2026-10-02T03:04:53.000Z"
     },
     {
-      "title": "Petrol, diesel prices today (October 2): Check latest rates in Delhi, Mumbai, Chennai, Kolkata & more",
-      "summary": "The widening gap between rising import costs and stagnant domestic retail rates is eroding retail margins. While international crude continues its upward trajectory, retail prices for petrol, diesel, and LPG have not been adjusted, leaving state refiners to ab…",
-      "url": "https://www.businesstoday.in/latest/economy/story/petrol-diesel-prices-today-october-2-check-latest-rates-in-delhi-mumbai-chennai-kolkata-more-559184-2026-10-02?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-02T02:39:19.000Z"
-    },
-    {
       "title": "Oil prices soar to $103 per barrel again as Middle East supply concerns intensify",
       "summary": "Recent developments have led to a surge in oil prices, largely driven by new restrictions placed on Chinese fuel exports. This, combined with reports of increased US military presence in the Middle East, has heightened concerns over supply stability.",
       "url": "https://timesofindia.indiatimes.com/business/international-business/oil-prices-soar-to-103-per-barrel-again-as-middle-east-supply-concerns-intensify/articleshow/134630145.cms",
@@ -297,84 +369,12 @@
       "publishedAt": "2026-10-02T02:11:48.000Z"
     },
     {
-      "title": "Quote of the Day by Steve Jobs: 'Our goal is to make the best devices in the world, not to be the biggest'",
-      "summary": "Steve Jobs (1955-2011) was an American entrepreneur, inventor, and business magnate best known as the co-founder of Apple. Jobs played a key role in revolutionising personal computing, smartphones, digital music, and animation.",
-      "url": "https://www.businesstoday.in/latest/world/story/quote-of-the-day-by-steve-jobs-our-goal-is-to-make-the-best-devices-in-the-world-not-to-be-the-biggest-559155-2026-10-02?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-02T02:00:06.000Z"
-    },
-    {
       "title": "RBI eases rules for DIIs to buy bank shares",
       "summary": "",
       "url": "https://timesofindia.indiatimes.com/business/india-business/rbi-eases-rules-for-diis-to-buy-bank-shares/articleshow/134630134.cms",
       "source": "Times of India Business",
       "category": "regulatory",
       "publishedAt": "2026-10-02T01:49:07.000Z"
-    },
-    {
-      "title": "Chinese phone covers face anti-dumping duty",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/chinese-phone-covers-face-anti-dumping-duty/articleshow/134630133.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-02T01:44:31.000Z"
-    },
-    {
-      "title": "Sensex slides to over 2-year low as FPIs keep selling",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/sensex-slides-to-over-2-year-low-as-fpis-keep-selling/articleshow/134630110.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-02T01:40:24.000Z"
-    },
-    {
-      "title": "As inflation bites, shoppers count every penny",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/as-inflation-bites-shoppers-count-every-penny/articleshow/134630089.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-02T01:36:53.000Z"
-    },
-    {
-      "title": "Planning to buy a car in 2027? India’s new CAFE-III rules could shape the petrol, hybrid and EV choices ahead",
-      "summary": "India’s CAFE-III rules start in April 2027. Understand fleet-level targets, the tighter fuel-consumption benchmark and incentives for EVs, hybrids and other fuel-saving vehicle technologies.",
-      "url": "https://www.businesstoday.in/auto/photo/planning-to-buy-a-car-in-2027-indias-new-cafe-iii-rules-could-shape-the-petrol-hybrid-and-ev-choices-ahead-559113-2026-10-02?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-02T01:35:02.000Z"
-    },
-    {
-      "title": "Yami Gautam brings a mysterious bride into a chaotic Meerut home in Nayyi Navelli, releasing October 16",
-      "summary": "Yami Gautam plays Mohini in Nayyi Navelli, a supernatural family comedy set in Meerut. Explore the trailer’s premise, supporting cast, creative team and announced October 16 cinema release.",
-      "url": "https://www.businesstoday.in/latest/trends/photo/yami-gautam-brings-a-mysterious-bride-into-a-chaotic-meerut-home-in-nayyi-navelli-releasing-october-16-559110-2026-10-02?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-02T01:30:08.000Z"
-    },
-    {
-      "title": "Economy may expand 7.3% in July-September, says finance ministry",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/economy-may-expand-7-3-in-july-september-says-finance-minister/articleshow/134630035.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-02T01:29:43.000Z"
-    },
-    {
-      "title": "Anup Bagchi: ICICI pro who'll steer HDFC Bank",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/anup-bagchi-icici-pro-wholl-steer-hdfc-bank/articleshow/134629976.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-02T01:13:54.000Z"
-    },
-    {
-      "title": "No branch visit: Here’s how to change your bank-linked mobile number",
-      "summary": "Changed your mobile number? You may not need to visit a bank branch. Here's how internet banking or mobile apps can help update your registered number and complete verification.",
-      "url": "https://www.businesstoday.in/latest/photo/no-branch-visit-heres-how-to-change-your-bank-linked-mobile-number-558564-2026-10-02?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-02T00:45:02.000Z"
     }
   ]
 }
