@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-03T17:01:35.126Z",
+  "lastUpdated": "2026-10-03T22:00:44.595Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,30 @@
     }
   ],
   "articles": [
+    {
+      "title": "Europe’s €3.2 billion grain loss: What it means for India’s food inflation outlook",
+      "summary": "Europe’s grain harvest has suffered a 16.7 million-tonne setback after a record-hot, drought-hit summer, with losses estimated at €3.2 billion.",
+      "url": "https://www.businesstoday.in/latest/economy/story/europes-eu3-2-billion-grain-loss-what-it-means-for-indias-food-inflation-outlook-559345-2026-10-04?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-03T19:05:03.000Z"
+    },
+    {
+      "title": "Hydro generation falls short, strains power supply during non-solar hours in Sept",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/hydro-generation-falls-short-strains-power-supply-during-non-solar-hours-in-sept/articleshow/134663011.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-03T17:22:32.000Z"
+    },
+    {
+      "title": "India’s ₹80,000-crore submarine push: Project-75(I) nears final approval",
+      "summary": "Defence Secretary Rajesh Kumar Singh said Project-75(I) is at the final stage and has been submitted for a decision by the competent authority.",
+      "url": "https://www.businesstoday.in/india/story/indias-rs80000-crore-submarine-push-project-75i-nears-final-approval-559352-2026-10-03?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-03T17:06:03.000Z"
+    },
     {
       "title": "Third edition of Green Energy Corridor to add 51,126 ckm transmission lines, 50 GWh BESS",
       "summary": "The Indian government has approved the third phase of the Green Energy Corridor to enhance renewable energy transmission. This phase will create over 51,000 circuit kilometres of transmission lines and significant transformation capacity.",
@@ -351,30 +375,6 @@
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-10-02T12:51:18.000Z"
-    },
-    {
-      "title": "Can technology make farming a career choice for young Indians? Anant Ambani’s four-point plan",
-      "summary": "Reliance Industries executive director Anant Ambani has outlined a four-point plan to make agriculture more attractive to young Indians, combining digital tools, skills, entrepreneurship and village-level opportunities.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/can-technology-make-farming-a-career-choice-for-young-indians-anant-ambanis-four-point-plan-559251-2026-10-02?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-02T12:30:08.000Z"
-    },
-    {
-      "title": "ICICI Life appoints Sidharatha Mishra as MD & CEO as Anup Bagchi steps down",
-      "summary": "Mishra’s appointment as MD and CEO will take effect from October 14, 2026, or the date on which the Insurance Regulatory and Development Authority of India (IRDAI) grants its approval, whichever is later, the company said in an exchange filing.",
-      "url": "https://www.businesstoday.in/jobs/story/icici-life-appoints-sidharatha-mishra-as-md-ceo-as-anup-bagchi-steps-down-559248-2026-10-02?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "regulatory",
-      "publishedAt": "2026-10-02T12:05:55.000Z"
-    },
-    {
-      "title": "September shipments through Hormuz hit post-war high as LNG cargoes pick up",
-      "summary": "The month of September marked a significant spike in LNG traffic through the Strait of Hormuz, with 19 to 21 cargoes navigating the waters, the highest since war broke out. The cargoes predominantly hailed from Qatar and the United Arab Emirates.",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/september-shipments-through-hormuz-hit-post-war-high-as-lng-cargoes-pick-up/articleshow/134636877.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-02T10:30:36.000Z"
     }
   ]
 }
