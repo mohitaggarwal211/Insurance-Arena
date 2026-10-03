@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-03T14:47:28.377Z",
+  "lastUpdated": "2026-10-03T17:01:35.126Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,30 @@
     }
   ],
   "articles": [
+    {
+      "title": "Third edition of Green Energy Corridor to add 51,126 ckm transmission lines, 50 GWh BESS",
+      "summary": "The Indian government has approved the third phase of the Green Energy Corridor to enhance renewable energy transmission. This phase will create over 51,000 circuit kilometres of transmission lines and significant transformation capacity.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/third-edition-of-green-energy-corridor-to-add-51126-ckm-transmission-lines-50-gwh-bess/articleshow/134663120.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-03T16:48:18.000Z"
+    },
+    {
+      "title": "Bulk diesel price up Rs 14.6/litre as crude surge squeezes oil cos' margins",
+      "summary": "Nayara raises petrol price by Rs 5/litre, diesel by Rs 3 as crude surge hits margins",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/bulk-diesel-price-up-rs-14-6/litre-as-crude-surge-squeezes-oil-cos-margins/articleshow/134663012.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-03T16:40:15.000Z"
+    },
+    {
+      "title": "How landlord won tax relief on Rs 14.96 lakh demonetisation cash deposit",
+      "summary": "The Bangalore bench of the Income Tax Appellate Tribunal (ITAT) recently held that rental income already disclosed to the income tax authorities can be considered as an identifiable source of cash deposited into a bank account at a later date.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/he-deposited-rs-14-96-lakh-cash-during-demonetisation-landlord-faced-unexplained-money-tax-notice-under-section-69a-but-itat-bangalore-deletes-addition-on-account-of-rental-income/articleshow/134661840.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-03T16:31:22.000Z"
+    },
     {
       "title": "Lack of US-India deal will not have an adverse impact on India’s growth, says Panagariya",
       "summary": "Doesn't make things worse but the deal would make it better, wait and watch for now but expresses hope US will not levy tariffs under Lindsey O Graham Act",
@@ -351,30 +375,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-10-02T10:30:36.000Z"
-    },
-    {
-      "title": "If Trump imposes tariffs, will buying crude from Russia make economic sense for India?",
-      "summary": "Russia became an unusually attractive supplier when Western buyers retreated after the war with Ukraine. Its share of Indian crude imports, below 2% before the war, expanded rapidly as discounts compensated refiners for longer supply chains.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/will-russian-oil-be-economically-viable-for-india-if-trump-tariffs-return/articleshow/134636107.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-02T10:25:46.000Z"
-    },
-    {
-      "title": "A costly bite: Global food prices rise to their highest level in nearly four years",
-      "summary": "In a concerning trend, global food prices have surged to their highest point in nearly four years, driven by disruptions in trade and adverse weather conditions.",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/a-costly-bite-global-food-prices-rise-to-their-highest-level-in-nearly-four-years/articleshow/134636246.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-02T09:37:19.000Z"
-    },
-    {
-      "title": "Historic milestone: Watch Vande Bharat cross Chenab bridge, Anji bridges at 100 kmph",
-      "summary": "The higher speed of 100 kmph was successfully put to the test today, according to Railway minister Ashwini Vaishnaw. Vande Bharat Express (Train No.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/vande-bharat-crosses-worlds-highest-chenab-and-first-cable-stayed-anji-bridges-at-100-kmph-in-historic-milestone-as-katra-banihal-speed-limit-rises-over-a-year-after-inauguration/articleshow/134635017.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-02T09:25:09.000Z"
     }
   ]
 }
