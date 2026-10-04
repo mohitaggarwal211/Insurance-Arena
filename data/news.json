@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-04T13:04:13.589Z",
+  "lastUpdated": "2026-10-04T15:27:10.421Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,30 @@
     }
   ],
   "articles": [
+    {
+      "title": "'Kerala has a serious debt problem': Former Cabinet Secretary on state's finances",
+      "summary": "\"The issue is that debt has undoubtedly surged. It is the highest in the country today. 35% of GSDP is the highest in the country. So we do have a problem,\" says Kerala State Planning Board Vice Chairman K M Chandrasekhar",
+      "url": "https://www.businesstoday.in/latest/economy/story/kerala-has-a-serious-debt-problem-former-cabinet-secretary-on-states-finances-559404-2026-10-04?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-04T14:37:57.000Z"
+    },
+    {
+      "title": "Predicted to hit Rs 2 lakh, will gold prices fall to Rs 1.25 lakh per 10 grams?",
+      "summary": "International gold prices have fallen 26% from the record high of $5595 seen on January 29 this year. Indian gold prices peaked at the same time and are down around 23%.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/predicted-to-hit-rs-2-lakh-will-gold-prices-fall-to-rs-1-25-lakh-per-10-grams/articleshow/134673956.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-04T13:41:39.000Z"
+    },
+    {
+      "title": "Fed rate hike impact: IMF tells India to let exchange rate act as shock absorber",
+      "summary": "The impact on India would depend on the \"magnitude, pace, and persistence\" of the Fed's tightening cycle",
+      "url": "https://www.businesstoday.in/latest/economy/story/fed-rate-hike-impact-imf-tells-india-to-let-exchange-rate-act-as-shock-absorber-559399-2026-10-04?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-04T13:19:45.000Z"
+    },
     {
       "title": "OPEC+ keeps November oil output targets steady as Iran war hits supply",
       "summary": "",
@@ -329,22 +353,6 @@
       "publishedAt": "2026-10-03T08:45:52.000Z"
     },
     {
-      "title": "35 years after liberalisation, India’s global integration remains a work in progress, says Shankar Sharma",
-      "summary": "India’s post-1991 economic transformation has lifted its global standing, but the pace of improvement remains gradual, according to a data-based analysis by investor Shankar Sharma.",
-      "url": "https://www.businesstoday.in/latest/economy/story/35-years-after-liberalisation-indias-global-integration-remains-a-work-in-progress-says-shankar-sharma-559304-2026-10-03?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-03T08:02:18.000Z"
-    },
-    {
-      "title": "RBI Governor: Today's resilience may not imply tomorrow's immunity",
-      "summary": "India is navigating the West Asia crisis from a position of strength, but taking measures to further enhance resilience",
-      "url": "https://www.businesstoday.in/latest/economy/story/rbi-governor-todays-resilience-may-not-imply-tomorrows-immunity-559303-2026-10-03?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "regulatory",
-      "publishedAt": "2026-10-03T07:49:16.000Z"
-    },
-    {
       "title": "Rangpo-Gangtok rail link plan: Railways fast-tracks 34-km capital line",
       "summary": "",
       "url": "https://timesofindia.indiatimes.com/business/india-business/railways-fast-tracks-gangtok-link-as-sivok-rangpo-nears-completion/articleshow/134654426.cms",
@@ -367,14 +375,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-10-03T05:29:04.000Z"
-    },
-    {
-      "title": "UPI transactions rise 27% to 145 billion in H1 FY27 ahead of new MDR",
-      "summary": "UPI has recorded significant transaction growth, processing 145 billion transactions in the first half of the financial year. The value of these transactions increased to Rs 177 lakh crore, reflecting a notable rise.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/upi-transactions-rise-27-to-145-billion-in-h1-fy27-ahead-of-new-mdr/articleshow/134651885.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-03T04:34:01.000Z"
     }
   ]
 }
