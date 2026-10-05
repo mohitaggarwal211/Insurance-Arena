@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-05T15:37:37.386Z",
+  "lastUpdated": "2026-10-05T19:20:54.955Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -57,6 +57,46 @@
   ],
   "articles": [
     {
+      "title": "Indian workers spend Rs 785 monthly on commute; urban travel cost to office 70% higher: Govt survey",
+      "summary": "According to the National Household Travel Survey, Indian workers spend an average of Rs 785 monthly on commuting. Urban workers face higher commuting costs, averaging Rs 1,044 compared to Rs 612 in rural areas.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/indian-workers-spend-rs-785-monthly-on-commute-urban-cost-70-higher-govt-survey/articleshow/134715553.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-05T18:52:27.000Z"
+    },
+    {
+      "title": "GST Council meeting postponed again, now set for October 8",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/gst-council-meeting-postponed-again-now-set-for-october-8/articleshow/134715495.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-05T18:35:15.000Z"
+    },
+    {
+      "title": "From Dibrugarh to Dhaka by river: India revives a trade route silent for 70 years",
+      "summary": "A barge carrying 540 metric tonnes of methanol left the Bogibeel Terminal in Dibrugarh for Pangaon Port in Dhaka",
+      "url": "https://www.businesstoday.in/latest/economy/story/from-dibrugarh-to-dhaka-by-river-india-revives-a-trade-route-silent-for-70-years-559692-2026-10-05?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-05T16:45:28.000Z"
+    },
+    {
+      "title": "PPF at 7.1%, SCSS at 8.2%, NSC at 7.7%: Check Oct-Dec post office scheme rates",
+      "summary": "Latest small savings schemes interest rates: The Ministry of Finance decides the interest rates for all small savings schemes every quarter. For the October to December 2026 quarter, the interest rates on all small savings schemes have been kept unchanged.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/ppf-at-7-1-scss-8-2-nsc-7-7-check-small-savings-interest-rates-for-october-december-2026-and-what-investors-will-earn-on-post-office-schemes-like-ssy-time-deposits/articleshow/134704207.cms",
+      "source": "Times of India Business",
+      "category": "regulatory",
+      "publishedAt": "2026-10-05T16:38:17.000Z"
+    },
+    {
+      "title": "GST Council meeting rescheduled to October 8: What's on the agenda",
+      "summary": "The meeting will now be held on Thursday, October 8, from 11 am onwards at the Summit Room, Bharat Mandapam, New Delhi",
+      "url": "https://www.businesstoday.in/latest/economy/story/gst-council-meeting-rescheduled-to-october-8-whats-on-the-agenda-559688-2026-10-05?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-05T15:44:32.000Z"
+    },
+    {
       "title": "Screenshot a ticket, create a reminder: Vivo previews practical OriginOS 7 tools ahead of its October 6 event",
       "summary": "Vivo's OriginOS 7 preview covers five-app multitasking, cross-app drag, screenshot reminders and AI call tools. Check the device, app and regional conditions before expecting an update.",
       "url": "https://www.businesstoday.in/latest/trends/photo/screenshot-a-ticket-create-a-reminder-vivo-previews-practical-originos-7-tools-ahead-of-its-october-6-event-559659-2026-10-05?utm_source=rssfeed",
@@ -89,7 +129,7 @@
       "publishedAt": "2026-10-05T11:55:27.000Z"
     },
     {
-      "title": "WhatsApp parental controls explained: how families can manage teen settings and check the gradual rollout",
+      "title": "WhatsApp parental controls explained: How families can manage teen settings and check the gradual rollout",
       "summary": "WhatsApp's new teen controls cover privacy settings, group alerts, Status and Meta AI. See how the parent PIN works, what stays private and why availability may vary by region.",
       "url": "https://www.businesstoday.in/latest/trends/photo/whatsapp-parental-controls-explained-how-families-can-manage-teen-settings-and-check-the-gradual-rollout-559631-2026-10-05?utm_source=rssfeed",
       "source": "Business Today",
@@ -321,30 +361,6 @@
       "publishedAt": "2026-10-05T02:00:07.000Z"
     },
     {
-      "title": "HMSI flags pressure from rising costs",
-      "summary": "Honda Motorcycle and Scooter India anticipates a booming festive season compared to last year. Dealers are optimistic about the demand during the festivities, and dispatches are proceeding well.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/hmsi-flags-pressure-from-rising-costs/articleshow/134683491.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-05T01:21:11.000Z"
-    },
-    {
-      "title": "EY India chief seeks easier GST refunds, tax credits",
-      "summary": "EY India chairman Rajiv Memani emphasized the importance of expediting GST refunds and addressing input tax credit issues. He suggested allowing companies to claim expenses related to travel and insurance as eligible credits.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/ey-india-chief-seeks-easier-gst-refunds-tax-credits/articleshow/134683260.cms",
-      "source": "Times of India Business",
-      "category": "insurance",
-      "publishedAt": "2026-10-05T00:14:37.000Z"
-    },
-    {
-      "title": "Credit offtake stays ahead of banks' deposit growth",
-      "summary": "In the second quarter of FY27, advances at several banks grew significantly faster than deposit growth. Smaller banks, such as Tamilnad Mercantile Bank and Karnataka Bank, recorded impressive credit expansions.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/credit-offtake-stays-ahead-of-banks-deposit-growth/articleshow/134683228.cms",
-      "source": "Times of India Business",
-      "category": "insurance",
-      "publishedAt": "2026-10-05T00:01:32.000Z"
-    },
-    {
       "title": "Global refining capacity is becoming a key factor in fuel-market security",
       "summary": "Global refining capacity is set to expand significantly over the next five years, with new projects concentrated in Asia and Africa. The shift could alter regional fuel trade flows as some markets add capacity while others face refinery closures.",
       "url": "https://www.businesstoday.in/world/story/global-refining-capacity-is-becoming-a-key-factor-in-fuel-market-security-559351-2026-10-05?utm_source=rssfeed",
@@ -359,22 +375,6 @@
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-10-04T15:55:58.000Z"
-    },
-    {
-      "title": "'Kerala has a serious debt problem': Former Cabinet Secretary on state's finances",
-      "summary": "\"The issue is that debt has undoubtedly surged. It is the highest in the country today. 35% of GSDP is the highest in the country. So we do have a problem,\" says Kerala State Planning Board Vice Chairman K M Chandrasekhar",
-      "url": "https://www.businesstoday.in/latest/economy/story/kerala-has-a-serious-debt-problem-former-cabinet-secretary-on-states-finances-559404-2026-10-04?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-04T14:37:57.000Z"
-    },
-    {
-      "title": "Fed rate hike impact: IMF tells India to let exchange rate act as shock absorber",
-      "summary": "The impact on India would depend on the \"magnitude, pace, and persistence\" of the Fed's tightening cycle",
-      "url": "https://www.businesstoday.in/latest/economy/story/fed-rate-hike-impact-imf-tells-india-to-let-exchange-rate-act-as-shock-absorber-559399-2026-10-04?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-04T13:19:45.000Z"
     }
   ]
 }
