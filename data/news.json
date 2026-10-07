@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-07T14:17:14.366Z",
+  "lastUpdated": "2026-10-07T17:29:32.552Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,30 @@
     }
   ],
   "articles": [
+    {
+      "title": "RBI’s big move: Your consolidated account statement will now have details of MFs, stocks & FDs!",
+      "summary": "For individuals who receive a CAS, this means information on their mutual funds, stocks and, going forward, fixed deposits (FDs) can be viewed together in one place.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/rbi-makes-financial-information-easier-to-access-for-you-account-aggregators-to-work-across-platforms-while-fixed-deposits-will-be-visible-in-your-cas-alongside-stocks-and-mutual-funds/articleshow/134762957.cms",
+      "source": "Times of India Business",
+      "category": "regulatory",
+      "publishedAt": "2026-10-07T16:27:59.000Z"
+    },
+    {
+      "title": "Woman got Rs 12.28 lakh, but sought maintenance from granddaughter & son’s widow; Court rejects plea",
+      "summary": "An 83-year old retired woman in Kerala filed a case seeking monthly maintenance payment of Rs 15,000 and also claimed a share in the widow family pension.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/83-year-old-woman-got-rs-12-28-lakh-after-sons-death-but-sought-rs-15000-maintenance-from-college-going-granddaughter-and-a-share-of-family-pension-from-sons-widow-kerala-hc-rejects-both-claims/articleshow/134768286.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-07T14:31:18.000Z"
+    },
+    {
+      "title": "GST cuts insurance tax rates in 2025: A year on, consumers still await the full benefit in premiums",
+      "summary": "With the GST Council set to meet on October 8, government sources say the effective tax rate on domestic taxable supplies has fallen to 13.13% from 14.55%, but insurance premiums have not declined commensurately",
+      "url": "https://www.businesstoday.in/latest/corporate/story/gst-cuts-insurance-tax-rates-in-2025-a-year-on-consumers-still-await-the-full-benefit-in-premiums-560240-2026-10-07?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "insurance",
+      "publishedAt": "2026-10-07T14:13:59.000Z"
+    },
     {
       "title": "SBI Research expects 6% repo rate: Why inflation is forcing RBI’s hand",
       "summary": "In its latest Ecowrap, SBI Research said India’s inflation trajectory could worsen in the coming months, with CPI inflation estimated to peak at around 6.8% in November 2026.",
@@ -321,14 +345,6 @@
       "publishedAt": "2026-10-07T00:49:22.000Z"
     },
     {
-      "title": "Ampere Nexus EX+ launched: ₹1.29 lakh price hides some surprising upgrades",
-      "summary": "Ampere Nexus EX+ launched at ₹1.29 lakh with a claimed 2 lakh km battery life, 136 km range, 5kW motor, faster charging and over 30 connected features.",
-      "url": "https://www.businesstoday.in/latest/photo/ampere-nexus-ex-launched-rs1-29-lakh-price-hides-some-surprising-upgrades-559890-2026-10-07?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-07T00:45:02.000Z"
-    },
-    {
       "title": "Volatility triggered by CAS surges on NSE on expiry day",
       "summary": "The Closing Auction Session faced volatility as weekly derivatives contracts expired in Indian markets. Nifty surged over 300 points and then dropped significantly while Sensex also fluctuated.",
       "url": "https://timesofindia.indiatimes.com/business/india-business/volatility-triggered-by-cas-surges-on-nse-on-expiry-day/articleshow/134753147.cms",
@@ -359,22 +375,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-10-07T00:12:12.000Z"
-    },
-    {
-      "title": "Most GST refunds may be processed within 17 days",
-      "summary": "The GST Council intends to shorten the refund processing period to around 17 days for businesses. It will also work to automate registering for a GST number to speed up the process.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/most-gst-refunds-may-be-processed-within-17-days/articleshow/134752858.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-07T00:04:41.000Z"
-    },
-    {
-      "title": "‘System already straining’: Global oil buffers shrink amid mounting supply risks, say industry leaders",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/system-already-straining-global-oil-buffers-shrink-amid-mounting-supply-risks-say-industry-leaders/articleshow/134748674.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-06T18:41:33.000Z"
     }
   ]
 }
