@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-07T17:29:32.552Z",
+  "lastUpdated": "2026-10-07T23:29:20.561Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,38 @@
     }
   ],
   "articles": [
+    {
+      "title": "Some oligarchs blocking entry of Starlink in India: Elon Musk",
+      "summary": "Elon Musk has claimed that certain oligarchs are obstructing Starlink's entry into the Indian market. Starlink has already established the necessary infrastructure and is prepared to launch its services.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/some-oligarchs-blocking-entry-of-starlink-in-india-elon-musk/articleshow/134776971.cms",
+      "source": "Times of India Business",
+      "category": "regulatory",
+      "publishedAt": "2026-10-07T23:23:36.000Z"
+    },
+    {
+      "title": "Gen Z’s Garba glow secret? Ahmedabad youth turns to IV drip therapy this Navratri",
+      "summary": "Ahmedabad’s Navratri celebrations often involve hours of continuous dancing, late nights and elaborate preparations around outfits, makeup and appearance",
+      "url": "https://www.businesstoday.in/india/story/gen-zs-garba-glow-secret-ahmedabad-youth-turns-to-iv-drip-therapy-this-navratri-560168-2026-10-08?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-07T22:30:06.000Z"
+    },
+    {
+      "title": "Loans set to get dearer as RBI hikes repo rate after 44 months",
+      "summary": "The Reserve Bank of India has announced a 25 basis points increase in the repo rate to 5.5%. This decision reflects growing inflation pressures and stronger than anticipated economic growth.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/loans-set-to-get-dearer-as-rbi-hikes-repo-rate-after-44-months/articleshow/134774530.cms",
+      "source": "Times of India Business",
+      "category": "regulatory",
+      "publishedAt": "2026-10-07T21:21:11.000Z"
+    },
+    {
+      "title": "India tops Global Consumer Confidence Ranking 2026 with 66.9 score: Check full list here",
+      "summary": "The findings are significant because consumer confidence is closely watched as an indicator of household spending and economic expectations",
+      "url": "https://www.businesstoday.in/latest/trends/story/india-tops-global-consumer-confidence-ranking-2026-with-66-9-score-check-full-list-here-560237-2026-10-08?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-07T19:00:07.000Z"
+    },
     {
       "title": "RBI’s big move: Your consolidated account statement will now have details of MFs, stocks & FDs!",
       "summary": "For individuals who receive a CAS, this means information on their mutual funds, stocks and, going forward, fixed deposits (FDs) can be viewed together in one place.",
@@ -321,22 +353,6 @@
       "publishedAt": "2026-10-07T01:15:02.000Z"
     },
     {
-      "title": "Tata Sierra vs Kia Seltos: One SUV claims 21.26 kmpl, but there’s a twist",
-      "summary": "Tata Sierra claims 21.26 kmpl in diesel-manual form, beating Kia Seltos at 19.4 kmpl. Compare mileage, engine power, torque and prices before choosing between the two SUVs.",
-      "url": "https://www.businesstoday.in/latest/photo/tata-sierra-vs-kia-seltos-one-suv-claims-21-26-kmpl-but-theres-a-twist-559878-2026-10-07?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-07T01:00:07.000Z"
-    },
-    {
-      "title": "UTET 2026 answer key is out—match your paper set and file objections before October 15, 11:59 pm",
-      "summary": "UTET 2026 provisional keys are available for both papers. Match the correct set and submit supported online objections by October 15 at 11:59 pm, as the notice states.",
-      "url": "https://www.businesstoday.in/latest/trends/photo/utet-2026-answer-key-is-out-match-your-paper-set-and-file-objections-before-october-15-1159-pm-559967-2026-10-07?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-07T00:50:03.000Z"
-    },
-    {
       "title": "4G mobiles make a comeback on costlier 5G smartphones",
       "summary": "India is experiencing a noticeable slowdown in the shift to 5G smartphones due to rising costs. As a result, the demand for 4G devices is increasing, especially in the Rs 10,000-20,000 segment.",
       "url": "https://timesofindia.indiatimes.com/business/india-business/4g-mobiles-make-a-comeback-on-costlier-5g-smartphones/articleshow/134753200.cms",
@@ -359,22 +375,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-10-07T00:27:54.000Z"
-    },
-    {
-      "title": "FMCG Q2: Margins under pressure",
-      "summary": "Fast-moving consumer goods companies are experiencing increased commodity costs, alongside the impact of weak monsoons on consumption. Despite these challenges, companies are projecting revenue and volume growth for the quarter.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/fmcg-q2-margins-under-pressure/articleshow/134752923.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-07T00:15:59.000Z"
-    },
-    {
-      "title": "E-way bills point to fertiliser diversion",
-      "summary": "The introduction of the e-way bill has significantly improved the tracking of fertiliser movement across India. Preliminary checks during the fertiliser crisis revealed diversion of goods meant for designated locations.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/e-way-bills-point-to-fertiliser-diversion/articleshow/134752896.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-07T00:12:12.000Z"
     }
   ]
 }
