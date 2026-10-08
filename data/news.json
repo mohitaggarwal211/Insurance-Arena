@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-08T07:36:47.101Z",
+  "lastUpdated": "2026-10-08T17:28:26.973Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -57,12 +57,244 @@
   ],
   "articles": [
     {
-      "title": "From TikTok reels to ₹81 crore: How two Gen Z friends built a pickle brand",
-      "summary": "In 2023, they started sending each other pickle-related TikTok clips almost daily, riding a wider online trend around pickles and snack content.",
-      "url": "https://www.businesstoday.in/latest/trends/story/from-tiktok-reels-to-rs81-crore-how-two-gen-z-friends-built-a-pickle-brand-560161-2026-10-08?utm_source=rssfeed",
+      "title": "NPCI likely to defer UPI MDR rollout, announcement expected on Friday: Report",
+      "summary": "On September 15, the government announced the 0.4% MDR on UPI merchant transactions above Rs 2,000, with implementation initially scheduled for October 15",
+      "url": "https://www.businesstoday.in/latest/economy/story/npci-likely-to-defer-upi-mdr-rollout-announcement-expected-on-friday-report-560537-2026-10-08?utm_source=rssfeed",
       "source": "Business Today",
       "category": "markets",
-      "publishedAt": "2026-10-08T07:34:11.000Z"
+      "publishedAt": "2026-10-08T16:55:35.000Z"
+    },
+    {
+      "title": "Woman claims 2.5 acres was ancestral after stepmother sold it; why HC rejected plea",
+      "summary": "The Madras High Court held that the property was not ancestral but self-acquired. As a result, under Hindu law, the man and his mother were legally entitled to execute the gift settlement deed in favour of the man’s second wife, who could subsequently sell the property.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/grandmother-and-her-son-gifted-2-5-acre-land-to-his-second-wife-who-sold-it-his-daughter-from-first-marriage-claimed-it-was-ancestral-but-madras-hc-rejects-her-plea/articleshow/134794319.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-08T16:41:43.000Z"
+    },
+    {
+      "title": "GST relief for overseas R&D: Why new place-of-supply rules could boost India’s engineering sector",
+      "summary": "The proposed change addresses a longstanding concern for businesses providing specialised services to overseas customers, where the physical presence of a prototype, sample or other goods in India could prevent the service from qualifying as an export.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/gst-relief-for-overseas-rd-why-new-place-of-supply-rules-could-boost-indias-engineering-sector-560527-2026-10-08?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-08T14:50:40.000Z"
+    },
+    {
+      "title": "GST reforms: Top things announced by FM Sitharaman-led GST Council & what they mean for businesses",
+      "summary": "The GST Council approved a series of changes aimed at easing compliance, including removing the power of tax officials to make arrests and raising the prosecution threshold fivefold to Rs 5 crore.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/gst-reforms-top-things-announced-by-fm-sitharaman-led-gst-council-what-they-mean-for-businesses/articleshow/134793591.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-08T14:38:11.000Z"
+    },
+    {
+      "title": "GST Council approves next-gen reforms; 99% issues addressed, says FM Sitharaman",
+      "summary": "More reforms on the anvil, FM says process and rate measures now driven from a principle of trust",
+      "url": "https://www.businesstoday.in/latest/economy/story/gst-council-approves-next-gen-reforms-99-issues-addressed-says-fm-sitharaman-560514-2026-10-08?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-08T13:59:17.000Z"
+    },
+    {
+      "title": "GST taxable supply rises 25.8% as effective tax rate falls: What the numbers say about GST 2.0",
+      "summary": "According to the outcomes of the 57th GST Council meeting, monthly taxable supply increased from ₹40.19 lakh crore to ₹50.58 lakh crore, marking a 25.8% rise over the period. Consumer supplies also increased 26.7%, from ₹5.98 lakh crore to ₹7.58 lakh crore a month.",
+      "url": "https://www.businesstoday.in/latest/economy/story/gst-taxable-supply-rises-25-8-as-effective-tax-rate-falls-what-the-numbers-say-about-gst-2-0-560511-2026-10-08?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-08T13:53:11.000Z"
+    },
+    {
+      "title": "As Trump sours H-1B visa dream, which Indian IT professionals face biggest hit?",
+      "summary": "Three H-1B related changes are stacking on top of each other: the multiple $100,000 fee proposals, the wage-weighted lottery favoring more senior workers, new layoff and compliance scrutiny, and now the OPT/STEM-OPT $70,000 fee proposal for students looking to work in the US.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/death-by-restriction-as-trump-sours-h-1b-visa-dream-which-indian-it-professionals-face-the-biggest-hit/articleshow/134788265.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-08T13:41:05.000Z"
+    },
+    {
+      "title": "GST Council removes arrest power, raises prosecution threshold to ₹5 crore: What changes for taxpayers",
+      "summary": "The 57th GST Council meeting decided to remove the power of arrest under GST. At the same time, the threshold for prosecution will be increased from ₹1 crore to ₹5 crore, significantly raising the level at which a taxpayer could face prosecution.",
+      "url": "https://www.businesstoday.in/latest/economy/story/gst-council-removes-arrest-power-raises-prosecution-threshold-to-rs5-crore-what-changes-for-taxpayers-560493-2026-10-08?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-08T13:13:52.000Z"
+    },
+    {
+      "title": "Amazon sale phones from ₹15,499: iPhone 16, Galaxy S25 Ultra and the conditions behind the price tags",
+      "summary": "Four Amazon phone offers span ₹15,499 to ₹84,999. Check the exact model, coupon and payment conditions before deciding what you will pay.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/amazon-sale-phones-from-rs15499-iphone-16-galaxy-s25-ultra-and-the-conditions-behind-the-price-tags-560490-2026-10-08?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-08T12:38:25.000Z"
+    },
+    {
+      "title": "GST Council shields genuine taxpayers from ITC loss; small e-commerce sellers get interstate relief",
+      "summary": "Addressing the press briefing after the 57th GST Council meeting, FM Sitharaman said the Council had an agenda to amend Section 162C of the CGST Act to address situations where credit reaching a genuine taxpayer was blocked or reversed because of a supplier’s …",
+      "url": "https://www.businesstoday.in/latest/economy/story/gst-council-shields-genuine-taxpayers-from-itc-loss-small-e-commerce-sellers-get-interstate-relief-560482-2026-10-08?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-08T12:29:17.000Z"
+    },
+    {
+      "title": "No UPI MDR discussion at GST Council meet; rates unchanged, ITC protection among key takeaways",
+      "summary": "The Council also made no changes to GST rates, with the Finance Ministry saying the rate structure is now settled. The focus has shifted towards improving how GST works for businesses and taxpayers, including registration, returns, refunds and input tax credit.",
+      "url": "https://www.businesstoday.in/latest/economy/story/no-upi-mdr-discussion-at-gst-council-meet-rates-unchanged-itc-protection-gets-focus-fm-sitharaman-560476-2026-10-08?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-08T12:15:38.000Z"
+    },
+    {
+      "title": "GST Council scraps tax officers' arrest powers; prosecution threshold raised to Rs 5 cr",
+      "summary": "The GST Council made a landmark decision by abolishing the arrest powers of tax officers. They've raised the prosecution threshold from Rs 1 crore to Rs 5 crore, easing the pressure on small sellers using e-commerce platforms.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/gst-council-meeting-arresting-powers-of-tax-officers-scrapped-prosecution-threshold-raised-to-rs-5-crore/articleshow/134789551.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-08T12:01:50.000Z"
+    },
+    {
+      "title": "No more phone checks? These 5 bikes bring Google Maps to your handlebar",
+      "summary": "These 5 affordable bikes bring Google Maps Mirroring to their displays, letting riders access navigation without checking their phones. Prices start at ₹1.04 lakh.",
+      "url": "https://www.businesstoday.in/latest/photo/no-more-phone-checks-these-5-bikes-bring-google-maps-to-your-handlebar-560185-2026-10-08?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-08T11:37:57.000Z"
+    },
+    {
+      "title": "Tcs Q2 Results: TCS profit jumps 15% to ₹13,884cr, AI revenue tops $3.1bn; board announces ₹12 dividend",
+      "summary": "Tata Consultancy Services has reported a notable 15% surge in net profit for the September quarter, achieving Rs 13,884 crore. The operations revenue grew by 11.22% year-on-year, hitting Rs 73,188 crore.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/tcs-q2-results-net-profit-rises-15-to-rs-13884-crore-revenue-up-11/articleshow/134788770.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-08T11:35:38.000Z"
+    },
+    {
+      "title": "₹2.80 lakh for this Triumph: 5 riding modes make the Bonneville T40 stand out",
+      "summary": "Triumph has launched its smallest Bonneville, the T40, in India at ₹2.80 lakh with five riding modes, a TFT display, navigation and a 350cc engine producing 29hp.",
+      "url": "https://www.businesstoday.in/latest/photo/rs2-80-lakh-for-this-triumph-5-riding-modes-make-the-bonneville-t40-stand-out-560191-2026-10-08?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-08T11:32:36.000Z"
+    },
+    {
+      "title": "No deposit rate hikes for 2-3 months: SBI Chairman C.S. Setty explains why",
+      "summary": "SBI Chairman C.S. Setty expects banks to keep deposit rates unchanged for the next two to three months, citing excess liquidity in the system.",
+      "url": "https://www.businesstoday.in/latest/economy/story/no-deposit-rate-hikes-for-2-3-months-sbi-chairman-cs-setty-explains-why-560451-2026-10-08?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "regulatory",
+      "publishedAt": "2026-10-08T11:30:12.000Z"
+    },
+    {
+      "title": "₹1.60 crore Defender for wife: The YouTube earnings behind Sourav Joshi’s luxury gift",
+      "summary": "Sourav Joshi’s ₹1.60 crore Defender gift for his wife raises questions about YouTube earnings, ad revenue, sponsorships and whether seven videos could recover a major part of its cost.",
+      "url": "https://www.businesstoday.in/latest/photo/rs1-60-crore-defender-for-wife-the-youtube-earnings-behind-sourav-joshis-luxury-gift-560187-2026-10-08?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-08T11:28:21.000Z"
+    },
+    {
+      "title": "From washing dishes for ₹18 to ₹180 crore revenue: Jayaram Banan’s Sagar Ratna story",
+      "summary": "At the tender age of 13, Jayaram Banan took a bold step, leaving home with only a handful of money borrowed from his father's pocket after a failed school exam.",
+      "url": "https://www.businesstoday.in/latest/trends/story/from-washing-dishes-for-rs18-to-building-a-rs180-crore-restaurant-empire-how-jayaram-banan-built-sagar-ratna-560447-2026-10-08?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-08T11:19:32.000Z"
+    },
+    {
+      "title": "94th Air Force Day: The big shift happening inside India’s air power",
+      "summary": "On the 94th Air Force Day, India’s air power faces a major transformation as the IAF focuses on combat readiness, fighter modernisation and indigenous defence technology.",
+      "url": "https://www.businesstoday.in/latest/photo/94th-air-force-day-the-big-shift-happening-inside-indias-air-power-560445-2026-10-08?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-08T11:12:47.000Z"
+    },
+    {
+      "title": "Honda Elevate facelift just ₹11.80 lakh! Same engine, but buyers get a surprising upgrade",
+      "summary": "Honda Elevate facelift launched at ₹11.80 lakh with new ZX+ variant, ventilated rear seats, upgraded features and safety tech, while retaining the 1.5-litre i-VTEC petrol engine.",
+      "url": "https://www.businesstoday.in/latest/photo/honda-elevate-facelift-just-rs11-80-lakh-same-engine-but-buyers-get-a-surprising-upgrade-560179-2026-10-08?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-08T11:06:11.000Z"
+    },
+    {
+      "title": "'Every Indian home will have a broadband connection': Akash Ambani on Jio satellite broadband",
+      "summary": "Ambani said satellite technology would play an important role in expanding the reach of broadband services, particularly in areas where traditional connectivity infrastructure may be difficult to deploy",
+      "url": "https://www.businesstoday.in/latest/corporate/story/every-indian-home-will-have-a-broadband-connection-akash-ambani-on-jio-satellite-broadband-560444-2026-10-08?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-08T11:02:50.000Z"
+    },
+    {
+      "title": "India's GDP is booming, but stock market is crashing: What's going wrong?",
+      "summary": "India is experiencing impressive GDP growth of 7.8%, while the World Bank revises its growth outlook to 7.1%. Yet, Dalal Street faces turbulence as benchmark indices suffer losses exceeding 1%.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/indias-gdp-is-booming-but-stock-market-is-crashing-whats-going-wrong/articleshow/134786666.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-08T10:49:50.000Z"
+    },
+    {
+      "title": "Anup Bagchi vs Sashidhar Jagdishan: How HDFC Bank’s incoming CEO pay compares with his predecessor",
+      "summary": "HDFC Bank has proposed Rs 35.89 crore in annual compensation for Anup Bagchi for the 2026-27 performance year, compared with Rs 28.65 crore received by Sashidhar Jagdishan in FY26.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/anup-bagchi-vs-sashidhar-jagdishan-how-hdfc-banks-incoming-ceo-pay-compares-with-his-predecessor-560433-2026-10-08?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-08T10:29:03.000Z"
+    },
+    {
+      "title": "AI regulation consultation paper next month, says IT minister Vaishnaw",
+      "summary": "Union minister Ashwini Vaishnaw announced plans for a Consultation paper on AI regulations to address specific concerns. The focus will include AI safety, deepfakes, user harm, and the need for skilling.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/ai-regulation-consultation-paper-next-month-says-it-minister-vaishnaw-focus-on-safety-deepfakes/articleshow/134785844.cms",
+      "source": "Times of India Business",
+      "category": "regulatory",
+      "publishedAt": "2026-10-08T10:22:06.000Z"
+    },
+    {
+      "title": "Bihar teen Shubham Kumar reaches Candy Crush level 22,222, gets international record recognition",
+      "summary": "The milestone is notable given the increasing difficulty of Candy Crush as players progress through its thousands of levels",
+      "url": "https://www.businesstoday.in/latest/trends/story/bihar-teen-shubham-kumar-reaches-candy-crush-level-22222-gets-international-record-recognition-560421-2026-10-08?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-08T10:16:39.000Z"
+    },
+    {
+      "title": "Mumbai-Pune in 48 min, Delhi-Varanasi under 4 hours: 7 bullet train routes",
+      "summary": "Seven new bullet train corridors in works: In the coming years, Indian Railways is looking to make that a reality with seven new bullet train corridors in the works.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/delhi-varanasi-in-less-than-4-hours-mumbai-pune-in-48-minutes-chennai-bengaluru-in-over-1-hour-indian-railways-bets-on-seven-new-bullet-train-corridors-in-rs-16-lakh-crore-high-speed-push/articleshow/134783546.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-08T09:31:28.000Z"
+    },
+    {
+      "title": "RBI rate hike impact: Bond yields may hold near 7.25% after policy shift",
+      "summary": "In a significant policy change, the Reserve Bank of India has upped its key interest rate to 5.50% with a 25 basis point hike, the first in nearly four years. This adjustment reflects a shift to a calibrated tightening approach, hinting at potential future increases.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/rbi-rate-hike-impact-bond-yields-may-hold-near-7-25-after-policy-shift/articleshow/134782852.cms",
+      "source": "Times of India Business",
+      "category": "regulatory",
+      "publishedAt": "2026-10-08T08:36:53.000Z"
+    },
+    {
+      "title": "Rupee near record low: Why RBI’s multiple defences are losing effectiveness",
+      "summary": "The Indian Rupee is just 0.2% away from its record low of 96.97 per dollar, reached in May 2026, highlighting the growing pressure from elevated crude oil prices, rising global bond yields and continued foreign portfolio outflows.",
+      "url": "https://www.businesstoday.in/latest/economy/story/rupee-near-record-low-why-rbis-multiple-defences-are-losing-effectiveness-560381-2026-10-08?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "regulatory",
+      "publishedAt": "2026-10-08T08:06:42.000Z"
+    },
+    {
+      "title": "No MDR on UPI from October 15? Government considers delaying rollout of fees: Report",
+      "summary": "MDR on UPI: Last month, the government ended the zero-fee regime for UPI by allowing merchants to be charged 0.4% on transactions above Rs 2,000. UPI is used by more than 500 million people across the country for payments ranging from roadside cups of tea to iPhones.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/no-mdr-on-upi-from-october-15-government-considers-delaying-rollout-of-fees-report/articleshow/134783783.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-08T07:51:57.000Z"
+    },
+    {
+      "title": "Rajasthan’s small-business credit boom: Why lending is growing faster than the national average",
+      "summary": "Rajasthan’s small-business credit portfolio is expanding faster than the national average, signalling strong financing demand across the state’s MSME ecosystem.",
+      "url": "https://www.businesstoday.in/latest/economy/story/rajasthans-small-business-credit-boom-why-lending-is-growing-faster-than-the-national-average-560374-2026-10-08?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-08T07:48:18.000Z"
     },
     {
       "title": "Gold price prediction: What is the gold price outlook on October 8, 2026?",
@@ -73,16 +305,8 @@
       "publishedAt": "2026-10-08T07:05:52.000Z"
     },
     {
-      "title": "Global food security faces fresh risks, but India's grain buffer offers a cushion",
-      "summary": "The government is also relying on the Food Corporation of India’s ability to intervene in the market if required. Under the Open Market Sale Scheme, FCI can release surplus wheat and rice into the open market to augment supplies, stabilise prices and contain inflation.",
-      "url": "https://www.businesstoday.in/latest/economy/story/global-food-security-faces-fresh-risks-but-indias-grain-buffer-offers-a-cushion-560357-2026-10-08?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-08T06:50:57.000Z"
-    },
-    {
       "title": "Why BSE Sensex, Nifty50 are crashing on October 8, 2026? Top reasons",
-      "summary": "Stock market crash today: At around 12:02 PM, Nifty50 was trading at 22,357.85, down 245 points or 1.08%. BSE Sensex was at 71,947.85, down 691 points or 0.95%. Sustained selling in large-caps by the FIIs have contributed significantly to this trend.",
+      "summary": "Stock market crash today: At 1:25 PM, Nifty50 was trading at 22,260.70, down 342 points or 1.51%. BSE Sensex was at 71,670.06, down 968 points or 1.33%. Sustained selling in large-caps by the FIIs have contributed significantly to this trend.",
       "url": "https://timesofindia.indiatimes.com/business/india-business/stock-market-crash-today-why-bse-sensex-nifty50-are-down-on-october-8-2026-top-reasons-for-fall-market-cap-fii-rbi-repo-rate-oil/articleshow/134782249.cms",
       "source": "Times of India Business",
       "category": "markets",
@@ -105,14 +329,6 @@
       "publishedAt": "2026-10-08T06:31:08.000Z"
     },
     {
-      "title": "₹5 lakh crore saved, ₹4 lakh crore transferred: PM Modi on how DBT is reshaping India’s welfare system",
-      "summary": "PM Modi said the DBT system had not only enabled government funds to reach beneficiaries directly but had also prevented money from being diverted.",
-      "url": "https://www.businesstoday.in/latest/economy/story/rs5-lakh-crore-saved-rs4-lakh-crore-transferred-pm-modi-on-how-dbt-is-reshaping-indias-welfare-system-560341-2026-10-08?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-08T06:23:58.000Z"
-    },
-    {
       "title": "Rupee rises 10 paise against US dollar: What is supporting the currency?",
       "summary": "The rupee opened at 96.71 against the dollar but improved to 96.65 thanks to intervention from the Reserve Bank of India. External factors, like a robust US dollar and climbing crude oil prices, are still putting pressure on the currency.",
       "url": "https://timesofindia.indiatimes.com/business/india-business/rupee-rises-10-paise-against-us-dollar-what-is-supporting-the-currency/articleshow/134779681.cms",
@@ -127,14 +343,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-10-08T03:09:06.000Z"
-    },
-    {
-      "title": "Festive cheer: UPI MDR may be deferred till next year, says report",
-      "summary": "MDR on UPI: The UPI and Services Steering Committee, led by the National Payments Corporation of India (NPCI), met on Wednesday to discuss the timing of the proposed fee and other related clarifications.",
-      "url": "https://www.businesstoday.in/latest/economy/story/festive-cheer-upi-mdr-may-be-deferred-till-next-year-says-report-560276-2026-10-08?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-08T03:05:13.000Z"
     },
     {
       "title": "Which are the top stocks to buy or sell on October 8, 2026?",
@@ -153,14 +361,6 @@
       "publishedAt": "2026-10-08T03:00:13.000Z"
     },
     {
-      "title": "Amazon makes fresh job cuts across several teams in US, UK, India",
-      "summary": "This latest cut follows a larger reduction of about 30,000 jobs that started late last year and continued into January as part of cost-cutting and organisational streamlining efforts.",
-      "url": "https://www.businesstoday.in/jobs/story/amazon-makes-fresh-job-cuts-across-several-teams-in-us-uk-india-560269-2026-10-08?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-08T02:40:41.000Z"
-    },
-    {
       "title": "Oil remains beyond $100 per barrel as Middle East supply concerns persist",
       "summary": "As tensions escalate in the Middle East, particularly around the Strait of Hormuz, oil prices have surged amid fears of potential supply disruptions. Recent assaults on tankers heighten the danger of transporting crude through this vital corridor.",
       "url": "https://timesofindia.indiatimes.com/business/international-business/oil-remains-beyond-100-per-barrel-as-middle-east-supply-concerns-persist/articleshow/134777591.cms",
@@ -169,212 +369,12 @@
       "publishedAt": "2026-10-08T02:06:25.000Z"
     },
     {
-      "title": "Quote of the Day by Deepinder Goyal: 'Everything is solvable. You have to put your mind to it'",
-      "summary": "Deepinder Goyal is an Indian billionaire entrepreneur best known as the founder of Zomato, India's largest restaurant discovery and food delivery platform. He graduated from IIT Delhi in 2005 with an Integrated M.Tech in Mathematics and Computing.",
-      "url": "https://www.businesstoday.in/india/story/quote-of-the-day-by-deepinder-goyal-everything-is-solvable-you-have-to-put-your-mind-to-it-560258-2026-10-08?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-08T02:00:05.000Z"
-    },
-    {
       "title": "Airtel hikes postpaid tariffs, others may follow",
       "summary": "Bharti Airtel is set to raise its postpaid tariffs by 3-10% starting Thursday, which affects all users. The new plans will incorporate free international roaming, valued at Rs 2,000 for each SIM once per trip.",
       "url": "https://timesofindia.indiatimes.com/business/india-business/airtel-hikes-postpaid-tariffs-others-may-follow/articleshow/134777582.cms",
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-10-08T01:48:18.000Z"
-    },
-    {
-      "title": "Brookfield to acquire 8 ESR logistics parks for $450 million",
-      "summary": "Brookfield is entering the industrial and logistics real estate market by acquiring eight warehousing parks from ESR India. This acquisition amounts to $450 million and expands Brookfield's operations beyond office and hospitality spaces.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/brookfield-to-acquire-8-esr-logistics-parks-for-450-million/articleshow/134777559.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-08T01:43:27.000Z"
-    },
-    {
-      "title": "Consolidated account statements to reflect deposits in banks",
-      "summary": "Individuals will soon benefit from easier access to financial assets in one place through RBI's measures. Interoperable account aggregators will enable customers to access financial information across various banks with consent.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/consolidated-account-statements-to-reflect-deposits-in-banks/articleshow/134777538.cms",
-      "source": "Times of India Business",
-      "category": "regulatory",
-      "publishedAt": "2026-10-08T01:38:40.000Z"
-    },
-    {
-      "title": "At 107, National Company Law Tribunal OKs record insolvency cases",
-      "summary": "The National Company Law Tribunal approved 107 corporate insolvency cases in the last quarter of the fiscal year. These cases had an estimated value of Rs 11,000 crore compared to previous quarters.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/at-107-national-company-law-tribunal-oks-record-insolvency-cases/articleshow/134777509.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-08T01:36:12.000Z"
-    },
-    {
-      "title": "Premium spirits sales soar past cheaper liquor: Report",
-      "summary": "Premium spirits in India are experiencing significant growth with a rise in sales volumes projected until 2025. Cheaper liquor categories show slower growth, which indicates a changing market composition.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/premium-spirits-sales-soar-past-cheaper-liquor-report/articleshow/134777469.cms",
-      "source": "Times of India Business",
-      "category": "insurance",
-      "publishedAt": "2026-10-08T01:31:15.000Z"
-    },
-    {
-      "title": "Survey: 12% in India report being scammed in last 1 year",
-      "summary": "According to a recent GSMA survey, 12% of respondents in India reported being scammed recently. Online shopping scams are the most prevalent type among Indian consumers compared to other scams.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/survey-12-in-india-report-being-scammed-in-last-1-year/articleshow/134777419.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-08T01:24:53.000Z"
-    },
-    {
-      "title": "Rupee may be undervalued, markets can be irrational: RBI governor Sanjay Malhotra",
-      "summary": "RBI governor Sanjay Malhotra indicated that the rupee is undervalued and the central bank will intervene. The rupee closed at 96.78, down 36 paise from the previous day, hitting a five-month low.",
-      "url": "https://timesofindia.indiatimes.com/india/rupee-may-be-undervalued-markets-can-be-irrational-rbi-governor-sanjay-malhotra/articleshow/134777349.cms",
-      "source": "Times of India Business",
-      "category": "regulatory",
-      "publishedAt": "2026-10-08T01:14:11.000Z"
-    },
-    {
-      "title": "RBI rate hike: ICRA sees one more 25-bps hike, Axis MF expects up to 75 bps more",
-      "summary": "The RBI’s 25-bps repo rate hike to 5.50% has raised expectations of further monetary tightening as inflation risks remain elevated. While ICRA expects just one more 25-bps hike in December, Axis Mutual Fund sees scope for another 50-75 bps of increases in the near term.",
-      "url": "https://www.businesstoday.in/latest/economy/story/rbi-rate-hike-icra-sees-one-more-25-bps-hike-axis-mf-expects-up-to-75-bps-more-560230-2026-10-08?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "regulatory",
-      "publishedAt": "2026-10-07T23:50:05.000Z"
-    },
-    {
-      "title": "Some oligarchs blocking entry of Starlink in India: Elon Musk",
-      "summary": "Elon Musk has claimed that certain oligarchs are obstructing Starlink's entry into the Indian market. Starlink has already established the necessary infrastructure and is prepared to launch its services.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/some-oligarchs-blocking-entry-of-starlink-in-india-elon-musk/articleshow/134776971.cms",
-      "source": "Times of India Business",
-      "category": "regulatory",
-      "publishedAt": "2026-10-07T23:23:36.000Z"
-    },
-    {
-      "title": "Gen Z’s Garba glow secret? Ahmedabad youth turns to IV drip therapy this Navratri",
-      "summary": "Ahmedabad’s Navratri celebrations often involve hours of continuous dancing, late nights and elaborate preparations around outfits, makeup and appearance",
-      "url": "https://www.businesstoday.in/india/story/gen-zs-garba-glow-secret-ahmedabad-youth-turns-to-iv-drip-therapy-this-navratri-560168-2026-10-08?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-07T22:30:06.000Z"
-    },
-    {
-      "title": "Loans set to get dearer as RBI hikes repo rate after 44 months",
-      "summary": "The Reserve Bank of India has announced a 25 basis points increase in the repo rate to 5.5%. This decision reflects growing inflation pressures and stronger than anticipated economic growth.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/loans-set-to-get-dearer-as-rbi-hikes-repo-rate-after-44-months/articleshow/134774530.cms",
-      "source": "Times of India Business",
-      "category": "regulatory",
-      "publishedAt": "2026-10-07T21:21:11.000Z"
-    },
-    {
-      "title": "India tops Global Consumer Confidence Ranking 2026 with 66.9 score: Check full list here",
-      "summary": "The findings are significant because consumer confidence is closely watched as an indicator of household spending and economic expectations",
-      "url": "https://www.businesstoday.in/latest/trends/story/india-tops-global-consumer-confidence-ranking-2026-with-66-9-score-check-full-list-here-560237-2026-10-08?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-07T19:00:07.000Z"
-    },
-    {
-      "title": "RBI’s big move: Your consolidated account statement will now have details of MFs, stocks & FDs!",
-      "summary": "For individuals who receive a CAS, this means information on their mutual funds, stocks and, going forward, fixed deposits (FDs) can be viewed together in one place.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/rbi-makes-financial-information-easier-to-access-for-you-account-aggregators-to-work-across-platforms-while-fixed-deposits-will-be-visible-in-your-cas-alongside-stocks-and-mutual-funds/articleshow/134762957.cms",
-      "source": "Times of India Business",
-      "category": "regulatory",
-      "publishedAt": "2026-10-07T16:27:59.000Z"
-    },
-    {
-      "title": "Woman got Rs 12.28 lakh, but sought maintenance from granddaughter & son’s widow; Court rejects plea",
-      "summary": "An 83-year old retired woman in Kerala filed a case seeking monthly maintenance payment of Rs 15,000 and also claimed a share in the widow family pension.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/83-year-old-woman-got-rs-12-28-lakh-after-sons-death-but-sought-rs-15000-maintenance-from-college-going-granddaughter-and-a-share-of-family-pension-from-sons-widow-kerala-hc-rejects-both-claims/articleshow/134768286.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-07T14:31:18.000Z"
-    },
-    {
-      "title": "GST cuts insurance tax rates in 2025: A year on, consumers still await the full benefit in premiums",
-      "summary": "With the GST Council set to meet on October 8, government sources say the effective tax rate on domestic taxable supplies has fallen to 13.13% from 14.55%, but insurance premiums have not declined commensurately",
-      "url": "https://www.businesstoday.in/latest/corporate/story/gst-cuts-insurance-tax-rates-in-2025-a-year-on-consumers-still-await-the-full-benefit-in-premiums-560240-2026-10-07?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "insurance",
-      "publishedAt": "2026-10-07T14:13:59.000Z"
-    },
-    {
-      "title": "SBI Research expects 6% repo rate: Why inflation is forcing RBI’s hand",
-      "summary": "In its latest Ecowrap, SBI Research said India’s inflation trajectory could worsen in the coming months, with CPI inflation estimated to peak at around 6.8% in November 2026.",
-      "url": "https://www.businesstoday.in/latest/economy/story/sbi-research-expects-6-repo-rate-why-inflation-is-forcing-rbis-hand-560221-2026-10-07?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "regulatory",
-      "publishedAt": "2026-10-07T13:04:19.000Z"
-    },
-    {
-      "title": "Rupee nears record low at 96.84, but RBI Governor says currency may be undervalued",
-      "summary": "Speaking after the RBI’s latest monetary policy decision, Malhotra said several measures, including the Real Effective Exchange Rate (REER), suggest that the rupee is not overvalued and may, in fact, be undervalued.",
-      "url": "https://www.businesstoday.in/latest/economy/story/rupee-nears-record-low-at-96-84-but-rbi-governor-says-currency-may-be-undervalued-560170-2026-10-07?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "regulatory",
-      "publishedAt": "2026-10-07T10:52:23.000Z"
-    },
-    {
-      "title": "Abandoned degree in Australia, flight training in New Zealand: Flydubai co-pilot’s links probed",
-      "summary": "Flydubai attack: The UAE prosecutor general stated that Hammami used a crash axe and stabbed the pilot during what was described as an attempted \"terrorist attack\".",
-      "url": "https://www.businesstoday.in/world/story/abandoned-degree-in-australia-flight-training-in-new-zealand-flydubai-co-pilots-links-probed-560160-2026-10-07?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-07T10:10:06.000Z"
-    },
-    {
-      "title": "India’s Venezuelan oil imports set to hit seven-year high as Russian crude gets costlier: Report",
-      "summary": "Venezuelan crude deliveries to India are projected to reach about 465,000 barrels per day (bpd) this month, up from 196,000 bpd in September, according to Kpler estimates.",
-      "url": "https://www.businesstoday.in/latest/economy/story/indias-venezuelan-oil-imports-set-to-hit-seven-year-high-as-russian-crude-gets-costlier-report-560158-2026-10-07?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-07T10:00:01.000Z"
-    },
-    {
-      "title": "RBI clears the air on new forex reporting rules: Framework does not apply to individuals",
-      "summary": "The central bank plans to issue FAQs to clear up confusion over the new reporting obligations.",
-      "url": "https://www.businesstoday.in/latest/economy/story/individuals-not-covered-rbi-clears-air-on-new-edf-framework-plans-to-issue-faqs-soon-560139-2026-10-07?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "regulatory",
-      "publishedAt": "2026-10-07T09:02:10.000Z"
-    },
-    {
-      "title": "Small MDR fee unlikely to hit UPI volumes, says RBI Governor Sanjay Malhotra on UPI-MDR charges from Oct 15",
-      "summary": "The new MDR framework will take effect from October 15, with a 0.4% charge on eligible UPI person-to-merchant transactions above ₹2,000, while consumers will continue to use UPI without paying the MDR.",
-      "url": "https://www.businesstoday.in/latest/economy/story/small-mdr-fee-unlikely-to-hit-upi-volumes-says-rbi-governor-sanjay-malhotra-on-upi-mdr-charges-from-oct-15-560095-2026-10-07?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "regulatory",
-      "publishedAt": "2026-10-07T07:17:03.000Z"
-    },
-    {
-      "title": "Global economic sentiments may be edgy but Indian economy is resilient: RBI",
-      "summary": "Talking about the growth numbers in Q1, which were under immense scrutiny, Malhotra said the unexpectedly high 7.8 per cent exhibited resilience amidst global headwinds.",
-      "url": "https://www.businesstoday.in/latest/economy/story/global-economic-sentiments-may-be-edgy-but-indian-economy-is-resilient-rbi-560084-2026-10-07?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "regulatory",
-      "publishedAt": "2026-10-07T07:06:55.000Z"
-    },
-    {
-      "title": "All about Bodhana Sivanandan, 11-year-old who set Guinness world record as youngest woman grandmaster",
-      "summary": "Her success at the Olympiad adds to a series of landmark achievements achieved before her 12th birthday, further establishing Bodhana Sivanandan as a rising name in international chess.",
-      "url": "https://www.businesstoday.in/sports/story/all-about-bodhana-sivanandan-11-year-old-who-set-guinness-world-record-as-youngest-woman-grandmaster-560049-2026-10-07?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-07T06:41:33.000Z"
-    },
-    {
-      "title": "Air India-Singapore Airlines deal: More flights, easier bookings from Oct 15; what travellers get",
-      "summary": "The first phase of their commercial partnership also expands frequent flyer benefits and aims to simplify travel.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/air-india-singapore-airlines-deal-more-flights-easier-bookings-from-oct-15-what-travellers-get-560056-2026-10-07?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-07T06:17:37.000Z"
-    },
-    {
-      "title": "Gold, silver prices today: Volatility to remain high; Jateen Trivedi flags key levels to watch",
-      "summary": "Trivedi expects volatility to remain elevated in the near term. According to his outlook, gold could remain within a Rs 1,48,000–Rs 1,51,000 range.",
-      "url": "https://www.businesstoday.in/latest/economy/story/gold-silver-prices-today-volatility-to-remain-high-jateen-trivedi-flags-key-levels-to-watch-560060-2026-10-07?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-07T06:15:35.000Z"
     }
   ]
 }
