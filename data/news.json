@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-09T07:32:47.739Z",
+  "lastUpdated": "2026-10-09T17:06:51.267Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -57,6 +57,134 @@
   ],
   "articles": [
     {
+      "title": "Teacher denied gratuity for working past 60; Allahabad HC orders payment with 6% interest",
+      "summary": "A woman joined an educational institution in Faizabad as an assistant teacher on August 16, 1992. She continued working there until March 31, 2019, when she retired.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/she-worked-as-a-teacher-till-62-years-of-age-instead-of-retiring-at-60-but-was-denied-gratuity-because-of-extended-service-allahabad-hc-orders-payment-with-6-interest/articleshow/134831020.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-09T16:38:56.000Z"
+    },
+    {
+      "title": "RBI schedules ₹25,000 crore bond sale for October 13; yields may open higher on Monday",
+      "summary": "The latest announcement follows a series of OMO sales undertaken by the RBI to absorb excess liquidity from the banking system. Under this mechanism, the central bank sells government securities to market participants in exchange for funds, thereby withdrawing liquidity.",
+      "url": "https://www.businesstoday.in/latest/economy/story/rbi-schedules-rs25000-crore-bond-sale-for-october-13-yields-may-open-higher-on-monday-560773-2026-10-09?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "regulatory",
+      "publishedAt": "2026-10-09T16:32:51.000Z"
+    },
+    {
+      "title": "Maximum prison term for GST offences rationalised, says finance ministry FAQ",
+      "summary": "Someone who is convicted will not compulsorily be imprisoned, refund reforms in two phases",
+      "url": "https://www.businesstoday.in/latest/economy/story/maximum-prison-term-for-gst-offences-rationalised-says-finance-ministry-faq-560770-2026-10-09?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-09T15:52:46.000Z"
+    },
+    {
+      "title": "India’s LPG imports shift back to UAE as US supplies plunge 58%; Oman leads LNG imports in Sept",
+      "summary": "India’s LPG imports shifted back towards the UAE in September as US supplies plunged 58%, while Gulf shipments recovered. Oman also emerged as India’s largest LNG supplier, highlighting how geopolitical risks are reshaping energy sourcing.",
+      "url": "https://www.businesstoday.in/latest/economy/story/indias-lpg-imports-shift-back-to-uae-as-us-supplies-plunge-58-oman-leads-lng-imports-in-sept-560766-2026-10-09?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-09T15:11:05.000Z"
+    },
+    {
+      "title": "UPI vs credit cards: What should you choose for payments after MDR?",
+      "summary": "The overall value of a transaction depends on several factors including the payment mode, transaction value, the applicable MDR (if any), and the value-back attached to the payment method.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/upi-vs-credit-cards-what-should-you-choose-for-payments-after-mdr/articleshow/134822791.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-09T13:39:44.000Z"
+    },
+    {
+      "title": "US suspends TCS, Infosys and Wipro from PERM: What Indian IT workers need to know",
+      "summary": "The US has suspended eight employers, including TCS, Infosys and Wipro, from PERM processing. Here’s what the move means for new and pending green card applications.",
+      "url": "https://www.businesstoday.in/latest/world/photo/us-suspends-tcs-infosys-and-wipro-from-perm-what-indian-it-workers-need-to-know-560724-2026-10-09?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-09T12:01:16.000Z"
+    },
+    {
+      "title": "Navi Pillay wins Nobel Peace Prize 2026: from Mother Teresa to Kailash Satyarthi, revisit 12 landmark awards and the causes behind them",
+      "summary": "From Navi Pillay in 2026 to Henry Dunant and Frédéric Passy in 1901, revisit 12 Nobel Peace Prize winners and the causes that earned them global recognition.",
+      "url": "https://www.businesstoday.in/latest/world/photo/navi-pillay-wins-nobel-peace-prize-2026-from-mother-teresa-to-kailash-satyarthi-revisit-12-landmark-awards-and-the-causes-behind-them-560714-2026-10-09?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-09T11:45:25.000Z"
+    },
+    {
+      "title": "IRDAI weighs January 2027 rollout of insurance commission caps amid selloff in insurance-linked stocks: Report",
+      "summary": "Last month, IRDAI proposed capping commissions paid by insurers to brokers and other distributors across most insurance categories, including life, health, property and casualty. It also plans to tighten limits on insurers’ management expenses over time.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/irdai-weighs-january-2027-rollout-of-insurance-commission-caps-amid-selloff-in-insurance-linked-stocks-report-560712-2026-10-09?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "regulatory",
+      "publishedAt": "2026-10-09T11:42:41.000Z"
+    },
+    {
+      "title": "Sisters sought 1/3rd share in parents' property; Madras HC rules in favour of brother",
+      "summary": "In this case, the parents of two daughters and a son owned several properties. The daughters got married and moved to their husbands' homes. On September 10, 2026, the Madras High Court dismissed the sisters' appeal for a share, allowing their brother to retain the land.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/sisters-sought-share-in-parents-properties-under-hindu-succession-law-madras-hc-rules-for-brother-over-mothers-land-on-ouster-fathers-estate-over-missing-parties/articleshow/134824987.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-09T10:25:00.000Z"
+    },
+    {
+      "title": "SBI Research calls for 50 bps RBI rate hike: Why the central bank may need to act before December",
+      "summary": "SBI Research has urged the RBI to consider a 50 bps rate hike and an off-cycle policy move to address rising global financial volatility. The report also recommends widening the liquidity corridor and strengthening foreign exchange management to support financial stability.",
+      "url": "https://www.businesstoday.in/latest/economy/story/sbi-research-calls-for-50-bps-rbi-rate-hike-why-the-central-bank-may-need-to-act-before-december-560671-2026-10-09?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "regulatory",
+      "publishedAt": "2026-10-09T09:54:14.000Z"
+    },
+    {
+      "title": "From space to the Pacific: Four astronauts complete a fiery 237-day mission",
+      "summary": "Four astronauts have returned to Earth after 237 days aboard the ISS, completing a 27-hour journey home aboard SpaceX’s Dragon spacecraft with a fiery re-entry and Pacific splashdown.",
+      "url": "https://www.businesstoday.in/latest/world/photo/from-space-to-the-pacific-four-astronauts-complete-a-fiery-237-day-mission-560634-2026-10-09?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-09T08:33:40.000Z"
+    },
+    {
+      "title": "Alert for Delhi Metro commuters: 57 stations face shutdown ahead of CJP protest",
+      "summary": "Delhi Metro commuters face possible disruption as Delhi Police seeks closure of 57 stations from October 9 night ahead of a CJP protest, with reduced train frequency also possible.",
+      "url": "https://www.businesstoday.in/latest/photo/alert-for-delhi-metro-commuters-57-stations-face-shutdown-ahead-of-cjp-protest-560631-2026-10-09?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-09T08:28:09.000Z"
+    },
+    {
+      "title": "'More American tech work moving to India': Ex-HCL Tech CEO on US' green card programme curbs",
+      "summary": "On Thursday, US Labour Secretary Keith Sonderling announced that several major IT outsourcing firms have been suspended from the Program for Electronic Review Management (PERM) green card processing framework.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/more-american-tech-work-moving-to-india-ex-hcl-tech-ceo-on-us-green-card-programme-curbs-560609-2026-10-09?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-09T08:22:09.000Z"
+    },
+    {
+      "title": "Two years on without Ratan Tata, the war for control rages on in the empire",
+      "summary": "As N. Chandrasekaran and Noel Tata battle it out, a resolution appears to be some way off",
+      "url": "https://www.businesstoday.in/latest/corporate/story/two-years-on-without-ratan-tata-the-war-for-control-rages-on-in-the-empire-560616-2026-10-09?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-09T07:46:21.000Z"
+    },
+    {
+      "title": "India's ATF pricing puzzle: Why airlines pay global rates for domestic fuel and why a reset is needed",
+      "summary": "India’s ATF pricing mechanism is under scrutiny as rising fuel costs squeeze airline margins, prompting calls for cost-based pricing and tax reforms to ease the burden on carriers and passengers.",
+      "url": "https://www.businesstoday.in/latest/economy/story/indias-atf-pricing-puzzle-why-airlines-pay-global-rates-for-domestic-fuel-and-why-a-reset-is-needed-560613-2026-10-09?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-09T07:37:48.000Z"
+    },
+    {
+      "title": "Delays of several hours: Passenger trains using slower freight locos amid shortage",
+      "summary": "Indian Railways records contain several instances in which a lack of locomotives designed for passenger services led to trains being hauled by freight engines, which operate at lower speeds.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/passenger-trains-being-run-with-slower-freight-engines-as-indian-railways-faces-locomotives-shortage-records-show-80-100-cases-a-month-causing-delays-of-several-hours/articleshow/134813298.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-09T07:33:44.000Z"
+    },
+    {
       "title": "Gold price prediction: What is the outlook for the yellow metal on October 9, 2026?",
       "summary": "Gold price prediction today: MCX Gold December futures are witnessing a strong recovery, with prices trading around Rs 1,51,325 after breaking above the earlier consolidation zone near Rs 1,49,500–Rs 1,50,000.",
       "url": "https://timesofindia.indiatimes.com/business/india-business/gold-price-prediction-today-what-is-the-gold-rate-outlook-for-october-09-2026-should-you-buy-or-sell-mcx-gold/articleshow/134813269.cms",
@@ -87,6 +215,14 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-10-09T03:44:13.000Z"
+    },
+    {
+      "title": "How Trump's move to suspend 8 IT firms from PERM will hit Indian professionals badly",
+      "summary": "The list of companies which have been suspended by the Trump administration from the Permanent Labour Certification Programme (PERM) includes IT sector majors like TCS, Infosys, Microsoft, Wipro, and Cognizant.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/8-it-firms-including-tcs-infosys-microsoft-wipro-suspended-from-us-green-card-programme-perm-how-does-it-hit-indian-professionals/articleshow/134803978.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-09T03:33:05.000Z"
     },
     {
       "title": "TCS says Trump's PERM suspension won't affect US plans, targets 15,000 new hires",
@@ -239,142 +375,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-10-08T21:51:57.000Z"
-    },
-    {
-      "title": "Rupee hedging costs surge: Why Indian stocks and bonds look less attractive to foreigners",
-      "summary": "For a foreign investor, returns from Indian equities or bonds depend not only on the performance of the underlying asset but also on movements in the rupee. A weakening currency can erode investment gains when returns are converted back into dollars or other foreign currencies.",
-      "url": "https://www.businesstoday.in/latest/economy/story/rupee-hedging-costs-surge-why-indian-stocks-and-bonds-look-less-attractive-to-foreigners-560508-2026-10-09?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-08T20:50:05.000Z"
-    },
-    {
-      "title": "US sanctions Indian firms, individuals as Iran oil crackdown widens",
-      "summary": "On Thursday, the United States targeted two Mumbai-based companies over their alleged oil trade involvement with Iran. The sanctions affected five Indian nationals connected to SSPL Solutions Private Limited and Samudra Marine Services Private Limited.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/operation-economic-outcast-us-sanctions-two-mumbai-firms-five-indians-over-alleged-iran-oil-trade/articleshow/134800174.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-08T19:50:14.000Z"
-    },
-    {
-      "title": "Fastest-growing Asian economies in 2026: Taiwan leads, India among top performers",
-      "summary": "Their expansion is being supported by a combination of public and fixed investment, private consumption, services and industrial activity",
-      "url": "https://www.businesstoday.in/latest/world/story/fastest-growing-asian-economies-in-2026-taiwan-leads-india-among-top-performers-560522-2026-10-09?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "insurance",
-      "publishedAt": "2026-10-08T19:20:02.000Z"
-    },
-    {
-      "title": "NPCI likely to defer UPI MDR rollout, announcement expected on Friday: Report",
-      "summary": "On September 15, the government announced the 0.4% MDR on UPI merchant transactions above Rs 2,000, with implementation initially scheduled for October 15",
-      "url": "https://www.businesstoday.in/latest/economy/story/npci-likely-to-defer-upi-mdr-rollout-announcement-expected-on-friday-report-560537-2026-10-08?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-08T16:55:35.000Z"
-    },
-    {
-      "title": "Woman claims 2.5 acres was ancestral after stepmother sold it; why HC rejected plea",
-      "summary": "The Madras High Court held that the property was not ancestral but self-acquired. As a result, under Hindu law, the man and his mother were legally entitled to execute the gift settlement deed in favour of the man’s second wife, who could subsequently sell the property.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/grandmother-and-her-son-gifted-2-5-acre-land-to-his-second-wife-who-sold-it-his-daughter-from-first-marriage-claimed-it-was-ancestral-but-madras-hc-rejects-her-plea/articleshow/134794319.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-08T16:41:43.000Z"
-    },
-    {
-      "title": "GST relief for overseas R&D: Why new place-of-supply rules could boost India’s engineering sector",
-      "summary": "The proposed change addresses a longstanding concern for businesses providing specialised services to overseas customers, where the physical presence of a prototype, sample or other goods in India could prevent the service from qualifying as an export.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/gst-relief-for-overseas-rd-why-new-place-of-supply-rules-could-boost-indias-engineering-sector-560527-2026-10-08?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-08T14:50:40.000Z"
-    },
-    {
-      "title": "GST reforms: Top things announced by FM Sitharaman-led GST Council & what they mean for businesses",
-      "summary": "The GST Council approved a series of changes aimed at easing compliance, including removing the power of tax officials to make arrests and raising the prosecution threshold fivefold to Rs 5 crore.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/gst-reforms-top-things-announced-by-fm-sitharaman-led-gst-council-what-they-mean-for-businesses/articleshow/134793591.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-08T14:38:11.000Z"
-    },
-    {
-      "title": "GST Council approves next-gen reforms; 99% issues addressed, says FM Sitharaman",
-      "summary": "More reforms on the anvil, FM says process and rate measures now driven from a principle of trust",
-      "url": "https://www.businesstoday.in/latest/economy/story/gst-council-approves-next-gen-reforms-99-issues-addressed-says-fm-sitharaman-560514-2026-10-08?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-08T13:59:17.000Z"
-    },
-    {
-      "title": "GST taxable supply rises 25.8% as effective tax rate falls: What the numbers say about GST 2.0",
-      "summary": "According to the outcomes of the 57th GST Council meeting, monthly taxable supply increased from ₹40.19 lakh crore to ₹50.58 lakh crore, marking a 25.8% rise over the period. Consumer supplies also increased 26.7%, from ₹5.98 lakh crore to ₹7.58 lakh crore a month.",
-      "url": "https://www.businesstoday.in/latest/economy/story/gst-taxable-supply-rises-25-8-as-effective-tax-rate-falls-what-the-numbers-say-about-gst-2-0-560511-2026-10-08?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-08T13:53:11.000Z"
-    },
-    {
-      "title": "As Trump sours H-1B visa dream, which Indian IT professionals face biggest hit?",
-      "summary": "Three H-1B related changes are stacking on top of each other: the multiple $100,000 fee proposals, the wage-weighted lottery favoring more senior workers, new layoff and compliance scrutiny, and now the OPT/STEM-OPT $70,000 fee proposal for students looking to work in the US.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/death-by-restriction-as-trump-sours-h-1b-visa-dream-which-indian-it-professionals-face-the-biggest-hit/articleshow/134788265.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-08T13:41:05.000Z"
-    },
-    {
-      "title": "GST Council removes arrest power, raises prosecution threshold to ₹5 crore: What changes for taxpayers",
-      "summary": "The 57th GST Council meeting decided to remove the power of arrest under GST. At the same time, the threshold for prosecution will be increased from ₹1 crore to ₹5 crore, significantly raising the level at which a taxpayer could face prosecution.",
-      "url": "https://www.businesstoday.in/latest/economy/story/gst-council-removes-arrest-power-raises-prosecution-threshold-to-rs5-crore-what-changes-for-taxpayers-560493-2026-10-08?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-08T13:13:52.000Z"
-    },
-    {
-      "title": "Amazon sale phones from ₹15,499: iPhone 16, Galaxy S25 Ultra and the conditions behind the price tags",
-      "summary": "Four Amazon phone offers span ₹15,499 to ₹84,999. Check the exact model, coupon and payment conditions before deciding what you will pay.",
-      "url": "https://www.businesstoday.in/latest/trends/photo/amazon-sale-phones-from-rs15499-iphone-16-galaxy-s25-ultra-and-the-conditions-behind-the-price-tags-560490-2026-10-08?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-08T12:38:25.000Z"
-    },
-    {
-      "title": "GST Council shields genuine taxpayers from ITC loss; small e-commerce sellers get interstate relief",
-      "summary": "Addressing the press briefing after the 57th GST Council meeting, FM Sitharaman said the Council had an agenda to amend Section 162C of the CGST Act to address situations where credit reaching a genuine taxpayer was blocked or reversed because of a supplier’s …",
-      "url": "https://www.businesstoday.in/latest/economy/story/gst-council-shields-genuine-taxpayers-from-itc-loss-small-e-commerce-sellers-get-interstate-relief-560482-2026-10-08?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-08T12:29:17.000Z"
-    },
-    {
-      "title": "No UPI MDR discussion at GST Council meet; rates unchanged, ITC protection among key takeaways",
-      "summary": "The Council also made no changes to GST rates, with the Finance Ministry saying the rate structure is now settled. The focus has shifted towards improving how GST works for businesses and taxpayers, including registration, returns, refunds and input tax credit.",
-      "url": "https://www.businesstoday.in/latest/economy/story/no-upi-mdr-discussion-at-gst-council-meet-rates-unchanged-itc-protection-gets-focus-fm-sitharaman-560476-2026-10-08?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-08T12:15:38.000Z"
-    },
-    {
-      "title": "GST Council scraps tax officers' arrest powers; prosecution threshold raised to Rs 5 cr",
-      "summary": "The GST Council made a landmark decision by abolishing the arrest powers of tax officers. They've raised the prosecution threshold from Rs 1 crore to Rs 5 crore, easing the pressure on small sellers using e-commerce platforms.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/gst-council-meeting-arresting-powers-of-tax-officers-scrapped-prosecution-threshold-raised-to-rs-5-crore/articleshow/134789551.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-08T12:01:50.000Z"
-    },
-    {
-      "title": "No more phone checks? These 5 bikes bring Google Maps to your handlebar",
-      "summary": "These 5 affordable bikes bring Google Maps Mirroring to their displays, letting riders access navigation without checking their phones. Prices start at ₹1.04 lakh.",
-      "url": "https://www.businesstoday.in/latest/photo/no-more-phone-checks-these-5-bikes-bring-google-maps-to-your-handlebar-560185-2026-10-08?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-08T11:37:57.000Z"
-    },
-    {
-      "title": "₹2.80 lakh for this Triumph: 5 riding modes make the Bonneville T40 stand out",
-      "summary": "Triumph has launched its smallest Bonneville, the T40, in India at ₹2.80 lakh with five riding modes, a TFT display, navigation and a 350cc engine producing 29hp.",
-      "url": "https://www.businesstoday.in/latest/photo/rs2-80-lakh-for-this-triumph-5-riding-modes-make-the-bonneville-t40-stand-out-560191-2026-10-08?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-08T11:32:36.000Z"
     }
   ]
 }
