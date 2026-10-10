@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T15:55:21.641Z",
+  "lastUpdated": "2026-10-10T22:16:08.685Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,22 @@
     }
   ],
   "articles": [
+    {
+      "title": "Small finance banks paid more for FCNR(B) deposits but captured less than 1% of inflows",
+      "summary": "SFBs accounted for less than 1% of total FCNR(B) deposits mobilised during the recent deposit mobilisation drive, with universal banks benefiting from their larger scale, broader product offerings and established overseas franchises.",
+      "url": "https://www.businesstoday.in/latest/economy/story/small-finance-banks-paid-more-for-fcnrb-deposits-but-captured-less-than-1-of-inflows-560805-2026-10-11?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-10T21:00:05.000Z"
+    },
+    {
+      "title": "Landlord wanted tenant out for law office; Delhi HC rejects tenant's objections",
+      "summary": "Two landlords, who were practising advocates, said they needed the rented premises to set up a law office. The tenant argued that the landlords had changed their stated purpose for seeking possession and already had other properties that could be used for thei…",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/landlords-wanted-tenant-out-to-open-a-law-office-he-said-the-reason-for-seeking-eviction-had-changed-and-other-properties-were-available-why-delhi-high-court-upheld-eviction/articleshow/134856919.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-10T16:30:00.000Z"
+    },
     {
       "title": "Mahindra & Mahindra announces sale of 51% stake in Novavayu Aerospace to Embraer",
       "summary": "The corporate action will result in NAL ceasing to be a wholly-owned subsidiary and transitioning into an associate company of Mahindra Defence Systems Limited (MDSL).",
@@ -305,14 +321,6 @@
       "publishedAt": "2026-10-09T11:45:25.000Z"
     },
     {
-      "title": "IRDAI weighs January 2027 rollout of insurance commission caps amid selloff in insurance-linked stocks: Report",
-      "summary": "Last month, IRDAI proposed capping commissions paid by insurers to brokers and other distributors across most insurance categories, including life, health, property and casualty. It also plans to tighten limits on insurers’ management expenses over time.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/irdai-weighs-january-2027-rollout-of-insurance-commission-caps-amid-selloff-in-insurance-linked-stocks-report-560712-2026-10-09?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "regulatory",
-      "publishedAt": "2026-10-09T11:42:41.000Z"
-    },
-    {
       "title": "Sisters sought 1/3rd share in parents' property; Madras HC rules in favour of brother",
       "summary": "In this case, the parents of two daughters and a son owned several properties. The daughters got married and moved to their husbands' homes. On September 10, 2026, the Madras High Court dismissed the sisters' appeal for a share, allowing their brother to retain the land.",
       "url": "https://timesofindia.indiatimes.com/business/india-business/sisters-sought-share-in-parents-properties-under-hindu-succession-law-madras-hc-rules-for-brother-over-mothers-land-on-ouster-fathers-estate-over-missing-parties/articleshow/134824987.cms",
@@ -367,14 +375,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-10-09T03:33:05.000Z"
-    },
-    {
-      "title": "TCS says Trump's PERM suspension won't affect US plans, targets 15,000 new hires",
-      "summary": "Tata Consultancy Services (TCS) stated that the US government's suspension of the PERM programme would not affect its workforce strategy. The company emphasized its commitment to hiring local talent across its numerous offices in the US.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/tcs-says-trumps-perm-us-green-card-programme-suspension-wont-affect-us-plans-targets-15000-new-hires/articleshow/134805269.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-09T03:29:42.000Z"
     }
   ]
 }
