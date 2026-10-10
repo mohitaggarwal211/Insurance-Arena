@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T13:20:14.440Z",
+  "lastUpdated": "2026-10-10T15:55:21.641Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,22 @@
     }
   ],
   "articles": [
+    {
+      "title": "Mahindra & Mahindra announces sale of 51% stake in Novavayu Aerospace to Embraer",
+      "summary": "The corporate action will result in NAL ceasing to be a wholly-owned subsidiary and transitioning into an associate company of Mahindra Defence Systems Limited (MDSL).",
+      "url": "https://www.businesstoday.in/latest/corporate/story/mahindra-mahindra-announces-sale-of-51-stake-in-novavayu-aerospace-to-embraer-560832-2026-10-10?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-10T14:56:46.000Z"
+    },
+    {
+      "title": "‘To be finalised in line with changed circumstances’: Piyush Goyal on India-US trade deal",
+      "summary": "India and the US are finalizing their interim trade agreement framework, as circumstances have changed since February. Commerce Minister Piyush Goyal indicated that negotiations would consider recent shifts in the US tariff landscape.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/to-be-finalised-in-line-with-changed-circumstances-piyush-goyal-on-india-us-trade-deal/articleshow/134856416.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-10T14:45:19.000Z"
+    },
     {
       "title": "Despite promise, builder denied disabled parking to Rs 1.03 crore flat buyer; RERA orders relief",
       "summary": "In one such case, a woman and her family bought a 3BHK ( 3 Bedrooms, Hall, Kitchen) from a builder in Bengaluru for Rs 1.03 crore. The builder promised two specially enabled parking spaces, and it was supposedly one of the property's key attractions.",
@@ -305,14 +321,6 @@
       "publishedAt": "2026-10-09T10:25:00.000Z"
     },
     {
-      "title": "SBI Research calls for 50 bps RBI rate hike: Why the central bank may need to act before December",
-      "summary": "SBI Research has urged the RBI to consider a 50 bps rate hike and an off-cycle policy move to address rising global financial volatility. The report also recommends widening the liquidity corridor and strengthening foreign exchange management to support financial stability.",
-      "url": "https://www.businesstoday.in/latest/economy/story/sbi-research-calls-for-50-bps-rbi-rate-hike-why-the-central-bank-may-need-to-act-before-december-560671-2026-10-09?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "regulatory",
-      "publishedAt": "2026-10-09T09:54:14.000Z"
-    },
-    {
       "title": "Delays of several hours: Passenger trains using slower freight locos amid shortage",
       "summary": "Indian Railways records contain several instances in which a lack of locomotives designed for passenger services led to trains being hauled by freight engines, which operate at lower speeds.",
       "url": "https://timesofindia.indiatimes.com/business/india-business/passenger-trains-being-run-with-slower-freight-engines-as-indian-railways-faces-locomotives-shortage-records-show-80-100-cases-a-month-causing-delays-of-several-hours/articleshow/134813298.cms",
@@ -367,14 +375,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-10-09T03:29:42.000Z"
-    },
-    {
-      "title": "Stock recommendations: Which stocks should you buy or sell on October 9, 2026?",
-      "summary": "Stock market recommendations: Axis Bank, and Authum Investment & Infrastructure Ltd have been recommended as the top stocks to buy today on October 9, 2026 by Hitesh Rathi, Technical Analyst (Equity & Derivatives) at Angel One.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/top-stock-recommendations-for-october-09-2026-axis-bank-authum-investment-infrastructure-ltd-dixon-stocks-to-buy-or-sell-today/articleshow/134800106.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-09T03:13:01.000Z"
     }
   ]
 }
