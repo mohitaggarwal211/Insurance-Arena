@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-09T23:04:42.015Z",
+  "lastUpdated": "2026-10-10T06:44:45.566Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,78 @@
     }
   ],
   "articles": [
+    {
+      "title": "Man faces Rs 17.18 lakh tax penalty over Rs 55.62 lakh unexplained deposits; ITAT gives relief",
+      "summary": "A man had not filed an income tax return for assessment year 2016-17. The tax department subsequently completed a reassessment without his participation and, on February 15, 2024, assessed his total income at Rs 55.62 lakh.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/man-did-not-file-itr-faced-rs-17-18-lakh-penalty-over-alleged-rs-55-62-lakh-unexplained-cash-deposits-itat-mumbai-deletes-penalty-because-tax-officer-invoked-wrong-provision/articleshow/134837562.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-10T06:37:24.000Z"
+    },
+    {
+      "title": "RBI's rupee defence: Special dollar window for oil firms, tighter forex derivative rules",
+      "summary": "The RBI has announced a series of measures to ease pressure on the rupee. The steps aim to curb speculative activity, reduce dollar demand in the spot market and limit currency volatility as the rupee trades near its record low against the US dollar.",
+      "url": "https://www.businesstoday.in/latest/economy/story/rbis-rupee-defence-special-dollar-window-for-oil-firms-tighter-forex-derivative-rules-560793-2026-10-10?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "regulatory",
+      "publishedAt": "2026-10-10T05:27:28.000Z"
+    },
+    {
+      "title": "RBI opens special dollar window for three state-run oil companies from October 12",
+      "summary": "Under the arrangement, the RBI will sell US dollars to the three public sector oil companies through designated banks. The facility is intended to ensure that the companies can meet their full daily foreign currency requirements for their operations.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/rbi-opens-special-dollar-window-for-three-state-run-oil-companies-from-october-12-560786-2026-10-10?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "regulatory",
+      "publishedAt": "2026-10-10T03:39:39.000Z"
+    },
+    {
+      "title": "Quote of the Day by Narayana Murthy : 'It is a well-known fact that bringing in technologies in retail sector is good for consumers'",
+      "summary": "He lamented that even top gold medalists from IITs often struggled when pursuing research at global institutions like MIT or Harvard University because the Indian system fails to link theory with real-world.",
+      "url": "https://www.businesstoday.in/india/story/quote-of-the-day-by-narayana-murthy-it-is-a-well-known-fact-that-bringing-in-technologies-in-retail-sector-is-good-for-consumers-560774-2026-10-10?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-10T02:00:07.000Z"
+    },
+    {
+      "title": "Rupee under pressure: SBI Research wants RBI to prioritise currency stability alongside inflation",
+      "summary": "In its October 9 report, Ecowrap, SBI Research said the RBI needs to strengthen its policy toolkit to address mounting pressure on emerging market currencies.",
+      "url": "https://www.businesstoday.in/latest/economy/story/rupee-under-pressure-sbi-research-wants-rbi-to-prioritise-currency-stability-alongside-inflation-560761-2026-10-10?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "regulatory",
+      "publishedAt": "2026-10-10T01:26:23.000Z"
+    },
+    {
+      "title": "7-seaters starting @ just ₹5.73 lakh! These cars could be the family cars you’ve been waiting for",
+      "summary": "Affordable 7-seater cars in India start at ₹5.73 lakh. From Nissan Gravite and Renault Triber to Maruti Ertiga and Kia Carens, here are family cars worth considering.",
+      "url": "https://www.businesstoday.in/latest/photo/7-seaters-starting-just-rs5-73-lakh-these-cars-could-be-the-family-cars-youve-been-waiting-for-560701-2026-10-10?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-10T00:40:03.000Z"
+    },
+    {
+      "title": "BT Weekender: Planning to fly with your pet? You have company",
+      "summary": "From cabin seats to cargo holds, more pet parents are taking their furry companions on holiday. Here’s what to know before you fly.",
+      "url": "https://www.businesstoday.in/latest/trends/story/bt-weekender-planning-to-fly-with-your-pet-you-have-company-560748-2026-10-10?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-10T00:30:09.000Z"
+    },
+    {
+      "title": "Suzuki goes electric: This tiny EV promises 310 km on one charge",
+      "summary": "Suzuki has entered Japan’s small EV market with the e-Sky, offering a 310 km claimed range, 26kWh LFP battery and a subsidised price that could hint at its India EV plans.",
+      "url": "https://www.businesstoday.in/latest/photo/suzuki-goes-electric-this-tiny-ev-promises-310-km-on-one-charge-560672-2026-10-10?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-10T00:30:09.000Z"
+    },
+    {
+      "title": "India’s bad loans are falling, but a bigger banking risk may be building beneath the surface",
+      "summary": "India’s household debt is rising even as personal loan defaults decline, raising concerns about borrowers taking on more debt than their incomes can support.",
+      "url": "https://www.businesstoday.in/latest/economy/story/indias-bad-loans-are-falling-but-a-bigger-banking-risk-may-be-building-beneath-the-surface-560765-2026-10-10?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-09T23:30:33.000Z"
+    },
     {
       "title": "States to assess GDP through spending method",
       "summary": "",
@@ -233,30 +305,6 @@
       "publishedAt": "2026-10-09T08:28:09.000Z"
     },
     {
-      "title": "'More American tech work moving to India': Ex-HCL Tech CEO on US' green card programme curbs",
-      "summary": "On Thursday, US Labour Secretary Keith Sonderling announced that several major IT outsourcing firms have been suspended from the Program for Electronic Review Management (PERM) green card processing framework.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/more-american-tech-work-moving-to-india-ex-hcl-tech-ceo-on-us-green-card-programme-curbs-560609-2026-10-09?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-09T08:22:09.000Z"
-    },
-    {
-      "title": "Two years on without Ratan Tata, the war for control rages on in the empire",
-      "summary": "As N. Chandrasekaran and Noel Tata battle it out, a resolution appears to be some way off",
-      "url": "https://www.businesstoday.in/latest/corporate/story/two-years-on-without-ratan-tata-the-war-for-control-rages-on-in-the-empire-560616-2026-10-09?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-09T07:46:21.000Z"
-    },
-    {
-      "title": "India's ATF pricing puzzle: Why airlines pay global rates for domestic fuel and why a reset is needed",
-      "summary": "India’s ATF pricing mechanism is under scrutiny as rising fuel costs squeeze airline margins, prompting calls for cost-based pricing and tax reforms to ease the burden on carriers and passengers.",
-      "url": "https://www.businesstoday.in/latest/economy/story/indias-atf-pricing-puzzle-why-airlines-pay-global-rates-for-domestic-fuel-and-why-a-reset-is-needed-560613-2026-10-09?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-09T07:37:48.000Z"
-    },
-    {
       "title": "Delays of several hours: Passenger trains using slower freight locos amid shortage",
       "summary": "Indian Railways records contain several instances in which a lack of locomotives designed for passenger services led to trains being hauled by freight engines, which operate at lower speeds.",
       "url": "https://timesofindia.indiatimes.com/business/india-business/passenger-trains-being-run-with-slower-freight-engines-as-indian-railways-faces-locomotives-shortage-records-show-80-100-cases-a-month-causing-delays-of-several-hours/articleshow/134813298.cms",
@@ -313,14 +361,6 @@
       "publishedAt": "2026-10-09T03:29:42.000Z"
     },
     {
-      "title": "‘Applications were in single digits’: TCS says US’ green card suspension won’t impact workforce strategy",
-      "summary": "TCS says it intends to hire an additional 15,000 people in the US over the next five years, to further augment our local workforce",
-      "url": "https://www.businesstoday.in/latest/corporate/story/applications-were-in-single-digits-tcs-says-us-green-card-suspension-wont-impact-workforce-strategy-560551-2026-10-09?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-09T03:21:01.000Z"
-    },
-    {
       "title": "Stock recommendations: Which stocks should you buy or sell on October 9, 2026?",
       "summary": "Stock market recommendations: Axis Bank, and Authum Investment & Infrastructure Ltd have been recommended as the top stocks to buy today on October 9, 2026 by Hitesh Rathi, Technical Analyst (Equity & Derivatives) at Angel One.",
       "url": "https://timesofindia.indiatimes.com/business/india-business/top-stock-recommendations-for-october-09-2026-axis-bank-authum-investment-infrastructure-ltd-dixon-stocks-to-buy-or-sell-today/articleshow/134800106.cms",
@@ -335,46 +375,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-10-09T02:59:43.000Z"
-    },
-    {
-      "title": "Succession battle breaks out in Venu Srinivasan’s family: TVS camps disagree over business division",
-      "summary": "The core of the disagreement is whether the allocation of businesses to the next generation also determines ownership of the family wealth.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/succession-battle-breaks-out-in-venu-srinivasans-family-tvs-camps-disagree-over-business-division-560543-2026-10-09?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-09T02:47:45.000Z"
-    },
-    {
-      "title": "'80% of filings were for existing staff': Microsoft pushes back on Vance’s H-1B visa claims",
-      "summary": "The statement came hours after Vice President J D Vance suspended Microsoft from a programme to apply for green cards for foreign workers.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/80-of-h-1b-visa-filings-were-for-existing-staff-says-microsoft-after-us-suspends-8-firms-from-green-card-programme-560541-2026-10-09?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-09T02:21:01.000Z"
-    },
-    {
-      "title": "Quote of the Day by Elon Musk: 'When something is important enough, you do it even if the odds are not in your favor'",
-      "summary": "Elon Musk is a prominent billionaire entrepreneur, engineer, and tech mogul best known for founding and leading groundbreaking companies in space exploration, electric vehicles, and artificial intelligence.",
-      "url": "https://www.businesstoday.in/latest/world/story/quote-of-the-day-by-elon-musk-when-something-is-important-enough-you-do-it-even-if-the-odds-are-not-in-your-favor-560533-2026-10-09?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-09T02:00:06.000Z"
-    },
-    {
-      "title": "Air India group and Akasa hike fuel surcharge",
-      "summary": "IndiGo, Air India, and other airlines have announced increased fuel surcharges for both domestic and international flights. The new surcharges reflect a range that varies based on the distance of travel involved.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/air-india-group-and-akasa-hike-fuel-surcharge/articleshow/134803918.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-09T01:36:02.000Z"
-    },
-    {
-      "title": "Lenovo’s ₹68,399 gaming monitor is built for gamers who hate compromise",
-      "summary": "Lenovo’s Legion Pro 27UD-10 gaming monitor packs a 26.5-inch 4K QD-OLED display, 240Hz refresh rate, claimed 0.03ms response time and HDMI 2.1 ports at ₹68,399.",
-      "url": "https://www.businesstoday.in/latest/photo/lenovos-rs68399-gaming-monitor-is-built-for-gamers-who-hate-compromise-560452-2026-10-09?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-09T00:45:04.000Z"
     }
   ]
 }
