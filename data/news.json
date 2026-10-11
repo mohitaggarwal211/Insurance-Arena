@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-11T16:23:00.486Z",
-  "articlesCount": 39,
+  "lastUpdated": "2026-10-11T22:42:41.510Z",
+  "articlesCount": 32,
   "sourcesOk": 5,
   "sourcesTotal": 9,
   "sourceStatus": [
@@ -13,7 +13,7 @@
     {
       "source": "Business Today",
       "status": "ok",
-      "articles": 19,
+      "articles": 15,
       "feedUsed": "https://www.businesstoday.in/rssfeeds/?id=225346"
     },
     {
@@ -41,7 +41,7 @@
     {
       "source": "Times of India Business",
       "status": "ok",
-      "articles": 20,
+      "articles": 17,
       "feedUsed": "https://timesofindia.indiatimes.com/rssfeeds/1898055.cms"
     },
     {
@@ -56,6 +56,46 @@
     }
   ],
   "articles": [
+    {
+      "title": "Festive phone market set to shrink in volume",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/festive-phone-market-set-to-shrink-in-volume/articleshow/134877510.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-11T22:01:07.000Z"
+    },
+    {
+      "title": "FPIs pull out 44k cr in October, outflows in '26 cross 3L crore",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/fpis-pull-out-44k-cr-in-october-outflows-in-26-cross-3l-crore/articleshow/134877499.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-11T21:56:48.000Z"
+    },
+    {
+      "title": "RBI measures: Rupee to gain sharply but forex liquidity likely to dry up",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/rbi-measures-rupee-to-gain-sharply-but-forex-liquidity-likely-to-dry-up/articleshow/134877494.cms",
+      "source": "Times of India Business",
+      "category": "regulatory",
+      "publishedAt": "2026-10-11T21:55:11.000Z"
+    },
+    {
+      "title": "Green cards not key to workforce strategy: TCS",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/green-cards-not-key-to-workforce-strategy-tcs/articleshow/134877320.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-11T21:49:53.000Z"
+    },
+    {
+      "title": "Infosys plays down impact of PERM suspension",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/infosys-plays-down-impact-of-perm-suspension/articleshow/134877315.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-11T21:23:22.000Z"
+    },
     {
       "title": "Gold, silver prices next week: What investors should watch amid global uncertainty",
       "summary": "Gold and silver prices are anticipated to remain range-bound with modest support from rupee fluctuations. Investors will focus on upcoming inflation data from India, China, and the US.",
@@ -271,102 +311,6 @@
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-10-09T23:30:33.000Z"
-    },
-    {
-      "title": "States to assess GDP through spending method",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/states-to-assess-gdp-through-spending-method/articleshow/134842637.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-09T21:06:02.000Z"
-    },
-    {
-      "title": "iPhone Duo price comparison: How much does Apple's foldable phone cost around the world?",
-      "summary": "According to the comparison, the iPhone Duo costs $4,689 in Türkiye, followed by Brazil at $4,230 and India at $3,124. In comparison, the same storage variant is priced at $1,999 in the US,",
-      "url": "https://www.businesstoday.in/latest/world/story/iphone-duo-price-comparison-how-much-does-apples-foldable-phone-cost-around-the-world-560735-2026-10-10?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-09T21:05:02.000Z"
-    },
-    {
-      "title": "US trade talks steady, visa curbs may help India: Piyush Goyal",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/us-trade-talks-steady-visa-curbs-may-help-india-piyush-goyal/articleshow/134842631.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-09T21:02:39.000Z"
-    },
-    {
-      "title": "Forex reserves fall by $13bn to $734.6bn",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/forex-reserves-fall-by-13bn-to-734-6bn/articleshow/134842623.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-09T21:02:10.000Z"
-    },
-    {
-      "title": "Religious, spiritual & astrology apps see nearly 30cr downloads in Jan-Sept",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/religious-spiritual-astrology-apps-see-nearly-30cr-downloads-in-jan-sept/articleshow/134842601.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-09T20:54:57.000Z"
-    },
-    {
-      "title": "Now, RBI puts CRR and bond sale into play",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/now-rbi-puts-crr-and-bond-sale-into-play/articleshow/134842593.cms",
-      "source": "Times of India Business",
-      "category": "regulatory",
-      "publishedAt": "2026-10-09T20:49:11.000Z"
-    },
-    {
-      "title": "Bank credit up 20% year-on-year in end September",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/bank-credit-up-20-year-on-year-in-end-september/articleshow/134842581.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-09T20:48:17.000Z"
-    },
-    {
-      "title": "World’s best cities for quality of life 2026: Canberra tops list, Europe dominates; Check list here",
-      "summary": "The findings highlight how factors such as affordability, safety, public amenities and economic conditions can shape the quality of life, beyond a city's reputation as a global business or cultural hub",
-      "url": "https://www.businesstoday.in/latest/world/story/worlds-best-cities-for-quality-of-life-2026-canberra-tops-list-europe-dominates-check-list-here-560738-2026-10-10?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "insurance",
-      "publishedAt": "2026-10-09T20:00:06.000Z"
-    },
-    {
-      "title": "PERM freeze: Indian IT stocks rally, but talent exodus looms",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/perm-freeze-indian-it-stocks-rally-but-talent-exodus-looms/articleshow/134841088.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-09T18:18:43.000Z"
-    },
-    {
-      "title": "Tata Sons boardroom battle: Why India Inc fears a wider crisis of ownership rights",
-      "summary": "The Tata Sons boardroom dispute is raising concerns across India Inc over shareholder rights, regulatory uncertainty and foreign investor confidence. Industry veterans warn that the standoff could set a wider precedent for corporate ownership and governance in India.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/tata-sons-boardroom-battle-why-india-inc-fears-a-wider-crisis-of-ownership-rights-560776-2026-10-09?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "regulatory",
-      "publishedAt": "2026-10-09T16:51:10.000Z"
-    },
-    {
-      "title": "Teacher denied gratuity for working past 60; Allahabad HC orders payment with 6% interest",
-      "summary": "A woman joined an educational institution in Faizabad as an assistant teacher on August 16, 1992. She continued working there until March 31, 2019, when she retired.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/she-worked-as-a-teacher-till-62-years-of-age-instead-of-retiring-at-60-but-was-denied-gratuity-because-of-extended-service-allahabad-hc-orders-payment-with-6-interest/articleshow/134831020.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-09T16:38:56.000Z"
-    },
-    {
-      "title": "RBI schedules ₹25,000 crore bond sale for October 13; yields may open higher on Monday",
-      "summary": "The latest announcement follows a series of OMO sales undertaken by the RBI to absorb excess liquidity from the banking system. Under this mechanism, the central bank sells government securities to market participants in exchange for funds, thereby withdrawing liquidity.",
-      "url": "https://www.businesstoday.in/latest/economy/story/rbi-schedules-rs25000-crore-bond-sale-for-october-13-yields-may-open-higher-on-monday-560773-2026-10-09?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "regulatory",
-      "publishedAt": "2026-10-09T16:32:51.000Z"
     }
   ]
 }
