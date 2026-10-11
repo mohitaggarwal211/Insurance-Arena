@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-11T13:49:54.878Z",
-  "articlesCount": 36,
+  "lastUpdated": "2026-10-11T16:23:00.486Z",
+  "articlesCount": 39,
   "sourcesOk": 5,
   "sourcesTotal": 9,
   "sourceStatus": [
@@ -13,7 +13,7 @@
     {
       "source": "Business Today",
       "status": "ok",
-      "articles": 20,
+      "articles": 19,
       "feedUsed": "https://www.businesstoday.in/rssfeeds/?id=225346"
     },
     {
@@ -41,7 +41,7 @@
     {
       "source": "Times of India Business",
       "status": "ok",
-      "articles": 16,
+      "articles": 20,
       "feedUsed": "https://timesofindia.indiatimes.com/rssfeeds/1898055.cms"
     },
     {
@@ -56,6 +56,46 @@
     }
   ],
   "articles": [
+    {
+      "title": "Gold, silver prices next week: What investors should watch amid global uncertainty",
+      "summary": "Gold and silver prices are anticipated to remain range-bound with modest support from rupee fluctuations. Investors will focus on upcoming inflation data from India, China, and the US.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/gold-silver-prices-next-week-what-investors-should-watch-amid-global-uncertainty/articleshow/134872993.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-11T15:49:20.000Z"
+    },
+    {
+      "title": "Rupee relief, higher hedging costs: What RBI’s new forex rules mean",
+      "summary": "Reserve Bank of India has introduced new measures aimed at stabilizing the Indian rupee against the dollar. These changes include tighter restrictions on foreign exchange derivatives and new reserve requirements for banks.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/rupee-relief-higher-hedging-costs-what-rbis-new-forex-rules-mean/articleshow/134872828.cms",
+      "source": "Times of India Business",
+      "category": "regulatory",
+      "publishedAt": "2026-10-11T15:31:24.000Z"
+    },
+    {
+      "title": "Homebuyer paid Rs 39.15 lakh but got no flat; RERA rejects builder's excuse orders interest payout",
+      "summary": "The homebuyer alleged that the builder had invoked the PMRDA-PMC jurisdiction dispute only after the delay happened, using it as an excuse to explain why the flat had not been handed over to the buyer on time.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/he-bought-a-rs-41-85-lakh-and-paid-rs-39-15-lakh-but-did-not-get-possession-builder-blames-pmc-pmrda-jurisdiction-changes-maharera-rejects-excuse-and-orders-interest-payout-to-homebuyer/articleshow/134872244.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-11T15:30:42.000Z"
+    },
+    {
+      "title": "UPI MDR should be cut from 0.4% to 0.08%: IIT-Bombay report proposes new fee structure",
+      "summary": "The report also argues that banks should use a portion of their earnings from current and savings account deposits to fund the digital payments ecosystem instead of relying on MDR revenue",
+      "url": "https://www.businesstoday.in/latest/economy/story/upi-mdr-should-be-cut-from-0-4-to-0-08-iit-bombay-study-propose-new-fee-structure-560882-2026-10-11?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-11T14:57:14.000Z"
+    },
+    {
+      "title": "Crude oil outlook: US-Iran talks, supply risks likely to keep prices volatile",
+      "summary": "As talks between the US and Iran unfold regarding the strategic Strait of Hormuz, crude oil prices are poised for fluctuations. Market experts suggest that a successful diplomatic resolution might lower prices, though persistent regional tensions could sustain high levels.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/crude-oil-outlook-us-iran-talks-supply-risks-likely-to-keep-prices-volatile/articleshow/134871719.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-11T13:58:53.000Z"
+    },
     {
       "title": "Stock market is crashing, yet IPOs attract billions: What’s happening here?",
       "summary": "Foreign portfolio investors (FPIs) invested $1 billion (Rs 9,676 crore) in IPOs in September even as they sold $4.8 billion (Rs 45,537 crore) worth of listed equities, the highest monthly outflow since April 2026, when they withdrew $6.7 billion (Rs 63,167 crore).",
@@ -327,22 +367,6 @@
       "source": "Business Today",
       "category": "regulatory",
       "publishedAt": "2026-10-09T16:32:51.000Z"
-    },
-    {
-      "title": "Maximum prison term for GST offences rationalised, says finance ministry FAQ",
-      "summary": "Someone who is convicted will not compulsorily be imprisoned, refund reforms in two phases",
-      "url": "https://www.businesstoday.in/latest/economy/story/maximum-prison-term-for-gst-offences-rationalised-says-finance-ministry-faq-560770-2026-10-09?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-09T15:52:46.000Z"
-    },
-    {
-      "title": "India’s LPG imports shift back to UAE as US supplies plunge 58%; Oman leads LNG imports in Sept",
-      "summary": "India’s LPG imports shifted back towards the UAE in September as US supplies plunged 58%, while Gulf shipments recovered. Oman also emerged as India’s largest LNG supplier, highlighting how geopolitical risks are reshaping energy sourcing.",
-      "url": "https://www.businesstoday.in/latest/economy/story/indias-lpg-imports-shift-back-to-uae-as-us-supplies-plunge-58-oman-leads-lng-imports-in-sept-560766-2026-10-09?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-09T15:11:05.000Z"
     }
   ]
 }
