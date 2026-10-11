@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T07:23:56.336Z",
+  "lastUpdated": "2026-10-11T13:49:54.878Z",
   "articlesCount": 36,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,38 @@
     }
   ],
   "articles": [
+    {
+      "title": "Stock market is crashing, yet IPOs attract billions: What’s happening here?",
+      "summary": "Foreign portfolio investors (FPIs) invested $1 billion (Rs 9,676 crore) in IPOs in September even as they sold $4.8 billion (Rs 45,537 crore) worth of listed equities, the highest monthly outflow since April 2026, when they withdrew $6.7 billion (Rs 63,167 crore).",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/stock-market-is-crashing-but-ipos-are-seeing-billions-of-dollars-of-investment-whats-happening/articleshow/134871182.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-11T13:25:53.000Z"
+    },
+    {
+      "title": "Inflation data, IT earnings, crude oil to steer stock markets this week, say experts",
+      "summary": "Anticipation is high in Indian stock markets as volatility and consolidation loom, particularly with September's inflation data on the horizon. These figures will shed light on price movements and may sway the Reserve Bank of India's policy decisions.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/inflation-data-it-earnings-crude-oil-to-steer-stock-markets-this-week-say-experts/articleshow/134871184.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-11T13:23:07.000Z"
+    },
+    {
+      "title": "India releases draft steel policy, targets 604 million tonnes of capacity by 2047",
+      "summary": "The National Steel Policy – Vision 2047 projects per capita steel consumption of 302 kg and steel exports of 45 million tonnes by 2047",
+      "url": "https://www.businesstoday.in/latest/economy/story/india-releases-draft-steel-policy-targets-604-million-tonnes-of-capacity-by-2047-560870-2026-10-11?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-11T10:41:32.000Z"
+    },
+    {
+      "title": "FPIs pull out Rs 44,166 crore from Indian equities in October so far",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/fpis-pull-out-rs-44166-crore-from-indian-equities-in-october/articleshow/134868327.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-11T09:51:54.000Z"
+    },
     {
       "title": "Rs 10 lakh investment, different explanations: why ITAT deleted tax addition and Rs 2 lakh penalty",
       "summary": "The dispute arose after the income tax department received information about an investment of Rs 11.25 lakh made by a man with a wealth management firm.",
@@ -311,38 +343,6 @@
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-10-09T15:11:05.000Z"
-    },
-    {
-      "title": "UPI vs credit cards: What should you choose for payments after MDR?",
-      "summary": "The overall value of a transaction depends on several factors including the payment mode, transaction value, the applicable MDR (if any), and the value-back attached to the payment method.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/upi-vs-credit-cards-what-should-you-choose-for-payments-after-mdr/articleshow/134822791.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-09T13:39:44.000Z"
-    },
-    {
-      "title": "US suspends TCS, Infosys and Wipro from PERM: What Indian IT workers need to know",
-      "summary": "The US has suspended eight employers, including TCS, Infosys and Wipro, from PERM processing. Here’s what the move means for new and pending green card applications.",
-      "url": "https://www.businesstoday.in/latest/world/photo/us-suspends-tcs-infosys-and-wipro-from-perm-what-indian-it-workers-need-to-know-560724-2026-10-09?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-09T12:01:16.000Z"
-    },
-    {
-      "title": "Sisters sought 1/3rd share in parents' property; Madras HC rules in favour of brother",
-      "summary": "In this case, the parents of two daughters and a son owned several properties. The daughters got married and moved to their husbands' homes. On September 10, 2026, the Madras High Court dismissed the sisters' appeal for a share, allowing their brother to retain the land.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/sisters-sought-share-in-parents-properties-under-hindu-succession-law-madras-hc-rules-for-brother-over-mothers-land-on-ouster-fathers-estate-over-missing-parties/articleshow/134824987.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-09T10:25:00.000Z"
-    },
-    {
-      "title": "Delays of several hours: Passenger trains using slower freight locos amid shortage",
-      "summary": "Indian Railways records contain several instances in which a lack of locomotives designed for passenger services led to trains being hauled by freight engines, which operate at lower speeds.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/passenger-trains-being-run-with-slower-freight-engines-as-indian-railways-faces-locomotives-shortage-records-show-80-100-cases-a-month-causing-delays-of-several-hours/articleshow/134813298.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-09T07:33:44.000Z"
     }
   ]
 }
