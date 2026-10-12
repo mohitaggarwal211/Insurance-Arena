@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-11T22:42:41.510Z",
-  "articlesCount": 32,
+  "lastUpdated": "2026-10-12T07:01:39.695Z",
+  "articlesCount": 33,
   "sourcesOk": 5,
   "sourcesTotal": 9,
   "sourceStatus": [
@@ -13,7 +13,7 @@
     {
       "source": "Business Today",
       "status": "ok",
-      "articles": 15,
+      "articles": 13,
       "feedUsed": "https://www.businesstoday.in/rssfeeds/?id=225346"
     },
     {
@@ -41,7 +41,7 @@
     {
       "source": "Times of India Business",
       "status": "ok",
-      "articles": 17,
+      "articles": 20,
       "feedUsed": "https://timesofindia.indiatimes.com/rssfeeds/1898055.cms"
     },
     {
@@ -56,6 +56,118 @@
     }
   ],
   "articles": [
+    {
+      "title": "Sunil Bharti Mittal gets highest French civilian award",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/sunil-bharti-mittal-gets-highest-french-civilian-award/articleshow/134884828.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-12T06:27:33.000Z"
+    },
+    {
+      "title": "Top stocks: Nifty outlook for October 12-October 16 week? Check stock recommendations",
+      "summary": "Stock market recommendations: ICICI Lombard General Insurance, and Nykaa are the top stocks that Sudeep Shah, Head - Technical Research and Derivatives, SBI Securities has picked for buying for the October 12, 2026 week.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/stocks-to-buy-whats-the-outlook-for-nifty-for-october-12-october-16-week-check-list-of-top-stock-recommendations-icici-lombard-general-insurance-nykaa/articleshow/134884670.cms",
+      "source": "Times of India Business",
+      "category": "insurance",
+      "publishedAt": "2026-10-12T06:23:41.000Z"
+    },
+    {
+      "title": "Gold price prediction: Where are gold prices headed in October 12, 2026 week?",
+      "summary": "Gold enters the week Rs 150,750 after recovering from the recent decline towards Rs 146,000–147,000, although prices remain well below the September peak near Rs 163,000–165,000.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/gold-price-prediction-today-what-is-the-gold-rate-outlook-for-october-12-2026-week-should-you-buy-or-sell-mcx-gold-us-iran-war-middle-east-us-fed-rate-hike/articleshow/134884555.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-12T06:14:49.000Z"
+    },
+    {
+      "title": "Stabilising the rupee: RBI measures may buy more time but more structural steps required",
+      "summary": "The latest measures by RBI, which includes a special window for public sector oil companies to meet their daily dollar needs directly from RBI through designated banks, and tightening hedging rules, are aimed to reduce speculative activity in the forex market …",
+      "url": "https://www.businesstoday.in/latest/economy/story/stabilising-the-rupee-rbi-measures-may-buy-more-time-but-more-structural-steps-required-560946-2026-10-12?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "regulatory",
+      "publishedAt": "2026-10-12T06:04:26.000Z"
+    },
+    {
+      "title": "RBI measures see sharp impact as rupee rises 1% against US dollar; what steps were announced?",
+      "summary": "Rupee emerged as one of Asia's strongest-performing currencies, even as most regional currencies moved within a narrow range. Despite Monday's sharp rise, the rupee has lost 6.6% against the dollar so far this year.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/rbi-measures-see-sharp-impact-as-rupee-rises-1-against-us-dollar-what-steps-were-announced/articleshow/134883669.cms",
+      "source": "Times of India Business",
+      "category": "regulatory",
+      "publishedAt": "2026-10-12T05:40:50.000Z"
+    },
+    {
+      "title": "LPG, CNG, PNG prices today (October 12): Check latest rates in Delhi, Mumbai, Kolkata, other cities",
+      "summary": "The price of a 14.2-kg domestic LPG cylinder remains ₹942 in Delhi. CNG and PNG rates vary across cities depending on local taxes, input gas costs and distribution expenses. Recent CNG price increases in parts of Uttar Pradesh have also put pressure on vehicle owners.",
+      "url": "https://www.businesstoday.in/india/story/lpg-cng-png-prices-today-october-12-check-latest-rates-in-delhi-mumbai-kolkata-other-cities-560903-2026-10-12?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-12T05:07:18.000Z"
+    },
+    {
+      "title": "Oil prices today: Brent crude declines as Trump announces Russia-Ukraine energy truce",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/oil-prices-today-brent-crude-declines-as-trump-announces-russia-ukraine-energy-truce/articleshow/134882273.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-12T04:35:20.000Z"
+    },
+    {
+      "title": "Taxman alleged IT park firm was a tax dodge; ITAT rules for five landowners",
+      "summary": "In 2005, the landowners and the same builder executed a registered joint development agreement (JDA). Under the arrangement, the builder was granted development rights and a Power of Attorney (POA) was executed for various purposes.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/five-bangalore-landowners-faced-tax-on-rental-income-from-an-it-park-built-through-a-partnership-firm-it-department-alleged-it-was-a-tax-avoidance-structure-itat-gives-relief/articleshow/134881048.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-12T04:34:01.000Z"
+    },
+    {
+      "title": "‘No concerns from anyone’: TCS COO Aarthi Subramanian says Tata boardroom tussle has no impact on biz",
+      "summary": "The assurance comes amid a boardroom tussle over leadership and control that has erupted at the Tata Group, with Tata Sons chairman N Chandrasekaran and Tata Trusts chairman Noel Tata at the centre of a dispute.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/no-concerns-from-anyone-tcs-coo-aarthi-subramanian-says-tata-boardroom-tussle-has-no-impact-on-biz-560922-2026-10-12?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-12T04:26:43.000Z"
+    },
+    {
+      "title": "Petrol, diesel prices today (October 12): Check latest rates in Delhi, Mumbai, Chennai, Kolkata & more",
+      "summary": "Despite Brent crude reaching $103 per barrel, fuel prices have remained relatively stable over the past week. The rupee-dollar exchange rate is a key variable, given that India relies heavily on imported crude.",
+      "url": "https://www.businesstoday.in/india/story/petrol-diesel-prices-today-october-12-check-latest-rates-in-delhi-mumbai-chennai-kolkata-more-560899-2026-10-12?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-12T03:17:53.000Z"
+    },
+    {
+      "title": "Top stocks: Which stocks should you buy in the October 12, 2026 week?",
+      "summary": "Stock market recommendations: Bajaj Finance, Molbio Diagnostics - these are the top stocks to buy that Motilal Oswal Wealth Management Research Desk has picked for the week starting October 12, 2026.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/top-stock-recommendations-for-october-12-2026-week-bajaj-finance-molbio-diagnostics-stocks-to-buy-today/articleshow/134872816.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-12T03:16:00.000Z"
+    },
+    {
+      "title": "Stock market today: Sensex rebounds after 300-point jump; Nifty holds above 22,550",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/sensex-stock-market-today-12-october-2026-live-updates-nse-bse-gift-nifty-50-top-gainers-losers-mcx-stocks-in-focus-market-news/liveblog/134881636.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-12T03:00:22.000Z"
+    },
+    {
+      "title": "Quote of the Day by Nikhil Kamath: 'Wealth is built slowly. The idea is to stay in the game long enough'",
+      "summary": "Kamath followed an unconventional path to entrepreneurship. He left formal education after Class 10 and began working at a call centre while teaching himself about stock markets",
+      "url": "https://www.businesstoday.in/india/story/quote-of-the-day-by-nikhil-kamath-wealth-is-built-slowly-the-idea-is-to-stay-in-the-game-long-enough-560829-2026-10-12?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-12T02:00:07.000Z"
+    },
+    {
+      "title": "BT BIG STORY: How India’s space startups are building on Isro’s blueprint",
+      "summary": "Isro’s legacy, a vast manufacturing base and policy reforms have helped India’s private space companies to create a new industry. Closing critical technology and supply-chain gaps will determine whether it can compete globally.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/bt-big-story-how-indias-space-startups-are-building-on-isros-blueprint-560752-2026-10-12?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-12T00:30:07.000Z"
+    },
     {
       "title": "Festive phone market set to shrink in volume",
       "summary": "",
@@ -169,14 +281,6 @@
       "publishedAt": "2026-10-11T09:51:54.000Z"
     },
     {
-      "title": "Rs 10 lakh investment, different explanations: why ITAT deleted tax addition and Rs 2 lakh penalty",
-      "summary": "The dispute arose after the income tax department received information about an investment of Rs 11.25 lakh made by a man with a wealth management firm.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/man-invested-rs-10-lakh-which-tax-department-treated-as-unexplained-he-first-cited-cash-loan-then-bank-withdrawals-as-source-itat-nagpur-deletes-addition-and-rs-2-11-lakh-penalty/articleshow/134857815.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-11T06:22:49.000Z"
-    },
-    {
       "title": "Canada asylum alert: What unfinished claims must do before November 3",
       "summary": "Canada is changing its asylum application system from November 3. Applicants with unfinished IRCC Portal claims must review details, answer new questions and submit documents.",
       "url": "https://www.businesstoday.in/latest/world/photo/canada-asylum-alert-what-unfinished-claims-must-do-before-november-3-560699-2026-10-11?utm_source=rssfeed",
@@ -193,36 +297,12 @@
       "publishedAt": "2026-10-10T21:00:05.000Z"
     },
     {
-      "title": "Landlord wanted tenant out for law office; Delhi HC rejects tenant's objections",
-      "summary": "Two landlords, who were practising advocates, said they needed the rented premises to set up a law office. The tenant argued that the landlords had changed their stated purpose for seeking possession and already had other properties that could be used for thei…",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/landlords-wanted-tenant-out-to-open-a-law-office-he-said-the-reason-for-seeking-eviction-had-changed-and-other-properties-were-available-why-delhi-high-court-upheld-eviction/articleshow/134856919.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-10T16:30:00.000Z"
-    },
-    {
       "title": "Mahindra & Mahindra announces sale of 51% stake in Novavayu Aerospace to Embraer",
       "summary": "The corporate action will result in NAL ceasing to be a wholly-owned subsidiary and transitioning into an associate company of Mahindra Defence Systems Limited (MDSL).",
       "url": "https://www.businesstoday.in/latest/corporate/story/mahindra-mahindra-announces-sale-of-51-stake-in-novavayu-aerospace-to-embraer-560832-2026-10-10?utm_source=rssfeed",
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-10-10T14:56:46.000Z"
-    },
-    {
-      "title": "‘To be finalised in line with changed circumstances’: Piyush Goyal on India-US trade deal",
-      "summary": "India and the US are finalizing their interim trade agreement framework, as circumstances have changed since February. Commerce Minister Piyush Goyal indicated that negotiations would consider recent shifts in the US tariff landscape.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/to-be-finalised-in-line-with-changed-circumstances-piyush-goyal-on-india-us-trade-deal/articleshow/134856416.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-10T14:45:19.000Z"
-    },
-    {
-      "title": "Despite promise, builder denied disabled parking to Rs 1.03 crore flat buyer; RERA orders relief",
-      "summary": "In one such case, a woman and her family bought a 3BHK ( 3 Bedrooms, Hall, Kitchen) from a builder in Bengaluru for Rs 1.03 crore. The builder promised two specially enabled parking spaces, and it was supposedly one of the property's key attractions.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/woman-buys-rs-1-03-crore-3bhk-in-bengaluru-but-builder-fails-to-provide-specially-enabled-parking-karnataka-rera-orders-provision-within-60-days-and-audited-maintenance-accounts/articleshow/134850385.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-10T10:34:51.000Z"
     },
     {
       "title": "India’s money supply growth hits 17.3%: Why expert warns of inflation risks",
@@ -239,78 +319,6 @@
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-10-10T08:55:00.000Z"
-    },
-    {
-      "title": "Man faces Rs 17.18 lakh tax penalty over Rs 55.62 lakh unexplained deposits; ITAT gives relief",
-      "summary": "A man had not filed an income tax return for assessment year 2016-17. The tax department subsequently completed a reassessment without his participation and, on February 15, 2024, assessed his total income at Rs 55.62 lakh.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/man-did-not-file-itr-faced-rs-17-18-lakh-penalty-over-alleged-rs-55-62-lakh-unexplained-cash-deposits-itat-mumbai-deletes-penalty-because-tax-officer-invoked-wrong-provision/articleshow/134837562.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-10T06:37:24.000Z"
-    },
-    {
-      "title": "RBI's rupee defence: Special dollar window for oil firms, tighter forex derivative rules",
-      "summary": "The RBI has announced a series of measures to ease pressure on the rupee. The steps aim to curb speculative activity, reduce dollar demand in the spot market and limit currency volatility as the rupee trades near its record low against the US dollar.",
-      "url": "https://www.businesstoday.in/latest/economy/story/rbis-rupee-defence-special-dollar-window-for-oil-firms-tighter-forex-derivative-rules-560793-2026-10-10?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "regulatory",
-      "publishedAt": "2026-10-10T05:27:28.000Z"
-    },
-    {
-      "title": "RBI opens special dollar window for three state-run oil companies from October 12",
-      "summary": "Under the arrangement, the RBI will sell US dollars to the three public sector oil companies through designated banks. The facility is intended to ensure that the companies can meet their full daily foreign currency requirements for their operations.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/rbi-opens-special-dollar-window-for-three-state-run-oil-companies-from-october-12-560786-2026-10-10?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "regulatory",
-      "publishedAt": "2026-10-10T03:39:39.000Z"
-    },
-    {
-      "title": "Quote of the Day by Narayana Murthy : 'It is a well-known fact that bringing in technologies in retail sector is good for consumers'",
-      "summary": "He lamented that even top gold medalists from IITs often struggled when pursuing research at global institutions like MIT or Harvard University because the Indian system fails to link theory with real-world.",
-      "url": "https://www.businesstoday.in/india/story/quote-of-the-day-by-narayana-murthy-it-is-a-well-known-fact-that-bringing-in-technologies-in-retail-sector-is-good-for-consumers-560774-2026-10-10?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-10T02:00:07.000Z"
-    },
-    {
-      "title": "Rupee under pressure: SBI Research wants RBI to prioritise currency stability alongside inflation",
-      "summary": "In its October 9 report, Ecowrap, SBI Research said the RBI needs to strengthen its policy toolkit to address mounting pressure on emerging market currencies.",
-      "url": "https://www.businesstoday.in/latest/economy/story/rupee-under-pressure-sbi-research-wants-rbi-to-prioritise-currency-stability-alongside-inflation-560761-2026-10-10?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "regulatory",
-      "publishedAt": "2026-10-10T01:26:23.000Z"
-    },
-    {
-      "title": "7-seaters starting @ just ₹5.73 lakh! These cars could be the family cars you’ve been waiting for",
-      "summary": "Affordable 7-seater cars in India start at ₹5.73 lakh. From Nissan Gravite and Renault Triber to Maruti Ertiga and Kia Carens, here are family cars worth considering.",
-      "url": "https://www.businesstoday.in/latest/photo/7-seaters-starting-just-rs5-73-lakh-these-cars-could-be-the-family-cars-youve-been-waiting-for-560701-2026-10-10?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-10T00:40:03.000Z"
-    },
-    {
-      "title": "BT Weekender: Planning to fly with your pet? You have company",
-      "summary": "From cabin seats to cargo holds, more pet parents are taking their furry companions on holiday. Here’s what to know before you fly.",
-      "url": "https://www.businesstoday.in/latest/trends/story/bt-weekender-planning-to-fly-with-your-pet-you-have-company-560748-2026-10-10?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-10T00:30:09.000Z"
-    },
-    {
-      "title": "Suzuki goes electric: This tiny EV promises 310 km on one charge",
-      "summary": "Suzuki has entered Japan’s small EV market with the e-Sky, offering a 310 km claimed range, 26kWh LFP battery and a subsidised price that could hint at its India EV plans.",
-      "url": "https://www.businesstoday.in/latest/photo/suzuki-goes-electric-this-tiny-ev-promises-310-km-on-one-charge-560672-2026-10-10?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-10T00:30:09.000Z"
-    },
-    {
-      "title": "India’s bad loans are falling, but a bigger banking risk may be building beneath the surface",
-      "summary": "India’s household debt is rising even as personal loan defaults decline, raising concerns about borrowers taking on more debt than their incomes can support.",
-      "url": "https://www.businesstoday.in/latest/economy/story/indias-bad-loans-are-falling-but-a-bigger-banking-risk-may-be-building-beneath-the-surface-560765-2026-10-10?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-09T23:30:33.000Z"
     }
   ]
 }
