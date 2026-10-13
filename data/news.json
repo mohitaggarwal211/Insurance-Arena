@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-13T07:26:11.205Z",
+  "lastUpdated": "2026-10-13T07:52:21.365Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,30 @@
     }
   ],
   "articles": [
+    {
+      "title": "Employer in South Korea paid him salary in dollars in India; income tax department sends notice",
+      "summary": "A Karnataka man working in South Korea faced an income tax notice over his salary deposited in an NRE account in India. The Income Tax Assessing Officer claimed the salary was taxable in India due to his employment.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/man-worked-in-south-korea-and-received-salary-in-us-dollars-in-nre-account-income-tax-department-sent-notice-itat-bangalore-sets-aside-assessment-and-orders-fresh-review/articleshow/134895954.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-13T07:34:50.000Z"
+    },
+    {
+      "title": "Delhi HC rejects SpiceJet’s plea to submit Gurugram property instead of ₹144 cr in Kalanithi Maran and KAL Airways",
+      "summary": "Instead of making the deposit, the airline reiterated its proposal to offer an unencumbered one-acre land parcel in Udyog Vihar, Gurugram, valued at ₹400-500 crore, as security.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/delhi-hc-rejects-spicejets-plea-to-submit-gurugram-property-instead-of-rs-144-cr-in-kalanithi-maran-and-kal-airways-561225-2026-10-13?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-13T07:20:26.000Z"
+    },
+    {
+      "title": "Tata has survived two world wars and high borrowing, but today’s challenges are different: N Chandrasekaran",
+      "summary": "Tata Sons Chairman N Chandrasekaran said the group has weathered wars and economic upheavals over its 160-year history, but faces an unusually complex mix of geopolitical tensions, AI disruption and supply-chain crises today.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/tata-has-survived-two-world-wars-and-high-borrowing-but-todays-challenges-are-different-n-chandrasekaran-561224-2026-10-13?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-13T07:17:05.000Z"
+    },
     {
       "title": "'Chips are the future': Tata Sons' N. Chandrasekaran flags demand, management risks in India’s semiconductor push",
       "summary": "While India has the potential to contribute significantly to the global semiconductor industry, Chandrasekaran cautioned that businesses must align investments with market requirements and operational capabilities.",
@@ -345,36 +369,12 @@
       "publishedAt": "2026-10-12T19:56:35.000Z"
     },
     {
-      "title": "At 5.5%, retail inflation hits 9-month high on food prices",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/at-5-5-retail-inflation-hits-9-month-high-on-food-prices/articleshow/134901984.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-12T19:53:05.000Z"
-    },
-    {
       "title": "India’s LNG costs surge to $26.4 per mmBtu despite efforts to protect supplies",
       "summary": "LNG tender prices rose from $16.8–$18.8 per mmBtu between March and June to $26.4 in September, as the West Asia conflict disrupted supplies from Qatar and the UAE and restricted shipments through the Strait of Hormuz.",
       "url": "https://www.businesstoday.in/latest/economy/story/indias-lng-costs-surge-to-26-4-per-mmbtu-despite-efforts-to-protect-supplies-561138-2026-10-13?utm_source=rssfeed",
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-10-12T18:55:02.000Z"
-    },
-    {
-      "title": "Retail inflation hits 21-month high, set to squeeze your household budget further",
-      "summary": "Experts pencil in another rate hike at the December policy review; kharif crop and crude oil prices pose headwinds",
-      "url": "https://www.businesstoday.in/latest/economy/story/retail-inflation-hits-21-month-high-set-to-squeeze-your-household-budget-further-561107-2026-10-12?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "regulatory",
-      "publishedAt": "2026-10-12T13:19:28.000Z"
-    },
-    {
-      "title": "Crude oil may hit $110, India's import basket could touch $130 in 10 days: SBI Research",
-      "summary": "The report outlined three possible phases for crude oil prices, depending on geopolitical developments and the restoration of global supplies",
-      "url": "https://www.businesstoday.in/latest/economy/story/crude-oil-may-hit-110-indias-import-basket-could-touch-130-in-10-days-sbi-research-561103-2026-10-12?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-12T12:46:02.000Z"
     }
   ]
 }
