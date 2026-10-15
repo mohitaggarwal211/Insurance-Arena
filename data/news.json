@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-15T05:59:48.920Z",
+  "lastUpdated": "2026-10-15T12:29:50.551Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -57,6 +57,150 @@
   ],
   "articles": [
     {
+      "title": "Rs 1 crore-plus salaries: Amid layoffs, which Indian IT jobs are getting huge salary premiums?",
+      "summary": "Even as restructuring and layoffs happen, some jobs in the IT sector are getting paid well - and across levels whether entry or senior.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/rs-1-crore-plus-salaries-amid-layoffs-which-indian-it-sector-jobs-are-getting-huge-salary-premiums/articleshow/134963784.cms",
+      "source": "Times of India Business",
+      "category": "insurance",
+      "publishedAt": "2026-10-15T12:04:09.000Z"
+    },
+    {
+      "title": "Russia begins diesel exports after Trump deal amid global oil market concerns",
+      "summary": "Russian diesel exports have started reaching global markets following an agreement with US President Donald Trump. The Kremlin stated that these supplies could help stabilize oil markets, but they will not suffice.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/russia-begins-diesel-exports-after-trump-deal-amid-global-oil-market-concerns/articleshow/134966144.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-15T11:30:37.000Z"
+    },
+    {
+      "title": "Pope Leo XIV undergoes lung cancer surgery, Vatican shares latest health update",
+      "summary": "The latest update follows an earlier medical bulletin on Wednesday, which said the Pope’s postoperative recovery was progressing normally",
+      "url": "https://www.businesstoday.in/latest/world/story/pope-leo-xiv-undergoes-lung-cancer-surgery-vatican-shares-latest-health-update-561828-2026-10-15?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-15T11:03:17.000Z"
+    },
+    {
+      "title": "Jio has filed 7,220 patents: Akash Ambani pitches technology as competitive edge ahead of mega IPO",
+      "summary": "Reliance Jio Chairman Akash Ambani said that Jio was among the top 20 companies globally in terms of patents filed, describing it as the only Indian company in that group.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/jio-has-filed-7220-patents-akash-ambani-pitches-technology-as-competitive-edge-ahead-of-mega-ipo-561840-2026-10-15?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-15T10:50:08.000Z"
+    },
+    {
+      "title": "India’s Sept exports rise 23% as trade deficit narrows; shipments to US rise 11%",
+      "summary": "India's merchandise exports rose to $44.40 billion in September 2026, marking a significant year-on-year increase. Overall exports, including services, also grew to an estimated $80.75 billion during this period.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/indias-september-exports-rise-23-as-merchandise-trade-deficit-narrows-shipments-to-us-rise-11/articleshow/134964339.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-15T10:35:21.000Z"
+    },
+    {
+      "title": "No more guessing who's calling! Govt mandates caller ID display from November 1",
+      "summary": "The Department of Telecommunications is preparing to roll out Calling Name Presentation, a feature that shows the caller's name in addition to their number on the recipient's screen. This functionality will first be implemented on 4G networks before extending to other versions.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/no-more-guessing-whos-calling-govt-mandates-caller-id-display-from-november-1/articleshow/134964658.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-15T10:32:59.000Z"
+    },
+    {
+      "title": "She bought Rs 13.5 lakh shares, sold them for Rs 77.47 lakh; ITAT deletes Rs 79 lakh additions",
+      "summary": "A woman purchased 60,000 shares of a company Ltd between March 3 and March 15, 2011, for Rs 13,52,850, at Rs 22.55 per share. The company subsequently issued bonus shares in a 1:1 ratio, which increased her holding to 1.2 lakh shares.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/she-bought-shares-for-rs-13-5-lakh-and-sold-them-for-rs-77-47-lakh-after-18-months-taxman-denied-capital-gains-exemption-but-itat-gives-relief-and-deletes-rs-79-lakh-in-additions/articleshow/134961768.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-15T10:32:45.000Z"
+    },
+    {
+      "title": "India-US trade deal: First phase finalised, legal drafting under way, says Piyush Goyal",
+      "summary": "According to Commerce Minister Piyush Goyal, India's trade agreement with the US has advanced to the legal drafting phase, aiming to grant India a competitive edge. The implementation of this pact is anticipated shortly.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/india-us-trade-deal-first-phase-finalised-legal-drafting-under-way-says-piyush-goyal/articleshow/134963311.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-15T09:49:15.000Z"
+    },
+    {
+      "title": "India exports rise to $44.4 billion in September; trade deficit narrows to $30.21 billion",
+      "summary": "The trade deficit narrowed by $2.79 billion compared with September 2025",
+      "url": "https://www.businesstoday.in/latest/economy/story/india-exports-rise-to-44-4-billion-in-september-trade-deficit-narrows-to-30-21-billion-561822-2026-10-15?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-15T09:42:36.000Z"
+    },
+    {
+      "title": "‘Consistent with good practices’: IMF defends India's revised GDP calculation",
+      "summary": "The International Monetary Fund has recognized India's updated approach to measuring gross domestic product, commending the Ministry of Statistics and Programme Implementation for enhancing GDP metrics.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/consistent-with-good-practices-imf-defends-indias-revised-gdp-calculation/articleshow/134962902.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-15T09:17:55.000Z"
+    },
+    {
+      "title": "PM Modi inaugurates Rs 3,350 crore projects in Ladakh, including new Leh airport terminal",
+      "summary": "Prime Minister Narendra Modi recently launched five pivotal projects in Ladakh aimed at advancing airport facilities and improving road connectivity. These projects feature a new terminal at Kushok Bakula Rimpochee Airport and the creation of the Nimmu-Padum-Darcha Road.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/pm-modi-inaugurates-rs-3350-crore-projects-in-ladakh-including-new-leh-airport-terminal/articleshow/134962747.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-15T09:11:08.000Z"
+    },
+    {
+      "title": "Direct tax mop-up rises 13.21% to Rs 13.38 lakh crore till October 14",
+      "summary": "India's net direct tax collections reached Rs 13,37,866.98 crore for FY2026-27 as of October 14. Gross collections increased to Rs 16,03,066.12 crore, while refunds rose by 24.22 percent year-on-year.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/direct-tax-mop-up-rises-13-21-to-rs-13-38-lakh-crore-till-october-14/articleshow/134962567.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-15T09:09:59.000Z"
+    },
+    {
+      "title": "Isha Ambani-led Reliance Retail, OYO, Perplexity lead funding among U35-led businesses, Hurun Report shows",
+      "summary": "Reliance Retail Ventures leads the rankings with $7.41 billion in funding raised, followed by PRISM, which operates OYO, at $3.71 billion. Perplexity ranks third with $1.6 billion, according to the report released on October 15.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/isha-ambani-led-reliance-retail-oyo-perplexity-lead-funding-among-u35-led-businesses-hurun-report-shows-561786-2026-10-15?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-15T08:01:03.000Z"
+    },
+    {
+      "title": "Rubio to meet Mukesh Ambani, signalling steady US ties despite Musk’s criticism",
+      "summary": "Rubio will travel to Jamnagar in Gujarat, home to the world’s largest oil refining complex, where he is expected to meet Reliance executives, US Ambassador to India Sergio Gor said at the Bloomberg New Economy Forum in New Delhi on Thursday.",
+      "url": "https://www.businesstoday.in/latest/economy/story/rubio-to-meet-mukesh-ambani-signalling-steady-us-ties-despite-musks-criticism-561775-2026-10-15?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-15T07:51:45.000Z"
+    },
+    {
+      "title": "'Big items are done': Sergio Gor gives update on India-US trade deal",
+      "summary": "In a recent statement, US Ambassador Sergio Gor revealed that substantial progress has been made in the negotiations for a trade deal between India and the US. He pointed out that many crucial items on their agenda have been successfully addressed.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/big-items-are-done-sergio-gor-gives-update-on-india-us-trade-deal-trumps-100-sanctions-threat/articleshow/134960864.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-15T07:43:55.000Z"
+    },
+    {
+      "title": "Thousands of tech professionals in US return in 9 months; steep salary cuts await in India",
+      "summary": "Indian techies return: Between January and September 2026, around 12,700 white-collar technology workers returned to India, according to data from staffing firm Xpheno.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/12700-us-based-tech-professionals-returned-to-india-in-9-months-2026-may-beat-last-years-record-as-h-1b-visa-uncertainty-grows-but-returnees-face-steep-salary-cuts-at-home/articleshow/134959590.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-15T07:01:41.000Z"
+    },
+    {
+      "title": "A 100-bps rate rise could weigh on global growth: What does it mean for Indian exports? Here's what Goldman Sachs says",
+      "summary": "For India, the findings are relevant because weaker economic activity in major developed markets could affect demand for Indian manufactured goods, including engineering products, machinery and auto components.",
+      "url": "https://www.businesstoday.in/latest/economy/story/a-100-bps-rate-rise-could-weigh-on-global-growth-what-does-it-mean-for-indian-exports-heres-what-goldman-sachs-says-561746-2026-10-15?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-15T06:48:10.000Z"
+    },
+    {
+      "title": "Kospi plunges 7.5% as tech stocks tumble, triggers 'sidecar' stop for investors",
+      "summary": "South Korea's stock market experienced a sharp decline on Thursday, with the Kospi plummeting nearly 7.5%. The downturn was driven by heavy selling pressure on major technology stocks, particularly Samsung Electronics and SK Hynix.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/kospi-hits-the-brakes-south-korean-benchmark-plunges-7-5-triggers-sidecar-stop-for-investors/articleshow/134958368.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-15T06:05:36.000Z"
+    },
+    {
       "title": "Layoffs are ‘normal in SaaS’: Sridhar Vembu says there’s a lot of pressure on the cost side",
       "summary": "Sridhar Vembu said when AI productivity enables smaller teams, employees are retrained to be deployed on new products or to help customers better.",
       "url": "https://www.businesstoday.in/latest/corporate/story/layoffs-are-normal-in-saas-sridhar-vembu-says-theres-a-lot-of-pressure-on-the-cost-side-561720-2026-10-15?utm_source=rssfeed",
@@ -66,7 +210,7 @@
     },
     {
       "title": "Why are BSE Sensex, Nifty50 rallying today? Top reasons for rise",
-      "summary": "Stock market rally today: Buying in IT, banking and consumer stocks lifted the stock market sentiment. At 10:36 AM, Nifty50 was trading at 22,915.15, up 292 points or 1.29%. BSE Sensex was at 73,777.19, up 995 points or 1.37%.",
+      "summary": "Stock market rally today: Buying in IT, banking and consumer stocks lifted the stock market sentiment. BSE Sensex ended the day at 74,315.61, up 1,534 points or 2.11%. Nifty50 closed at 22,997.35, up 375 points or 1.66%.",
       "url": "https://timesofindia.indiatimes.com/business/india-business/stock-market-rally-today-bse-sensex-nifty50-soar-on-october-15-2026-top-reasons-for-rise-oil-prices-it-stocks-rupee/articleshow/134957892.cms",
       "source": "Times of India Business",
       "category": "markets",
@@ -193,70 +337,6 @@
       "publishedAt": "2026-10-14T20:18:58.000Z"
     },
     {
-      "title": "IDBI sale to increase value, new management to get free hand",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/idbi-sale-to-increase-value-new-management-to-get-free-hand/articleshow/134951170.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-14T20:18:38.000Z"
-    },
-    {
-      "title": "Wholesale inflation touches 30-month high",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/wholesale-inflation-touches-30-month-high/articleshow/134951140.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-14T20:13:13.000Z"
-    },
-    {
-      "title": "Currency depreciation key headwind for foreign investors: Blackstone's Gray",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/currency-depreciation-key-headwind-for-foreign-investors-blackstones-gray/articleshow/134951105.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-14T20:06:27.000Z"
-    },
-    {
-      "title": "US stocks fall as inflation accelerates; S&P 500 drops 1.1%, Nasdaq slides 1.6%",
-      "summary": "Wall Street faced a noticeable dip in stock prices following a surprise rise in inflation data, which has raised concerns over borrowing costs. As Treasury yields soared, investors pondered the shifting allure between equities and bonds.",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/us-stocks-fall-as-inflation-accelerates-sp-500-drops-1-1-nasdaq-slides-1-6/articleshow/134948536.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-14T17:55:06.000Z"
-    },
-    {
-      "title": "‘Not benefiting anyone’: Traders urge Rahul to rethink SIR protests amid festive season, cite business losses",
-      "summary": "Traders' groups are appealing to Rahul Gandhi to rethink the current protests affecting business as the festive season approaches. They express concerns over road blockades, which are deterring shoppers and complicating delivery schedules, particularly for small vendors.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/not-benefiting-anyone-traders-urge-rahul-to-rethink-sir-protests-amid-festive-season-cite-business-losses/articleshow/134947754.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-14T17:40:22.000Z"
-    },
-    {
-      "title": "Taxman denied exemption on 3 floors after Rs 75 lakh builder deal; ITAT grants relief",
-      "summary": "A man inherited 400 square yards of leasehold land from his late mother in 1997. Towards the end of 1999, he entered into an agreement with a developer to demolish the existing house and construct a new building.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/he-inherited-land-from-mother-redeveloped-home-received-rs-75-lakh-from-builder-taxman-denied-capital-gains-exemption-but-itat-delhi-gives-relief-ruling-multiple-floors-can-qualify-as-one-house/articleshow/134921631.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-14T16:36:47.000Z"
-    },
-    {
-      "title": "India remains top Russian crude buyer in September despite 29% fall in imports since July",
-      "summary": "India has remained the largest destination for Russian crude oil, although imports decreased significantly from peak levels. In September, India imported around 1.82 million barrels per day, while competition from China intensified.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/india-remains-top-russian-crude-buyer-in-september-despite-29-fall-in-imports-since-july/articleshow/134946354.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-14T16:16:34.000Z"
-    },
-    {
-      "title": "India's WPI inflation surges to 11.39% in September on higher food, fuel prices",
-      "summary": "India's wholesale price index-based inflation surged to 11.39% in September due to higher food, manufactured items, and energy prices. Wholesale inflation has risen significantly amidst global commodity inflation linked to the ongoing West Asia conflict.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/indias-wpi-inflation-surges-to-record-high-of-11-39-in-september-on-higher-food-fuel-prices/articleshow/134945901.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-14T15:32:00.000Z"
-    },
-    {
       "title": "Anil Ambani's Reliance Power faces fresh ED action, Rs 2,032 crore assets seized",
       "summary": "These assets are equivalent in value to the foreign exchange held outside India in contravention of Section 4 of FEMA, says ED",
       "url": "https://www.businesstoday.in/latest/corporate/story/anil-ambanis-reliance-power-faces-fresh-ed-action-rs-2032-crore-assets-seized-561659-2026-10-14?utm_source=rssfeed",
@@ -265,36 +345,12 @@
       "publishedAt": "2026-10-14T14:41:00.000Z"
     },
     {
-      "title": "Fairfax to buy IDBI stake: CCEA clears Rs 53,000 crore deal; all you need to know",
-      "summary": "The Cabinet Committee on Economic Affairs (CCEA) has approved M/s 10955230 Canada Inc, a subsidiary of Fairfax, as the strategic buyer for the combined stakes held by the government and Life Insurance Corporation of India (LIC).",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/canadas-fairfax-to-buy-60-2-stake-in-idbi-bank-for-rs-53000-crore-largest-fdi-in-an-indian-bank/articleshow/134944820.cms",
-      "source": "Times of India Business",
-      "category": "insurance",
-      "publishedAt": "2026-10-14T14:16:54.000Z"
-    },
-    {
-      "title": "US inflation accelerates to 3.7% in September as gasoline prices surge",
-      "summary": "September's inflation report shows a notable rise in US consumer prices, hitting 3.7%. This surge can be traced back to escalating gasoline costs and strong core inflation signals.",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/us-inflation-accelerates-to-3-7-in-september-as-gasoline-prices-surge/articleshow/134944527.cms",
-      "source": "Times of India Business",
-      "category": "regulatory",
-      "publishedAt": "2026-10-14T14:07:00.000Z"
-    },
-    {
       "title": "Kumar Mangalam Birla plans up to $30 billion investment despite global uncertainties",
       "summary": "The Aditya Birla Group plans to deploy capital across its businesses in India and overseas over the next two to three years, while taking a more gradual approach to artificial intelligence investments.",
       "url": "https://www.businesstoday.in/latest/corporate/story/kumar-mangalam-birla-plans-up-to-30-billion-investment-despite-global-uncertainties-561646-2026-10-14?utm_source=rssfeed",
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-10-14T13:56:56.000Z"
-    },
-    {
-      "title": "What does RBI's new Consolidated Account Statement measure benefit you? Explained",
-      "summary": "RBI’s new CAS move: Announced on October 7, 2026, the measures will allow SEBI-regulated depositories to include information related to deposit accounts in CAS. RBI Governor Sanjay Malhotra said the measures would be implemented by December 31, 2026.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/rbis-new-cas-move-explained-track-fds-in-multiple-banks-shares-mfs-in-one-place-and-why-it-matters/articleshow/134939369.cms",
-      "source": "Times of India Business",
-      "category": "regulatory",
-      "publishedAt": "2026-10-14T13:25:12.000Z"
     },
     {
       "title": "Reliance enters ready-to-drink dairy market with Joyland flavoured milk at Rs 20",
@@ -319,62 +375,6 @@
       "source": "Business Today",
       "category": "regulatory",
       "publishedAt": "2026-10-14T12:41:42.000Z"
-    },
-    {
-      "title": "IDBI Bank stake sale is the largest FDI deal till date; Centre, LIC to continue to remain invested",
-      "summary": "Fairfax Financial Holdings to merge or exit CSB in two years of share purchase agreement, continue with brand for at least three years",
-      "url": "https://www.businesstoday.in/latest/corporate/story/idbi-bank-stake-sale-is-the-largest-fdi-deal-till-date-centre-lic-to-continue-to-remain-invested-561621-2026-10-14?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "insurance",
-      "publishedAt": "2026-10-14T12:01:54.000Z"
-    },
-    {
-      "title": "IDBI Bank's bad-loan legacy: Kingfisher, ABG Shipyard exposures highlight lending risks",
-      "summary": "IDBI Bank’s exposure to troubled borrowers such as Kingfisher Airlines, ABG Shipyard and Videocon Group highlighted the risks associated with corporate lending and loan recovery.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/idbi-banks-bad-loan-legacy-kingfisher-abg-shipyard-exposures-highlight-lending-risks-561618-2026-10-14?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-14T11:55:05.000Z"
-    },
-    {
-      "title": "IDBI Bank sale: What changes for depositors, borrowers and shareholders?",
-      "summary": "The IDBI Bank stake sale to Fairfax Financial’s parent entity marks a major shift in the lender’s ownership, with the government and LIC set to divest a combined 60.72% stake.",
-      "url": "https://www.businesstoday.in/markets/story/idbi-bank-sale-what-changes-for-depositors-borrowers-and-shareholders-561611-2026-10-14?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "insurance",
-      "publishedAt": "2026-10-14T11:29:17.000Z"
-    },
-    {
-      "title": "Planning a smart home upgrade? Amazon's festive sale has 8 deals you should check",
-      "summary": "Amazon Great Indian Festival sale brings discounts on Echo Studio, Echo Show, Echo Dot and Fire TV Stick. Explore 8 smart home deals, prices, features and savings of up to ₹6,000.",
-      "url": "https://www.businesstoday.in/latest/photo/planning-a-smart-home-upgrade-amazons-festive-sale-has-8-deals-you-should-check-561591-2026-10-14?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-14T11:14:06.000Z"
-    },
-    {
-      "title": "Centre approves Fairfax Financial’s ₹52,878 crore bid for 60.72% stake in IDBI Bank",
-      "summary": "The transaction involves the sale of a 30.48% stake held by the Government of India and a 30.24% stake held by Life Insurance Corporation of India (LIC). Following the transaction, the government will retain a 15% stake in the bank, while LIC will continue to hold 19%.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/centre-approves-fairfax-financials-rs52878-crore-bid-for-60-72-stake-in-idbi-bank-561590-2026-10-14?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "insurance",
-      "publishedAt": "2026-10-14T10:51:47.000Z"
-    },
-    {
-      "title": "Diwali bonanza for railway staff: 78-day bonus cleared for 11.4 lakh employees",
-      "summary": "The Union Cabinet has approved a Productivity Linked Bonus for railway employees worth Rs 2,009.61 crore. It will benefit approximately 11.41 lakh eligible railway staff members across various categories. The maximum bonus that each eligible employee can receive is Rs 17,951.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/78-day-bonus-for-railway-staff-cabinet-clears-rs-2010-crore-payout-for-11-4-lakh-employees/articleshow/134939533.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-14T10:45:04.000Z"
-    },
-    {
-      "title": "India’s treasury bill yields hit four-year high premium over repo rate amid rate hike bets",
-      "summary": "India’s short-term government borrowing costs have surged to their highest levels in 18 months, with treasury bill yields widening their premium over the repo rate to a four-year high.",
-      "url": "https://www.businesstoday.in/latest/economy/story/indias-treasury-bill-yields-hit-four-year-high-premium-over-repo-rate-amid-rate-hike-bets-561583-2026-10-14?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "regulatory",
-      "publishedAt": "2026-10-14T10:43:29.000Z"
     }
   ]
 }
