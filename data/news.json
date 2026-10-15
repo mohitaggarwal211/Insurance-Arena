@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-15T05:37:35.697Z",
+  "lastUpdated": "2026-10-15T05:59:48.920Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,14 @@
     }
   ],
   "articles": [
+    {
+      "title": "Layoffs are ‘normal in SaaS’: Sridhar Vembu says there’s a lot of pressure on the cost side",
+      "summary": "Sridhar Vembu said when AI productivity enables smaller teams, employees are retrained to be deployed on new products or to help customers better.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/layoffs-are-normal-in-saas-sridhar-vembu-says-theres-a-lot-of-pressure-on-the-cost-side-561720-2026-10-15?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-15T05:24:52.000Z"
+    },
     {
       "title": "Why are BSE Sensex, Nifty50 rallying today? Top reasons for rise",
       "summary": "Stock market rally today: Buying in IT, banking and consumer stocks lifted the stock market sentiment. At 10:36 AM, Nifty50 was trading at 22,915.15, up 292 points or 1.29%. BSE Sensex was at 73,777.19, up 995 points or 1.37%.",
@@ -367,14 +375,6 @@
       "source": "Business Today",
       "category": "regulatory",
       "publishedAt": "2026-10-14T10:43:29.000Z"
-    },
-    {
-      "title": "No more standard blankets in Rajdhani First AC: Indian Railways brings a major change",
-      "summary": "Indian Railways replaces standard blankets with premium floral comforters in Howrah-New Delhi Rajdhani First AC. Here's what passengers should know about hygiene.",
-      "url": "https://www.businesstoday.in/latest/photo/no-more-standard-blankets-in-rajdhani-first-ac-indian-railways-brings-a-major-change-561582-2026-10-14?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "insurance",
-      "publishedAt": "2026-10-14T10:41:30.000Z"
     }
   ]
 }
