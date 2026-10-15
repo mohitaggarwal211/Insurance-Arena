@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-15T12:29:50.551Z",
+  "lastUpdated": "2026-10-15T15:11:02.586Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,78 @@
     }
   ],
   "articles": [
+    {
+      "title": "Jio IPO: ₹27,500 crore debt repayment, rising ARPU and 5G growth in focus",
+      "summary": "Jio Platforms’ proposed ₹30,000 crore IPO will primarily fund debt repayment, with ₹27,500 crore earmarked for the purpose. Rising average revenue per user (ARPU), expanding 5G adoption and broadband growth are expected to support the company’s future earnings.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/jio-ipo-rs27500-crore-debt-repayment-rising-arpu-and-5g-growth-in-focus-561857-2026-10-15?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-15T14:14:21.000Z"
+    },
+    {
+      "title": "'The question was when, not if': Sunil Mittal recalls 3 'Mahabharatas' that nearly sank Bharti Airtel",
+      "summary": "The Bharti Enterprises founder said the business saw three 'near-death' crises, recalling how keeping teams inspired was critical as he traced his journey from forging bicycle crankshafts in Ludhiana to becoming a mobile telecom",
+      "url": "https://www.businesstoday.in/latest/corporate/story/the-question-was-when-not-if-sunil-mittal-recalls-3-mahabharatas-that-nearly-sank-bharti-airtel-561919-2026-10-15?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-15T13:55:22.000Z"
+    },
+    {
+      "title": "India’s share of global metals revenue to rise to 12% by 2035 as China’s declines: McKinsey",
+      "summary": "India’s growing importance comes as the global materials industry faces changing demand patterns, geopolitical uncertainty and pressure to secure supply chains",
+      "url": "https://www.businesstoday.in/latest/economy/story/indias-share-of-global-metals-revenue-to-rise-to-12-by-2035-as-chinas-declines-mckinsey-561913-2026-10-15?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-15T13:53:26.000Z"
+    },
+    {
+      "title": "Supreme Court overturns Yes Bank’s ₹8,400 crore bond write-off, raising liability risks: Report",
+      "summary": "The Supreme Court’s decision to overturn Yes Bank’s 2020 bond write-off has put the spotlight on the legal framework governing bank rescues and investor protection.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/supreme-court-overturns-yes-banks-rs8400-crore-bond-write-off-raising-liability-risks-report-561907-2026-10-15?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-15T13:17:29.000Z"
+    },
+    {
+      "title": "India's trade with West Asia returns to near-normal levels",
+      "summary": "Goods exports may cross $500 billion this fiscal; gold and silver imports fall sharply",
+      "url": "https://www.businesstoday.in/latest/economy/story/indias-trade-with-west-asia-returns-to-near-normal-levels-561904-2026-10-15?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-15T13:13:05.000Z"
+    },
+    {
+      "title": "RBI’s Account Aggregator interoperability reform: How it could ease digital lending, improve data sharing",
+      "summary": "The RBI's recent measure is expected to address fragmentation in India’s Account Aggregator ecosystem, where customers have often had to register with multiple platforms to share financial information held across institutions.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/rbis-account-aggregator-interoperability-reform-how-it-could-ease-digital-lending-improve-data-sharing-561830-2026-10-15?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "regulatory",
+      "publishedAt": "2026-10-15T12:45:30.000Z"
+    },
+    {
+      "title": "Yami Gautam visits Ayodhya Ram Temple before Nayyi Navelli release, yellow saree grabs attention",
+      "summary": "Yami Gautam visits Ayodhya's Ram Temple ahead of Nayyi Navelli's October 16 release. Her yellow saree, Sarayu Ghat aarti and prayerful moments draw attention ahead of Diwali.",
+      "url": "https://www.businesstoday.in/latest/photo/yami-gautam-visits-ayodhya-ram-temple-before-nayyi-navelli-release-yellow-saree-grabs-attention-561891-2026-10-15?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-15T12:42:57.000Z"
+    },
+    {
+      "title": "India-US trade deal nearing finish line, but tariff clarity remains key",
+      "summary": "Piyush Goyal says first tranche finalised and under legal drafting; India seeks competitive tariff advantage before operationalisation",
+      "url": "https://www.businesstoday.in/latest/economy/story/india-us-trade-deal-nearing-finish-line-but-tariff-clarity-remains-key-561880-2026-10-15?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-15T12:23:49.000Z"
+    },
+    {
+      "title": "Global oil reserves under pressure as Hormuz crisis raises fears of another supply shock",
+      "summary": "The Strait of Hormuz disruption has put global energy security under pressure, with emergency oil reserves being drawn down and alternative supply routes facing risks. The key question is whether major economies can rebuild their reserves before another supply shock hits.",
+      "url": "https://www.businesstoday.in/world/story/global-oil-reserves-under-pressure-as-hormuz-crisis-raises-fears-of-another-supply-shock-561870-2026-10-15?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-15T12:06:53.000Z"
+    },
     {
       "title": "Rs 1 crore-plus salaries: Amid layoffs, which Indian IT jobs are getting huge salary premiums?",
       "summary": "Even as restructuring and layoffs happen, some jobs in the IT sector are getting paid well - and across levels whether entry or senior.",
@@ -273,38 +345,6 @@
       "publishedAt": "2026-10-15T02:00:05.000Z"
     },
     {
-      "title": "Orionid meteor shower peaks on October 21–22: How Indian families can plan a skywatching night without a telescope",
-      "summary": "The Orionid meteor shower peaks on October 21–22, but moonlight will affect the view. Use this guide to plan a dark-sky outing, check local conditions and set realistic expectations.",
-      "url": "https://www.businesstoday.in/science/photo/orionid-meteor-shower-peaks-on-october-21-22-how-indian-families-can-plan-a-skywatching-night-without-a-telescope-561632-2026-10-15?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-15T02:00:05.000Z"
-    },
-    {
-      "title": "994 km in 13 hours: Delhi-Patna Vande Bharat's ticket prices may surprise passengers",
-      "summary": "Delhi-Patna Vande Bharat Festival Special starts October 16, covering 994 km in 13 hours. Check train timings, routes, travel dates and expected ticket fares starting at ₹2,575.",
-      "url": "https://www.businesstoday.in/latest/photo/994-km-in-13-hours-delhi-patna-vande-bharats-ticket-prices-may-surprise-passengers-561577-2026-10-15?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-15T01:00:07.000Z"
-    },
-    {
-      "title": "₹73.55 lakh Jeep SUV sold out in India: What made all 25 units disappear?",
-      "summary": "Jeep Wrangler Rubicon Whitecap Edition priced at ₹73.55 lakh sells out in India, with all 25 units booked. Explore its exclusive design, 4x4 features, engine power and specifications.",
-      "url": "https://www.businesstoday.in/latest/photo/rs73-55-lakh-jeep-suv-sold-out-in-india-what-made-all-25-units-disappear-561594-2026-10-15?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-15T00:45:03.000Z"
-    },
-    {
-      "title": "₹89,999 electric scooter promises 130 km range: What makes e-Sprinto G1 different?",
-      "summary": "e-Sprinto G1 electric scooter launched in India at Rs 89,999. Check prices of all three variants, claimed range of up to 130 km, top speed, riding modes and smart features.",
-      "url": "https://www.businesstoday.in/latest/photo/rs89999-electric-scooter-promises-130-km-range-what-makes-e-sprinto-g1-different-561576-2026-10-15?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-15T00:30:08.000Z"
-    },
-    {
       "title": "Watsa's Prem-ium play in finance sector",
       "summary": "",
       "url": "https://timesofindia.indiatimes.com/business/india-business/watsas-prem-ium-play-in-finance-sector/articleshow/134951245.cms",
@@ -335,46 +375,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-10-14T20:18:58.000Z"
-    },
-    {
-      "title": "Anil Ambani's Reliance Power faces fresh ED action, Rs 2,032 crore assets seized",
-      "summary": "These assets are equivalent in value to the foreign exchange held outside India in contravention of Section 4 of FEMA, says ED",
-      "url": "https://www.businesstoday.in/latest/corporate/story/anil-ambanis-reliance-power-faces-fresh-ed-action-rs-2032-crore-assets-seized-561659-2026-10-14?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-14T14:41:00.000Z"
-    },
-    {
-      "title": "Kumar Mangalam Birla plans up to $30 billion investment despite global uncertainties",
-      "summary": "The Aditya Birla Group plans to deploy capital across its businesses in India and overseas over the next two to three years, while taking a more gradual approach to artificial intelligence investments.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/kumar-mangalam-birla-plans-up-to-30-billion-investment-despite-global-uncertainties-561646-2026-10-14?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-14T13:56:56.000Z"
-    },
-    {
-      "title": "Reliance enters ready-to-drink dairy market with Joyland flavoured milk at Rs 20",
-      "summary": "Joyland is made with dairy ingredients and is being introduced as a convenient, ready-to-drink beverage",
-      "url": "https://www.businesstoday.in/latest/corporate/story/reliance-enters-ready-to-drink-dairy-market-with-joyland-flavoured-milk-at-rs-20-561642-2026-10-14?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-14T13:21:25.000Z"
-    },
-    {
-      "title": "Centre's reform express gathers pace, IDBI sale nears finish line",
-      "summary": "Two major announcements in a week; ₹26,000-crore IDBI Bank deal set to swell the government’s disinvestment kitty",
-      "url": "https://www.businesstoday.in/latest/economy/story/centres-reform-express-gathers-pace-idbi-sale-nears-finish-line-561634-2026-10-14?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-14T12:44:51.000Z"
-    },
-    {
-      "title": "ED raids Delhi premises of industrialist Vikas Garg in money laundering probe",
-      "summary": "The Securities and Exchange Board of India (SEBI) is conducting a parallel probe into share price irregularities involving Garg’s firms.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/ed-raids-delhi-premises-of-industrialist-vikas-garg-in-money-laundering-probe-501916-2026-10-14?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "regulatory",
-      "publishedAt": "2026-10-14T12:41:42.000Z"
     }
   ]
 }
