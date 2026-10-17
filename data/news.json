@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T16:09:57.407Z",
+  "lastUpdated": "2026-10-17T21:17:57.709Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,30 @@
     }
   ],
   "articles": [
+    {
+      "title": "China, US and India account for half of global emissions. Check top 10 countries",
+      "summary": "The European Commission's EDGAR 2026 report estimated that worldwide greenhouse gas emissions reached 54.1 billion tonnes of CO₂e in 2025, marking a 0.7% increase from 2024.",
+      "url": "https://www.businesstoday.in/latest/world/story/china-us-and-india-account-for-half-of-global-emissions-check-top-10-countries-562271-2026-10-18?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-17T20:30:06.000Z"
+    },
+    {
+      "title": "Russia sanctions waiver buys time for India but offers no lasting certainty: GTRI",
+      "summary": "US President Donald Trump waived tariffs on major buyers of Russian oil, providing temporary relief to India. While the immediate threat of trade penalties has eased, concerns over future tariffs remain.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/russia-sanctions-waiver-buys-time-for-india-but-offers-no-lasting-certainty-gtri/articleshow/135017208.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-17T16:57:28.000Z"
+    },
+    {
+      "title": "Yes Bank examining in detail Supreme Court verdict on AT1 bonds: CEO",
+      "summary": "The private lender said it had not considered the Supreme Court ruling on additional tier-I (AT-I) bonds amounting to Rs 8,415 crore in its quarterly results, for now.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/yes-bank-examining-in-detail-supreme-court-verdict-on-at1-bonds-ceo-562273-2026-10-17?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-17T16:15:24.000Z"
+    },
     {
       "title": "The Indian growth story: Why the post-pandemic boom is different",
       "summary": "India’s economy contracted by 5.8% in 2020 during the pandemic before rebounding with growth of 9.7% in 2021. It then expanded by more than 7% in each of the following four years. If current forecasts hold, India could surpass that record.",
@@ -351,30 +375,6 @@
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-10-16T15:40:40.000Z"
-    },
-    {
-      "title": "Middle east war hits Indian fuel retailers: OMCs losing up to Rs 30 per litre, says report",
-      "summary": "Indian oil marketing firms are grappling with significant losses, facing Rs 26 loss per litre for petrol and Rs 30 for diesel. The turmoil in West Asia has led to skyrocketing procurement and freight costs, rising eightfold, which heavily influences overall expenditures.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/middle-east-war-hits-indian-fuel-retailers-omcs-losing-up-to-rs-30-per-litre-says-report/articleshow/134997902.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-16T15:05:25.000Z"
-    },
-    {
-      "title": "Copper supply could peak before demand: Why a 30% shortfall is hard to fix",
-      "summary": "Global copper supply could struggle to keep pace with rising demand from AI data centres, power grids and electric vehicles, with projections pointing to a potential 30% shortfall by 2035.",
-      "url": "https://www.businesstoday.in/technology/artificial-intelligence/story/copper-supply-could-peak-before-demand-why-a-30-shortfall-is-hard-to-fix-562184-2026-10-16?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-16T14:59:49.000Z"
-    },
-    {
-      "title": "India's $100 billion China trade deficit: Are non-tariff barriers blocking Indian exports?",
-      "summary": "Speaking at an interaction in Bangkok, Sitharaman said China's restrictions were preventing Indian products from realising their potential in one of the world's largest markets.",
-      "url": "https://www.businesstoday.in/latest/economy/story/indias-100-billion-china-trade-deficit-are-non-tariff-barriers-blocking-indian-exports-562197-2026-10-16?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-16T14:58:46.000Z"
     }
   ]
 }
