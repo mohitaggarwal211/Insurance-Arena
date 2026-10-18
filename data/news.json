@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T06:07:19.468Z",
+  "lastUpdated": "2026-10-18T11:57:38.517Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,78 @@
     }
   ],
   "articles": [
+    {
+      "title": "'A boon for people like me': LLB student turns Blinkit delivery partner, shares first-day earnings",
+      "summary": "A law student took up a part-time gig at Blinkit and completed 19 deliveries on his first day",
+      "url": "https://www.businesstoday.in/latest/trends/story/a-boon-for-people-like-me-llb-student-turns-blinkit-delivery-partner-shares-first-day-earnings-562305-2026-10-18?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-18T10:35:07.000Z"
+    },
+    {
+      "title": "FMCG firms feel the pinch: Will your favourite products cost more this Diwali?",
+      "summary": "FMCG companies face a challenging landscape as they contend with surging costs for essential raw materials like palm oil and sugar. The pressure on operating margins is significant and unlikely to alleviate soon.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/fmcg-firms-feel-the-pinch-will-your-favourite-products-cost-more-this-diwali/articleshow/135027201.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-18T10:31:11.000Z"
+    },
+    {
+      "title": "India's GDP per capita catching up with richer nations, growth worth celebrating: Korean economist",
+      "summary": "The economist pointed to India's rising per capita income and a sharp decline in poverty to argue that the country's economic transformation over the past three decades, particularly the last 10 years, deserves greater attention",
+      "url": "https://www.businesstoday.in/latest/economy/story/indias-gdp-per-capita-catching-up-with-richer-nations-growth-worth-celebrating-korean-economist-562301-2026-10-18?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-18T09:30:16.000Z"
+    },
+    {
+      "title": "Sugar-free ethanol? Oil companies change recipe, here's what's next",
+      "summary": "The government's recent decision to exclude sugar-based raw materials from its ethanol procurement process marks a strategic shift aimed at boosting domestic sugar availability.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/oil-firms-drop-sugar-based-ethanol-from-2026-27-tender-cut-maize-price/articleshow/135026502.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-18T09:18:10.000Z"
+    },
+    {
+      "title": "Stock market outlook: Geopolitical cues, earnings, FIIs to keep Dalal Street busy",
+      "summary": "This week, Indian stock markets will likely be influenced by the quarterly earnings reports from key banks including HDFC Bank, ICICI Bank, and Axis Bank, showcasing different profit trends that are capturing investor interest.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/stock-market-outlook-geopolitical-cues-earnings-foreign-inflows-more-to-keep-dalal-street-busy/articleshow/135025850.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-18T08:36:15.000Z"
+    },
+    {
+      "title": "FPIs hit the sell button again: Rs 3.12 lakh crore exits Indian equities in 2026",
+      "summary": "In October, foreign investors pulled out Rs 52,100 crore from Indian equity markets, contributing to overall outflows this year. Escalating crude oil prices and elevated US bond yields have swayed this selling behavior.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/fpis-hit-the-sell-button-again-rs-3-12-lakh-crore-exits-indian-equities-in-2026/articleshow/135025596.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-18T07:53:07.000Z"
+    },
+    {
+      "title": "Market recap: Top-10 firms add Rs 3.65 lakh crore in mcap; TCS leads the gains",
+      "summary": "This past week witnessed a remarkable surge in the stock market, with India's top-10 firms enjoying a collective increase of Rs 3.65 lakh crore. TCS emerged as the star performer, enhancing its market capitalisation by Rs 1,08,542.63 crore.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/market-recap-top-10-firms-add-rs-3-65-lakh-crore-in-mcap-tcs-leads-the-gains/articleshow/135025500.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-18T07:25:29.000Z"
+    },
+    {
+      "title": "Noel Tata evokes founding principles to guide Tata Trusts' new strategic shift",
+      "summary": "Asserting that measuring philanthropy strictly by people reached or money spent is no longer enough, Noel Tata emphasized that the Trusts must be judged on what changes as a result of their work.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/noel-tata-evokes-founding-principles-to-guide-tata-trusts-new-strategic-shift-562294-2026-10-18?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-18T07:11:23.000Z"
+    },
+    {
+      "title": "Refined in India, bound for West: Russian-crude fuel exports to Europe rise 43%",
+      "summary": "Indian refineries exported Russian crude oil products to Western markets, generating significant revenue in September. The European Union, Australia, the US, and New Zealand imported these refined products, despite existing sanctions.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/refined-in-india-bound-for-west-russian-crude-fuel-exports-to-europe-rise-43/articleshow/135024570.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-18T06:45:42.000Z"
+    },
     {
       "title": "'India an important ally': Rubio explains why Trump paused sanctions on Russia oil buyers",
       "summary": "The US government has opted to lift specific sanctions concerning the import of Russian oil and gas. This includes a review period of 60 days to evaluate the economic effects on key importers such as India and China.",
@@ -273,30 +345,6 @@
       "publishedAt": "2026-10-17T02:44:06.000Z"
     },
     {
-      "title": "Trillion dollar gap: US budget deficit swells to nearly $2 tn in fiscal 2026",
-      "summary": "In fiscal 2026, the United States government faced a substantial budget shortfall of $2 trillion, largely attributed to soaring expenditures. Key factors included rising debt-service costs, increased social benefits, and heightened defense spending.",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/trillion-dollar-gap-us-budget-deficit-swells-to-nearly-2-tn-in-fiscal-2026/articleshow/135006143.cms",
-      "source": "Times of India Business",
-      "category": "regulatory",
-      "publishedAt": "2026-10-17T02:40:31.000Z"
-    },
-    {
-      "title": "Stellantis to invest Rs 4k crore, plans 12 Jeep, Citroën models",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/stellantis-to-invest-rs-4k-crore-plans-12-jeep-citron-models/articleshow/135006110.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-17T02:18:12.000Z"
-    },
-    {
-      "title": "Tech stocks power sensex to best week in 6 months",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/tech-stocks-power-sensex-to-best-week-in-6-months/articleshow/135005989.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-17T02:01:56.000Z"
-    },
-    {
       "title": "Quote of the Day by Mukesh Ambani: 'Everybody has equal opportunity, and I think that is true for everything'",
       "summary": "Under his leadership, RIL has grown into India’s largest private-sector conglomerate, with interests spanning energy, petrochemicals, retail and telecommunications.",
       "url": "https://www.businesstoday.in/latest/trends/story/quote-of-the-day-by-mukesh-ambani-everybody-has-equal-opportunity-and-i-think-that-is-true-for-everything-562201-2026-10-17?utm_source=rssfeed",
@@ -305,28 +353,12 @@
       "publishedAt": "2026-10-17T02:00:05.000Z"
     },
     {
-      "title": "Trade imbalance with China growing due to barriers: FM Sitharaman",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/trade-imbalance-with-china-growing-due-to-barriers-fm-sitharaman/articleshow/135005927.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-17T01:52:22.000Z"
-    },
-    {
       "title": "Gold vs government bonds: Why investors are diversifying away from sovereign debt",
       "summary": "Rising government debt and concerns about fiscal stability are prompting some investors to consider gold as an alternative to sovereign bonds.",
       "url": "https://www.businesstoday.in/latest/economy/story/gold-vs-government-bonds-why-investors-are-diversifying-away-from-sovereign-debt-562209-2026-10-17?utm_source=rssfeed",
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-10-17T01:31:29.000Z"
-    },
-    {
-      "title": "Trump waives Russia sanctions, restrictions and duties under Graham Act",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/trump-waives-russia-sanctions-restrictions-and-duties-under-graham-act-diesel-us-midterms/articleshow/135005808.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-17T01:25:11.000Z"
     },
     {
       "title": "Emirates NBD’s Indian branches to merge with RBL Bank from December 1",
@@ -343,38 +375,6 @@
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-10-17T01:00:04.000Z"
-    },
-    {
-      "title": "One car, two identities: Fiat unveils SUV that can turn into a pickup truck",
-      "summary": "Fiat unveils the Multiplay Concept at the 2026 Paris Motor Show, featuring an SUV that transforms into a pickup truck, sliding rear module, flexible seating and futuristic cabin design.",
-      "url": "https://www.businesstoday.in/latest/photo/one-car-two-identities-fiat-unveils-suv-that-can-turn-into-a-pickup-truck-562141-2026-10-17?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-17T00:45:03.000Z"
-    },
-    {
-      "title": "Driving in Delhi after 7 pm? Traffic Police warn of delays on these key roads till Oct 20",
-      "summary": "Delhi Traffic Police warn of congestion from 7 pm to 11 pm till October 20 due to Ramlila and Durga Puja. Check affected roads near Akshardham, Mayur Vihar, Shahdara and other areas.",
-      "url": "https://www.businesstoday.in/latest/photo/driving-in-delhi-after-7-pm-traffic-police-warn-of-delays-on-these-key-roads-till-oct-20-562144-2026-10-17?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-17T00:30:35.000Z"
-    },
-    {
-      "title": "Reliance Industries to Elon Musk: Competition welcome, but follow rules",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/reliance-industries-to-elon-musk-competition-welcome-but-follow-rules/articleshow/135005369.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-16T23:21:41.000Z"
-    },
-    {
-      "title": "SBI Research urges tax clarity on G-Secs, ECB rules to deepen domestic borrowing markets",
-      "summary": "In its Ecowrap report dated October 15, SBI Research said the rupee could remain in appreciating territory, but global financial turbulence and continuing capital-account deficits leave little room for complacency.",
-      "url": "https://www.businesstoday.in/personal-finance/story/sbi-research-urges-tax-clarity-on-g-secs-ecb-rules-to-deepen-domestic-borrowing-markets-562074-2026-10-17?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-16T23:05:03.000Z"
     }
   ]
 }
