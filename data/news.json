@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T16:23:32.706Z",
+  "lastUpdated": "2026-10-18T21:18:40.591Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,22 @@
     }
   ],
   "articles": [
+    {
+      "title": "US says Europe refused to join push for tariffs on India, China over Russian oil",
+      "summary": "Scott Bessent has criticized European nations for refusing to impose tariffs on India and China, which purchase Russian oil. He highlighted that the US has approached its allies to coordinate actions against energy purchases from Russia.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/us-says-europe-refused-to-join-push-for-tariffs-on-india-china-over-russian-oil/articleshow/135033241.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-18T17:51:02.000Z"
+    },
+    {
+      "title": "Bessent's big reveal: 'I asked Europe to impose secondary tariffs on India, but they refused'",
+      "summary": "Bessent said he had personally approached European allies earlier this year to seek coordinated economic pressure on countries buying Russian energy",
+      "url": "https://www.businesstoday.in/latest/economy/story/scott-bessents-big-reveal-i-asked-europe-to-impose-secondary-tariffs-on-india-but-they-refused-562319-2026-10-18?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-18T16:45:55.000Z"
+    },
     {
       "title": "India’s crude import bill surges 46% in Sept as oil prices soar",
       "summary": "",
@@ -321,14 +337,6 @@
       "publishedAt": "2026-10-17T05:25:36.000Z"
     },
     {
-      "title": "'Ready to connect India with high-speed internet': Starlink reacts to Reliance's message",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/ready-to-connect-india-with-high-speed-internet-starlink-reacts-to-reliances-message/articleshow/135007217.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-17T04:38:47.000Z"
-    },
-    {
       "title": "Aadhaar, UPI put India among World’s Top 10 reform success stories: CareEdge report",
       "summary": "Aadhaar system covers more than 1.3 billion people, representing approximately 95% of the population. Meanwhile, UPI processes more than 13 billion transactions every month, underscoring the scale of the country's digital payments ecosystem.",
       "url": "https://www.businesstoday.in/latest/economy/story/aadhaar-upi-put-india-among-worlds-top-10-reform-success-stories-careedge-report-562220-2026-10-17?utm_source=rssfeed",
@@ -367,14 +375,6 @@
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-10-17T01:21:12.000Z"
-    },
-    {
-      "title": "₹78 lakh on his wrist! Ranbir Kapoor's Ramayana watch hides a special connection",
-      "summary": "Ranbir Kapoor wore a ₹78 lakh Jacob & Co. Ram Janmabhoomi watch at the Ramayana event in Bengaluru. Discover its Ayodhya Ram Mandir engravings, rose gold design and special features.",
-      "url": "https://www.businesstoday.in/latest/photo/rs78-lakh-on-his-wrist-ranbir-kapoors-ramayana-watch-hides-a-special-connection-562127-2026-10-17?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-17T01:00:04.000Z"
     }
   ]
 }
