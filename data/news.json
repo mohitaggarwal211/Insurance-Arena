@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-19T17:03:59.805Z",
-  "articlesCount": 39,
+  "lastUpdated": "2026-10-19T22:49:04.281Z",
+  "articlesCount": 38,
   "sourcesOk": 5,
   "sourcesTotal": 9,
   "sourceStatus": [
@@ -13,7 +13,7 @@
     {
       "source": "Business Today",
       "status": "ok",
-      "articles": 19,
+      "articles": 18,
       "feedUsed": "https://www.businesstoday.in/rssfeeds/?id=225346"
     },
     {
@@ -56,6 +56,14 @@
     }
   ],
   "articles": [
+    {
+      "title": "Trade margins on 137 cancer drugs capped, but will bills get lower?",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/trade-margins-on-137-cancer-drugs-capped-but-will-bills-get-lower/articleshow/135055741.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-19T19:24:25.000Z"
+    },
     {
       "title": "India shelves coal import plan as high global prices, weak rupee raise costs",
       "summary": "India has decided not to mandate coal imports for power plants due to high international prices and a weaker rupee. Coal stockpiles have reached critically low levels at many power stations, prompting concerns about electricity shortages in the country.",
@@ -273,14 +281,6 @@
       "publishedAt": "2026-10-19T01:54:55.000Z"
     },
     {
-      "title": "‘We are learning to live with weaker currency’: Arvind Panagariya",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/we-are-learning-to-live-with-weaker-currency-arvind-panagariya/articleshow/135037640.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-19T01:47:47.000Z"
-    },
-    {
       "title": "Oil prices ease as Trump waives Russia sanctions, Middle East risks persist",
       "summary": "Oil prices have seen a downturn due to US President Donald Trump's decision to lift sanctions on Russia, causing worries about supply stability. Brent crude is now at $108.3 per barrel, while West Texas Intermediate has decreased to $101.2 per barrel.",
       "url": "https://timesofindia.indiatimes.com/business/international-business/oil-prices-ease-as-trump-waives-russia-sanctions-middle-east-risks-persist/articleshow/135037616.cms",
@@ -359,14 +359,6 @@
       "source": "Business Today",
       "category": "insurance",
       "publishedAt": "2026-10-18T00:30:07.000Z"
-    },
-    {
-      "title": "China, US and India account for half of global emissions. Check top 10 countries",
-      "summary": "The European Commission's EDGAR 2026 report estimated that worldwide greenhouse gas emissions reached 54.1 billion tonnes of CO₂e in 2025, marking a 0.7% increase from 2024.",
-      "url": "https://www.businesstoday.in/latest/world/story/china-us-and-india-account-for-half-of-global-emissions-check-top-10-countries-562271-2026-10-18?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-17T20:30:06.000Z"
     }
   ]
 }
