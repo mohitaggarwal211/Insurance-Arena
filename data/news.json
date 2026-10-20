@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-20T15:15:22.677Z",
+  "lastUpdated": "2026-10-20T17:48:43.798Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,22 @@
     }
   ],
   "articles": [
+    {
+      "title": "Wall Street climbs as healthcare stocks hit record, oil prices ease",
+      "summary": "Wall Street's primary indices saw an uptick, primarily driven by healthcare stocks reaching all-time highs amid falling oil prices. Investors are scrutinizing corporate earnings, with increasing worries about artificial intelligence expenditure impacting market stability.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/wall-street-climbs-as-healthcare-stocks-hit-record-oil-prices-ease-dow-jones-up-0-97-sp-gains-0-42/articleshow/135073829.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-20T16:53:31.000Z"
+    },
+    {
+      "title": "'We are very, very close': Rubio says India-US trade deal nearly done, leaders may sign soon",
+      "summary": "\"I think there's a small number of items left to wrap up. So, I think that will happen shortly,\" says Rubio in Mumbai",
+      "url": "https://www.businesstoday.in/latest/economy/story/we-are-very-very-close-rubio-says-india-us-trade-deal-nearly-done-leaders-may-sign-soon-562652-2026-10-20?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-20T15:29:54.000Z"
+    },
     {
       "title": "Trump’s 60-day tariff waiver on Russian oil: India dodges duties for now, but is relief credible?",
       "summary": "For India, the immediate relief is for its crude supply basket and exporters. If India decided to give up Russian crude oil, its single largest supplier would have gone off the table, with no easy replacement amid Middle East tensions.",
@@ -241,14 +257,6 @@
       "publishedAt": "2026-10-20T01:43:31.000Z"
     },
     {
-      "title": "Rising crude, lender-margin squeeze take toll on Dalal-Street",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/rising-crude-lender-margin-squeeze-take-toll-on-dalal-street/articleshow/135059426.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-20T01:42:13.000Z"
-    },
-    {
       "title": "Food quality on trains to get better? IRCTC and QCI to crack down with surprise audits",
       "summary": "Indian Railway Catering and Tourism Corporation Limited (IRCTC) has entered into a strategic Memorandum of Understanding (MoU) with Quality Council of India to strengthen compliance with food safety and hygiene standards across the railway system, according to…",
       "url": "https://timesofindia.indiatimes.com/business/india-business/indian-railways-cracks-down-on-food-quality-issues-after-passenger-complaints-irctc-partners-with-qci-for-surprise-audits-on-trains-and-stations-with-digital-evidence-to-speed-up-action/articleshow/135045412.cms",
@@ -367,14 +375,6 @@
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-10-19T04:42:53.000Z"
-    },
-    {
-      "title": "Tata Sons reviews its Articles of Association to meet SEBI listing regulations: Report",
-      "summary": "This exercise follows the Reserve Bank of India’s rejection of Tata Sons’ application to surrender its registration as a core investment company.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/tata-sons-reviews-its-articles-of-association-to-meet-sebi-listing-regulations-report-562323-2026-10-19?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "regulatory",
-      "publishedAt": "2026-10-19T02:42:36.000Z"
     }
   ]
 }
