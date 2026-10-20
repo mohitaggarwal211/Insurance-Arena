@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-20T17:48:43.798Z",
+  "lastUpdated": "2026-10-20T22:09:05.545Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,22 @@
     }
   ],
   "articles": [
+    {
+      "title": "World’s 10 biggest banks ranked: China takes top four spots, US banks follow",
+      "summary": "JPMorgan Chase ranks fifth globally with $4.42 trillion in assets, followed by Bank of America at $3.41 trillion. JPMorgan also reported $57 billion in net income in 2025",
+      "url": "https://www.businesstoday.in/latest/world/story/worlds-10-biggest-banks-ranked-china-takes-top-four-spots-us-banks-follow-562610-2026-10-21?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-20T20:30:06.000Z"
+    },
+    {
+      "title": "India ranks 10th among world's largest tourism economies; US leads with $2.63 trillion",
+      "summary": "The United States topped the list with a tourism economy valued at $2.63 trillion, significantly ahead of China, which ranked second at $1.75 trillion. Germany occupied third place with $566.2 billion, followed by the United Kingdom and Japan",
+      "url": "https://www.businesstoday.in/latest/world/story/india-ranks-10th-among-worlds-largest-tourism-economies-us-leads-with-2-63-trillion-562644-2026-10-21?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-20T19:00:06.000Z"
+    },
     {
       "title": "Wall Street climbs as healthcare stocks hit record, oil prices ease",
       "summary": "Wall Street's primary indices saw an uptick, primarily driven by healthcare stocks reaching all-time highs amid falling oil prices. Investors are scrutinizing corporate earnings, with increasing worries about artificial intelligence expenditure impacting market stability.",
@@ -359,22 +375,6 @@
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-10-19T08:17:26.000Z"
-    },
-    {
-      "title": "India believes in multilateralism but is not waiting for it: FM Nirmala Sitharaman",
-      "summary": "FM Sitharaman explained that the European Union trade agreement is a large one as it consists of 28 countries, but India is also doing bilateral trade with “very many countries”.",
-      "url": "https://www.businesstoday.in/latest/economy/story/india-believes-in-multilateralism-but-is-not-waiting-for-it-fm-nirmala-sitharaman-562360-2026-10-19?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-19T05:33:16.000Z"
-    },
-    {
-      "title": "From bedroom to £750,000: 16-year-old teen skips college, turns towel idea into a lucrative business",
-      "summary": "Nott began developing CoolTowel at 13 after struggling to find a cooling towel he liked during hot weather. He launched the business in 2023 from his bedroom, starting with 100 towels in a box—and sold them all.",
-      "url": "https://www.businesstoday.in/latest/trends/story/from-bedroom-to-ps750000-16-year-old-teen-skips-college-turns-towel-idea-into-a-lucrative-business-562302-2026-10-19?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-19T04:42:53.000Z"
     }
   ]
 }
