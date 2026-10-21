@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-21T15:28:01.140Z",
+  "lastUpdated": "2026-10-21T17:55:39.300Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -57,12 +57,36 @@
   ],
   "articles": [
     {
+      "title": "Rupee hits 6-week high, surges 53 paise to 94.38 against dollar on Jio IPO inflows, RBI support",
+      "summary": "The rupee strengthened by 53 paise on Wednesday, closing at 94.38 against the US dollar, bolstered by foreign currency flows from the Jio Platforms IPO and intervention from the Reserve Bank of India.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/rupee-hits-6-week-high-surges-53-paise-to-94-38-against-dollar-on-jio-ipo-inflows-rbi-support/articleshow/135096229.cms",
+      "source": "Times of India Business",
+      "category": "regulatory",
+      "publishedAt": "2026-10-21T16:32:31.000Z"
+    },
+    {
+      "title": "Jio IPO subscription hits 3.16x on Day 1; offer open till October 23",
+      "summary": "The Rs 30,213-crore initial public offering (IPO) achieved full subscription in just 100 minutes after opening on Wednesday, setting a record for the fastest subscription of a mega IPO in India.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/jio-ipo-subscribed-3-16-times-on-day-1-draws-rs-69800-crore-in-bids/articleshow/135095545.cms",
+      "source": "Times of India Business",
+      "category": "insurance",
+      "publishedAt": "2026-10-21T15:18:48.000Z"
+    },
+    {
       "title": "December MPC meet: A 50 bps repo hike vs 25 bps hike with a wider LAF corridor? SBI Research on two RBI options",
       "summary": "SBI Research has outlined two possible ways for the RBI to tighten monetary policy in December: a 50 bps repo rate hike or a 25 bps hike combined with an asymmetric adjustment to the liquidity adjustment facility (LAF) corridor.",
       "url": "https://www.businesstoday.in/latest/economy/story/december-mpc-meet-a-50-bps-repo-hike-vs-25-bps-hike-with-a-wider-laf-corridor-sbi-research-on-two-rbi-options-562932-2026-10-21?utm_source=rssfeed",
       "source": "Business Today",
       "category": "regulatory",
       "publishedAt": "2026-10-21T14:51:05.000Z"
+    },
+    {
+      "title": "Iran war impact: Indian Oil plans to reduce Middle East crude purchases under annual deals in FY28",
+      "summary": "Indian Oil Corporation is expected to cut back on crude oil purchases from Middle Eastern suppliers. This decision comes as the Iran war disrupts shipments and increases transportation costs significantly.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/iran-war-impact-indian-oil-plans-to-reduce-middle-east-crude-purchases-under-annual-deals-in-fy28/articleshow/135094647.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-21T14:46:25.000Z"
     },
     {
       "title": "Swedfund invests $35 million in fund targeting renewable energy, water management",
@@ -233,14 +257,6 @@
       "publishedAt": "2026-10-21T10:01:32.000Z"
     },
     {
-      "title": "Jio IPO sets new records: Bids cross Rs 50,000 crore after full subscription in 100 minutes",
-      "summary": "Jio IPO: Data from the stock exchanges, updated at 2:45 PM, showed bids for 46.50 crore shares against the 19.75 crore shares on offer. The response establishes a new record for the speed at which an Indian public issue has attracted subscriptions.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/jio-ipo-sets-new-records-bids-cross-rs-50000-crore-after-full-subscription-in-100-minutes/articleshow/135088256.cms",
-      "source": "Times of India Business",
-      "category": "insurance",
-      "publishedAt": "2026-10-21T09:54:58.000Z"
-    },
-    {
       "title": "Rubio meets Gautam Adani, N Chandrasekaran before visiting Reliance's Jamnagar",
       "summary": "Marco Rubio, who arrived in Mumbai on Tuesday afternoon, first met Adani and then Chandrasekaran",
       "url": "https://www.businesstoday.in/latest/economy/story/rubio-meets-gautam-adani-tatas-chandrasekaran-before-visiting-reliances-jamnagar-562816-2026-10-21?utm_source=rssfeed",
@@ -359,22 +375,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-10-21T02:20:52.000Z"
-    },
-    {
-      "title": "Oil prices today: Brent crude tops $110 as Middle East tensions threaten shipments",
-      "summary": "Oil prices have risen due to growing concerns over disruptions in Middle East supplies and threats to shipping routes. Recent attacks on vessels and infrastructure have heightened worries among traders and analysts.",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/oil-prices-today-21-october-2026-brent-crude-tops-110-as-middle-east-tensions-threaten-shipments/articleshow/135079433.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-21T01:44:06.000Z"
-    },
-    {
-      "title": "Musk says SpaceX-Tesla merger a 'good idea', special committees formed for talks",
-      "summary": "SpaceX shares rose 4.9% in extended trading following the remarks. Speculation about a potential deal has grown in recent weeks, with Barclays suggesting last week that an announcement could come before Tesla's annual meeting in December.",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/elon-musk-says-spacex-tesla-merger-is-a-good-idea-special-committees-formed-for-talks/articleshow/135078380.cms",
-      "source": "Times of India Business",
-      "category": "insurance",
-      "publishedAt": "2026-10-20T23:34:25.000Z"
     }
   ]
 }
