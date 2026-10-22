@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-22T05:49:07.135Z",
+  "lastUpdated": "2026-10-22T06:13:01.583Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,14 @@
     }
   ],
   "articles": [
+    {
+      "title": "Tesla reports $1.53 bn in free cash flow amid one-fifth cut to 2026 spending forecast",
+      "summary": "Tesla generated $1.53 billion in free cash flow in the third quarter, which exceeded market expectations. The company's capital expenditure forecast for 2026 was cut to approximately $20 billion from over $25 billion.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/tesla-reports-1-53-billion-in-free-cash-flow-amid-one-fifth-cut-to-2026-spending-forecast/articleshow/135107813.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-22T05:52:56.000Z"
+    },
     {
       "title": "Rupee under pressure: Currency slips to 94.50 as oil rises, Dalal Street struggles in red",
       "summary": "The Indian Rupee fell by 12 paise, settling at 94.50 against the US dollar, driven primarily by surging crude oil prices. However, the currency found some respite from a weaker dollar and declining US treasury yields.",
@@ -343,14 +351,6 @@
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-10-21T12:18:43.000Z"
-    },
-    {
-      "title": "Bengaluru-Mumbai Vande Bharat sleeper may launch November 1; check timings, fares",
-      "summary": "The Vande Bharat sleeper train has a 16-coach configuration, comprising 11 AC three-tier coaches, four AC two-tier coaches and one AC First Class coach.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/bengaluru-mumbai-vande-bharat-sleeper-train-may-launch-on-november-1-journey-time-may-fall-from-24-hours-to-16-and-fares-could-range-from-rs-2600-to-rs-4250/articleshow/135085906.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-21T12:15:00.000Z"
     },
     {
       "title": "India's core sector growth accelerates to 7.9% in September; refinery output jumps 10.3%",
