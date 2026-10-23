@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-23T12:27:36.344Z",
+  "lastUpdated": "2026-10-23T15:19:40.494Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,14 @@
     }
   ],
   "articles": [
+    {
+      "title": "Yes Bank unlikely to pay AT-1 Bond coupons this year despite Supreme Court ruling: Report",
+      "summary": "On October 15, the Supreme Court dismissed appeals filed by Yes Bank, the Reserve Bank of India (RBI) and the Union government, upholding the Bombay High Court’s January 20, 2023, judgment against the write-off of AT-1 bonds worth ₹8,415 crore.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/yes-bank-unlikely-to-pay-at-1-bond-coupons-this-year-despite-supreme-court-ruling-report-563388-2026-10-23?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "regulatory",
+      "publishedAt": "2026-10-23T13:49:54.000Z"
+    },
     {
       "title": "Ganga Canal shut for 18 days! Why Delhi-NCR residents and farmers should pay attention",
       "summary": "Upper Ganga Canal shuts for 18 days for maintenance, raising water supply concerns in Delhi-NCR and western UP. Har Ki Pauri sees reduced flow as repairs continue until November 7-8.",
@@ -215,14 +223,6 @@
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-10-23T00:45:02.000Z"
-    },
-    {
-      "title": "BYD's cheapest EV gets a massive upgrade: 5-minute charging claim steals the spotlight",
-      "summary": "BYD's new Seagull EV launches in China at around ₹9.33 lakh with a claimed 420 km range, five-minute flash charging, a bigger cabin and premium features. Check its upgrades and India plans.",
-      "url": "https://www.businesstoday.in/latest/photo/byds-cheapest-ev-gets-a-massive-upgrade-5-minute-charging-claim-steals-the-spotlight-563089-2026-10-23?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "insurance",
-      "publishedAt": "2026-10-23T00:30:09.000Z"
     },
     {
       "title": "PHP security flaws trigger global scramble; CERT-In flags vulnerabilities",
