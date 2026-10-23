@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-23T15:19:40.494Z",
+  "lastUpdated": "2026-10-23T17:44:59.335Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,14 @@
     }
   ],
   "articles": [
+    {
+      "title": "Brent crude hits over $117 a barrel, highest in six months, as fears of fresh US-Iran strikes mount",
+      "summary": "Brent futures rose 2.6% to $116.13 a barrel in one market update, their highest level since April 30. US West Texas Intermediate (WTI) crude gained around 3% to $102.56 a barrel.",
+      "url": "https://www.businesstoday.in/latest/economy/story/brent-crude-hits-over-117-a-barrel-highest-in-six-months-as-fears-of-fresh-us-iran-strikes-mount-563425-2026-10-23?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-23T16:02:11.000Z"
+    },
     {
       "title": "Yes Bank unlikely to pay AT-1 Bond coupons this year despite Supreme Court ruling: Report",
       "summary": "On October 15, the Supreme Court dismissed appeals filed by Yes Bank, the Reserve Bank of India (RBI) and the Union government, upholding the Bombay High Court’s January 20, 2023, judgment against the write-off of AT-1 bonds worth ₹8,415 crore.",
@@ -215,14 +223,6 @@
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-10-23T00:50:03.000Z"
-    },
-    {
-      "title": "Smaller than a car! The world's tiniest plane made history before a tragic ending",
-      "summary": "Meet the Starr Bumble Bee II, the world's smallest aeroplane! Built by Robert H. Starr, it set a Guinness World Record in 1988 before a devastating crash ended its remarkable flying career.",
-      "url": "https://www.businesstoday.in/latest/world/photo/smaller-than-a-car-the-worlds-tiniest-plane-made-history-before-a-tragic-ending-563092-2026-10-23?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-23T00:45:02.000Z"
     },
     {
       "title": "PHP security flaws trigger global scramble; CERT-In flags vulnerabilities",
