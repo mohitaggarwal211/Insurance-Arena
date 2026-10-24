@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-24T06:03:00.586Z",
-  "articlesCount": 40,
+  "lastUpdated": "2026-10-24T11:52:49.514Z",
+  "articlesCount": 39,
   "sourcesOk": 5,
   "sourcesTotal": 9,
   "sourceStatus": [
@@ -41,7 +41,7 @@
     {
       "source": "Times of India Business",
       "status": "ok",
-      "articles": 20,
+      "articles": 19,
       "feedUsed": "https://timesofindia.indiatimes.com/rssfeeds/1898055.cms"
     },
     {
@@ -56,6 +56,38 @@
     }
   ],
   "articles": [
+    {
+      "title": "Onion, tomato, potato prices: Which months see the biggest jumps, and why?",
+      "summary": "Onion, tomato and potato prices follow distinct seasonal patterns, with harvest cycles, weather disruptions and storage constraints influencing wholesale price movements.",
+      "url": "https://www.businesstoday.in/latest/economy/story/onion-tomato-potato-prices-which-months-see-the-biggest-jumps-and-why-563452-2026-10-24?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-24T10:52:58.000Z"
+    },
+    {
+      "title": "Tata Sons may have to list as upper-layer NBFC; RBI Governor Sanjay Malhotra signals",
+      "summary": "The RBI recently classified Tata Sons as a CIC under its NBFC-Upper Layer framework. Entities falling within the central bank’s definition of an NBFC or CIC must register if they have direct or indirect access to public funds.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/tata-sons-may-have-to-list-as-upper-layer-nbfc-rbi-governor-sanjay-malhotra-signals-563450-2026-10-24?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "regulatory",
+      "publishedAt": "2026-10-24T10:13:08.000Z"
+    },
+    {
+      "title": "Tata Chemicals gets relief in Kenya dispute as High Court rules it lacks jurisdiction",
+      "summary": "Earlier this month, Tata Chemicals announced plans to set up a high-level technical committee jointly with the Kenyan government to review regulatory issues concerning its subsidiary.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/tata-chemicals-gets-relief-in-kenya-dispute-as-high-court-rules-it-lacks-jurisdiction-563438-2026-10-24?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "regulatory",
+      "publishedAt": "2026-10-24T07:51:44.000Z"
+    },
+    {
+      "title": "From fuel price hikes to cost-of-living concerns, US consumer sentiment nears record low",
+      "summary": "US consumer sentiment has declined slightly as rising prices related to the Middle East conflict affect households' financial views. The Consumer Sentiment Index fell marginally to 48.0 in October, approaching a record low.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/from-fuel-price-hikes-to-cost-of-living-concerns-us-consumer-sentiment-nears-record-low/articleshow/135164123.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-24T06:45:16.000Z"
+    },
     {
       "title": "Quote of the Day by Mark Zuckerberg: 'You get a reputation for stability if you are stable for years'",
       "summary": "The quote highlights the importance of embracing uncertainty, innovation, and bold decision-making in a rapidly evolving world.",
@@ -273,30 +305,6 @@
       "publishedAt": "2026-10-23T10:27:31.000Z"
     },
     {
-      "title": "RBI raises repo rate to 5.50% but injects ₹2.5 lakh crore: Is its policy sending mixed signals?",
-      "summary": "The RBI’s repo rate hike to 5.50% has been accompanied by a ₹2.5 lakh crore liquidity injection, raising questions about its monetary policy direction. SBI Research warns that these moves could send mixed signals to markets and affect government bond yields.",
-      "url": "https://www.businesstoday.in/latest/economy/story/rbi-raises-repo-rate-to-5-50-but-injects-rs2-5-lakh-crore-is-its-policy-sending-mixed-signals-563286-2026-10-23?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "regulatory",
-      "publishedAt": "2026-10-23T10:00:59.000Z"
-    },
-    {
-      "title": "First case of Shamonda virus detected in France: What authorities say about the virus and public risk",
-      "summary": "France has reported the first documented human Shamonda infection. Investigations continue after the patient’s death; authorities say no risk to the general population has been identified.",
-      "url": "https://www.businesstoday.in/latest/trends/photo/first-case-of-shamonda-virus-detected-in-france-what-authorities-say-about-the-virus-and-public-risk-563285-2026-10-23?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "insurance",
-      "publishedAt": "2026-10-23T09:57:19.000Z"
-    },
-    {
-      "title": "Mohandas Pai on RBI FEMA rules: Are banks making it harder for Indians to receive foreign payments?",
-      "summary": "The new FEMA framework has brought renewed attention to the paperwork involved in receiving payments from overseas clients.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/mohandas-pai-on-rbi-fema-rules-are-banks-making-it-harder-for-indians-to-receive-foreign-payments-563280-2026-10-23?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "regulatory",
-      "publishedAt": "2026-10-23T09:30:08.000Z"
-    },
-    {
       "title": "Jio Platforms' IPO becomes first public offer globally to cross 1 cr applications",
       "summary": "",
       "url": "https://timesofindia.indiatimes.com/business/india-business/jio-platforms-ipo-becomes-first-globally-to-cross-1-crore-applications-subscriptions-top-6-times-report/articleshow/135131792.cms",
@@ -359,22 +367,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-10-22T22:01:13.000Z"
-    },
-    {
-      "title": "India-UK Social Security Agreement: DCC limits double contributions; five-year rule explained",
-      "summary": "Historically, the two countries did not have a bilateral social security agreement as against the other European countries with whom India has a Social Security Agreement (SSA) i.e.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/explained-what-double-contributions-convention-means-for-social-security-benefits-of-indians-working-in-uk/articleshow/135086753.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-22T11:33:43.000Z"
-    },
-    {
-      "title": "Barclays to slash 5,000 jobs by 2026-end as AI takes on bigger role in bank's operations",
-      "summary": "In a significant restructuring effort, Barclays is poised to cut about 5,000 jobs from its worldwide team by the year's conclusion. This initiative focuses on optimizing efficiency and increasing investment in innovative technologies, notably artificial intelligence.",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/barclays-to-slash-5000-jobs-by-2026-end-as-ai-takes-on-bigger-role-in-banks-operations/articleshow/135114775.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-22T09:59:28.000Z"
     }
   ]
 }
