@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T16:26:59.926Z",
+  "lastUpdated": "2026-10-24T21:25:37.348Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,30 @@
     }
   ],
   "articles": [
+    {
+      "title": "Starbucks stores worldwide: Top 15 countries with the most outlets, US leads with 16,933",
+      "summary": "The United States has 16,933 Starbucks outlets, making it the company's largest market by a substantial margin. China ranks second with 8,103 stores",
+      "url": "https://www.businesstoday.in/latest/world/story/starbucks-stores-worldwide-top-15-countries-with-the-most-outlets-us-leads-with-16933-563458-2026-10-25?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-24T20:05:02.000Z"
+    },
+    {
+      "title": "These 7 destinations will take you on a journey through the world's finest scents",
+      "summary": "Located around Kazanlak in central Bulgaria, the Rose Valley is internationally renowned for its Damask roses, which are used to produce rose oil for the global perfume industry",
+      "url": "https://www.businesstoday.in/nri/story/these-7-destinations-will-take-you-on-a-journey-through-the-worlds-finest-scents-563471-2026-10-25?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-24T20:05:02.000Z"
+    },
+    {
+      "title": "IDFC First Bank Q2 profit nearly triples to Rs 1,045 crore; loan assets rise 30%",
+      "summary": "In Q2 FY27, IDFC First Bank showcased an impressive profit surge of 196.5 percent year-on-year, reaching Rs 1,045 crore. The bank's robust core operating performance is highlighted by a 21 percent rise in net interest income.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/idfc-first-bank-q2-profit-nearly-triples-to-rs-1045-crore-loan-assets-rise-30/articleshow/135175146.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-24T17:38:56.000Z"
+    },
     {
       "title": "Kotak Mahindra Bank Q2 results: Consolidated net profit jumps 26% to Rs 5,645 crore",
       "summary": "Kotak Mahindra Bank reported an impressive 26% growth in its consolidated net profit for the September quarter of FY27. Standalone profit surged by 29%, reaching Rs 4,212 crore.",
@@ -297,36 +321,12 @@
       "publishedAt": "2026-10-23T11:15:10.000Z"
     },
     {
-      "title": "Honda Activa vs TVS Jupiter: One offers more storage, the other has a smart advantage",
-      "summary": "Honda Activa vs TVS Jupiter: Compare prices, storage, engine performance and smart features. Jupiter offers 33L storage, while Activa gets keyless ignition and a TFT display.",
-      "url": "https://www.businesstoday.in/latest/photo/honda-activa-vs-tvs-jupiter-one-offers-more-storage-the-other-has-a-smart-advantage-563329-2026-10-23?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-23T11:08:41.000Z"
-    },
-    {
-      "title": "Going to Thailand? These 5 common mistakes could ruin your dream holiday",
-      "summary": "Planning a Thailand holiday? Avoid five common travel mistakes involving mosquitoes, internet access, cultural customs, sun protection and packing to enjoy a hassle-free trip.",
-      "url": "https://www.businesstoday.in/latest/photo/going-to-thailand-these-5-common-mistakes-could-ruin-your-dream-holiday-563323-2026-10-23?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-23T11:02:23.000Z"
-    },
-    {
       "title": "Jio Platforms' IPO becomes first public offer globally to cross 1 cr applications",
       "summary": "",
       "url": "https://timesofindia.indiatimes.com/business/india-business/jio-platforms-ipo-becomes-first-globally-to-cross-1-crore-applications-subscriptions-top-6-times-report/articleshow/135131792.cms",
       "source": "Times of India Business",
       "category": "insurance",
       "publishedAt": "2026-10-23T07:37:43.000Z"
-    },
-    {
-      "title": "PHP security flaws trigger global scramble; CERT-In flags vulnerabilities",
-      "summary": "Google Cloud executives Chris Betz, chief information security officer, and Raluca Ada Popa, head of Gemini Security at Google DeepMind, said PHP and cybersecurity firm Wiz Research disclosed the two vulnerabilities after research that used multiple AI models …",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/php-security-flaws-trigger-global-scramble/articleshow/135127762.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-22T22:17:02.000Z"
     },
     {
       "title": "At €310 billion, Union minister Piyush Goyal eyes 10x rise in Indo-German trade",
