@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-25T06:21:18.579Z",
-  "articlesCount": 37,
+  "lastUpdated": "2026-10-25T12:23:02.105Z",
+  "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
   "sourceStatus": [
@@ -41,7 +41,7 @@
     {
       "source": "Times of India Business",
       "status": "ok",
-      "articles": 17,
+      "articles": 20,
       "feedUsed": "https://timesofindia.indiatimes.com/rssfeeds/1898055.cms"
     },
     {
@@ -56,6 +56,62 @@
     }
   ],
   "articles": [
+    {
+      "title": "MSMEs remain upbeat despite rising input costs, manufacturing sentiment strongest: SIDBI",
+      "summary": "In the July-September 2026 quarter, India's micro, small, and medium enterprises showcased a notable surge in business optimism. The MSME Business Confidence Index rose from 59.3 to 60.4, signaling an encouraging outlook across various sectors.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/indian-msmes-remain-upbeat-despite-rising-input-costs-manufacturing-sentiment-strongest-sidbi/articleshow/135188666.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-25T10:22:26.000Z"
+    },
+    {
+      "title": "Cancelled flight tickets: Airlines can claim GST refunds if fare and tax are returned",
+      "summary": "The GST Appellate Tribunal ruled that airlines are eligible for GST refunds on cancelled flight tickets. Singapore Airlines was allowed to reclaim Rs 45.92 lakh after proving refunds were issued directly to passengers.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/cancelled-flight-tickets-airlines-can-claim-gst-refunds-if-fare-and-tax-are-returned/articleshow/135187326.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-25T10:12:14.000Z"
+    },
+    {
+      "title": "Industrial growth may ease to 6% in September as capital goods, mining lose steam",
+      "summary": "In September 2026, India's industrial production growth is anticipated to decline to 6%, down from 8% in August. Notably, capital goods production is projected to drop significantly to 2.2%, from an impressive 16.9% the previous month.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/industrial-growth-may-ease-to-6-in-september-as-capital-goods-mining-lose-steam/articleshow/135188371.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-25T10:04:05.000Z"
+    },
+    {
+      "title": "Market recap: Eight of top 10 firms lose Rs 1.55 lakh crore",
+      "summary": "HDFC Bank and Bajaj Finance experienced significant market value declines last week amid broader market losses. The combined drop in valuations for eight major companies totaled Rs 1.55 lakh crore.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/market-recap-eight-of-top-10-firms-lose-rs-1-55-lakh-crore-hdfc-bank-bajaj-finance-take-biggest-hit/articleshow/135187845.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-25T09:36:39.000Z"
+    },
+    {
+      "title": "Foreign investors withdraw Rs 48,056 crore in October as market selling continues",
+      "summary": "Foreign Portfolio Investors have withdrawn Rs 48,056 crore from Indian equities during October due to high crude oil prices. Selling eased slightly in a recent week, with some FPIs becoming net buyers for two days.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/foreign-investors-withdraw-rs-48056-crore-in-october-as-market-selling-continues/articleshow/135187012.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-25T09:03:32.000Z"
+    },
+    {
+      "title": "Five IPOs to hit Dalal Street next week, targeting nearly Rs 2,600 cr from investors",
+      "summary": "Between October 26 and October 29, five companies will debut their initial public offerings, aiming to raise an impressive Rs 2,600 crore from the primary market.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/five-ipos-to-hit-dalal-street-next-week-targeting-nearly-rs-2600-crore-from-investors/articleshow/135186247.cms",
+      "source": "Times of India Business",
+      "category": "insurance",
+      "publishedAt": "2026-10-25T08:32:50.000Z"
+    },
+    {
+      "title": "Stock market outlook: Fed meeting, crude & more - top cues guiding Dalal Street this week",
+      "summary": "As Dalal Street braces for a pivotal week, key earnings reports and the impending US Federal Reserve interest rate decision are grabbing attention. Investors are eagerly anticipating the September industrial production and manufacturing figures, set to be released on October 28.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/stock-market-outlook-fed-meeting-crude-more-top-cues-guiding-dalal-street-this-week/articleshow/135185867.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-25T07:23:59.000Z"
+    },
     {
       "title": "France’s economic woes: Debt nears 122% of GDP, growth forecast at just 0.4%",
       "summary": "France is grappling with severe economic challenges, marked by soaring public debt nearing 122% of GDP. With government expenditure exceeding 57% of the nation's economic output, the forecast of just a 0.4% growth raises concerns over financial stability.",
@@ -273,30 +329,6 @@
       "publishedAt": "2026-10-23T21:27:03.000Z"
     },
     {
-      "title": "German companies looking for business opportunities: Piyush Goyal",
-      "summary": "Talking to reporters during his visit to Germany and The Netherlands with a delegation of Indian businesses and startups to explore opportunities in trade, investment and industrial cooperation, Goyal said German companies had publicly announced investments wo…",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/german-companies-looking-for-business-opportunities-piyush-goyal/articleshow/135155573.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-23T21:20:15.000Z"
-    },
-    {
-      "title": "Two critical PHP flaws trigger global alert; millions of services face cyber risk",
-      "summary": "PHP advised users on Oct 23 to temporarily disable its session upload progress feature until the next regular bugfix release. The warning followed an earlier advisory on Oct 21 about a related vulnerability.",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/two-critical-php-flaws-trigger-global-alert-millions-of-services-face-cyber-risk/articleshow/135155574.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-23T21:15:37.000Z"
-    },
-    {
-      "title": "Infosys ADRs tumble 6% as growth guidance cut to 1-2%",
-      "summary": "Infosys CEO Salil Parekh said the weakness was driven by specific client situations rather than a broad-based slowdown across industries. “We have seen different client-specific situations in both retail and high-tech. This is not happening across all industries.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/infosys-adrs-tumble-6-as-growth-guidance-cut-to-1-2/articleshow/135155576.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-23T21:07:53.000Z"
-    },
-    {
       "title": "Driven by travel, outward transfers jump 6% to $2.7 billion",
       "summary": "Business travel surged 365.4% to $51 million from $11 million, while other travel, including leisure trips and international credit card settlements, fell 7.4% to $713.8 million.",
       "url": "https://timesofindia.indiatimes.com/business/india-business/driven-by-travel-outward-transfers-jump-6-to-2-7-billion/articleshow/135155566.cms",
@@ -343,14 +375,6 @@
       "source": "Times of India Business",
       "category": "regulatory",
       "publishedAt": "2026-10-23T19:23:42.000Z"
-    },
-    {
-      "title": "Jio Platforms' IPO becomes first public offer globally to cross 1 cr applications",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/jio-platforms-ipo-becomes-first-globally-to-cross-1-crore-applications-subscriptions-top-6-times-report/articleshow/135131792.cms",
-      "source": "Times of India Business",
-      "category": "insurance",
-      "publishedAt": "2026-10-23T07:37:43.000Z"
     }
   ]
 }
