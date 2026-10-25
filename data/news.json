@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-25T16:58:37.205Z",
-  "articlesCount": 40,
+  "lastUpdated": "2026-10-25T21:30:24.867Z",
+  "articlesCount": 34,
   "sourcesOk": 5,
   "sourcesTotal": 9,
   "sourceStatus": [
@@ -41,7 +41,7 @@
     {
       "source": "Times of India Business",
       "status": "ok",
-      "articles": 20,
+      "articles": 14,
       "feedUsed": "https://timesofindia.indiatimes.com/rssfeeds/1898055.cms"
     },
     {
@@ -56,6 +56,14 @@
     }
   ],
   "articles": [
+    {
+      "title": "Banks pass on rate hikes, but go slow when rates fall; RBI study finds",
+      "summary": "A recent study by the RBI indicates that banks are more responsive to interest rate hikes than to cuts. Specifically, banks relayed 76.4% of repo rate increases, while only 64% of reductions were passed on.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/banks-pass-on-rate-hikes-but-go-slow-when-rates-fall/articleshow/135197546.cms",
+      "source": "Times of India Business",
+      "category": "regulatory",
+      "publishedAt": "2026-10-25T21:08:15.000Z"
+    },
     {
       "title": "MSMEs remain upbeat despite rising input costs, manufacturing sentiment strongest: SIDBI",
       "summary": "In the July-September 2026 quarter, India's micro, small, and medium enterprises showcased a notable surge in business optimism. The MSME Business Confidence Index rose from 59.3 to 60.4, signaling an encouraging outlook across various sectors.",
@@ -319,62 +327,6 @@
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-10-23T22:45:02.000Z"
-    },
-    {
-      "title": "Upper layer NBFCs have to list: RBI guv on Tatas; dispels doubts on Sept order",
-      "summary": "RBI governor Sanjay Malhotra’s comments also suggest Tata Sons is in breach of RBI rules. The consequences of continued noncompliance remain unclear.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/upper-layer-nbfcs-have-to-list-rbi-governor-on-tatas-dispels-doubts-on-sept-order/articleshow/135155571.cms",
-      "source": "Times of India Business",
-      "category": "regulatory",
-      "publishedAt": "2026-10-23T21:27:03.000Z"
-    },
-    {
-      "title": "Driven by travel, outward transfers jump 6% to $2.7 billion",
-      "summary": "Business travel surged 365.4% to $51 million from $11 million, while other travel, including leisure trips and international credit card settlements, fell 7.4% to $713.8 million.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/driven-by-travel-outward-transfers-jump-6-to-2-7-billion/articleshow/135155566.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-23T21:05:36.000Z"
-    },
-    {
-      "title": "India seventh most targeted by cyberattacks: MS executive Nicholas Butts",
-      "summary": "Butts cited Storm 3168, also called Jadepuffer, which he described as a China-based ransomware operation using AI agents against customers worldwide.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/india-seventh-most-targeted-by-cyberattacks-ms-executive-nicholas-butts/articleshow/135155567.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-23T21:02:00.000Z"
-    },
-    {
-      "title": "At $43 billion, RBI’s net dollar purchase hits new high",
-      "summary": "India’s foreign exchange reserves fell by $5.01 billion to $721.02 billion in the week ended Oct 16, down $64.7 billion from their all-time high of $785.71 billion in the week ended Sept 4, as pressure on the rupee continued.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/at-43-billion-rbis-net-dollar-purchase-hits-new-high/articleshow/135155568.cms",
-      "source": "Times of India Business",
-      "category": "regulatory",
-      "publishedAt": "2026-10-23T20:58:01.000Z"
-    },
-    {
-      "title": "Amid volatile trades, sensex falls for 4th day",
-      "summary": "The day’s slide came despite Rs 888-crore net buying by foreign funds and another Rs 3,235-crore net buying by domestic institutions, BSE data showed. Early on Friday, Brent crude had hit a nearly six-month high at $114 per barrel.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/amid-volatile-trades-sensex-falls-for-4th-day/articleshow/135155569.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-23T20:54:53.000Z"
-    },
-    {
-      "title": "Record haul: Jio IPO collects Rs 7.5 lakh crore; nearly 1.3 crore investors make bids",
-      "summary": "In the unofficial market, speculators are betting that the company will be listing at about Rs 1,370, a mark-up (also called the grey market premium or GMP) of about Rs 250 over the upper limit of the IPO price band of Rs 1,065 to Rs 1,119.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/record-haul-jio-ipo-collects-rs-7-5-lakh-crore-nearly-1-3-crore-investors-make-bids/articleshow/135155570.cms",
-      "source": "Times of India Business",
-      "category": "insurance",
-      "publishedAt": "2026-10-23T20:52:52.000Z"
-    },
-    {
-      "title": "Demand at home supporting growth momentum: RBI",
-      "summary": "The report said headline CPI inflation rose to a 23-month high of 5.5% in Sept from 4.8% in Aug, with price increases spreading across food, fuel and core items. Core inflation rose to 4.3%, while core inflation excluding precious metals reached 3.2%.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/demand-at-home-supporting-growth-momentum-rbi/articleshow/135154655.cms",
-      "source": "Times of India Business",
-      "category": "regulatory",
-      "publishedAt": "2026-10-23T19:23:42.000Z"
     }
   ]
 }
