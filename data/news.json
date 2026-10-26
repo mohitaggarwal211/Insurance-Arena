@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-26T06:30:47.630Z",
-  "articlesCount": 37,
+  "lastUpdated": "2026-10-26T13:57:54.801Z",
+  "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
   "sourceStatus": [
@@ -13,7 +13,7 @@
     {
       "source": "Business Today",
       "status": "ok",
-      "articles": 17,
+      "articles": 20,
       "feedUsed": "https://www.businesstoday.in/rssfeeds/?id=225346"
     },
     {
@@ -56,6 +56,126 @@
     }
   ],
   "articles": [
+    {
+      "title": "Five key changes in Annual Survey of Unincorporated Enterprises from FY28. What are they?",
+      "summary": "Based on internal discussions and suggestions from stakeholders, the Ministry of Statistics and Programme Implementation has proposed five key changes to the annual exercise that measures the number of informal sector firms in the country, their productivity a…",
+      "url": "https://www.businesstoday.in/latest/economy/story/five-key-changes-in-annual-survey-of-unincorporated-enterprises-from-fy28-what-are-they-563732-2026-10-26?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-26T11:56:55.000Z"
+    },
+    {
+      "title": "Next-gen Hyundai Creta: Bigger body, hybrid power and a new screen reported ahead of 2027 launch",
+      "summary": "Hyundai hasn’t announced the next-generation Creta, but spy shots point to a 2027 India launch. Here’s what reports suggest on size, platform, hybrid power and the new infotainment system.",
+      "url": "https://www.businesstoday.in/auto/photo/next-gen-hyundai-creta-bigger-body-hybrid-power-and-a-new-screen-reported-ahead-of-2027-launch-563712-2026-10-26?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-26T11:18:16.000Z"
+    },
+    {
+      "title": "Inside PV Sindhu's Bengaluru home! A Mahabharata chessboard steals the spotlight",
+      "summary": "Step inside PV Sindhu's Bengaluru home, featuring a Mahabharata-inspired chessboard, career photo wall, pastel interiors, private pool and garden as seen in Farah Khan's home tour.",
+      "url": "https://www.businesstoday.in/latest/photo/inside-pv-sindhus-bengaluru-home-a-mahabharata-chessboard-steals-the-spotlight-563707-2026-10-26?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-26T10:35:16.000Z"
+    },
+    {
+      "title": "Infinix GT 50 Pro launches October 27! Its biggest surprise isn't the 6,500mAh battery",
+      "summary": "Infinix GT 50 Pro launches in India on October 27 with a 6,500mAh battery, 144Hz AMOLED display and gaming accessories including GT NX Controller. Here's what gamers can expect.",
+      "url": "https://www.businesstoday.in/latest/photo/infinix-gt-50-pro-launches-october-27-its-biggest-surprise-isnt-the-6500mah-battery-563704-2026-10-26?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-26T10:26:28.000Z"
+    },
+    {
+      "title": "₹1,095 for a ticket! Ramayana's advance booking numbers reveal a big surprise",
+      "summary": "Ramayana: Part One has earned ₹11.11 crore in advance bookings, including blocked seats. IMAX tickets average ₹1,095 ahead of the Ranbir Kapoor film's November 5 release.",
+      "url": "https://www.businesstoday.in/latest/photo/rs1095-for-a-ticket-ramayanas-advance-booking-numbers-reveal-a-big-surprise-563701-2026-10-26?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-26T10:19:16.000Z"
+    },
+    {
+      "title": "BT Explainer: Why freelancers and small service exporters are still confused about RBI's forex reporting rules",
+      "summary": "RBI Governor Sanjay Malhotra clarified that individuals are exempt from the new export declaration requirements, but differing bank practices and delays in issuing FAQs continue to leave freelancers and small service exporters uncertain about compliance",
+      "url": "https://www.businesstoday.in/latest/economy/story/bt-explainer-why-freelancers-and-small-service-exporters-are-still-confused-about-rbis-forex-reporting-rules-563698-2026-10-26?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "regulatory",
+      "publishedAt": "2026-10-26T10:19:16.000Z"
+    },
+    {
+      "title": "Delhi–Varanasi Vande Bharat Sleeper? Here’s what we know about the new sleeper Vande Bharat",
+      "summary": "A Delhi–Varanasi Vande Bharat Sleeper is expected to be flagged off on October 31, though Railways hasn’t formally announced it. Here’s what’s been reported so far, and what’s still unconfirmed.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/delhi-varanasi-vande-bharat-sleeper-heres-what-we-know-about-the-new-sleeper-vande-bharat-563700-2026-10-26?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-26T10:19:11.000Z"
+    },
+    {
+      "title": "Swiggy’s discount dilemma is back: Focus on growth or profitability?",
+      "summary": "Swiggy has returned to discount-led growth at Instamart, widening losses and raising fresh doubts about its profitability roadmap as Blinkit pulls further ahead.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/swiggys-discount-dilemma-is-back-focus-on-growth-or-profitability-563694-2026-10-26?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-26T10:17:09.000Z"
+    },
+    {
+      "title": "4 launch pads by 2029! ISRO reveals a massive space plan with a Gaganyaan surprise",
+      "summary": "ISRO plans four launch pads by 2029, a new Tamil Nadu spaceport and uncrewed Gaganyaan tests. Explore its private-sector push and ambitious Chandrayaan-5 Moon mission with Japan.",
+      "url": "https://www.businesstoday.in/latest/photo/4-launch-pads-by-2029-isro-reveals-a-massive-space-plan-with-a-gaganyaan-surprise-563697-2026-10-26?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-26T10:11:57.000Z"
+    },
+    {
+      "title": "₹20 lakh and already sold out! Ducati's new motorcycle has a 1973 secret",
+      "summary": "Ducati Formula 73, priced at ₹20 lakh, has sold out in India. Only 873 units will be made worldwide, inspired by the iconic 1973 Ducati 750 Super Sport Desmo.",
+      "url": "https://www.businesstoday.in/latest/photo/rs20-lakh-and-already-sold-out-ducatis-new-motorcycle-has-a-1973-secret-563665-2026-10-26?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-26T10:06:55.000Z"
+    },
+    {
+      "title": "Competition for Toyota Hilux? Jeep's massive Gladiator pickup could arrive with a ₹70 lakh twist",
+      "summary": "Jeep Gladiator could enter India at an estimated ₹70 lakh, taking on the Toyota Hilux. Discover its massive dimensions, possible V6 engine, 4x4 capability and expected launch plans.",
+      "url": "https://www.businesstoday.in/latest/photo/competition-for-toyota-hilux-jeeps-massive-gladiator-pickup-could-arrive-with-a-rs70-lakh-twist-563669-2026-10-26?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-26T10:04:49.000Z"
+    },
+    {
+      "title": "Two new Vande Bharat Sleeper trains to launch soon: Routes, timings, fares and more",
+      "summary": "Indian Railways is gearing up to introduce two innovative Vande Bharat Sleeper services, enhancing connectivity between major urban centers. The new Mumbai-Bengaluru route promises to shorten travel times, making it ideal for commuters and tourists.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/mumbai-bengaluru-delhi-varanasi-vande-bharat-sleeper-trains-routes-timings-fares-and-key-details/articleshow/135207603.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-26T09:20:53.000Z"
+    },
+    {
+      "title": "Jio Platforms IPO allotment likely today: How to check, subscription details, GMP & listing date",
+      "summary": "Jio Platforms' initial public offering made waves with an unprecedented subscription rate, with allotment results to be finalized on Monday. The IPO opened from October 21 to October 23, garnering an impressive 22.19 times overall subscription.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/jio-platforms-ipo-allotment-likely-today-how-to-check-subscription-details-and-listing-date/articleshow/135207122.cms",
+      "source": "Times of India Business",
+      "category": "insurance",
+      "publishedAt": "2026-10-26T08:49:13.000Z"
+    },
+    {
+      "title": "Middle East conflict may end, but energy crisis will drag on: IEA chief explains",
+      "summary": "Oil prices have surged towards $120 a barrel amid concerns over market stability and supply disruptions. The International Energy Agency's director emphasizes the need for energy security as uncertainty looms.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/middle-east-conflict-may-end-but-energy-crisis-will-drag-on-iea-chief-explains/articleshow/135205152.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-26T07:45:38.000Z"
+    },
+    {
+      "title": "E100 cars get regulatory green light ahead of planned launches",
+      "summary": "The government has amended the Central Motor Vehicles Rules to facilitate the registration of flex-fuel vehicles capable of running on 85% to 100% ethanol blended petrol.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/e100-cars-get-regulatory-green-light-ahead-of-planned-launches/articleshow/135204532.cms",
+      "source": "Times of India Business",
+      "category": "regulatory",
+      "publishedAt": "2026-10-26T06:37:35.000Z"
+    },
     {
       "title": "Bank holiday on Valmiki Jayanti: Will banks remain shut on October 26? Check list",
       "summary": "As October unfolds, India's vibrant festival season translates into various state-specific bank holidays. On October 26, banking services will pause in Tripura, Chandigarh, Jammu and Kashmir, and Himachal Pradesh.",
@@ -217,38 +337,6 @@
       "publishedAt": "2026-10-25T10:04:05.000Z"
     },
     {
-      "title": "Market recap: Eight of top 10 firms lose Rs 1.55 lakh crore",
-      "summary": "HDFC Bank and Bajaj Finance experienced significant market value declines last week amid broader market losses. The combined drop in valuations for eight major companies totaled Rs 1.55 lakh crore.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/market-recap-eight-of-top-10-firms-lose-rs-1-55-lakh-crore-hdfc-bank-bajaj-finance-take-biggest-hit/articleshow/135187845.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-25T09:36:39.000Z"
-    },
-    {
-      "title": "Foreign investors withdraw Rs 48,056 crore in October as market selling continues",
-      "summary": "Foreign Portfolio Investors have withdrawn Rs 48,056 crore from Indian equities during October due to high crude oil prices. Selling eased slightly in a recent week, with some FPIs becoming net buyers for two days.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/foreign-investors-withdraw-rs-48056-crore-in-october-as-market-selling-continues/articleshow/135187012.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-25T09:03:32.000Z"
-    },
-    {
-      "title": "Five IPOs to hit Dalal Street next week, targeting nearly Rs 2,600 cr from investors",
-      "summary": "Between October 26 and October 29, five companies will debut their initial public offerings, aiming to raise an impressive Rs 2,600 crore from the primary market.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/five-ipos-to-hit-dalal-street-next-week-targeting-nearly-rs-2600-crore-from-investors/articleshow/135186247.cms",
-      "source": "Times of India Business",
-      "category": "insurance",
-      "publishedAt": "2026-10-25T08:32:50.000Z"
-    },
-    {
-      "title": "Stock market outlook: Fed meeting, crude & more - top cues guiding Dalal Street this week",
-      "summary": "As Dalal Street braces for a pivotal week, key earnings reports and the impending US Federal Reserve interest rate decision are grabbing attention. Investors are eagerly anticipating the September industrial production and manufacturing figures, set to be released on October 28.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/stock-market-outlook-fed-meeting-crude-more-top-cues-guiding-dalal-street-this-week/articleshow/135185867.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-25T07:23:59.000Z"
-    },
-    {
       "title": "Quote of the Day by Nikhil Kamath: 'Innovation often means breaking the norm and embracing the unknown'",
       "summary": "Kamath followed an unconventional path to entrepreneurship. He left formal education after Class 10 and began working at a call centre while teaching himself about stock markets",
       "url": "https://www.businesstoday.in/india/story/quote-of-the-day-by-nikhil-kamath-innovation-often-means-breaking-the-norm-and-embracing-the-unknown-563464-2026-10-25?utm_source=rssfeed",
@@ -287,70 +375,6 @@
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-10-25T00:30:08.000Z"
-    },
-    {
-      "title": "Starbucks stores worldwide: Top 15 countries with the most outlets, US leads with 16,933",
-      "summary": "The United States has 16,933 Starbucks outlets, making it the company's largest market by a substantial margin. China ranks second with 8,103 stores",
-      "url": "https://www.businesstoday.in/latest/world/story/starbucks-stores-worldwide-top-15-countries-with-the-most-outlets-us-leads-with-16933-563458-2026-10-25?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-24T20:05:02.000Z"
-    },
-    {
-      "title": "These 7 destinations will take you on a journey through the world's finest scents",
-      "summary": "Located around Kazanlak in central Bulgaria, the Rose Valley is internationally renowned for its Damask roses, which are used to produce rose oil for the global perfume industry",
-      "url": "https://www.businesstoday.in/nri/story/these-7-destinations-will-take-you-on-a-journey-through-the-worlds-finest-scents-563471-2026-10-25?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-24T20:05:02.000Z"
-    },
-    {
-      "title": "Kotak Bank leadership change: Affluent banking, digital channels, payments in focus from January 1",
-      "summary": "Kotak Mahindra Bank on Saturday reported a 29% year-on-year increase in standalone net profit for the July-September quarter, while net interest income rose 16%.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/kotak-mahindra-bank-leadership-change-affluent-banking-digital-channels-payments-in-focus-from-january-1-563465-2026-10-24?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-24T14:18:04.000Z"
-    },
-    {
-      "title": "RBI forex reporting rules: Freelancers, service exporters face confusion over EDF filings",
-      "summary": "India’s new RBI forex reporting rules have sparked concern among freelancers, service exporters and tech startups, with some banks demanding EDF filings despite the Governor’s assurance that individuals earning from overseas services need not report.",
-      "url": "https://www.businesstoday.in/personal-finance/story/rbi-forex-reporting-rules-freelancers-service-exporters-face-confusion-over-edf-filings-563459-2026-10-24?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "regulatory",
-      "publishedAt": "2026-10-24T12:48:39.000Z"
-    },
-    {
-      "title": "Gold prices fall sharply before Diwali: Should you buy now or wait for a deeper correction?",
-      "summary": "International gold prices fell around 4% this week, marking their weakest weekly performance in more than four months. The correction has also hit domestic markets.",
-      "url": "https://www.businesstoday.in/personal-finance/story/gold-prices-fall-sharply-before-diwali-should-you-buy-now-or-wait-for-a-deeper-correction-563454-2026-10-24?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-24T11:42:46.000Z"
-    },
-    {
-      "title": "Onion, tomato, potato prices: Which months see the biggest jumps, and why?",
-      "summary": "Onion, tomato and potato prices follow distinct seasonal patterns, with harvest cycles, weather disruptions and storage constraints influencing wholesale price movements.",
-      "url": "https://www.businesstoday.in/latest/economy/story/onion-tomato-potato-prices-which-months-see-the-biggest-jumps-and-why-563452-2026-10-24?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-24T10:52:58.000Z"
-    },
-    {
-      "title": "Tata Sons may have to list as upper-layer NBFC; RBI Governor Sanjay Malhotra signals",
-      "summary": "The RBI recently classified Tata Sons as a CIC under its NBFC-Upper Layer framework. Entities falling within the central bank’s definition of an NBFC or CIC must register if they have direct or indirect access to public funds.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/tata-sons-may-have-to-list-as-upper-layer-nbfc-rbi-governor-sanjay-malhotra-signals-563450-2026-10-24?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "regulatory",
-      "publishedAt": "2026-10-24T10:13:08.000Z"
-    },
-    {
-      "title": "Tata Chemicals gets relief in Kenya dispute as High Court rules it lacks jurisdiction",
-      "summary": "Earlier this month, Tata Chemicals announced plans to set up a high-level technical committee jointly with the Kenyan government to review regulatory issues concerning its subsidiary.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/tata-chemicals-gets-relief-in-kenya-dispute-as-high-court-rules-it-lacks-jurisdiction-563438-2026-10-24?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "regulatory",
-      "publishedAt": "2026-10-24T07:51:44.000Z"
     }
   ]
 }
