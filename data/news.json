@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28T13:51:51.106Z",
+  "lastUpdated": "2026-10-28T16:44:52.021Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,22 @@
     }
   ],
   "articles": [
+    {
+      "title": "First time health buyers increased 2.8X since FY22: Policybazaar",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/first-time-health-buyers-increased-3-8x-since-fy22-policybazaar/articleshow/135270980.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-28T15:13:25.000Z"
+    },
+    {
+      "title": "52% of Indian CEOs plan workforce cuts as AI reshapes hiring: Which jobs are at risk?",
+      "summary": "According to KPMG’s 2026 India CEO Outlook, 52% of Indian CEOs are planning workforce reductions in some areas, while 77% are hiring people with AI and technology capabilities",
+      "url": "https://www.businesstoday.in/jobs/story/52-of-indian-ceos-plan-workforce-cuts-as-ai-reshapes-hiring-which-jobs-are-at-risk-564399-2026-10-28?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-28T14:18:51.000Z"
+    },
     {
       "title": "What Microsoft’s buyout announcement means for staff in India, the US, Canada and the UK who receive an offer",
       "summary": "Microsoft has announced a voluntary exit offer for eligible staff in selected teams across four countries. Reports put eligibility near 60,000, while offer terms and timelines require a closer check.",
@@ -169,6 +185,14 @@
       "publishedAt": "2026-10-28T11:23:01.000Z"
     },
     {
+      "title": "Festive season sales are not always bargains: Avoid these 10 money mistakes",
+      "summary": "Festive sales are designed to make every purchase feel like a bargain, and the fear of missing out can lead to buying far more than planned. Set a spending limit before the sales begin and list what is genuinely needed.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/festive-season-sales-are-not-always-bargains-avoid-these-10-money-mistakes/articleshow/135134137.cms",
+      "source": "Times of India Business",
+      "category": "regulatory",
+      "publishedAt": "2026-10-28T10:51:00.000Z"
+    },
+    {
       "title": "Petrol, diesel prices may rise after Diwali: What crude oil at $140 a barrel means for consumers",
       "summary": "Petrol and diesel prices could rise after Diwali as surging crude oil prices and higher shipping costs increase pressure on the government and oil marketing companies, energy expert Narendra Taneja told Business Today TV.",
       "url": "https://www.businesstoday.in/latest/economy/story/petrol-diesel-prices-may-rise-after-diwali-what-crude-oil-at-140-a-barrel-means-for-consumers-564314-2026-10-28?utm_source=rssfeed",
@@ -185,7 +209,7 @@
       "publishedAt": "2026-10-28T10:23:57.000Z"
     },
     {
-      "title": "India-Mexico PTA Negotiations: talks begin with Terms of Reference; automotive, pharma, electronics in focus",
+      "title": "India-Mexico PTA: Talks aim to deepen trade and investment ties",
       "summary": "India and Mexico have embarked on talks for a Preferential Trade Agreement that aims to enhance bilateral trade relations. This initiative is intended to unlock new opportunities in key sectors such as automotive, pharmaceuticals, and electronics.",
       "url": "https://timesofindia.indiatimes.com/business/india-business/india-mexico-pta-talks-aim-to-deepen-trade-and-investment-ties/articleshow/135260463.cms",
       "source": "Times of India Business",
@@ -231,14 +255,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-10-28T09:23:56.000Z"
-    },
-    {
-      "title": "WATCH: After Jio Platforms' positive listing, Ambani family visits Siddhivinayak Temple",
-      "summary": "The Ambani family frequently visits the iconic temple in Mumbai to offer prayers and seek Lord Ganesha's blessings for significant family milestones, birthdays, and important corporate events.",
-      "url": "https://www.businesstoday.in/latest/trends/story/watch-after-jio-platforms-positive-listing-ambani-family-visits-siddhivinayak-temple-564221-2026-10-28?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-28T08:11:22.000Z"
     },
     {
       "title": "Mukesh Ambani gets teary-eyed as children talk about Reliance's journey at Jio listing",
@@ -359,22 +375,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-10-27T02:33:20.000Z"
-    },
-    {
-      "title": "Meta seeks up to $95bn in equity",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/meta-seeks-up-to-95bn-in-equity/articleshow/135222572.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-27T01:57:32.000Z"
-    },
-    {
-      "title": "Come clean on UAE assets, taxpayers told",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/come-clean-on-uae-assets-taxpayers-told/articleshow/135222516.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-27T01:55:24.000Z"
     }
   ]
 }
