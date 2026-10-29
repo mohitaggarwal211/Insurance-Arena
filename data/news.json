@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-29T06:48:22.756Z",
+  "lastUpdated": "2026-10-29T07:17:57.163Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,22 @@
     }
   ],
   "articles": [
+    {
+      "title": "Shapoorji Pallonji Group seeks $200 million in private credit to ease debt burden: Report",
+      "summary": "The Shapoorji Pallonji Group is seeking $150 million to $200 million through private credit as it faces mounting debt repayments and explores ways to unlock value from its 18.4% stake in Tata Sons.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/shapoorji-pallonji-group-seeks-200-million-in-private-credit-to-ease-debt-burden-report-564478-2026-10-29?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-29T07:02:57.000Z"
+    },
+    {
+      "title": "SpiceJet’s market share drops from 3.9% to 0.6% in nine months, falls below Star Air for the first time",
+      "summary": "In September, SpiceJet carried just 730,000 passengers.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/spicejets-market-share-drops-from-3-9-to-0-6-in-nine-months-falls-below-star-air-for-the-first-time-564470-2026-10-29?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-29T06:40:42.000Z"
+    },
     {
       "title": "Rupee gains 11 paise to 95.17 against dollar after Fed holds interest rates",
       "summary": "In early trading on Thursday, the rupee gained 11 paise against the US dollar, reaching 95.17. This uptick followed the US Federal Reserve's decision to keep interest rates steady, causing a weakening of the dollar as traders reacted negatively.",
@@ -359,22 +375,6 @@
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-10-28T17:30:45.000Z"
-    },
-    {
-      "title": "52% of Indian CEOs plan workforce cuts as AI reshapes hiring: Which jobs are at risk?",
-      "summary": "According to KPMG’s 2026 India CEO Outlook, 52% of Indian CEOs are planning workforce reductions in some areas, while 77% are hiring people with AI and technology capabilities",
-      "url": "https://www.businesstoday.in/jobs/story/52-of-indian-ceos-plan-workforce-cuts-as-ai-reshapes-hiring-which-jobs-are-at-risk-564399-2026-10-28?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-28T14:18:51.000Z"
-    },
-    {
-      "title": "What Microsoft’s buyout announcement means for staff in India, the US, Canada and the UK who receive an offer",
-      "summary": "Microsoft has announced a voluntary exit offer for eligible staff in selected teams across four countries. Reports put eligibility near 60,000, while offer terms and timelines require a closer check.",
-      "url": "https://www.businesstoday.in/latest/trends/photo/what-microsofts-buyout-announcement-means-for-staff-in-india-the-us-canada-and-the-uk-who-receive-an-offer-564382-2026-10-28?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-28T13:03:52.000Z"
     }
   ]
 }
