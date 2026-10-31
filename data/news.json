@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T07:08:51.900Z",
+  "lastUpdated": "2026-10-31T13:23:50.802Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,70 @@
     }
   ],
   "articles": [
+    {
+      "title": "Tata Sons row: ‘Sebi monitoring all developments,’ says chairman Tuhin Kanta Pandey",
+      "summary": "Currently, SEBI is taking charge of governance issues within Tata Sons, the umbrella organization for Tata Group. While Tata Sons is not publicly traded, its subsidiary companies are required to follow SEBI regulations.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/tata-sons-row-sebi-monitoring-all-developments-says-chairman-tuhin-kanta-pandey/articleshow/135400204.cms",
+      "source": "Times of India Business",
+      "category": "regulatory",
+      "publishedAt": "2026-10-31T11:59:03.000Z"
+    },
+    {
+      "title": "Swipe, shop, repeat: Online buyers splash out 7.5% more than offline shoppers",
+      "summary": "Research indicates that households in India utilizing online shopping platforms incur a monthly expenditure that is 7.5 percent higher than those who do not shop online. Notably, the rise in spending for services and durable goods is strikingly high at 23.4 and 24.5 percent.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/swipe-shop-repeat-online-buyers-splash-out-7-5-more-than-offline-shoppers/articleshow/135399367.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-31T11:33:12.000Z"
+    },
+    {
+      "title": "‘Binance will absorb impact, not users’: Crypto giant sets aside $6.34 bn to cover losses",
+      "summary": "Binance has encountered a serious security breach, with $6.3 billion in digital assets being stolen. To safeguard its users, the exchange will utilize its Secure Asset Fund for Users to absorb the losses.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/binance-will-absorb-the-impact-not-users-crypto-exchange-sets-aside-6-34-billion-to-cover-hack-losses/articleshow/135398082.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-31T10:39:09.000Z"
+    },
+    {
+      "title": "Centre scraps Rs 2.5/litre petrol export duty, hikes diesel levy to Rs 11.5",
+      "summary": "The Centre took significant steps on October 31 by eliminating the Rs 2.5 per litre duty on petrol exports. In contrast, the excise duties for high-speed diesel and aviation turbine fuel were ramped up; diesel duties increased from Rs 8.5 to Rs 11.5 per litre,…",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/centre-scraps-rs-2-5/litre-petrol-export-duty-hikes-diesel-levy-to-rs-11-5/articleshow/135397272.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-31T10:09:49.000Z"
+    },
+    {
+      "title": "Nifty50 faces worst year in a decade: Will November help Dalal Street to bounce back?",
+      "summary": "October was a challenging month for Indian stocks, leading to a cautious perspective for November. The recent dip in the Nifty50 has sparked recovery hopes, even as elevated crude oil prices and AI sector trends may pose obstacles.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/nifty50-faces-worst-year-in-a-decade-will-november-help-dalal-street-to-bounce-back/articleshow/135396269.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-31T09:50:08.000Z"
+    },
+    {
+      "title": "93% drop in Q2 profit despite record sales: Why rising input cost is squeezing IGL",
+      "summary": "IGL's net profit declined to ₹24.38 crore in Q2 FY27 from ₹372.51 crore in the corresponding quarter last year. The decline came despite an 8% increase in sales volumes and a 26% jump in gross sales turnover, which rose to ₹5,999.13 crore from ₹4,431.63 crore.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/igl-profit-plunges-93-5-despite-record-gas-sales-why-rising-input-costs-are-squeezing-indias-city-gas-distributors-564922-2026-10-31?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-10-31T08:57:04.000Z"
+    },
+    {
+      "title": "No more unknown calls! Govt mandates displaying names - here's what changes from November 1",
+      "summary": "From November 1, telecom operators will implement Calling Name Presentation, changing how incoming calls are displayed. This new feature will show caller names for both saved and unsaved numbers, depending on subscriber details.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/no-more-unknown-calls-govt-mandates-displaying-names-heres-what-changes-from-november-1/articleshow/135395083.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-31T08:51:45.000Z"
+    },
+    {
+      "title": "US midterm elections: What a Democratic win could mean for India's trade",
+      "summary": "The midterm elections in the United States are approaching, and results may affect trade relations with India. A Democratic win could lead to increased scrutiny of current trade policies, including tariffs and government spending.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/us-midterm-elections-what-a-democratic-win-could-mean-for-indias-trade/articleshow/135393602.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-10-31T08:04:23.000Z"
+    },
     {
       "title": "Noel Tata's 3 letters set the stage for Tata Sons board meet on Nov 26 amid ongoing friction",
       "summary": "While the letters dated October 26 and October 29 highlight the continuing turbulence in the salt-to-semiconductor conglomerate, the despatches followed an attempted truce meeting between Noel and Chandrasekaran on October 25 in a bid to find a common ground.",
@@ -225,52 +289,12 @@
       "publishedAt": "2026-10-30T15:45:13.000Z"
     },
     {
-      "title": "Reliance Q2 results: RIL posts record Rs 29,550 crore quarterly profit",
-      "summary": "Reliance Industries Limited announced impressive figures for FY27, with consolidated gross revenue peaking at Rs 3,62,268 crore.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/reliance-q2-results-ril-posts-record-rs-29550-crore-quarterly-profit-revenue-hits-rs-3-62-lakh-crore/articleshow/135367923.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-30T15:22:54.000Z"
-    },
-    {
-      "title": "Bank of Baroda net profit up 36% to Rs 6532 crore",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/bank-of-baroda-net-profit-up-36-to-rs-6532-crore/articleshow/135367349.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-30T15:02:06.000Z"
-    },
-    {
-      "title": "Gold hits one-year low, silver slips below $50 as inflation fears bite",
-      "summary": "Gold and silver prices have plummeted to their lowest in a year as energy costs surge and inflation remains a pressing concern. The decline in precious metals mirrors waning investor confidence, driven by fears over persistently high interest rates set by the US Federal Reserve.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/gold-hits-one-year-low-silver-slips-below-50-as-inflation-fears-bite/articleshow/135367179.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-30T15:00:31.000Z"
-    },
-    {
-      "title": "India's forex kitty shrinks by $1.27 billion as gold reserves slide",
-      "summary": "In the week ending October 23, India witnessed a decline in foreign exchange reserves, dropping by $1.269 billion to a total of $719.748 billion. This decrease was primarily driven by a notable reduction in the value of gold reserves.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/indias-forex-kitty-shrinks-by-1-27-billion-as-gold-reserves-slide-bank-credit-growth-accelerates/articleshow/135366420.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-30T14:38:56.000Z"
-    },
-    {
       "title": "Jio cuts net debt 79% to ₹8,822 crore: What it means for its next growth phase",
       "summary": "According to Jio Platforms' Q2 FY27 results, total borrowings stood at ₹58,943 crore as of September 30, 2026, down 20.9% from ₹74,491 crore a year earlier.",
       "url": "https://www.businesstoday.in/latest/corporate/story/jio-cuts-net-debt-79-to-rs8822-crore-what-it-means-for-its-next-growth-phase-564857-2026-10-30?utm_source=rssfeed",
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-10-30T14:35:53.000Z"
-    },
-    {
-      "title": "Jio Q2 results: Profit jumps 14% to Rs 8,389 crore, revenue up 11.4%",
-      "summary": "In its Q2 FY27 report, Jio Platforms recorded a robust net profit increase of 13.7% year-on-year. Operational revenues surged to Rs 40,475 crore, marking an 11.4% rise. The company welcomed 9.1 million new customers, pushing its total to 542.4 million.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/jio-q2-results-profit-jumps-14-to-rs-8389-crore-revenue-up-11-4/articleshow/135365671.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-30T14:16:24.000Z"
     },
     {
       "title": "Bank of Baroda raises lending, deposit growth guidance amid strong traction for second successive quarter",
@@ -287,22 +311,6 @@
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-10-30T14:00:15.000Z"
-    },
-    {
-      "title": "'Reason why NDA govt wins trust': Sitharaman cites World Bank's poverty reduction findings",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/reason-why-nda-govt-wins-peoples-trust-sitharaman-hails-world-banks-6-key-findings-on-indias-poverty-reduction/articleshow/135363465.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-30T13:51:41.000Z"
-    },
-    {
-      "title": "Hello Kitty's spy drama lands in hot water: What went wrong with Sanrio in China",
-      "summary": "Sanrio has come under fire in China for its collaboration with the Japanese drama VIVANT, which many viewers found offensive. The show's depiction of a fictional Chinese intelligence agency apprehending Japanese spies has ignited fierce online backlash.",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/hello-kitty-parent-sanrio-faces-backlash-in-china-whats-the-fire-about/articleshow/135363990.cms",
-      "source": "Times of India Business",
-      "category": "insurance",
-      "publishedAt": "2026-10-30T13:28:07.000Z"
     },
     {
       "title": "India’s senior-care market looks beyond hospitals as demand for ageing-at-home products grows",
@@ -367,14 +375,6 @@
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-10-30T02:49:16.000Z"
-    },
-    {
-      "title": "Gold coins vs jewellery before Dhanteras: The purity, charges and hallmark details that change the comparison",
-      "summary": "Gold coins and jewellery can differ in purity, charges and resale terms even at the same weight. Before Dhanteras, check the fineness, hallmark route, GST treatment and full purchase bill.",
-      "url": "https://www.businesstoday.in/latest/trends/photo/gold-coins-vs-jewellery-before-dhanteras-the-purity-charges-and-hallmark-details-that-change-the-comparison-564636-2026-10-30?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-30T02:30:33.000Z"
     }
   ]
 }
