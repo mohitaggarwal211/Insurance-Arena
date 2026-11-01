@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T22:16:28.028Z",
+  "lastUpdated": "2026-11-01T07:11:33.166Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,86 @@
     }
   ],
   "articles": [
+    {
+      "title": "Commercial LPG price hiked by Rs 10; ATF rates up for fourth straight month",
+      "summary": "The prices of commercial LPG cylinders have jumped by Rs 10 to reach Rs 2,820, marking a consecutive increase after a rise of Rs 62.50 earlier this month. Additionally, the cost of aviation turbine fuel has escalated by Rs 1.37 per litre, further burdening airline costs.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/commercial-lpg-cylinder-price-hiked-by-rs-10-to-rs-2820-atf-rates-up-for-fourth-straight-month/articleshow/135418438.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-01T05:39:55.000Z"
+    },
+    {
+      "title": "Binance to resume withdrawals after recovering 95% of $6.3 billion crypto theft",
+      "summary": "Binance has announced a phased resumption of cryptocurrency withdrawals following a significant heist of $6.3 billion. The exchange reported it has recovered 95% of the stolen digital assets, enabling this process.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/binance-to-resume-withdrawals-after-recovering-95-of-6-3-billion-crypto-theft/articleshow/135418376.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-01T05:11:27.000Z"
+    },
+    {
+      "title": "Apple reclaims world's most valuable company title as Nvidia slips amid AI investment concerns",
+      "summary": "Apple has reclaimed the position of the world's most valuable company, surpassing Nvidia amid rising concerns. Both companies have seen their stock prices decline, with Apple falling 1.2 percent and Nvidia 4.2 percent.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/apple-reclaims-worlds-most-valuable-company-title-as-nvidia-slips-amid-ai-investment-concerns/articleshow/135416397.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-01T03:31:53.000Z"
+    },
+    {
+      "title": "Which country has the highest debt per person? Switzerland leads, US ranks among top four",
+      "summary": "The ranking, based on data for the first quarter of 2026, compares 39 economies by combining debt owed by governments, households and non-financial corporations",
+      "url": "https://www.businesstoday.in/latest/world/story/which-country-has-the-highest-debt-per-person-switzerland-leads-us-ranks-among-top-four-564943-2026-11-01?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-01T02:20:05.000Z"
+    },
+    {
+      "title": "Quote of the Day by Narayana Murthy : 'I do not believe in any legacy. The past is dead and gone'",
+      "summary": "He lamented that even top gold medalists from IITs often struggled when pursuing research at global institutions like MIT or Harvard University because the Indian system fails to link theory with real-world.",
+      "url": "https://www.businesstoday.in/india/story/quote-of-the-day-by-narayana-murthy-i-do-not-believe-in-any-legacy-the-past-is-dead-and-gone-564948-2026-11-01?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-01T02:00:06.000Z"
+    },
+    {
+      "title": "BT Explainer | Gold loans surge 83% to ₹5.77 lakh crore: What happens if gold prices fall 15%?",
+      "summary": "Highlighting the trend in a post on X, Deepak Shenoy pointed out that gold loans from banks had grown 83% year-on-year to ₹5.77 lakh crore. Nearly ₹3 lakh crore has been added to outstanding gold loans over the past 12 months.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/bt-explainer-gold-loans-surge-83-to-rs5-77-lakh-crore-what-happens-if-gold-prices-fall-15-564951-2026-11-01?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-01T01:00:07.000Z"
+    },
+    {
+      "title": "70 km/l mileage, ₹78,912 price! This Hero bike has a surprise for Indian buyers",
+      "summary": "Hero Splendor Plus offers claimed 70 km/l mileage at Rs 78,912. With over 21 lakh Splendor bikes sold in six months, discover why this commuter motorcycle leads India's sales charts.",
+      "url": "https://www.businesstoday.in/latest/photo/70-kml-mileage-rs78912-price-this-hero-bike-has-a-surprise-for-indian-buyers-564745-2026-11-01?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-01T01:00:07.000Z"
+    },
+    {
+      "title": "New 5G phone under ₹20,000? Wobble's upcoming smartphone hides a big surprise",
+      "summary": "Wobble Speed 5G is launching soon in India under ₹20,000. The upcoming budget smartphone features a circular dual-camera design, red colour option and a fresh look. Check details.",
+      "url": "https://www.businesstoday.in/latest/photo/new-5g-phone-under-rs20000-wobbles-upcoming-smartphone-hides-a-big-surprise-564750-2026-11-01?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "regulatory",
+      "publishedAt": "2026-11-01T00:45:03.000Z"
+    },
+    {
+      "title": "₹3.15 lakh for a smartphone? Samsung's new luxury foldable hides a big surprise",
+      "summary": "Samsung W27 foldable launches in China at up to Rs 3.15 lakh, featuring a 200MP camera, 8-inch AMOLED display, gold accents and Snapdragon chipset. Check price and launch details.",
+      "url": "https://www.businesstoday.in/latest/photo/rs3-15-lakh-for-a-smartphone-samsungs-new-luxury-foldable-hides-a-big-surprise-564782-2026-11-01?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-01T00:30:33.000Z"
+    },
+    {
+      "title": "Heatwaves aren't the only reason Indians are buying more sunscreen; skincare awareness is the bigger driver",
+      "summary": "India's sunscreen market is witnessing rapid growth, with the number of sunscreen-buying households more than tripling in four years.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/heatwaves-arent-the-only-reason-indians-are-buying-more-sunscreen-skincare-awareness-is-the-bigger-driver-564953-2026-11-01?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-01T00:15:04.000Z"
+    },
     {
       "title": "Windfall gains tax on diesel, ATF exports up; petrol cut to nil",
       "summary": "",
@@ -265,14 +345,6 @@
       "publishedAt": "2026-10-30T22:47:53.000Z"
     },
     {
-      "title": "AU Bank probes potential data leak",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/au-bank-probes-potential-data-leak/articleshow/135380899.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-30T22:31:19.000Z"
-    },
-    {
       "title": "Nasdaq bleeds: Faces $2 trillion wipeout in October",
       "summary": "",
       "url": "https://timesofindia.indiatimes.com/business/international-business/nasdaq-bleeds-faces-2-trillion-wipeout-in-october/articleshow/135380573.cms",
@@ -297,84 +369,12 @@
       "publishedAt": "2026-10-30T22:17:50.000Z"
     },
     {
-      "title": "Govt sets up committee to reform banking sector",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/govt-sets-up-committee-to-reform-banking-sector/articleshow/135378791.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-30T22:16:14.000Z"
-    },
-    {
-      "title": "Reliance Industries Q2 net rises 34% to Rs 29,550 crore",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/reliance-industries-q2-net-rises-34-to-rs-29550-crore/articleshow/135378733.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-10-30T22:12:23.000Z"
-    },
-    {
       "title": "Gold prices fall to lowest since July: Is China's offshore capital crackdown triggering selling?",
       "summary": "China is set to lose its position as the world's largest LNG importer to Japan in 2026, with high prices, weak domestic demand and cheaper energy alternatives weighing on its gas purchases.",
       "url": "https://www.businesstoday.in/latest/economy/story/gold-prices-fall-to-lowest-since-july-is-chinas-offshore-capital-crackdown-triggering-selling-564858-2026-10-31?utm_source=rssfeed",
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-10-30T20:55:10.000Z"
-    },
-    {
-      "title": "Jio cuts net debt 79% to ₹8,822 crore: What it means for its next growth phase",
-      "summary": "According to Jio Platforms' Q2 FY27 results, total borrowings stood at ₹58,943 crore as of September 30, 2026, down 20.9% from ₹74,491 crore a year earlier.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/jio-cuts-net-debt-79-to-rs8822-crore-what-it-means-for-its-next-growth-phase-564857-2026-10-30?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-30T14:35:53.000Z"
-    },
-    {
-      "title": "Bank of Baroda raises lending, deposit growth guidance amid strong traction for second successive quarter",
-      "summary": "Bank of Baroda’s MD and CEO Debadatta Chand said the allegations made by NMC Health founder B.R. Shetty remain untested and that the lender’s recovery actions will continue.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/bank-of-baroda-raises-lending-deposit-growth-guidance-amid-strong-traction-for-second-successive-quarter-564851-2026-10-30?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-30T14:06:54.000Z"
-    },
-    {
-      "title": "MCA clarifies role in NCLT appointments after SC flags interference; says tribunal independently manages staff",
-      "summary": "In a statement, the ministry said it handles the administrative aspects of the appointment process for the 63 judicial and technical members of the NCLT.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/mca-clarifies-role-in-nclt-appointments-after-sc-flags-interference-says-tribunal-independently-manages-staff-564850-2026-10-30?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-30T14:00:15.000Z"
-    },
-    {
-      "title": "India’s senior-care market looks beyond hospitals as demand for ageing-at-home products grows",
-      "summary": "From mobility aids and health-monitoring devices to everyday care products, businesses are addressing the needs of an ageing population. Antara’s AGEasy, which reported 92.5% revenue growth in FY26, offers a glimpse of the emerging consumer opportunity.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/indias-senior-care-market-looks-beyond-hospitals-as-demand-for-ageing-at-home-products-grows-564832-2026-10-30?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-30T12:05:58.000Z"
-    },
-    {
-      "title": "Delhi entry restrictions from November 1! Will your car be allowed into the capital?",
-      "summary": "Delhi vehicle entry restrictions tighten from November 1 under GRAP. Check which cars and trucks face curbs, emission rules, alternative routes and Metro options for NCR commuters.",
-      "url": "https://www.businesstoday.in/latest/photo/delhi-entry-restrictions-from-november-1-will-your-car-be-allowed-into-the-capital-564794-2026-10-30?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-30T10:35:59.000Z"
-    },
-    {
-      "title": "₹325 crore, 127 acres and advanced IVF! Inside Banaskantha's massive cattle breeding centre",
-      "summary": "Explore Banaskantha's ₹325-crore cattle breeding centre, spread across 127 acres. With advanced IVF technology, it aims to produce 25,000 embryos yearly and boost dairy output in India.",
-      "url": "https://www.businesstoday.in/latest/photo/rs325-crore-127-acres-and-advanced-ivf-inside-banaskanthas-massive-cattle-breeding-centre-564797-2026-10-30?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-30T10:31:33.000Z"
-    },
-    {
-      "title": "144 kmph without a challan? Nitin Gadkari's expressway proposal has a crucial catch",
-      "summary": "Nitin Gadkari proposes a 20% speeding challan relaxation on expressways. Could 144 kmph be allowed? Know the legal speed limits, enforcement rules and key warnings for motorists.",
-      "url": "https://www.businesstoday.in/latest/photo/144-kmph-without-a-challan-nitin-gadkaris-expressway-proposal-has-a-crucial-catch-564795-2026-10-30?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-30T10:23:37.000Z"
     }
   ]
 }
