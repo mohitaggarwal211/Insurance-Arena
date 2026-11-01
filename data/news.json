@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T07:11:33.166Z",
+  "lastUpdated": "2026-11-01T07:42:11.411Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,14 @@
     }
   ],
   "articles": [
+    {
+      "title": "GST collections hit ₹2.31 lakh crore in Oct, up 22.9% YoY on robust domestic growth",
+      "summary": "The cumulative gross GST collection for the first seven months of the current fiscal year (April-October 2026) stood at Rs 14,77,569 crore, registering a steady 13.2% growth over the Rs 13,05,213 crore recorded during the same period in the previous financial year.",
+      "url": "https://www.businesstoday.in/india/story/gross-gst-collections-hit-rs2-31-lakh-crore-in-october-marks-22-9-yoy-rise-on-robust-domestic-growth-564976-2026-11-01?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-01T07:10:15.000Z"
+    },
     {
       "title": "Commercial LPG price hiked by Rs 10; ATF rates up for fourth straight month",
       "summary": "The prices of commercial LPG cylinders have jumped by Rs 10 to reach Rs 2,820, marking a consecutive increase after a rise of Rs 62.50 earlier this month. Additionally, the cost of aviation turbine fuel has escalated by Rs 1.37 per litre, further burdening airline costs.",
@@ -367,14 +375,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-10-30T22:17:50.000Z"
-    },
-    {
-      "title": "Gold prices fall to lowest since July: Is China's offshore capital crackdown triggering selling?",
-      "summary": "China is set to lose its position as the world's largest LNG importer to Japan in 2026, with high prices, weak domestic demand and cheaper energy alternatives weighing on its gas purchases.",
-      "url": "https://www.businesstoday.in/latest/economy/story/gold-prices-fall-to-lowest-since-july-is-chinas-offshore-capital-crackdown-triggering-selling-564858-2026-10-31?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-10-30T20:55:10.000Z"
     }
   ]
 }
