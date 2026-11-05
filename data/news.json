@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-05T07:59:53.994Z",
-  "articlesCount": 40,
+  "lastUpdated": "2026-11-05T18:09:41.556Z",
+  "articlesCount": 39,
   "sourcesOk": 5,
   "sourcesTotal": 9,
   "sourceStatus": [
@@ -41,7 +41,7 @@
     {
       "source": "Times of India Business",
       "status": "ok",
-      "articles": 20,
+      "articles": 19,
       "feedUsed": "https://timesofindia.indiatimes.com/rssfeeds/1898055.cms"
     },
     {
@@ -56,6 +56,198 @@
     }
   ],
   "articles": [
+    {
+      "title": "IT officials flag lapses in tax reporting under FATCA, CRS by financial institutions",
+      "summary": "Debjyoti Das, Principal Director General of Income Tax (Intelligence & Criminal Investigation) attributed 97% of the defects that were found related to inaccuracies in tax identification number (TIN)",
+      "url": "https://www.businesstoday.in/latest/economy/story/it-officials-flag-lapses-in-tax-reporting-under-fatca-crs-by-financial-institutions-566075-2026-11-05?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-05T16:55:15.000Z"
+    },
+    {
+      "title": "'India-US relationship will change': Mike Williams predicts warmer ties after Democrats' historic victory",
+      "summary": "Mike Williams, Founder and President of The Williams Group, said Democrats are puzzled by the Trump administration's approach towards India, particularly the absence of a bilateral trade agreement despite the countries' longstanding strategic partnership.",
+      "url": "https://www.businesstoday.in/india/story/india-us-relationship-will-change-mike-williams-predicts-warmer-ties-after-democrats-historic-victory-566068-2026-11-05?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-05T16:33:15.000Z"
+    },
+    {
+      "title": "Sensex, Nifty rise over 8% in just 6 sessions as FIIs pour in money; but is the rally sustainable?",
+      "summary": "The latest rally has extended the market's winning streak to six consecutive sessions. During this period, the Sensex has gained 6,063.98 points, or 8.27%, while the Nifty has advanced 1,837.75 points, which is an increase of 8%.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/investors-richer-by-rs-29-lakh-crore-as-sensex-nifty-rise-over-8-fiis-pour-in-money-but-will-rally-last/articleshow/135578587.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-05T16:15:52.000Z"
+    },
+    {
+      "title": "How government can look to abolish LTCG tax; SBI report lists ways",
+      "summary": "A complete removal of LTCG tax could encourage higher market turnover after a specified period, even if the STT rate remained unchanged. STT collections are currently estimated at around Rs 73,000 crore for FY27.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/four-ways-in-which-government-can-look-to-abolish-ltcg-tax-for-all-class-of-investors-what-sbi-report-says/articleshow/135565859.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-05T15:13:14.000Z"
+    },
+    {
+      "title": "Diwali crackers in Delhi-NCR: The time slots, QR check and 300-metre rule",
+      "summary": "Certified green crackers are allowed in Delhi-NCR only from 6-7 am and 8-10 pm on 7 and 8 November. Here's how to spot a genuine box, where sales are allowed and what's banned.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/diwali-crackers-in-delhi-ncr-the-time-slots-qr-check-and-300-metre-rule-566042-2026-11-05?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-05T14:07:35.000Z"
+    },
+    {
+      "title": "Adani Ports to acquire Europe's second-largest liquid storage operator Evos, add 8 European terminals",
+      "summary": "The acquisition will add eight port-based terminals across the Netherlands, Germany, Spain, Belgium and Malta to Adani Ports' portfolio",
+      "url": "https://www.businesstoday.in/latest/corporate/story/adani-ports-to-acquire-europes-second-largest-liquid-storage-operator-evos-add-8-european-terminals-566027-2026-11-05?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-05T13:07:20.000Z"
+    },
+    {
+      "title": "Delhi pollution crosses 400: Can a ₹2,500 neck air purifier really protect you?",
+      "summary": "Delhi-NCR's AQI crosses 400, putting ₹2,500 wearable neck air purifiers in focus. Check their features, effectiveness, battery life and whether they can protect against pollution.",
+      "url": "https://www.businesstoday.in/latest/photo/delhi-pollution-crosses-400-can-a-rs2500-neck-air-purifier-really-protect-you-566011-2026-11-05?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-05T12:25:25.000Z"
+    },
+    {
+      "title": "Bharti Airtel net profit up 24% to Rs 10,710 crore",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/bharti-airtel-net-profit-up-24-to-rs-10710-crore/articleshow/135573408.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-05T12:25:18.000Z"
+    },
+    {
+      "title": "Trump effect: US-based Indian techies are returning, but to what? Harsh reality of steep salary cuts",
+      "summary": "Techies returning from the US are getting into a wide range of tech and techno-functional roles across the board. Employers in India are also increasingly looking for specialised skills rather than treating international work experience as an advantage in itself.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/trump-effect-us-based-indian-techies-are-returning-but-to-what-harsh-reality-of-steep-salary-cuts/articleshow/135569961.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-05T12:22:29.000Z"
+    },
+    {
+      "title": "Why petrol is ₹117.51 in Andhra Pradesh and ₹88.66 in Andaman",
+      "summary": "Petrol costs ₹117.51 in Andhra Pradesh and ₹88.66 in Andaman. Here's the full gap, why state tax drives it and why this week's crude fall hasn't reached the pump.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/why-petrol-is-rs117-51-in-andhra-pradesh-and-rs88-66-in-andaman-565983-2026-11-05?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-05T12:20:53.000Z"
+    },
+    {
+      "title": "Buying a Hyundai this Diwali? ₹1 lakh benefits come with a catch buyers should know",
+      "summary": "Hyundai's Diwali 2026 offers bring benefits of up to ₹1 lakh on Creta, ₹70,000 on Grand i10 NIOS and ₹60,000 on i20. Check discounts, EMI deals and variant eligibility before buying.",
+      "url": "https://www.businesstoday.in/latest/photo/buying-a-hyundai-this-diwali-rs1-lakh-benefits-come-with-a-catch-buyers-should-know-566010-2026-11-05?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-05T12:20:34.000Z"
+    },
+    {
+      "title": "₹100 crore on Day 1? Ramayana's box-office predictions come with an unexpected catch",
+      "summary": "Ranbir Kapoor's Ramayana eyes a ₹100 crore opening and up to ₹3,000 crore lifetime collection. Experts flag Diwali timing, premium ticket prices and southern box-office competition.",
+      "url": "https://www.businesstoday.in/latest/photo/rs100-crore-on-day-1-ramayanas-box-office-predictions-come-with-an-unexpected-catch-566006-2026-11-05?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "insurance",
+      "publishedAt": "2026-11-05T12:15:49.000Z"
+    },
+    {
+      "title": "Artificial rain over Delhi? Two fresh trials reveal an unexpected twist in pollution fight",
+      "summary": "Delhi reportedly conducts two cloud-seeding trials near IGI Airport to tackle pollution. More artificial rain experiments may follow Diwali and Chhath despite earlier failed attempts.",
+      "url": "https://www.businesstoday.in/latest/photo/artificial-rain-over-delhi-two-fresh-trials-reveal-an-unexpected-twist-in-pollution-fight-566003-2026-11-05?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-05T12:09:45.000Z"
+    },
+    {
+      "title": "Hyderabad-Patna flights cut by half before Chhath: What travellers should know",
+      "summary": "Patna has 75 fewer weekly departures than last October, just before Chhath. Here's how the cuts break down, what travellers have seen on fares and which train specials are running.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/hyderabad-patna-flights-cut-by-half-before-chhath-what-travellers-should-know-565982-2026-11-05?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-05T11:10:25.000Z"
+    },
+    {
+      "title": "India now makes more steel than US and Japan combined. Anand Mahindra says: 'Simply incredible'",
+      "summary": "According to the World Steel Association's 2025 data, India produced 164.9 million tonnes of crude steel, compared with 81.9 million tonnes by the US and 80.7 million tonnes by Japan",
+      "url": "https://www.businesstoday.in/latest/economy/story/india-now-makes-more-steel-than-us-and-japan-combined-anand-mahindra-says-simply-incredible-565976-2026-11-05?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-05T11:00:40.000Z"
+    },
+    {
+      "title": "Centre to review UGC equity rules, tells Supreme Court it may form panel",
+      "summary": "Solicitor General Tushar Mehta told the court that the government was working to address students' concerns and ensure that no community felt excluded or threatened under the rules",
+      "url": "https://www.businesstoday.in/india/story/centre-to-review-ugc-equity-rules-tells-supreme-court-it-may-form-panel-565970-2026-11-05?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-05T10:37:37.000Z"
+    },
+    {
+      "title": "50% work from home in Delhi-NCR till 20 November: Who's covered and who isn't",
+      "summary": "Offices in Delhi and five NCR districts can keep only half their staff on site from 5 to 20 November. Here's who's exempt, what construction work stops and what the order doesn't settle.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/50-work-from-home-in-delhi-ncr-till-20-november-whos-covered-and-who-isnt-565967-2026-11-05?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-05T10:30:01.000Z"
+    },
+    {
+      "title": "Developing nations need $305 billion annually to fight climate change, but receive barely $32 billion: UNEP",
+      "summary": "Developing countries need $305 billion annually by 2035 to tackle worsening climate impacts, but international public adaptation finance reached barely $32 billion in 2024, according to UNEP.",
+      "url": "https://www.businesstoday.in/latest/economy/story/developing-nations-need-305-billion-annually-to-fight-climate-change-but-receive-barely-32-billion-unep-565946-2026-11-05?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "insurance",
+      "publishedAt": "2026-11-05T10:13:22.000Z"
+    },
+    {
+      "title": "Classroom to billion-dollar fortune: How Chinese siblings struck gold in the stock market",
+      "summary": "Michael Mai and his sister, Mai Huixia, reached billionaire status following the public debut of Crown New Materials Technology on the Shenzhen Stock Exchange, where shares surged nearly eightfold in just one day.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/from-classroom-to-billion-dollar-fortune-how-chinese-siblings-struck-gold-in-the-stock-market/articleshow/135568033.cms",
+      "source": "Times of India Business",
+      "category": "insurance",
+      "publishedAt": "2026-11-05T10:10:52.000Z"
+    },
+    {
+      "title": "Tata Sons chair Chandrasekaran meets Italy PM Meloni after Iveco takeover",
+      "summary": "N Chandrasekaran, the chairman of Tata Sons, recently engaged in discussions with Prime Minister Giorgia Meloni in Rome. Their talks revolved around Tata Motors' strategic acquisition of a controlling interest in Iveco Group.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/tata-sons-chair-chandrasekaran-meets-italy-pm-meloni-after-iveco-takeover/articleshow/135566488.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-05T09:09:18.000Z"
+    },
+    {
+      "title": "Smartphones could get 30% costlier! How AI is driving up prices of your next upgrade",
+      "summary": "Rising demand for memory components due to the AI boom could increase the prices of budget smartphones. Jefferies reports that low-end devices may see price hikes of about 30 percent within the next few years.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/smartphones-could-get-30-costlier-how-ai-is-driving-up-prices-of-your-next-upgrade/articleshow/135565021.cms",
+      "source": "Times of India Business",
+      "category": "regulatory",
+      "publishedAt": "2026-11-05T08:42:42.000Z"
+    },
+    {
+      "title": "Mehli Mistry challenges Tata Trust removal before Mumbai Charity Commissioner",
+      "summary": "Pointing specifically to Reporting Trustee Noel N. Tata, Mistry highlighted that Noel Tata is an Irish citizen holding a UAE Golden Visa while questioning his fiscal residency status.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/mehli-mistry-challenges-tata-trust-removal-before-mumbai-charity-commissioner-565890-2026-11-05?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-05T08:38:29.000Z"
+    },
+    {
+      "title": "Gold's biggest enemy could become its biggest supporter: The unusual US bond-market paradox",
+      "summary": "Rising US Treasury yields and a stronger dollar typically weigh on gold prices, but prolonged economic and financial stress could eventually reverse this trend.",
+      "url": "https://www.businesstoday.in/latest/economy/story/golds-biggest-enemy-could-become-its-biggest-supporter-the-unusual-us-bond-market-paradox-565875-2026-11-05?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-05T08:28:15.000Z"
+    },
+    {
+      "title": "Rs 35 lakh cash, other agents' names on policies: Insurance agent gets tax notice",
+      "summary": "The insurance agent in the case deposited Rs 35 lakh in cash into his bank account. The department classified the amount as “unexplained money” and sought details of its source.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/insurance-agent-deposited-rs-35-lakh-in-cash-collected-as-policy-premiums-tax-officer-called-it-unexplained-money-saying-his-name-was-missing-from-some-policies-why-itat-jaipur-gave-full-relief/articleshow/135563142.cms",
+      "source": "Times of India Business",
+      "category": "insurance",
+      "publishedAt": "2026-11-05T08:18:30.000Z"
+    },
     {
       "title": "Why US midterm elections may not change the tariff equation for India",
       "summary": "Experts believe that the tariff policies laid down by US President Donald Trump are unlikely to be pulled back completely",
@@ -97,20 +289,12 @@
       "publishedAt": "2026-11-05T05:32:26.000Z"
     },
     {
-      "title": "Diwali bonanza: Investors get Rs 6.9 L cr richer - top reasons behind stock market rally",
+      "title": "Sensex settles over 2,000 points higher, investors end Rs 8 lakh cr richer: Top reasons for rally",
       "summary": "Dalal Street witnessed a major surge as Sensex soared over 1,600 points and Nifty50 gained 2%. This rise in the market was supported by a decline in crude oil prices and returning foreign investor interest.",
       "url": "https://timesofindia.indiatimes.com/business/india-business/diwali-bonanza-on-dalal-street-bse-sensex-nse-nifty50-rise-on-november-5-2026-top-reasons-why-stock-market-is-rising/articleshow/135559225.cms",
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-11-05T05:01:34.000Z"
-    },
-    {
-      "title": "How much gold can you keep at home? The 500g rule explained",
-      "summary": "India has no ownership cap on gold, but tax searches follow set jewellery limits. Here's what 500g, 250g and 100g really mean, what isn't covered and which papers to keep.",
-      "url": "https://www.businesstoday.in/latest/trends/photo/how-much-gold-can-you-keep-at-home-the-500g-rule-explained-565770-2026-11-05?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-05T03:00:05.000Z"
     },
     {
       "title": "Fireworks on Dalal Street: BSE Sensex soars 1,700 points, NSE Nifty50 gains 2%",
@@ -127,62 +311,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-11-05T02:01:38.000Z"
-    },
-    {
-      "title": "Quote of the Day by Deepinder Goyal: 'Everything is solvable. You have to put your mind to it'",
-      "summary": "Deepinder Goyal is an Indian billionaire entrepreneur best known as the founder of Zomato, India's largest restaurant discovery and food delivery platform. He graduated from IIT Delhi in 2005 with an Integrated M.Tech in Mathematics and Computing.",
-      "url": "https://www.businesstoday.in/india/story/quote-of-the-day-by-deepinder-goyal-everything-is-solvable-you-have-to-put-your-mind-to-it-565763-2026-11-05?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-05T02:00:04.000Z"
-    },
-    {
-      "title": "How much cash can you keep at home? The limits that actually matter",
-      "summary": "India doesn't cap the cash you can keep at home, but the source must be explainable. Here's where the ₹2 lakh, ₹20,000, ₹10,000 and ₹10 lakh limits apply under the new tax law.",
-      "url": "https://www.businesstoday.in/latest/trends/photo/how-much-cash-can-you-keep-at-home-the-limits-that-actually-matter-565767-2026-11-05?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-05T01:45:04.000Z"
-    },
-    {
-      "title": "From IIT Kharagpur to Alphabet: Indian-origin CEOs running global companies",
-      "summary": "Adobe's top job passes from Shantanu Narayen to Anil Chakravarthy on 1 December. Here's who else of Indian origin is running global companies, and who took charge in 2026.",
-      "url": "https://www.businesstoday.in/latest/trends/photo/from-iit-kharagpur-to-alphabet-indian-origin-ceos-running-global-companies-565751-2026-11-05?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-05T01:30:08.000Z"
-    },
-    {
-      "title": "Delhi-Mumbai Expressway: What's open, what isn't and when it may finish",
-      "summary": "A 55 km stretch has opened in Gujarat, and one 30 km gap could soon link Delhi to Navsari. But three packages near Maharashtra have a March 2028 target. Here's the status.",
-      "url": "https://www.businesstoday.in/latest/trends/photo/delhi-mumbai-expressway-whats-open-what-isnt-and-when-it-may-finish-565752-2026-11-05?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-05T00:50:06.000Z"
-    },
-    {
-      "title": "190-day battery in a toothbrush? Xiaomi's new ₹3,100 gadget has a surprising feature",
-      "summary": "Xiaomi's Mijia Electric Toothbrush 2 Pro launches in China at around ₹3,100 with a colour screen, pressure alerts, sonic cleaning and claimed 190-day battery life. Check its features.",
-      "url": "https://www.businesstoday.in/latest/photo/190-day-battery-in-a-toothbrush-xiaomis-new-rs3100-gadget-has-a-surprising-feature-565747-2026-11-05?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-05T00:45:02.000Z"
-    },
-    {
-      "title": "Royal Enfield unleashes two 750cc beasts! Himalayan and Continental GT have a big surprise",
-      "summary": "Royal Enfield unveils Himalayan 750 and Continental GT 750 at EICMA 2026, alongside Flying Flea S6 electric bike and limited-edition Shotgun 650. Explore features and launch details.",
-      "url": "https://www.businesstoday.in/latest/photo/royal-enfield-unleashes-two-750cc-beasts-himalayan-and-continental-gt-have-a-big-surprise-565715-2026-11-05?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-05T00:30:12.000Z"
-    },
-    {
-      "title": "RBI raises Floating Rate Bond 2034 interest rate to 7.26%: How much extra will investors earn on Rs 1 lakh?",
-      "summary": "According to an RBI notification issued on October 29, 2026, the revised rate will remain applicable from October 30, 2026, to April 29, 2027. The 81-basis-point increase will boost interest payouts for existing bondholders during this period.",
-      "url": "https://www.businesstoday.in/latest/economy/story/rbi-raises-floating-rate-bond-2034-interest-rate-to-7-26-how-much-extra-will-investors-earn-on-rs-1-lakh-565718-2026-11-05?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "regulatory",
-      "publishedAt": "2026-11-05T00:05:03.000Z"
     },
     {
       "title": "Ficci seeks exemption from LTCG for listed shares",
@@ -225,22 +353,6 @@
       "publishedAt": "2026-11-04T22:28:55.000Z"
     },
     {
-      "title": "How HDFC Bank’s Parivartan is helping Kashmir’s saffron farmers adapt to climate change",
-      "summary": "With erratic rainfall threatening saffron cultivation and middlemen eating into farmers’ earnings, a combination of solar irrigation, branding and direct market linkages is helping farmers adapt to changing times.",
-      "url": "https://www.businesstoday.in/latest/economy/story/how-hdfc-banks-parivartan-is-helping-kashmirs-saffron-farmers-adapt-to-climate-change-565778-2026-11-04?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-04T16:57:06.000Z"
-    },
-    {
-      "title": "Budget 2027: FICCI seeks removal of LTCG tax on equities, suggests higher STT to offset revenue loss",
-      "summary": "In its pre-Budget recommendations, FICCI suggested that the government could increase STT on delivery-based transactions, if necessary, to compensate for the revenue loss arising from the proposed exemption.",
-      "url": "https://www.businesstoday.in/latest/economy/story/budget-2027-ficci-seeks-removal-of-ltcg-tax-on-equities-suggests-higher-stt-to-offset-revenue-loss-565772-2026-11-04?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "regulatory",
-      "publishedAt": "2026-11-04T14:52:38.000Z"
-    },
-    {
       "title": "Pistachios vanish from Diwali gift boxes this year as prices double, almonds rise 20%",
       "summary": "Retail prices of pistachios have almost doubled compared with a year ago, driven by supply disruptions associated with the West Asia conflict and a smaller US crop. Almond prices, meanwhile, have climbed around 20%, according to dry fruit processors and importers.",
       "url": "https://timesofindia.indiatimes.com/business/india-business/pistachios-vanish-from-diwali-gift-boxes-as-prices-nearly-double-almond-rates-also-up-20-companies-add-seeds-and-berries-as-dry-fruit-costs-jump-25-40/articleshow/135534918.cms",
@@ -255,126 +367,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-11-04T14:23:24.000Z"
-    },
-    {
-      "title": "Bullet train beneath Chicken's Neck? India's Delhi-Guwahati rail plan faces a massive hurdle",
-      "summary": "Delhi-Guwahati bullet train may cross Chicken's Neck underground or on elevated tracks. Himanta Biswa Sarma flags engineering challenges, high costs and pending route surveys.",
-      "url": "https://www.businesstoday.in/latest/photo/bullet-train-beneath-chickens-neck-indias-delhi-guwahati-rail-plan-faces-a-massive-hurdle-565716-2026-11-04?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-04T13:30:06.000Z"
-    },
-    {
-      "title": "'Why should India depend on others?': PM Modi after Cabinet clears ₹2,814 cr critical minerals processing scheme",
-      "summary": "The Union Cabinet, chaired by Modi, approved the Capex Support Scheme to Promote Critical Mineral Processing for five years, from FY2026-27 to FY2030-31",
-      "url": "https://www.businesstoday.in/latest/economy/story/why-should-india-depend-on-others-pm-modi-after-cabinet-clears-rs2814-cr-critical-minerals-processing-scheme-565753-2026-11-04?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-04T13:18:31.000Z"
-    },
-    {
-      "title": "6 hours faster, 96% costlier! Bengaluru-Mumbai Vande Bharat Sleeper comes with a big catch",
-      "summary": "The Bengaluru-Mumbai Vande Bharat Sleeper cuts travel time by nearly 6 hours, but an AC 3 Tier ticket costs ₹2,810, about 96% more than a comparable train. Check fares, timings and why it’s already fully booked.",
-      "url": "https://www.businesstoday.in/latest/photo/6-hours-faster-96-costlier-bengaluru-mumbai-vande-bharat-sleeper-comes-with-a-big-catch-565724-2026-11-04?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-04T12:40:03.000Z"
-    },
-    {
-      "title": "₹2 lakh cheaper than Ertiga? Maruti's rumoured 7-seater has a big surprise",
-      "summary": "Maruti Suzuki's rumoured Solio-inspired 7-seater could cost Rs 2 lakh less than Ertiga. Explore its expected Rs 8 lakh price, sliding doors, engine options and India launch timeline.",
-      "url": "https://www.businesstoday.in/latest/photo/rs2-lakh-cheaper-than-ertiga-marutis-rumoured-7-seater-has-a-big-surprise-565431-2026-11-04?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-04T12:30:05.000Z"
-    },
-    {
-      "title": "Royal Enfield unveils 'Son of a Gun'! What makes this limited-edition Shotgun 650 special?",
-      "summary": "Royal Enfield has unveiled the Shotgun 650 ‘Son of a Gun’ at EICMA 2026, a limited-edition motorcycle built with Deus Ex Machina and limited to just 100 units worldwide. See its design, engine specs and what makes it so exclusive.",
-      "url": "https://www.businesstoday.in/latest/photo/royal-enfield-unveils-son-of-a-gun-what-makes-this-limited-edition-shotgun-650-special-565729-2026-11-04?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-04T12:20:03.000Z"
-    },
-    {
-      "title": "Remember Tata Nano? Hero's tiny two-seater electric car has an unexpected twist",
-      "summary": "Hero MotoCorp's Vida NEX 3 is a futuristic two-seater electric micro-car inspired by compact city mobility. Explore its unique design, patent details, features and launch prospects.",
-      "url": "https://www.businesstoday.in/latest/photo/remember-tata-nano-heros-tiny-two-seater-electric-car-has-an-unexpected-twist-565735-2026-11-04?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-04T12:15:04.000Z"
-    },
-    {
-      "title": "Why you could an income tax notice & how you should handle it",
-      "summary": "The Income Tax Department now receives automatic, continuous data feeds directly from banks, stockbrokers, mutual fund registries, and property offices.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/five-common-types-of-income-tax-notices-why-you-could-get-them-whats-the-recommended-action/articleshow/135533231.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-04T10:51:00.000Z"
-    },
-    {
-      "title": "Gold smuggling hits 50 tonnes in India as 15% import duty widens price gap",
-      "summary": "According to a World Gold Council report, gold smuggling is estimated to have climbed to around 50 tonnes in the September quarter, compared with just three tonnes in the same period a year earlier.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/gold-prices-may-have-crashed-globally-but-gold-smuggling-in-india-has-jumped-to-50-tonnes-from-3-tonnes-in-a-year-as-15-import-duty-widens-the-price-gap-demand-remains-29-lower-year-on-year/articleshow/135528689.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-04T09:14:51.000Z"
-    },
-    {
-      "title": "Will Trump's midterm defeat push him to finalise India-US trade deal?",
-      "summary": "The unfavourable midterm election outcome is unlikely to prompt President Donald Trump to change course on trade, according to an analysis by Global Trade Research Initiative (GTRI).",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/midterm-blues-why-a-lame-duck-donald-trump-may-push-for-a-quick-india-us-trade-deal/articleshow/135529684.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-04T07:59:33.000Z"
-    },
-    {
-      "title": "What is the gold price prediction for the Diwali week? Check November 4, 2026 outlook",
-      "summary": "Gold price prediction today: The midterm results have changed the mood this week. Democrats are projected to win both the House and the Senate, which markets read as lowering the odds of a deficit-expanding agenda.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/gold-price-prediction-today-india-diwali-dhanteras-where-is-gold-silver-rate-headed-on-november-04-2026-mcx-gold-futures-outlook-us-iran-war-middle-east-tensions-federal-reserve/articleshow/135528498.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-04T06:57:18.000Z"
-    },
-    {
-      "title": "How does Trump's defeat in US midterms impact Indian stock market? Explained",
-      "summary": "Indian equities are already contending with a range of domestic market pressures. Uncertainty surrounding Donald Trump's tariff decisions, higher crude oil prices and bond yields, along with sustained foreign institutional investor (FII) selling, has pushed th…",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/what-will-trump-losing-us-midterm-elections-mean-for-sensex-nifty-explained/articleshow/135520940.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-04T05:27:12.000Z"
-    },
-    {
-      "title": "Sensex climbs 288 points, Nifty rises nearly 77 points in early trade",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/sensex-stock-market-today-4-november-2026-live-updates-nse-bse-gift-nifty-50-top-gainers-losers-mcx-stocks-in-focus-market-news/liveblog/135521390.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-04T03:45:58.000Z"
-    },
-    {
-      "title": "What are the top stocks to buy on November 4, 2026? Check list",
-      "summary": "Stock market recommendations: Godrej Properties, Bajaj Auto, and Tata Power - Mehul Kothari, DVP of Technical Research at Anand Rathi Shares has picked these as the top stocks to buy today on November 3, 2026.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/top-stock-recommendations-for-november-04-2026-godrej-properties-bajaj-auto-tata-power-best-stocks-to-buy-today/articleshow/135520552.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-04T03:22:25.000Z"
-    },
-    {
-      "title": "IRDAI directs insurers to offer four-layer motor cover in compliance with SC order",
-      "summary": "IRDAI has operationalized a new four-layer motor insurance framework that takes effect on December 15, 2026. This structure separates mandatory third-party liability and personal accident cover from optional components for vehicle owners.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/irdai-directs-insurers-to-offer-four-layer-motor-cover-in-compliance-with-sc-order/articleshow/135520574.cms",
-      "source": "Times of India Business",
-      "category": "regulatory",
-      "publishedAt": "2026-11-04T03:19:48.000Z"
-    },
-    {
-      "title": "Gold, silver lose shine ahead of Dhanteras: Buy now, wait or invest in something else?",
-      "summary": "As Dhanteras nears, Indian consumers are closely monitoring the recent drop in gold and silver prices, scrutinizing how this volatility might influence future values.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/gold-silver-lose-shine-ahead-of-dhanteras-buy-now-wait-or-invest-in-something-else/articleshow/135490766.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-03T09:47:34.000Z"
     }
   ]
 }
