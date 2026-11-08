@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-08T16:44:47.270Z",
-  "articlesCount": 40,
+  "lastUpdated": "2026-11-08T22:40:41.638Z",
+  "articlesCount": 39,
   "sourcesOk": 5,
   "sourcesTotal": 9,
   "sourceStatus": [
@@ -13,7 +13,7 @@
     {
       "source": "Business Today",
       "status": "ok",
-      "articles": 20,
+      "articles": 19,
       "feedUsed": "https://www.businesstoday.in/rssfeeds/?id=225346"
     },
     {
@@ -367,14 +367,6 @@
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-11-07T00:30:09.000Z"
-    },
-    {
-      "title": "India loses $13 billion worth of food annually: How climate change is worsening the crisis",
-      "summary": "India loses an estimated $13 billion worth of food annually due to inadequate cold-chain infrastructure, with extreme weather worsening agricultural losses.",
-      "url": "https://www.businesstoday.in/india/story/india-loses-13-billion-worth-of-food-annually-how-climate-change-is-worsening-the-crisis-566287-2026-11-07?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "regulatory",
-      "publishedAt": "2026-11-06T19:50:05.000Z"
     }
   ]
 }
