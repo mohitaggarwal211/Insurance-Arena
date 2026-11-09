@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-09T07:42:54.125Z",
-  "articlesCount": 35,
+  "lastUpdated": "2026-11-09T08:12:13.532Z",
+  "articlesCount": 34,
   "sourcesOk": 5,
   "sourcesTotal": 9,
   "sourceStatus": [
@@ -13,7 +13,7 @@
     {
       "source": "Business Today",
       "status": "ok",
-      "articles": 15,
+      "articles": 14,
       "feedUsed": "https://www.businesstoday.in/rssfeeds/?id=225346"
     },
     {
@@ -327,14 +327,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-11-07T09:45:31.000Z"
-    },
-    {
-      "title": "India's extreme poverty fell to 2.3% from 21.9% in 12 years, says recent paper co-authored by Panagariya",
-      "summary": "Between 234 million and 421 million people are estimated to have exited poverty, depending on thresholds and methods, also a likely decline in expenditure inequality between 2011-2 and 2023-24.",
-      "url": "https://www.businesstoday.in/latest/economy/story/indias-extreme-poverty-fell-to-2-3-from-21-9-in-12-years-says-recent-paper-co-authored-by-panagariya-566306-2026-11-07?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-07T07:42:51.000Z"
     }
   ]
 }
