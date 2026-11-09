@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-09T20:55:19.592Z",
-  "articlesCount": 36,
+  "lastUpdated": "2026-11-09T22:53:39.615Z",
+  "articlesCount": 38,
   "sourcesOk": 5,
   "sourcesTotal": 9,
   "sourceStatus": [
@@ -13,7 +13,7 @@
     {
       "source": "Business Today",
       "status": "ok",
-      "articles": 16,
+      "articles": 18,
       "feedUsed": "https://www.businesstoday.in/rssfeeds/?id=225346"
     },
     {
@@ -56,6 +56,22 @@
     }
   ],
   "articles": [
+    {
+      "title": "Mahatma Gandhi's global legacy: India has 278 streets named after him, Italy follows with 259",
+      "summary": "The figures indicate that Gandhi’s name has become part of the urban landscape in countries across Europe, Asia, Africa and the Americas",
+      "url": "https://www.businesstoday.in/india/story/mahatma-gandhis-global-legacy-india-has-278-streets-named-after-him-italy-follows-with-259-566532-2026-11-10?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-09T22:30:12.000Z"
+    },
+    {
+      "title": "Gold falls 21% globally but only 15% in India: How the rupee protected investors",
+      "summary": "Gold prices have corrected sharply from their January 2026 peaks, but Indian investors have suffered relatively smaller losses than their global counterparts.",
+      "url": "https://www.businesstoday.in/latest/economy/story/gold-falls-21-globally-but-only-15-in-india-how-the-rupee-protected-investors-566568-2026-11-10?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-09T21:00:06.000Z"
+    },
     {
       "title": "Longest coastlines in the world: Canada leads with over 2 lakh km, India ranks 13th",
       "summary": "The ranking highlights the geographical diversity of countries with extensive coastlines, including nations with thousands of islands, deep fjords and irregular shorelines",
