@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-10T08:03:24.790Z",
-  "articlesCount": 39,
+  "lastUpdated": "2026-11-10T08:31:28.094Z",
+  "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
   "sourceStatus": [
@@ -13,7 +13,7 @@
     {
       "source": "Business Today",
       "status": "ok",
-      "articles": 19,
+      "articles": 20,
       "feedUsed": "https://www.businesstoday.in/rssfeeds/?id=225346"
     },
     {
@@ -56,6 +56,14 @@
     }
   ],
   "articles": [
+    {
+      "title": "Shah Rukh Khan lost ₹2,490 crore and is still India's richest actor: Where his money sits",
+      "summary": "Hurun puts Shah Rukh Khan at ₹10,000 crore, down 20% from 2025 but still more than Amitabh, Salman and Hrithik combined. Here is where the money sits.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/shah-rukh-khan-lost-rs2490-crore-and-is-still-indias-richest-actor-where-his-money-sits-566663-2026-11-10?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-10T07:59:42.000Z"
+    },
     {
       "title": "Trump loses, rupee gains: How US midterm elections triggered a turnaround in India's currency",
       "summary": "The Indian rupee has rebounded nearly 1.5% against the US dollar following Trump's midterm election setback, aided by falling crude oil prices and renewed foreign inflows.",
