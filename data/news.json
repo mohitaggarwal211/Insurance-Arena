@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-09T22:53:39.615Z",
-  "articlesCount": 38,
+  "lastUpdated": "2026-11-10T08:03:24.790Z",
+  "articlesCount": 39,
   "sourcesOk": 5,
   "sourcesTotal": 9,
   "sourceStatus": [
@@ -13,7 +13,7 @@
     {
       "source": "Business Today",
       "status": "ok",
-      "articles": 18,
+      "articles": 19,
       "feedUsed": "https://www.businesstoday.in/rssfeeds/?id=225346"
     },
     {
@@ -56,6 +56,126 @@
     }
   ],
   "articles": [
+    {
+      "title": "Trump loses, rupee gains: How US midterm elections triggered a turnaround in India's currency",
+      "summary": "The Indian rupee has rebounded nearly 1.5% against the US dollar following Trump's midterm election setback, aided by falling crude oil prices and renewed foreign inflows.",
+      "url": "https://www.businesstoday.in/latest/economy/story/trump-loses-rupee-gains-how-us-midterm-elections-triggered-a-turnaround-in-indias-currency-566646-2026-11-10?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-10T07:19:05.000Z"
+    },
+    {
+      "title": "Ayushman Bharat set for AI overhaul: Faster claims, fraud detection and digital medical records",
+      "summary": "The proposed use of artificial intelligence includes automated insurance claims, digital medical records and AI-based tools to improve monitoring under the government health insurance scheme.",
+      "url": "https://www.businesstoday.in/latest/economy/story/ayushman-bharat-set-for-ai-overhaul-faster-claims-fraud-detection-and-digital-medical-records-566641-2026-11-10?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "insurance",
+      "publishedAt": "2026-11-10T06:58:48.000Z"
+    },
+    {
+      "title": "Asian stocks rally as Wall Street rebounds, oil prices ease",
+      "summary": "Asian stock markets rallied on Tuesday as US stocks experienced a significant rebound on the previous day. Notably, Japan's Nikkei 225 saw a 2.6% rise while South Korea's Kospi climbed 4%.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/asian-stocks-today-markets-rally-as-wall-street-rebounds-oil-prices-ease-on-iran-de-escalation-hopes/articleshow/135700659.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-10T05:51:27.000Z"
+    },
+    {
+      "title": "Nvidia intervened in US’ probe of Megaspeed chip smuggling case: Report",
+      "summary": "Despite the controversy, Megaspeed remains an official Nvidia Cloud Partner, a designation the chipmaker generally withdraws when companies stop doing business with it.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/nvidia-intervened-in-us-probe-of-megaspeed-chip-smuggling-case-report-566610-2026-11-10?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-10T05:35:58.000Z"
+    },
+    {
+      "title": "$69.3 billion IPO? Anthropic shares price details with banks, then retracts",
+      "summary": "Anthropic, an artificial intelligence company, has announced plans for an initial public offering expected soon. The IPO could raise nearly $70 billion, although pricing details have been retracted.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/69-3-billion-ipo-anthropic-shares-price-details-with-banks-then-retracts/articleshow/135700013.cms",
+      "source": "Times of India Business",
+      "category": "insurance",
+      "publishedAt": "2026-11-10T05:11:34.000Z"
+    },
+    {
+      "title": "China hits $1 trillion trade surplus milestone for second year in a row",
+      "summary": "China's trade surplus surpassed $1 trillion in the first ten months, driven primarily by high-tech product demand. Exports increased significantly due to the global AI investment boom, although imports also grew faster than expected.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/china-hits-1-trillion-trade-surplus-milestone-for-second-year-in-a-row/articleshow/135699110.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-10T04:44:38.000Z"
+    },
+    {
+      "title": "Russia-US diesel deal delivers results? Lavrov claims prices have already fallen",
+      "summary": "Russian foreign minister Sergei Lavrov stated that an agreement allows Russia to resume diesel exports to the US. The arrangement aims to stabilize energy markets and improve energy security amid rising fuel prices.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/russia-us-diesel-deal-delivers-results-lavrov-claims-prices-have-already-fallen/articleshow/135698830.cms",
+      "source": "Times of India Business",
+      "category": "regulatory",
+      "publishedAt": "2026-11-10T04:41:29.000Z"
+    },
+    {
+      "title": "Nvidia CEO Jensen Huang loses $7.4bn in 30 minutes, drops 2 spots in Forbes rich list",
+      "summary": "Nvidia's CEO Jensen Huang faced a notable drop in net worth, tumbling from $162.2 billion to $154.7 billion, following revelations of an ongoing investigation into his supposed involvement with a Chinese spy.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/nvidia-ceo-jensen-huang-loses-7-4-billion-in-30-minutes-drops-2-spots-in-forbes-rich-list/articleshow/135698220.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-10T03:52:44.000Z"
+    },
+    {
+      "title": "Stock market today: Are NSE, BSE open or closed on November 10 for Diwali-Balipratipada?",
+      "summary": "With the festive season bringing changes to the regular trading calendar, investors may be wondering whether the stock market will remain open or closed today, Tuesday, November 10.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/stock-market-holiday-today-are-nse-bse-open-or-closed-on-november-10-for-diwali-balipratipada-check-details/articleshow/135697978.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-10T03:35:04.000Z"
+    },
+    {
+      "title": "Oil prices edge lower as Trump signals pause in military action against Iran",
+      "summary": "Oil prices decreased following US President Donald Trump's comments regarding military action against Iran. Although Trump postponed military strikes, he stated that the naval blockade in the Strait of Hormuz would continue.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/oil-prices-today-crude-edges-lower-as-donald-trump-signals-pause-in-military-action-against-iran/articleshow/135696941.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-10T02:26:11.000Z"
+    },
+    {
+      "title": "Are banks open or closed on November 10 for Diwali (Bali Pratipada)? Check state-wise list",
+      "summary": "On November 10, select bank branches across India will be closed in observance of Diwali, a time for festive celebrations. While customers can still enjoy digital banking options like mobile banking and UPI, in-person services at physical branches will be unavailable.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/bank-holiday-today-are-banks-open-or-closed-on-november-10-for-diwali-bali-pratipada-check-state-wise-list/articleshow/135696791.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-10T02:19:42.000Z"
+    },
+    {
+      "title": "3 car launches left in November: From a Mini EV to a ₹1.2 crore Denza",
+      "summary": "From a Mini EV to a ₹1.2 crore Denza, three new cars are due in the second half of November. We compare their range, charging speed and expected prices.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/3-car-launches-left-in-november-from-a-mini-ev-to-a-rs1-2-crore-denza-566555-2026-11-10?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-10T02:00:05.000Z"
+    },
+    {
+      "title": "Quote of the Day by Mukesh Ambani: 'Digital life and digital services are a multi-wave business. It's not a single component business'",
+      "summary": "Under his leadership, RIL has grown into India’s largest private-sector conglomerate, with interests spanning energy, petrochemicals, retail and telecommunications.",
+      "url": "https://www.businesstoday.in/india/story/quote-of-the-day-by-mukesh-ambani-digital-life-and-digital-services-are-a-multi-wave-business-its-not-a-single-component-business-566328-2026-11-10?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-10T02:00:05.000Z"
+    },
+    {
+      "title": "Six airbags from ₹3.70 lakh: India's most affordable picks",
+      "summary": "Alto K10 leads at ₹3.70 lakh, and ten cars start under ₹5.80 lakh with six airbags as standard. We also show where a starting price may not include them.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/six-airbags-from-rs3-70-lakh-indias-most-affordable-picks-566552-2026-11-10?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-10T01:30:06.000Z"
+    },
+    {
+      "title": "Chhath 2026 from 13 to 16 November: The four days and the exact sunset and sunrise times",
+      "summary": "Chhath runs from 13 to 16 November. Sandhya Arghya falls at 4:53 pm in Kolkata and 6 pm in Mumbai. Check sunset and sunrise times for eight cities.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/chhath-2026-from-13-to-16-november-the-four-days-and-the-exact-sunset-and-sunrise-times-566550-2026-11-10?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-10T00:30:07.000Z"
+    },
     {
       "title": "Mahatma Gandhi's global legacy: India has 278 streets named after him, Italy follows with 259",
       "summary": "The figures indicate that Gandhi’s name has become part of the urban landscape in countries across Europe, Asia, Africa and the Americas",
@@ -217,46 +337,6 @@
       "publishedAt": "2026-11-09T02:11:32.000Z"
     },
     {
-      "title": "Brent crude falls over $1 as Trump signals fresh US strikes on Iran are unlikely",
-      "summary": "On Monday, oil prices experienced a downturn following Donald Trump's remarks about military options regarding Iran. He suggested that if negotiations were successful, further military action would likely be avoided.",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/brent-crude-falls-over-1-as-trump-signals-fresh-us-strikes-on-iran-are-unlikely/articleshow/135667845.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-09T01:44:43.000Z"
-    },
-    {
-      "title": "India's crypto tax could hurt blockchain innovation: Buterin",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/indias-crypto-tax-could-hurt-blockchain-innovation-buterin/articleshow/135667557.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-09T01:12:57.000Z"
-    },
-    {
-      "title": "Cheaper Scotch raises stakes for desi whisky",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/cheaper-scotch-raises-stakes-for-desi-whisky/articleshow/135667389.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-09T01:09:22.000Z"
-    },
-    {
-      "title": "Distribution ring-fenced from impact of new Irdai norms: LIC",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/distribution-ring-fenced-from-impact-of-new-irdai-norms-lic/articleshow/135667350.cms",
-      "source": "Times of India Business",
-      "category": "regulatory",
-      "publishedAt": "2026-11-09T00:59:03.000Z"
-    },
-    {
-      "title": "For the first time since 2017, Sensex and Nifty end Muhurat trading in the red",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/for-the-first-time-since-2017-sensex-and-nifty-end-muhurat-trading-in-the-red/articleshow/135667297.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-09T00:55:08.000Z"
-    },
-    {
       "title": "Visa-free for Indians does not mean stay as long as you like: Limits by country",
       "summary": "India reaches 55 destinations on Henley's index, but stay limits vary widely. Thailand now allows 30 days, not 60, and Malaysia's waiver runs only to 31 December.",
       "url": "https://www.businesstoday.in/latest/trends/photo/visa-free-for-indians-does-not-mean-stay-as-long-as-you-like-limits-by-country-566384-2026-11-09?utm_source=rssfeed",
@@ -273,14 +353,6 @@
       "publishedAt": "2026-11-09T00:30:09.000Z"
     },
     {
-      "title": "In Noel's crosshairs, Chandra and Mehli reconnect at Tata HQ",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/in-noels-crosshairs-chandra-and-mehli-reconnect-at-tata-hq/articleshow/135667010.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-09T00:07:10.000Z"
-    },
-    {
       "title": "'A bit of feudal history': Economist Shamika Ravi on why Indians remain obsessed with sarkari jobs",
       "summary": "Shamika Ravi says the preference for government jobs is partly linked to their traditional association with prestige and power",
       "url": "https://www.businesstoday.in/latest/economy/story/a-bit-of-feudal-history-economist-shamika-ravi-on-why-indians-remain-obsessed-with-sarkari-jobs-566370-2026-11-08?utm_source=rssfeed",
@@ -289,76 +361,12 @@
       "publishedAt": "2026-11-08T15:00:05.000Z"
     },
     {
-      "title": "Samvat 2083: What's the outlook for Sensex, Nifty & what should investors do?",
-      "summary": "Samvat 2083 outlook: The volatile Muhurat trading session comes after a record seven-day rally by the indices which saw BSE Sensex and Nifty50 rise over 10%.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/sensex-nifty-start-samvat-2083-in-red-whats-the-outlook-till-next-diwali-what-should-investors-do/articleshow/135660628.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-08T14:12:11.000Z"
-    },
-    {
-      "title": "Muhurat trading: Stock markets end marginally lower in special Diwali session",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/muhurat-trading-stock-markets-end-marginally-lower-in-special-diwali-session-snapping-7-day-rally/articleshow/135660198.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-08T14:01:05.000Z"
-    },
-    {
       "title": "'Don't surrender your thinking to AI': Gita Gopinath's advice to 25-year-olds",
       "summary": "\"It's real. Actually, for me, this feels a bit like the 2020 pandemic, when the kids who were in school really had a huge disruption to their learning,\" says Gita Gopinath",
       "url": "https://www.businesstoday.in/latest/economy/story/dont-surrender-your-thinking-to-ai-gita-gopinaths-advice-to-25-year-olds-566378-2026-11-08?utm_source=rssfeed",
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-11-08T12:10:15.000Z"
-    },
-    {
-      "title": "Poverty down to 3.9%, so why free ration for 80 crore? PM's economic advisor explains",
-      "summary": "The economist also argued that savings from free food grains were allowing households to spend more on nutritious food, including fruits, milk, eggs, fish, and meat",
-      "url": "https://www.businesstoday.in/latest/economy/story/poverty-down-to-3-9-so-why-free-ration-for-80-crore-pms-economic-advisor-explains-566364-2026-11-08?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-08T07:20:35.000Z"
-    },
-    {
-      "title": "Quote of the Day by Anand Mahindra: 'Sometimes the only kind of innovation comes when you have some solitude; when you step away'",
-      "summary": "The quote reflects on how material success and wealth alone cannot guarantee lasting happiness.",
-      "url": "https://www.businesstoday.in/india/story/quote-of-the-day-by-anand-mahindra-sometimes-the-only-kind-of-innovation-comes-when-you-have-some-solitude-when-you-step-away-566326-2026-11-08?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-08T02:00:07.000Z"
-    },
-    {
-      "title": "₹3,000 for Delhi-Kashmir First AC? Couple reveals what you get inside the premium coach",
-      "summary": "A couple shares their Delhi-Kashmir First AC train journey costing around ₹3,000 per person. Explore private coupes, cabins, bathrooms, food services and premium onboard facilities.",
-      "url": "https://www.businesstoday.in/latest/photo/rs3000-for-delhi-kashmir-first-ac-couple-reveals-what-you-get-inside-the-premium-coach-566163-2026-11-08?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "insurance",
-      "publishedAt": "2026-11-08T01:30:34.000Z"
-    },
-    {
-      "title": "Volkswagen Virtus facelift teased! A new 8-speed automatic could be its biggest surprise",
-      "summary": "Volkswagen Virtus facelift teaser reveals sporty GT styling, new alloys and LED lights. An 8-speed automatic, upgraded features and a December 2026 launch are expected.",
-      "url": "https://www.businesstoday.in/latest/photo/volkswagen-virtus-facelift-teased-a-new-8-speed-automatic-could-be-its-biggest-surprise-566160-2026-11-08?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-08T01:15:03.000Z"
-    },
-    {
-      "title": "Nearly 190 km on a Hero electric bike? VIDA Project VXZ hides an unexpected twist",
-      "summary": "Hero VIDA Project VXZ debuts at EICMA 2026 with a belt drive, hidden charging port and digital cockpit. Its display hints at nearly 190 km of range, but launch details remain unknown.",
-      "url": "https://www.businesstoday.in/latest/photo/nearly-190-km-on-a-hero-electric-bike-vida-project-vxz-hides-an-unexpected-twist-566165-2026-11-08?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-08T00:45:03.000Z"
-    },
-    {
-      "title": "15bhp from a 125cc TVS bike? New RTR 125 brings a surprise for motorcycle buyers",
-      "summary": "TVS RTR 125 debuts at EICMA 2026 with a 15bhp engine, six-speed gearbox, KYB suspension, dual-channel ABS and TFT display. Explore its features and possible India launch.",
-      "url": "https://www.businesstoday.in/latest/photo/15bhp-from-a-125cc-tvs-bike-new-rtr-125-brings-a-surprise-for-motorcycle-buyers-566235-2026-11-08?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-08T00:30:07.000Z"
     }
   ]
 }
