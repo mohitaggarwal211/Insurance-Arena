@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-12T20:40:21.660Z",
-  "articlesCount": 39,
+  "lastUpdated": "2026-11-13T07:39:27.472Z",
+  "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
   "sourceStatus": [
@@ -13,7 +13,7 @@
     {
       "source": "Business Today",
       "status": "ok",
-      "articles": 19,
+      "articles": 20,
       "feedUsed": "https://www.businesstoday.in/rssfeeds/?id=225346"
     },
     {
@@ -56,6 +56,118 @@
     }
   ],
   "articles": [
+    {
+      "title": "‘Must compliment Elon Musk…’: Sunil Bharti Mittal on pushing the boundaries of satcom connectivity",
+      "summary": "Sunil Mittal said even Elon Musk with his “fanciful technology” is picking up on local spectrum, building networks on the ground and then combining satcom and terrestrial networks.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/must-compliment-elon-musk-sunil-bharti-mittal-on-pushing-the-boundaries-of-satcom-connectivity-567285-2026-11-13?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-13T07:04:49.000Z"
+    },
+    {
+      "title": "'India's exports to cross $1 trillion this year': Piyush Goyal on road ahead for FTAs",
+      "summary": "Goyal said India's international trade is growing at a rapid pace, adding that the projected export growth of over 15% is unprecedented.",
+      "url": "https://www.businesstoday.in/latest/economy/story/indias-exports-to-cross-1-trillion-this-year-piyush-goyal-on-road-ahead-for-ftas-567273-2026-11-13?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-13T06:21:54.000Z"
+    },
+    {
+      "title": "'Announcement likely soon': Piyush Goyal gives big update on India-US trade deal",
+      "summary": "On Wednesday, Goyal told reporters in Vishakhapatnam that India will have one of the \"best\" trade deals with the US in every respect.",
+      "url": "https://www.businesstoday.in/latest/economy/story/announcement-likely-soon-piyush-goyal-gives-big-update-on-india-us-trade-deal-567260-2026-11-13?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-13T05:57:30.000Z"
+    },
+    {
+      "title": "Anthropic IPO six times oversubscribed as AI firm targets record $1.4 trillion valuation",
+      "summary": "Anthropic is receiving high interest for its initial public offering, potentially raising around $90.4 billion. The company plans to sell 825 million shares at a price range between $70 and $78 each.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/anthropic-ipo-six-times-oversubscribed-as-ai-firm-targets-record-1-4-trillion-valuation/articleshow/135790833.cms",
+      "source": "Times of India Business",
+      "category": "insurance",
+      "publishedAt": "2026-11-13T05:53:36.000Z"
+    },
+    {
+      "title": "Reliance, JSW, Amara Raja, Exide among 22 bidders for ACC battery manufacturing PLI scheme",
+      "summary": "The 10 GWh capacity on offer is earmarked for grid-scale stationary storage (GSSS) applications.",
+      "url": "https://www.businesstoday.in/latest/economy/story/reliance-jsw-amara-raja-exide-among-22-bidders-for-acc-battery-manufacturing-pli-scheme-567250-2026-11-13?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-13T05:18:53.000Z"
+    },
+    {
+      "title": "Tenant defies SC eviction order, his son sells landlord’s property, HC strikes off buyer's suit",
+      "summary": "The tenant did not vacate the property. He and his wife had executed a registered settlement deed in favour of their son on August 10, 2001. Their son subsequently transferred the property through two registered sale deeds. One of the sale deeds was executed in January, 2012.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/tenant-defied-2005-supreme-court-eviction-order-and-his-son-sold-part-of-landlords-property-using-parents-settlement-deed-buyer-files-suit-against-landlord-but-madras-high-court-strikes-it-off/articleshow/135773938.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-13T04:29:00.000Z"
+    },
+    {
+      "title": "‘Still by far the cheapest in the world’: Sunil Bharti Mittal says mobile tariffs should rise to ₹350 a month",
+      "summary": "Mittal said India needed to significantly expand its telecom infrastructure, pointing out that China has more than 1 million mobile towers compared with around 350,000 in India.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/still-by-far-the-cheapest-in-the-world-sunil-bharti-mittal-says-mobile-tariffs-should-rise-to-rs-350-a-month-567240-2026-11-13?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-13T04:22:26.000Z"
+    },
+    {
+      "title": "Dubai airport halts SpiceJet check-ins over ₹35.8 crore dues, four flights cancelled",
+      "summary": "Following the disruption, the Dubai Civil Aviation Authority summoned the station manager and questioned the airline's handling of passenger communication.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/dubai-airport-halts-spicejet-check-ins-over-rs35-crore-dues-four-flights-cancelled-567236-2026-11-13?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "regulatory",
+      "publishedAt": "2026-11-13T04:07:06.000Z"
+    },
+    {
+      "title": "Tata Sons refuses Noel Tata’s request for recording of Sept 17 board meeting where N Chandrasekaran was reappointed: Report",
+      "summary": "Tata Sons said neither the law nor its Articles of Association (AoA) requires the company to preserve or provide recordings of physical board meetings to directors.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/tata-sons-refuses-noel-tatas-request-for-recording-of-sept-17-board-meeting-where-n-chandrasekaran-was-reappointed-report-567227-2026-11-13?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-13T03:25:05.000Z"
+    },
+    {
+      "title": "What are the top stocks to buy on November 13, 2026? Check list",
+      "summary": "Stock market recommendations: Brigade Enterprises, Ceat, and Honasa have been picked as the top stocks to buy by Hitesh Rathi, Technical Analyst (Equity & Derivatives) at Angel One for November 13, 2026.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/top-stock-recommendations-for-november-13-2026-brigade-enterprises-ceat-honasa-stocks-to-buy-today/articleshow/135787622.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-13T03:16:07.000Z"
+    },
+    {
+      "title": "FBI seizes $1.2 billion in crypto stolen from Binance in record $6.3 billion heist",
+      "summary": "US law enforcement has triumphantly seized or secured judicial endorsement for more than $1.2 billion in stolen cryptocurrency, associated with the historic $6.3 billion heist from Binance.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/fbi-seizes-1-2-billion-in-crypto-stolen-from-binance-in-record-6-3-billion-heist/articleshow/135787066.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-13T03:12:44.000Z"
+    },
+    {
+      "title": "Nvidia sheds $1 trillion in a month; Huang slips to 13th on Forbes rich list",
+      "summary": "Nvidia faced a sharp decline in stock value following CEO Jensen Huang's surprising resignation, igniting fears about its leadership stability. In just one week, the company's market value plummeted by nearly $500 billion, with shares now down around 30% from October's peak.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/nvidia-loses-over-1-trillion-in-a-month-amid-spy-scandal-jensen-huang-slips-to-13th-on-forbes-rich-list/articleshow/135786177.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-13T02:02:14.000Z"
+    },
+    {
+      "title": "104 km range, reverse gear! Yamaha's new electric scooter brings a surprise for buyers",
+      "summary": "Yamaha NMAX E electric scooter debuts with a claimed 104 km range, reverse function, 3.5kWh battery, three riding modes and ABS. Explore its features, charging time and India launch.",
+      "url": "https://www.businesstoday.in/latest/photo/104-km-range-reverse-gear-yamahas-new-electric-scooter-brings-a-surprise-for-buyers-567137-2026-11-13?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-13T00:45:02.000Z"
+    },
+    {
+      "title": "190 km/h on a scooter? Italjet's 700cc monster has a surprise for Indian bike lovers",
+      "summary": "Italjet Dragster 700 packs a 698cc twin-cylinder engine, claimed 190 km/h top speed, six-speed gearbox and Brembo brakes. Explore its features, India launch plans and expected price.",
+      "url": "https://www.businesstoday.in/latest/photo/190-kmh-on-a-scooter-italjets-700cc-monster-has-a-surprise-for-indian-bike-lovers-567146-2026-11-13?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-13T00:30:09.000Z"
+    },
     {
       "title": "HCLTech among world's top 50 companies for women in Forbes 2026 ranking; only Indian firm on list",
       "summary": "HCLTech has secured a place among the world's top 50 companies for women in Forbes' 2026 ranking, emerging as the only India-headquartered organisation in the top tier.",
@@ -209,76 +321,12 @@
       "publishedAt": "2026-11-12T11:17:51.000Z"
     },
     {
-      "title": "Noida to Greater Noida by metro: cabinet approves ₹2,390-crore line with 5 new stations",
-      "summary": "Cabinet approves ₹2,390 crore Noida Metro Aqua Line extension from Sector 51 to Greater Noida Sector 4, adding 8.449 km and five elevated stations with a Blue Line interchange.",
-      "url": "https://www.businesstoday.in/latest/photo/noida-to-greater-noida-by-metro-cabinet-approves-rs2390-crore-line-with-5-new-stations-567139-2026-11-12?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-12T11:09:38.000Z"
-    },
-    {
       "title": "What's redefining India's employment landscape? AI, talent gaps and labour reforms and what it means",
       "summary": "India's employment landscape is undergoing a fundamental shift. The opportunity lies in ensuring that employees are equipped to work effectively with these tools.",
       "url": "https://timesofindia.indiatimes.com/business/india-business/ai-talent-gaps-and-labour-reforms-forces-redefining-indias-employment-landscape/articleshow/135759190.cms",
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-11-12T11:08:16.000Z"
-    },
-    {
-      "title": "₹2.47 lakh for a 110cc TVS scooter? New Callisto 110 comes with a mileage surprise",
-      "summary": "TVS Callisto 110 launches in Turkey with a 113.3cc engine, claimed 10% better mileage, 33-litre storage, Bluetooth and navigation. Explore its features, price and India launch status.",
-      "url": "https://www.businesstoday.in/latest/photo/rs2-47-lakh-for-a-110cc-tvs-scooter-new-callisto-110-comes-with-a-mileage-surprise-567135-2026-11-12?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-12T10:59:20.000Z"
-    },
-    {
-      "title": "₹62,999 Vivo phone at ₹56,699? Amazon's new deal hides a big surprise for buyers",
-      "summary": "Vivo V80 5G is available on Amazon for an effective ₹56,699 with eligible bank offers. Explore its 7,200mAh battery, 90W charging, ZEISS cameras and exchange discounts.",
-      "url": "https://www.businesstoday.in/latest/photo/rs62999-vivo-phone-at-rs56699-amazons-new-deal-hides-a-big-surprise-for-buyers-567133-2026-11-12?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-12T10:55:23.000Z"
-    },
-    {
-      "title": "ChatGPT Go at ₹99 instead of ₹399? A cancellation surprise could save users ₹900",
-      "summary": "ChatGPT Go users in India may get a ₹99 monthly offer instead of ₹399 for three months when cancelling. Learn who qualifies, how to check and when regular pricing returns.",
-      "url": "https://www.businesstoday.in/latest/photo/chatgpt-go-at-rs99-instead-of-rs399-a-cancellation-surprise-could-save-users-rs900-567131-2026-11-12?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-12T10:48:10.000Z"
-    },
-    {
-      "title": "Hardik Pandya's ₹12 crore Ferrari tops 2026's celebrity car buys. SRK's Cadillac is next",
-      "summary": "Hardik Pandya's Ferrari is reportedly worth about ₹12 crore. SRK's imported Cadillac and Emraan Hashmi's G63 follow. The celebrity cars bought in 2026, ranked.",
-      "url": "https://www.businesstoday.in/latest/trends/photo/hardik-pandyas-rs12-crore-ferrari-tops-2026s-celebrity-car-buys-srks-cadillac-is-next-567118-2026-11-12?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-12T10:36:28.000Z"
-    },
-    {
-      "title": "Just 40 paise per km? Ather's electric scooters cross 3 lakh sales with a big surprise",
-      "summary": "Ather Energy crosses 3 lakh electric scooter sales in 2026, recording 67% growth. Explore its 20–40 paise per km running cost, latest models, prices and market share.",
-      "url": "https://www.businesstoday.in/latest/photo/just-40-paise-per-km-athers-electric-scooters-cross-3-lakh-sales-with-a-big-surprise-567122-2026-11-12?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-12T10:35:49.000Z"
-    },
-    {
-      "title": "Reliance to invest ₹43,000 crore in Andhra Pradesh for coal-to-gas plant",
-      "summary": "The project is expected to create 5,000 direct and 35,000 indirect jobs in the state. If completed, it would rank among India's largest coal gasification projects.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/reliance-to-invest-rs-43000-crore-in-andhra-pradesh-for-coal-to-gas-plant-567099-2026-11-12?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-12T10:16:08.000Z"
-    },
-    {
-      "title": "Vivek Express covers over 4,150 km in about 75 hours. India's longest train journeys, ranked",
-      "summary": "The Vivek Express covers over 4,150 km from Dibrugarh to Kanyakumari in about 75 hours. See India's longest train journeys and how long each one takes.",
-      "url": "https://www.businesstoday.in/latest/trends/photo/vivek-express-covers-over-4150-km-in-about-75-hours-indias-longest-train-journeys-ranked-567096-2026-11-12?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-12T10:07:56.000Z"
     },
     {
       "title": "Indians buy 52 tonnes of gold as prices fall from Rs 1.8 lakh peak to Rs 1.42 lakh",
@@ -327,46 +375,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-11-12T05:31:11.000Z"
-    },
-    {
-      "title": "Son faced notices over Rs 33.23 lakh property & cash; ITAT accepts mother's gold-sale gift evidence",
-      "summary": "The Assessing Officer (AO) treated both the property investment of Rs 20,23,778 and the cash deposits of Rs 13,04,900 as unexplained. This resulted in additions of Rs 33,28,678, or approximately Rs 33.29 lakh, to the man’s income.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/son-faced-tax-notices-over-rs-20-23-lakh-property-purchase-and-rs-13-04-lakh-cash-deposits-itat-accepts-mothers-gold-sale-gift-deed-evidence-and-deletes-addition/articleshow/135740870.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-12T04:26:19.000Z"
-    },
-    {
-      "title": "Which are the top stocks to buy on November 12, 2026?",
-      "summary": "Top stock market recommendations: IDFC First Bank, Bajaj Holdings And Investment, and TCS are the top stocks to buy as per Aakash K Hindocha, Vice President - Research, Nuvama Professional Clients Group/Nuvama Wealth’s recommendation for November 12, 2026.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/top-stock-recommendations-for-november-12-2026-idfc-first-bank-bajaj-holdings-and-investment-tcs-best-stocks-to-buy-today/articleshow/135754726.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-12T04:01:02.000Z"
-    },
-    {
-      "title": "Elon Musk offers to hire Jensen Huang? Tesla CEO reacts to social media appeal",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/elon-musk-offers-to-hire-jensen-huang-tesla-ceo-reacts-to-social-media-appeal/articleshow/135753426.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-12T03:18:30.000Z"
-    },
-    {
-      "title": "Oil prices fall over 1% as hopes of Iran, Russia-Ukraine peace talks weigh on market",
-      "summary": "Oil prices dropped more than 1% as hopes for progress in Russia-Ukraine and Iran negotiations emerged. Brent crude futures declined to $91.62, while US West Texas Intermediate crude fell to $85.49 a barrel.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/oil-prices-fall-over-1-as-hopes-of-iran-russia-ukraine-peace-talks-weigh-on-market/articleshow/135752567.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-12T02:29:00.000Z"
-    },
-    {
-      "title": "Nvidia shares fall 8% after hours as board reportedly weighs Jensen Huang's 'exit'",
-      "summary": "Nvidia shares plummeted by 8% in after-hours trading following revelations about CEO Jensen Huang's alleged extramarital affairs, including a controversial link to a businesswoman associated with Chinese intelligence.",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/nvidia-shares-fall-8-after-hours-as-board-reportedly-weighs-jensen-huangs-exit/articleshow/135751718.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-12T00:59:36.000Z"
     }
   ]
 }
