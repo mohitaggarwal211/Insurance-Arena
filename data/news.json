@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-14T16:40:07.660Z",
+  "lastUpdated": "2026-11-14T18:39:37.108Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,22 @@
     }
   ],
   "articles": [
+    {
+      "title": "Indians ditch gold for gemstones as sales jump 40%; stones cost Rs 5 lakh",
+      "summary": "The growing preference for premium coloured gemstones as against gold is also translating into higher prices. Paraiba tourmalines, among the rarest gemstones, sell for around Rs 5 lakh per carat in India.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/indians-look-beyond-gold-and-diamonds-as-coloured-gemstone-sales-surge-40-rare-paraiba-tourmalines-cost-rs-5-lakh-per-carat-and-bespoke-jewellery-starts-at-rs-7-lakh/articleshow/135834228.cms",
+      "source": "Times of India Business",
+      "category": "insurance",
+      "publishedAt": "2026-11-14T17:30:00.000Z"
+    },
+    {
+      "title": "Sold commercial units & bought 2 flats, taxman denies Rs 2.5 crore relief on one - what ITAT said",
+      "summary": "A man sold six commercial units in Mumbai and the sales generated long-term capital gains of around Rs 5 crore. He claimed a deduction of the same amount under Section 54F after investing in residential property.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/man-sold-6-commercial-units-earned-nearly-rs-5-crore-in-capital-gains-bought-two-flats-on-different-floors-taxman-denies-rs-2-5-crore-deduction-for-second-flat-but-mumbai-itat-gives-relief/articleshow/135834822.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-14T17:24:57.000Z"
+    },
     {
       "title": "Gold imports account for half of India's $10 billion trade deficit surge: here's why",
       "summary": "India's merchandise trade deficit widened to $40 billion in October, with higher gold imports accounting for half the monthly increase.",
@@ -359,22 +375,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-11-13T09:34:05.000Z"
-    },
-    {
-      "title": "Taxpayer faces Rs 1.41 lakh demand over tax regime error; why ITAT ruled for old",
-      "summary": "The case concerns a man’s income tax return for assessment year 2025-26. The taxpayer had opted for the new income tax regime in the preceding assessment year, 2024-25.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/taxpayer-filed-form-10-iea-for-old-regime-but-chose-new-regime-in-itr-triggering-rs-1-41-lakh-demand-itat-rejects-his-plea-for-new-regime-but-asks-taxman-to-allow-eligible-deductions-under-old-regime/articleshow/135795180.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-13T08:34:02.000Z"
-    },
-    {
-      "title": "Russia's diesel exports jump 100% after Trump lifts sanctions; US gets no shipments",
-      "summary": "In October, Russia significantly increased its diesel exports following an agreement between Trump and Putin aimed at boosting global supplies. However, U.S. markets have not seen any additional shipments due to concerns over sanctions and buyer reluctance.",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/russias-diesel-exports-surge-100-after-trump-lifts-sanctions-not-a-single-shipment-reaches-us/articleshow/135793002.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-13T08:16:20.000Z"
     }
   ]
 }
