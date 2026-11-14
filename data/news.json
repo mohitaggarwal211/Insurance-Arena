@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-14T18:39:37.108Z",
+  "lastUpdated": "2026-11-14T22:52:59.438Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,22 @@
     }
   ],
   "articles": [
+    {
+      "title": "Strong economy drives NH toll to record Rs 6,640 crore in October",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/strong-economy-drives-nh-toll-to-record-6640cr-in-oct/articleshow/135842429.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-14T21:43:18.000Z"
+    },
+    {
+      "title": "Listing will change Tata way, put profit above philanthropy: Noel",
+      "summary": "Noel Tata has expressed strong opposition to the potential listing of Tata Sons on public markets. He believes such a move may compromise the group's long-standing commitment to philanthropy over profit.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/listing-will-change-tata-way-put-profit-above-philanthropy-noel/articleshow/135842200.cms",
+      "source": "Times of India Business",
+      "category": "insurance",
+      "publishedAt": "2026-11-14T20:31:18.000Z"
+    },
     {
       "title": "Indians ditch gold for gemstones as sales jump 40%; stones cost Rs 5 lakh",
       "summary": "The growing preference for premium coloured gemstones as against gold is also translating into higher prices. Paraiba tourmalines, among the rarest gemstones, sell for around Rs 5 lakh per carat in India.",
@@ -359,22 +375,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-11-13T10:34:41.000Z"
-    },
-    {
-      "title": "Paytm gets RBI prelim nod to operate wallets; shares surge to 52-week high",
-      "summary": "Paytm's payment segment has secured initial approval from the Reserve Bank of India for its prepaid payment instruments. This milestone has propelled One 97 Communications' stock to soar past the Rs 1,900 mark, reflecting strong market performance.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/paytm-gets-rbi-prelim-authorisation-to-operate-wallets-shares-surge-to-52-week-high/articleshow/135798025.cms",
-      "source": "Times of India Business",
-      "category": "regulatory",
-      "publishedAt": "2026-11-13T09:57:48.000Z"
-    },
-    {
-      "title": "India's exports jump 29.9% to $89.99 billion in October; overall trade deficit narrows",
-      "summary": "India's export growth shot up by almost 30 percent year-on-year, reaching close to $90 billion in October 2026. Merchandise exports accounted for a significant $49.47 billion, marking a record high for monthly goods.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/indias-exports-jump-29-9-to-89-99-billion-in-october-overall-trade-deficit-narrows/articleshow/135797333.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-13T09:34:05.000Z"
     }
   ]
 }
