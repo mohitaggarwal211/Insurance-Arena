@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-14T07:26:06.947Z",
+  "lastUpdated": "2026-11-14T07:42:27.428Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,22 @@
     }
   ],
   "articles": [
+    {
+      "title": "Why Indian Railways may scrap RAC; two passengers share one berth but pay full fare",
+      "summary": "RAC is a train ticket under which two passengers share a single berth even though each is charged the full fare and receives only half the sleeping space.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/indian-railways-may-scrap-rac-tickets-that-give-two-passengers-one-berth-at-full-fare-deliberation-comes-amid-concerns-over-sleeping-space-passenger-comfort-and-fairness-check-current-rules/articleshow/135822790.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-14T07:27:00.000Z"
+    },
+    {
+      "title": "Dollar nears 19-month high as inflation fuels bets on bigger Fed rate hike next month",
+      "summary": "The US dollar is experiencing its largest weekly gain in two months as expectations for interest rate hikes increase. Strong US inflation data and comments from Federal Reserve officials drive these predictions, which also raise treasury yields.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/dollar-nears-19-month-high-as-inflation-fuels-bets-on-bigger-fed-rate-hike-next-month/articleshow/135825650.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-14T07:17:35.000Z"
+    },
     {
       "title": "Tata Group friction spills into operating firms as Voltas chairman pick bypasses Chandrasekaran’s nod",
       "summary": "The development follows Noel Tata stepping down as chairman of several boards, including Voltas, earlier this week upon turning 70, the superannuation age for non-executive directors of the group.",
@@ -359,22 +375,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-11-12T16:11:11.000Z"
-    },
-    {
-      "title": "'Legend replaces a Legend': Trump wants Tim Cook to replace Nvidia CEO Jensen Huang",
-      "summary": "In light of Jensen Huang's sudden resignation from Nvidia, alleged personal conduct issues have arisen. Donald Trump has proposed Tim Cook as a fitting successor. The Nvidia board swiftly acknowledged Huang's significant contributions while confirming his departure.",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/legend-replaces-a-legend-trump-wants-tim-cook-to-replace-nvidia-ceo-jensen-huang/articleshow/135775422.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-12T15:50:46.000Z"
-    },
-    {
-      "title": "Chinese 'spy' Alice Huang's firms invested in DeepSeek, promised Nvidia's Blackwell chips",
-      "summary": "Alice Huang, associated with Nvidia CEO Jensen Huang, has drawn scrutiny over her data centre ventures. Companies linked to her invested in DeepSeek to secure Nvidia's Blackwell chips, which are crucial for AI operations.",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/chinese-spy-alice-huangs-companies-invested-in-deepseek-promised-nvidias-blackwell-chips/articleshow/135774367.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-12T15:28:29.000Z"
     }
   ]
 }
