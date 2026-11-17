@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-17T09:21:55.219Z",
-  "articlesCount": 50,
+  "lastUpdated": "2026-11-17T19:16:04.350Z",
+  "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
   "sourceStatus": [
@@ -13,8 +13,8 @@
     {
       "source": "Business Today",
       "status": "ok",
-      "articles": 30,
-      "feedUsed": "https://www.businesstoday.in/rss/markets"
+      "articles": 20,
+      "feedUsed": "https://www.businesstoday.in/rssfeeds/?id=225346"
     },
     {
       "source": "Zee Business",
@@ -57,44 +57,212 @@
   ],
   "articles": [
     {
-      "title": "From Antarctica trips to $1,000 wellness stays, luxury is changing in India",
-      "summary": "",
-      "url": "https://www.businesstoday.in/magazine/cover-story/story/from-antarctica-trips-to-1000-wellness-stays-luxury-is-changing-in-india-566442-2026-11-09?utm_source=rssfeed",
+      "title": "'Relationships are capital': WIN launches AI platform to connect 10,000 women leaders across 50+ countries",
+      "summary": "The launch took place during the third edition of WIN Lounge at Climate Week New York 2026, held alongside the 81st United Nations General Assembly",
+      "url": "https://www.businesstoday.in/latest/corporate/story/relationships-are-capital-women-inspiring-network-launches-ai-platform-to-connect-10000-women-leaders-across-50-countries-568018-2026-11-17?utm_source=rssfeed",
       "source": "Business Today",
       "category": "markets",
-      "publishedAt": "2026-11-17T09:21:50.556Z"
+      "publishedAt": "2026-11-17T14:38:03.000Z"
     },
     {
-      "title": "YES Bank refutes $3.4 million crore cyber fraud report; stock slips",
-      "summary": "The private lender said the report was factually incorrect, adding that its systems had not been compromised, no government accounts had been impacted, and it had not incurred any financial loss in connection with the alleged incident.",
-      "url": "https://www.businesstoday.in/markets/stocks/story/yes-bank-refutes-3-4-million-crore-cyber-fraud-report-stock-slips-567875-2026-11-17?utm_source=rssfeed",
+      "title": "Tata Sons IPO: Darius Khambata challenges Venu Srinivasan, Vijay Singh over U-turn",
+      "summary": "Former Tata Trusts trustee Darius Khambata has questioned Venu Srinivasan and Vijay Singh's U-turn on the proposed Tata Sons listing, accusing them of selectively presenting facts.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/tata-sons-ipo-row-deepens-darius-khambata-challenges-venu-srinivasan-vijay-singh-over-u-turn-says-report-568013-2026-11-17?utm_source=rssfeed",
       "source": "Business Today",
       "category": "markets",
-      "publishedAt": "2026-11-17T09:13:07.000Z"
+      "publishedAt": "2026-11-17T14:27:31.000Z"
     },
     {
-      "title": "How Can We Turn The Potential Of #AI Into Meaningful Impact For The Real World?",
-      "summary": "As industries explore new possibilities with AI, the focus is moving from experimentation to creating solutions that deliver real value.",
-      "url": "https://www.businesstoday.in/bt-tv/whats-hot/video/how-can-we-turn-the-potential-of-ai-into-meaningful-impact-for-the-real-world-567831-2026-11-17?utm_source=rssfeed",
-      "source": "Business Today",
+      "title": "China, Russia’s reality check for Trump: Why US sanctions may not matter any more",
+      "summary": "For decades, the United States relied on its overwhelming ability to impose sanctions as an alternative to projecting military power. But that seems to be changing now.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/china-russias-reality-check-for-trump-why-us-sanctions-may-not-matter-any-more/articleshow/135928704.cms",
+      "source": "Times of India Business",
       "category": "markets",
-      "publishedAt": "2026-11-17T08:55:38.000Z"
+      "publishedAt": "2026-11-17T14:20:50.000Z"
     },
     {
-      "title": "Banking Stocks Rally: Sunny Agrawal's Top Private Bank, PSU Bank And Financial Stock Picks",
-      "summary": "India's banking and financial stocks are gaining momentum, but is the biggest rally still ahead? Sunny Agrawal, DVP, Head of Fundamental Desk, SBI Securities, remains positive on both private and PSU banks, citing strong credit growth, improving earnings prosp…",
-      "url": "https://www.businesstoday.in/bt-tv/market-today/video/banking-stocks-rally-sunny-agrawals-top-private-bank-psu-bank-and-financial-stock-picks-567815-2026-11-17?utm_source=rssfeed",
+      "title": "Newly listed logistics player Skyways Air doubles profit for second straight quarter",
+      "summary": "Skyways Air Services has also delivered strong growth over the past three years: gross sales rose 87% to Rs 2,862.7 crore in FY26 from Rs 1,530.1 crore in FY23",
+      "url": "https://www.businesstoday.in/latest/corporate/story/newly-listed-logistics-player-skyways-air-doubles-profit-for-second-straight-quarter-568003-2026-11-17?utm_source=rssfeed",
       "source": "Business Today",
       "category": "markets",
-      "publishedAt": "2026-11-17T08:49:50.000Z"
+      "publishedAt": "2026-11-17T13:52:10.000Z"
     },
     {
-      "title": "PM Modi At ASEAN Summit: Calls For Peace, Stability And Greater India-ASEAN Cooperation",
-      "summary": "Prime Minister Narendra Modi participates in the 23rd ASEAN-India Summit, highlighting the importance of peace, stability and regional cooperation amid global challenges. Addressing the summit, PM Modi says the world needs peace, stability and productivity more than ever.",
-      "url": "https://www.businesstoday.in/bt-tv/whats-hot/video/pm-modi-at-asean-summit-calls-for-peace-stability-and-greater-india-asean-cooperation-567813-2026-11-17?utm_source=rssfeed",
+      "title": "Budget 2027: CII seeks tax incentives, higher capital expenditure, 4% fiscal deficit target",
+      "summary": "Ahead of Union Budget 2027-28, CII has sought targeted tax incentives to boost investment, manufacturing, R&D and employment generation.",
+      "url": "https://www.businesstoday.in/union-budget/story/budget-2027-cii-seeks-tax-incentives-higher-capital-expenditure-4-fiscal-deficit-target-567999-2026-11-17?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "regulatory",
+      "publishedAt": "2026-11-17T13:44:02.000Z"
+    },
+    {
+      "title": "Tenant tells landlady to run her tailoring business from home; why Delhi HC upheld eviction",
+      "summary": "The case involved a woman who owned a property consisting of four ground-floor shops and accommodation on the upper floors. She had been operating her ladies’ tailoring business from her residence for a considerable period.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/tenant-tells-landlady-to-run-her-tailoring-business-from-home-instead-of-evicting-but-delhi-high-court-upholds-landladys-plea-and-orders-eviction-saying-tenant-cannot-dictate-her-choice/articleshow/135917202.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-17T13:36:23.000Z"
+    },
+    {
+      "title": "Pragya Misra to lead OpenAI's business development for India, South Asia",
+      "summary": "The appointment comes at a time when OpenAI is seeking to strengthen its ties with Indian businesses and widen the adoption of its AI technology in the country. Misra said India is currently ChatGPT’s largest country market.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/pragya-misra-openais-first-hire-in-india-elevated-to-lead-business-development-for-india-south-asia/articleshow/135927245.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-17T13:23:27.000Z"
+    },
+    {
+      "title": "India's health habits are changing: 90% use health apps, 81% willing to pay more for wearable data, finds PwC",
+      "summary": "PwC report found that 42% of Indian consumers exercise daily, compared with 19% globally. It said food, fitness, sleep, mental wellbeing, and preventive care are increasingly being treated as connected aspects of everyday health",
+      "url": "https://www.businesstoday.in/latest/corporate/story/indias-health-habits-are-changing-90-use-health-apps-81-willing-to-pay-more-for-wearable-data-finds-pwc-survey-567992-2026-11-17?utm_source=rssfeed",
       "source": "Business Today",
       "category": "markets",
-      "publishedAt": "2026-11-17T08:43:30.000Z"
+      "publishedAt": "2026-11-17T13:10:39.000Z"
+    },
+    {
+      "title": "India-US trade in 7 numbers as Modi and Trump attend the Manila summits",
+      "summary": "Modi and Trump are both in Manila. Here is where India-US trade stands: a 10% US tariff, a $34 billion surplus, an unsigned interim deal and a $500 billion purchase promise.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/india-us-trade-in-7-numbers-as-modi-and-trump-attend-the-manila-summits-567983-2026-11-17?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-17T12:42:48.000Z"
+    },
+    {
+      "title": "Jimmy Tata vs Noel Tata: Who’s who in the Tata boardroom fight, and what each side wants",
+      "summary": "Jimmy Tata, 85, has backed N Chandrasekaran and a Tata Sons listing, against half-brother Noel. A who’s who of the Tata boardroom fight, and the dates that led here.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/jimmy-tata-vs-noel-tata-whos-who-in-the-tata-boardroom-fight-and-what-each-side-wants-567972-2026-11-17?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-17T12:26:16.000Z"
+    },
+    {
+      "title": "'Good things going on in India...': Raghuram Rajan on India's strengths, Iran war and growth outlook",
+      "summary": "We also need next generation of reforms and a push from the private sector, says Raghuram Rajan",
+      "url": "https://www.businesstoday.in/latest/economy/story/good-things-going-on-in-india-raghuram-rajan-on-indias-strengths-iran-war-and-growth-outlook-567945-2026-11-17?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-17T11:39:57.000Z"
+    },
+    {
+      "title": "Silver down 58% from its January peak: ₹1 lakh invested at the top is now worth about ₹41,700",
+      "summary": "MCX silver hit ₹4,07,456 a kg on 29 January. On 16 November it was ₹1,69,742. Here is what that 58% fall means for ₹1 lakh invested at the top, and how past crashes played out.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/silver-down-58-from-its-january-peak-rs1-lakh-invested-at-the-top-is-now-worth-about-rs41700-567943-2026-11-17?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-17T11:31:10.000Z"
+    },
+    {
+      "title": "Your salary may be rising, but how much more can you actually afford?",
+      "summary": "India's inflation has skyrocketed past 6%, severely impacting daily life, especially in food and transportation sectors. Grocery prices have surged, with food inflation hitting 8.94%.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/your-salary-may-be-rising-but-how-much-more-can-you-actually-afford-inflation-explained-in-10-charts/articleshow/135922383.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-17T11:26:53.000Z"
+    },
+    {
+      "title": "The Batman is now James Bond: Robert Pattinson is officially 007",
+      "summary": "Robert Pattinson is officially the new James Bond, replacing Daniel Craig. Discover Amazon MGM's 007 reboot, directed by Denis Villeneuve, and what comes next for the spy franchise.",
+      "url": "https://www.businesstoday.in/latest/photo/the-batman-is-now-james-bond-robert-pattinson-is-officially-007-567937-2026-11-17?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-17T11:20:53.000Z"
+    },
+    {
+      "title": "“I have never worked for anyone quite like him”: an Indian Nvidia employee speaks up for Jensen Huang",
+      "summary": "Indian Nvidia employee Vartika Singh shares how Jensen Huang supported her family during her sister's cancer battle. Read her emotional tribute amid the controversy around Huang.",
+      "url": "https://www.businesstoday.in/latest/photo/i-have-never-worked-for-anyone-quite-like-him-an-indian-nvidia-employee-speaks-up-for-jensen-huang-567931-2026-11-17?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-17T11:04:29.000Z"
+    },
+    {
+      "title": "180,000 signatures, Musk, Trump: and Nvidia’s board still says no to Huang’s return",
+      "summary": "Jensen Huang's Nvidia comeback faces a setback despite backing from Trump, Elon Musk and over 180,000 supporters. Explore the board's reported stance and leadership crisis.",
+      "url": "https://www.businesstoday.in/latest/photo/180000-signatures-musk-trump-and-nvidias-board-still-says-no-to-huangs-return-567929-2026-11-17?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-17T11:00:22.000Z"
+    },
+    {
+      "title": "Returning from Chhath? Metro will run early from Anand Vihar and New Delhi till Nov 22",
+      "summary": "Delhi Metro will run early services from 5:15 am on November 18-22 for passengers returning after Chhath Puja. Check timings, stations and Blue, Pink and Yellow Line services.",
+      "url": "https://www.businesstoday.in/latest/photo/returning-from-chhath-metro-will-run-early-from-anand-vihar-and-new-delhi-till-nov-22-567926-2026-11-17?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-17T10:56:31.000Z"
+    },
+    {
+      "title": "Kanpur finally gets a new daily train to Delhi, leaving at 8:40 pm and arriving at 4:50 am",
+      "summary": "New Kanpur Express connects Kanpur Central to Delhi's Anand Vihar Terminal daily, departing at 8:40 pm and arriving at 4:50 am. Explore its route, stops and railway upgrades.",
+      "url": "https://www.businesstoday.in/latest/photo/kanpur-finally-gets-a-new-daily-train-to-delhi-leaving-at-840-pm-and-arriving-at-450-am-567924-2026-11-17?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-17T10:53:36.000Z"
+    },
+    {
+      "title": "Delhi’s “Sheesh Mahal” will open for tickets next week, but the government hasn’t said when or how",
+      "summary": "Arvind Kejriwal's former Delhi residence, called 'Sheesh Mahal', may open for public tours next week. Explore the ₹33.66 crore renovation row and pending ticket details.",
+      "url": "https://www.businesstoday.in/latest/photo/delhis-sheesh-mahal-will-open-for-tickets-next-week-but-the-government-hasnt-said-when-or-how-567922-2026-11-17?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "insurance",
+      "publishedAt": "2026-11-17T10:47:03.000Z"
+    },
+    {
+      "title": "Who is Lakshmi Venu? The TVS family heiress and TAFE Vice Chairman seeking an equal share with brother Sudarshan Venu",
+      "summary": "Lakshmi Venu is a fourth-generation industrialist and one of the prominent business leaders of the TVS family.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/who-is-lakshmi-venu-the-tvs-family-heiress-and-tafe-vice-chairman-seeking-an-equal-share-with-brother-sudarshan-venu-567917-2026-11-17?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-17T10:41:20.000Z"
+    },
+    {
+      "title": "IL&FS crisis was India's Lehman Brothers moment, swift government action prevented contagion: Uday Kotak",
+      "summary": "Speaking at the inaugural session of NITI Aayog's National Workshop Series, Leadership as Mission, Kotak said the infrastructure financing giant, despite holding a triple-A credit rating, faced massive defaults across its complex network of 340 companies.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/ilfs-crisis-was-indias-lehman-brothers-moment-swift-government-action-prevented-contagion-uday-kotak-567918-2026-11-17?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-17T10:34:56.000Z"
+    },
+    {
+      "title": "Hardik Pandya moves to Punjab Kings for ₹18 crore: All 10 IPL 2027 trades ranked by fee",
+      "summary": "Hardik Pandya moved to Punjab Kings for ₹18 crore, Rishabh Pant took a ₹12 crore pay cut to rejoin Delhi. Here are all 10 IPL 2027 trades, ranked by fee, before the Goa auction.",
+      "url": "https://www.businesstoday.in/sports/photo/hardik-pandya-moves-to-punjab-kings-for-rs18-crore-all-10-ipl-2027-trades-ranked-by-fee-567906-2026-11-17?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-17T10:06:23.000Z"
+    },
+    {
+      "title": "'China is the most disappointing trade': Ruchir Sharma explains why he is wary of investing there",
+      "summary": "The big story in China is that the domestic economy is in big trouble. The property market has gone bust, and the downward pressure it puts on the entire economy is huge and underestimated, says Ruchir Sharma",
+      "url": "https://www.businesstoday.in/latest/economy/story/china-is-the-most-disappointing-trade-ruchir-sharma-explains-why-he-is-wary-of-investing-there-567898-2026-11-17?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-17T09:56:51.000Z"
+    },
+    {
+      "title": "$7 billion green boost: Amazon invests big in India's renewable energy landscape",
+      "summary": "Amazon plans to pour an impressive $7 billion into renewable energy projects in India by the year 2030. With a strong focus on expanding its solar and wind energy capabilities, this initiative will fulfill the annual electricity requirements of more than 3.5 million homes.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/7-billion-green-boost-amazon-invests-big-in-indias-renewable-energy-landscape/articleshow/135918924.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-17T09:45:27.000Z"
+    },
+    {
+      "title": "Budget 2027: Zero LTCG tax after 3 years? FICCI proposes major relief for stock market investors",
+      "summary": "Budget 2027 could bring LTCG tax relief, with FICCI proposing zero tax on listed shares held beyond three years. The proposal comes amid a debate between industry bodies seeking relief and economists favouring the existing tax regime.",
+      "url": "https://www.businesstoday.in/union-budget/story/budget-2027-zero-ltcg-tax-after-3-years-ficci-proposes-major-relief-for-stock-market-investors-567889-2026-11-17?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "regulatory",
+      "publishedAt": "2026-11-17T09:39:05.000Z"
+    },
+    {
+      "title": "FPIs may increase bets on Indian financial stocks as flows recover: Jefferies",
+      "summary": "Foreign portfolio investors have recently turned positive towards Indian equities, with net buying of $11.4 billion. Their investments in financial stocks remain below the five-year average, suggesting room for further growth.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/foreign-investors-may-increase-bets-on-indian-financial-stocks-as-flows-recover-jefferies/articleshow/135917552.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-17T09:14:06.000Z"
     },
     {
       "title": "Gold down 25% from peak of Rs 1.8 lakh; silver crashes nearly 60% in 10 months",
@@ -105,164 +273,12 @@
       "publishedAt": "2026-11-17T08:35:20.000Z"
     },
     {
-      "title": "Pharma Stocks: Why Diagnostics Could Be The Next Healthcare Investment Opportunity",
-      "summary": "India's pharma sector has outperformed the broader market, but are more gains ahead? Sunny Agrawal, DVP, Head of Fundamental Desk, SBI Securities, shares his outlook on pharma, healthcare and diagnostics stocks.",
-      "url": "https://www.businesstoday.in/bt-tv/market-today/video/pharma-stocks-why-diagnostics-could-be-the-next-healthcare-investment-opportunity-567808-2026-11-17?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-17T08:35:07.000Z"
-    },
-    {
-      "title": "Bharat Summit Row: Italian Leader's 'Vote Chor' Slogan Trigger Visa Row, BJP Targets Rahul Gandhi",
-      "summary": "The Bharat Summit 2026 in Hyderabad has triggered a major political controversy after Italian politician Giacomo Filibeck raised the slogan 'Vote Chor, Gaddi Chhod' while criticising the Modi government and expressing support for Rahul Gandhi.",
-      "url": "https://www.businesstoday.in/bt-tv/whats-hot/video/bharat-summit-row-italian-leaders-vote-chor-slogan-trigger-visa-row-bjp-targets-rahul-gandhi-567804-2026-11-17?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-17T08:31:08.000Z"
-    },
-    {
-      "title": "Apollo Micro Systems to acquire 26% stake in A-Thon; check stock reaction",
-      "summary": "Apollo Micro Systems said the initial acquisition of up to 26% would be the first step in a phased acquisition.",
-      "url": "https://www.businesstoday.in/markets/stocks/story/apollo-micro-systems-to-acquire-stake-in-a-thon-check-stock-reaction-567847-2026-11-17?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-17T08:30:00.000Z"
-    },
-    {
-      "title": "Where Are The Biggest Opportunities In Quick Commerce And Food Delivery? Sunny Agarwal Explains",
-      "summary": "India's quick commerce and food delivery sectors are witnessing strong growth, but which stocks offer better opportunities? Sunny Agrawal, DVP, Head of Fundamental Desk, SBI Securities, shares his outlook on the sector, examining Bernstein's bullish view on Sw…",
-      "url": "https://www.businesstoday.in/bt-tv/market-today/video/where-are-the-biggest-opportunities-in-quick-commerce-and-food-delivery-sunny-agarwal-explains-567805-2026-11-17?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-17T08:27:54.000Z"
-    },
-    {
-      "title": "I.T. Stocks Rebound: These Midcap I.T. Companies Could Lead India's Next Technology Sector Recovery",
-      "summary": "Indian I.T. stocks have rebounded following the global AI cool-off trade, but can the recovery sustain? Sunny Agrawal, DVP & Head of Fundamental Desk, SBI Securities, shares his outlook on the I.T. sector, highlighting the sharp mean reversion in traditional I.T.",
-      "url": "https://www.businesstoday.in/bt-tv/market-today/video/it-stocks-rebound-these-midcap-it-companies-could-lead-indias-next-technology-sector-recovery-567803-2026-11-17?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-17T08:18:09.000Z"
-    },
-    {
-      "title": "Adani Power's expansion roadmap: Nuclear sector entry, Bhutan projects, power capacity and more",
-      "summary": "Adani Power reported a 79% year-on-year increase in profit after tax (PAT) to $1.25 billion in H1 FY27, according to its investor presentation.",
-      "url": "https://www.businesstoday.in/markets/stocks/story/adani-powers-expansion-roadmap-power-generation-capacity-nuclear-sector-entry-bhutan-hydropower-and-more-567836-2026-11-17?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-17T08:11:20.000Z"
-    },
-    {
-      "title": "LPG dealers, petrol pumps raise concerns regarding stagnant commissions with Oil Ministry: Sources",
-      "summary": "Petrol, diesel and LPG dealers are seeking higher commissions due to rising operating costs, sources mentioned.",
-      "url": "https://www.businesstoday.in/latest/economy/story/lpg-dealers-petrol-pumps-raise-concerns-regarding-stagnant-commissions-with-oil-ministry-sources-567841-2026-11-17?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-17T08:05:18.000Z"
-    },
-    {
-      "title": "Tata Chemicals, Tata Investment shares trim gains after NSE, BSE clarification",
-      "summary": "In an exchange filing, Tata Chemicals said it is not aware of initiation of any regulatory or legal proceedings. Similar filings were made by other listed Tata group firms including Tata Investment.",
-      "url": "https://www.businesstoday.in/markets/stocks/story/tata-chemicals-tata-investment-shares-trim-gains-after-nse-bse-clarification-567844-2026-11-17?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "regulatory",
-      "publishedAt": "2026-11-17T08:04:52.000Z"
-    },
-    {
-      "title": "SEBI directs market intermediaries to update KYC, tax reporting systems under new income tax rules",
-      "summary": "Market intermediaries will have to revise their KYC procedures, customer verification processes and tax-reporting systems to comply with SEBI's latest directions under the revised income tax rules.",
-      "url": "https://www.businesstoday.in/markets/story/sebi-directs-market-intermediaries-to-update-kyc-tax-reporting-systems-under-new-income-tax-rules-567843-2026-11-17?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "regulatory",
-      "publishedAt": "2026-11-17T08:03:00.000Z"
-    },
-    {
-      "title": "Premier Energies shares stuck in bear grip, analysts share price targets",
-      "summary": "The solar industry stock made its market debut on September 3, 2024 at Rs 990 per share. It has lost 13% in two years and fallen 17.18% in three months.",
-      "url": "https://www.businesstoday.in/markets/stocks/story/premier-energies-shares-stuck-in-bear-grip-analysts-share-price-targets-567834-2026-11-17?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-17T07:47:27.000Z"
-    },
-    {
-      "title": "Instagram faces fresh India scrutiny as Meta steps up action against explicit content",
-      "summary": "The company says users are seeing fewer unwanted recommendations, even as concerns over harmful content, child safety and social media regulation put its platforms under closer watch.",
-      "url": "https://www.businesstoday.in/technology/news/story/instagram-faces-fresh-india-scrutiny-as-meta-steps-up-action-against-explicit-content-567827-2026-11-17?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-17T07:30:51.000Z"
-    },
-    {
       "title": "8th Pay Commission: Rail staff seek more time for talks; defence staff demand Rs 69,000 minimum pay",
       "summary": "8th Pay Commission news: In a letter dated November 12, 2026, AIRF secretary general Shiva Gopal Mishra sought a further two-day appointment with the commission to take up various employee-related issues.",
       "url": "https://timesofindia.indiatimes.com/business/india-business/8th-pay-commission-indian-railways-employees-seek-two-extra-days-for-talks-while-defence-civilians-demand-rs-69000-minimum-pay-3-83-fitment-factor-and-ops-restoration/articleshow/135914740.cms",
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-11-17T07:29:14.000Z"
-    },
-    {
-      "title": "Trump, Xi & Putin Meet In China: Nuclear Arms, Iran War & New World Order In Focus",
-      "summary": "Donald Trump, Xi Jinping and Vladimir Putin are preparing for an unprecedented trilateral meeting in Shenzhen, China, on November 19.",
-      "url": "https://www.businesstoday.in/bt-tv/whats-hot/video/trump-xi-putin-meet-in-china-nuclear-arms-iran-war-new-world-order-in-focus-567793-2026-11-17?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "insurance",
-      "publishedAt": "2026-11-17T07:24:52.000Z"
-    },
-    {
-      "title": "PM Modi In Philippines: Quad Summit, Trump Meet And India's Big Indo-Pacific Push",
-      "summary": "Prime Minister Narendra Modi's Philippines visit comes at a crucial geopolitical moment, with the Indo-Pacific emerging as a key centre of strategic competition.",
-      "url": "https://www.businesstoday.in/bt-tv/whats-hot/video/pm-modi-in-philippines-quad-summit-trump-meet-and-indias-big-indo-pacific-push-567791-2026-11-17?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-17T07:18:11.000Z"
-    },
-    {
-      "title": "India's crude basket sees sharp shift in November as Brent share falls to 53.49%, Oman-Dubai gains",
-      "summary": "According to PPAC data released on November 17, Brent Dated's share declined by 11.78 percentage points in November, while Oman and Dubai's combined contribution increased by an equivalent margin.",
-      "url": "https://www.businesstoday.in/latest/economy/story/indias-crude-basket-sees-sharp-shift-in-november-as-brent-share-falls-to-53-49-oman-dubai-gains-567820-2026-11-17?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-17T07:16:20.000Z"
-    },
-    {
-      "title": "How Nvidia contributed to nearly half of Israel's Q3 GDP growth",
-      "summary": "Israel's economy expanded at a seasonally adjusted annualised rate of 8 per cent in the three months ended September.",
-      "url": "https://www.businesstoday.in/markets/stocks/story/how-nvidia-contributed-to-nearly-half-of-israels-q3-gdp-growth-567821-2026-11-17?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-17T07:13:46.000Z"
-    },
-    {
-      "title": "2,194 gold hallmarking audits missed in five years: Who is checking the labs certifying your jewellery?",
-      "summary": "India's gold hallmarking system is facing scrutiny after the CAG's draft audit reportedly revealed that more than 43% of mandatory surveillance audits of Assaying and Hallmarking Centres (AHCs) were not conducted over five years.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/2194-gold-hallmarking-audits-missed-in-five-years-who-is-checking-the-labs-certifying-your-jewellery-567810-2026-11-17?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-17T06:54:45.000Z"
-    },
-    {
-      "title": "After Mahanadi Coalfields IPO, Coal India plans two more issues for investors; check key details",
-      "summary": "Coal India is considering IPOs of Northern Coalfields and Central Coalfields, targeting Rs 4,000–5,000 crore from each stake sale. Here's what the report says about the listing plans and timeline.",
-      "url": "https://www.businesstoday.in/markets/ipo-corner/story/coal-india-plans-ipos-of-northern-coalfields-central-coalfields-eyes-to-raise-upto-rs-10000-crore-567811-2026-11-17?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-17T06:46:38.000Z"
-    },
-    {
-      "title": "Nifty Bank at all-time high; 3 stocks need up to 2,200% rise to revisit peaks!",
-      "summary": "Ashika Institutional Equities said the key determinants of sector performance in H2FY27 would be banks' ability to sustain deposit mobilisation following the Q2 FCNR(B)-led inflows.",
-      "url": "https://www.businesstoday.in/markets/stocks/story/nifty-bank-at-all-time-high-3-stocks-need-up-to-2200-rise-to-revisit-peaks-567802-2026-11-17?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-17T06:41:26.000Z"
-    },
-    {
-      "title": "Tata boardroom tussle: All about Jimmy Tata, late Ratan Tata's brother who's at odds with Noel Tata",
-      "summary": "With Jimmy publicly siding against his own half-brother, the dispute is exposing deep cracks in the family that controls the Tata Group. Here’s a look at who Jimmy Tata is and why this clash matters now.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/tata-boardroom-tussle-all-about-jimmy-tata-late-ratan-tatas-brother-whos-at-odds-with-noel-tata-567765-2026-11-17?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-17T06:37:54.000Z"
     },
     {
       "title": "Post-Diwali price hike shock loading: Daily essentials, phones, TVs, appliances to cost more",
@@ -273,36 +289,12 @@
       "publishedAt": "2026-11-17T06:36:42.000Z"
     },
     {
-      "title": "No longer just a Delhi problem: As Delhi-NCR air turns toxic, air purifier sales double across India",
-      "summary": "Delhi-NCR accounted for nearly 80% of sales volumes until 2025, but manufacturers are seeing growing demand from newer markets across India.",
-      "url": "https://www.businesstoday.in/india/story/no-longer-just-a-delhi-problem-as-delhi-ncr-air-turns-toxic-air-purifier-sales-double-across-india-567783-2026-11-17?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-17T06:26:09.000Z"
-    },
-    {
       "title": "Gold to fall more? Check gold price outlook for November 17, 2026",
       "summary": "Gold price prediction today: Although gold is quite oversold, it is likely to fall further in the short term on expectations of aggressive rate hikes, a firmer US dollar and rising yields.The metal may draw some support from weakness in tech equities, though, …",
       "url": "https://timesofindia.indiatimes.com/business/india-business/gold-price-prediction-today-where-are-gold-rates-headed-on-november-17-2026-and-in-the-near-term-mcx-gold-silver-prices/articleshow/135913028.cms",
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-11-17T06:08:28.000Z"
-    },
-    {
-      "title": "Jensen Huang’s chief of staff, sway over marketing, communications: Madison Huang held considerable influence in Nvidia",
-      "summary": "Although officially a senior director of product marketing for physical AI, Madison regularly attended her father’s quarterly meetings with his executive team, presented to the board and helped cultivate his public image.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/jensen-huangs-chief-of-staff-sway-over-marketing-communications-madison-huang-held-considerable-influence-in-nvidia-567786-2026-11-17?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "insurance",
-      "publishedAt": "2026-11-17T06:06:30.000Z"
-    },
-    {
-      "title": "Tata Trusts row: Ratan Tata's brother Jimmy alleges 'back-door takeover', backs Chandrasekaran's third term",
-      "summary": "The ongoing power struggle within Tata Trusts has taken a fresh turn, with Ratan Tata’s younger brother Jimmy N Tata raising concerns over Noel Tata’s family gaining greater control.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/tata-trusts-row-ratan-tatas-brother-jimmy-alleges-back-door-takeover-backs-chandrasekarans-third-term-567785-2026-11-17?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-17T06:05:41.000Z"
     },
     {
       "title": "US reveals how Megaspeed came under scrutiny and landed on Nvidia's 'no sell' list",
@@ -329,28 +321,12 @@
       "publishedAt": "2026-11-17T05:17:59.000Z"
     },
     {
-      "title": "Microsoft data shows Claude struggling to catch up with Copilot in Office",
-      "summary": "Anthropic is expanding Claude’s workplace capabilities, but Microsoft’s internal figures suggest its rival has yet to make significant inroads with businesses already using Office.",
-      "url": "https://www.businesstoday.in/technology/news/story/microsoft-data-shows-claude-struggling-to-catch-up-with-copilot-in-office-567763-2026-11-17?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-17T04:55:07.000Z"
-    },
-    {
       "title": "Trump’s Nvidia stake grew to as much as $62 million: Report",
       "summary": "Donald Trump's stake in Nvidia has escalated significantly, potentially reaching up to $62 million recently. Frequent trading of Nvidia shares by Trump's investment accounts has raised concerns over potential conflicts of interest.",
       "url": "https://timesofindia.indiatimes.com/business/international-business/trumps-nvidia-stake-grew-to-as-much-as-62-million-report/articleshow/135910413.cms",
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-11-17T04:45:13.000Z"
-    },
-    {
-      "title": "Is Noel Tata losing support within the Tata group? Here’s what we know",
-      "summary": "The most significant challenge has come from his half-brother Jimmy Naval Tata, who has backed a public listing of Tata Sons and Chandrasekaran’s continuation for a third term.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/is-noel-tata-losing-support-within-the-tata-group-heres-what-we-know-567757-2026-11-17?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "insurance",
-      "publishedAt": "2026-11-17T04:29:23.000Z"
     },
     {
       "title": "India faces 'acute' aircraft shortage, needs more than 1,000 planes: Piyush Goyal",
@@ -399,62 +375,6 @@
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-11-17T01:31:56.000Z"
-    },
-    {
-      "title": "Wholesale inflation rises to 12% in October",
-      "summary": "Factory gate inflation based on the wholesale price index increased to 12.3% in October from 11.4% in September. This rise is attributed to the acceleration in fuel prices and a base effect.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/wholesale-inflation-rises-to-12-in-oct/articleshow/135906967.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-17T01:26:57.000Z"
-    },
-    {
-      "title": "Govt to consider LTCG tax review demand: CBDT",
-      "summary": "Industry and market participants have been demanding that the long-term capital gains tax of 12.5% on listed equity shares be done away with to help boost the Indian stock markets.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/govt-to-consider-ltcg-tax-review-demand-cbdt/articleshow/135906913.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-17T01:22:00.000Z"
-    },
-    {
-      "title": "TVS family feud deepens as Lakshmi writes to dad Venu for partition of family assets",
-      "summary": "Lakshmi and her mother, Mallika Srinivasan, argue a March 2024 MoU did not settle the economic interests through a formal valuation and mutually agreed division.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/tvs-family-feud-deepens-as-lakshmi-writes-to-dad-venu-for-partition-of-family-assets/articleshow/135906846.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-17T01:16:03.000Z"
-    },
-    {
-      "title": "Noel Tata at odds with more fellow trustees",
-      "summary": "Noel Tata is experiencing diminished influence within Tata Trusts due to rising opposition from fellow trustees and directors. His proposals concerning Tata Sons' listing and N Chandrasekaran's extended chairmanship fail to gain traction among key decision makers.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/noel-tata-at-odds-with-more-fellow-trustees/articleshow/135906637.cms",
-      "source": "Times of India Business",
-      "category": "insurance",
-      "publishedAt": "2026-11-17T01:06:11.000Z"
-    },
-    {
-      "title": "BT BIG STORY: The next big agri export story may not be written in grains of basmati or boxes of spices alone",
-      "summary": "With a $100-billion target in sight, India is looking beyond traditional agricultural exports such as rice, spices and marine products to diversify its export basket.",
-      "url": "https://www.businesstoday.in/latest/economy/story/bt-big-story-the-next-big-agri-export-story-may-not-be-written-in-grains-of-basmati-or-boxes-of-spices-alone-567730-2026-11-17?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-17T00:30:09.000Z"
-    },
-    {
-      "title": "Tata Sons facing 'back-door takeover', warns Jimmy Tata",
-      "summary": "Breaking his silence, Jimmy Tata, Ratan Tata's younger brother, has questioned developments that, in his view, could concentrate influence within a narrower group of trustees.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/tata-sons-facing-back-door-takeover-warns-jimmy-tata/articleshow/135905376.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-16T23:47:13.000Z"
-    },
-    {
-      "title": "IBM in talks for 2 large projects in India: CEO Krishna",
-      "summary": "IBM CEO Arvind Krishna remained upbeat on India, saying the company is expanding its footprint in the country and is hiring more.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/ibm-in-talks-for-2-large-projects-in-india-ceo-krishna/articleshow/135905284.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-16T23:33:16.000Z"
     }
   ]
 }
