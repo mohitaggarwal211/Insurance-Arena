@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-18T21:07:51.083Z",
+  "lastUpdated": "2026-11-19T08:28:41.464Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -57,20 +57,284 @@
   ],
   "articles": [
     {
+      "title": "'Stagnation of wages...': DEA Secretary Anuradha Thakur urges India Inc to raise employee salaries",
+      "summary": "DEA Secretary Anuradha Thakur has urged Indian companies to address wage stagnation and improve employee salaries to stimulate consumer demand and economic growth.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/stagnation-of-wages-dea-secretary-anuradha-thakur-urges-india-inc-to-raise-employee-salaries-568465-2026-11-19?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-19T07:52:08.000Z"
+    },
+    {
+      "title": "UPI MDR rollout may be delayed until 2027 elections as distributors seek exemption from charges: Report",
+      "summary": "The proposed merchant discount rate (MDR) on select UPI transactions above ₹2,000 could be delayed until after the 2027 assembly elections amid opposition from trade bodies.",
+      "url": "https://www.businesstoday.in/latest/economy/story/upi-mdr-rollout-may-be-delayed-until-2027-elections-as-distributors-seek-exemption-from-charges-report-568448-2026-11-19?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-19T07:21:24.000Z"
+    },
+    {
+      "title": "Don't take 140 crore Indians for granted! PM Modi's stern warning to India Inc over quality of products",
+      "summary": "PM Modi was speaking at the Annual General Meeting and Annual Convention of the Federation of Indian Chambers of Commerce and Industry (FICCI) at Bharat Mandapam in Delhi.",
+      "url": "https://www.businesstoday.in/latest/economy/story/dont-take-140-crore-indians-for-granted-pm-modis-stern-warning-to-india-inc-over-quality-of-products-568427-2026-11-19?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-19T07:01:04.000Z"
+    },
+    {
+      "title": "Where are the jobs and higher wages? PM Modi questions India Inc over massive corporate tax cuts",
+      "summary": "PM Narendra Modi on Thursday questioned India Inc on whether the reduction in corporate tax from 30% to 22% had translated into more jobs and higher wages for employees.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/where-are-the-jobs-and-higher-wages-pm-modi-questions-india-inc-over-massive-corporate-tax-cuts-568424-2026-11-19?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-19T06:49:42.000Z"
+    },
+    {
+      "title": "Scotch whisky prices in India at risk? UK rushes to resolve 162.5% import duty dispute",
+      "summary": "British ministers are urgently engaging India over tariffs imposed on bulk Scotch imports. The classification dispute threatens agreed trade benefits and has blocked major shipments.",
+      "url": "https://www.businesstoday.in/latest/economy/story/scotch-whisky-prices-in-india-at-risk-uk-rushes-to-resolve-162-5-import-duty-dispute-568411-2026-11-19?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-19T06:36:23.000Z"
+    },
+    {
+      "title": "Air India CEO Tewolde Gebremariam to outline turnaround priorities amid mounting losses",
+      "summary": "The focus on costs comes as Air India continues to report significant losses. The airline's losses surged to Rs 22,238 crore in FY26, making a sustained improvement in financial performance a key challenge for its new leadership.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/air-india-ceo-tewolde-gebremariam-to-outline-turnaround-priorities-amid-mounting-losses-568420-2026-11-19?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-19T06:24:34.000Z"
+    },
+    {
+      "title": "Which are the top stocks to buy or sell on November 19, 2026?",
+      "summary": "Top stock market recommendations: IIFL Finance, and Hindustan Zinc are the top stocks to sell today on November 19, 2026, according to Aakash K Hindocha, Vice President - Research, Nuvama Professional Clients Group/Nuvama Wealth’s recommendation.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/top-stock-recommendations-for-november-19-2026-iifl-finance-hindustan-zinc-oberoi-realty-best-stocks-to-buy-or-sell-today/articleshow/135979756.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-19T06:16:56.000Z"
+    },
+    {
+      "title": "Nikhil Kamath, Radhika Gupta to Kiran Mazumdar-Shaw's niece: Business doyens in TIME100 Next India 2026 list",
+      "summary": "From fintech disruptors to a biotech heiress with her own Nasdaq listing, here’s everything you need to know about the business leaders redefining India’s next chapter.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/nikhil-kamath-radhika-gupta-to-kiran-mazumdar-shaws-niece-business-doyens-in-time100-next-india-2026-list-568388-2026-11-19?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-19T05:55:23.000Z"
+    },
+    {
+      "title": "Anthropic IPO Pricing: Kotak questions India Inc valuations; IPO tops $1.4 tn target",
+      "summary": "In 2021, Anthropic, an AI startup, achieved an astounding valuation of $1.5 trillion, surpassing the total market valuation of India's top ten companies.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/are-we-undervalued-uday-kotak-asks-as-anthropics-valuation-tops-indias-top-10-combined/articleshow/135978503.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-19T05:27:23.000Z"
+    },
+    {
+      "title": "Nvidia's $30 bn portfolio loss puts its investment bets under scrutiny",
+      "summary": "Nvidia shares have declined 27% since Q2 closing, adding to pressure on its investment portfolio.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/nvidias-30-bn-portfolio-loss-puts-its-investment-bets-under-scrutiny-568392-2026-11-19?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-19T05:20:41.000Z"
+    },
+    {
+      "title": "Oil prices slip as supply concerns and US rate hike fears weigh on market sentiment",
+      "summary": "Recent fluctuations in oil prices have been attributed to growing supply expectations and uneasiness over interest rates. However, these decreases faced limitations due to escalating tensions in the Strait of Hormuz, where attacks on shipping have emerged.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/oil-prices-slip-as-supply-concerns-and-us-rate-hike-fears-weigh-on-market-sentiment/articleshow/135977286.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-19T04:28:14.000Z"
+    },
+    {
+      "title": "Stock market today: Sensex rallies over 400 points, Nifty50 trades above 25,350",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/sensex-stock-market-today-19-november-2026-live-updates-nse-bse-gift-nifty-50-top-gainers-losers-mcx-stocks-in-focus-market-news/liveblog/135976235.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-19T03:12:02.000Z"
+    },
+    {
+      "title": "Man sells house, skips ITR and then claims capital gains exemption; why ITAT gave relief",
+      "summary": "The Income Tax Department had information that the man purchased an immovable property valued at Rs 45 lakh during the relevant year. Since he had not filed his income tax return, proceedings were initiated under Section 147 of the Income Tax Act.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/man-sold-house-but-did-not-file-itr-and-on-getting-tax-notice-he-claimed-rs-49-lakh-exemption-but-taxman-denied-it-itat-mumbai-gives-relief-saying-missing-original-tax-return-alone-cannot-shut-the-door-on-section-54/articleshow/135953256.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-19T02:29:00.000Z"
+    },
+    {
+      "title": "MS Dhoni retires: the IPL’s longest-serving captains ranked by matches, wins and titles",
+      "summary": "With Dhoni retired, here is how the IPL’s longest-serving captains compare: matches, wins, win percentage and titles for Dhoni, Rohit, Kohli, Gambhir and Shreyas Iyer.",
+      "url": "https://www.businesstoday.in/sports/photo/ms-dhoni-retires-the-ipls-longest-serving-captains-ranked-by-matches-wins-and-titles-568202-2026-11-19?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-19T01:30:10.000Z"
+    },
+    {
+      "title": "He worked for less than 5 years, denied gratuity; why court ordered payout with 10% interest",
+      "summary": "The man joined the Bengaluru Metro Rail Corporation (BMRCL) as an assistant engineer on July 6, 2017. He resigned on March 19, 2022, and was formally relieved of his duties on April 18, 2022. His total period of employment amounted to four years, nine months and 12 days.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/employee-worked-4-years-9-months-and-12-days-not-5-years-and-bengaluru-metro-denied-him-rs-1-75-lakh-gratuity-karnataka-high-court-orders-full-payment-with-10-interest-after-examining-the-240-day-rule/articleshow/135959082.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-19T01:29:00.000Z"
+    },
+    {
+      "title": "Tata Sons braces for November 26 showdown with Tata Trusts over mandatory RBI listing: Report",
+      "summary": "Tata Sons' legal presentation argues that the RBI’s earlier rejection of its plea to surrender its CIC registration leaves no room to avoid an IPO, making it the board's duty to initiate compliance.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/tata-sons-braces-for-november-26-showdown-with-tata-trusts-over-mandatory-rbi-listing-report-568296-2026-11-19?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "regulatory",
+      "publishedAt": "2026-11-19T01:24:54.000Z"
+    },
+    {
+      "title": "120W sound, 12-hour battery! Blaupunkt's ₹14,990 speaker comes with a surprise",
+      "summary": "Blaupunkt Atomik Knightz 25K launches in India at ₹14,990 with 120W sound, wireless karaoke mic, 8,800mAh battery, up to 12-hour playback, party lights and IPX6 protection.",
+      "url": "https://www.businesstoday.in/technology/photo/120w-sound-12-hour-battery-blaupunkts-rs14990-speaker-comes-with-a-surprise-568187-2026-11-19?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-19T01:15:04.000Z"
+    },
+    {
+      "title": "Gaganyaan’s first test flight is set for December: What flies, what it tests, and when astronauts follow",
+      "summary": "Gaganyaan’s first uncrewed flight, G1 with robot Vyommitra, is now set for December 2026. It was also promised for December 2024 and December 2025. Here’s the timeline.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/gaganyaans-first-test-flight-is-set-for-december-what-flies-what-it-tests-and-when-astronauts-follow-568238-2026-11-19?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-19T01:10:04.000Z"
+    },
+    {
+      "title": "Western states drive car sales in Q2, Maharashtra leads",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/western-states-drive-car-sales-in-q2-maharashtra-leads/articleshow/135974744.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-19T01:04:59.000Z"
+    },
+    {
+      "title": "₹80,000 a night to ₹26 lakh a trip: What India’s luxury trains cost this season",
+      "summary": "India’s luxury trains cost from about ₹80,000 a night to over ₹26 lakh a trip. Here is what the Palace on Wheels, Maharajas’ Express and Golden Chariot charge and include.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/rs80000-a-night-to-rs26-lakh-a-trip-what-indias-luxury-trains-cost-this-season-568198-2026-11-19?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-19T01:00:07.000Z"
+    },
+    {
+      "title": "1.82 crore passengers, 7,085 special trips: How Northern Railway handled the festive rush",
+      "summary": "Northern Railway handled 1.82 crore passengers during the 2026 festive rush, with 7,085 special train trips across zones, 581 coach augmentations and a 372% rise in coach additions.",
+      "url": "https://www.businesstoday.in/latest/photo/1-82-crore-passengers-7085-special-trips-how-northern-railway-handled-the-festive-rush-568184-2026-11-19?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-19T01:00:07.000Z"
+    },
+    {
+      "title": "Delhi to Lucknow in 2 hours 12 minutes? The bullet train corridor’s proposed times, and what’s missing",
+      "summary": "Delhi to Lucknow in 2 hours 12 minutes? Explore India's proposed 1,500-km Northern Bullet Train Corridor, projected travel times, routes, approval status and missing launch details.",
+      "url": "https://www.businesstoday.in/latest/photo/delhi-to-lucknow-in-2-hours-12-minutes-the-bullet-train-corridors-proposed-times-and-whats-missing-568180-2026-11-19?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-19T00:45:03.000Z"
+    },
+    {
+      "title": "'Venu Srinivasan should step back, ensure equitable distribution': Kapil Sibal on TVS family dispute",
+      "summary": "Sibal says that the assets belong to the family and that both Sudarshan Venu and Lakshmi Venu are entitled to an equal share",
+      "url": "https://www.businesstoday.in/latest/corporate/story/venu-srinivasan-should-step-back-ensure-equitable-distribution-kapil-sibal-on-tvs-family-dispute-568291-2026-11-19?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-19T00:43:22.000Z"
+    },
+    {
+      "title": "Anthropic outshines SpaceX with record $81.31 billion IPO, prices shares at $83 apiece",
+      "summary": "Anthropic has set a record with an IPO that raises $81.31 billion, becoming the largest ever. The company, which is based in San Francisco, values its shares at $83 each.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/anthropics-81-31-billion-ipo-becomes-biggest-market-debut-lists-shares-at-83-apiece/articleshow/135974636.cms",
+      "source": "Times of India Business",
+      "category": "regulatory",
+      "publishedAt": "2026-11-19T00:39:25.000Z"
+    },
+    {
+      "title": "Nvidia sets record with $65bn Q3 profit",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/nvidia-sets-record-with-65bn-q3-profit/articleshow/135974625.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-19T00:33:15.000Z"
+    },
+    {
+      "title": "BT BIG STORY: Can the November 26 Tata Sons board meeting find a way forward?",
+      "summary": "With Noel Tata challenging key board decisions and Tata Trusts resisting a public listing, the holding company faces difficult questions over shareholder rights, board authority and its future ownership structure.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/bt-big-story-for-the-tatas-the-need-is-to-rebuild-trust-but-how-soon-568271-2026-11-19?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "insurance",
+      "publishedAt": "2026-11-19T00:30:07.000Z"
+    },
+    {
+      "title": "135hp power, ₹14.39 lakh price! Triumph's new Street Triple has a surprising twist",
+      "summary": "Triumph Street Triple 798 RS launches in India at ₹14.39 lakh with a 135hp engine, lighter 183kg body, 7-inch touchscreen and upgraded electronics. Check its features and delivery date.",
+      "url": "https://www.businesstoday.in/latest/photo/135hp-power-rs14-39-lakh-price-triumphs-new-street-triple-has-a-surprising-twist-568179-2026-11-19?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-19T00:30:07.000Z"
+    },
+    {
+      "title": "Megha Engg MD raises $700mn, to buy out founder uncle's stake",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/megha-engg-md-raises-700mn-to-buy-out-founder-uncles-stake/articleshow/135974430.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-19T00:19:45.000Z"
+    },
+    {
+      "title": "Zepto IPO: From just 31 launch-day orders, 15 by its own team, to a quick-commerce market leader",
+      "summary": "Zepto received just 31 orders on its launch day, including at least 15 from its own team, before emerging as a major quick-commerce player. Now eyeing an IPO, the startup's journey highlights its early struggles, technology crisis and rapid expansion.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/zepto-ipo-from-just-31-launch-day-orders-15-by-its-own-team-to-a-quick-commerce-market-leader-568282-2026-11-19?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-19T00:05:02.000Z"
+    },
+    {
+      "title": "'India's challenge next year may be rupee's strength, not weakness': CEA Nageswaran",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/indias-challenge-next-year-may-be-rupees-strength-not-weakness-cea-nageswaran/articleshow/135974257.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-18T23:57:45.000Z"
+    },
+    {
+      "title": "Sebi studying various SLBM models: Pandey",
+      "summary": "Sebi chairman Tuhin Kanta Pandey revealed that the regulator is exploring international models for stock lending and borrowing. Speaking at the World Federation of Exchanges, he also dismissed the possibility of extending trading hours, citing heightened risks.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/sebi-studying-various-slbm-models-pandey/articleshow/135974197.cms",
+      "source": "Times of India Business",
+      "category": "regulatory",
+      "publishedAt": "2026-11-18T23:46:39.000Z"
+    },
+    {
+      "title": "Companies are cautious on leverage: JPMorgan",
+      "summary": "Bank CEO Chawda Says Capital-Mkt Fundraising Is Expected To Remain Strong",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/companies-are-cautious-on-leverage-jpmorgan/articleshow/135974086.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-18T23:31:07.000Z"
+    },
+    {
+      "title": "Trade deal to be signed after US tariff plan: Commerce secy",
+      "summary": "Countries need certainty around Section 301 probes, says commerce secretary Rajesh Agarwal",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/trade-deal-to-be-signed-after-us-ready-with-tariff-structure/articleshow/135974075.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-18T23:19:06.000Z"
+    },
+    {
+      "title": "Retiring EPFO subscribers may get monthly payouts",
+      "summary": "EPFO board is likely to discuss the proposal on Thursday.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/retiring-epfo-subscribers-may-get-monthly-payouts/articleshow/135973901.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-18T22:24:07.000Z"
+    },
+    {
       "title": "Jeff Bezos takes charge of James Bond: Why Amazon's $8.45 billion MGM deal matters for the 007 franchise",
       "summary": "Jeff Bezos’ involvement in choosing Robert Pattinson as James Bond highlights Amazon’s ambitions following its $8.45 billion MGM acquisition. With creative control secured, Amazon aims to expand Bond’s global appeal across cinemas and streaming.",
       "url": "https://www.businesstoday.in/latest/corporate/story/jeff-bezos-takes-charge-of-james-bond-why-amazons-8-45-billion-mgm-deal-matters-for-the-007-franchise-568274-2026-11-19?utm_source=rssfeed",
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-11-18T20:05:03.000Z"
-    },
-    {
-      "title": "India to impose 162.5% duty and tax on bulk Scotch imports amid UK trade pact dispute: Report",
-      "summary": "The levy is higher than the 150% tariff imposed before the trade pact came into effect in July",
-      "url": "https://www.businesstoday.in/latest/economy/story/india-to-impose-162-5-duty-and-tax-on-bulk-scotch-imports-amid-uk-trade-pact-dispute-report-568283-2026-11-18?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-18T15:14:56.000Z"
     },
     {
       "title": "Investing in mutual funds? Ask yourself these 4 key questions before putting money",
@@ -81,52 +345,12 @@
       "publishedAt": "2026-11-18T13:01:46.000Z"
     },
     {
-      "title": "India’s longest Vande Bharat is live: timings, fares and the day it doesn’t run",
-      "summary": "India's longest Vande Bharat connects Bengaluru and Goa in 13 hours 20 minutes. Check train timings, 12 stops, operating days, route details and the weekly service break.",
-      "url": "https://www.businesstoday.in/latest/photo/indias-longest-vande-bharat-is-live-timings-fares-and-the-day-it-doesnt-run-568172-2026-11-18?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-18T12:40:04.000Z"
-    },
-    {
-      "title": "MS Dhoni’s business portfolio: What he owns, what he backs, and what is only reported",
-      "summary": "MS Dhoni has retired from the IPL. Off the field he co-owns a football club, runs a footwear brand and has backed startups from Khatabook to Garuda Aerospace.",
-      "url": "https://www.businesstoday.in/latest/trends/photo/ms-dhonis-business-portfolio-what-he-owns-what-he-backs-and-what-is-only-reported-568243-2026-11-18?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-18T12:25:25.000Z"
-    },
-    {
-      "title": "Goldman Sachs sees three more RBI rate hikes; feels rupee's worst is over and Nifty at 28,500",
-      "summary": "Goldman Sachs sees GDP growth moderating, but remaining strong at 7.2% in 2027 and it has also upgraded India's equities to overweight",
-      "url": "https://www.businesstoday.in/latest/economy/story/goldman-sachs-sees-three-more-rbi-rate-hikes-feels-rupees-worst-is-over-and-nifty-at-28500-568228-2026-11-18?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "regulatory",
-      "publishedAt": "2026-11-18T12:00:04.000Z"
-    },
-    {
       "title": "OpenAI, Anthropic expand in India as 24 tech firms grow workforce 30% to 24,000",
       "summary": "A group of 24 international AI and emerging technology companies, excluding Big Tech, tracked by staffing firm Xpheno, expanded their combined employee strength in India by over 30% in the past year to approximately 24,000.",
       "url": "https://timesofindia.indiatimes.com/business/india-business/openai-anthropic-and-other-global-ai-firms-expand-in-india-as-24-overseas-tech-companies-grow-their-combined-workforce-by-over-30-to-24000-with-mid-career-talent-driving-demand/articleshow/135951779.cms",
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-11-18T11:05:00.000Z"
-    },
-    {
-      "title": "Relief for Chanda Kochhar: Bombay HC sets aside ICICI Bank’s sanction to ex-CEO in loan fraud case",
-      "summary": "The court stated that the sanction order dated May 15, 2023, was illegal and deserved to be quashed because the authority that granted it was not competent and did not consider the material properly.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/relief-for-chanda-kochhar-bombay-hc-sets-aside-icici-banks-sanction-to-ex-ceo-in-loan-fraud-case-568188-2026-11-18?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-18T10:46:25.000Z"
-    },
-    {
-      "title": "Indian Army uniform change: Brigadiers and above go back to regiment-specific dress from 1 December",
-      "summary": "From 1 December, Army officers of Brigadier rank and above will get back their regimental berets, hats, lanyards, and belts, as the Army scraps its 2023 common uniform rule.",
-      "url": "https://www.businesstoday.in/latest/trends/photo/indian-army-uniform-change-brigadiers-and-above-go-back-to-regiment-specific-dress-from-1-december-568186-2026-11-18?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-18T10:37:10.000Z"
     },
     {
       "title": "SpiceJet board approves Rs 5,500 crore fundraise plan to revive cash-strapped airline",
@@ -137,30 +361,6 @@
       "publishedAt": "2026-11-18T10:36:29.000Z"
     },
     {
-      "title": "After the price hikes, the Galaxy S26 FE is ₹23,000 cheaper than the S26 and ₹19,901 cheaper than iPhone 17",
-      "summary": "Samsung’s Galaxy S26 FE costs ₹79,999. After September’s price hikes, the Galaxy S26 costs ₹1,02,999 and the iPhone 17 ₹99,900. Here is what the extra money buys.",
-      "url": "https://www.businesstoday.in/technology/photo/after-the-price-hikes-the-galaxy-s26-fe-is-rs23000-cheaper-than-the-s26-and-rs19901-cheaper-than-iphone-17-568178-2026-11-18?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-18T10:18:45.000Z"
-    },
-    {
-      "title": "‘AI is changing how we talk about being human’: Cambridge Dictionary’s word of the year is deceptively simple",
-      "summary": "The word was picked as a hat-tip to the importance of being human as the lines between machines and people get rapidly blurred.",
-      "url": "https://www.businesstoday.in/latest/trends/story/ai-is-changing-how-we-talk-about-being-human-cambridge-dictionarys-word-of-the-year-is-deceptively-simple-568176-2026-11-18?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-18T10:16:23.000Z"
-    },
-    {
-      "title": "A museum 426 metres high? Saudi Arabia's Mecca Clock Tower wins 2 Guinness World Records",
-      "summary": "According to the announcement, the Clock Tower Museum stands 426.875 metres above ground, making it the highest museum located inside a building anywhere in the world",
-      "url": "https://www.businesstoday.in/latest/world/story/a-museum-426-metres-high-saudi-arabias-mecca-clock-tower-wins-2-guinness-world-records-568169-2026-11-18?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-18T10:03:54.000Z"
-    },
-    {
       "title": "Chinese steel imports threaten Indian industry, Tata Steel CEO warns",
       "summary": "Tata Steel's CEO T V Narendran highlighted concerns regarding the impact of Chinese steel imports on India's industry. The company aims to expand its production capacity to 40 million tonnes by 2035, while exploring additional electric arc furnace projects.",
       "url": "https://timesofindia.indiatimes.com/business/india-business/chinese-steel-imports-threaten-indian-industry-tata-steel-ceo-calls-for-level-playing-field/articleshow/135958719.cms",
@@ -169,212 +369,12 @@
       "publishedAt": "2026-11-18T09:59:39.000Z"
     },
     {
-      "title": "Dhoni’s IPL career in numbers: 278 matches, 5,439 runs, five titles and about ₹197 crore in pay",
-      "summary": "MS Dhoni has retired from the IPL after 19 seasons. Here is what he earned year by year, about ₹196.84 crore in all, and the record he leaves behind at CSK.",
-      "url": "https://www.businesstoday.in/latest/trends/photo/dhonis-ipl-career-in-numbers-278-matches-5439-runs-five-titles-and-about-rs197-crore-in-pay-568171-2026-11-18?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-18T09:58:07.000Z"
-    },
-    {
-      "title": "India, Pakistan and Bangladesh contestants’ friendship goes viral before the Miss Universe finale",
-      "summary": "Miss Universe 2026 contestants from India, Pakistan and Bangladesh celebrate friendship in viral photos ahead of the November 24 finale in Puerto Rico. See their sisterhood message.",
-      "url": "https://www.businesstoday.in/latest/photo/india-pakistan-and-bangladesh-contestants-friendship-goes-viral-before-the-miss-universe-finale-568167-2026-11-18?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-18T09:52:45.000Z"
-    },
-    {
-      "title": "Jensen Huang ready to return, Nvidia board says no! What Colette Kress revealed",
-      "summary": "Nvidia's board rejects Jensen Huang's return as CEO. Interim chief Colette Kress reveals the decision as the AI chipmaker raises its fiscal 2028 revenue growth forecast to 75%.",
-      "url": "https://www.businesstoday.in/latest/photo/jensen-huang-ready-to-return-nvidia-board-says-no-what-colette-kress-revealed-568165-2026-11-18?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-18T09:41:44.000Z"
-    },
-    {
-      "title": "₹5 lakh life insurance for every ration-card family: Telangana’s new scheme starts Nov 19",
-      "summary": "Telangana's Indiramma Family Insurance scheme offers ₹5 lakh life cover for 1 crore families. CM Revanth Reddy will launch applications on November 19 in Siddipet.",
-      "url": "https://www.businesstoday.in/latest/photo/rs5-lakh-life-insurance-for-every-ration-card-family-telanganas-new-scheme-starts-nov-19-568164-2026-11-18?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "insurance",
-      "publishedAt": "2026-11-18T09:36:29.000Z"
-    },
-    {
-      "title": "'Straight out of James Bond!' Farah Khan stunned by Ananya Birla's ₹425 crore home",
-      "summary": "Step inside Ananya Birla's ₹425 crore Mumbai mansion as Farah Khan explores its MF Husain artwork, grand marble staircase, Victorian interiors, sprawling garden and family legacy.",
-      "url": "https://www.businesstoday.in/latest/photo/straight-out-of-james-bond-farah-khan-stunned-by-ananya-birlas-rs425-crore-home-568163-2026-11-18?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-18T09:27:24.000Z"
-    },
-    {
       "title": "IOC’s first SAF batch cleared for commercial supply",
       "summary": "",
       "url": "https://timesofindia.indiatimes.com/business/india-business/iocs-first-saf-batch-cleared-for-commercial-supply/articleshow/135957579.cms",
       "source": "Times of India Business",
       "category": "markets",
       "publishedAt": "2026-11-18T09:26:13.000Z"
-    },
-    {
-      "title": "Will airfares rise from January? India’s 1% SAF mandate could push up ticket costs",
-      "summary": "Sustainable aviation fuel costs 2.5–3 times more than conventional jet fuel. With Indian airlines seeking clarity on costs and policy, will passengers end up paying a green fuel levy?",
-      "url": "https://www.businesstoday.in/latest/economy/story/will-airfares-rise-from-january-indias-1-saf-mandate-could-push-up-ticket-costs-568155-2026-11-18?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-18T09:09:11.000Z"
-    },
-    {
-      "title": "No 24x7 trading in immediate future, Sebi chief flags cyber risks, liquidity concerns",
-      "summary": "The Securities and Exchange Board of India has opted against adopting 24/7 trading for now. Chairman Tuhin Kanta Pandey expressed concerns about cybersecurity threats and liquidity issues. The focus is on strengthening market regulations to boost overall efficiency.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/no-24x7-trading-in-immediate-future-sebi-chief-flags-cyber-risks-liquidity-concerns/articleshow/135956348.cms",
-      "source": "Times of India Business",
-      "category": "regulatory",
-      "publishedAt": "2026-11-18T08:54:33.000Z"
-    },
-    {
-      "title": "Anthropic IPO: How to buy shares, expected price and risks investors should know",
-      "summary": "With a proposed valuation of $1.4 trillion, Anthropic's initial public offering is generating excitement among investors. The IPO is notably oversubscribed, with share prices set in the range of $70 to $78.",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/anthropic-ipo-how-to-buy-shares-expected-price-and-risks-investors-should-know/articleshow/135954722.cms",
-      "source": "Times of India Business",
-      "category": "insurance",
-      "publishedAt": "2026-11-18T08:05:08.000Z"
-    },
-    {
-      "title": "Retail milk prices increase ₹4-8 per litre in FY27: Why rates have hiked",
-      "summary": "Milk price hike: The average price stood at ₹60.4 per litre in the first half of FY27, compared with ₹59 in the corresponding period last year.",
-      "url": "https://www.businesstoday.in/india/story/retail-milk-prices-increase-rs-4-8-per-litre-in-fy27-why-rates-have-hiked-568130-2026-11-18?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-18T07:51:29.000Z"
-    },
-    {
-      "title": "Gold crashes 25% from Rs 1.8 lakh peak, but demand for gold ETFs beats 2025 inflows",
-      "summary": "Demand for gold ETFs rises: Wealth managers say investors are taking advantage of the correction to add gold to their portfolios, either by making lump-sum purchases or investing gradually through weekly or monthly systematic investment plans (SIPs).",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/gold-drops-from-rs-1-8-lakh-high-to-rs-1-31-lakh-per-10-grams-yet-etf-inflows-beat-2025s-total-as-investors-buy-the-dip-and-build-exposure-through-sips-and-lump-sum-buys/articleshow/135952482.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-18T07:39:52.000Z"
-    },
-    {
-      "title": "What is the gold price outlook on November 18, 2026 - will prices continue to fall?",
-      "summary": "Gold price prediction today: The sell-off is increasingly driven by rising interest-rate expectations, with markets pricing in Fed hikes in December and January and another move by April.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/gold-price-prediction-today-india-where-is-gold-silver-rate-headed-on-november-18-2026-mcx-gold-futures-outlook-us-iran-war-middle-east-tensions-federal-reserve/articleshow/135951392.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-18T06:05:15.000Z"
-    },
-    {
-      "title": "US-Philippines trade agreement: Trump announces 'magnificent deal' fair to both sides",
-      "summary": "US President Donald Trump has secured a significant trade agreement with the Philippines during his Manila visit. This pact not only strengthens defense relations but also sets the stage for nuclear energy cooperation.",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/us-philippines-trade-agreement-trump-announces-magnificent-deal-fair-to-both-sides/articleshow/135950396.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-18T05:28:27.000Z"
-    },
-    {
-      "title": "Dollar Near 19-Month High: Strong US data lifts December rate-hike bets; traders await housing starts",
-      "summary": "The US dollar is approaching a 19-month high, fueled by robust retail sales and increased import prices. Analysts anticipate a 25 basis points interest rate hike by the Federal Reserve in December.",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/dollar-hovers-near-19-month-high-as-december-fed-rate-hike-bets-gather-pace/articleshow/135949125.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-18T04:56:30.000Z"
-    },
-    {
-      "title": "‘Too complicated…’: Jeff Bezos’ advice to Nvidia board looking for Jensen Huang’s successor",
-      "summary": "Nvidia board is currently focused on finding his successor even as Jensen Huang’s allies have sought his reinstatement.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/too-complicated-jeff-bezos-advice-to-nvidia-board-looking-for-jensen-huangs-successor-568062-2026-11-18?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-18T04:39:56.000Z"
-    },
-    {
-      "title": "Mukesh Ambani, Sunil Mittal’s businesses gear up to take on Elon Musk’s Starlink challenge",
-      "summary": "Reliance Industries, led by Ambani, is reportedly exploring manufacturing partnerships for a planned 1,600-satellite low Earth orbit (LEO) constellation.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/mukesh-ambani-sunil-mittals-businesses-gear-up-to-take-on-elon-musks-starlink-challenge-568044-2026-11-18?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-18T03:40:55.000Z"
-    },
-    {
-      "title": "Top stocks to buy today: Stock recommendations for November 18, 2026 - check list",
-      "summary": "Stock market recommendations: General Insurance Corporation of India, GE Vernova T&D India, and Aditya Birla Real Estate Ltd - these are the top stock picks to buy today on November 18, 2026 according to Mehul Kothari, DVP of Technical Research at Anand Rathi Shares.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/top-stock-recommendations-for-november-18-2026-general-insurance-corporation-of-india-ge-vernova-td-aditya-birla-real-estate-best-stocks-to-buy-today/articleshow/135947465.cms",
-      "source": "Times of India Business",
-      "category": "insurance",
-      "publishedAt": "2026-11-18T03:37:21.000Z"
-    },
-    {
-      "title": "Stock market today: Sensex plunges over 700 points, NSE Nifty50 slips below 25,200",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/sensex-stock-market-today-18-november-2026-live-updates-nse-bse-gift-nifty-50-top-gainers-losers-mcx-stocks-in-focus-market-news/liveblog/135947076.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-18T03:09:06.000Z"
-    },
-    {
-      "title": "Oil prices today: Crude falls as US inventories rise; Iran tensions limit losses",
-      "summary": "Oil prices declined on Wednesday as US crude stocks increased significantly, adding pressure to the market. Tensions between the United States and Iran, however, continue to limit the drop in prices.",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/oil-prices-today-crude-falls-as-us-inventories-rise-iran-tensions-limit-losses/articleshow/135946781.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-18T03:04:32.000Z"
-    },
-    {
-      "title": "Jensen Huang might not be returning to Nvidia but he still has this one power",
-      "summary": "The board has hired executive search firm Heidrick & Struggles to find a permanent chief executive, Chairman Harvey Jones said, adding that it would move quickly but would not compromise on finding the right candidate.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/jensen-huang-might-not-be-returning-to-nvidia-but-he-still-has-this-one-power-568039-2026-11-18?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-18T02:40:21.000Z"
-    },
-    {
-      "title": "Gold loans drive retail credit, defaults up",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/gold-loans-drive-retail-credit-defaults-up/articleshow/135944930.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-18T01:26:10.000Z"
-    },
-    {
-      "title": "iPhone shipments drop 25%, Samsung regains top spot",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/iphone-shipments-drop-25-samsung-regains-top-spot/articleshow/135944802.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-18T01:20:16.000Z"
-    },
-    {
-      "title": "Samsung Heavy Industries eyes India for shipbuilding",
-      "summary": "The company's main shipyard in South Korea is fully booked with orders for the next three years.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/samsung-heavy-industries-eyes-india-for-shipbuilding/articleshow/135944784.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-18T01:13:55.000Z"
-    },
-    {
-      "title": "Fairfax to sell 13% via 3.4k cr block deal, exit IIFL Finance",
-      "summary": "Fairfax Group is divesting its full 13.3% stake in IIFL Finance through a block deal appraised at Rs 3,450 crore. To facilitate this transaction, the Canadian firm has engaged IIFL Capital to handle the sale of over 5.6 crore shares.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/fairfax-to-sell-13-via-3-4k-cr-block-deal-exit-iifl-finance/articleshow/135944596.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-18T00:55:42.000Z"
-    },
-    {
-      "title": "Industry bodies look for tax sops, benefits to boost mananufacturing",
-      "summary": "During recent engagements, industry bodies urged the government to introduce strategic incentives aimed at enhancing manufacturing productivity. Proposed measures include tax exemptions, financial assistance, and revising long-term capital gains tax policies.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/industry-bodies-look-for-tax-sops-benefits-to-boost-mananufacturing/articleshow/135944268.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-18T00:49:05.000Z"
-    },
-    {
-      "title": "Man buys Rs 72L flat with wife, faces Rs 14.25L addition for alleged cash payment; what ITAT ruled",
-      "summary": "The dispute involved a man who purchased a flat in Thane, jointly with his wife for Rs 72 lakh. The property was registered in April 2012. The man filed his income tax return for assessment year 2012-13, declaring income of Rs 2,71,280.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/thane-man-buys-rs-72-lakh-flat-jointly-with-wife-faces-rs-14-25-lakh-tax-addition-at-steep-rate-as-taxman-cites-developers-gmail-and-yahoo-emails-containing-alleged-on-money-receipts-why-itat-mumbai-gave-property-buyer-full-relief/articleshow/135931975.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-18T00:32:00.000Z"
     }
   ]
 }
