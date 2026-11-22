@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-22T08:17:24.166Z",
-  "articlesCount": 40,
+  "lastUpdated": "2026-11-22T17:57:24.609Z",
+  "articlesCount": 36,
   "sourcesOk": 5,
   "sourcesTotal": 9,
   "sourceStatus": [
@@ -13,7 +13,7 @@
     {
       "source": "Business Today",
       "status": "ok",
-      "articles": 20,
+      "articles": 17,
       "feedUsed": "https://www.businesstoday.in/rssfeeds/?id=225346"
     },
     {
@@ -41,7 +41,7 @@
     {
       "source": "Times of India Business",
       "status": "ok",
-      "articles": 20,
+      "articles": 19,
       "feedUsed": "https://timesofindia.indiatimes.com/rssfeeds/1898055.cms"
     },
     {
@@ -56,6 +56,54 @@
     }
   ],
   "articles": [
+    {
+      "title": "Gold, silver outlook: Bullion may remain under pressure as US inflation data, Fed signals loom",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/gold-silver-outlook-bullion-may-remain-under-pressure-as-us-inflation-data-fed-signals-loom/articleshow/136076471.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-22T16:50:38.000Z"
+    },
+    {
+      "title": "Spicejet crisis: FIP seeks urgent govt intervention; warns delayed salaries could cause financial anxiety, stress among pilots",
+      "summary": "FIP has asked the civil aviation ministry to order an immediate financial and safety review of SpiceJet. The intervention seeks to protect employees, operational reliability and aviation safety amid deepening financial stress.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/spicejet-crisis-fip-seeks-urgent-govt-intervention-warns-delayed-salaries-could-cause-financial-anxiety-stress-among-pilots-568957-2026-11-22?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-22T15:29:54.000Z"
+    },
+    {
+      "title": "Record Rs 1.22 lakh crore foreign inflows: Is India becoming the world's 'anti-AI' trade?",
+      "summary": "India has seen record foreign investor inflows in the month of November. Foreign portfolio investors (FPIs) have remained net buyers on every trading day this month, barring the Muhurat trading session.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/record-rs-1-22-lakh-crore-foreign-inflows-is-india-becoming-the-worlds-anti-ai-trade/articleshow/136075365.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-22T14:05:58.000Z"
+    },
+    {
+      "title": "Rs 19.26 crore income declared, but Rs 12.21 crore seized in raid; ITAT grants relief",
+      "summary": "In 2018, the Income Tax Department conducted searches at a man’s residence and on his locker. During the operation, officials reportedly recovered Rs 3.9 crore in cash from the locker and another Rs 20 lakh from his house.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/bengaluru-businessman-declares-rs-19-26-crore-income-but-tax-department-seizes-rs-4-10-crore-cash-and-rs-8-11-crore-jewellery-including-751-52-grams-gold-and-decides-to-tax-him-at-special-rate-itat-gives-relief/articleshow/136055624.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-22T13:29:33.000Z"
+    },
+    {
+      "title": "India, EU likely to sign FTA in December, says official ahead of PM Modi's Brussels visit",
+      "summary": "The European Commission has submitted proposals to the Council of the European Union seeking approval for signing and conclusion of the agreement, with the final legal text and tariff schedules.",
+      "url": "https://www.businesstoday.in/latest/economy/story/india-eu-likely-to-sign-fta-in-december-says-official-ahead-of-pm-modis-brussels-visit-568942-2026-11-22?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-22T11:56:55.000Z"
+    },
+    {
+      "title": "Nvidia chip case: How Chinese man in Megaspeed built network serving China with Alice Huang",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/nvidia-chip-case-how-chinese-man-in-megaspeed-built-network-serving-china-with-alice-huang/articleshow/136072827.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-22T11:45:28.000Z"
+    },
     {
       "title": "Gold falls 4.49%, silver 6.6% in a single day; wedding shoppers get buying chance",
       "summary": "Gold and silver prices crash: On the Multi Commodity Exchange (MCX), gold futures dropped as much as 4.49%, or Rs 5,733, to Rs 1,21,719 per 10 grams from the previous close of Rs 1,27,452 per 10 grams.",
@@ -295,86 +343,6 @@
       "source": "Times of India Business",
       "category": "regulatory",
       "publishedAt": "2026-11-20T21:35:43.000Z"
-    },
-    {
-      "title": "Microsoft to help 3,000 Indian MSMEs adopt AI in 60 days: Can technology transform small businesses?",
-      "summary": "Microsoft India and Samhita-CGF are helping 3,000 MSMEs adopt artificial intelligence through a 60-day programme across four regions. The initiative aims to improve productivity, reduce operational challenges and make AI tools accessible to smaller enterprises.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/microsoft-to-help-3000-indian-msmes-adopt-ai-in-60-days-can-technology-transform-small-businesses-568854-2026-11-20?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-20T16:19:06.000Z"
-    },
-    {
-      "title": "Air India losses top Rs 22,000 crore in FY26 as fuel costs, Pakistan airspace curbs hit turnaround",
-      "summary": "Air India's losses reportedly exceeded ₹22,000 crore in FY26 as rising fuel costs, Pakistani airspace restrictions and operational disruptions strained its turnaround plans.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/air-india-losses-top-rs-22000-crore-in-fy26-as-fuel-costs-pakistan-airspace-curbs-hit-turnaround-568849-2026-11-20?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-20T14:33:21.000Z"
-    },
-    {
-      "title": "Gold price crash: Will yellow metal now plunge to Rs 1 lakh per 10 grams?",
-      "summary": "Gold started falling in January as investors booked profit, but before it could find its equilibrium, the US-Iran war triggered another crash.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/gold-price-crash-from-rs-1-80-lakh-to-below-rs-1-25-lakh-will-gold-now-plunge-to-rs-1-lakh-per-10-gms/articleshow/136027967.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-20T14:16:44.000Z"
-    },
-    {
-      "title": "Anthropic's stock market debut: How can Indians buy Anthropic shares",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/anthropics-stock-market-debut-how-can-indians-buy-anthropic-shares/articleshow/136028600.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-20T14:05:00.000Z"
-    },
-    {
-      "title": "Trump's tariff advantage for India is no favour: Why US cannot afford to lose New Delhi",
-      "summary": "India is in active talks with the US regarding a new trade agreement that promises tariff benefits for Indian exports. These discussions, which began in February 2025, highlight India's rising significance in the global market.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/trumps-tariff-advantage-for-india-is-no-favour-why-us-cannot-afford-to-lose-new-delhi/articleshow/136028739.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-20T13:41:21.000Z"
-    },
-    {
-      "title": "Delhi woman loses money to unauthorised transactions; bank ordered to pay with 7% interest",
-      "summary": "The woman claimed that three unauthorised online transactions, carried out on July 4, July 5 and July 9, 2016, resulted in a total of Rs 77,114 being deducted from her bank account.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/delhi-woman-loses-rs-77114-in-unauthorised-transactions-after-issues-with-her-mobile-phone-delay-sms-alerts-she-alerts-bank-but-gets-no-refund-consumer-commission-orders-bank-to-pay-rs-70084-with-7-interest-and-rs-25000-as-compensation-and-litigation-expenses/articleshow/136019642.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-20T12:31:58.000Z"
-    },
-    {
-      "title": "EPFO cuts PF withdrawal wait to 2 months! 7 major changes employees must know",
-      "summary": "EPFO approves a two-month PF withdrawal wait, 10% minimum balance and retirement payouts. Here's what employees should know about seven changes, proposals and implementation dates.",
-      "url": "https://www.businesstoday.in/latest/photo/epfo-cuts-pf-withdrawal-wait-to-2-months-7-major-changes-employees-must-know-568796-2026-11-20?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-20T12:30:35.000Z"
-    },
-    {
-      "title": "Shopping, hotels and restaurants above Namo Bharat? Delhi station's new plan revealed",
-      "summary": "NCRTC plans 21,063 sq m of commercial space above Delhi's Sarai Kale Khan Namo Bharat station, with hotels, shops, offices and restaurants. Here's what the new bidding plan proposes.",
-      "url": "https://www.businesstoday.in/latest/photo/shopping-hotels-and-restaurants-above-namo-bharat-delhi-stations-new-plan-revealed-568810-2026-11-20?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-20T12:10:03.000Z"
-    },
-    {
-      "title": "Core sector growth hits 13-month high of 10.9% in October: Is India's industrial recovery gaining momentum?",
-      "summary": "India's core sector growth accelerated to a 13-month high of 10.9% in October 2026, driven by strong expansion in electricity, coal, iron ore and cement production.",
-      "url": "https://www.businesstoday.in/latest/economy/story/core-sector-growth-hits-13-month-high-of-10-9-in-october-is-indias-industrial-recovery-gaining-momentum-568806-2026-11-20?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-20T11:56:56.000Z"
-    },
-    {
-      "title": "Is your hallmarked gold pure? IBJA flags rhenium adulteration and fake reports",
-      "summary": "In a representation submitted to the Bureau of Indian Standards (BIS), the association highlighted discrepancies in Hallmark Unique Identification (HUID) data displayed on the BIS Care app, along with the operations of unregistered refiners.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/hallmarked-gold-faces-a-purity-test-as-india-bullion-and-jewellers-association-has-flagged-alleged-adulteration-using-rhenium-powder-fabricated-gold-purity-reports-through-jeweller-hallmarking-centre-collusion-and-fee-kickbacks/articleshow/136019900.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-20T11:04:53.000Z"
     }
   ]
 }
