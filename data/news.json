@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-23T08:39:02.386Z",
-  "articlesCount": 34,
+  "lastUpdated": "2026-11-23T09:17:16.191Z",
+  "articlesCount": 36,
   "sourcesOk": 5,
   "sourcesTotal": 9,
   "sourceStatus": [
@@ -13,7 +13,7 @@
     {
       "source": "Business Today",
       "status": "ok",
-      "articles": 14,
+      "articles": 16,
       "feedUsed": "https://www.businesstoday.in/rssfeeds/?id=225346"
     },
     {
@@ -56,6 +56,22 @@
     }
   ],
   "articles": [
+    {
+      "title": "Is Bisleri water safe? Company disputes FSSAI findings, reveals new lab test results",
+      "summary": "Is Bisleri water safe? Bisleri disputes FSSAI's findings after prosecution approval, citing fresh lab tests showing bromate within limits. Here's what the company says about safety.",
+      "url": "https://www.businesstoday.in/latest/photo/is-bisleri-water-safe-company-disputes-fssai-findings-reveals-new-lab-test-results-569056-2026-11-23?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-23T08:43:06.000Z"
+    },
+    {
+      "title": "No train change for Nepal! New Ayodhya-Janakpur Express has a weekly catch",
+      "summary": "Ayodhya-Janakpur Saryu-Kamala Express to connect India and Nepal directly from November 28. Check weekly train schedule, timings, route, coaches and pilgrimage travel details.",
+      "url": "https://www.businesstoday.in/latest/photo/no-train-change-for-nepal-new-ayodhya-janakpur-express-has-a-weekly-catch-569054-2026-11-23?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-23T08:37:38.000Z"
+    },
     {
       "title": "Indian Oil steps up nuclear push, scouts for land across states",
       "summary": "Indian Oil is looking at nuclear power as a key revenue stream, awaits clarity from NPCIL on nuclear technology.",
