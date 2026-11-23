@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-23T09:17:16.191Z",
-  "articlesCount": 36,
+  "lastUpdated": "2026-11-23T22:08:41.934Z",
+  "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
   "sourceStatus": [
@@ -13,7 +13,7 @@
     {
       "source": "Business Today",
       "status": "ok",
-      "articles": 16,
+      "articles": 20,
       "feedUsed": "https://www.businesstoday.in/rssfeeds/?id=225346"
     },
     {
@@ -56,6 +56,134 @@
     }
   ],
   "articles": [
+    {
+      "title": "Nvidia shares jump over 30%, log biggest single-day gain since 2003 as CEO Huang returns",
+      "summary": "Nvidia's shares increased significantly after Jensen Huang returned as CEO, leading to a rise in AI stocks. The S&P 500 and the Nasdaq Composite saw their largest single-day gains since April 2025.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/nvidia-shares-jump-31-5-log-biggest-single-day-gain-since-2003-as-ceo-jensen-huang-returns/articleshow/136113905.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-23T21:45:24.000Z"
+    },
+    {
+      "title": "UK raises concern over India's 162.5% bulk Scotch duty as trade pact dispute continues",
+      "summary": "The UK is concerned about India's high import duties on bulk Scotch whisky despite a recent trade agreement. Current duties on bulk Scotch stand at 162.5 percent, even after a negotiated reduction to 75 percent.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/uk-raises-concern-over-indias-162-5-bulk-scotch-duty-as-trade-pact-dispute-continues/articleshow/136107454.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-23T15:25:59.000Z"
+    },
+    {
+      "title": "India weighs 20% export duty on select rice varieties to boost domestic supply: Report",
+      "summary": "India is considering imposing a 20 percent export duty on certain rice varieties to curb rising prices. This move aims to support domestic industries, particularly poultry and cattle feed sectors facing price pressures.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/india-weighs-20-export-duty-on-select-rice-varieties-to-boost-domestic-supply-report/articleshow/136105583.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-23T14:24:42.000Z"
+    },
+    {
+      "title": "Four sectors corner 88% of PLI payouts: Why India's ₹1.91 lakh crore manufacturing push is uneven",
+      "summary": "Four sectors account for nearly 88% of payouts under India's ₹1.91 lakh crore PLI scheme, led by electronics and pharmaceuticals. Meanwhile, solar modules and advanced battery cells have received no incentives, highlighting uneven progress.",
+      "url": "https://www.businesstoday.in/latest/economy/story/four-sectors-corner-88-of-pli-payouts-why-indias-rs1-91-lakh-crore-manufacturing-push-is-uneven-569169-2026-11-23?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-23T13:50:05.000Z"
+    },
+    {
+      "title": "Homebuyer wins Rs 1.36 cr refund; builder challenges order after SC ruling, but plea dismissed",
+      "summary": "The dispute arose from an order in 2019, passed by an adjudicating officer of the Maharashtra Real Estate Regulatory Authority.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/homebuyer-secured-rs-1-36-crore-refund-with-10-20-interest-after-rera-ruled-in-his-favour-but-builder-challenged-the-order-nearly-5-years-later-citing-a-supreme-court-ruling-why-bombay-high-court-dismissed-the-plea/articleshow/136095532.cms",
+      "source": "Times of India Business",
+      "category": "regulatory",
+      "publishedAt": "2026-11-23T13:33:01.000Z"
+    },
+    {
+      "title": "₹16,200 discount on Samsung's 50MP phone! Flipkart deal brings price below ₹35,000",
+      "summary": "Samsung Galaxy A56 5G gets a ₹16,200 discount on Flipkart, bringing its price to ₹33,799. Check cashback, exchange offers, 50MP camera, AMOLED display, battery and other key features.",
+      "url": "https://www.businesstoday.in/latest/photo/rs16200-discount-on-samsungs-50mp-phone-flipkart-deal-brings-price-below-rs35000-569102-2026-11-23?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-23T12:30:07.000Z"
+    },
+    {
+      "title": "Netflix's first Pakistani series arrives December 4! Fawad Khan, Mahira Khan reunite",
+      "summary": "Netflix's first Pakistani series, Jo Bachay Hain Sang Samait Lo, premieres December 4. Fawad Khan and Mahira Khan reunite in the romantic drama adapted from Farhat Ishtiaq's novel.",
+      "url": "https://www.businesstoday.in/latest/photo/netflixs-first-pakistani-series-arrives-december-4-fawad-khan-mahira-khan-reunite-569112-2026-11-23?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-23T12:20:03.000Z"
+    },
+    {
+      "title": "Udta Teer on Netflix in December? Ayushmann's spy comedy has an OTT release catch",
+      "summary": "Ayushmann Khurrana and Sara Ali Khan's spy comedy Udta Teer may stream on Netflix in December 2026. Check expected OTT release dates, cast, storyline and latest streaming updates.",
+      "url": "https://www.businesstoday.in/latest/photo/udta-teer-on-netflix-in-december-ayushmanns-spy-comedy-has-an-ott-release-catch-569127-2026-11-23?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-23T12:06:01.000Z"
+    },
+    {
+      "title": "MS Dhoni's two-word advice, Ronaldo's success secret! Raj Shamani reveals 5 lessons",
+      "summary": "Raj Shamani shares five success lessons inspired by MS Dhoni, Cristiano Ronaldo, Michael Jordan, Michael Phelps and Khabib. Discover their advice on confidence, pressure and discipline.",
+      "url": "https://www.businesstoday.in/latest/photo/ms-dhonis-two-word-advice-ronaldos-success-secret-raj-shamani-reveals-5-lessons-569118-2026-11-23?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-23T11:45:04.000Z"
+    },
+    {
+      "title": "Inside Anirudh-Kavya's grand reception - Rajinikanth, Vijay, Kamal Haasan in one room!",
+      "summary": "Anirudh Ravichander and Kavya Maran's Chennai wedding reception draws Rajinikanth, Kamal Haasan, Vijay, MK Stalin, AR Rahman and cricket stars. See the celebrity guest list and photos.",
+      "url": "https://www.businesstoday.in/latest/photo/inside-anirudh-kavyas-grand-reception-rajinikanth-vijay-kamal-haasan-in-one-room-569129-2026-11-23?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-23T11:29:01.000Z"
+    },
+    {
+      "title": "IPL 2027 auction on 16 December: Which teams can afford to break Rishabh Pant's ₹27 crore record",
+      "summary": "The IPL 2027 auction is on 16 December in Goa. Here is each team's purse, the record buys, and why an overseas star cannot be paid more than ₹18 crore.",
+      "url": "https://www.businesstoday.in/sports/photo/ipl-2027-auction-on-16-december-which-teams-can-afford-to-break-rishabh-pants-rs27-crore-record-569130-2026-11-23?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-23T11:27:15.000Z"
+    },
+    {
+      "title": "Gold prices are falling. How will it affect your gold loan?",
+      "summary": "A sharp correction in gold prices is pushing up loan-to-value ratios and raising concerns over recoveries and asset quality, even as gold loans continue to grow rapidly.",
+      "url": "https://www.businesstoday.in/latest/economy/story/gold-prices-are-falling-how-will-it-affect-your-gold-loan-569119-2026-11-23?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-23T11:05:37.000Z"
+    },
+    {
+      "title": "Toyota Innova Hycross facelift on November 25: Will flex-fuel technology be its biggest surprise?",
+      "summary": "Toyota's updated Innova Hycross launches on 25 November. What's expected, what flex-fuel means, and how many pumps sell E85 today.",
+      "url": "https://www.businesstoday.in/auto/photo/toyota-innova-hycross-facelift-on-november-25-will-flex-fuel-technology-be-its-biggest-surprise-569101-2026-11-23?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-23T10:45:51.000Z"
+    },
+    {
+      "title": "‘Petrol, diesel prices rose just 7% in India in four years versus 50-70% globally’",
+      "summary": "Oil minister Hardeep Singh Puri said on Sunday that petrol and diesel prices in India had risen by just 7% over a four-year reference period, significantly less than the increase of 50-70% recorded in other parts of the world.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/petrol-diesel-prices-rose-just-7-in-india-in-four-years-versus-50-70-globally-says-hardeep-puri-but-indias-oil-and-gas-import-bill-has-jumped-60-to-16-billion-in-october-2026-as-brent-nearly-doubled/articleshow/136094454.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-23T10:32:23.000Z"
+    },
+    {
+      "title": "India, Vietnam to lead Asia-Pacific growth in 2027 as China slows: S&P",
+      "summary": "India's economy is anticipated to grow by 7 percent in the upcoming financial years, maintaining its swift growth. S&P Global Ratings predicts India and Vietnam to lead the Asia-Pacific region's growth next year.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/india-vietnam-to-lead-asia-pacific-growth-in-2027-as-china-slows-sp/articleshow/136096049.cms",
+      "source": "Times of India Business",
+      "category": "insurance",
+      "publishedAt": "2026-11-23T09:15:47.000Z"
+    },
+    {
+      "title": "Budget FY28 may widen PLI schemes to boost sunrise sectors, advanced technology, manufacturing",
+      "summary": "The government is considering expanding existing PLI schemes in Budget FY28 to support sunrise sectors, emerging technologies and domestic manufacturing. Discussions focus on widening product coverage and boosting local production in critical sectors, sources said.",
+      "url": "https://www.businesstoday.in/union-budget/story/budget-fy28-may-widen-pli-schemes-to-boost-sunrise-sectors-advanced-technology-manufacturing-569062-2026-11-23?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "regulatory",
+      "publishedAt": "2026-11-23T09:10:04.000Z"
+    },
     {
       "title": "Is Bisleri water safe? Company disputes FSSAI findings, reveals new lab test results",
       "summary": "Is Bisleri water safe? Bisleri disputes FSSAI's findings after prosecution approval, citing fresh lab tests showing bromate within limits. Here's what the company says about safety.",
@@ -233,54 +361,6 @@
       "publishedAt": "2026-11-22T22:54:52.000Z"
     },
     {
-      "title": "China's $1.7 trillion AI rout turns hot trade into losing bet",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/chinas-1-7-trillion-ai-rout-turns-hot-trade-into-losing-bet/articleshow/136085495.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-22T22:48:37.000Z"
-    },
-    {
-      "title": "Loans to micro firms have larger multiplier effect: RBI governor",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/loans-to-micro-firms-have-larger-multiplier-effect-rbi-governor/articleshow/136085477.cms",
-      "source": "Times of India Business",
-      "category": "regulatory",
-      "publishedAt": "2026-11-22T22:43:37.000Z"
-    },
-    {
-      "title": "Indian retail investors show strong interest in Anthropic",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/indian-retail-investors-show-strong-interest-in-anthropic/articleshow/136084466.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-22T22:34:08.000Z"
-    },
-    {
-      "title": "Tata Steel approves sale of tubes and pipes business",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/tata-steel-approves-sale-of-tubes-and-pipes-business/articleshow/136083810.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-22T22:33:07.000Z"
-    },
-    {
-      "title": "Govt implements over 250 changes for deregulation",
-      "summary": "Another 300 In Pipeline Based On Report By Gauba Panel",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/govt-implements-over-250-changes-for-deregulation/articleshow/136083743.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-22T22:22:37.000Z"
-    },
-    {
-      "title": "Go public or stay private: Tata Sons gears up for decision this week",
-      "summary": "Board split on RBI prod for listing",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/go-public-or-stay-private-tata-sons-gears-up-for-decision-this-week/articleshow/136083498.cms",
-      "source": "Times of India Business",
-      "category": "regulatory",
-      "publishedAt": "2026-11-22T21:22:04.000Z"
-    },
-    {
       "title": "Spicejet crisis: FIP seeks urgent govt intervention; warns delayed salaries could cause financial anxiety, stress among pilots",
       "summary": "FIP has asked the civil aviation ministry to order an immediate financial and safety review of SpiceJet. The intervention seeks to protect employees, operational reliability and aviation safety amid deepening financial stress.",
       "url": "https://www.businesstoday.in/latest/corporate/story/spicejet-crisis-fip-seeks-urgent-govt-intervention-warns-delayed-salaries-could-cause-financial-anxiety-stress-among-pilots-568957-2026-11-22?utm_source=rssfeed",
@@ -295,54 +375,6 @@
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-11-22T11:56:55.000Z"
-    },
-    {
-      "title": "Instagram finally lets you edit Stories after posting! But there's a 15-minute catch",
-      "summary": "Instagram now lets users edit Stories within 15 minutes of posting without losing views or replies. Learn how to change text, music and stickers using the new Edit Story feature.",
-      "url": "https://www.businesstoday.in/latest/photo/instagram-finally-lets-you-edit-stories-after-posting-but-theres-a-15-minute-catch-568788-2026-11-22?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-22T01:00:06.000Z"
-    },
-    {
-      "title": "₹25.40 lakh price, 1,170cc engine! BMW's new adventure bike has a surprising twist",
-      "summary": "BMW R 12 G/S launches in India at ₹25.40 lakh with a 1,170cc boxer engine, 109hp power, advanced off-road features and retro styling. Explore its specifications and delivery details.",
-      "url": "https://www.businesstoday.in/latest/photo/rs25-40-lakh-price-1170cc-engine-bmws-new-adventure-bike-has-a-surprising-twist-568794-2026-11-22?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-22T00:30:11.000Z"
-    },
-    {
-      "title": "India–Bangladesh border identified as key trade chokepoint: What risks does WEF highlight?",
-      "summary": "The WEF has identified the India–Bangladesh border as a key trade chokepoint in Asia-Pacific, flagging migration tensions, smuggling, security restrictions and congestion as major risks.",
-      "url": "https://www.businesstoday.in/latest/economy/story/india-bangladesh-border-identified-as-key-trade-chokepoint-what-risks-does-wef-highlight-568916-2026-11-22?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-21T21:00:06.000Z"
-    },
-    {
-      "title": "IndusInd Bank sacks former CEO Sumant Kathpalia, invokes clawback clause over ₹1,960 crore accounting lapses",
-      "summary": "IndusInd Bank's board approved his termination with immediate effect at its Friday meeting, based on the findings of an inquiry conducted by a former Bombay High Court judge.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/indusind-bank-sacks-former-ceo-sumant-kathpalia-invokes-clawback-clause-over-rs1960-crore-accounting-lapses-568906-2026-11-21?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-21T14:16:52.000Z"
-    },
-    {
-      "title": "Tata Trusts may meet again before November 26: Is a fresh governance showdown brewing at Tata Sons?",
-      "summary": "SDTT may convene another board meeting ahead of the crucial Tata Sons board meeting on November 26, amid continuing differences over governance and decision-making.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/tata-trusts-may-meet-again-before-november-26-is-a-fresh-governance-showdown-brewing-at-tata-sons-568905-2026-11-21?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-21T13:54:07.000Z"
-    },
-    {
-      "title": "RBI to meet NBFCs on November 23: Microfinance stress, gold loans and cybersecurity risks in focus",
-      "summary": "RBI Governor Sanjay Malhotra and the deputy governors are expected to hold discussions with executives from the non-banking financial services sector on various issues.",
-      "url": "https://www.businesstoday.in/latest/economy/story/rbi-to-meet-nbfcs-on-november-23-microfinance-stress-gold-loans-and-cybersecurity-risks-in-focus-568901-2026-11-21?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "regulatory",
-      "publishedAt": "2026-11-21T11:11:58.000Z"
     }
   ]
 }
