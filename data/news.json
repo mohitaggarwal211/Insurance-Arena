@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-22T20:11:17.164Z",
-  "articlesCount": 36,
+  "lastUpdated": "2026-11-23T08:39:02.386Z",
+  "articlesCount": 34,
   "sourcesOk": 5,
   "sourcesTotal": 9,
   "sourceStatus": [
@@ -13,7 +13,7 @@
     {
       "source": "Business Today",
       "status": "ok",
-      "articles": 17,
+      "articles": 14,
       "feedUsed": "https://www.businesstoday.in/rssfeeds/?id=225346"
     },
     {
@@ -41,7 +41,7 @@
     {
       "source": "Times of India Business",
       "status": "ok",
-      "articles": 19,
+      "articles": 20,
       "feedUsed": "https://timesofindia.indiatimes.com/rssfeeds/1898055.cms"
     },
     {
@@ -57,12 +57,212 @@
   ],
   "articles": [
     {
-      "title": "Gold, silver outlook: Bullion may remain under pressure as US inflation data, Fed signals loom",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/gold-silver-outlook-bullion-may-remain-under-pressure-as-us-inflation-data-fed-signals-loom/articleshow/136076471.cms",
+      "title": "Indian Oil steps up nuclear push, scouts for land across states",
+      "summary": "Indian Oil is looking at nuclear power as a key revenue stream, awaits clarity from NPCIL on nuclear technology.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/indian-oil-steps-up-nuclear-push-scouts-for-land-across-states-569047-2026-11-23?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-23T08:08:19.000Z"
+    },
+    {
+      "title": "Stock market crash today: Investors lose Rs 4 lakh crore; top reasons why BSE Sensex, Nifty50 are down",
+      "summary": "Stock market crash today: The biggest reason for indices plunging is profit booking that has emerged after the recent record breaking run of stocks.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/why-is-stock-market-crashing-today-bse-sensex-nifty50-down-on-november-23-2026-top-reasons-explained/articleshow/136092464.cms",
       "source": "Times of India Business",
       "category": "markets",
-      "publishedAt": "2026-11-22T16:50:38.000Z"
+      "publishedAt": "2026-11-23T07:03:15.000Z"
+    },
+    {
+      "title": "Rupee snaps five-day winning streak, falls 23 paise to 92.85 against US dollar",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/rupee-snaps-five-day-winning-streak-falls-23-paise-to-92-85-against-us-dollar/articleshow/136092365.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-23T06:50:24.000Z"
+    },
+    {
+      "title": "Stocks to buy: What's the outlook for Nifty, Bank Nifty this week?",
+      "summary": "Stock market recommendations: PNB Housing Finance, RBL Bank have been picked as the top stocks to buy by Sudeep Shah, Head - Technical Research and Derivatives, SBI Securities on November 23, 2026.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/stocks-to-buy-whats-the-outlook-for-nifty-for-november-23-november-27-week-check-list-of-top-stock-recommendations-pnb-housing-finance-rbl-bank/articleshow/136092234.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-23T06:39:56.000Z"
+    },
+    {
+      "title": "Gold price prediction today: What's the gold outlook for November 23, 2026 week?",
+      "summary": "Gold price prediction today: Gold is showing an initial recovery near Rs 1,24,330 after a sharp and prolonged correction from the February-March highs above Rs 1,60,000.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/gold-price-prediction-today-what-is-the-gold-rate-outlook-for-november-23-2026-week-should-you-buy-or-sell-mcx-gold-us-iran-war-middle-east-us-fed-rate-hike/articleshow/136091497.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-23T06:08:02.000Z"
+    },
+    {
+      "title": "What are the top stocks to buy for the November 23, 2026 week?",
+      "summary": "Stock market recommendations: Adani Ports, and Poonawalla Fincorp - these are the top stocks to buy for the week starting November 23, 2026 by Motilal Oswal Wealth Management Research.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/top-stock-recommendations-for-november-23-2026-week-adani-ports-poonawala-fincorp-stocks-to-buy-today/articleshow/136090992.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-23T05:50:27.000Z"
+    },
+    {
+      "title": "Tata Steel to acquire 26.6% promoter stake in APL Apollo for Rs 15,510 crore",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/tata-steel-to-acquire-26-6-promoter-stake-in-apl-apollo-for-rs-15510-crore/articleshow/136089987.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-23T05:03:51.000Z"
+    },
+    {
+      "title": "India’s first bullet train project hits milestone with Surat-Bilimora section energised",
+      "summary": "The process will now move ahead in phases, with shorter stretches being energised one at a time. The Surat-Bilimora stretch covers around 50 km between the two stations, with the tracks running along an elevated viaduct.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/mumbai-ahmedabad-bullet-train-corridor-indias-high-speed-train-project-achieves-power-milestone-as-50-km-surat-bilimora-section-is-energised-surat-vapi-operations-deadline-now-stands-at-late-2027/articleshow/136078531.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-23T04:44:22.000Z"
+    },
+    {
+      "title": "Bisleri samples initially flagged 'unsafe', subsequent tests find them compliant: Report",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/bisleri-samples-initially-flagged-unsafe-subsequent-tests-find-them-compliant-report/articleshow/136089235.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-23T04:26:28.000Z"
+    },
+    {
+      "title": "'Water safety is priority': Bisleri after food regulator declared samples 'unsafe'",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/water-safety-is-priority-bisleri-after-food-regulator-declared-samples-unsafe/articleshow/136088500.cms",
+      "source": "Times of India Business",
+      "category": "regulatory",
+      "publishedAt": "2026-11-23T03:53:07.000Z"
+    },
+    {
+      "title": "Gas price blow for UP: CNG, PNG now costlier in Lucknow, Agra and 3 other cities. Check new rates",
+      "summary": "The announcement comes shortly after GGL had raised CNG prices by ₹1 per kg in the same five cities earlier this month, indicating a second upward revision within a short period.",
+      "url": "https://www.businesstoday.in/india/story/gas-price-blow-for-up-cng-png-now-costlier-in-lucknow-agra-and-3-other-cities-check-new-rates-568976-2026-11-23?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-23T03:29:49.000Z"
+    },
+    {
+      "title": "Oil prices fall as global market selloff weighs on sentiment; Gulf attacks limit losses",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/oil-prices-fall-as-global-market-selloff-weighs-on-sentiment-gulf-attacks-limit-losses/articleshow/136088018.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-23T03:28:53.000Z"
+    },
+    {
+      "title": "Settle Tata stand-off out of court to avoid reputational damage, says ex-SEBI chief M Damodaran",
+      "summary": "The veteran civil servant said the friction between the Tata group’s majority shareholder and its professional managers risks making other business families hesitant to hand over control to professionals.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/settle-tata-stand-off-out-of-court-to-avoid-reputational-damage-says-ex-sebi-chief-m-damodaran-568974-2026-11-23?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "regulatory",
+      "publishedAt": "2026-11-23T03:13:10.000Z"
+    },
+    {
+      "title": "Noel Tata seeks deferral of November 26 Tata Sons board meeting amid listing face-off",
+      "summary": "In a recent letter, Noel Tata maintained that his alternative proposal to keep Tata Sons private must be taken up at the upcoming meeting.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/tata-sons-board-meeting-delay-noel-tata-rbi-listing-row-568969-2026-11-23?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-23T02:42:24.000Z"
+    },
+    {
+      "title": "Gold falls to Rs 1.21 lakh, silver plunges 16.2%; analysts warn of further losses",
+      "summary": "On the Multi Commodity Exchange (MCX), December gold futures shed Rs 14,927, or 11%, over the past week, settling at Rs 1,21,778 per 10 grams. The contract touched a low not seen in more than a year.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/gold-falls-11-to-rs-1-21-lakh-and-silver-plunges-16-2-to-rs-1-47-lakh-in-a-week-to-over-one-year-lows-analysts-warn-prices-may-slide-further-as-us-inflation-data-and-federal-reserve-rate-signals-shape-outlook/articleshow/136078753.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-23T02:35:00.000Z"
+    },
+    {
+      "title": "Showdown ahead of Nov 26 meet: Chandrasekaran backs Tata Sons IPO, Noel Tata flags conflict",
+      "summary": "Experts noted that while listed investments can be priced off the market, valuing unlisted businesses such as Tata Electronics, Air India, and Tata Digital will rely on sum-of-the-parts assessments and future earnings expectations — making them the biggest var…",
+      "url": "https://www.businesstoday.in/latest/corporate/story/showdown-ahead-of-november-26-meet-chandrasekaran-backs-tata-sons-ipo-noel-tata-flags-conflict-568968-2026-11-23?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-23T02:33:52.000Z"
+    },
+    {
+      "title": "Gold, Silver Rate Today Live Updates: Gold rises from 14-month low as markets await US inflation data",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/gold-silver-rate-today-live-updates-18k-22-carat-24k-gold-price-10g-silver-cost-per-kg-mcx-comex-etf-stock-precious-metal-gold-prediction-city-wise-cost-latest-gold-news/liveblog/136087393.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-23T02:33:06.000Z"
+    },
+    {
+      "title": "BT BIG STORY: India’s growth story faces a twin squeeze from inflation and the rupee",
+      "summary": "India remains the world's fastest-growing major economy, but rising inflation and an unstable rupee are testing its resilience. With volatile oil prices adding to external pressures, how much room do policymakers have to sustain growth and maintain economic stability?",
+      "url": "https://www.businesstoday.in/latest/economy/story/bt-big-story-indias-growth-story-faces-a-twin-squeeze-from-inflation-and-the-rupee-568837-2026-11-23?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-23T00:30:10.000Z"
+    },
+    {
+      "title": "Nearly half of festive sales of smartphones were financed",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/nearly-half-of-festive-sales-of-smartphones-were-financed/articleshow/136085540.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-22T22:55:30.000Z"
+    },
+    {
+      "title": "Small Finance Banks reduce microfin loan portfolio after stress",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/small-finance-banks-reduce-microfin-loan-portfolio-after-stress/articleshow/136085512.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-22T22:54:52.000Z"
+    },
+    {
+      "title": "China's $1.7 trillion AI rout turns hot trade into losing bet",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/chinas-1-7-trillion-ai-rout-turns-hot-trade-into-losing-bet/articleshow/136085495.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-22T22:48:37.000Z"
+    },
+    {
+      "title": "Loans to micro firms have larger multiplier effect: RBI governor",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/loans-to-micro-firms-have-larger-multiplier-effect-rbi-governor/articleshow/136085477.cms",
+      "source": "Times of India Business",
+      "category": "regulatory",
+      "publishedAt": "2026-11-22T22:43:37.000Z"
+    },
+    {
+      "title": "Indian retail investors show strong interest in Anthropic",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/indian-retail-investors-show-strong-interest-in-anthropic/articleshow/136084466.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-22T22:34:08.000Z"
+    },
+    {
+      "title": "Tata Steel approves sale of tubes and pipes business",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/tata-steel-approves-sale-of-tubes-and-pipes-business/articleshow/136083810.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-22T22:33:07.000Z"
+    },
+    {
+      "title": "Govt implements over 250 changes for deregulation",
+      "summary": "Another 300 In Pipeline Based On Report By Gauba Panel",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/govt-implements-over-250-changes-for-deregulation/articleshow/136083743.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-22T22:22:37.000Z"
+    },
+    {
+      "title": "Go public or stay private: Tata Sons gears up for decision this week",
+      "summary": "Board split on RBI prod for listing",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/go-public-or-stay-private-tata-sons-gears-up-for-decision-this-week/articleshow/136083498.cms",
+      "source": "Times of India Business",
+      "category": "regulatory",
+      "publishedAt": "2026-11-22T21:22:04.000Z"
     },
     {
       "title": "Spicejet crisis: FIP seeks urgent govt intervention; warns delayed salaries could cause financial anxiety, stress among pilots",
@@ -73,44 +273,12 @@
       "publishedAt": "2026-11-22T15:29:54.000Z"
     },
     {
-      "title": "Record Rs 1.22 lakh crore foreign inflows: Is India becoming the world's 'anti-AI' trade?",
-      "summary": "India has seen record foreign investor inflows in the month of November. Foreign portfolio investors (FPIs) have remained net buyers on every trading day this month, barring the Muhurat trading session.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/record-rs-1-22-lakh-crore-foreign-inflows-is-india-becoming-the-worlds-anti-ai-trade/articleshow/136075365.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-22T14:05:58.000Z"
-    },
-    {
-      "title": "Rs 19.26 crore income declared, but Rs 12.21 crore seized in raid; ITAT grants relief",
-      "summary": "In 2018, the Income Tax Department conducted searches at a man’s residence and on his locker. During the operation, officials reportedly recovered Rs 3.9 crore in cash from the locker and another Rs 20 lakh from his house.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/bengaluru-businessman-declares-rs-19-26-crore-income-but-tax-department-seizes-rs-4-10-crore-cash-and-rs-8-11-crore-jewellery-including-751-52-grams-gold-and-decides-to-tax-him-at-special-rate-itat-gives-relief/articleshow/136055624.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-22T13:29:33.000Z"
-    },
-    {
       "title": "India, EU likely to sign FTA in December, says official ahead of PM Modi's Brussels visit",
       "summary": "The European Commission has submitted proposals to the Council of the European Union seeking approval for signing and conclusion of the agreement, with the final legal text and tariff schedules.",
       "url": "https://www.businesstoday.in/latest/economy/story/india-eu-likely-to-sign-fta-in-december-says-official-ahead-of-pm-modis-brussels-visit-568942-2026-11-22?utm_source=rssfeed",
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-11-22T11:56:55.000Z"
-    },
-    {
-      "title": "Nvidia chip case: How Chinese man in Megaspeed built network serving China with Alice Huang",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/nvidia-chip-case-how-chinese-man-in-megaspeed-built-network-serving-china-with-alice-huang/articleshow/136072827.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-22T11:45:28.000Z"
-    },
-    {
-      "title": "Gold falls 4.49%, silver 6.6% in a single day; wedding shoppers get buying chance",
-      "summary": "Gold and silver prices crash: On the Multi Commodity Exchange (MCX), gold futures dropped as much as 4.49%, or Rs 5,733, to Rs 1,21,719 per 10 grams from the previous close of Rs 1,27,452 per 10 grams.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/gold-falls-4-49-to-rs-1-21-lakh-silver-plunges-6-6-in-a-single-day-to-rs-1-47-lakh-wedding-shoppers-get-a-buying-opportunity-with-some-families-advancing-jewellery-purchases-while-others-wait-for-further-price-cuts/articleshow/136056926.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-22T03:35:00.000Z"
     },
     {
       "title": "Instagram finally lets you edit Stories after posting! But there's a 15-minute catch",
@@ -137,14 +305,6 @@
       "publishedAt": "2026-11-21T21:00:06.000Z"
     },
     {
-      "title": "India, Canada push for wider market access as 6th round of trade talks ends",
-      "summary": "India and Canada concluded the sixth round of CEPA negotiations in New Delhi after a series of discussions. The negotiations focused on vital areas like trade in goods, services, and investment promotion.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/india-canada-push-for-wider-market-access-as-6th-round-of-trade-talks-ends/articleshow/136059138.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-21T16:51:39.000Z"
-    },
-    {
       "title": "IndusInd Bank sacks former CEO Sumant Kathpalia, invokes clawback clause over ₹1,960 crore accounting lapses",
       "summary": "IndusInd Bank's board approved his termination with immediate effect at its Friday meeting, based on the findings of an inquiry conducted by a former Bombay High Court judge.",
       "url": "https://www.businesstoday.in/latest/corporate/story/indusind-bank-sacks-former-ceo-sumant-kathpalia-invokes-clawback-clause-over-rs1960-crore-accounting-lapses-568906-2026-11-21?utm_source=rssfeed",
@@ -167,182 +327,6 @@
       "source": "Business Today",
       "category": "regulatory",
       "publishedAt": "2026-11-21T11:11:58.000Z"
-    },
-    {
-      "title": "Woman’s Rs 25,000 rebate denied under new regime for capital gains; why ITAT ruled in her favour",
-      "summary": "A woman filed her income tax return for assessment year 2025-26, declaring a total income of Rs 6,77,511. This included short-term capital gains of Rs 3,97,511 arising from the transfer of listed equity shares. Such gains are taxable u/s 111A of the Act at a special rate of tax.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/woman-earns-rs-6-7-lakh-including-rs-3-9-lakh-short-term-capital-gains-taxman-denies-rs-25000-section-87a-rebate-under-new-regime-demands-rs-75502-tax-itat-grants-relief-but-a-catch-applies-this-year/articleshow/136021482.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-21T02:29:00.000Z"
-    },
-    {
-      "title": "Air India aims for greater synergy with Air India Express to cut costs",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/air-india-aims-for-greater-synergy-with-air-india-express-to-cut-costs/articleshow/136043082.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-21T02:22:41.000Z"
-    },
-    {
-      "title": "Power & cement fuel October core sector growth of 10.9%",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/power-cement-fuel-october-core-sector-growth-of-10-9/articleshow/136043007.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-21T02:21:37.000Z"
-    },
-    {
-      "title": "Lower tariff: Scotch companies caught in category flipping",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/lower-tariff-scotch-companies-caught-in-category-flipping/articleshow/136042966.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-21T02:15:32.000Z"
-    },
-    {
-      "title": "India–Italy trade could cross €50 billion by 2035: Which sectors stand to gain the most?",
-      "summary": "India–Italy bilateral trade could exceed €50 billion by 2035, driven by the India–EU Free Trade Agreement, stronger industrial partnerships and improved market access, according to ASSOCHAM.",
-      "url": "https://www.businesstoday.in/latest/economy/story/india-italy-trade-could-cross-eu50-billion-by-2035-which-sectors-stand-to-gain-the-most-568858-2026-11-21?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-21T02:15:03.000Z"
-    },
-    {
-      "title": "Systematic withdrawal: EPFO seeks income tax tweaks",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/systematic-withdrawal-epfo-seeks-income-tax-tweaks/articleshow/136042938.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-21T02:08:41.000Z"
-    },
-    {
-      "title": "Anthropic shares plunge 13% a day after debut, retail investors face losses",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/anthropic-shares-crash-13-a-day-after-record-ipo-as-retail-investors-face-losses/articleshow/136042864.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-21T02:06:34.000Z"
-    },
-    {
-      "title": "Noel asks for recordings of Tata Sons meet again",
-      "summary": "Trusts Chairman Tells Holdco To Preserve Recordings Of Sept 17 NRC And Board Meet",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/noel-asks-for-recordings-of-tata-sons-meet-again/articleshow/136042821.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-21T01:59:21.000Z"
-    },
-    {
-      "title": "Record November foreign inflows lift rupee, sensex rises 13%",
-      "summary": "Currency Up 4.5% Over Record Low, FPIs Pump In 1.3L Cr This Mth",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/record-november-foreign-inflows-lift-rupee-sensex-rises-13/articleshow/136042761.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-21T01:50:34.000Z"
-    },
-    {
-      "title": "US SEC launches probe into potential accounting issues at Nvidia, scrutiny over China ties widen",
-      "summary": "Analysts and investors have raised questions over complex financing arrangements across the AI sector, in which Nvidia has backed cloud providers and issued guarantees tied to data-centre projects using its hardware.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/us-sec-launches-probe-into-potential-accounting-issues-at-nvidia-scrutiny-over-china-ties-widen-568860-2026-11-21?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-21T01:44:43.000Z"
-    },
-    {
-      "title": "RBI's ₹10 lakh trade reconciliation rule: Why a smaller unpaid balance may not qualify",
-      "summary": "RBI has clarified that its ₹10 lakh trade reconciliation relief depends on the original invoice value, not outstanding dues. Even if partial payments reduce the unpaid amount below ₹10 lakh, larger transactions remain ineligible.",
-      "url": "https://www.businesstoday.in/latest/economy/story/rbis-rs10-lakh-trade-reconciliation-rule-why-a-smaller-unpaid-balance-may-not-qualify-568856-2026-11-21?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "regulatory",
-      "publishedAt": "2026-11-21T01:40:03.000Z"
-    },
-    {
-      "title": "Why Indian Railways may scrap RAC ticketing system - explained",
-      "summary": "Under the existing RAC arrangement, two passengers share a single berth, even though both are charged the full fare. The system has faced criticism over the years, particularly over concerns about passengers paying the full ticket price despite having to share…",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/in-1984-indian-railways-introduced-rac-tickets-to-prevent-arbitrary-berth-allotments-by-staff-43-years-later-it-may-be-scrapped-as-digital-checks-make-system-outdated-and-passengers-pay-full-fare-to-share-one-berth/articleshow/136022620.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-21T01:29:00.000Z"
-    },
-    {
-      "title": "Why Norwest Venture Partners is exploring possibilities to do seed stage investments in India",
-      "summary": "In India, Norwest currently has AUM of around $2.5 billion and its annual investments in the country have gone up to around $250-350 million.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/why-norwest-venture-partners-is-exploring-possibilities-to-do-seed-stage-investments-in-india-568838-2026-11-21?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-21T01:15:02.000Z"
-    },
-    {
-      "title": "Drishyam 3 on Netflix or Prime Video? Here's the streaming twist viewers must know",
-      "summary": "Drishyam 3 OTT release: Will Ajay Devgn's thriller stream on Netflix or Prime Video? Check the expected release date, cast, box office collection and Malayalam version's OTT platform.",
-      "url": "https://www.businesstoday.in/latest/photo/drishyam-3-on-netflix-or-prime-video-heres-the-streaming-twist-viewers-must-know-568800-2026-11-21?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-21T01:00:06.000Z"
-    },
-    {
-      "title": "Tatkal tickets disappear in minutes! Is the IRCTC app really faster than the website?",
-      "summary": "IRCTC app or website: which is faster for Tatkal tickets? Check booking timings, Aadhaar OTP rules, common delays and why a faster app doesn't guarantee confirmed seats.",
-      "url": "https://www.businesstoday.in/latest/photo/tatkal-tickets-disappear-in-minutes-is-the-irctc-app-really-faster-than-the-website-568783-2026-11-21?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-21T01:00:06.000Z"
-    },
-    {
-      "title": "₹5 lakh pickup truck, up to 17kmpl mileage! 5 options for small business owners",
-      "summary": "Explore 5 pickup trucks for small businesses, starting at ₹5 lakh. Compare Maruti, Tata and Mahindra models, with claimed mileage up to 17kmpl, payloads, features and prices.",
-      "url": "https://www.businesstoday.in/latest/photo/rs5-lakh-pickup-truck-up-to-17kmpl-mileage-5-options-for-small-business-owners-568791-2026-11-21?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-21T00:45:05.000Z"
-    },
-    {
-      "title": "Stung by PM Modi's criticism, India Inc fears government may turn cold on tax concessions",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/stung-by-pm-modis-criticism-india-inc-fears-government-may-turn-cold-on-tax-concessions/articleshow/136042250.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-21T00:30:21.000Z"
-    },
-    {
-      "title": "A death every Holi, Titan's untold story! 5 web series competing for IFFI's top OTT award",
-      "summary": "IFFI 2026: Five web series compete for the Best Web Series OTT award in Goa. Explore Devkhel, Adarsh Baal Vidyalaya, Titan's untold story, Mayasabha and Musafir Café, plus their plots.",
-      "url": "https://www.businesstoday.in/latest/photo/a-death-every-holi-titans-untold-story-5-web-series-competing-for-iffis-top-ott-award-568804-2026-11-21?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-21T00:30:10.000Z"
-    },
-    {
-      "title": "AI woes batters Wall Street; S&P 500 enters correction, Nasdaq turns negative for year",
-      "summary": "Wall Street stocks faced a major sell-off, with technology and AI shares declining sharply on Friday. The S&P 500 fell 3.7 percent, officially entering a correction after dropping over 10 percent since October.",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/ai-sell-off-batters-wall-street-sp-500-enters-correction-nasdaq-turns-negative-for-year/articleshow/136041935.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-20T23:59:30.000Z"
-    },
-    {
-      "title": "Over 700 Italian companies in India: Can deeper partnerships strengthen domestic manufacturing?",
-      "summary": "More than 700 Italian companies operate in India across automobiles, machinery, textiles and energy, highlighting growing investment ties between the two countries.",
-      "url": "https://www.businesstoday.in/latest/economy/story/over-700-italian-companies-in-india-can-deeper-partnerships-strengthen-domestic-manufacturing-568859-2026-11-21?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-20T23:15:03.000Z"
-    },
-    {
-      "title": "Tata trust clears Rs 50 crore grant for trustee Jehangir's hospital",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/tata-trust-clears-rs-50-crore-grant-for-trustee-jehangirs-hospital/articleshow/136040105.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-20T22:37:14.000Z"
-    },
-    {
-      "title": "US market regulator probes issues in Nvidia's accounting practices: Report",
-      "summary": "Nvidia is under investigation by the SEC concerning its financial disclosures and accounting practices. Increasing scrutiny arises from potential breaches linked to a Singapore firm connected to China.",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/us-market-regulator-probes-issues-in-nvidias-accounting-practices-report/articleshow/136039221.cms",
-      "source": "Times of India Business",
-      "category": "regulatory",
-      "publishedAt": "2026-11-20T21:35:43.000Z"
     }
   ]
 }
