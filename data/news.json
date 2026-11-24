@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-24T10:43:05.025Z",
+  "lastUpdated": "2026-11-24T11:11:07.576Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,14 @@
     }
   ],
   "articles": [
+    {
+      "title": "Year-round tax planning for salaried employees: a 12-month approach explained",
+      "summary": "The most consequential decision is which tax regime to use. The new regime, now the default, offers lower rates across wider slabs but withdraws most deductions.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/year-round-tax-planning-for-salaried-employees-a-12-month-approach-explained/articleshow/136126949.cms",
+      "source": "Times of India Business",
+      "category": "insurance",
+      "publishedAt": "2026-11-24T10:40:49.000Z"
+    },
     {
       "title": "Rupee delivers world's highest carry-trade returns: Can the currency sustain its winning streak?",
       "summary": "The rupee is delivering the world's highest carry-trade returns this quarter, but dependence on currency appreciation and temporary RBI support raises questions over the rally's sustainability.",
@@ -367,14 +375,6 @@
       "source": "Times of India Business",
       "category": "insurance",
       "publishedAt": "2026-11-23T09:15:47.000Z"
-    },
-    {
-      "title": "Stock market crash today: Investors lose Rs 4 lakh crore; top reasons why BSE Sensex, Nifty50 are down",
-      "summary": "Stock market crash today: The biggest reason for indices plunging is profit booking that has emerged after the recent record breaking run of stocks.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/why-is-stock-market-crashing-today-bse-sensex-nifty50-down-on-november-23-2026-top-reasons-explained/articleshow/136092464.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-23T07:03:15.000Z"
     }
   ]
 }
