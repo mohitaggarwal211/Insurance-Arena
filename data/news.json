@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-23T22:08:41.934Z",
+  "lastUpdated": "2026-11-24T00:37:00.850Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,22 @@
     }
   ],
   "articles": [
+    {
+      "title": "Tata board meet moved to November 30 as Noel Tata objects",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/tata-board-meet-moved-to-november-30-as-noel-tata-objects/articleshow/136116480.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-23T23:58:21.000Z"
+    },
+    {
+      "title": "Gold Spot vs Fanta: Why Coca-Cola is bringing back an orange drink that could rival its own brand",
+      "summary": "Coca-Cola is reportedly preparing to revive Gold Spot after 26 years, bringing back an iconic Indian orange-flavoured soft drink it discontinued in 2000.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/gold-spot-vs-fanta-why-coca-cola-is-bringing-back-an-orange-drink-that-could-rival-its-own-brand-569183-2026-11-24?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-23T23:35:02.000Z"
+    },
     {
       "title": "Nvidia shares jump over 30%, log biggest single-day gain since 2003 as CEO Huang returns",
       "summary": "Nvidia's shares increased significantly after Jensen Huang returned as CEO, leading to a rise in AI stocks. The S&P 500 and the Nasdaq Composite saw their largest single-day gains since April 2025.",
@@ -353,28 +369,12 @@
       "publishedAt": "2026-11-22T22:55:30.000Z"
     },
     {
-      "title": "Small Finance Banks reduce microfin loan portfolio after stress",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/small-finance-banks-reduce-microfin-loan-portfolio-after-stress/articleshow/136085512.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-22T22:54:52.000Z"
-    },
-    {
       "title": "Spicejet crisis: FIP seeks urgent govt intervention; warns delayed salaries could cause financial anxiety, stress among pilots",
       "summary": "FIP has asked the civil aviation ministry to order an immediate financial and safety review of SpiceJet. The intervention seeks to protect employees, operational reliability and aviation safety amid deepening financial stress.",
       "url": "https://www.businesstoday.in/latest/corporate/story/spicejet-crisis-fip-seeks-urgent-govt-intervention-warns-delayed-salaries-could-cause-financial-anxiety-stress-among-pilots-568957-2026-11-22?utm_source=rssfeed",
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-11-22T15:29:54.000Z"
-    },
-    {
-      "title": "India, EU likely to sign FTA in December, says official ahead of PM Modi's Brussels visit",
-      "summary": "The European Commission has submitted proposals to the Council of the European Union seeking approval for signing and conclusion of the agreement, with the final legal text and tariff schedules.",
-      "url": "https://www.businesstoday.in/latest/economy/story/india-eu-likely-to-sign-fta-in-december-says-official-ahead-of-pm-modis-brussels-visit-568942-2026-11-22?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-22T11:56:55.000Z"
     }
   ]
 }
