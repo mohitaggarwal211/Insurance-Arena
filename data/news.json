@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-25T09:37:44.374Z",
+  "lastUpdated": "2026-11-25T09:58:12.293Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,14 @@
     }
   ],
   "articles": [
+    {
+      "title": "Jensen Huang's 40 leather jackets: Why billionaire CEOs keep wearing the same clothes",
+      "summary": "From Jensen Huang's leather jackets to Steve Jobs' black turtlenecks, discover why billionaire CEOs repeat their outfits and how simple wardrobes became powerful personal brands.",
+      "url": "https://www.businesstoday.in/latest/photo/jensen-huangs-40-leather-jackets-why-billionaire-ceos-keep-wearing-the-same-clothes-569418-2026-11-25?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-25T09:36:49.000Z"
+    },
     {
       "title": "Flipkart leadership shake-up: CEO Kalyan Krishnamurthy to step down after 11 years",
       "summary": "Balaji Thiagarajan to take interim charge; Krishnamurthy's exit marks a leadership transition at Flipkart amid IPO uncertainty, profitability questions and growing ESOP liquidity concerns",
@@ -367,14 +375,6 @@
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-11-24T05:55:30.000Z"
-    },
-    {
-      "title": "Tata Sons postpones crucial Nov 26 board meeting to Nov 30",
-      "summary": "Noel Tata had sought a postponement of the November 26 meeting, arguing that the agenda and supporting papers were circulated late and that directors did not have sufficient time to examine important matters affecting the company and its shareholders.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/tata-sons-postpones-crucial-nov-26-board-meeting-to-nov-30-569201-2026-11-24?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-24T04:03:45.000Z"
     }
   ]
 }
