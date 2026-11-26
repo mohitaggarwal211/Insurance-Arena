@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-26T09:13:51.596Z",
+  "lastUpdated": "2026-11-26T09:42:17.208Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,30 @@
     }
   ],
   "articles": [
+    {
+      "title": "Can a father leave 95% of his wealth to his son and 5% to his daughter? What inheritance law says",
+      "summary": "The TVS family dispute over a proposed 5:95 division of assets has brought daughters’ inheritance rights into focus. While a father can distribute his self-acquired wealth unequally, Hindu succession law provides daughters equal rights with sons in coparcenary property.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/can-a-father-leave-95-of-his-wealth-to-his-son-and-5-to-his-daughter-what-inheritance-law-says-569687-2026-11-26?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-26T09:15:07.000Z"
+    },
+    {
+      "title": "GTRI urges CBIC to clarify scotch whisky classification amid India-UK trade dispute",
+      "summary": "Srivastava argued that bulk Scotch whisky should remain classified under Chapter 22 of India's customs tariff, which covers beverages, spirits and vinegar",
+      "url": "https://www.businesstoday.in/latest/economy/story/gtri-urges-cbic-to-clarify-scotch-whisky-classification-amid-india-uk-trade-dispute-569548-2026-11-26?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-26T09:07:05.000Z"
+    },
+    {
+      "title": "Nvidia halts server shipments to 4 Southeast Asian countries amid chip scandal; China not on list: Report",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/nvidia-halts-server-shipments-to-4-southeast-asian-countries-amid-chip-scandal-china-not-on-list-report/articleshow/136185184.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-26T09:02:15.000Z"
+    },
     {
       "title": "Despite Trump's 25% tariff threat, India's exports could grow over 15% in FY27; here's how",
       "summary": "Economists Madhavi Arora and Harshal Patel of Emkay said India's relatively strong economic fundamentals and comfortable external balances should help it navigate another round of global trade uncertainty.",
@@ -351,30 +375,6 @@
       "source": "Business Today",
       "category": "markets",
       "publishedAt": "2026-11-25T13:20:39.000Z"
-    },
-    {
-      "title": "Air India’s new CEO Tewolde Gebremariam bets on cost discipline, network redesign to drive turnaround",
-      "summary": "Tewolde Gebremariam said domestic operations at both airlines are consistently recording OTP of over 80%, while long-haul international operations remain an area requiring further improvement.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/air-indias-new-ceo-tewolde-gebremariam-bets-on-cost-discipline-network-redesign-to-drive-turnaround-569508-2026-11-25?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-25T13:08:03.000Z"
-    },
-    {
-      "title": "'The ship has not sailed': Lakshmi Venu still open to an out-of-court settlement, says counsel C Aryama Sundaram",
-      "summary": "Lakshmi Venu remains open to an out-of-court settlement with her father, Venu Srinivasan, despite moving the Madras High Court. Her counsel, C Aryama Sundaram, said she continues to seek fairness and transparency in the division of family assets.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/tvs-family-feud-lakshmi-venu-still-open-to-out-of-court-settlement-says-counsel-c-aryama-sundaram-569474-2026-11-25?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-25T11:57:17.000Z"
-    },
-    {
-      "title": "Inside India's Rs 11,000cr bet to end foreign grip on construction, infra equipment",
-      "summary": "The Indian government has approved an Rs 11,000-crore scheme to bolster the domestic construction equipment manufacturing industry. This initiative aims to reduce reliance on external supply chains while enhancing local production capabilities.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/why-india-is-betting-rs-11000-crore-on-construction-infrastructure-equipment-manufacturing-explained/articleshow/136159765.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-25T11:38:05.000Z"
     }
   ]
 }
