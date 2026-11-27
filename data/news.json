@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-27T09:47:44.489Z",
+  "lastUpdated": "2026-11-27T19:33:41.124Z",
   "articlesCount": 40,
   "sourcesOk": 5,
   "sourcesTotal": 9,
@@ -56,6 +56,118 @@
     }
   ],
   "articles": [
+    {
+      "title": "US goods trade deficit hits $149.5 billion as AI infrastructure imports surge to record",
+      "summary": "The US goods trade deficit surged by 10.7% in October, reaching $149.5 billion. A significant driver was the 6.1% increase in imports, largely attributed to capital goods essential for artificial intelligence infrastructure. Exports also rose, climbing 3.2% to $215.8 billion.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/us-goods-trade-deficit-widens-10-7-to-149-5-billion-as-ai-boom-drives-record-imports/articleshow/136231897.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-27T18:39:11.000Z"
+    },
+    {
+      "title": "Tata Sons vs Tata Trusts: Bombay HC declines to block November 30 board meet or casting vote",
+      "summary": "The meeting is significant amid differences between the Tata Sons leadership and Noel over the holding company's future structure and the RBI's directive to list it. The regulator reiterated in November 2026 that listing is mandatory under its upper-layer NBFC regulations.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/tata-sons-vs-tata-trusts-bombay-hc-declines-to-block-november-30-board-meet-or-casting-vote-570034-2026-11-27?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "regulatory",
+      "publishedAt": "2026-11-27T13:36:40.000Z"
+    },
+    {
+      "title": "Setback for Tata Trusts: Tata Sons board meeting to be held as scheduled, says HC",
+      "summary": "The Bombay High Court has denied interim relief to Tata Trusts regarding the upcoming Tata Sons board meeting, scheduled for November 30. The court affirmed that this meeting will occur as planned.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/no-interim-relief-for-tata-trusts-tata-sons-board-meeting-to-be-held-as-scheduled-says-hc/articleshow/136223470.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-27T13:09:02.000Z"
+    },
+    {
+      "title": "RBI lowers minimum daily CRR maintenance requirement from 99% to 90%",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/rbi-lowers-minimum-daily-crr-maintenance-requirement-from-99-to-90/articleshow/136222881.cms",
+      "source": "Times of India Business",
+      "category": "regulatory",
+      "publishedAt": "2026-11-27T12:45:01.000Z"
+    },
+    {
+      "title": "Union Budget 2027: Should government scrap LTCG tax and hike STT instead?",
+      "summary": "Proposals for the upcoming Budget 2027-28 focus on lowering or abolishing long-term capital gains tax. Industry bodies have differing views on changes to securities transaction tax that could replace revenue losses.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/union-budget-2027-should-government-scrap-ltcg-tax-and-hike-stt-instead/articleshow/136222160.cms",
+      "source": "Times of India Business",
+      "category": "regulatory",
+      "publishedAt": "2026-11-27T12:40:42.000Z"
+    },
+    {
+      "title": "₹11 lakh chandelier, ₹5 lakh sofa: What's inside Delhi's 'Sheesh Mahal'?",
+      "summary": "Delhi govt opens Arvind Kejriwal's former residence, dubbed 'Sheesh Mahal', to media. From an ₹11.56 lakh chandelier to a ₹5.47 lakh sofa, explore its interiors and proposed ₹20 tours.",
+      "url": "https://www.businesstoday.in/latest/photo/rs11-lakh-chandelier-rs5-lakh-sofa-whats-inside-delhis-sheesh-mahal-569972-2026-11-27?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-27T12:30:04.000Z"
+    },
+    {
+      "title": "A mystery groom, Shah Rukh Khan and Sonu Nigam: Inside Udaipur's viral wedding celebration",
+      "summary": "Shah Rukh Khan's dance at a lavish Udaipur wedding goes viral as he surprises the groom alongside Sonu Nigam. His Lungi Dance performance also sparks an online debate among fans.",
+      "url": "https://www.businesstoday.in/latest/photo/a-mystery-groom-shah-rukh-khan-and-sonu-nigam-inside-udaipurs-viral-wedding-celebration-569994-2026-11-27?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-27T11:45:04.000Z"
+    },
+    {
+      "title": "Binance lifts withdrawal suspension after $6.3 billion crypto heist",
+      "summary": "Binance has completed the restoration of its withdrawal systems following a significant cyber heist last month. The attack resulted in hackers stealing approximately $6.3 billion from the exchange's hot wallets.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/binance-lifts-withdrawal-suspension-after-6-3-billion-crypto-heist/articleshow/136220164.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-27T11:40:02.000Z"
+    },
+    {
+      "title": "Blue tea that turns purple? These 5 plants can make your daily chai surprisingly colourful",
+      "summary": "Grow your own herbal tea garden with 5 easy plants: tulsi, mint, lemongrass, chamomile and butterfly pea. Discover fresh flavours and blue tea that turns purple with lemon.",
+      "url": "https://www.businesstoday.in/latest/photo/blue-tea-that-turns-purple-these-5-plants-can-make-your-daily-chai-surprisingly-colourful-569974-2026-11-27?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-27T11:35:01.000Z"
+    },
+    {
+      "title": "When snow shut Kashmir's highway and airport, the Vande Bharat kept running: India's best snow train rides this winter",
+      "summary": "Snow shut the Jammu–Srinagar highway and flights last January, but the Vande Bharat kept running. Fares, timings and the toy-train alternative for this winter.",
+      "url": "https://www.businesstoday.in/latest/trends/photo/when-snow-shut-kashmirs-highway-and-airport-the-vande-bharat-kept-running-indias-best-snow-train-rides-this-winter-569995-2026-11-27?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-27T11:30:29.000Z"
+    },
+    {
+      "title": "How India can secure its energy future without trying to eliminate oil, LPG, LNG imports",
+      "summary": "Energy security is sometimes confused with race to eliminate imports. For India, that would be an expensive and potentially misleading benchmark.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/how-india-can-secure-its-energy-future-without-trying-to-eliminate-oil-lpg-lng-imports/articleshow/136214944.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-27T10:52:00.000Z"
+    },
+    {
+      "title": "AirAsia shifts payroll to end of month for five months to conserve cash amid steep losses",
+      "summary": "The cash-preservation measures come as mounting fuel expenses and foreign exchange losses weigh heavily on the carrier, which employs roughly 26,000 people across Asia.",
+      "url": "https://www.businesstoday.in/latest/corporate/story/airasia-shifts-payroll-to-end-of-month-for-five-months-to-conserve-cash-amid-steep-losses-569977-2026-11-27?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-27T10:51:48.000Z"
+    },
+    {
+      "title": "8th Pay Commission could pump up to ₹1.9 lakh crore into consumption in 2027: Report",
+      "summary": "The 8th Pay Commission could become the government's next major income-support measure, following GST rate rationalisation and personal income-tax relief.",
+      "url": "https://www.businesstoday.in/latest/economy/story/8th-pay-commission-could-pump-up-to-rs-1-9-lakh-crore-into-consumption-in-2027-report-569969-2026-11-27?utm_source=rssfeed",
+      "source": "Business Today",
+      "category": "markets",
+      "publishedAt": "2026-11-27T10:42:29.000Z"
+    },
+    {
+      "title": "Sensex, Nifty end sharply lower after 2-day rally; key reasons behind market fall",
+      "summary": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/stock-market-today-sensex-tumbles-nearly-1000-points-nifty50-below-25650-after-2-day-rally-key-reasons-behind-fall/articleshow/136218319.cms",
+      "source": "Times of India Business",
+      "category": "markets",
+      "publishedAt": "2026-11-27T10:37:09.000Z"
+    },
     {
       "title": "Toyota Fortuner cost ₹18.45 lakh in 2009. As the next generation is revealed, here's what it costs now",
       "summary": "The Fortuner cost ₹18.45 lakh at launch in 2009. It now starts at ₹34.76 lakh. As the next generation is revealed, here's how its price has climbed.",
@@ -263,118 +375,6 @@
       "source": "Business Today",
       "category": "regulatory",
       "publishedAt": "2026-11-26T16:09:46.000Z"
-    },
-    {
-      "title": "What is EPFO Amnesty Scheme 2026? Importance of one-time window to regularise legacy PF trusts",
-      "summary": "Over the years, several establishments formed independent PF trust to administer benefits for their employees. In many instances, these trusts obtained recognition under the Income-tax Act, 1961 and operated as employer-managed.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/what-is-epfo-amnesty-scheme-2026-importance-of-one-time-window-to-regularise-legacy-pf-trusts/articleshow/136194646.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-26T14:05:43.000Z"
-    },
-    {
-      "title": "Why does India face one of the highest US tariffs without a trade deal?",
-      "summary": "The US has proposed a tax of up to 25 per cent on Indian goods. It could fall to 17 per cent if India signs a deal the US accepts.",
-      "url": "https://www.businesstoday.in/latest/economy/story/why-does-india-face-one-of-the-highest-us-tariffs-without-a-trade-deal-569759-2026-11-26?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-26T14:02:03.000Z"
-    },
-    {
-      "title": "Noel Tata-led welfare trust gets nod to invest Rs 150 crore in equities amid Tata boardroom dispute",
-      "summary": "In an order dated November 6, Maharashtra Charity Commissioner Amogh Kaloti permitted the trust to undertake investments in one or more tranches.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/noel-tata-led-welfare-trust-gets-nod-to-invest-rs-150-crore-in-equities-amid-tata-boardroom-dispute-569755-2026-11-26?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-26T13:42:21.000Z"
-    },
-    {
-      "title": "Higher borrowing costs weigh on G4 economies, cloud 2027 rate hike outlook: Report",
-      "summary": "Global business activity is facing a slowdown, impacted by increased borrowing costs and prevailing economic uncertainty. Anticipated interest rate hikes from central banks in the US, UK, Japan, and the eurozone in December may set the tone for financial markets.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/higher-borrowing-costs-weigh-on-g4-economies-cloud-2027-rate-hike-outlook-report/articleshow/136192872.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-26T13:14:47.000Z"
-    },
-    {
-      "title": "Is Trump killing the China+1 strategy? Why global manufacturers may consider moving back to China",
-      "summary": "According to a report, the proposed tariffs could erode the competitive advantages enjoyed by alternative manufacturing destinations, particularly in Southeast Asia, forcing companies to reassess their investment and supply-chain strategies.",
-      "url": "https://www.businesstoday.in/latest/economy/story/is-trump-killing-the-china1-strategy-why-global-manufacturers-may-consider-moving-back-to-china-569748-2026-11-26?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-26T12:56:25.000Z"
-    },
-    {
-      "title": "Missed your ITR? 31 December. Need to correct one? You have three more months this year",
-      "summary": "Belated returns for FY 2025-26 still close on 31 December. Revisions now run till 31 March 2027, with a ₹1,000 or ₹5,000 fee after the old date.",
-      "url": "https://www.businesstoday.in/latest/trends/photo/missed-your-itr-31-december-need-to-correct-one-you-have-three-more-months-this-year-569746-2026-11-26?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-26T12:46:05.000Z"
-    },
-    {
-      "title": "Rs 86 lakh flat construction stalled; builder ordered to refund 9% interest, settle home loan",
-      "summary": "A homebuyer booked a 237-square-yard residential floor in a real estate project in Sonipat in February 2017. He paid Rs 14.76 lakh towards the property and also got a home loan. According to his complaint, the possession was promised by October 2019.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/man-booked-rs-86-lakh-flat-paid-rs-14-76-lakh-and-rs-25-05-lakh-in-emis-as-construction-stalled-district-commission-ordered-refund-with-9-interest-emi-reimbursement-loan-settlement-but-state-commission-rejects-plea-for-more-relief/articleshow/136187350.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-26T12:31:00.000Z"
-    },
-    {
-      "title": "TVS family dispute: Lakshmi Venu moves Madras High Court seeking one-third share in family assets",
-      "summary": "Lakshmi Venu has moved the Madras HC seeking a one-third share in the TVS family's assets and corporate holdings after efforts to reach an amicable settlement failed.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/tvs-family-dispute-lakshmi-venu-moves-madras-high-court-seeking-one-third-share-in-family-assets-569730-2026-11-26?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-26T11:34:32.000Z"
-    },
-    {
-      "title": "₹19 lakh crore credit opportunity: Why private capital is betting big on India's underserved borrowers",
-      "summary": "According to Equifax India's September 2026 Retail Credit Market Performance Report, approximately eight crore aspirational borrowers accounted for 79% of India's 14 crore retail credit originations during January–March 2026.",
-      "url": "https://www.businesstoday.in/latest/corporate/story/rs19-lakh-crore-credit-opportunity-why-private-capital-is-betting-big-on-indias-underserved-borrowers-569731-2026-11-26?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-26T11:31:31.000Z"
-    },
-    {
-      "title": "Two days without charging? This ₹17,000 smartphone comes with an unexpected catch",
-      "summary": "The Ai+ Nova 2 Power 5G packs a 7,000mAh battery, Dimensity 7100 chip and 48MP camera for ₹16,999. But its display, charging speed and software support raise questions for buyers.",
-      "url": "https://www.businesstoday.in/latest/photo/two-days-without-charging-this-rs17000-smartphone-comes-with-an-unexpected-catch-569696-2026-11-26?utm_source=rssfeed",
-      "source": "Business Today",
-      "category": "markets",
-      "publishedAt": "2026-11-26T11:30:10.000Z"
-    },
-    {
-      "title": "IT sector employees seek national AI layoff policy; demand minimum severance pay",
-      "summary": "The proposed framework would require companies to record and disclose the number of positions eliminated because of AI, employees shifted to different roles within the organisation and workers retrained for new jobs.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/it-sector-employees-seek-national-ai-layoff-policy-as-automation-threatens-jobs-unions-and-experts-want-nasscom-and-government-to-set-minimum-severance-advance-notice-redeployment-and-reskilling-rules-for-employees-who-lose-work/articleshow/136185743.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-26T10:31:00.000Z"
-    },
-    {
-      "title": "US targeting India's manufacturing schemes while protecting its own industry: GTRI",
-      "summary": "The United States is scrutinizing India's manufacturing initiatives, including the Production Linked Incentive scheme. Proposed tariffs could reach up to 25% on Indian goods, citing excess manufacturing capacity.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/us-targeting-indias-manufacturing-schemes-while-protecting-its-own-industry-through-tariffs-gtri/articleshow/136186595.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-26T10:01:44.000Z"
-    },
-    {
-      "title": "Nvidia halts server shipments to 4 Southeast Asian countries amid chip scandal; China not on list: Report",
-      "summary": "",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/nvidia-halts-server-shipments-to-4-southeast-asian-countries-amid-chip-scandal-china-not-on-list-report/articleshow/136185184.cms",
-      "source": "Times of India Business",
-      "category": "markets",
-      "publishedAt": "2026-11-26T09:02:15.000Z"
-    },
-    {
-      "title": "RBI brings another 60 tonnes of gold home; 84% reserves now held in India",
-      "summary": "According to the RBI's latest half-yearly report, India's gold reserves stood at 880.52 metric tonnes at the end of September. Of this, 740.13 metric tonnes, equivalent to 84% of the total, were held within the country.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/rbi-continues-to-bring-back-gold-to-india-as-it-repatriates-60-tonnes-more-of-yellow-metal-india-now-houses-84-of-its-880-52-metric-tonnes-gold-reserves-while-remaining-are-with-bank-of-england-and-bank-for-international-settlements/articleshow/136167289.cms",
-      "source": "Times of India Business",
-      "category": "regulatory",
-      "publishedAt": "2026-11-26T03:31:00.000Z"
     }
   ]
 }
